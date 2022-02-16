@@ -10819,18 +10819,6 @@
     },
     {
         "host": "ioc-las-mfx-srv45",
-        "port": 35071,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/evr/current",
-        "disable": true,
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-mfx-evr1",
-        "name_alias": "ioc-las-mfx-evr1",
-        "host_port": "ioc-las-mfx-srv45:35071",
-        "script": "",
-        "binary": null
-    },
-    {
-        "host": "ioc-las-mfx-srv45",
         "port": 35050,
         "dir": "ioc/las/smc100/R0.3.1",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
@@ -10864,6 +10852,17 @@
         "host_port": "ioc-las-mfx-srv45:35040",
         "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/vitara/current/iocBoot/ioc-las-mfx-vitara/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/vitara/current/bin/rhel7-x86_64/vitara"
+    },
+    {
+        "host": "ioc-las-mfx-srv45",
+        "port": 35080,
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/NewportXPS8/NewportXPS8-git",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-mfx-xps-01",
+        "name_alias": "ioc-las-mfx-xps-01",
+        "host_port": "ioc-las-mfx-srv45:35080",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/NewportXPS8/NewportXPS8-git/build/iocBoot/ioc-las-mfx-xps-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
     },
     {
         "host": "ioc-las-mfx-srv45",
@@ -11262,22 +11261,6 @@
         "host_port": "ioc-las-xcs-srv04:42010",
         "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/vitara/R2.10.1/iocBoot/ioc-las-xcs-vitara/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/vitara/R2.10.1/bin/linux-x86/vitara"
-    },
-    {
-        "host": "ioc-las-xcs-srv04",
-        "port": 42015,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/evr/evr-git",
-        "disable": true,
-        "alias": "ioc-las-xcs-evr1",
-        "history": [
-            "ioc/las/evr/R1.0.1"
-        ],
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-xcs-las-evr1",
-        "name_alias": "ioc-xcs-las-evr1 (ioc-las-xcs-evr1)",
-        "host_port": "ioc-las-xcs-srv04:42015",
-        "script": "",
-        "binary": null
     },
     {
         "host": "ioc-las-xcs-srv04",
