@@ -21451,6 +21451,18 @@
     },
     {
         "host": "ioc-xpp-usr01",
+        "port": 35425,
+        "dir": "/reg/g/pcds/epics-dev/spencera/common/lecroy",
+        "alias": "MISC- Lecroy Wavemaster",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-lecroy-01",
+        "name_alias": "ioc-xpp-lecroy-01 (MISC- Lecroy Wavemaster)",
+        "host_port": "ioc-xpp-usr01:35425",
+        "script": "/reg/g/pcds/epics-dev/spencera/common/lecroy/iocBoot/ioc-xpp-lecroy-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/spencera/common/lecroy/bin/linux-x86_64/lecroy"
+    },
+    {
+        "host": "ioc-xpp-usr01",
         "port": 34444,
         "dir": "ioc/xpp/lodcm/R1.0.0",
         "alias": "MON - LODCM PVs",
