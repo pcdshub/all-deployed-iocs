@@ -6793,6 +6793,18 @@
     },
     {
         "host": "ioc-cxi-qadc",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/cspad-tripper",
+        "alias": "JF4M - Tripper",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-jf4m-tripper",
+        "name_alias": "ioc-cxi-jf4m-tripper (JF4M - Tripper)",
+        "host_port": "ioc-cxi-qadc:30002",
+        "script": "/reg/g/pcds/epics-dev/pennebak/git/cxi/cspad-tripper/children/build/iocBoot/ioc-cxi-jf4m-tripper/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/pennebak/git/cxi/cspad-tripper/bin/rhel7-x86_64/tripper"
+    },
+    {
+        "host": "ioc-cxi-qadc",
         "port": 35000,
         "dir": "ioc/common/qadc/R2.0.1",
         "alias": "Quad ADC",
