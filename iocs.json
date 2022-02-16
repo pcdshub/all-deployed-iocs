@@ -22999,6 +22999,17 @@
     },
     {
         "host": "tst-desktop",
+        "port": 30010,
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-git",
+        "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-las-tst-phase-ims01",
+        "name_alias": "ioc-las-tst-phase-ims01",
+        "host_port": "tst-desktop:30010",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-git/iocBoot/ioc-las-tst-phase-ims01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-git/bin/rhel7-x86_64/motion"
+    },
+    {
+        "host": "tst-desktop",
         "port": 31113,
         "dir": "/reg/g/pcds/epics-dev/mghaly/tst/ioc-lfe-gatt",
         "disable": true,
