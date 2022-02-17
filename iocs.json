@@ -1710,6 +1710,16 @@
     },
     {
         "host": "ctl-las-lhn-01",
+        "port": 30504,
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/vitara/R2.13.0",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-lhn-vitara04",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/vitara/R2.13.0/iocBoot/ioc-las-lhn-vitara04/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/vitara/R2.13.0/bin/rhel7-x86_64/vitara"
+    },
+    {
+        "host": "ctl-las-lhn-01",
         "port": 30021,
         "dir": "/cds/home/t/tjohnson/trunk/las/gigECam",
         "base_version": "3.15",
@@ -10285,16 +10295,6 @@
         "name": "ioc-las-lhn-phase-ims04",
         "script": "/reg/g/pcds/epics/ioc/las/ims/R0.4.0/iocBoot/ioc-las-lhn-phase-ims04/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/las/ims/R0.4.0/bin/linux-x86/motion"
-    },
-    {
-        "host": "ioc-las-srv04",
-        "port": 30504,
-        "dir": "/reg/g/pcds/epics-dev/sfsyunus/las/vitara/current",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-lhn-vitara04",
-        "script": "/reg/g/pcds/epics-dev/sfsyunus/las/vitara/current/iocBoot/ioc-las-lhn-vitara04/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/sfsyunus/las/vitara/current/bin/linux-x86_64/vitara"
     },
     {
         "host": "ioc-las-srv04",
