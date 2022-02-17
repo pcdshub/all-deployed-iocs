@@ -11069,6 +11069,17 @@
     },
     {
         "host": "ioc-mec-las-evr-01",
+        "port": 32505,
+        "dir": "/cds/home/t/tjohnson/trunk/mec/gigECam",
+        "alias": "Gige VISAR 1",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-gige18",
+        "script": "/cds/home/t/tjohnson/trunk/mec/gigECam/build/iocBoot/ioc-mec-gige18/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.4/bin/linux-x86_64/gige"
+    },
+    {
+        "host": "ioc-mec-las-evr-01",
         "port": 39101,
         "dir": "ioc/las/evr/R1.0.5",
         "base_version": "3.15",
@@ -11116,17 +11127,6 @@
         "name": "ioc-mec-spec-04",
         "script": "/reg/g/pcds/epics-dev/nrw/iocs/qmini/current/build/iocBoot/ioc-mec-spec-04/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/qmini/R0.2.1/bin/rhel7-x86_64/qmini"
-    },
-    {
-        "host": "ioc-mec-las-gige01",
-        "port": 32505,
-        "dir": "/cds/home/t/tjohnson/trunk/mec/gigECam",
-        "alias": "Gige VISAR 1",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-gige18",
-        "script": "/cds/home/t/tjohnson/trunk/mec/gigECam/build/iocBoot/ioc-mec-gige18/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.4/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige01",
@@ -20320,6 +20320,7 @@
         "host": "ioc-xpp-wave8",
         "port": 33000,
         "dir": "/reg/g/pcds/epics-dev/spencera/common/cryojet",
+        "disable": true,
         "alias": "USR Cryojet",
         "history": [
             "ioc/common/cryojet/R0.2.0"
