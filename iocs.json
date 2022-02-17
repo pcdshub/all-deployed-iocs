@@ -20205,20 +20205,6 @@
     },
     {
         "host": "ioc-xpp-usr01",
-        "port": 30343,
-        "dir": "ioc/xpp/lakeshore336/R2.2.0",
-        "alias": "USR Lakeshore 336",
-        "history": [
-            "ioc/xpp/lakeshore336/R1.0.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-usr-ls336",
-        "script": "/reg/g/pcds/epics/ioc/xpp/lakeshore336/R2.2.0/build/iocBoot/ioc-xpp-usr-ls336/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/lakeshore336/R2.2.0/bin/linux-x86_64/ls336"
-    },
-    {
-        "host": "ioc-xpp-usr01",
         "port": 30167,
         "dir": "ioc/xpp/ims/R2.3.0",
         "alias": "USR Motion SMART",
@@ -20397,6 +20383,20 @@
         "name": "ioc-xpp-usr-2axis-mmc-01",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/mmc/current/st.cmd",
         "binary": null
+    },
+    {
+        "host": "ioc-xpp-wave8",
+        "port": 30343,
+        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/lakeshore336",
+        "alias": "USR Lakeshore 336",
+        "history": [
+            "ioc/xpp/lakeshore336/R1.0.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-usr-ls336",
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/lakeshore336/build/iocBoot/ioc-xpp-usr-ls336/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.1/bin/rhel7-x86_64/ls336"
     },
     {
         "host": "ioc-xrt-evr01",
