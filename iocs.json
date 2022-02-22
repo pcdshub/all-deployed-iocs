@@ -35,7 +35,7 @@
     {
         "host": "ctl-hpl-srv01",
         "port": 30011,
-        "dir": "/cds/home/t/tjohnson/trunk/pgpWave8/pgpWave8-git",
+        "dir": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git",
         "history": [
             "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git",
             "/cds/home/t/tjohnson/trunk/pgpWave8/pgpWave8-git"
@@ -43,8 +43,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-pgpw8-01",
-        "script": "/cds/home/t/tjohnson/trunk/pgpWave8/pgpWave8-git/children/build/iocBoot/ioc-hpl-pgpw8-01/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/pgpWave8/pgpWave8-git/bin/rhel7-x86_64/pgpWave8"
+        "script": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git/children/build/iocBoot/ioc-hpl-pgpw8-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-hpl-srv01",
