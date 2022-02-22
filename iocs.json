@@ -7673,20 +7673,6 @@
     },
     {
         "host": "ioc-cxi-vacuum",
-        "port": 30011,
-        "dir": "ioc/cxi/mps/R0.1.0",
-        "alias": "MPS PLC",
-        "history": [
-            "ioc/cxi/mps/R0.1.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-mps",
-        "script": "/reg/g/pcds/epics/ioc/cxi/mps/R0.1.0/iocBoot/ioc-cxi-mps/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/cxi/mps/R0.1.0/bin/linux-x86_64/mps"
-    },
-    {
-        "host": "ioc-cxi-vacuum",
         "port": 30020,
         "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/vat/current",
         "disable": true,
@@ -7771,6 +7757,20 @@
         "name": "ioc-cxi-kb2-fmr-ims",
         "script": "/reg/g/pcds/epics-dev/pennebak/cxi/ims/current/build/iocBoot/ioc-cxi-kb2-fmr-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.9/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-cxi-wave8",
+        "port": 30011,
+        "dir": "/reg/g/pcds/epics-dev/cymel123/git_ioc/cxi/mps/iocBoot",
+        "alias": "MPS PLC",
+        "history": [
+            "ioc/cxi/mps/R0.1.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-mps",
+        "script": "/reg/g/pcds/epics-dev/cymel123/git_ioc/cxi/mps/iocBoot/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-cxi-wave8",
