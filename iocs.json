@@ -4444,6 +4444,7 @@
         "host": "drp-ued-cmp001",
         "port": 30001,
         "dir": "ioc/ued/epix/R1.0.2",
+        "disable": true,
         "history": [
             "/cds/home/m/mcbrowne/trunk2/ioc/ued/epix/current",
             "/reg/g/pcds/epics-dev/ddamiani/ioc/common/epixMon/current"
