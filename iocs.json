@@ -20400,8 +20400,20 @@
     },
     {
         "host": "ioc-xpp-wave8",
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/chiller",
+        "alias": "Thermotek Chiller SB5",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-thermotek-02",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/chiller/build/iocBoot/ioc-xpp-thermotek-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.6/bin/rhel7-x86_64/thermotek"
+    },
+    {
+        "host": "ioc-xpp-wave8",
         "port": 32937,
         "dir": "/reg/g/pcds/epics-dev/pennebak/xpp/chiller/current",
+        "disable": true,
         "alias": "Thermotek Chiller Temporary 01",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
