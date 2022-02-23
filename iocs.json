@@ -21027,11 +21027,11 @@
     {
         "host": "ioc-xrt-rec07",
         "port": 39303,
-        "dir": "ioc/lfe/edtCam/R1.1.0",
+        "dir": "/reg/g/pcds/epics-dev/spencera/lfe/edtCam",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-lfe-orca1",
-        "script": "/reg/g/pcds/epics/ioc/lfe/edtCam/R1.1.0/build/iocBoot/ioc-lfe-orca1/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/spencera/lfe/edtCam/build/iocBoot/ioc-lfe-orca1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.0.1/bin/linux-x86_64/edt"
     },
     {
