@@ -18437,28 +18437,6 @@
         "binary": null
     },
     {
-        "host": "ioc-xpp-gige01",
-        "port": 30111,
-        "dir": "/reg/g/pcds/epics-dev/vanxiong/lcls-plc-liquid-jet/ioc-xcs-ljh-xpp",
-        "disable": true,
-        "alias": "XCS Liquid Jet (Beckhoff)",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xcs-ljh",
-        "script": "/reg/g/pcds/epics-dev/vanxiong/lcls-plc-liquid-jet/ioc-xcs-ljh-xpp/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.2.5/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ioc-xpp-gige01",
-        "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/klauer/ioc-tst-expstate",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-expstate",
-        "script": "/reg/g/pcds/epics-dev/klauer/ioc-tst-expstate/build/iocBoot/ioc-xpp-expstate/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.0/bin/rhel7-x86_64/expState"
-    },
-    {
         "host": "ioc-xpp-gige02",
         "port": 37500,
         "dir": "/reg/g/pcds/epics-dev/pennebak/xpp/cryocon/current",
@@ -18732,6 +18710,28 @@
         "name": "ioc-xpp-pico-las01",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/picoMotion/build/iocBoot/ioc-xpp-pico-las01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/picoMotion/R4.0.1/bin/rhel7-x86_64/motion"
+    },
+    {
+        "host": "ioc-xpp-misc01",
+        "port": 30111,
+        "dir": "/reg/g/pcds/epics-dev/vanxiong/lcls-plc-liquid-jet/ioc-xcs-ljh-xpp",
+        "disable": true,
+        "alias": "XCS Liquid Jet (Beckhoff)",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xcs-ljh",
+        "script": "/reg/g/pcds/epics-dev/vanxiong/lcls-plc-liquid-jet/ioc-xcs-ljh-xpp/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.2.5/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ioc-xpp-misc01",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/klauer/ioc-tst-expstate",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-expstate",
+        "script": "/reg/g/pcds/epics-dev/klauer/ioc-tst-expstate/build/iocBoot/ioc-xpp-expstate/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.0/bin/rhel7-x86_64/expState"
     },
     {
         "host": "ioc-xpp-mot01",
