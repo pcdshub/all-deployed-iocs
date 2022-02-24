@@ -9866,13 +9866,13 @@
     {
         "host": "ioc-las-cxi-srv05",
         "port": 43405,
-        "dir": "/reg/g/pcds/epics-dev/sfsyunus/las/vitara/current",
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
         "alias": "CXI - FSTiming Python",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "py-fstiming-CXI",
-        "script": "/reg/g/pcds/epics-dev/sfsyunus/las/vitara/current/st.cmd",
-        "binary": "/usr/bin/tcsh"
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
+        "binary": "/usr/bin/bash"
     },
     {
         "host": "ioc-las-cxi-srv05",
