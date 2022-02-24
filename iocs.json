@@ -10205,13 +10205,13 @@
     {
         "host": "ioc-las-mfx-srv45",
         "port": 35110,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/vitara/current",
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
         "alias": "MFX - FSTiming Python",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "py-fstiming-MFX",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/vitara/current/st.cmd",
-        "binary": "/usr/bin/tcsh"
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
+        "binary": "/usr/bin/bash"
     },
     {
         "host": "ioc-las-mfx-srv45",
