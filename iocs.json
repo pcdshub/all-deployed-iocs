@@ -10098,25 +10098,25 @@
     {
         "host": "ioc-las-mec-srv06",
         "port": 43405,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/vitara/current",
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
         "alias": "MEC - FSTiming Python",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "py-fstiming-MEC",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/vitara/current/st.cmd",
-        "binary": "/usr/bin/tcsh"
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
+        "binary": "/usr/bin/bash"
     },
     {
         "host": "ioc-las-mec-srv06",
         "port": 43415,
-        "dir": "ioc/las/vitara/R2.12.1",
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
         "disable": true,
         "alias": "MEC - Timetool Python",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "py-fstiming-tt-MEC",
-        "script": "/reg/g/pcds/epics/ioc/las/vitara/R2.12.1/st.cmd",
-        "binary": "/usr/bin/tcsh"
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
+        "binary": "/usr/bin/bash"
     },
     {
         "host": "ioc-las-mfx-srv45",
@@ -16391,6 +16391,7 @@
         "host": "ioc-ued-ccd01",
         "port": 30102,
         "dir": "/reg/g/pcds/pyps/apps/hutch-python/ued/queueserver/ioc-ued-bsgui-qs",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-bsgui-qs",
@@ -16434,6 +16435,7 @@
         "host": "ioc-ued-ccd01",
         "port": 30101,
         "dir": "/reg/g/pcds/pyps/apps/hutch-python/ued/queueserver/ioc-ued-redis",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-redis",
