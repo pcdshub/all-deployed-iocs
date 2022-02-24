@@ -1,5 +1,15 @@
 [
     {
+        "host": "ctl-det-drp01",
+        "port": 30100,
+        "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
+        "name": "ioc-det-pgpw8-01",
+        "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git/children/build/iocBoot/ioc-det-pgpw8-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git/bin/rhel7-x86_64/pgpWave8"
+    },
+    {
         "host": "ctl-hpl-srv01",
         "port": 30020,
         "dir": "/cds/home/t/tjohnson/trunk/las/lockerGen2",
