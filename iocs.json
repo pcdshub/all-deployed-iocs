@@ -7646,7 +7646,6 @@
         "host": "ioc-cxi-usrmot2",
         "port": 34506,
         "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/ims",
-        "disable": true,
         "alias": "IMS DSB Motors",
         "history": [
             "ioc/cxi/ims/R4.0.39",
