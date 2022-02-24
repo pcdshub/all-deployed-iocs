@@ -1805,6 +1805,54 @@
         "binary": "/usr/bin/bash"
     },
     {
+        "host": "ctl-las-lhn-01",
+        "port": 43421,
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
+        "disable": true,
+        "alias": "FS11 - PCAV Drift Python",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "py-fstiming-pcav-FS11",
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
+        "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ctl-las-lhn-01",
+        "port": 43424,
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
+        "disable": true,
+        "alias": "FS14 - PCAV Drift Python",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "py-fstiming-pcav-FS14",
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
+        "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ctl-las-lhn-01",
+        "port": 43411,
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
+        "disable": true,
+        "alias": "FS11 - Timetool Python",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "py-fstiming-tt-FS11",
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
+        "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ctl-las-lhn-01",
+        "port": 43414,
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
+        "disable": true,
+        "alias": "FS14 - Timetool Python",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "py-fstiming-tt-FS14",
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
+        "binary": "/usr/bin/bash"
+    },
+    {
         "host": "ctl-las-lhn-04",
         "port": 30300,
         "dir": "ioc/las/ek9000/R1.0.2",
@@ -1883,6 +1931,20 @@
         "name": "ioc-lhn-bay4-nf-01",
         "script": "/cds/home/t/tjohnson/trunk/las/gigECam/build/iocBoot/ioc-lhn-bay4-nf-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-lhn-04",
+        "port": 43404,
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
+        "alias": "FS14 - FSTiming Python",
+        "history": [
+            "/reg/g/pcds/epics-dev/sfsyunus/las/vitara/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "py-fstiming-FS14",
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
+        "binary": "/usr/bin/bash"
     },
     {
         "host": "ctl-las-srv01",
@@ -10283,30 +10345,6 @@
         "binary": "/reg/g/pcds/epics-dev/sfsyunus/las/ims/current/bin/linux-x86/motion"
     },
     {
-        "host": "ioc-las-srv01",
-        "port": 43421,
-        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
-        "disable": true,
-        "alias": "FS11 - PCAV Drift Python",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "py-fstiming-pcav-FS11",
-        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
-        "binary": "/usr/bin/bash"
-    },
-    {
-        "host": "ioc-las-srv01",
-        "port": 43411,
-        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
-        "disable": true,
-        "alias": "FS11 - Timetool Python",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "py-fstiming-tt-FS11",
-        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
-        "binary": "/usr/bin/bash"
-    },
-    {
         "host": "ioc-las-srv02",
         "port": 32101,
         "dir": "ioc/common/history/R1.5.0",
@@ -10362,44 +10400,6 @@
         "name": "ioc-las-xps4",
         "script": "/reg/g/pcds/epics-dev/sfsyunus/las/NewportXPS8/current/build/iocBoot/ioc-las-xps4/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/sfsyunus/common/NewportXPS8/current/bin/linux-x86_64/xps8"
-    },
-    {
-        "host": "ioc-las-srv04",
-        "port": 43404,
-        "dir": "/reg/g/pcds/epics-dev/sfsyunus/las/vitara/current",
-        "alias": "FS14 - FSTiming Python",
-        "history": [
-            "/reg/g/pcds/epics-dev/sfsyunus/las/vitara/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "py-fstiming-FS14",
-        "script": "/reg/g/pcds/epics-dev/sfsyunus/las/vitara/current/st.cmd",
-        "binary": "/usr/bin/tcsh"
-    },
-    {
-        "host": "ioc-las-srv04",
-        "port": 43424,
-        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
-        "disable": true,
-        "alias": "FS14 - PCAV Drift Python",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "py-fstiming-pcav-FS14",
-        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
-        "binary": "/usr/bin/bash"
-    },
-    {
-        "host": "ioc-las-srv04",
-        "port": 43414,
-        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
-        "disable": true,
-        "alias": "FS14 - Timetool Python",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "py-fstiming-tt-FS14",
-        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
-        "binary": "/usr/bin/bash"
     },
     {
         "host": "ioc-las-xcs-srv04",
