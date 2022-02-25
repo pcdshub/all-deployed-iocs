@@ -1745,12 +1745,12 @@
     {
         "host": "ctl-las-lhn-01",
         "port": 30504,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/vitara/R2.13.0",
+        "dir": "ioc/las/vitara/R2.16.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-vitara04",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/vitara/R2.13.0/iocBoot/ioc-las-lhn-vitara04/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/vitara/R2.13.0/bin/rhel7-x86_64/vitara"
+        "script": "/reg/g/pcds/epics/ioc/las/vitara/R2.16.0/iocBoot/ioc-las-lhn-vitara04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/las/vitara/R2.16.0/bin/rhel7-x86_64/vitara"
     },
     {
         "host": "ctl-las-lhn-01",
@@ -4174,7 +4174,6 @@
         "host": "daq-mec-misc01",
         "port": 37001,
         "dir": "/reg/g/pcds/epics/ioc/mec/uxi/R1.0.0/iocBoot/ioc-mec-uxi-pink/",
-        "disable": true,
         "alias": "UXI - Pink",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
