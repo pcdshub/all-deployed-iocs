@@ -1932,6 +1932,7 @@
         "host": "ctl-las-lhn-04",
         "port": 43404,
         "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
+        "disable": true,
         "alias": "FS14 - FSTiming Python",
         "history": [
             "/reg/g/pcds/epics-dev/sfsyunus/las/vitara/current"
