@@ -7659,6 +7659,20 @@
     },
     {
         "host": "ioc-cxi-usrmot2",
+        "port": 30105,
+        "dir": "/reg/g/pcds/epics-dev/cymel123/git_ioc/cxi/thermocube/current",
+        "alias": "Chiller DSD",
+        "history": [
+            "ioc/cxi/thermocube/R1.0.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-dsd-chiller",
+        "script": "/reg/g/pcds/epics-dev/cymel123/git_ioc/cxi/thermocube/current/build/iocBoot/ioc-cxi-dsd-chiller/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/cymel123/git_ioc/cxi/thermocube1/bin/rhel7-x86_64/chiller"
+    },
+    {
+        "host": "ioc-cxi-usrmot2",
         "port": 32013,
         "dir": "/reg/neh/home/klg/epics/ioc/cxi/pico874x/current",
         "alias": "Pico USR2",
@@ -7800,20 +7814,6 @@
         "name": "ioc-cxi-dg3-bmmon",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-cxi-dg3-bmmon/st.cmd",
         "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
-    },
-    {
-        "host": "ioc-cxi-wave8",
-        "port": 30105,
-        "dir": "/reg/g/pcds/epics-dev/cymel123/git_ioc/cxi/thermocube/current",
-        "alias": "Chiller DSD",
-        "history": [
-            "ioc/cxi/thermocube/R1.0.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-dsd-chiller",
-        "script": "/reg/g/pcds/epics-dev/cymel123/git_ioc/cxi/thermocube/current/build/iocBoot/ioc-cxi-dsd-chiller/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cymel123/git_ioc/cxi/thermocube1/bin/rhel7-x86_64/chiller"
     },
     {
         "host": "ioc-cxi-wave8",
