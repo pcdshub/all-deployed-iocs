@@ -21074,12 +21074,12 @@
     {
         "host": "ioc-xrt-rec07",
         "port": 37525,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xrt.svn/HXS/current",
+        "dir": "/reg/g/pcds/epics-dev/spencera/xrt/HXS",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-hxs",
-        "script": "/reg/g/pcds/epics-dev/spencera/xrt.svn/HXS/current/iocBoot/ioc-xrt-hxs/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/spencera/xrt.svn/HXS/current/bin/linux-x86_64/hxs"
+        "script": "/reg/g/pcds/epics-dev/spencera/xrt/HXS/iocBoot/ioc-xrt-hxs/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/spencera/xrt/HXS/bin/linux-x86_64/hxs"
     },
     {
         "host": "ioc-xrt-rec07",
