@@ -16409,12 +16409,14 @@
     {
         "host": "ioc-ued-ccd01",
         "port": 30102,
-        "dir": "/reg/g/pcds/pyps/apps/hutch-python/ued/queueserver/ioc-ued-bsgui-qs",
-        "disable": true,
+        "dir": "/cds/home/z/zlentz/github/ued/queueserver/ioc-ued-bsgui-qs",
+        "history": [
+            "/reg/g/pcds/pyps/apps/hutch-python/ued/queueserver/ioc-ued-bsgui-qs"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-bsgui-qs",
-        "script": "/reg/g/pcds/pyps/apps/hutch-python/ued/queueserver/ioc-ued-bsgui-qs/st.cmd",
+        "script": "/cds/home/z/zlentz/github/ued/queueserver/ioc-ued-bsgui-qs/st.cmd",
         "binary": "/usr/bin/bash"
     },
     {
@@ -16454,7 +16456,6 @@
         "host": "ioc-ued-ccd01",
         "port": 30101,
         "dir": "/reg/g/pcds/pyps/apps/hutch-python/ued/queueserver/ioc-ued-redis",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-redis",
