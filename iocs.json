@@ -4173,13 +4173,13 @@
     {
         "host": "daq-mec-misc01",
         "port": 37001,
-        "dir": "/cds/home/m/mcbrowne/UXI",
+        "dir": "/reg/g/pcds/epics/ioc/mec/uxi/R1.0.0/iocBoot/ioc-mec-uxi-pink/",
         "disable": true,
         "alias": "UXI - Pink",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-uxi-pink",
-        "script": "/cds/home/m/mcbrowne/UXI/iocBoot/ioc-mec-uxi-pink/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/mec/uxi/R1.0.0/iocBoot/ioc-mec-uxi-pink/st.cmd",
         "binary": "/usr/bin/tcsh"
     },
     {
