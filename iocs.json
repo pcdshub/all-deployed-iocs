@@ -1748,8 +1748,8 @@
         "dir": "ioc/las/vitara/R2.16.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-lhn-vitara04",
-        "script": "/reg/g/pcds/epics/ioc/las/vitara/R2.16.0/iocBoot/ioc-las-lhn-vitara04/st.cmd",
+        "name": "ioc-las-lhn-vitara01",
+        "script": "/reg/g/pcds/epics/ioc/las/vitara/R2.16.0/iocBoot/ioc-las-lhn-vitara01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/las/vitara/R2.16.0/bin/rhel7-x86_64/vitara"
     },
     {
@@ -1897,6 +1897,16 @@
         "name": "ioc-las-lhn-sr620-04",
         "script": "/reg/g/pcds/epics/ioc/las/sr620/R1.1.1/build/iocBoot/ioc-las-lhn-sr620-04/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/sr620/R0.9.2/bin/rhel7-x86_64/sr620"
+    },
+    {
+        "host": "ctl-las-lhn-04",
+        "port": 30504,
+        "dir": "ioc/las/vitara/R2.16.0",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-lhn-vitara04",
+        "script": "/reg/g/pcds/epics/ioc/las/vitara/R2.16.0/iocBoot/ioc-las-lhn-vitara04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/las/vitara/R2.16.0/bin/rhel7-x86_64/vitara"
     },
     {
         "host": "ctl-las-lhn-04",
@@ -10307,16 +10317,6 @@
         "name": "ioc-las-lhn-phase-ims01",
         "script": "/reg/g/pcds/epics/ioc/las/ims/R0.4.0/iocBoot/ioc-las-lhn-phase-ims01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/las/ims/R0.4.0/bin/linux-x86/motion"
-    },
-    {
-        "host": "ioc-las-srv01",
-        "port": 30504,
-        "dir": "/reg/g/pcds/epics-dev/sfsyunus/las/vitara/current",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-lhn-vitara01",
-        "script": "/reg/g/pcds/epics-dev/sfsyunus/las/vitara/current/iocBoot/ioc-las-lhn-vitara01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/sfsyunus/las/vitara/current/bin/linux-x86_64/vitara"
     },
     {
         "host": "ioc-las-srv01",
