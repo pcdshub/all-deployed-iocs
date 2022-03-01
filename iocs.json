@@ -12414,6 +12414,16 @@
     },
     {
         "host": "ioc-mec-opal01",
+        "port": 30005,
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/mec/RohdeSchwarzHMP",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-hmp-01",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/mec/RohdeSchwarzHMP/build/iocBoot/ioc-mec-hmp-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.1/bin/linux-x86_64/rshmp"
+    },
+    {
+        "host": "ioc-mec-opal01",
         "port": 39100,
         "dir": "ioc/mec/HPLS200/R1.0.0",
         "history": [
