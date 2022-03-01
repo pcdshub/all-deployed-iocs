@@ -4535,17 +4535,18 @@
     {
         "host": "drp-ued-cmp001",
         "port": 30001,
-        "dir": "ioc/ued/epix/R1.0.2",
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/ued/epix",
         "disable": true,
         "history": [
+            "ioc/ued/epix/R1.0.2",
             "/cds/home/m/mcbrowne/trunk2/ioc/ued/epix/current",
             "/reg/g/pcds/epics-dev/ddamiani/ioc/common/epixMon/current"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-epix-01",
-        "script": "/reg/g/pcds/epics/ioc/ued/epix/R1.0.2/build/iocBoot/ioc-ued-epix-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.4.2/bin/rhel7-x86_64/epixMonIoc"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/ued/epix/build/iocBoot/ioc-ued-epix-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.4.3/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "ioc-amo-gige01",
