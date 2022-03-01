@@ -2874,14 +2874,14 @@
     {
         "host": "ctl-rix-vac-01",
         "port": 31000,
-        "dir": "/reg/g/pcds/epics-dev/jyin/gitProjects/lcls-plc-crixs-vac/lcls-plc-crix-vac",
+        "dir": "ioc/crix/lcls-plc-crixs-vac/v1.0.0/lcls-plc-crix-vac",
         "history": [
             "/reg/g/pcds/epics-dev/jyin/gitProjects/lcls-plc-crixs-vac/lcls-plc-crix-vac"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-PLC-CRIX-VAC",
-        "script": "/reg/g/pcds/epics-dev/jyin/gitProjects/lcls-plc-crixs-vac/lcls-plc-crix-vac/iocBoot/ioc-PLC-CRIX-VAC/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/crix/lcls-plc-crixs-vac/v1.0.0/lcls-plc-crix-vac/iocBoot/ioc-PLC-CRIX-VAC/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.4.1/bin/rhel7-x86_64/adsIoc"
     },
     {
@@ -16416,14 +16416,14 @@
     {
         "host": "ioc-ued-ccd01",
         "port": 30102,
-        "dir": "/cds/home/z/zlentz/github/ued/queueserver/ioc-ued-bsgui-qs",
+        "dir": "/reg/g/pcds/pyps/apps/hutch-python/ued/queueserver/ioc-ued-bsgui-qs",
         "history": [
             "/reg/g/pcds/pyps/apps/hutch-python/ued/queueserver/ioc-ued-bsgui-qs"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-bsgui-qs",
-        "script": "/cds/home/z/zlentz/github/ued/queueserver/ioc-ued-bsgui-qs/st.cmd",
+        "script": "/reg/g/pcds/pyps/apps/hutch-python/ued/queueserver/ioc-ued-bsgui-qs/st.cmd",
         "binary": "/usr/bin/bash"
     },
     {
