@@ -15705,13 +15705,13 @@
     {
         "host": "ioc-tst-13",
         "port": 35766,
-        "dir": "/reg/g/pcds/epics-dev/bosum123/ek9000",
+        "dir": "ioc/tmo/ek9000/R1.0.0",
         "alias": "Peppex EK9000",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-bhc-peppex",
-        "script": "/reg/g/pcds/epics-dev/bosum123/ek9000/children/build/iocBoot/ioc-bhc-peppex/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/bosum123/ek9000/bin/rhel7-x86_64/ek9000IOC"
+        "script": "/reg/g/pcds/epics/ioc/tmo/ek9000/R1.0.0/children/build/iocBoot/ioc-bhc-peppex/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/tmo/ek9000/R1.0.0/bin/rhel7-x86_64/ek9000IOC"
     },
     {
         "host": "ioc-tst-13",
