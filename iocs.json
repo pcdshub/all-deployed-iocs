@@ -4159,6 +4159,17 @@
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.0.3/bin/rhel7-x86_64/epixMonIoc"
     },
     {
+        "host": "daq-mec-jungfrau01",
+        "port": 30021,
+        "dir": "ioc/common/jungfrau4m/R1.1.1",
+        "disable": true,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
+        "name": "ioc-det-jf512k",
+        "script": "/reg/g/pcds/epics/ioc/common/jungfrau4m/R1.1.1/children/build/iocBoot/ioc-det-jf512k/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/jungfrau4m/R1.1.1/bin/rhel7-x86_64/jungfrau4m"
+    },
+    {
         "host": "daq-mec-misc01",
         "port": 32999,
         "dir": "ioc/mec/visar/R1.0.4",
@@ -4525,6 +4536,7 @@
         "host": "drp-ued-cmp001",
         "port": 30001,
         "dir": "ioc/ued/epix/R1.0.2",
+        "disable": true,
         "history": [
             "/cds/home/m/mcbrowne/trunk2/ioc/ued/epix/current",
             "/reg/g/pcds/epics-dev/ddamiani/ioc/common/epixMon/current"
@@ -8368,17 +8380,6 @@
         "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-jf4m",
         "script": "/reg/g/pcds/epics/ioc/common/jungfrau4m/R1.1.1/children/build/iocBoot/ioc-det-jf4m/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/jungfrau4m/R1.1.1/bin/rhel7-x86_64/jungfrau4m"
-    },
-    {
-        "host": "ioc-det-portable2",
-        "port": 30021,
-        "dir": "ioc/common/jungfrau4m/R1.1.1",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
-        "name": "ioc-det-jf512k",
-        "script": "/reg/g/pcds/epics/ioc/common/jungfrau4m/R1.1.1/children/build/iocBoot/ioc-det-jf512k/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/jungfrau4m/R1.1.1/bin/rhel7-x86_64/jungfrau4m"
     },
     {
