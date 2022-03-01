@@ -12597,6 +12597,16 @@
     },
     {
         "host": "ioc-mec-rec01",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/roving_jf",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-jf512k",
+        "script": "/reg/g/pcds/epics-dev/nrw/iocs/roving_jf/children/build/iocBoot/ioc-mec-jf512k/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/nrw/iocs/roving_jf/bin/rhel7-x86_64/roving"
+    },
+    {
+        "host": "ioc-mec-rec01",
         "port": 32515,
         "dir": "ioc/mec/smaract/R1.0.0",
         "base_version": "3.15",
