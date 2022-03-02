@@ -3102,6 +3102,16 @@
     },
     {
         "host": "ctl-tmo-cam-02",
+        "port": 38200,
+        "dir": "/reg/g/pcds/epics-dev/janezg/plc_iocs/vat590-test/vat590-test",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-plc-vat-test",
+        "script": "/reg/g/pcds/epics-dev/janezg/plc_iocs/vat590-test/vat590-test/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ctl-tmo-cam-02",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/klauer/ioc-tst-expstate",
         "base_version": "3.15",
