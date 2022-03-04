@@ -13526,6 +13526,7 @@
         "host": "ioc-mfx-table",
         "port": 32287,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/mfx/ims/current",
+        "disable": true,
         "alias": "DET - Rowland IMS Motion",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
@@ -13647,7 +13648,6 @@
         "host": "ioc-mfx-wave8",
         "port": 30095,
         "dir": "ioc/mfx/delaygen/R1.0.0",
-        "disable": true,
         "alias": "DELAYGEN - LBL - 01",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
@@ -13659,7 +13659,6 @@
         "host": "ioc-mfx-wave8",
         "port": 30096,
         "dir": "ioc/mfx/delaygen/R1.0.0",
-        "disable": true,
         "alias": "DELAYGEN - LBL - 02",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
@@ -13718,7 +13717,6 @@
         "host": "ioc-mfx-wave8",
         "port": 30071,
         "dir": "ioc/mfx/gigECam/R0.5.5",
-        "disable": true,
         "alias": "CAM - GigE LBL 01 Inline",
         "history": [
             "ioc/mfx/gigECam/R0.5.3"
@@ -13733,7 +13731,6 @@
         "host": "ioc-mfx-wave8",
         "port": 30083,
         "dir": "ioc/mfx/gigECam/R0.5.5",
-        "disable": true,
         "alias": "CAM - GigE LBL 02 Side",
         "history": [
             "ioc/mfx/gigECam/R0.5.3"
@@ -13748,7 +13745,6 @@
         "host": "ioc-mfx-wave8",
         "port": 30085,
         "dir": "ioc/mfx/gigECam/R0.5.5",
-        "disable": true,
         "alias": "CAM - GigE LBL 03 Meniscus",
         "history": [
             "ioc/mfx/gigECam/R0.5.3"
