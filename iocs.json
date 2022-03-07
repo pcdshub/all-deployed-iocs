@@ -20419,7 +20419,6 @@
         "host": "ioc-xpp-wave8",
         "port": 30101,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
-        "disable": true,
         "alias": "SB3 - WAVE8",
         "history": [
             "ioc/xpp/wave8/R2.0.1",
