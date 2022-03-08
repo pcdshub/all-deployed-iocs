@@ -7809,8 +7809,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg2-bmmon",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/st.cmd",
-        "binary": null
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-cxi-dg2-bmmon/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-cxi-wave8",
@@ -7823,8 +7823,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg3-bmmon",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/st.cmd",
-        "binary": null
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-cxi-dg3-bmmon/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-cxi-wave8",
@@ -12707,8 +12707,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-xt2-1-bmmon",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/st.cmd",
-        "binary": null
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-mec-xt2-1-bmmon/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-mec-wave8",
@@ -12724,8 +12724,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-xt2-2-bmmon",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/st.cmd",
-        "binary": null
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-mec-xt2-2-bmmon/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-mfx-cam01",
@@ -13693,8 +13693,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-dg1-bmmon",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/st.cmd",
-        "binary": null
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-mfx-dg1-bmmon/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-mfx-wave8",
@@ -13709,8 +13709,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-dg2-bmmon",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/st.cmd",
-        "binary": null
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-mfx-dg2-bmmon/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-mfx-wave8",
@@ -17619,8 +17619,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-sb1-bmmon",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/st.cmd",
-        "binary": null
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-xcs-sb1-bmmon/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-xcs-rec04",
@@ -17636,8 +17636,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-snd-bmmon",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/st.cmd",
-        "binary": null
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-xcs-snd-bmmon/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-xcs-snd",
@@ -18464,8 +18464,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-sb2-bmmon",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/st.cmd",
-        "binary": null
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-xcs-sb2-bmmon/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-xcs-wave8",
@@ -20411,8 +20411,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb2-bmmon",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/st.cmd",
-        "binary": null
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-xpp-sb2-bmmon/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-xpp-wave8",
@@ -20428,8 +20428,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb3-bmmon",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/st.cmd",
-        "binary": null
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-xpp-sb3-bmmon/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-xpp-wave8",
@@ -21188,8 +21188,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-hfx-dg2-bmmon",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/st.cmd",
-        "binary": null
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-hfx-dg2-bmmon/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-xrt-wave8",
