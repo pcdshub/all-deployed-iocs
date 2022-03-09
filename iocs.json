@@ -10511,13 +10511,13 @@
     {
         "host": "ioc-las-xcs-srv04",
         "port": 43414,
-        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py",
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
         "disable": true,
         "alias": "XCS - Timetool Python ",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "py-fstiming-tt-XCS",
-        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
         "binary": "/usr/bin/bash"
     },
     {
