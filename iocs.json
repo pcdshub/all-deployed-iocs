@@ -1086,7 +1086,6 @@
         "host": "ctl-las-crix-srv07",
         "port": 30010,
         "dir": "/cds/home/t/tjohnson/trunk/common/slice-dhv",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-tst-slice-01",
