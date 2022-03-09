@@ -19693,7 +19693,7 @@
     {
         "host": "ioc-xpp-rob01",
         "port": 30158,
-        "dir": "ioc/xpp/pvNotepad/R1.1.6",
+        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/pvNotepad",
         "alias": "USR - PVs",
         "history": [
             "/reg/g/pcds/epics-dev/espov/ioc/xpp/pvNotepad/current",
@@ -19702,7 +19702,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-userPV",
-        "script": "/reg/g/pcds/epics/ioc/xpp/pvNotepad/R1.1.6/build/iocBoot/ioc-xpp-userPV/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/pvNotepad/build/iocBoot/ioc-xpp-userPV/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1/bin/linux-x86_64/pvNotepad"
     },
     {
@@ -21174,7 +21174,7 @@
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-HOMS-XRT-PLC",
         "script": "/reg/g/pcds/epics-dev/nrw/iocs/homs_dev/HOMS_XRT/iocBoot/ioc-HOMS-XRT-PLC/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.4.1/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ioc-xrt-wave8",
