@@ -18575,8 +18575,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-10",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-xpp-gige-10/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-gige02",
@@ -18604,6 +18604,7 @@
         "host": "ioc-xpp-gige02",
         "port": 30001,
         "dir": "ioc/xpp/gigECam/R0.11.7",
+        "disable": true,
         "alias": "Gige 21 - USR",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -19202,6 +19203,7 @@
         "host": "ioc-xpp-rec02",
         "port": 37045,
         "dir": "/reg/g/pcds/epics-dev/snelson/xpp/gigECam/current",
+        "disable": true,
         "alias": "Gige 15 - USR",
         "history": [
             "/reg/g/pcds/package/epics/3.14/ioc/xpp/gigECam/R0.11.6"
@@ -19216,6 +19218,7 @@
         "host": "ioc-xpp-rec02",
         "port": 37048,
         "dir": "/reg/g/pcds/epics-dev/snelson/xpp/gigECam/current",
+        "disable": true,
         "alias": "Gige 18 - USR",
         "history": [
             "/reg/g/pcds/package/epics/3.14/ioc/xpp/gigECam/R0.11.5"
