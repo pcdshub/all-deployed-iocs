@@ -19690,7 +19690,7 @@
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-userPV",
         "script": "/reg/g/pcds/epics-dev/spencera/xpp/pvNotepad/build/iocBoot/ioc-xpp-userPV/st.cmd",
-        "binary": null
+        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1/bin/linux-x86_64/pvNotepad"
     },
     {
         "host": "ioc-xpp-rob01",
