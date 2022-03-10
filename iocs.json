@@ -18570,7 +18570,6 @@
         "host": "ioc-xpp-gige02",
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam",
-        "disable": true,
         "alias": "Gige 10 - USR",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -18602,9 +18601,22 @@
     },
     {
         "host": "ioc-xpp-gige02",
+        "port": 37045,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam",
+        "alias": "Gige 15 - USR",
+        "history": [
+            "/reg/g/pcds/package/epics/3.14/ioc/xpp/gigECam/R0.11.6"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-gige-15",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-xpp-gige-15/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-xpp-gige02",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam",
-        "disable": true,
         "alias": "Gige 16 - USR",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -19197,20 +19209,6 @@
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-02",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-xpp-gige-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ioc-xpp-rec02",
-        "port": 37045,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam",
-        "alias": "Gige 15 - USR",
-        "history": [
-            "/reg/g/pcds/package/epics/3.14/ioc/xpp/gigECam/R0.11.6"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-gige-15",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-xpp-gige-15/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
     },
     {
