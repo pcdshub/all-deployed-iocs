@@ -594,16 +594,6 @@
     },
     {
         "host": "ctl-las-crix-srv01",
-        "port": 30025,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/smaract/smaract-git",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-mcs2-04",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/smaract/smaract-git/build/iocBoot/ioc-lm1k4-mcs2-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.10/bin/rhel7-x86_64/smaract"
-    },
-    {
-        "host": "ctl-las-crix-srv01",
         "port": 30202,
         "dir": "/cds/home/t/tjohnson/trunk/las/gigECam",
         "base_version": "3.15",
@@ -963,86 +953,6 @@
         "binary": "/cds/group/pcds/epics/ioc/common/qadc/R2.0.3/bin/rhel7-x86_64/qadc134Ioc"
     },
     {
-        "host": "ctl-las-crix-srv06",
-        "port": 30030,
-        "dir": "/cds/home/t/tjohnson/trunk/workarea/ek9000",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-hrm-ek9000-01",
-        "script": "/cds/home/t/tjohnson/trunk/workarea/ek9000/children/build/iocBoot/ioc-lm1k4-hrm-ek9000-01/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/workarea/ek9000/bin/rhel7-x86_64/ek9000IOC"
-    },
-    {
-        "host": "ctl-las-crix-srv06",
-        "port": 30010,
-        "dir": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-hrm-ell-01",
-        "script": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-lm1k4-hrm-ell-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
-    },
-    {
-        "host": "ctl-las-crix-srv06",
-        "port": 30011,
-        "dir": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-hrm-ell-02",
-        "script": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-lm1k4-hrm-ell-02/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/bin/rhel7-x86_64/ell"
-    },
-    {
-        "host": "ctl-las-crix-srv06",
-        "port": 30006,
-        "dir": "/reg/neh/home/tjohnson/trunk/las/gigECam",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-hrm-gige-ff-01",
-        "script": "/reg/neh/home/tjohnson/trunk/las/gigECam/build/iocBoot/ioc-lm1k4-hrm-gige-ff-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-crix-srv06",
-        "port": 30004,
-        "dir": "/reg/neh/home/tjohnson/trunk/las/gigECam",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-hrm-gige-ff-02",
-        "script": "/reg/neh/home/tjohnson/trunk/las/gigECam/build/iocBoot/ioc-lm1k4-hrm-gige-ff-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-crix-srv06",
-        "port": 30005,
-        "dir": "/reg/neh/home/tjohnson/trunk/las/gigECam",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-hrm-gige-nf-01",
-        "script": "/reg/neh/home/tjohnson/trunk/las/gigECam/build/iocBoot/ioc-lm1k4-hrm-gige-nf-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-crix-srv06",
-        "port": 30003,
-        "dir": "/reg/neh/home/tjohnson/trunk/las/gigECam",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-hrm-gige-nf-02",
-        "script": "/reg/neh/home/tjohnson/trunk/las/gigECam/build/iocBoot/ioc-lm1k4-hrm-gige-nf-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-crix-srv06",
-        "port": 30012,
-        "dir": "/cds/home/t/tjohnson/trunk/las/qmini",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-hrm-spec-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/qmini/build/iocBoot/ioc-lm1k4-hrm-spec-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/qmini/R0.2.1/bin/rhel7-x86_64/qmini"
-    },
-    {
         "host": "ctl-las-crix-srv07",
         "port": 30100,
         "dir": "/cds/home/t/tjohnson/trunk/las/gigECam",
@@ -1333,6 +1243,105 @@
         "name": "ioc-lm1k4-qadc134-01",
         "script": "/reg/g/pcds/epics/ioc/las/qadc/R1.0.0/build/iocBoot/ioc-lm1k4-qadc134-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/qadc/R2.0.3/bin/rhel7-x86_64/qadc134Ioc"
+    },
+    {
+        "host": "ctl-las-ip1-srv04",
+        "port": 30030,
+        "dir": "/cds/home/t/tjohnson/trunk/workarea/ek9000",
+        "disable": true,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-hrm-ek9000-01",
+        "script": "/cds/home/t/tjohnson/trunk/workarea/ek9000/children/build/iocBoot/ioc-lm1k4-hrm-ek9000-01/st.cmd",
+        "binary": "/cds/home/t/tjohnson/trunk/workarea/ek9000/bin/rhel7-x86_64/ek9000IOC"
+    },
+    {
+        "host": "ctl-las-ip1-srv04",
+        "port": 30010,
+        "dir": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell",
+        "disable": true,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-hrm-ell-01",
+        "script": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-lm1k4-hrm-ell-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
+    },
+    {
+        "host": "ctl-las-ip1-srv04",
+        "port": 30011,
+        "dir": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell",
+        "disable": true,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-hrm-ell-02",
+        "script": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-lm1k4-hrm-ell-02/st.cmd",
+        "binary": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/bin/rhel7-x86_64/ell"
+    },
+    {
+        "host": "ctl-las-ip1-srv04",
+        "port": 30006,
+        "dir": "/reg/neh/home/tjohnson/trunk/las/gigECam",
+        "disable": true,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-hrm-gige-ff-01",
+        "script": "/reg/neh/home/tjohnson/trunk/las/gigECam/build/iocBoot/ioc-lm1k4-hrm-gige-ff-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-ip1-srv04",
+        "port": 30004,
+        "dir": "/reg/neh/home/tjohnson/trunk/las/gigECam",
+        "disable": true,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-hrm-gige-ff-02",
+        "script": "/reg/neh/home/tjohnson/trunk/las/gigECam/build/iocBoot/ioc-lm1k4-hrm-gige-ff-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-ip1-srv04",
+        "port": 30005,
+        "dir": "/reg/neh/home/tjohnson/trunk/las/gigECam",
+        "disable": true,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-hrm-gige-nf-01",
+        "script": "/reg/neh/home/tjohnson/trunk/las/gigECam/build/iocBoot/ioc-lm1k4-hrm-gige-nf-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-ip1-srv04",
+        "port": 30003,
+        "dir": "/reg/neh/home/tjohnson/trunk/las/gigECam",
+        "disable": true,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-hrm-gige-nf-02",
+        "script": "/reg/neh/home/tjohnson/trunk/las/gigECam/build/iocBoot/ioc-lm1k4-hrm-gige-nf-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-ip1-srv04",
+        "port": 30012,
+        "dir": "/cds/home/t/tjohnson/trunk/las/qmini",
+        "disable": true,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-hrm-spec-01",
+        "script": "/cds/home/t/tjohnson/trunk/las/qmini/build/iocBoot/ioc-lm1k4-hrm-spec-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/qmini/R0.2.1/bin/rhel7-x86_64/qmini"
+    },
+    {
+        "host": "ctl-las-ip1-srv04",
+        "port": 30025,
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/smaract/smaract-git",
+        "disable": true,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-mcs2-04",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/smaract/smaract-git/build/iocBoot/ioc-lm1k4-mcs2-04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.10/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ip1-srv05",
