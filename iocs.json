@@ -5620,8 +5620,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-lev",
-        "script": "/reg/g/pcds/epics-dev/cymel123/Leviton/current/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/cymel123/Leviton/current/iocBoot/ioc-cxi-lev/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/cymel123/Leviton/current/bin/linux-x86_64/Leviton"
     },
     {
         "host": "ioc-cxi-misc1",
