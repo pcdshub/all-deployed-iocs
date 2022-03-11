@@ -2839,6 +2839,16 @@
     },
     {
         "host": "ctl-rix-qrix-vac-01",
+        "port": 31013,
+        "dir": "/reg/g/pcds/epics-dev/ioc/rix/lcls-plc-qrix-motion/lcls-plc-qrix-motion/lcls-plc-qrix-motion/iocBoot/ioc-PLC-QRIX-MOT",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-plc-qrix-mot",
+        "script": "/reg/g/pcds/epics-dev/ioc/rix/lcls-plc-qrix-motion/lcls-plc-qrix-motion/lcls-plc-qrix-motion/iocBoot/ioc-PLC-QRIX-MOT/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ctl-rix-qrix-vac-01",
         "port": 31313,
         "dir": "/reg/g/pcds/epics-dev/ioc/rix/lcls-plc-qrix-vac/lcls-plc-qrix-vac/iocBoot/ioc-PLC-QRIX-VAC",
         "base_version": "3.15",
