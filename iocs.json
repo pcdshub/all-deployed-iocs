@@ -12944,7 +12944,6 @@
         "host": "ioc-mfx-cam02",
         "port": 34917,
         "dir": "ioc/mfx/gigECam/R0.5.5",
-        "disable": true,
         "alias": "CAM - GigE 03",
         "history": [
             "ioc/mfx/gigECam/R0.5.3",
