@@ -12810,7 +12810,6 @@
         "host": "ioc-mfx-cam02",
         "port": 30095,
         "dir": "ioc/mfx/delaygen/R1.0.0",
-        "disable": true,
         "alias": "DELAYGEN - LBL - 01",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
