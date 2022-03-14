@@ -1839,6 +1839,16 @@
     },
     {
         "host": "ctl-las-lhn-04",
+        "port": 30501,
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-git",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-lhn-phase-ims-04",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-git/build/iocBoot/ioc-las-lhn-phase-ims-04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ctl-las-lhn-04",
         "port": 30510,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/Leviton/Leviton-git",
         "base_version": "3.15",
@@ -3096,8 +3106,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-hpm900",
-        "script": "/reg/g/pcds/epics-dev/janezg/tmo/hpm900IP1/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/janezg/tmo/hpm900IP1/build/iocBoot/ioc-tmo-hpm900/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/janezg/hpm900/current/bin/rhel7-x86_64/hpm900"
     },
     {
         "host": "ctl-tmo-cam-02",
@@ -10342,6 +10352,7 @@
         "host": "ioc-las-srv04",
         "port": 30501,
         "dir": "ioc/las/ims/R0.4.0",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-phase-ims04",
