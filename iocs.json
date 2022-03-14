@@ -3096,8 +3096,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-hpm900",
-        "script": "/reg/g/pcds/epics-dev/janezg/tmo/hpm900IP1/build/iocBoot/ioc-tmo-hpm900/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/janezg/hpm900/current/bin/rhel7-x86_64/hpm900"
+        "script": "/reg/g/pcds/epics-dev/janezg/tmo/hpm900IP1/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tmo-cam-02",
