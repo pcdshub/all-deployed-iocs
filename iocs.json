@@ -1497,9 +1497,38 @@
     },
     {
         "host": "ctl-las-ip1-srv06",
+        "port": 30016,
+        "dir": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-ejx-ell-01",
+        "script": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-lm1k4-ejx-ell-01/st.cmd",
+        "binary": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/bin/rhel7-x86_64/ell"
+    },
+    {
+        "host": "ctl-las-ip1-srv06",
+        "port": 30011,
+        "dir": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-ejx-ell-02",
+        "script": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-lm1k4-ejx-ell-02/st.cmd",
+        "binary": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/bin/rhel7-x86_64/ell"
+    },
+    {
+        "host": "ctl-las-ip1-srv06",
+        "port": 30012,
+        "dir": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-ejx-ell-03",
+        "script": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-lm1k4-ejx-ell-03/st.cmd",
+        "binary": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/bin/rhel7-x86_64/ell"
+    },
+    {
+        "host": "ctl-las-ip1-srv06",
         "port": 30010,
         "dir": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-ejx-ell-04",
@@ -1510,7 +1539,6 @@
         "host": "ctl-las-ip1-srv06",
         "port": 30014,
         "dir": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-ejx-ell-05",
@@ -1521,7 +1549,6 @@
         "host": "ctl-las-ip1-srv06",
         "port": 30001,
         "dir": "/cds/home/t/tjohnson/trunk/las/gigECam",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-ejx-gige-ff-01",
@@ -1530,9 +1557,28 @@
     },
     {
         "host": "ctl-las-ip1-srv06",
+        "port": 30003,
+        "dir": "/cds/home/t/tjohnson/trunk/las/gigECam",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-ejx-gige-ff-02",
+        "script": "/cds/home/t/tjohnson/trunk/las/gigECam/build/iocBoot/ioc-lm1k4-ejx-gige-ff-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-ip1-srv06",
+        "port": 30002,
+        "dir": "/cds/home/t/tjohnson/trunk/las/gigECam",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-ejx-gige-nf-01",
+        "script": "/cds/home/t/tjohnson/trunk/las/gigECam/build/iocBoot/ioc-lm1k4-ejx-gige-nf-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-ip1-srv06",
         "port": 30013,
         "dir": "/cds/home/t/tjohnson/trunk/las/qmini",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-ejx-spec-02",
@@ -1543,67 +1589,11 @@
         "host": "ctl-las-ip1-srv06",
         "port": 34000,
         "dir": "/cds/home/t/tjohnson/trunk/fakeGmd",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-tst-gmd-01",
         "script": "/cds/home/t/tjohnson/trunk/fakeGmd/children/build/iocBoot/ioc-tst-gmd-01/st.cmd",
         "binary": "/cds/home/t/tjohnson/trunk/fakeGmd/bin/rhel7-x86_64/fakeGmd"
-    },
-    {
-        "host": "ctl-las-ip1-srv07",
-        "port": 30010,
-        "dir": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-ejx-ell-01",
-        "script": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-lm1k4-ejx-ell-01/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/bin/rhel7-x86_64/ell"
-    },
-    {
-        "host": "ctl-las-ip1-srv07",
-        "port": 30011,
-        "dir": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-ejx-ell-02",
-        "script": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-lm1k4-ejx-ell-02/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/bin/rhel7-x86_64/ell"
-    },
-    {
-        "host": "ctl-las-ip1-srv07",
-        "port": 30012,
-        "dir": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-ejx-ell-03",
-        "script": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-lm1k4-ejx-ell-03/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/bin/rhel7-x86_64/ell"
-    },
-    {
-        "host": "ctl-las-ip1-srv07",
-        "port": 30001,
-        "dir": "/cds/home/t/tjohnson/trunk/las/gigECam",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-ejx-gige-ff-02",
-        "script": "/cds/home/t/tjohnson/trunk/las/gigECam/build/iocBoot/ioc-lm1k4-ejx-gige-ff-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-ip1-srv07",
-        "port": 30002,
-        "dir": "/cds/home/t/tjohnson/trunk/las/gigECam",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-ejx-gige-nf-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/gigECam/build/iocBoot/ioc-lm1k4-ejx-gige-nf-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lhn-01",
@@ -12668,13 +12658,13 @@
     {
         "host": "ioc-mec-wave8",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/cymel123/mec2/Leviton/current",
+        "dir": "/reg/g/pcds/epics-dev/cymel123/mec/Leviton/current",
         "alias": "Power (PDU) Racks AC02",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-pdu-ac02",
-        "script": "/reg/g/pcds/epics-dev/cymel123/mec2/Leviton/current/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/cymel123/mec/Leviton/current/build/iocBoot/ioc-mec-pdu-ac02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.3.4/bin/rhel7-x86_64/Leviton"
     },
     {
         "host": "ioc-mec-wave8",
