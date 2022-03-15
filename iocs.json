@@ -1095,12 +1095,12 @@
     {
         "host": "ctl-las-ip1-srv01",
         "port": 30022,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/common/smaract/current",
+        "dir": "/reg/neh/home/tjohnson/trunk/common/smaract",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-mcs2-03",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/common/smaract/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/tjohnson/trunk/common/smaract/children/build/iocBoot/ioc-lm1k4-mcs2-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.5/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ip1-srv01",
@@ -2840,7 +2840,7 @@
         "binary": "/reg/g/pcds/epics/ioc/common/isegPower/R1.3.0/bin/linux-arm-apalis/isegPower"
     },
     {
-        "host": "ctl-rix-qrix-vac-01",
+        "host": "ctl-rix-qrix-mot-01",
         "port": 31013,
         "dir": "/reg/g/pcds/epics-dev/ioc/rix/lcls-plc-qrix-motion/lcls-plc-qrix-motion/lcls-plc-qrix-motion/iocBoot/ioc-PLC-QRIX-MOT",
         "base_version": "3.15",
