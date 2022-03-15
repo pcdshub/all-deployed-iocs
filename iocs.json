@@ -1844,8 +1844,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-phase-ims-04",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-git/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-git/build/iocBoot/ioc-las-lhn-phase-ims-04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ctl-las-lhn-04",
@@ -6091,7 +6091,7 @@
         "host": "ioc-cxi-mot2",
         "port": 30005,
         "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/NewportXPS8",
-        "alias": "Laser Newport 1",
+        "alias": "Newport XPS Laser",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-las-xps1",
@@ -7464,20 +7464,6 @@
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-xps-det2",
         "script": "/reg/g/pcds/epics/ioc/cxi/NewportXPS8/R1.0.0/build/iocBoot/ioc-cxi-xps-det2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
-    },
-    {
-        "host": "ioc-cxi-usr1",
-        "port": 42022,
-        "dir": "ioc/cxi/NewportXPS8/R1.0.0",
-        "alias": "Newport XPS Laser EVO",
-        "history": [
-            "ioc/cxi/NewportXPS8"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-xps-las2",
-        "script": "/reg/g/pcds/epics/ioc/cxi/NewportXPS8/R1.0.0/build/iocBoot/ioc-cxi-xps-las2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
     },
     {
