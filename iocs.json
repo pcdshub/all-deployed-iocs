@@ -20365,12 +20365,35 @@
     {
         "host": "ioc-xpp-wave8",
         "port": 30002,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/xpp/roving_jf",
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf",
+        "disable": true,
         "alias": "DET - JF1M Interlock",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-jf",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/xpp/roving_jf/build/iocBoot/ioc-xpp-jf/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf/build/iocBoot/ioc-xpp-jf/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/roving_jf/R1.0.0/bin/rhel7-x86_64/roving"
+    },
+    {
+        "host": "ioc-xpp-wave8",
+        "port": 30003,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf",
+        "alias": "DET - JF INTERLOCK 1",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-jf1",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf/build/iocBoot/ioc-xpp-jf1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/roving_jf/R1.0.0/bin/rhel7-x86_64/roving"
+    },
+    {
+        "host": "ioc-xpp-wave8",
+        "port": 30004,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf",
+        "alias": "DET - JF INTERLOCK 2",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-jf2",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf/build/iocBoot/ioc-xpp-jf2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/roving_jf/R1.0.0/bin/rhel7-x86_64/roving"
     },
     {
