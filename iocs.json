@@ -20812,19 +20812,6 @@
     },
     {
         "host": "ioc-xrt-rec01",
-        "port": 31234,
-        "dir": "/reg/neh/home/mcbrowne/trunk2/ioc/fee/XraySlitKSpect/current",
-        "history": [
-            "/reg/neh/home/mcbrowne/trunk2/ioc/fee/XraySlitKSpect/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
-        "name": "ioc-lfe-bk9k",
-        "script": "/reg/neh/home/mcbrowne/trunk2/ioc/fee/XraySlitKSpect/current/iocBoot/ioc-lfe-bk9k/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/fee/XraySlitKSpect/current/bin/linux-x86_64/XraySlitKSpect"
-    },
-    {
-        "host": "ioc-xrt-rec01",
         "port": 39199,
         "dir": "/reg/g/pcds/controls/camrecord",
         "history": [
@@ -20850,6 +20837,19 @@
         "name": "ioc-hxm-cam1",
         "script": "/reg/g/pcds/epics/ioc/xrt/edtCam/R1.4.0/build/iocBoot/ioc-hxm-cam1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.0/bin/linux-x86_64/edt"
+    },
+    {
+        "host": "ioc-xrt-rec02",
+        "port": 31234,
+        "dir": "/reg/neh/home/mcbrowne/trunk2/ioc/fee/XraySlitKSpect/current",
+        "history": [
+            "/reg/neh/home/mcbrowne/trunk2/ioc/fee/XraySlitKSpect/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
+        "name": "ioc-lfe-bk9k",
+        "script": "/reg/neh/home/mcbrowne/trunk2/ioc/fee/XraySlitKSpect/current/iocBoot/ioc-lfe-bk9k/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/fee/XraySlitKSpect/current/bin/linux-x86_64/XraySlitKSpect"
     },
     {
         "host": "ioc-xrt-rec02",
