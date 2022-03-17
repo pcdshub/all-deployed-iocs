@@ -21165,7 +21165,7 @@
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-HOMS-XRT-PLC",
         "script": "/reg/g/pcds/epics-dev/ioc/xrt/HOMS_XRT/iocBoot/ioc-HOMS-XRT-PLC/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.4.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ioc-xrt-wave8",
