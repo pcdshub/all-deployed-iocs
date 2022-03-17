@@ -1235,12 +1235,12 @@
     {
         "host": "ctl-las-ip1-srv04",
         "port": 30030,
-        "dir": "/cds/home/t/tjohnson/trunk/workarea/ek9000",
+        "dir": "/cds/home/t/tjohnson/trunk/las/ek9000",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-hrm-ek9000-01",
-        "script": "/cds/home/t/tjohnson/trunk/workarea/ek9000/children/build/iocBoot/ioc-lm1k4-hrm-ek9000-01/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/workarea/ek9000/bin/rhel7-x86_64/ek9000IOC"
+        "script": "/cds/home/t/tjohnson/trunk/las/ek9000/build/iocBoot/ioc-lm1k4-hrm-ek9000-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/ek9000/R1.3.1/bin/rhel7-x86_64/ek9000IOC"
     },
     {
         "host": "ctl-las-ip1-srv04",
