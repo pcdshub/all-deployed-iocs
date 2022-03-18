@@ -3615,6 +3615,7 @@
         "host": "ctl-tmo-mot-01",
         "port": 34765,
         "dir": "/reg/g/pcds/epics-dev/rsmm97/ioc/tmo/RohdeSchwarzHMP/current",
+        "alias": "Rohde Schwarz Supply",
         "history": [
             "/reg/g/pcds/epics-dev/rsmm97/ioc/tmo/RohdeSchwarzHMP/current"
         ],
