@@ -986,7 +986,6 @@
         "host": "ctl-las-crix-srv07",
         "port": 30022,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/current",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-inj-gige-nf-01",
