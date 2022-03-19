@@ -19258,6 +19258,17 @@
     },
     {
         "host": "ioc-xpp-rec02",
+        "port": 30032,
+        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/smaract",
+        "alias": "USR - SmarAct2",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-mcs2-02",
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/smaract/build/iocBoot/ioc-xpp-mcs2-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.5/bin/rhel7-x86_64/smaract"
+    },
+    {
+        "host": "ioc-xpp-rec02",
         "port": 30010,
         "dir": "/reg/neh/home/mcbrowne/trunk2/ioc/xpp/ccm/deltaTauMotion/current",
         "alias": "MON - CCM Alio",
