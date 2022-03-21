@@ -12663,6 +12663,16 @@
     },
     {
         "host": "ioc-mec-wave8",
+        "port": 39102,
+        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/mmc",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-usr-1axis-mmc-01",
+        "script": "/reg/g/pcds/epics-dev/nrw/iocs/mmc/build/iocBoot/ioc-mec-usr-1axis-mmc-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
+    },
+    {
+        "host": "ioc-mec-wave8",
         "port": 30001,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
         "alias": "IPM2 (wave8)",
