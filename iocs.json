@@ -12325,6 +12325,16 @@
     },
     {
         "host": "ioc-mec-mot3",
+        "port": 39102,
+        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/mmc",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-usr-1axis-mmc-01",
+        "script": "/reg/g/pcds/epics-dev/nrw/iocs/mmc/build/iocBoot/ioc-mec-usr-1axis-mmc-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
+    },
+    {
+        "host": "ioc-mec-mot3",
         "port": 31631,
         "dir": "ioc/mec/ims/R2.2.3",
         "history": [
@@ -12660,16 +12670,6 @@
         "name": "ioc-mec-pdu-ac02",
         "script": "/reg/g/pcds/epics-dev/cymel123/mec/Leviton/current/build/iocBoot/ioc-mec-pdu-ac02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.1/bin/rhel7-x86_64/Leviton"
-    },
-    {
-        "host": "ioc-mec-wave8",
-        "port": 39102,
-        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/mmc",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-usr-1axis-mmc-01",
-        "script": "/reg/g/pcds/epics-dev/nrw/iocs/mmc/build/iocBoot/ioc-mec-usr-1axis-mmc-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
     },
     {
         "host": "ioc-mec-wave8",
