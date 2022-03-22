@@ -21506,6 +21506,16 @@
     },
     {
         "host": "xcs-control",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/lodcmcalc/lodcmcalc",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "LODCM Calc",
+        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/lodcmcalc/lodcmcalc/st.cmd",
+        "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "xcs-control",
         "port": 30010,
         "dir": "/cds/home/opr/xcsopr/live_data/epics/xcs_ebeam_ipm_fixed",
         "alias": "Monitoring EPICS  EBeam Ipm",
