@@ -16691,6 +16691,16 @@
     },
     {
         "host": "ioc-xcs-misc1",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/lodcmcalc/lodcmcalc",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "lodcmcalc",
+        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/lodcmcalc/lodcmcalc/st.cmd",
+        "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ioc-xcs-misc1",
         "port": 34600,
         "dir": "/reg/g/pcds/pyps/config/xcs/lightpath",
         "alias": "XCS Lightpath pyIOC",
@@ -21503,16 +21513,6 @@
         "name": "ioc-lfe-gatt",
         "script": "/reg/g/pcds/epics-dev/mghaly/tst/ioc-lfe-gatt/iocBoot/ioc-lfe-gatt/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/v0.1.5/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "xcs-control",
-        "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/lodcmcalc/lodcmcalc",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "lodcmcalc",
-        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/lodcmcalc/lodcmcalc/st.cmd",
-        "binary": "/usr/bin/bash"
     },
     {
         "host": "xcs-control",
