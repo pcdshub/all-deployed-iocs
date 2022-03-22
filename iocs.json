@@ -464,7 +464,7 @@
     {
         "host": "ctl-kfe-mot-01",
         "port": 30103,
-        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-tmo-optics/iocBoot/ioc-tmo-optics/",
+        "dir": "/reg/g/pcds/epics/ioc/tmo/lcls-plc-tmo-optics/v1.2.1/iocBoot/ioc-tmo-optics/",
         "history": [
             "/reg/g/pcds/epics-dev/awallace/lcls-plc-tmo-optics",
             "/reg/g/pcds/epics-dev/sfsyunus/lcls-plc-tmo-optics",
@@ -473,7 +473,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-tmo-optics",
-        "script": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-tmo-optics/iocBoot/ioc-tmo-optics/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/tmo/lcls-plc-tmo-optics/v1.2.1/iocBoot/ioc-tmo-optics/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.3.1/bin/rhel7-x86_64/adsIoc"
     },
     {
@@ -16691,16 +16691,6 @@
     },
     {
         "host": "ioc-xcs-misc1",
-        "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/lodcmcalc/lodcmcalc",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "lodcmcalc",
-        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/lodcmcalc/lodcmcalc/st.cmd",
-        "binary": "/usr/bin/bash"
-    },
-    {
-        "host": "ioc-xcs-misc1",
         "port": 34600,
         "dir": "/reg/g/pcds/pyps/config/xcs/lightpath",
         "alias": "XCS Lightpath pyIOC",
@@ -17780,6 +17770,16 @@
         "name": "ioc-xcs-user-2axis-mmc-01",
         "script": "/reg/g/pcds/epics-dev/jjoshi/ioc/xcs/mmc/current/build/iocBoot/ioc-xcs-usr-2axis-mmc-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
+    },
+    {
+        "host": "ioc-xcs-srv01",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/lodcmcalc/lodcmcalc",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "lodcmcalc",
+        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/lodcmcalc/lodcmcalc/st.cmd",
+        "binary": "/usr/bin/bash"
     },
     {
         "host": "ioc-xcs-user1",
