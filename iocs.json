@@ -21510,7 +21510,7 @@
         "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/lodcmcalc/lodcmcalc",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "LODCM Calc",
+        "name": "lodcmcalc",
         "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/lodcmcalc/lodcmcalc/st.cmd",
         "binary": "/usr/bin/bash"
     },
