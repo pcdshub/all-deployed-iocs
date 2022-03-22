@@ -16648,16 +16648,6 @@
     },
     {
         "host": "ioc-xcs-misc1",
-        "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/lodcmcalc/lodcmcalc",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-lodcmcalc",
-        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/lodcmcalc/lodcmcalc/st.cmd",
-        "binary": "/usr/bin/bash"
-    },
-    {
-        "host": "ioc-xcs-misc1",
         "port": 33333,
         "dir": "ioc/xcs/navitarZoom/R0.3.0",
         "disable": true,
