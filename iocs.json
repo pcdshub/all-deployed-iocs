@@ -18276,6 +18276,7 @@
         "host": "ioc-xcs-user2",
         "port": 30341,
         "dir": "/reg/g/pcds/epics-dev/spencera/xcs.svn/lakeshore340/current",
+        "disable": true,
         "alias": "USR - Lakeshore 340 Patch",
         "history": [
             "ioc/xcs/lakeshore340/R1.0.2.FAST",
