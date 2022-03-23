@@ -1080,7 +1080,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-mcs2-01",
         "script": "/reg/neh/home/tjohnson/trunk/common/smaract/children/build/iocBoot/ioc-lm1k4-mcs2-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.5/bin/rhel7-x86_64/smaract"
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.10/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ip1-srv01",
@@ -1090,7 +1090,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-mcs2-02",
         "script": "/reg/neh/home/tjohnson/trunk/common/smaract/children/build/iocBoot/ioc-lm1k4-mcs2-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.5/bin/rhel7-x86_64/smaract"
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.10/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ip1-srv01",
@@ -1100,7 +1100,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-mcs2-03",
         "script": "/reg/neh/home/tjohnson/trunk/common/smaract/children/build/iocBoot/ioc-lm1k4-mcs2-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.5/bin/rhel7-x86_64/smaract"
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.10/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ip1-srv01",
