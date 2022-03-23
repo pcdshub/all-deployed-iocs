@@ -17232,6 +17232,7 @@
         "host": "ioc-xcs-mot2",
         "port": 30485,
         "dir": "/reg/g/pcds/epics-dev/spencera/plcs/lcls-plc-xcs-liquid-jet/ioc-xcs-ljh",
+        "disable": true,
         "alias": "Liquid Jet PLC",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
