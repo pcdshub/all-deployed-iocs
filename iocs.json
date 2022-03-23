@@ -21127,12 +21127,12 @@
     {
         "host": "ioc-xrt-rec07",
         "port": 37523,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xrt.svn/ims/current",
+        "dir": "/reg/g/pcds/epics-dev/spencera/xrt/ims",
         "alias": "HXS Motors",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-hxs-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xrt.svn/ims/current/build/iocBoot/ioc-xrt-hxs-ims/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/spencera/xrt/ims/build/iocBoot/ioc-xrt-hxs-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
     },
     {
