@@ -19278,6 +19278,7 @@
         "host": "ioc-xpp-rec02",
         "port": 30031,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/smaract",
+        "disable": true,
         "alias": "USR - SmarAct",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -19289,11 +19290,23 @@
         "host": "ioc-xpp-rec02",
         "port": 30032,
         "dir": "/reg/g/pcds/epics-dev/spencera/xpp/smaract",
+        "disable": true,
         "alias": "USR - SmarAct2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-mcs2-02",
         "script": "/reg/g/pcds/epics-dev/spencera/xpp/smaract/build/iocBoot/ioc-xpp-mcs2-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.5/bin/rhel7-x86_64/smaract"
+    },
+    {
+        "host": "ioc-xpp-rec02",
+        "port": 30005,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/smaract",
+        "alias": "LIB TEMP SMARACT",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-mcs2-temp",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/smaract/build/iocBoot/ioc-xpp-mcs2-temp/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.5/bin/rhel7-x86_64/smaract"
     },
     {
