@@ -9783,7 +9783,7 @@
     {
         "host": "ioc-las-cxi-srv05",
         "port": 32043,
-        "dir": "ioc/las/ims/R0.4.0",
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0",
         "history": [
             "ioc/las/ims/R0.3.0",
             "ioc/las/ims/R0.2.6"
@@ -9791,8 +9791,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-cxi-phase-ims",
-        "script": "/reg/g/pcds/epics/ioc/las/ims/R0.4.0/iocBoot/ioc-las-cxi-phase-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/las/ims/R0.4.0/bin/linux-x86/motion"
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0/iocBoot/ioc-las-cxi-phase-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0/bin/linux-x86/motion"
     },
     {
         "host": "ioc-las-cxi-srv05",
@@ -9810,7 +9810,7 @@
     {
         "host": "ioc-las-cxi-srv05",
         "port": 32045,
-        "dir": "ioc/las/sr620/R1.1.1",
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/sr620/R1.1.1",
         "history": [
             "ioc/las/sr620/R1.0.1",
             "ioc/las/sr620/R1.0.0"
@@ -9818,7 +9818,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-cxi-sr620-01",
-        "script": "/reg/g/pcds/epics/ioc/las/sr620/R1.1.1/build/iocBoot/ioc-las-cxi-sr620-01/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/sr620/R1.1.1/build/iocBoot/ioc-las-cxi-sr620-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/sr620/R0.9.2/bin/linux-x86/sr620"
     },
     {
@@ -13830,6 +13830,7 @@
         "host": "ioc-mfx-wave8",
         "port": 32010,
         "dir": "/reg/neh/home/zlentz/github/vonhamos-motion/epics/cfg",
+        "disable": true,
         "alias": "DET - Von Hamos Beckhoff Motion",
         "history": [
             "/reg/neh/home/zlentz/github/vonhamos-motion/epics/cfg"
