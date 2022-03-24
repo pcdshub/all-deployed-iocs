@@ -10406,12 +10406,12 @@
     {
         "host": "ioc-las-xcs-srv04",
         "port": 42004,
-        "dir": "ioc/las/ims/R0.4.0",
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-xcs-phase-ims",
-        "script": "/reg/g/pcds/epics/ioc/las/ims/R0.4.0/iocBoot/ioc-las-xcs-phase-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/las/ims/R0.4.0/bin/linux-x86/motion"
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0/iocBoot/ioc-las-xcs-phase-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0/bin/linux-x86/motion"
     },
     {
         "host": "ioc-las-xcs-srv04",
@@ -10429,14 +10429,14 @@
     {
         "host": "ioc-las-xcs-srv04",
         "port": 42001,
-        "dir": "ioc/las/sr620/R1.1.1",
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/sr620/R1.1.1",
         "history": [
             "ioc/las/sr620/R1.0.2"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-xcs-sr620-01",
-        "script": "/reg/g/pcds/epics/ioc/las/sr620/R1.1.1/build/iocBoot/ioc-las-xcs-sr620-01/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/sr620/R1.1.1/build/iocBoot/ioc-las-xcs-sr620-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/sr620/R0.9.2/bin/linux-x86/sr620"
     },
     {
