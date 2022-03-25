@@ -1609,11 +1609,11 @@
     {
         "host": "ctl-las-lhn-01",
         "port": 30300,
-        "dir": "ioc/las/ek9000/R1.0.2",
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ek9000/ek9000-git",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-bhc-01",
-        "script": "/reg/g/pcds/epics/ioc/las/ek9000/R1.0.2/build/iocBoot/ioc-las-lhn-bhc-01/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ek9000/ek9000-git/build/iocBoot/ioc-las-lhn-bhc-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.3.1/bin/rhel7-x86_64/ek9000IOC"
     },
     {
@@ -1690,12 +1690,12 @@
     {
         "host": "ctl-las-lhn-01",
         "port": 30504,
-        "dir": "ioc/las/vitara/R2.16.1",
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/vitara/vitara-git",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-vitara01",
-        "script": "/reg/g/pcds/epics/ioc/las/vitara/R2.16.1/iocBoot/ioc-las-lhn-vitara01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/las/vitara/R2.16.1/bin/rhel7-x86_64/vitara"
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/vitara/vitara-git/iocBoot/ioc-las-lhn-vitara01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/vitara/vitara-git/bin/rhel7-x86_64/vitara"
     },
     {
         "host": "ctl-las-lhn-01",
