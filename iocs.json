@@ -1034,26 +1034,6 @@
     },
     {
         "host": "ctl-las-ip1-srv01",
-        "port": 30002,
-        "dir": "/cds/home/t/tjohnson/trunk/las/gigECam",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-inj-gige-ff-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/gigECam/build/iocBoot/ioc-lm1k4-inj-gige-ff-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-ip1-srv01",
-        "port": 30001,
-        "dir": "/cds/home/t/tjohnson/trunk/las/gigECam",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-inj-gige-nf-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/gigECam/build/iocBoot/ioc-lm1k4-inj-gige-nf-01/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/gigECam/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-ip1-srv01",
         "port": 30012,
         "dir": "/cds/home/t/tjohnson/trunk/las/qmini",
         "base_version": "3.15",
@@ -1585,6 +1565,26 @@
         "name": "ioc-tst-gmd-01",
         "script": "/cds/home/t/tjohnson/trunk/fakeGmd/children/build/iocBoot/ioc-tst-gmd-01/st.cmd",
         "binary": "/cds/home/t/tjohnson/trunk/fakeGmd/bin/rhel7-x86_64/fakeGmd"
+    },
+    {
+        "host": "ctl-las-ip1-srv07",
+        "port": 30002,
+        "dir": "/cds/home/t/tjohnson/trunk/las/gigECam",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-inj-gige-ff-01",
+        "script": "/cds/home/t/tjohnson/trunk/las/gigECam/build/iocBoot/ioc-lm1k4-inj-gige-ff-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-ip1-srv07",
+        "port": 30001,
+        "dir": "/cds/home/t/tjohnson/trunk/las/gigECam",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-inj-gige-nf-01",
+        "script": "/cds/home/t/tjohnson/trunk/las/gigECam/build/iocBoot/ioc-lm1k4-inj-gige-nf-01/st.cmd",
+        "binary": "/cds/home/t/tjohnson/trunk/common/gigECam/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lhn-01",
