@@ -19703,7 +19703,7 @@
     {
         "host": "ioc-xpp-rob01",
         "port": 30158,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/pvNotepad",
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/pvNotepad",
         "alias": "USR - PVs",
         "history": [
             "/reg/g/pcds/epics-dev/espov/ioc/xpp/pvNotepad/current",
@@ -19712,7 +19712,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-userPV",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/pvNotepad/build/iocBoot/ioc-xpp-userPV/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/pvNotepad/build/iocBoot/ioc-xpp-userPV/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1/bin/linux-x86_64/pvNotepad"
     },
     {
