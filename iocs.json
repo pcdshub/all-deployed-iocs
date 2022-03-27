@@ -16567,7 +16567,7 @@
     {
         "host": "ioc-xcs-gige01",
         "port": 32516,
-        "dir": "/reg/neh/home/jjoshi/xcs",
+        "dir": "ioc/xcs/gigECam/R1.2.6",
         "alias": "CAM - Gige 16 - Yag 4",
         "history": [
             "/reg/neh/home4/rajan-01/checkouts/epics/xcs/gigECam/current"
@@ -16575,7 +16575,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-16",
-        "script": "/reg/neh/home/jjoshi/xcs/build/iocBoot/ioc-xcs-gige-16/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R1.2.6/build/iocBoot/ioc-xcs-gige-16/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R2.7.1/bin/linux-x86_64/gige"
     },
     {
