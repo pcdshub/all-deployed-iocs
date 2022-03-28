@@ -12962,6 +12962,7 @@
         "host": "ioc-mfx-cam02",
         "port": 34917,
         "dir": "ioc/mfx/gigECam/R0.5.5",
+        "disable": true,
         "alias": "CAM - GigE 03",
         "history": [
             "ioc/mfx/gigECam/R0.5.3",
@@ -17440,7 +17441,6 @@
         "host": "ioc-xcs-rec02",
         "port": 32516,
         "dir": "/reg/neh/home4/jjoshi/xcs",
-        "disable": true,
         "alias": "CAM - Gige 16 - Yag 4",
         "history": [
             "/reg/neh/home4/rajan-01/checkouts/epics/xcs/gigECam/current"
