@@ -3139,12 +3139,12 @@
     {
         "host": "ctl-tmo-misc-01",
         "port": 35891,
-        "dir": "ioc/tmo/ek9000/R1.0.1",
+        "dir": "ioc/tmo/ek9000/R1.0.3",
         "alias": "PEPPEX EK9000",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-bhc-peppex",
-        "script": "/reg/g/pcds/epics/ioc/tmo/ek9000/R1.0.1/children/build/iocBoot/ioc-bhc-peppex/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/tmo/ek9000/R1.0.3/children/build/iocBoot/ioc-bhc-peppex/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/bosum123/ek9000_tmo/bin/rhel7-x86_64/ek9000IOC"
     },
     {
