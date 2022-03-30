@@ -15694,6 +15694,7 @@
         "host": "ioc-tst-13",
         "port": 35766,
         "dir": "ioc/tmo/ek9000/R1.0.0",
+        "disable": true,
         "alias": "Peppex EK9000",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
