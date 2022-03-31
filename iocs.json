@@ -3109,6 +3109,16 @@
         "binary": "/reg/g/pcds/epics-dev/janezg/lakeshore335/current/bin/rhel7-x86_64/lakeshore335"
     },
     {
+        "host": "ctl-tmo-cam-02",
+        "port": 38300,
+        "dir": "/reg/g/pcds/epics-dev/janezg/tmo/thermocon/current",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-tmo-thermocon",
+        "script": "/reg/g/pcds/epics-dev/janezg/tmo/thermocon/current/build/iocBoot/ioc-tmo-thermocon/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/janezg/thermocon/current/bin/rhel7-x86_64/thermocon"
+    },
+    {
         "host": "ctl-tmo-fim-01",
         "port": 30001,
         "dir": "ioc/common/pgpWave8/R1.5.0",
@@ -16601,16 +16611,12 @@
     },
     {
         "host": "ioc-xcs-gige01",
-        "port": 32519,
-        "dir": "ioc/xcs/gigECam/R1.2.6",
-        "alias": "CAM - Gige 19",
-        "history": [
-            "ioc/xcs/gigECam/R1.2.6"
-        ],
+        "port": 36037,
+        "dir": "/reg/g/pcds/epics-dev/spencera/xcs/gigECam/build",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-19",
-        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R1.2.6/build/iocBoot/ioc-xcs-gige-19/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/spencera/xcs/gigECam/build/iocBoot/ioc-xcs-gige-19/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.4/bin/linux-x86_64/gige"
     },
     {
