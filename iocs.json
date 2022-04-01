@@ -4101,7 +4101,6 @@
         "host": "daq-mec-cam01",
         "port": 30010,
         "dir": "/reg/g/pcds/epics-dev/nrw/iocs/epix/current",
-        "disable": true,
         "alias": "Epix Det 0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
