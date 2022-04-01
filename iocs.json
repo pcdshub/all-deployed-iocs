@@ -17575,7 +17575,6 @@
         "host": "ioc-xcs-rec03",
         "port": 32510,
         "dir": "ioc/xcs/gigECam/R1.2.5",
-        "disable": true,
         "alias": "CAM - Gige Periscope 02",
         "history": [
             "ioc/xcs/gigECam/R1.1.0"
@@ -17590,7 +17589,6 @@
         "host": "ioc-xcs-rec03",
         "port": 32511,
         "dir": "ioc/xcs/gigECam/R1.1.0",
-        "disable": true,
         "alias": "CAM - Gige Periscope 03",
         "history": [
             "ioc/xcs/gigECam/R1.1.0"
