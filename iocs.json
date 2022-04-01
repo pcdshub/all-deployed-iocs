@@ -3083,7 +3083,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-gcip2",
         "script": "/reg/g/pcds/epics-dev/janezg/tmo/hpm900IP2/build/iocBoot/ioc-tmo-gcip2/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/janezg/hpm900/current/bin/rhel7-x86_64/hpm900"
+        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-tmo-gas-cabinet/current/bin/rhel7-x86_64/hpm900"
     },
     {
         "host": "ctl-tmo-cam-02",
@@ -3093,7 +3093,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-hpm900",
         "script": "/reg/g/pcds/epics-dev/janezg/tmo/hpm900IP1/build/iocBoot/ioc-tmo-hpm900/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/janezg/hpm900/current/bin/rhel7-x86_64/hpm900"
+        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-tmo-gas-cabinet/current/bin/rhel7-x86_64/hpm900"
     },
     {
         "host": "ctl-tmo-cam-02",
@@ -3116,7 +3116,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-thermocon",
         "script": "/reg/g/pcds/epics-dev/janezg/tmo/thermocon/current/build/iocBoot/ioc-tmo-thermocon/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/janezg/thermocon/current/bin/rhel7-x86_64/thermocon"
+        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-tmo-kbo-chiller/current/bin/rhel7-x86_64/thermocon"
     },
     {
         "host": "ctl-tmo-fim-01",
