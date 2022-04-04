@@ -4344,7 +4344,7 @@
     {
         "host": "daq-xcs-pgp01",
         "port": 35001,
-        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/epix",
+        "dir": "/reg/g/pcds/epics-dev/jjoshi/xcs_dir/epix/current",
         "history": [
             "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/epix",
             "/reg/g/pcds/epics-dev/jjoshi/xcs_dir/epix/current"
@@ -4352,7 +4352,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-epix1",
-        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/epix/build/iocBoot/ioc-xcs-epix1/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/jjoshi/xcs_dir/epix/current/build/iocBoot/ioc-xcs-epix1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.0.3/bin/rhel7-x86_64/epixMonIoc"
     },
     {
@@ -4400,6 +4400,7 @@
         "host": "daq-xcs-pgp02",
         "port": 31000,
         "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/epix",
+        "disable": true,
         "history": [
             "/reg/g/pcds/epics-dev/jjoshi/xcs_dir/epix/current",
             "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/epix",
@@ -17469,6 +17470,7 @@
         "host": "ioc-xcs-rec02",
         "port": 32560,
         "dir": "/cds/home/j/jjoshi/xcs",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-lj1",
@@ -17479,6 +17481,7 @@
         "host": "ioc-xcs-rec02",
         "port": 32561,
         "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam",
+        "disable": true,
         "history": [
             "/cds/home/j/jjoshi/xcs"
         ],
@@ -17492,6 +17495,7 @@
         "host": "ioc-xcs-rec02",
         "port": 32563,
         "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam",
+        "disable": true,
         "history": [
             "/cds/home/j/jjoshi/xcs"
         ],
