@@ -464,7 +464,7 @@
     {
         "host": "ctl-kfe-mot-01",
         "port": 30103,
-        "dir": "/reg/g/pcds/epics/ioc/tmo/lcls-plc-tmo-optics/v1.2.1/iocBoot/ioc-tmo-optics/",
+        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-tmo-optics/iocBoot/ioc-tmo-optics/",
         "history": [
             "/reg/g/pcds/epics-dev/awallace/lcls-plc-tmo-optics",
             "/reg/g/pcds/epics-dev/sfsyunus/lcls-plc-tmo-optics",
@@ -473,7 +473,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-tmo-optics",
-        "script": "/reg/g/pcds/epics/ioc/tmo/lcls-plc-tmo-optics/v1.2.1/iocBoot/ioc-tmo-optics/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-tmo-optics/iocBoot/ioc-tmo-optics/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.3.1/bin/rhel7-x86_64/adsIoc"
     },
     {
@@ -12829,6 +12829,7 @@
         "host": "ioc-mfx-cam01",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam",
+        "disable": true,
         "alias": "CAM - GigE 06",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
@@ -12899,6 +12900,7 @@
         "host": "ioc-mfx-cam02",
         "port": 30095,
         "dir": "ioc/mfx/delaygen/R1.0.0",
+        "disable": true,
         "alias": "DELAYGEN - LBL - 01",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
@@ -13726,6 +13728,7 @@
         "host": "ioc-mfx-wave8",
         "port": 30096,
         "dir": "ioc/mfx/delaygen/R1.0.0",
+        "disable": true,
         "alias": "DELAYGEN - LBL - 02",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
@@ -13737,6 +13740,7 @@
         "host": "ioc-mfx-wave8",
         "port": 30090,
         "dir": "ioc/mfx/delaygen/R1.0.0",
+        "disable": true,
         "alias": "DELAYGEN - MFX",
         "history": [
             "/reg/neh/home/sheppard/ioc/mfx/dg/current"
@@ -13783,6 +13787,7 @@
         "host": "ioc-mfx-wave8",
         "port": 30071,
         "dir": "ioc/mfx/gigECam/R0.5.5",
+        "disable": true,
         "alias": "CAM - GigE LBL 01 Inline",
         "history": [
             "ioc/mfx/gigECam/R0.5.3"
@@ -13797,6 +13802,7 @@
         "host": "ioc-mfx-wave8",
         "port": 30083,
         "dir": "ioc/mfx/gigECam/R0.5.5",
+        "disable": true,
         "alias": "CAM - GigE LBL 02 Side",
         "history": [
             "ioc/mfx/gigECam/R0.5.3"
@@ -13811,6 +13817,7 @@
         "host": "ioc-mfx-wave8",
         "port": 30085,
         "dir": "ioc/mfx/gigECam/R0.5.5",
+        "disable": true,
         "alias": "CAM - GigE LBL 03 Meniscus",
         "history": [
             "ioc/mfx/gigECam/R0.5.3"
@@ -13938,6 +13945,7 @@
         "host": "ioc-mfx-wave8",
         "port": 32503,
         "dir": "ioc/mfx/NewportXPS8/R2.1.0",
+        "disable": true,
         "alias": "USR - Motion Newport LBL",
         "history": [
             "/reg/neh/home/sheppard/ioc/mfx/NewportXPS8/current"
