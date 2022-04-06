@@ -2028,6 +2028,16 @@
     },
     {
         "host": "ctl-lfe-misc-01",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/dosfet/current",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/lfe/iocmanager.cfg",
+        "name": "ioc-fee-dosfet-01",
+        "script": "/reg/g/pcds/epics-dev/nrw/iocs/dosfet/current/children/build/iocBoot/ioc-fee-dosfet-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/nrw/iocs/dosfet/current/bin/rhel7-x86_64/dosfet"
+    },
+    {
+        "host": "ctl-lfe-misc-01",
         "port": 30016,
         "dir": "ioc/lfe/lcls-plc-lfe-arbiter/v2.0.0/iocBoot/ioc-ArbiterPLC",
         "alias": "LFE Arbiter",
@@ -15760,7 +15770,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-dosfet-01",
         "script": "/reg/g/pcds/epics-dev/nrw/iocs/dosfet/current/children/build/iocBoot/ioc-dosfet-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/nrw/iocs/dosfet/current/bin/rhel7-x86_64/dosfet"
+        "binary": null
     },
     {
         "host": "ioc-tst-13",
