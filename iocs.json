@@ -2998,6 +2998,17 @@
     },
     {
         "host": "ctl-tmo-cam-01",
+        "port": 35981,
+        "dir": "ioc/tmo/gigEcam/R1.0.3",
+        "alias": "PEPPEX GIGE 01",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-cam-peppex-01",
+        "script": "/reg/g/pcds/epics/ioc/tmo/gigEcam/R1.0.3/build/iocBoot/ioc-cam-peppex-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.1/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-tmo-cam-01",
         "port": 30215,
         "dir": "/reg/g/pcds/epics-dev/tongju/tmo/gigEcam",
         "history": [
