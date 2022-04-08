@@ -7261,8 +7261,7 @@
         "host": "ioc-cxi-usr1",
         "port": 30031,
         "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/common/mks670b/current",
-        "disable": true,
-        "alias": "SDS Cap Mano",
+        "alias": "SDS Cap Mano Baratron",
         "history": [
             "/reg/g/pcds/package/epics/3.14-dev/ioc/common/mks670b/current"
         ],
@@ -7352,8 +7351,7 @@
         "host": "ioc-cxi-usr1",
         "port": 30030,
         "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/common/rvc300/current",
-        "disable": true,
-        "alias": "zz - SDS Needle Valve",
+        "alias": "SDS Needle Valve",
         "history": [
             "/reg/g/pcds/package/epics/3.14-dev/ioc/common/rvc300/current"
         ],
@@ -16044,7 +16042,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-xpp-portable-jjslit-motion",
         "script": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/lcls-plc-xpp-jjslit-motion/lcls-plc-xpp-jjslit-motion/iocBoot/ioc-xpp-portable-jjslit-motion/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.4.1/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ioc-tst-evg",
