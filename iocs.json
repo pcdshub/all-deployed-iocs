@@ -10393,6 +10393,7 @@
         "host": "ioc-las-srv01",
         "port": 30011,
         "dir": "ioc/common/Leviton/R1.23.0",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-pwr1",
@@ -20959,7 +20960,7 @@
         "binary": "/reg/g/pcds/epics/ioc/common/usdusb4/R1.0.4/bin/linux-x86_64/usdusb4"
     },
     {
-        "host": "ioc-xrt-mxtmirror",
+        "host": "ioc-xrt-rec01",
         "port": 39103,
         "dir": "ioc/xrt/ims/R2.2.7",
         "alias": "MEC-XCS-CXI common YAG0 motion",
