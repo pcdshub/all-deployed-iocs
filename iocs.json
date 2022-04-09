@@ -6521,20 +6521,6 @@
     },
     {
         "host": "ioc-cxi-qadc",
-        "port": 30030,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/rvc300",
-        "alias": "SDS Needle Valve",
-        "history": [
-            "/reg/g/pcds/package/epics/3.14-dev/ioc/common/rvc300/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-rvc300",
-        "script": "/reg/g/pcds/epics-dev/pennebak/git/cxi/rvc300/iocBoot/ioc-cxi-rvc300/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/pennebak/git/cxi/rvc300/bin/linux-x86/rvc300"
-    },
-    {
-        "host": "ioc-cxi-qadc",
         "port": 39876,
         "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/pvNotepad",
         "alias": "MISC - USER PVs",
@@ -7362,6 +7348,20 @@
         "name": "ioc-cxi-qst",
         "script": "/reg/g/pcds/epics/ioc/common/questar/R0.2.0-0.3.0/iocBoot/ioc-cxi-qst/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/questar/R0.2.0-0.3.0/bin/linux-x86_64/qstar"
+    },
+    {
+        "host": "ioc-cxi-usr1",
+        "port": 30030,
+        "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/rvc300",
+        "alias": "SDS Needle Valve",
+        "history": [
+            "/reg/g/pcds/package/epics/3.14-dev/ioc/common/rvc300/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-rvc300",
+        "script": "/reg/g/pcds/epics-dev/pennebak/git/cxi/rvc300/iocBoot/ioc-cxi-rvc300/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/pennebak/git/cxi/rvc300/bin/linux-x86/rvc300"
     },
     {
         "host": "ioc-cxi-usr1",
