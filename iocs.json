@@ -7262,7 +7262,7 @@
     {
         "host": "ioc-cxi-usr1",
         "port": 30031,
-        "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/common/mks670b/current",
+        "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/mks670b",
         "alias": "SDS Cap Mano Baratron",
         "history": [
             "/reg/g/pcds/package/epics/3.14-dev/ioc/common/mks670b/current"
@@ -7270,8 +7270,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-mks670b",
-        "script": "/reg/g/pcds/package/epics/3.14-dev/ioc/common/mks670b/current/iocBoot/ioc-cxi-mks670b/st.cmd",
-        "binary": "/reg/g/pcds/package/epics/3.14-dev/ioc/common/mks670b/current/bin/linux-x86_64/mks670b"
+        "script": "/reg/g/pcds/epics-dev/pennebak/git/cxi/mks670b/iocBoot/ioc-cxi-mks670b/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/pennebak/git/cxi/mks670b/bin/linux-x86_64/mks670b"
     },
     {
         "host": "ioc-cxi-usr1",
