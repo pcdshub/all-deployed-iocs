@@ -10405,6 +10405,7 @@
         "host": "ioc-las-srv01",
         "port": 42003,
         "dir": "ioc/common/sim900/R0.1.0",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-sim900-01",
