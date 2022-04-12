@@ -3446,14 +3446,14 @@
     {
         "host": "ctl-tmo-misc-01",
         "port": 33625,
-        "dir": "ioc/tmo/BK-Precision/R1.0.0",
+        "dir": "/reg/g/pcds/epics-dev/bosum123/BK_git",
         "history": [
             "ioc/tmo/BK-Precision/R1.0.0"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-lamp-BK",
-        "script": "/reg/g/pcds/epics/ioc/tmo/BK-Precision/R1.0.0/build/iocBoot/ioc-tmo-lamp-BK/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/bosum123/BK_git/build/iocBoot/ioc-tmo-lamp-BK/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/BK-Precision/R1.1.1/bin/rhel7-x86_64/BK-Precision"
     },
     {
