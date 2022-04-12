@@ -13687,6 +13687,7 @@
         "host": "ioc-mfx-usr01",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/cryojet",
+        "disable": true,
         "alias": "USR - XCS Cryojet",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
