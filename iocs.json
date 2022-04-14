@@ -17910,6 +17910,17 @@
     },
     {
         "host": "ioc-xcs-user1",
+        "port": 35764,
+        "dir": "/reg/g/pcds/epics-dev/spencera/common/cryojet",
+        "alias": "Mobile Cryojet 2",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-mob-cryojet-02",
+        "script": "/reg/g/pcds/epics-dev/spencera/common/cryojet/iocBoot/ioc-mob-cryojet-02/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/spencera/common/cryojet/bin/rhel7-x86_64/cryojet"
+    },
+    {
+        "host": "ioc-xcs-user1",
         "port": 30200,
         "dir": "/reg/g/pcds/epics-dev/spencera/xcs.svn/BK-Precision/current",
         "alias": "USR - BK Precision",
