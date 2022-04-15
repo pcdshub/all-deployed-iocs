@@ -3365,19 +3365,6 @@
     },
     {
         "host": "ctl-tmo-misc-01",
-        "port": 38672,
-        "dir": "/reg/g/pcds/epics-dev/payers/ioc/coupler/current",
-        "history": [
-            "/reg/g/pcds/epics-dev/payers/ioc/coupler/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-tmo-coupler",
-        "script": "/reg/g/pcds/epics-dev/payers/ioc/coupler/current/children/build/iocBoot/ioc-tmo-coupler/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/payers/ioc/coupler/current/bin/rhel7-x86_64/coupler"
-    },
-    {
-        "host": "ctl-tmo-misc-01",
         "port": 19833,
         "dir": "/cds/home/a/adpai/Documents/ioc/xcs/BK-Precision/current",
         "history": [
@@ -10017,20 +10004,6 @@
         "name": "ioc-las-fiberOven",
         "script": "/reg/g/pcds/epics/ioc/las/fiberOven/R3.1.1/iocBoot/ioc-las-fiberOven/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/las/fiberOven/R3.1.1/bin/linux-x86/fiberOven"
-    },
-    {
-        "host": "ioc-las-mec-evr02",
-        "port": 39101,
-        "dir": "ioc/mec/usrevr/R1.14.0",
-        "alias": "EVR -- long pulse laser",
-        "history": [
-            "ioc/mec/usrevr/R1.14.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-las-mec-evr02",
-        "script": "/reg/g/pcds/epics/ioc/mec/usrevr/R1.14.0/iocBoot/ioc-las-mec-evr02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/mec/usrevr/R1.14.0/bin/linux-x86_64/evr"
     },
     {
         "host": "ioc-las-mec-evr03",
