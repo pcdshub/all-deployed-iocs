@@ -16852,190 +16852,12 @@
     },
     {
         "host": "ioc-xcs-mot1",
-        "port": 30513,
-        "dir": "ioc/xcs/ims/R6.0.2",
-        "alias": "DG3 - IPM Motion",
-        "history": [
-            "ioc/xcs/ims/R6.0.2"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-dg3-ipm-ims",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-dg3-ipm-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xcs-mot1",
-        "port": 30412,
-        "dir": "ioc/xcs/ims/R6.0.2",
-        "alias": "DG3 - Slit 3 Motion",
-        "history": [
-            "ioc/xcs/ims/R6.0.2",
-            "ioc/xcs/ims/R2.0.0",
-            "ioc/xcs/ims/R1.0.1"
-        ],
-        "delay": 30,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-dg3-slit02-ims",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-dg3-slit02-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xcs-mot1",
-        "port": 30430,
-        "dir": "ioc/xcs/ims/R6.0.2",
-        "alias": "GON - Gon Motion",
-        "history": [
-            "ioc/xcs/ims/R6.0.2",
-            "ioc/xcs/ims/R2.0.0",
-            "ioc/xcs/ims/R1.0.1"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-gon-gon01-ims",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-gon-gon01-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xcs-mot1",
-        "port": 31431,
-        "dir": "ioc/xcs/ims/R6.0.2",
-        "alias": "GON - LD Slits Motion",
-        "history": [
-            "ioc/xcs/ims/R6.0.2",
-            "ioc/xcs/ims/R2.0.0",
-            "ioc/xcs/ims/R1.0.1"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-gon-jjslit-ims",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-gon-jjslit-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xcs-mot1",
-        "port": 30441,
-        "dir": "ioc/xcs/ims/R6.0.2",
-        "alias": "GON - PIM",
-        "history": [
-            "ioc/xcs/ims/R6.0.2"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-gon-pim-ims",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-gon-pim-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xcs-mot1",
         "port": 30439,
         "dir": "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-ladm01",
         "script": "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current/build/iocBoot/ioc-xcs-ladm01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
-    },
-    {
-        "host": "ioc-xcs-mot1",
-        "port": 30434,
-        "dir": "ioc/xcs/ims/R6.0.2",
-        "alias": "LADM - Beamstops Motion",
-        "history": [
-            "ioc/xcs/ims/R6.0.2",
-            "ioc/xcs/ims/R2.0.0",
-            "ioc/xcs/ims/R1.0.1"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-lam-beamstop01-ims",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-lam-beamstop01-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xcs-mot1",
-        "port": 30433,
-        "dir": "ioc/xcs/ims/R6.0.2",
-        "alias": "LADM - Detector Stage Motion",
-        "history": [
-            "ioc/xcs/ims/R6.0.2",
-            "ioc/xcs/ims/R2.0.0",
-            "ioc/xcs/ims/R1.0.1"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-lam-dettrans-ims",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-lam-dettrans-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xcs-mot1",
-        "port": 30432,
-        "dir": "ioc/xcs/ims/R6.0.2",
-        "alias": "LADM - Mover Motion",
-        "history": [
-            "ioc/xcs/ims/R6.0.2",
-            "ioc/xcs/ims/R2.0.0",
-            "ioc/xcs/ims/R1.0.1"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-lam-ladm01-ims",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-lam-ladm01-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xcs-mot1",
-        "port": 30437,
-        "dir": "ioc/xcs/ims/R6.0.2",
-        "alias": "LADM - LD YAG Navitar Motion",
-        "history": [
-            "ioc/xcs/ims/R6.0.2",
-            "ioc/xcs/ims/R2.0.0",
-            "ioc/xcs/ims/R1.0.1"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-lam-nav-ims",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-lam-nav-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xcs-mot1",
-        "port": 30436,
-        "dir": "ioc/xcs/ims/R6.0.2",
-        "alias": "LADM - LD Slits Motion",
-        "history": [
-            "ioc/xcs/ims/R6.0.2",
-            "ioc/xcs/ims/R2.0.0",
-            "ioc/xcs/ims/R1.0.1"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-lam-slit01-ims",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-lam-slit01-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xcs-mot1",
-        "port": 32053,
-        "dir": "ioc/xcs/NewportXPS8/R2.0.1/build",
-        "alias": "LAS - Newport 1",
-        "history": [
-            "/reg/g/pcds/epics-dev/spencera/xcs/NewportXPS8/build"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-las01",
-        "script": "/reg/g/pcds/epics/ioc/xcs/NewportXPS8/R2.0.1/build/iocBoot/ioc-xcs-las01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
     },
     {
@@ -17048,53 +16870,6 @@
         "name": "ioc-xcs-las02",
         "script": "/reg/g/pcds/epics/ioc/xcs/NewportXPS8/R2.0.1/build/iocBoot/ioc-xcs-las02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
-    },
-    {
-        "host": "ioc-xcs-mot1",
-        "port": 39100,
-        "dir": "ioc/xcs/ims/R6.0.2",
-        "alias": "MON - CCM Motion",
-        "history": [
-            "ioc/xcs/ims/R6.0.2",
-            "ioc/xcs/ims/R1.0.1"
-        ],
-        "delay": 10,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-mon-ims",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-mon-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xcs-mot1",
-        "port": 39105,
-        "dir": "ioc/xcs/ims/R6.0.2",
-        "alias": "MON - DSCAM Y Motion",
-        "history": [
-            "ioc/xcs/ims/R6.0.2"
-        ],
-        "delay": 10,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-pbt-mon-ims",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-pbt-mon-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xcs-mot1",
-        "port": 30155,
-        "dir": "ioc/xcs/ims/R6.0.2",
-        "alias": "PBT - PIM Motion",
-        "history": [
-            "ioc/xcs/ims/R6.0.2",
-            "ioc/xcs/ims/R2.3.6",
-            "ioc/xcs/ims/R2.3.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-pbt-pim-ims",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-pbt-pim-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xcs-mot1",
@@ -17128,20 +16903,6 @@
     },
     {
         "host": "ioc-xcs-mot1",
-        "port": 30517,
-        "dir": "ioc/xcs/ims/R6.0.2",
-        "alias": "SB1 - IPM4 Motion",
-        "history": [
-            "ioc/xcs/ims/R6.0.2"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-sb1-ipm-ims",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-sb1-ipm-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xcs-mot1",
         "port": 34501,
         "dir": "ioc/common/picoMotion/R1.0.16",
         "alias": "SB1 - Ref Laser Pico",
@@ -17157,159 +16918,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/picoMotion/R1.0.16/bin/linux-x86/motion"
     },
     {
-        "host": "ioc-xcs-mot1",
-        "port": 30418,
-        "dir": "ioc/xcs/ims/R6.0.2",
-        "alias": "SB1 - YAG4 Motion",
-        "history": [
-            "ioc/xcs/ims/R6.0.2",
-            "/reg/neh/home/snelson/work/xcs/ims/current",
-            "/reg/neh/home4/rajan-01/checkouts/epics/xcs/ims/current",
-            "ioc/xcs/ims/R1.0.1"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-sb1-pim-ims",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-sb1-pim-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xcs-mot1",
-        "port": 34500,
-        "dir": "ioc/xcs/ims/R6.0.2",
-        "alias": "SB1 - Ref Laser Motion",
-        "history": [
-            "ioc/xcs/ims/R6.0.2",
-            "/reg/neh/home4/rajan-01/checkouts/epics/xcs/ims/current",
-            "ioc/xcs/ims/R1.0.1"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-sb1-ref-ims",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-sb1-ref-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xcs-mot1",
-        "port": 30416,
-        "dir": "ioc/xcs/ims/R6.0.2",
-        "alias": "SB1 - Slit 4 Motion",
-        "history": [
-            "ioc/xcs/ims/R6.0.2",
-            "/reg/neh/home4/rajan-01/checkouts/epics/xcs/ims/current",
-            "ioc/xcs/ims/R1.0.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-sb1-slit01-ims",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-sb1-slit01-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xcs-mot1",
-        "port": 30528,
-        "dir": "ioc/xcs/ims/R6.0.2",
-        "alias": "SB2 - IPM5 Motion",
-        "history": [
-            "ioc/xcs/ims/R6.0.2",
-            "/reg/g/pcds/epics-dev/pennebak/xcs/ims/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-sb2-ipm-ims",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-sb2-ipm-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xcs-mot1",
-        "port": 30429,
-        "dir": "ioc/xcs/ims/R6.0.2",
-        "alias": "SB2 - YAG5 Motion",
-        "history": [
-            "ioc/xcs/ims/R6.0.2",
-            "ioc/xcs/ims/R2.3.2",
-            "ioc/xcs/ims/R2.3.0",
-            "/reg/neh/home/snelson/work/xcs/ims/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-sb2-pim-ims",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-sb2-pim-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xcs-mot1",
-        "port": 30427,
-        "dir": "ioc/xcs/ims/R6.0.2",
-        "alias": "SB2 - Attenuator Motion",
-        "history": [
-            "ioc/xcs/ims/R6.0.2",
-            "ioc/xcs/ims/R2.0.0",
-            "ioc/xcs/ims/R1.0.1"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-sb2-ppatt01-ims",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-sb2-ppatt01-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xcs-mot1",
-        "port": 30426,
-        "dir": "ioc/xcs/ims/R6.0.2",
-        "alias": "SB2 - Slits 5 & 6 Motion",
-        "history": [
-            "ioc/xcs/ims/R6.0.2",
-            "ioc/xcs/ims/R2.3.0",
-            "ioc/xcs/ims/R2.0.0",
-            "ioc/xcs/ims/R1.0.1"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-sb2-slits-ims",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-sb2-slits-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xcs-mot1",
-        "port": 30421,
-        "dir": "ioc/xcs/ims/R6.0.2",
-        "alias": "SB2 - JJ Table Motion",
-        "history": [
-            "ioc/xcs/ims/R6.0.2",
-            "ioc/xcs/ims/R2.0.0",
-            "ioc/xcs/ims/R1.0.1"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-sb2-tabm2u-01-ims",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-sb2-tabm2u-01-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xcs-mot1",
-        "port": 30425,
-        "dir": "ioc/xcs/ims/R6.0.2",
-        "alias": "SB2 - Timetool",
-        "history": [
-            "ioc/xcs/ims/R6.0.2",
-            "ioc/xcs/ims/R2.3.6",
-            "ioc/xcs/ims/R2.3.2",
-            "ioc/xcs/ims/R2.3.1",
-            "ioc/xcs/ims/R2.2.2"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-sb2-timetool-ims",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-sb2-timetool-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
         "host": "ioc-xcs-mot2",
         "port": 32500,
         "dir": "/reg/g/pcds/epics-dev/spencera/plcs/vonhamos-motion/epics/cfg",
@@ -17320,6 +16928,37 @@
         "name": "ioc-mfx-vhs-01",
         "script": "/reg/g/pcds/epics-dev/spencera/plcs/vonhamos-motion/epics/cfg/build/iocBoot/ioc-mfx-vhs-01/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/spencera/plcs/vonhamos-motion/epics/ioc/bin/rhel7-x86_64/ads"
+    },
+    {
+        "host": "ioc-xcs-mot2",
+        "port": 30513,
+        "dir": "ioc/xcs/ims/R6.0.2",
+        "alias": "DG3 - IPM Motion",
+        "history": [
+            "ioc/xcs/ims/R6.0.2"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-dg3-ipm-ims",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-dg3-ipm-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xcs-mot2",
+        "port": 30412,
+        "dir": "ioc/xcs/ims/R6.0.2",
+        "alias": "DG3 - Slit 3 Motion",
+        "history": [
+            "ioc/xcs/ims/R6.0.2",
+            "ioc/xcs/ims/R2.0.0",
+            "ioc/xcs/ims/R1.0.1"
+        ],
+        "delay": 30,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-dg3-slit02-ims",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-dg3-slit02-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xcs-mot2",
@@ -17341,6 +16980,153 @@
     },
     {
         "host": "ioc-xcs-mot2",
+        "port": 30430,
+        "dir": "ioc/xcs/ims/R6.0.2",
+        "alias": "GON - Gon Motion",
+        "history": [
+            "ioc/xcs/ims/R6.0.2",
+            "ioc/xcs/ims/R2.0.0",
+            "ioc/xcs/ims/R1.0.1"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-gon-gon01-ims",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-gon-gon01-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xcs-mot2",
+        "port": 31431,
+        "dir": "ioc/xcs/ims/R6.0.2",
+        "alias": "GON - LD Slits Motion",
+        "history": [
+            "ioc/xcs/ims/R6.0.2",
+            "ioc/xcs/ims/R2.0.0",
+            "ioc/xcs/ims/R1.0.1"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-gon-jjslit-ims",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-gon-jjslit-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xcs-mot2",
+        "port": 30441,
+        "dir": "ioc/xcs/ims/R6.0.2",
+        "alias": "GON - PIM",
+        "history": [
+            "ioc/xcs/ims/R6.0.2"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-gon-pim-ims",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-gon-pim-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xcs-mot2",
+        "port": 30434,
+        "dir": "ioc/xcs/ims/R6.0.2",
+        "alias": "LADM - Beamstops Motion",
+        "history": [
+            "ioc/xcs/ims/R6.0.2",
+            "ioc/xcs/ims/R2.0.0",
+            "ioc/xcs/ims/R1.0.1"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-lam-beamstop01-ims",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-lam-beamstop01-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xcs-mot2",
+        "port": 30433,
+        "dir": "ioc/xcs/ims/R6.0.2",
+        "alias": "LADM - Detector Stage Motion",
+        "history": [
+            "ioc/xcs/ims/R6.0.2",
+            "ioc/xcs/ims/R2.0.0",
+            "ioc/xcs/ims/R1.0.1"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-lam-dettrans-ims",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-lam-dettrans-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xcs-mot2",
+        "port": 30432,
+        "dir": "ioc/xcs/ims/R6.0.2",
+        "alias": "LADM - Mover Motion",
+        "history": [
+            "ioc/xcs/ims/R6.0.2",
+            "ioc/xcs/ims/R2.0.0",
+            "ioc/xcs/ims/R1.0.1"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-lam-ladm01-ims",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-lam-ladm01-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xcs-mot2",
+        "port": 30437,
+        "dir": "ioc/xcs/ims/R6.0.2",
+        "alias": "LADM - LD YAG Navitar Motion",
+        "history": [
+            "ioc/xcs/ims/R6.0.2",
+            "ioc/xcs/ims/R2.0.0",
+            "ioc/xcs/ims/R1.0.1"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-lam-nav-ims",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-lam-nav-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xcs-mot2",
+        "port": 30436,
+        "dir": "ioc/xcs/ims/R6.0.2",
+        "alias": "LADM - LD Slits Motion",
+        "history": [
+            "ioc/xcs/ims/R6.0.2",
+            "ioc/xcs/ims/R2.0.0",
+            "ioc/xcs/ims/R1.0.1"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-lam-slit01-ims",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-lam-slit01-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xcs-mot2",
+        "port": 32053,
+        "dir": "ioc/xcs/NewportXPS8/R2.0.1/build",
+        "alias": "LAS - Newport 1",
+        "history": [
+            "/reg/g/pcds/epics-dev/spencera/xcs/NewportXPS8/build"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-las01",
+        "script": "/reg/g/pcds/epics/ioc/xcs/NewportXPS8/R2.0.1/build/iocBoot/ioc-xcs-las01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
+    },
+    {
+        "host": "ioc-xcs-mot2",
         "port": 30485,
         "dir": "/reg/g/pcds/epics-dev/spencera/plcs/lcls-plc-xcs-liquid-jet/ioc-xcs-ljh",
         "disable": true,
@@ -17350,6 +17136,220 @@
         "name": "ioc-xcs-ljh",
         "script": "/reg/g/pcds/epics-dev/spencera/plcs/lcls-plc-xcs-liquid-jet/ioc-xcs-ljh/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.2.5/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ioc-xcs-mot2",
+        "port": 39100,
+        "dir": "ioc/xcs/ims/R6.0.2",
+        "alias": "MON - CCM Motion",
+        "history": [
+            "ioc/xcs/ims/R6.0.2",
+            "ioc/xcs/ims/R1.0.1"
+        ],
+        "delay": 10,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-mon-ims",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-mon-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xcs-mot2",
+        "port": 39105,
+        "dir": "ioc/xcs/ims/R6.0.2",
+        "alias": "MON - DSCAM Y Motion",
+        "history": [
+            "ioc/xcs/ims/R6.0.2"
+        ],
+        "delay": 10,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-pbt-mon-ims",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-pbt-mon-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xcs-mot2",
+        "port": 30155,
+        "dir": "ioc/xcs/ims/R6.0.2",
+        "alias": "PBT - PIM Motion",
+        "history": [
+            "ioc/xcs/ims/R6.0.2",
+            "ioc/xcs/ims/R2.3.6",
+            "ioc/xcs/ims/R2.3.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-pbt-pim-ims",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-pbt-pim-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xcs-mot2",
+        "port": 30517,
+        "dir": "ioc/xcs/ims/R6.0.2",
+        "alias": "SB1 - IPM4 Motion",
+        "history": [
+            "ioc/xcs/ims/R6.0.2"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-sb1-ipm-ims",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-sb1-ipm-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xcs-mot2",
+        "port": 30418,
+        "dir": "ioc/xcs/ims/R6.0.2",
+        "alias": "SB1 - YAG4 Motion",
+        "history": [
+            "ioc/xcs/ims/R6.0.2",
+            "/reg/neh/home/snelson/work/xcs/ims/current",
+            "/reg/neh/home4/rajan-01/checkouts/epics/xcs/ims/current",
+            "ioc/xcs/ims/R1.0.1"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-sb1-pim-ims",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-sb1-pim-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xcs-mot2",
+        "port": 34500,
+        "dir": "ioc/xcs/ims/R6.0.2",
+        "alias": "SB1 - Ref Laser Motion",
+        "history": [
+            "ioc/xcs/ims/R6.0.2",
+            "/reg/neh/home4/rajan-01/checkouts/epics/xcs/ims/current",
+            "ioc/xcs/ims/R1.0.1"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-sb1-ref-ims",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-sb1-ref-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xcs-mot2",
+        "port": 30416,
+        "dir": "ioc/xcs/ims/R6.0.2",
+        "alias": "SB1 - Slit 4 Motion",
+        "history": [
+            "ioc/xcs/ims/R6.0.2",
+            "/reg/neh/home4/rajan-01/checkouts/epics/xcs/ims/current",
+            "ioc/xcs/ims/R1.0.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-sb1-slit01-ims",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-sb1-slit01-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xcs-mot2",
+        "port": 30528,
+        "dir": "ioc/xcs/ims/R6.0.2",
+        "alias": "SB2 - IPM5 Motion",
+        "history": [
+            "ioc/xcs/ims/R6.0.2",
+            "/reg/g/pcds/epics-dev/pennebak/xcs/ims/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-sb2-ipm-ims",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-sb2-ipm-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xcs-mot2",
+        "port": 30429,
+        "dir": "ioc/xcs/ims/R6.0.2",
+        "alias": "SB2 - YAG5 Motion",
+        "history": [
+            "ioc/xcs/ims/R6.0.2",
+            "ioc/xcs/ims/R2.3.2",
+            "ioc/xcs/ims/R2.3.0",
+            "/reg/neh/home/snelson/work/xcs/ims/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-sb2-pim-ims",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-sb2-pim-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xcs-mot2",
+        "port": 30427,
+        "dir": "ioc/xcs/ims/R6.0.2",
+        "alias": "SB2 - Attenuator Motion",
+        "history": [
+            "ioc/xcs/ims/R6.0.2",
+            "ioc/xcs/ims/R2.0.0",
+            "ioc/xcs/ims/R1.0.1"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-sb2-ppatt01-ims",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-sb2-ppatt01-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xcs-mot2",
+        "port": 30426,
+        "dir": "ioc/xcs/ims/R6.0.2",
+        "alias": "SB2 - Slits 5 & 6 Motion",
+        "history": [
+            "ioc/xcs/ims/R6.0.2",
+            "ioc/xcs/ims/R2.3.0",
+            "ioc/xcs/ims/R2.0.0",
+            "ioc/xcs/ims/R1.0.1"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-sb2-slits-ims",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-sb2-slits-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xcs-mot2",
+        "port": 30421,
+        "dir": "ioc/xcs/ims/R6.0.2",
+        "alias": "SB2 - JJ Table Motion",
+        "history": [
+            "ioc/xcs/ims/R6.0.2",
+            "ioc/xcs/ims/R2.0.0",
+            "ioc/xcs/ims/R1.0.1"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-sb2-tabm2u-01-ims",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-sb2-tabm2u-01-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xcs-mot2",
+        "port": 30425,
+        "dir": "ioc/xcs/ims/R6.0.2",
+        "alias": "SB2 - Timetool",
+        "history": [
+            "ioc/xcs/ims/R6.0.2",
+            "ioc/xcs/ims/R2.3.6",
+            "ioc/xcs/ims/R2.3.2",
+            "ioc/xcs/ims/R2.3.1",
+            "ioc/xcs/ims/R2.2.2"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-sb2-timetool-ims",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-sb2-timetool-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xcs-qadc",
