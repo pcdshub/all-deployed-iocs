@@ -4460,7 +4460,7 @@
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-alc-epix",
         "script": "/reg/g/pcds/epics-dev/pennebak/xpp/epix/current/build/iocBoot/ioc-xpp-alc-epix/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.0.3/bin/rhel7-x86_64/epixMonIoc"
+        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.4.5/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-xpp-pgp01",
