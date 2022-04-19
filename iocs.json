@@ -4466,6 +4466,7 @@
         "host": "daq-xpp-pgp01",
         "port": 30201,
         "dir": "/reg/g/pcds/epics-dev/snelson/xpp/epix/current",
+        "disable": true,
         "alias": "DET - MBL EPIX 1",
         "history": [
             "ioc/xpp/epix/R1.0.1",
