@@ -1817,12 +1817,11 @@
         "host": "ctl-las-lhn-04",
         "port": 30501,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-git",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-phase-ims-04",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-git/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-git/build/iocBoot/ioc-las-lhn-phase-ims-04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ctl-las-lhn-04",
@@ -10210,8 +10209,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-mfx-phase-ims-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-git/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-git/build/iocBoot/ioc-las-mfx-phase-ims-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-las-mfx-srv45",
@@ -10431,6 +10430,7 @@
         "host": "ioc-las-srv04",
         "port": 30501,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-rhel5",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-phase-ims04",
