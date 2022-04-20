@@ -10431,7 +10431,6 @@
         "host": "ioc-las-srv04",
         "port": 30501,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-rhel5",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-phase-ims04",
@@ -12809,17 +12808,6 @@
     },
     {
         "host": "ioc-mfx-cam01",
-        "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/git/mfx/gigECam",
-        "alias": "CAM - ICL CAM 01",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-gige-icl-cam01",
-        "script": "/reg/g/pcds/epics-dev/pennebak/git/mfx/gigECam/build/iocBoot/ioc-gige-icl-cam01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.4/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ioc-mfx-cam01",
         "port": 30087,
         "dir": "ioc/mfx/gigECam/R0.5.5",
         "alias": "CAM - DG3 YAG",
@@ -12851,7 +12839,6 @@
         "host": "ioc-mfx-cam01",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam",
-        "disable": true,
         "alias": "CAM - GigE 06",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
