@@ -3123,8 +3123,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-im540-tst",
-        "script": "/reg/g/pcds/epics-dev/janezg/tmo/im540/current/build/iocBoot/ioc-im540-tst/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-leyboldim540/current/bin/rhel7-x86_64/leyboldim540"
+        "script": "/reg/g/pcds/epics-dev/janezg/tmo/im540/current/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tmo-cam-02",
