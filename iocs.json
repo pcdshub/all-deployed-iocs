@@ -3118,6 +3118,16 @@
     },
     {
         "host": "ctl-tmo-cam-02",
+        "port": 38400,
+        "dir": "/reg/g/pcds/epics-dev/janezg/tmo/im540/current",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-im540-tst",
+        "script": "/reg/g/pcds/epics-dev/janezg/tmo/im540/current/build/iocBoot/ioc-im540-tst/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-leyboldim540/current/bin/rhel7-x86_64/leyboldim540"
+    },
+    {
+        "host": "ctl-tmo-cam-02",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/klauer/ioc-tst-expstate",
         "base_version": "3.15",
