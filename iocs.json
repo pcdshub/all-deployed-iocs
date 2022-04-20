@@ -3982,6 +3982,17 @@
         "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R1.6.0/bin/rhel7-x86_64/pgpWave8"
     },
     {
+        "host": "ctl-xpp-wave8",
+        "port": 30001,
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/pgpWave8",
+        "alias": "SB3 - WAVE8 NEW",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-sb3-pgpW8",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/pgpWave8/children/build/iocBoot/ioc-xpp-sb3-pgpW8/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/pgpWave8/bin/rhel7-x86_64/pgpWave8"
+    },
+    {
         "host": "cxi-control",
         "port": 31101,
         "dir": "/reg/g/pcds/pyps/cxi/dev/cxi/scripts/elogpost",
