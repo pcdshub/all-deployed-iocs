@@ -2933,7 +2933,7 @@
     {
         "host": "ctl-rix-vac-01",
         "port": 39101,
-        "dir": "ioc/common/expstate/R1.0.2",
+        "dir": "ioc/common/expstate/R1.0.5",
         "alias": "Experiment State Tracker",
         "history": [
             "ioc/common/expstate/R1.0.2"
@@ -2941,8 +2941,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-expstate",
-        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.2/children/build/iocBoot/ioc-rix-expstate/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.2/bin/rhel7-x86_64/expState"
+        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.5/children/build/iocBoot/ioc-rix-expstate/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.5/bin/rhel7-x86_64/expState"
     },
     {
         "host": "ctl-rix-vac-01",
@@ -3129,12 +3129,12 @@
     {
         "host": "ctl-tmo-cam-02",
         "port": 39100,
-        "dir": "ioc/common/expstate/R1.0.2",
+        "dir": "ioc/common/expstate/R1.0.5",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-expstate",
-        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.2/children/build/iocBoot/ioc-tmo-expstate/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.2/bin/rhel7-x86_64/expState"
+        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.5/children/build/iocBoot/ioc-tmo-expstate/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.5/bin/rhel7-x86_64/expState"
     },
     {
         "host": "ctl-tmo-cam-02",
@@ -5684,13 +5684,13 @@
     {
         "host": "ioc-cxi-misc1",
         "port": 30500,
-        "dir": "ioc/common/expstate/R1.0.2",
+        "dir": "ioc/common/expstate/R1.0.5",
         "alias": "Experiment State Tracker",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-expstate",
-        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.2/children/build/iocBoot/ioc-cxi-expstate/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.2/bin/rhel7-x86_64/expState"
+        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.5/children/build/iocBoot/ioc-cxi-expstate/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.5/bin/rhel7-x86_64/expState"
     },
     {
         "host": "ioc-cxi-misc1",
@@ -11913,13 +11913,13 @@
     {
         "host": "ioc-mec-misc01",
         "port": 30500,
-        "dir": "ioc/common/expstate/R1.0.2",
+        "dir": "ioc/common/expstate/R1.0.5",
         "alias": "Experiment State Tracker",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-expstate",
-        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.2/children/build/iocBoot/ioc-mec-expstate/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.2/bin/rhel7-x86_64/expState"
+        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.5/children/build/iocBoot/ioc-mec-expstate/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.5/bin/rhel7-x86_64/expState"
     },
     {
         "host": "ioc-mec-misc01",
@@ -13393,13 +13393,13 @@
     {
         "host": "ioc-mfx-misc01",
         "port": 30550,
-        "dir": "ioc/common/expstate/R1.0.2",
+        "dir": "ioc/common/expstate/R1.0.5",
         "alias": "Experiment State Tracker",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-expstate",
-        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.2/children/build/iocBoot/ioc-mfx-expstate/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.2/bin/rhel7-x86_64/expState"
+        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.5/children/build/iocBoot/ioc-mfx-expstate/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.5/bin/rhel7-x86_64/expState"
     },
     {
         "host": "ioc-mfx-misc01",
@@ -15924,12 +15924,12 @@
     {
         "host": "ioc-tst-13",
         "port": 39100,
-        "dir": "ioc/common/expstate/R1.0.2",
+        "dir": "ioc/common/expstate/R1.0.5",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-expstate",
-        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.2/children/build/iocBoot/ioc-tst-expstate/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.2/bin/rhel7-x86_64/expState"
+        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.5/children/build/iocBoot/ioc-tst-expstate/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.5/bin/rhel7-x86_64/expState"
     },
     {
         "host": "ioc-tst-13",
@@ -16754,12 +16754,12 @@
     {
         "host": "ioc-xcs-misc1",
         "port": 39100,
-        "dir": "ioc/common/expstate/R1.0.2",
+        "dir": "ioc/common/expstate/R1.0.5",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-expstate",
-        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.2/children/build/iocBoot/ioc-xcs-expstate/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.2/bin/rhel7-x86_64/expState"
+        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.5/children/build/iocBoot/ioc-xcs-expstate/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.5/bin/rhel7-x86_64/expState"
     },
     {
         "host": "ioc-xcs-misc1",
@@ -18963,12 +18963,12 @@
     {
         "host": "ioc-xpp-misc01",
         "port": 39100,
-        "dir": "ioc/common/expstate/R1.0.2",
+        "dir": "ioc/common/expstate/R1.0.5",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-expstate",
-        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.2/children/build/iocBoot/ioc-xpp-expstate/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.2/bin/rhel7-x86_64/expState"
+        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.5/children/build/iocBoot/ioc-xpp-expstate/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.5/bin/rhel7-x86_64/expState"
     },
     {
         "host": "ioc-xpp-mot01",
