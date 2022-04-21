@@ -17970,7 +17970,6 @@
         "host": "ioc-xcs-user1",
         "port": 31003,
         "dir": "/reg/g/pcds/epics-dev/spencera/common/cryojet",
-        "disable": true,
         "alias": "XCS Cryojet",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
