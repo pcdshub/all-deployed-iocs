@@ -464,7 +464,7 @@
     {
         "host": "ctl-kfe-mot-01",
         "port": 30103,
-        "dir": "/reg/g/pcds/epics/ioc/tmo/lcls-plc-tmo-optics/v2.0.0/iocBoot/ioc-tmo-optics/",
+        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-tmo-optics/iocBoot/ioc-tmo-optics/",
         "history": [
             "/reg/g/pcds/epics-dev/awallace/lcls-plc-tmo-optics",
             "/reg/g/pcds/epics-dev/sfsyunus/lcls-plc-tmo-optics",
@@ -473,8 +473,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-tmo-optics",
-        "script": "/reg/g/pcds/epics/ioc/tmo/lcls-plc-tmo-optics/v2.0.0/iocBoot/ioc-tmo-optics/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.3.1/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-tmo-optics/iocBoot/ioc-tmo-optics/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-kfe-vac-01",
@@ -3129,12 +3129,12 @@
     {
         "host": "ctl-tmo-cam-02",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/klauer/ioc-tst-expstate",
+        "dir": "ioc/common/expstate/R1.0.1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-expstate",
-        "script": "/reg/g/pcds/epics-dev/klauer/ioc-tst-expstate/build/iocBoot/ioc-tmo-expstate/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.0/bin/rhel7-x86_64/expState"
+        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.1/children/build/iocBoot/ioc-tmo-expstate/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.1/bin/rhel7-x86_64/expState"
     },
     {
         "host": "ctl-tmo-cam-02",
@@ -16754,12 +16754,12 @@
     {
         "host": "ioc-xcs-misc1",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/klauer/ioc-tst-expstate",
+        "dir": "ioc/common/expstate/R1.0.1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-expstate",
-        "script": "/reg/g/pcds/epics-dev/klauer/ioc-tst-expstate/build/iocBoot/ioc-xcs-expstate/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.0/bin/rhel7-x86_64/expState"
+        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.1/children/build/iocBoot/ioc-xcs-expstate/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.1/bin/rhel7-x86_64/expState"
     },
     {
         "host": "ioc-xcs-misc1",
@@ -18964,12 +18964,12 @@
     {
         "host": "ioc-xpp-misc01",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/klauer/ioc-tst-expstate",
+        "dir": "ioc/common/expstate/R1.0.1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-expstate",
-        "script": "/reg/g/pcds/epics-dev/klauer/ioc-tst-expstate/build/iocBoot/ioc-xpp-expstate/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.0/bin/rhel7-x86_64/expState"
+        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.1/children/build/iocBoot/ioc-xpp-expstate/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.1/bin/rhel7-x86_64/expState"
     },
     {
         "host": "ioc-xpp-mot01",
