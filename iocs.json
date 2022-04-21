@@ -7363,7 +7363,7 @@
     {
         "host": "ioc-cxi-usr1",
         "port": 30030,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/rvc300",
+        "dir": "ioc/common/rvc300/R1.5.0",
         "alias": "SDS Needle Valve",
         "history": [
             "/reg/g/pcds/package/epics/3.14-dev/ioc/common/rvc300/current"
@@ -7371,8 +7371,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-rvc300",
-        "script": "/reg/g/pcds/epics-dev/pennebak/git/cxi/rvc300/iocBoot/ioc-cxi-rvc300/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/pennebak/git/cxi/rvc300/bin/linux-x86/rvc300"
+        "script": "/reg/g/pcds/epics/ioc/common/rvc300/R1.5.0/iocBoot/ioc-cxi-rvc300/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/rvc300/R1.5.0/bin/linux-x86/rvc300"
     },
     {
         "host": "ioc-cxi-usr1",
