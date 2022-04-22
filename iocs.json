@@ -11839,6 +11839,17 @@
     },
     {
         "host": "ioc-mec-misc01",
+        "port": 36791,
+        "dir": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/lcls-plc-xpp-jjslit-motion/lcls-plc-xpp-jjslit-motion/iocBoot/ioc-xpp-portable-jjslit-motion",
+        "alias": "JJ Slit Motion PLC",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-jjslit-motion",
+        "script": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/lcls-plc-xpp-jjslit-motion/lcls-plc-xpp-jjslit-motion/iocBoot/ioc-xpp-portable-jjslit-motion/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ioc-mec-misc01",
         "port": 30002,
         "dir": "ioc/common/chiller/R1.1.4",
         "history": [
@@ -12127,17 +12138,6 @@
         "name": "ioc-mec-userBhc",
         "script": "/reg/g/pcds/epics/ioc/mec/userBhc/R1.0.0/iocBoot/ioc-mec-userBhc/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/mec/userBhc/R1.0.0/bin/linux-x86_64/userBhc"
-    },
-    {
-        "host": "ioc-mec-misc01",
-        "port": 35792,
-        "dir": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/lcls-plc-xpp-jjslit-motion/lcls-plc-xpp-jjslit-motion",
-        "alias": "JJ Slit Motion",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-plc-jjslit-motion",
-        "script": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/lcls-plc-xpp-jjslit-motion/lcls-plc-xpp-jjslit-motion/st.cmd",
-        "binary": null
     },
     {
         "host": "ioc-mec-mot3",
