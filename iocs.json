@@ -12129,17 +12129,6 @@
         "binary": "/reg/g/pcds/epics/ioc/mec/userBhc/R1.0.0/bin/linux-x86_64/userBhc"
     },
     {
-        "host": "ioc-mec-misc01",
-        "port": 36891,
-        "dir": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/lcls-plc-xpp-jjslit-motion/lcls-plc-xpp-jjslit-motion",
-        "alias": "JJ Slit Motion PLC",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-xpp-portable-jjslit-motion",
-        "script": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/lcls-plc-xpp-jjslit-motion/lcls-plc-xpp-jjslit-motion/iocBoot/ioc-xpp-portable-jjslit-motion/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
-    },
-    {
         "host": "ioc-mec-mot3",
         "port": 30632,
         "dir": "ioc/mec/ims/R4.0.19",
