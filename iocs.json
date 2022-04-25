@@ -12933,8 +12933,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-pico-tt",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/common/picoMotion/current/children/build/iocBoot/ioc-mfx-pico-tt/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/common/picoMotion/current/bin/rhel7-x86_64/motion"
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/common/picoMotion/current/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-mfx-cam01",
