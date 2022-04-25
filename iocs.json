@@ -3148,22 +3148,22 @@
     },
     {
         "host": "ctl-tmo-cam-02",
+        "port": 38100,
+        "dir": "/reg/g/pcds/epics-dev/janezg/tmo/hpm900IP1",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-tmo-gcip1",
+        "script": "/reg/g/pcds/epics-dev/janezg/tmo/hpm900IP1/build/iocBoot/ioc-tmo-gcip1/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-tmo-gas-cabinet/current/bin/rhel7-x86_64/hpm900"
+    },
+    {
+        "host": "ctl-tmo-cam-02",
         "port": 38200,
         "dir": "/reg/g/pcds/epics-dev/janezg/tmo/hpm900IP2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-gcip2",
         "script": "/reg/g/pcds/epics-dev/janezg/tmo/hpm900IP2/build/iocBoot/ioc-tmo-gcip2/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-tmo-gas-cabinet/current/bin/rhel7-x86_64/hpm900"
-    },
-    {
-        "host": "ctl-tmo-cam-02",
-        "port": 38100,
-        "dir": "/reg/g/pcds/epics-dev/janezg/tmo/hpm900IP1",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-tmo-hpm900",
-        "script": "/reg/g/pcds/epics-dev/janezg/tmo/hpm900IP1/build/iocBoot/ioc-tmo-hpm900/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-tmo-gas-cabinet/current/bin/rhel7-x86_64/hpm900"
     },
     {
