@@ -9917,6 +9917,16 @@
     },
     {
         "host": "ioc-las-cxi-srv05",
+        "port": 32009,
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/evr/evr-git",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-cxi-evr-01",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/evr/evr-git/build/iocBoot/ioc-las-cxi-evr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/linux-x86_64/evr"
+    },
+    {
+        "host": "ioc-las-cxi-srv05",
         "port": 32043,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0",
         "history": [
