@@ -9956,7 +9956,6 @@
         "host": "ioc-las-cxi-srv05",
         "port": 32045,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/sr620/R1.1.1",
-        "disable": true,
         "history": [
             "ioc/las/sr620/R1.0.1",
             "ioc/las/sr620/R1.0.0"
