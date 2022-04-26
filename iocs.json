@@ -13299,14 +13299,14 @@
     {
         "host": "ioc-mfx-hera",
         "port": 43923,
-        "dir": "ioc/mfx/smc100/R1.0.0",
+        "dir": "ioc/mfx/smc100/R1.0.1",
         "disable": true,
         "alias": "HERA - Motion - Platform",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-hera-smc100",
-        "script": "/reg/g/pcds/epics/ioc/mfx/smc100/R1.0.0/build/iocBoot/ioc-mfx-hera-smc100/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smc100/R1.1.1/bin/linux-x86_64/smc100"
+        "script": "/reg/g/pcds/epics/ioc/mfx/smc100/R1.0.1/build/iocBoot/ioc-mfx-hera-smc100/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smc100/R1.1.2/bin/rhel7-x86_64/smc100"
     },
     {
         "host": "ioc-mfx-hera",
