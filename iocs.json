@@ -6737,17 +6737,6 @@
     },
     {
         "host": "ioc-cxi-rec03",
-        "port": 30102,
-        "dir": "ioc/cxi/gigECam/R1.0.0",
-        "alias": "CAM - SC3 Inline Questar Gige 05",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-gige-05",
-        "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R1.0.0/build/iocBoot/ioc-cxi-gige-05/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R2.7.1/bin/linux-x86_64/gige"
-    },
-    {
-        "host": "ioc-cxi-rec03",
         "port": 32120,
         "dir": "ioc/cxi/gigECam/R1.0.0",
         "disable": true,
@@ -6794,6 +6783,17 @@
         "name": "ioc-cxi-sc1-inline",
         "script": "/reg/g/pcds/epics/ioc/cxi/edtCam/R1.3.0/build/iocBoot/ioc-cxi-sc1-inline/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.0/bin/linux-x86_64/edt"
+    },
+    {
+        "host": "ioc-cxi-rec04",
+        "port": 30103,
+        "dir": "ioc/cxi/gigECam/R1.0.0",
+        "alias": "CAM - SC3 Inline Questar Gige 05",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-gige-05",
+        "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R1.0.0/build/iocBoot/ioc-cxi-gige-05/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R2.7.1/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-cxi-rec04",
@@ -6851,6 +6851,7 @@
         "host": "ioc-cxi-rec04",
         "port": 30102,
         "dir": "ioc/cxi/edtCam/R2.0.1",
+        "disable": true,
         "alias": "CAM - SC3 Inline Questar Opal4000m",
         "history": [
             "/reg/g/pcds/epics-dev/aegger/edtCam/current",
