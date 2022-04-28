@@ -6568,7 +6568,7 @@
         "host": "ioc-cxi-rec01",
         "port": 30041,
         "dir": "/reg/g/pcds/epics-dev/pennebak/cxi/gigECam/current",
-        "alias": "CAM - DG1 PIM",
+        "alias": "CAM - DG1 PIM Gige 01",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg1-gige",
@@ -6594,7 +6594,7 @@
         "host": "ioc-cxi-rec01",
         "port": 30405,
         "dir": "/reg/g/pcds/epics-dev/pennebak/cxi/gigECam/current",
-        "alias": "CAM - DG2 PIM",
+        "alias": "CAM - DG2 PIM Gige 02",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg2-gige",
@@ -6616,18 +6616,6 @@
         "name": "ioc-cxi-dg2-p6740",
         "script": "/reg/g/pcds/epics/ioc/cxi/edtCam/R1.3.0/build/iocBoot/ioc-cxi-dg2-p6740/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.0/bin/linux-x86_64/edt"
-    },
-    {
-        "host": "ioc-cxi-rec01",
-        "port": 32121,
-        "dir": "ioc/cxi/gigECam/R1.0.0",
-        "disable": true,
-        "alias": "zz - CAM - SC1 gige injector",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-gige-injector",
-        "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R1.0.0/st.cmd",
-        "binary": null
     },
     {
         "host": "ioc-cxi-rec01",
@@ -6737,18 +6725,6 @@
     },
     {
         "host": "ioc-cxi-rec03",
-        "port": 32120,
-        "dir": "ioc/cxi/gigECam/R1.0.0",
-        "disable": true,
-        "alias": "zz - CAM - SC3 gige offaxis",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-gige-offaxis",
-        "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R1.0.0/build/iocBoot/ioc-cxi-gige-offaxis/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R2.8.0/bin/linux-x86_64/gige"
-    },
-    {
-        "host": "ioc-cxi-rec03",
         "port": 40000,
         "dir": "/reg/g/pcds/controls/camrecord",
         "alias": "CAM - Recorder03",
@@ -6800,12 +6776,12 @@
         "port": 32106,
         "dir": "/cds/group/pcds/epics-dev/pennebak/git/cxi/gigECam",
         "disable": true,
-        "alias": "CAM - gige 06",
+        "alias": "CAM - Gige 06",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-gige-06",
         "script": "/cds/group/pcds/epics-dev/pennebak/git/cxi/gigECam/build/iocBoot/ioc-cxi-gige-06/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R3.0.3/bin/linux-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-cxi-rec04",
