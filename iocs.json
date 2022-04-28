@@ -6775,7 +6775,6 @@
         "host": "ioc-cxi-rec04",
         "port": 32106,
         "dir": "/cds/group/pcds/epics-dev/pennebak/git/cxi/gigECam",
-        "disable": true,
         "alias": "CAM - Gige 06",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
