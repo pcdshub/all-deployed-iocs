@@ -11310,7 +11310,6 @@
         "host": "ioc-mec-las-gige02",
         "port": 32512,
         "dir": "ioc/mec/gigECam/R1.1.1",
-        "disable": true,
         "alias": "Gige Long Pulse 2",
         "history": [
             "ioc/mec/gigECam/R0.1.9"
