@@ -17927,6 +17927,16 @@
         "binary": "/usr/bin/bash"
     },
     {
+        "host": "ioc-xcs-srv01",
+        "port": 30003,
+        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/sndcalc/sndcalc",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "sndcalc",
+        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/sndcalc/sndcalc/st.cmd",
+        "binary": "/usr/bin/bash"
+    },
+    {
         "host": "ioc-xcs-user1",
         "port": 35764,
         "dir": "/reg/g/pcds/epics-dev/spencera/common/cryojet",
