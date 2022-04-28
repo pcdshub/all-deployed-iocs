@@ -6763,13 +6763,13 @@
     {
         "host": "ioc-cxi-rec04",
         "port": 30103,
-        "dir": "ioc/cxi/gigECam/R1.0.0",
+        "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/gigECam",
         "alias": "CAM - SC3 Inline Questar Gige 05",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-gige-05",
-        "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R1.0.0/build/iocBoot/ioc-cxi-gige-05/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R2.7.1/bin/linux-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/pennebak/git/cxi/gigECam/build/iocBoot/ioc-cxi-gige-05/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-cxi-rec04",
@@ -9506,6 +9506,7 @@
         "host": "ioc-hpl-04",
         "port": 30100,
         "dir": "/reg/neh/home/kmecseki/ioc/hpl/Amphos/current",
+        "disable": true,
         "history": [
             "/reg/neh/home/kmecseki/ioc/hpl/Amphos/current"
         ],
