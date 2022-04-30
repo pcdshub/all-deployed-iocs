@@ -1824,7 +1824,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lhn-opcpa-nf-01",
         "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/current/build/iocBoot/ioc-lhn-opcpa-nf-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.4/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lhn-03",
