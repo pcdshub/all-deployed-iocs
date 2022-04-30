@@ -15822,6 +15822,17 @@
     },
     {
         "host": "ioc-tst-13",
+        "port": 35671,
+        "dir": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/LED_test/LED_test",
+        "alias": "LED test IOC",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-led-test",
+        "script": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/LED_test/LED_test/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ioc-tst-13",
         "port": 30720,
         "dir": "/reg/neh/home/marcio/Work/playground/svnREPO/mec/tc720/current/build",
         "disable": true,
