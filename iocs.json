@@ -15863,7 +15863,7 @@
     },
     {
         "host": "ioc-tst-13",
-        "port": 35671,
+        "port": 36799,
         "dir": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/LED_test",
         "alias": "LED test IOC",
         "base_version": "3.15",
