@@ -5862,6 +5862,17 @@
     },
     {
         "host": "ioc-cxi-mot1",
+        "port": 30004,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/cxi/ioc/mmc",
+        "alias": "MMC100WPP30",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "\"CXI\":\"TST\":\"MMC\":01",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/cxi/ioc/mmc/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ioc-cxi-mot1",
         "port": 30002,
         "dir": "ioc/cxi/control/R0.2.0",
         "alias": "Control (obsolete?)",
@@ -6163,17 +6174,6 @@
         "name": "ioc-cxi-slits-ims",
         "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.2/build/iocBoot/ioc-cxi-slits-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
-    },
-    {
-        "host": "ioc-cxi-mot2",
-        "port": 30007,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/cxi/ioc/mmc",
-        "alias": "Test MMC100 W PP30",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "\"CXI\":\"TST\":\"MMC\":01",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/cxi/ioc/mmc/st.cmd",
-        "binary": null
     },
     {
         "host": "ioc-cxi-mot2",
