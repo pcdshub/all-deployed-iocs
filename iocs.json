@@ -6166,6 +6166,17 @@
     },
     {
         "host": "ioc-cxi-mot2",
+        "port": 30007,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/cxi/ioc/mmc",
+        "alias": "Test MMC100 W PP30",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "\"CXI\":\"TST\":\"MMC\":01",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/cxi/ioc/mmc/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ioc-cxi-mot2",
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/ims",
         "alias": "IMS DIA Attenuators",
