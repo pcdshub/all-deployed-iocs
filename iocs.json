@@ -15863,13 +15863,13 @@
     },
     {
         "host": "ioc-tst-13",
-        "port": 30005,
+        "port": 30006,
         "dir": "/cds/home/t/tjohnson/trunk/common/dso4000",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-dso-tst",
-        "script": "/cds/home/t/tjohnson/trunk/common/dso4000/st.cmd",
-        "binary": null
+        "name": "ioc-dso4000-tst",
+        "script": "/cds/home/t/tjohnson/trunk/common/dso4000/children/build/iocBoot/ioc-dso4000-tst/st.cmd",
+        "binary": "/cds/home/t/tjohnson/trunk/common/dso4000/bin/rhel7-x86_64/dso4000"
     },
     {
         "host": "ioc-tst-13",
@@ -16103,16 +16103,6 @@
         "name": "ioc-tst-txi-optics",
         "script": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/mr3k3-mr4k3-mr2l1-mr3l1-sat/iocBoot/ioc-tst-txi-optics/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ioc-tst-13",
-        "port": 32101,
-        "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/tst/edtCam/current",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-up900",
-        "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/tst/edtCam/current/build/iocBoot/ioc-tst-up900/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.1/bin/linux-x86_64/edt"
     },
     {
         "host": "ioc-tst-evg",
@@ -16480,6 +16470,21 @@
         "name": "ioc-tst-sdl01",
         "script": "/reg/neh/home1/paiser/svn-working/ioc/tst/gigECam/current/st.cmd",
         "binary": null
+    },
+    {
+        "host": "ioc-tst-rec03",
+        "port": 30002,
+        "dir": "/reg/neh/home/bhill/wa2/epics/ioc/tst/edtCam/current",
+        "disable": true,
+        "history": [
+            "/reg/neh/home/bhill/wa2/epics/ioc/tst/edtCam/current",
+            "/reg/neh/home5/bhill/wa2/epics/ioc/common/edtCam/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-tst-up900",
+        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/edtCam/current/build/iocBoot/ioc-tst-up900/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.1/bin/linux-x86_64/edt"
     },
     {
         "host": "ioc-tst-rec03",
