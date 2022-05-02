@@ -11374,7 +11374,7 @@
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige13",
         "script": "/cds/home/p/peregrin/modules/mec/gigECam/R1.1.1/build/iocBoot/ioc-mec-gige13/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/linux-x86_64/gige"
+        "binary": "/cds/home/p/peregrin/modules/gigECam-git/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige02",
