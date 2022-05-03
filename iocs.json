@@ -10605,7 +10605,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-xcs-sr620-01",
         "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/sr620/R1.1.1/build/iocBoot/ioc-las-xcs-sr620-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/sr620/R0.9.2/bin/rhel7-x86_64/sr620"
+        "binary": "/reg/g/pcds/epics/ioc/common/sr620/R0.9.2/bin/linux-x86/sr620"
     },
     {
         "host": "ioc-las-xcs-srv04",
