@@ -1796,42 +1796,42 @@
     },
     {
         "host": "ctl-las-lhn-03",
-        "port": 30050,
+        "port": 30010,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/current",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lhn-opcpa-ff-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/current/build/iocBoot/ioc-lhn-opcpa-ff-01/st.cmd",
+        "name": "ioc-lhn-bay3-ff-01",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/current/build/iocBoot/ioc-lhn-bay3-ff-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lhn-03",
-        "port": 30052,
+        "port": 30012,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/current",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lhn-opcpa-ff-02",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/current/build/iocBoot/ioc-lhn-opcpa-ff-02/st.cmd",
+        "name": "ioc-lhn-bay3-ff-02",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/current/build/iocBoot/ioc-lhn-bay3-ff-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lhn-03",
-        "port": 30051,
+        "port": 30013,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/current",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lhn-opcpa-nf-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/current/build/iocBoot/ioc-lhn-opcpa-nf-01/st.cmd",
+        "name": "ioc-lhn-bay3-ff-02",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/current/build/iocBoot/ioc-lhn-bay3-ff-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lhn-03",
-        "port": 30053,
+        "port": 30011,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/current",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lhn-opcpa-nf-02",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/current/build/iocBoot/ioc-lhn-opcpa-nf-02/st.cmd",
+        "name": "ioc-lhn-bay3-nf-01",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/current/build/iocBoot/ioc-lhn-bay3-nf-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
     },
     {
@@ -2849,19 +2849,6 @@
         "name": "ioc-rix-plv-pdu-06",
         "script": "/reg/g/pcds/epics/ioc/rix/dc_power/ict/build/iocBoot/ioc-rix-plv-pdu-06/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.3/bin/rhel7-x86_64/ict"
-    },
-    {
-        "host": "ctl-rix-mot-01",
-        "port": 32456,
-        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/smaract",
-        "history": [
-            "/reg/g/pcds/epics-dev/wwright/ioc/rix/smaract"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-rix-qrix-mcs2-03",
-        "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/smaract/st.cmd",
-        "binary": null
     },
     {
         "host": "ctl-rix-mot-01",
