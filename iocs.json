@@ -15961,7 +15961,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-basler1",
         "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current/build/iocBoot/ioc-tst-basler1/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-tst-13",
@@ -16008,7 +16008,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-g125c",
         "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current/build/iocBoot/ioc-tst-g125c/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-tst-13",
