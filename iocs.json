@@ -12913,6 +12913,7 @@
         "host": "ioc-mfx-cam01",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam",
+        "disable": true,
         "alias": "CAM - GigE 06",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
@@ -13596,6 +13597,7 @@
         "host": "ioc-mfx-rec02",
         "port": 38000,
         "dir": "/reg/g/pcds/controls/camrecord",
+        "disable": true,
         "alias": "MISC - REC02 Recorder",
         "history": [
             "/reg/g/pcds/controls/camrecord"
@@ -13791,6 +13793,7 @@
         "host": "ioc-mfx-wave8",
         "port": 33017,
         "dir": "/reg/g/pcds/pyps/apps/hutch-python/mfx/scripts/door_watcher",
+        "disable": true,
         "alias": "MESH Door Watcher",
         "history": [
             "/reg/g/pcds/pyps/apps/hutch-python/mfx/scripts/door_watcher"
