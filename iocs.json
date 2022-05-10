@@ -19914,6 +19914,7 @@
         "host": "ioc-xpp-rob01",
         "port": 30052,
         "dir": "ioc/xpp/ims/R6.0.2",
+        "disable": true,
         "alias": "SB2 - Attenuator Motors",
         "history": [
             "ioc/xpp/ims/R2.3.0",
