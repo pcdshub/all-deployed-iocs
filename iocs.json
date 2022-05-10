@@ -19063,6 +19063,17 @@
         "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.5/bin/rhel7-x86_64/expState"
     },
     {
+        "host": "ioc-xpp-misc01",
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims",
+        "alias": "SB2 - Attenuator Motors",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-sb2-ppatt-ims",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims/build/iocBoot/ioc-xpp-sb2-ppatt-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
         "host": "ioc-xpp-mot01",
         "port": 30160,
         "dir": "ioc/common/picoMotion/R1.0.4",
@@ -19909,23 +19920,6 @@
         "name": "ioc-xpp-rob",
         "script": "/reg/g/pcds/epics/ioc/xpp/staubli/R1.2.0/build/iocBoot/ioc-xpp-rob/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/staubli/R1.2.0/bin/linux-x86/staubli"
-    },
-    {
-        "host": "ioc-xpp-rob01",
-        "port": 30052,
-        "dir": "ioc/xpp/ims/R6.0.2",
-        "disable": true,
-        "alias": "SB2 - Attenuator Motors",
-        "history": [
-            "ioc/xpp/ims/R2.3.0",
-            "ioc/xpp/ims/R2.0.0",
-            "ioc/xpp/ims/R1.0.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-sb2-ppatt-ims",
-        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.2/build/iocBoot/ioc-xpp-sb2-ppatt-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
     },
     {
         "host": "ioc-xpp-rob01",
