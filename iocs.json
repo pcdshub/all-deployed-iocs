@@ -1458,6 +1458,16 @@
     },
     {
         "host": "ctl-las-ip1-srv06",
+        "port": 32456,
+        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/common/iTech_RFOF",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-rfof-01",
+        "script": "/reg/g/pcds/epics-dev/wwright/ioc/common/iTech_RFOF/children/build/iocBoot/ioc-las-rfof-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/wwright/ioc/common/iTech_RFOF/bin/rhel7-x86_64/rfof"
+    },
+    {
+        "host": "ctl-las-ip1-srv06",
         "port": 30030,
         "dir": "/cds/home/t/tjohnson/trunk/workarea/ek9000",
         "base_version": "3.15",
@@ -1914,16 +1924,6 @@
         "name": "ioc-las-lhn-vitara04",
         "script": "/reg/g/pcds/epics/ioc/las/vitara/R2.16.1/iocBoot/ioc-las-lhn-vitara04/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/las/vitara/R2.16.1/bin/rhel7-x86_64/vitara"
-    },
-    {
-        "host": "ctl-las-lhn-04",
-        "port": 34523,
-        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/common/iTech_RFOF",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-rfof-01",
-        "script": "/reg/g/pcds/epics-dev/wwright/ioc/common/iTech_RFOF/children/build/iocBoot/ioc-las-rfof-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/wwright/ioc/common/iTech_RFOF/bin/rhel7-x86_64/rfof"
     },
     {
         "host": "ctl-las-lhn-04",
