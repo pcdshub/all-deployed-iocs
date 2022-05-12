@@ -4600,7 +4600,6 @@
         "host": "daq-xpp-pgp01",
         "port": 30102,
         "dir": "/reg/g/pcds/epics-dev/snelson/xpp/epix/current",
-        "disable": true,
         "alias": "DET - User Epix 2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
