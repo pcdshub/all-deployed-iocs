@@ -4599,12 +4599,12 @@
     {
         "host": "daq-xpp-pgp01",
         "port": 30102,
-        "dir": "/reg/g/pcds/epics-dev/snelson/xpp/epix/current",
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/epix",
         "alias": "DET - User Epix 2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-usr-epix-2",
-        "script": "/reg/g/pcds/epics-dev/snelson/xpp/epix/current/build/iocBoot/ioc-xpp-usr-epix-2/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/epix/build/iocBoot/ioc-xpp-usr-epix-2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.0.3/bin/rhel7-x86_64/epixMonIoc"
     },
     {
