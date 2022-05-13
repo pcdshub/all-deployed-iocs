@@ -1942,26 +1942,6 @@
     },
     {
         "host": "ctl-las-lhn-04",
-        "port": 43501,
-        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "py-fstiming-cast-hxr",
-        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
-        "binary": "/usr/bin/bash"
-    },
-    {
-        "host": "ctl-las-lhn-04",
-        "port": 43502,
-        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "py-fstiming-cast-sxr",
-        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
-        "binary": "/usr/bin/bash"
-    },
-    {
-        "host": "ctl-las-lhn-04",
         "port": 43424,
         "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
         "disable": true,
@@ -1993,6 +1973,26 @@
         "name": "ioc-las-lln-evr-01",
         "script": "/cds/home/t/tjohnson/trunk/las/evr/build/iocBoot/ioc-las-lln-evr-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/rhel7-x86_64/evr"
+    },
+    {
+        "host": "ctl-las-lln-01",
+        "port": 43501,
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "py-fstiming-cast-hxr",
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
+        "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ctl-las-lln-01",
+        "port": 43502,
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "py-fstiming-cast-sxr",
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
+        "binary": "/usr/bin/bash"
     },
     {
         "host": "ctl-las-lln-02",
@@ -10438,59 +10438,6 @@
     },
     {
         "host": "ioc-las-srv04",
-        "port": 30601,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/pvNotepad/current",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-fstiming-PV",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/pvNotepad/current/build/iocBoot/ioc-las-fstiming-PV/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1/bin/linux-x86_64/pvNotepad"
-    },
-    {
-        "host": "ioc-las-srv04",
-        "port": 30600,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/pvNotepad/current",
-        "history": [
-            "/reg/g/pcds/epics-dev/snelson/las/pvNotepad/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-fstiming-gluePV",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/pvNotepad/current/build/iocBoot/ioc-las-fstiming-gluePV/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1/bin/linux-x86_64/pvNotepad"
-    },
-    {
-        "host": "ioc-las-srv04",
-        "port": 33001,
-        "dir": "ioc/common/history/R2.0.0",
-        "alias": "zz - ioc-las-hist1",
-        "history": [
-            "ioc/common/history/R1.2.0",
-            "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/history/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-hist1",
-        "script": "/reg/g/pcds/epics/ioc/common/history/R2.0.0/iocBoot/ioc-las-hist1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/history/R2.0.0/bin/rhel7-x86_64/hist"
-    },
-    {
-        "host": "ioc-las-srv04",
-        "port": 33002,
-        "dir": "ioc/common/history/R2.0.0",
-        "alias": "zz - ioc-las-hist2",
-        "history": [
-            "ioc/common/history/R1.2.0",
-            "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/history/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-hist2",
-        "script": "/reg/g/pcds/epics/ioc/common/history/R2.0.0/iocBoot/ioc-las-hist2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/history/R2.0.0/bin/rhel7-x86_64/hist"
-    },
-    {
-        "host": "ioc-las-srv04",
         "port": 30501,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-rhel5",
         "base_version": "3.15",
@@ -10511,16 +10458,6 @@
     },
     {
         "host": "ioc-las-srv04",
-        "port": 30001,
-        "dir": "/cds/home/t/tjohnson/trunk/las/TDS3000",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-scope-tds3000-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/TDS3000/build/iocBoot/ioc-las-scope-tds3000-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/TDS3000/R1.0.0/bin/linux-x86_64/TDS3000"
-    },
-    {
-        "host": "ioc-las-srv04",
         "port": 30005,
         "dir": "/reg/g/pcds/epics-dev/sfsyunus/las/smc100_tst",
         "disable": true,
@@ -10532,6 +10469,80 @@
     },
     {
         "host": "ioc-las-srv04",
+        "port": 42034,
+        "dir": "/reg/g/pcds/epics-dev/sfsyunus/las/NewportXPS8/current",
+        "disable": true,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-xps4",
+        "script": "/reg/g/pcds/epics-dev/sfsyunus/las/NewportXPS8/current/build/iocBoot/ioc-las-xps4/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/sfsyunus/common/NewportXPS8/current/bin/linux-x86_64/xps8"
+    },
+    {
+        "host": "ioc-las-xcs-srv04",
+        "port": 30601,
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/pvNotepad/current",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-fstiming-PV",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/pvNotepad/current/build/iocBoot/ioc-las-fstiming-PV/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1/bin/linux-x86_64/pvNotepad"
+    },
+    {
+        "host": "ioc-las-xcs-srv04",
+        "port": 30600,
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/pvNotepad/current",
+        "history": [
+            "/reg/g/pcds/epics-dev/snelson/las/pvNotepad/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-fstiming-gluePV",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/pvNotepad/current/build/iocBoot/ioc-las-fstiming-gluePV/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1/bin/linux-x86_64/pvNotepad"
+    },
+    {
+        "host": "ioc-las-xcs-srv04",
+        "port": 33001,
+        "dir": "ioc/common/history/R2.0.0",
+        "alias": "zz - ioc-las-hist1",
+        "history": [
+            "ioc/common/history/R1.2.0",
+            "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/history/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-hist1",
+        "script": "/reg/g/pcds/epics/ioc/common/history/R2.0.0/iocBoot/ioc-las-hist1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/history/R2.0.0/bin/rhel7-x86_64/hist"
+    },
+    {
+        "host": "ioc-las-xcs-srv04",
+        "port": 33002,
+        "dir": "ioc/common/history/R2.0.0",
+        "alias": "zz - ioc-las-hist2",
+        "history": [
+            "ioc/common/history/R1.2.0",
+            "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/history/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-hist2",
+        "script": "/reg/g/pcds/epics/ioc/common/history/R2.0.0/iocBoot/ioc-las-hist2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/history/R2.0.0/bin/rhel7-x86_64/hist"
+    },
+    {
+        "host": "ioc-las-xcs-srv04",
+        "port": 30001,
+        "dir": "/cds/home/t/tjohnson/trunk/las/TDS3000",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-scope-tds3000-01",
+        "script": "/cds/home/t/tjohnson/trunk/las/TDS3000/build/iocBoot/ioc-las-scope-tds3000-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/TDS3000/R1.0.0/bin/linux-x86_64/TDS3000"
+    },
+    {
+        "host": "ioc-las-xcs-srv04",
         "port": 42032,
         "dir": "/reg/g/pcds/epics-dev/sfsyunus/las/ims/current",
         "alias": "ioc-las-und-phase-ims",
@@ -10543,17 +10554,6 @@
         "name": "ioc-las-und-phase-ims",
         "script": "/reg/g/pcds/epics-dev/sfsyunus/las/ims/current/iocBoot/ioc-las-und-phase-ims/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/sfsyunus/las/ims/current/bin/linux-x86/motion"
-    },
-    {
-        "host": "ioc-las-srv04",
-        "port": 42034,
-        "dir": "/reg/g/pcds/epics-dev/sfsyunus/las/NewportXPS8/current",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-xps4",
-        "script": "/reg/g/pcds/epics-dev/sfsyunus/las/NewportXPS8/current/build/iocBoot/ioc-las-xps4/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/sfsyunus/common/NewportXPS8/current/bin/linux-x86_64/xps8"
     },
     {
         "host": "ioc-las-xcs-srv04",
