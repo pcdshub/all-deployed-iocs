@@ -1641,6 +1641,7 @@
         "host": "ctl-las-lhn-01",
         "port": 30500,
         "dir": "/reg/g/pcds/epics-dev/sfsyunus/las/ek9000",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-bhc-tst",
@@ -4532,12 +4533,12 @@
     {
         "host": "daq-xpp-pgp01",
         "port": 30111,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/xpp/epix/current",
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/epix",
         "alias": "DET - ALC Epixes",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-alc-epix",
-        "script": "/reg/g/pcds/epics-dev/pennebak/xpp/epix/current/build/iocBoot/ioc-xpp-alc-epix/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/epix/build/iocBoot/ioc-xpp-alc-epix/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.4.5/bin/rhel7-x86_64/epixMonIoc"
     },
     {
@@ -4568,6 +4569,17 @@
         "name": "ioc-xpp-detmbl-epix2",
         "script": "/reg/g/pcds/epics/ioc/xpp/epix/R1.0.1/build/iocBoot/ioc-xpp-detmbl-epix2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.0.3/bin/rhel7-x86_64/epixMonIoc"
+    },
+    {
+        "host": "daq-xpp-pgp01",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/epix",
+        "alias": "DET - Epix_alc2 TEMP",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-mob-temp",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/epix/build/iocBoot/ioc-xpp-mob-temp/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.4.5/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-xpp-pgp01",
