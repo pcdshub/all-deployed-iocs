@@ -2659,7 +2659,7 @@
     {
         "host": "ctl-rix-fim-01",
         "port": 30001,
-        "dir": "ioc/common/pgpWave8/R1.4.0",
+        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/pgpWave8",
         "history": [
             "ioc/common/pgpWave8/R1.4.0",
             "ioc/common/pgpWave8/R1.2.0",
@@ -2669,13 +2669,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pgpw8-01",
-        "script": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.4.0/children/build/iocBoot/ioc-rix-pgpw8-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R1.4.0/bin/rhel7-x86_64/pgpWave8"
+        "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/pgpWave8/build/iocBoot/ioc-rix-pgpw8-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.6.0/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-rix-fim-01",
         "port": 30002,
-        "dir": "ioc/common/pgpWave8/R1.4.0",
+        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/pgpWave8",
         "history": [
             "ioc/common/pgpWave8/R1.4.0",
             "ioc/common/pgpWave8/R1.2.0",
@@ -2684,13 +2684,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pgpw8-02",
-        "script": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.4.0/children/build/iocBoot/ioc-rix-pgpw8-02/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R1.4.0/bin/rhel7-x86_64/pgpWave8"
+        "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/pgpWave8/build/iocBoot/ioc-rix-pgpw8-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.6.0/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-rix-fim-01",
         "port": 30003,
-        "dir": "ioc/common/pgpWave8/R1.4.0",
+        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/pgpWave8",
         "history": [
             "ioc/common/pgpWave8/R1.4.0",
             "ioc/common/pgpWave8/R1.2.0",
@@ -2699,13 +2699,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pgpw8-03",
-        "script": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.4.0/children/build/iocBoot/ioc-rix-pgpw8-03/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R1.4.0/bin/rhel7-x86_64/pgpWave8"
+        "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/pgpWave8/build/iocBoot/ioc-rix-pgpw8-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.6.0/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-rix-fim-01",
         "port": 30004,
-        "dir": "ioc/common/pgpWave8/R1.4.0",
+        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/pgpWave8",
         "disable": true,
         "history": [
             "ioc/common/pgpWave8/R1.4.0",
@@ -2715,8 +2715,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pgpw8-04",
-        "script": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.4.0/children/build/iocBoot/ioc-rix-pgpw8-04/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R1.4.0/bin/rhel7-x86_64/pgpWave8"
+        "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/pgpWave8/build/iocBoot/ioc-rix-pgpw8-04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.6.0/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-rix-mot-01",
