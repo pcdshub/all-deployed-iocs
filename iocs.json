@@ -16670,15 +16670,15 @@
     {
         "host": "ioc-ued-ccd01",
         "port": 31000,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/scandinova",
+        "dir": "ioc/common/scandinova/R1.0.2",
         "history": [
             "ioc/common/scandinova/R1.0.1"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-lnrf1",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/scandinova/iocBoot/ioc-ued-lnrf1/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/scandinova/bin/rhel7-x86_64/lnrf_mod"
+        "script": "/reg/g/pcds/epics/ioc/common/scandinova/R1.0.2/iocBoot/ioc-ued-lnrf1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/scandinova/R1.0.2/bin/rhel7-x86_64/lnrf_mod"
     },
     {
         "host": "ioc-ued-ccd01",
