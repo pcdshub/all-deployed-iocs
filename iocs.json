@@ -437,7 +437,7 @@
     {
         "host": "ctl-kfe-mot-01",
         "port": 34242,
-        "dir": "ioc/kfe/lcls-plc-kfe-motion/v2.1.0",
+        "dir": "/reg/g/pcds/epics-dev/ioc/kfe/lcls-plc-kfe-motion",
         "alias": "KFE CC Motion",
         "history": [
             "/reg/g/pcds/epics-dev/zlentz/lcls-plc-kfe-motion"
@@ -445,8 +445,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-motion",
-        "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-motion/v2.1.0/iocBoot/ioc-kfe-motion/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics-dev/ioc/kfe/lcls-plc-kfe-motion/iocBoot/ioc-kfe-motion/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.4.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-kfe-mot-01",
@@ -9961,7 +9961,7 @@
     {
         "host": "ioc-las-cxi-srv05",
         "port": 32043,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0",
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-git",
         "history": [
             "ioc/las/ims/R0.3.0",
             "ioc/las/ims/R0.2.6"
@@ -9969,8 +9969,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-cxi-phase-ims",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0/iocBoot/ioc-las-cxi-phase-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0/bin/linux-x86/motion"
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-git/build/iocBoot/ioc-las-cxi-phase-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
     },
     {
         "host": "ioc-las-cxi-srv05",
