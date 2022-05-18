@@ -11351,6 +11351,48 @@
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/linux-x86_64/gige"
     },
     {
+        "host": "ioc-mec-las-gige01",
+        "port": 32533,
+        "dir": "/cds/home/p/peregrin/modules/mec/gigECam/R1.1.1",
+        "alias": "Gige SPS Compressor 2",
+        "history": [
+            "ioc/mec/gigECam/R0.1.9"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-gige33",
+        "script": "/cds/home/p/peregrin/modules/mec/gigECam/R1.1.1/build/iocBoot/ioc-mec-gige33/st.cmd",
+        "binary": "/cds/home/p/peregrin/modules/gigECam-git/bin/linux-x86_64/gige"
+    },
+    {
+        "host": "ioc-mec-las-gige01",
+        "port": 32534,
+        "dir": "/cds/home/p/peregrin/modules/mec/gigECam/R1.1.1",
+        "alias": "Gige SPS Time tool 1",
+        "history": [
+            "ioc/mec/gigECam/R0.1.9"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-gige34",
+        "script": "/cds/home/p/peregrin/modules/mec/gigECam/R1.1.1/build/iocBoot/ioc-mec-gige34/st.cmd",
+        "binary": "/cds/home/p/peregrin/modules/gigECam-git/bin/linux-x86_64/gige"
+    },
+    {
+        "host": "ioc-mec-las-gige01",
+        "port": 32535,
+        "dir": "/cds/home/p/peregrin/modules/mec/gigECam/R1.1.1",
+        "alias": "Gige SPS Time tool 2",
+        "history": [
+            "ioc/mec/gigECam/R0.1.9"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-gige35",
+        "script": "/cds/home/p/peregrin/modules/mec/gigECam/R1.1.1/build/iocBoot/ioc-mec-gige35/st.cmd",
+        "binary": "/cds/home/p/peregrin/modules/gigECam-git/bin/linux-x86_64/gige"
+    },
+    {
         "host": "ioc-mec-las-gige02",
         "port": 32511,
         "dir": "ioc/mec/gigECam/R1.1.1",
@@ -11476,6 +11518,20 @@
         "name": "ioc-mec-gige26",
         "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.1.1/build/iocBoot/ioc-mec-gige26/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-mec-las-gige03",
+        "port": 32532,
+        "dir": "/cds/home/p/peregrin/modules/mec/gigECam/R1.1.1",
+        "alias": "Gige SPS Compressor 1",
+        "history": [
+            "ioc/mec/gigECam/R0.1.9"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-gige32",
+        "script": "/cds/home/p/peregrin/modules/mec/gigECam/R1.1.1/build/iocBoot/ioc-mec-gige32/st.cmd",
+        "binary": "/cds/home/p/peregrin/modules/gigECam-git/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige04",
