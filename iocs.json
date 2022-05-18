@@ -437,7 +437,7 @@
     {
         "host": "ctl-kfe-mot-01",
         "port": 34242,
-        "dir": "/reg/g/pcds/epics-dev/ioc/kfe/lcls-plc-kfe-motion",
+        "dir": "ioc/kfe/lcls-plc-kfe-motion/v2.1.3",
         "alias": "KFE CC Motion",
         "history": [
             "/reg/g/pcds/epics-dev/zlentz/lcls-plc-kfe-motion"
@@ -445,8 +445,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-motion",
-        "script": "/reg/g/pcds/epics-dev/ioc/kfe/lcls-plc-kfe-motion/iocBoot/ioc-kfe-motion/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.4.1/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-motion/v2.1.3/iocBoot/ioc-kfe-motion/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-kfe-mot-01",
@@ -2938,7 +2938,7 @@
     {
         "host": "ctl-rix-vac-01",
         "port": 31000,
-        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/plcprojects/lcls-plc-crixs-vac/lcls-plc-crix-vac",
+        "dir": "ioc/rix/lcls-plc-crixs-vac/v1.4.1/lcls-plc-crix-vac",
         "history": [
             "/reg/g/pcds/epics-dev/wwright/ioc/rix/plcprojects/lcls-plc-crixs-vac/lcls-plc-crix-vac",
             "/reg/g/pcds/epics-dev/jyin/gitProjects/lcls-plc-crixs-vac/lcls-plc-crix-vac"
@@ -2946,7 +2946,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-PLC-CRIX-VAC",
-        "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/plcprojects/lcls-plc-crixs-vac/lcls-plc-crix-vac/iocBoot/ioc-PLC-CRIX-VAC/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/lcls-plc-crixs-vac/v1.4.1/lcls-plc-crix-vac/iocBoot/ioc-PLC-CRIX-VAC/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
