@@ -3033,15 +3033,15 @@
     {
         "host": "ctl-rix-vac-01",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/cxidev/ioc-rix-sds",
+        "dir": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/rixdev",
         "history": [
             "/reg/g/pcds/epics-dev/pennebak/sample-delivery/cxidev/ioc-rix-sds"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-sds",
-        "script": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/cxidev/ioc-rix-sds/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.4.1/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/rixdev/iocBoot/ioc-rix-sds/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-rix-vac-01",
