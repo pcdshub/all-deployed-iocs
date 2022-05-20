@@ -1609,12 +1609,12 @@
     {
         "host": "ctl-las-lhn-01",
         "port": 30010,
-        "dir": "ioc/las/smaract/R1.0.0",
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/smaract/smaract-git/",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-bts-mcs1",
-        "script": "/reg/g/pcds/epics/ioc/las/smaract/R1.0.0/build/iocBoot/ioc-las-bts-mcs1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.3/bin/rhel7-x86_64/smaract"
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/smaract/smaract-git/build/iocBoot/ioc-las-bts-mcs1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.8/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-lhn-01",
