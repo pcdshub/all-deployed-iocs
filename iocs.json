@@ -8592,6 +8592,16 @@
     },
     {
         "host": "ioc-det-portable2",
+        "port": 30007,
+        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/concentrator/current",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
+        "name": "ioc-det-prt2-ctr",
+        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/concentrator/current/build/iocBoot/ioc-det-prt2-ctr/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/concentrator/R1.0.0/bin/rhel7-x86_64/concentrator"
+    },
+    {
+        "host": "ioc-det-portable2",
         "port": 30075,
         "dir": "ioc/det/Leviton/R1.0.0",
         "base_version": "3.15",
