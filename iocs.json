@@ -4544,18 +4544,18 @@
     {
         "host": "daq-xpp-pgp01",
         "port": 30111,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/epix",
+        "dir": "ioc/xpp/epix/R1.0.2",
         "alias": "DET - ALC Epixes",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-alc-epix",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/epix/build/iocBoot/ioc-xpp-alc-epix/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/epix/R1.0.2/build/iocBoot/ioc-xpp-alc-epix/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.4.5/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-xpp-pgp01",
         "port": 30201,
-        "dir": "/reg/g/pcds/epics-dev/snelson/xpp/epix/current",
+        "dir": "ioc/xpp/epix/R1.0.2",
         "disable": true,
         "alias": "DET - MBL EPIX 1",
         "history": [
@@ -4566,24 +4566,24 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-detmbl-epix1",
-        "script": "/reg/g/pcds/epics-dev/snelson/xpp/epix/current/build/iocBoot/ioc-xpp-detmbl-epix1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.0.3/bin/rhel7-x86_64/epixMonIoc"
+        "script": "/reg/g/pcds/epics/ioc/xpp/epix/R1.0.2/build/iocBoot/ioc-xpp-detmbl-epix1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.4.5/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-xpp-pgp01",
         "port": 30202,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/epix",
+        "dir": "ioc/xpp/epix/R1.0.2",
         "alias": "DET - MBL EPIX 2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-detmbl-epix2",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/epix/build/iocBoot/ioc-xpp-detmbl-epix2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.0.3/bin/rhel7-x86_64/epixMonIoc"
+        "script": "/reg/g/pcds/epics/ioc/xpp/epix/R1.0.2/build/iocBoot/ioc-xpp-detmbl-epix2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.4.5/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-xpp-pgp01",
         "port": 30001,
-        "dir": "ioc/xpp/epix/R1.0.1",
+        "dir": "ioc/xpp/epix/R1.0.2",
         "disable": true,
         "alias": "DET - ROB EPIX",
         "history": [
@@ -4592,32 +4592,32 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-rob-epix",
-        "script": "/reg/g/pcds/epics/ioc/xpp/epix/R1.0.1/build/iocBoot/ioc-xpp-rob-epix/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.0.3/bin/rhel7-x86_64/epixMonIoc"
+        "script": "/reg/g/pcds/epics/ioc/xpp/epix/R1.0.2/build/iocBoot/ioc-xpp-rob-epix/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.4.5/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-xpp-pgp01",
         "port": 30101,
-        "dir": "/reg/g/pcds/epics-dev/snelson/xpp/epix/current",
+        "dir": "ioc/xpp/epix/R1.0.2",
         "disable": true,
         "alias": "DET - User Epix 1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-usr-epix-1",
-        "script": "/reg/g/pcds/epics-dev/snelson/xpp/epix/current/build/iocBoot/ioc-xpp-usr-epix-1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.0.3/bin/rhel7-x86_64/epixMonIoc"
+        "script": "/reg/g/pcds/epics/ioc/xpp/epix/R1.0.2/build/iocBoot/ioc-xpp-usr-epix-1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.4.5/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-xpp-pgp01",
         "port": 30102,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/epix",
+        "dir": "ioc/xpp/epix/R1.0.2",
         "disable": true,
         "alias": "DET - User Epix 2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-usr-epix-2",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/epix/build/iocBoot/ioc-xpp-usr-epix-2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.0.3/bin/rhel7-x86_64/epixMonIoc"
+        "script": "/reg/g/pcds/epics/ioc/xpp/epix/R1.0.2/build/iocBoot/ioc-xpp-usr-epix-2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.4.5/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-xpp-pgp02",
