@@ -4572,26 +4572,13 @@
     {
         "host": "daq-xpp-pgp01",
         "port": 30202,
-        "dir": "ioc/xpp/epix/R1.0.1",
-        "disable": true,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/epix",
         "alias": "DET - MBL EPIX 2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-detmbl-epix2",
-        "script": "/reg/g/pcds/epics/ioc/xpp/epix/R1.0.1/build/iocBoot/ioc-xpp-detmbl-epix2/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/epix/build/iocBoot/ioc-xpp-detmbl-epix2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.0.3/bin/rhel7-x86_64/epixMonIoc"
-    },
-    {
-        "host": "daq-xpp-pgp01",
-        "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/epix",
-        "disable": true,
-        "alias": "DET - Epix_alc2 TEMP",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-mob-temp",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/epix/build/iocBoot/ioc-xpp-mob-temp/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.4.5/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-xpp-pgp01",
@@ -4624,6 +4611,7 @@
         "host": "daq-xpp-pgp01",
         "port": 30102,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/epix",
+        "disable": true,
         "alias": "DET - User Epix 2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
