@@ -3685,7 +3685,7 @@
     {
         "host": "ctl-tmo-mot-01",
         "port": 34345,
-        "dir": "ioc/tmo/cvmi/lcls-plc-cvmi-motion/v1.0.0",
+        "dir": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/lcls-plc-cvmi-motion",
         "alias": "ioc-cvmi-motion",
         "history": [
             "ioc/tmo/cvmi/lcls-plc-cvmi-motion/v1.0.0"
@@ -3693,8 +3693,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-cvmi-motion",
-        "script": "/reg/g/pcds/epics/ioc/tmo/cvmi/lcls-plc-cvmi-motion/v1.0.0/iocBoot/ioc-cvmi-motion/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.4.0/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/lcls-plc-cvmi-motion/iocBoot/ioc-cvmi-motion/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-tmo-mot-01",
@@ -3845,14 +3845,14 @@
     {
         "host": "ctl-tmo-vac-01",
         "port": 30112,
-        "dir": "ioc/cvmi/lcls-plc-cvmi-vac/v1.1.0/plc-cvmi-vac",
+        "dir": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/lcls-plc-cvmi-vac/plc-cvmi-vac",
         "history": [
             "ioc/cvmi/lcls-plc-cvmi-vac/v1.1.0/plc-cvmi-vac"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-plc-cvmi-vac",
-        "script": "/reg/g/pcds/epics/ioc/cvmi/lcls-plc-cvmi-vac/v1.1.0/plc-cvmi-vac/iocBoot/ioc-plc-cvmi-vac/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/lcls-plc-cvmi-vac/plc-cvmi-vac/iocBoot/ioc-plc-cvmi-vac/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
