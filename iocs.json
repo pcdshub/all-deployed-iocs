@@ -4585,6 +4585,7 @@
         "host": "daq-xpp-pgp01",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/epix",
+        "disable": true,
         "alias": "DET - Epix_alc2 TEMP",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
