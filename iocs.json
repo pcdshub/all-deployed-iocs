@@ -16072,12 +16072,12 @@
     {
         "host": "ioc-tst-13",
         "port": 39100,
-        "dir": "ioc/common/expstate/R1.0.5",
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/expstate",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-expstate",
-        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.5/children/build/iocBoot/ioc-tst-expstate/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.5/bin/rhel7-x86_64/expState"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/expstate/children/build/iocBoot/ioc-tst-expstate/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/expstate/bin/rhel7-x86_64/expState"
     },
     {
         "host": "ioc-tst-13",
