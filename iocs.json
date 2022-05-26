@@ -11382,7 +11382,7 @@
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige33",
         "script": "/cds/home/p/peregrin/modules/mec/gigECam/R1.1.1/build/iocBoot/ioc-mec-gige33/st.cmd",
-        "binary": "/cds/home/p/peregrin/modules/gigECam-git/bin/linux-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.1/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige01",
@@ -11396,7 +11396,7 @@
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige34",
         "script": "/cds/home/p/peregrin/modules/mec/gigECam/R1.1.1/build/iocBoot/ioc-mec-gige34/st.cmd",
-        "binary": "/cds/home/p/peregrin/modules/gigECam-git/bin/linux-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.1/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige01",
@@ -11410,7 +11410,7 @@
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige35",
         "script": "/cds/home/p/peregrin/modules/mec/gigECam/R1.1.1/build/iocBoot/ioc-mec-gige35/st.cmd",
-        "binary": "/cds/home/p/peregrin/modules/gigECam-git/bin/linux-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.1/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige02",
@@ -11453,7 +11453,7 @@
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige13",
         "script": "/cds/home/p/peregrin/modules/mec/gigECam/R1.1.1/build/iocBoot/ioc-mec-gige13/st.cmd",
-        "binary": "/cds/home/p/peregrin/modules/gigECam-git/bin/linux-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.1/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige02",
@@ -11467,7 +11467,7 @@
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige14",
         "script": "/cds/home/p/peregrin/modules/mec/gigECam/R1.1.1/build/iocBoot/ioc-mec-gige14/st.cmd",
-        "binary": "/cds/home/p/peregrin/modules/gigECam-git/bin/linux-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.1/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige02",
@@ -11551,7 +11551,7 @@
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige32",
         "script": "/cds/home/p/peregrin/modules/mec/gigECam/R1.1.1/build/iocBoot/ioc-mec-gige32/st.cmd",
-        "binary": "/cds/home/p/peregrin/modules/gigECam-git/bin/linux-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.1/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige04",
