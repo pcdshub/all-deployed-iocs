@@ -11439,7 +11439,7 @@
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige12",
         "script": "/cds/home/p/peregrin/modules/mec/gigECam/R1.1.1/build/iocBoot/ioc-mec-gige12/st.cmd",
-        "binary": "/cds/home/p/peregrin/modules/gigECam-git/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige02",
