@@ -14038,7 +14038,6 @@
         "host": "ioc-mfx-wave8",
         "port": 30103,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam/current",
-        "disable": true,
         "alias": "CAM - GigE Liquid Jet 3",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
