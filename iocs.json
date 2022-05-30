@@ -18825,6 +18825,28 @@
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
     },
     {
+        "host": "ioc-xpp-gige01",
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam",
+        "alias": "Gige 12 - USR",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-gige-12",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-xpp-gige-12/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.1/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-xpp-gige01",
+        "port": 30005,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam",
+        "alias": "Gige 13 - USR",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-gige-13",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-xpp-gige-13/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.1/bin/rhel7-x86_64/gige"
+    },
+    {
         "host": "ioc-xpp-gige02",
         "port": 37500,
         "dir": "/reg/g/pcds/epics-dev/pennebak/xpp/cryocon/current",
