@@ -12941,7 +12941,7 @@
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-pdu-ac02",
         "script": "/reg/g/pcds/epics-dev/cymel123/mec/Leviton/current/build/iocBoot/ioc-mec-pdu-ac02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.1/bin/rhel7-x86_64/Leviton"
+        "binary": "/reg/g/pcds/epics-dev/cymel123/Leviton/current/bin/rhel7-x86_64/Leviton"
     },
     {
         "host": "ioc-mec-wave8",
