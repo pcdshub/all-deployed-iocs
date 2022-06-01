@@ -12934,7 +12934,7 @@
     },
     {
         "host": "ioc-mec-wave8",
-        "port": 39100,
+        "port": 39102,
         "dir": "/reg/g/pcds/epics-dev/cymel123/mec/Leviton/current",
         "alias": "Power (PDU) Racks AC02",
         "base_version": "3.15",
