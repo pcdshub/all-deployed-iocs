@@ -431,7 +431,7 @@
     {
         "host": "ctl-kfe-mot-01",
         "port": 30103,
-        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-tmo-optics/iocBoot/ioc-tmo-optics/",
+        "dir": "/reg/g/pcds/epics/ioc/tmo/lcls-plc-tmo-optics/v2.1.0/iocBoot/ioc-tmo-optics/",
         "history": [
             "/reg/g/pcds/epics-dev/awallace/lcls-plc-tmo-optics",
             "/reg/g/pcds/epics-dev/sfsyunus/lcls-plc-tmo-optics",
@@ -440,7 +440,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-tmo-optics",
-        "script": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-tmo-optics/iocBoot/ioc-tmo-optics/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/tmo/lcls-plc-tmo-optics/v2.1.0/iocBoot/ioc-tmo-optics/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
@@ -5823,7 +5823,7 @@
     {
         "host": "ioc-cxi-misc1",
         "port": 30010,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/cxi/ioc/vacuum",
+        "dir": "ioc/cxi/vacuum/R1.6.1",
         "alias": "Vacuum",
         "history": [
             "ioc/cxi/vacuum/R1.5.0",
@@ -5832,8 +5832,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-vacuum",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/cxi/ioc/vacuum/iocBoot/ioc-cxi-vacuum/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/ctsoi/cxi/ioc/vacuum/bin/linux-x86_64/vacuum"
+        "script": "/reg/g/pcds/epics/ioc/cxi/vacuum/R1.6.1/iocBoot/ioc-cxi-vacuum/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/cxi/vacuum/R1.6.1/bin/linux-x86_64/vacuum"
     },
     {
         "host": "ioc-cxi-misc1",
