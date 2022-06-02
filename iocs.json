@@ -70,26 +70,6 @@
         "binary": "/cds/home/t/tjohnson/trunk/common/slice-dhv/bin/rhel7-x86_64/slice"
     },
     {
-        "host": "ctl-hpl-srv02",
-        "port": 30021,
-        "dir": "/cds/home/t/tjohnson/trunk/las/local_gateway",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/hpl/iocmanager.cfg",
-        "name": "ioc-hpl-pfts-gw-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/local_gateway/build/iocBoot/ioc-hpl-pfts-gw-01/st.cmd",
-        "binary": "/usr/bin/bash"
-    },
-    {
-        "host": "ctl-hpl-srv02",
-        "port": 30020,
-        "dir": "ioc/common/local_gateway/R1.0.0",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/hpl/iocmanager.cfg",
-        "name": "ioc-hpl-rfof1",
-        "script": "/reg/g/pcds/epics/ioc/common/local_gateway/R1.0.0/children/build/iocBoot/ioc-hpl-rfof1/st.cmd",
-        "binary": "/usr/bin/bash"
-    },
-    {
         "host": "ctl-kfe-cam-01",
         "port": 39102,
         "dir": "ioc/common/pgpCamlink/R0.8.0",
