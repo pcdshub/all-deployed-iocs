@@ -5823,7 +5823,7 @@
     {
         "host": "ioc-cxi-misc1",
         "port": 30010,
-        "dir": "ioc/cxi/vacuum/R1.6.0",
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/cxi/ioc/vacuum",
         "alias": "Vacuum",
         "history": [
             "ioc/cxi/vacuum/R1.5.0",
@@ -5832,8 +5832,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-vacuum",
-        "script": "/reg/g/pcds/epics/ioc/cxi/vacuum/R1.6.0/iocBoot/ioc-cxi-vacuum/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/cxi/vacuum/R1.6.0/bin/linux-x86_64/vacuum"
+        "script": "/reg/g/pcds/epics-dev/ctsoi/cxi/ioc/vacuum/iocBoot/ioc-cxi-vacuum/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/ctsoi/cxi/ioc/vacuum/bin/linux-x86_64/vacuum"
     },
     {
         "host": "ioc-cxi-misc1",
