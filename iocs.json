@@ -1010,6 +1010,16 @@
         "binary": "/cds/home/t/tjohnson/trunk/common/dicon_gp600-git/bin/rhel7-x86_64/dicon"
     },
     {
+        "host": "ctl-las-ftl-srv01",
+        "port": 30003,
+        "dir": "/cds/home/t/tjohnson/trunk/las/local_gateway",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-ftl-pfts-gw-01",
+        "script": "/cds/home/t/tjohnson/trunk/las/local_gateway/build/iocBoot/ioc-las-ftl-pfts-gw-01/st.cmd",
+        "binary": "/usr/bin/bash"
+    },
+    {
         "host": "ctl-las-ip1-srv01",
         "port": 30040,
         "dir": "ioc/las/evr/R1.0.5",
