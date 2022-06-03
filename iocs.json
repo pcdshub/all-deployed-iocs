@@ -18635,7 +18635,6 @@
         "host": "ioc-xcs-user2",
         "port": 30002,
         "dir": "ioc/xcs/vars/R0.6.1",
-        "disable": true,
         "alias": "USR - Vars",
         "history": [
             "ioc/xcs/vars/R0.6.1",
