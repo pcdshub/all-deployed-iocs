@@ -15948,6 +15948,16 @@
     },
     {
         "host": "ioc-tst-13",
+        "port": 30250,
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/Leviton/Leviton-git",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-las-mec-pwr-01",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/Leviton/Leviton-git/build/iocBoot/ioc-las-mec-pwr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/common/Leviton/Leviton-git/bin/rhel7-x86_64/Leviton"
+    },
+    {
+        "host": "ioc-tst-13",
         "port": 36799,
         "dir": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/LED_test",
         "alias": "LED test IOC",
@@ -21831,6 +21841,7 @@
         "host": "tst-desktop",
         "port": 30010,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-git",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-las-tst-phase-ims01",
