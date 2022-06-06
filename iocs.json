@@ -4471,6 +4471,7 @@
         "host": "daq-xcs-pgp01",
         "port": 35001,
         "dir": "/reg/g/pcds/epics-dev/jjoshi/xcs_dir/epix/current",
+        "disable": true,
         "history": [
             "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/epix",
             "/reg/g/pcds/epics-dev/jjoshi/xcs_dir/epix/current"
@@ -4485,6 +4486,7 @@
         "host": "daq-xcs-pgp01",
         "port": 35002,
         "dir": "/reg/g/pcds/epics-dev/jjoshi/xcs_dir/epix/current",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-epix2",
@@ -4495,6 +4497,7 @@
         "host": "daq-xcs-pgp01",
         "port": 35003,
         "dir": "/reg/g/pcds/epics-dev/jjoshi/xcs_dir/epix/current",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-epix3",
@@ -4505,6 +4508,7 @@
         "host": "daq-xcs-pgp01",
         "port": 35004,
         "dir": "/reg/g/pcds/epics-dev/jjoshi/xcs_dir/epix/current",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-epix4",
@@ -18171,7 +18175,6 @@
         "host": "ioc-xcs-user1",
         "port": 30300,
         "dir": "ioc/common/mpod/R2.1.5",
-        "disable": true,
         "alias": "DET - Ladm Mpod",
         "history": [
             "ioc/common/mpod/R2.0.6",
