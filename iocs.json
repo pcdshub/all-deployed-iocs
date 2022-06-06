@@ -18171,6 +18171,7 @@
         "host": "ioc-xcs-user1",
         "port": 30300,
         "dir": "ioc/common/mpod/R2.1.5",
+        "disable": true,
         "alias": "DET - Ladm Mpod",
         "history": [
             "ioc/common/mpod/R2.0.6",
