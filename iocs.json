@@ -10125,7 +10125,7 @@
     {
         "host": "ioc-las-mec-evr02",
         "port": 30202,
-        "dir": "/cds/home/t/tjohnson/trunk/las/fiberOven/fiberOven-git",
+        "dir": "ioc/las/fiberOven/R3.1.1",
         "history": [
             "ioc/las/fiberOven/R2.24.0"
         ],
@@ -10133,8 +10133,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-fiberOven",
-        "script": "/cds/home/t/tjohnson/trunk/las/fiberOven/fiberOven-git/iocBoot/ioc-las-fiberOven/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/las/fiberOven/fiberOven-git/bin/linux-x86/fiberOven"
+        "script": "/reg/g/pcds/epics/ioc/las/fiberOven/R3.1.1/iocBoot/ioc-las-fiberOven/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/las/fiberOven/R3.1.1/bin/linux-x86/fiberOven"
     },
     {
         "host": "ioc-las-mec-evr03",
