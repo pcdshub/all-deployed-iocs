@@ -19116,23 +19116,23 @@
     {
         "host": "ioc-xpp-las01",
         "port": 30008,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam",
+        "dir": "ioc/xpp/gigECam/R2.0.1",
         "alias": "LAS - Ouput Basler",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-las01",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-xpp-gige-las01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.1/build/iocBoot/ioc-xpp-gige-las01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-las01",
         "port": 30007,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/picoMotion",
+        "dir": "ioc/xpp/picoMotion/R1.0.0",
         "alias": "LAS - picomotion",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-pico-las01",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/picoMotion/build/iocBoot/ioc-xpp-pico-las01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/picoMotion/R1.0.0/build/iocBoot/ioc-xpp-pico-las01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/picoMotion/R4.0.1/bin/rhel7-x86_64/motion"
     },
     {
@@ -19573,62 +19573,62 @@
     {
         "host": "ioc-xpp-rec02",
         "port": 30003,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/current",
+        "dir": "ioc/xpp/gigECam/R2.0.1",
         "disable": true,
         "alias": "Gige LBL2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-lbl-02",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.1/build/iocBoot/ioc-xpp-gige-lbl-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-rec02",
         "port": 30004,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/current",
+        "dir": "ioc/xpp/gigECam/R2.0.1",
         "disable": true,
         "alias": "Gige LBL3",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-lbl-03",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.1/build/iocBoot/ioc-xpp-gige-lbl-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-rec02",
         "port": 33125,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/current",
+        "dir": "ioc/xpp/gigECam/R2.0.1",
         "disable": true,
         "alias": "Gige LJ1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-lj1",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.1/build/iocBoot/ioc-xpp-gige-lj1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-rec02",
         "port": 33126,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/current",
+        "dir": "ioc/xpp/gigECam/R2.0.1",
         "disable": true,
         "alias": "Gige LJ2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-lj2",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.1/build/iocBoot/ioc-xpp-gige-lj2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-rec02",
         "port": 33127,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/current",
+        "dir": "ioc/xpp/gigECam/R2.0.1",
         "disable": true,
         "alias": "Gige LJ3",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-lj3",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.1/build/iocBoot/ioc-xpp-gige-lj3/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-rec02",
@@ -20045,7 +20045,7 @@
     {
         "host": "ioc-xpp-rob01",
         "port": 30158,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/pvNotepad",
+        "dir": "ioc/xpp/pvNotepad/R1.1.7",
         "alias": "USR - PVs",
         "history": [
             "/reg/g/pcds/epics-dev/espov/ioc/xpp/pvNotepad/current",
@@ -20054,7 +20054,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-userPV",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/pvNotepad/build/iocBoot/ioc-xpp-userPV/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/pvNotepad/R1.1.7/build/iocBoot/ioc-xpp-userPV/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1/bin/linux-x86_64/pvNotepad"
     },
     {
@@ -20826,23 +20826,23 @@
     {
         "host": "ioc-xpp-wave8",
         "port": 32936,
-        "dir": "ioc/xpp/chiller/R0.9.3",
+        "dir": "ioc/xpp/chiller/R1.0.0",
         "alias": "Thermotek Chiller 01",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-thermotek-01",
-        "script": "/reg/g/pcds/epics/ioc/xpp/chiller/R0.9.3/build/iocBoot/ioc-xpp-thermotek-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/chiller/R1.0.0/build/iocBoot/ioc-xpp-thermotek-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.6/bin/rhel7-x86_64/thermotek"
     },
     {
         "host": "ioc-xpp-wave8",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/chiller",
+        "dir": "ioc/xpp/chiller/R1.0.0",
         "alias": "Thermotek Chiller SB5",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-thermotek-02",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/chiller/build/iocBoot/ioc-xpp-thermotek-02/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/chiller/R1.0.0/build/iocBoot/ioc-xpp-thermotek-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.6/bin/rhel7-x86_64/thermotek"
     },
     {
