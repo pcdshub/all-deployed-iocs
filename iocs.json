@@ -18979,12 +18979,12 @@
     {
         "host": "ioc-xpp-gige02",
         "port": 30006,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/common/mpod",
+        "dir": "ioc/common/mpod/R2.2.8",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-usr-mpod",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/mpod/iocBoot/ioc-xpp-usr-mpod/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/espov/ioc/common/mpod/bin/rhel7-x86_64/mpod"
+        "script": "/reg/g/pcds/epics/ioc/common/mpod/R2.2.8/iocBoot/ioc-xpp-usr-mpod/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/mpod/R2.2.8/bin/rhel7-x86_64/mpod"
     },
     {
         "host": "ioc-xpp-gon",
@@ -19170,6 +19170,17 @@
     },
     {
         "host": "ioc-xpp-misc01",
+        "port": 30115,
+        "dir": "ioc/xpp/pvNotepad/R1.1.7",
+        "alias": "pcdsdevices pvNotepad",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-pcdsdevices",
+        "script": "/reg/g/pcds/epics/ioc/xpp/pvNotepad/R1.1.7/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ioc-xpp-misc01",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims",
         "alias": "SB2 - Attenuator Motors",
@@ -19193,6 +19204,21 @@
         "name": "ioc-xpp-sb3-slit01-ims",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims/build/iocBoot/ioc-xpp-sb3-slit01-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xpp-misc01",
+        "port": 30158,
+        "dir": "ioc/xpp/pvNotepad/R1.1.7",
+        "alias": "USR - PVs",
+        "history": [
+            "/reg/g/pcds/epics-dev/espov/ioc/xpp/pvNotepad/current",
+            "ioc/xpp/pvNotepad/R1.1.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-userPV",
+        "script": "/reg/g/pcds/epics/ioc/xpp/pvNotepad/R1.1.7/build/iocBoot/ioc-xpp-userPV/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1/bin/linux-x86_64/pvNotepad"
     },
     {
         "host": "ioc-xpp-mot01",
@@ -20019,17 +20045,6 @@
     },
     {
         "host": "ioc-xpp-rob01",
-        "port": 30115,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/pvNotepad",
-        "alias": "pcdsdevices pvNotepad",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-pcdsdevices",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/pvNotepad/build/iocBoot/ioc-xpp-pcdsdevices/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1/bin/linux-x86_64/pvNotepad"
-    },
-    {
-        "host": "ioc-xpp-rob01",
         "port": 37626,
         "dir": "ioc/xpp/staubli/R1.2.0",
         "alias": "XPP Robot",
@@ -20041,21 +20056,6 @@
         "name": "ioc-xpp-rob",
         "script": "/reg/g/pcds/epics/ioc/xpp/staubli/R1.2.0/build/iocBoot/ioc-xpp-rob/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/staubli/R1.2.0/bin/linux-x86/staubli"
-    },
-    {
-        "host": "ioc-xpp-rob01",
-        "port": 30158,
-        "dir": "ioc/xpp/pvNotepad/R1.1.7",
-        "alias": "USR - PVs",
-        "history": [
-            "/reg/g/pcds/epics-dev/espov/ioc/xpp/pvNotepad/current",
-            "ioc/xpp/pvNotepad/R1.1.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-userPV",
-        "script": "/reg/g/pcds/epics/ioc/xpp/pvNotepad/R1.1.7/build/iocBoot/ioc-xpp-userPV/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1/bin/linux-x86_64/pvNotepad"
     },
     {
         "host": "ioc-xpp-rob01",
