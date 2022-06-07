@@ -19176,8 +19176,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-pcdsdevices",
-        "script": "/reg/g/pcds/epics/ioc/xpp/pvNotepad/R1.1.7/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/xpp/pvNotepad/R1.1.7/build/iocBoot/ioc-xpp-pcdsdevices/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1/bin/linux-x86_64/pvNotepad"
     },
     {
         "host": "ioc-xpp-misc01",
@@ -19208,7 +19208,7 @@
     {
         "host": "ioc-xpp-misc01",
         "port": 30158,
-        "dir": "ioc/xpp/pvNotepad/R1.1.7",
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/pvNotepad",
         "alias": "USR - PVs",
         "history": [
             "/reg/g/pcds/epics-dev/espov/ioc/xpp/pvNotepad/current",
@@ -19217,7 +19217,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-userPV",
-        "script": "/reg/g/pcds/epics/ioc/xpp/pvNotepad/R1.1.7/build/iocBoot/ioc-xpp-userPV/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/pvNotepad/build/iocBoot/ioc-xpp-userPV/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1/bin/linux-x86_64/pvNotepad"
     },
     {
