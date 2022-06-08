@@ -17755,7 +17755,6 @@
         "host": "ioc-xcs-rec02",
         "port": 32563,
         "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam",
-        "disable": true,
         "history": [
             "/cds/home/j/jjoshi/xcs"
         ],
