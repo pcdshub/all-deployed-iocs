@@ -16075,15 +16075,16 @@
     {
         "host": "ioc-tst-13",
         "port": 30004,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager",
+        "dir": "ioc/common/pfts_manager/R1.0.2",
         "history": [
-            "ioc/common/pfts_manager/R1.0.1"
+            "ioc/common/pfts_manager/R1.0.1",
+            "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-dicon01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager/children/build/iocBoot/ioc-tst-dicon01/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager/bin/rhel7-x86_64/pftsman"
+        "script": "/reg/g/pcds/epics/ioc/common/pfts_manager/R1.0.2/children/build/iocBoot/ioc-tst-dicon01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pfts_manager/R1.0.2/bin/rhel7-x86_64/pftsman"
     },
     {
         "host": "ioc-tst-13",
