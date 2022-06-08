@@ -4501,7 +4501,7 @@
     {
         "host": "daq-xcs-pgp01",
         "port": 35001,
-        "dir": "/reg/g/pcds/epics-dev/jjoshi/xcs_dir/epix/current",
+        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/epix",
         "history": [
             "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/epix",
             "/reg/g/pcds/epics-dev/jjoshi/xcs_dir/epix/current"
@@ -4509,7 +4509,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-epix1",
-        "script": "/reg/g/pcds/epics-dev/jjoshi/xcs_dir/epix/current/build/iocBoot/ioc-xcs-epix1/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/epix/build/iocBoot/ioc-xcs-epix1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.0.3/bin/rhel7-x86_64/epixMonIoc"
     },
     {
