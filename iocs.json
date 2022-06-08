@@ -1515,16 +1515,6 @@
     },
     {
         "host": "ctl-las-ip1-srv06",
-        "port": 30014,
-        "dir": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-ejx-ell-05",
-        "script": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-lm1k4-ejx-ell-05/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/bin/rhel7-x86_64/ell"
-    },
-    {
-        "host": "ctl-las-ip1-srv06",
         "port": 30001,
         "dir": "/cds/home/t/tjohnson/trunk/las/gigECam",
         "base_version": "3.15",
@@ -1555,16 +1545,6 @@
     },
     {
         "host": "ctl-las-ip1-srv06",
-        "port": 30013,
-        "dir": "/cds/home/t/tjohnson/trunk/las/qmini",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-ejx-spec-02",
-        "script": "/cds/home/t/tjohnson/trunk/las/qmini/build/iocBoot/ioc-lm1k4-ejx-spec-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/qmini/R0.2.1/bin/rhel7-x86_64/qmini"
-    },
-    {
-        "host": "ctl-las-ip1-srv06",
         "port": 34000,
         "dir": "/cds/home/t/tjohnson/trunk/fakeGmd",
         "base_version": "3.15",
@@ -1572,6 +1552,26 @@
         "name": "ioc-tst-gmd-01",
         "script": "/cds/home/t/tjohnson/trunk/fakeGmd/children/build/iocBoot/ioc-tst-gmd-01/st.cmd",
         "binary": "/cds/home/t/tjohnson/trunk/fakeGmd/bin/rhel7-x86_64/fakeGmd"
+    },
+    {
+        "host": "ctl-las-ip1-srv07",
+        "port": 30014,
+        "dir": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-ejx-ell-05",
+        "script": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-lm1k4-ejx-ell-05/st.cmd",
+        "binary": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/bin/rhel7-x86_64/ell"
+    },
+    {
+        "host": "ctl-las-ip1-srv07",
+        "port": 30013,
+        "dir": "/cds/home/t/tjohnson/trunk/las/qmini",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-ejx-spec-02",
+        "script": "/cds/home/t/tjohnson/trunk/las/qmini/build/iocBoot/ioc-lm1k4-ejx-spec-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/qmini/R0.2.1/bin/rhel7-x86_64/qmini"
     },
     {
         "host": "ctl-las-ip1-srv07",
