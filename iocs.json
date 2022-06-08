@@ -19174,12 +19174,12 @@
     {
         "host": "ioc-xpp-misc01",
         "port": 30115,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/pvNotepad",
+        "dir": "ioc/xpp/pvNotepad/R1.1.8",
         "alias": "pcdsdevices pvNotepad",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-pcdsdevices",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/pvNotepad/build/iocBoot/ioc-xpp-pcdsdevices/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/pvNotepad/R1.1.8/build/iocBoot/ioc-xpp-pcdsdevices/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
     },
     {
@@ -19211,7 +19211,7 @@
     {
         "host": "ioc-xpp-misc01",
         "port": 30158,
-        "dir": "ioc/xpp/pvNotepad/R1.1.7",
+        "dir": "ioc/xpp/pvNotepad/R1.1.8",
         "alias": "USR - PVs",
         "history": [
             "/reg/g/pcds/epics-dev/espov/ioc/xpp/pvNotepad/current",
@@ -19220,8 +19220,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-userPV",
-        "script": "/reg/g/pcds/epics/ioc/xpp/pvNotepad/R1.1.7/build/iocBoot/ioc-xpp-userPV/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1/bin/linux-x86_64/pvNotepad"
+        "script": "/reg/g/pcds/epics/ioc/xpp/pvNotepad/R1.1.8/build/iocBoot/ioc-xpp-userPV/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
     },
     {
         "host": "ioc-xpp-mot01",
@@ -19684,18 +19684,6 @@
         "name": "ioc-xpp-mcs2-01",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/smaract/build/iocBoot/ioc-xpp-mcs2-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.10/bin/rhel7-x86_64/smaract"
-    },
-    {
-        "host": "ioc-xpp-rec02",
-        "port": 30032,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/smaract",
-        "disable": true,
-        "alias": "USR - SmarAct2",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-mcs2-02",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/smaract/build/iocBoot/ioc-xpp-mcs2-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.5/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ioc-xpp-rec02",
