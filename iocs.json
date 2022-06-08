@@ -4502,7 +4502,6 @@
         "host": "daq-xcs-pgp01",
         "port": 35001,
         "dir": "/reg/g/pcds/epics-dev/jjoshi/xcs_dir/epix/current",
-        "disable": true,
         "history": [
             "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/epix",
             "/reg/g/pcds/epics-dev/jjoshi/xcs_dir/epix/current"
