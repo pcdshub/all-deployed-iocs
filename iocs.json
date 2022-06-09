@@ -19721,7 +19721,7 @@
     {
         "host": "ioc-xpp-rec02",
         "port": 30010,
-        "dir": "/reg/neh/home/mcbrowne/trunk2/ioc/xpp/ccm/deltaTauMotion/current",
+        "dir": "ioc/xpp/ccm/deltaTauMotion/R1.0.1",
         "alias": "MON - CCM Alio",
         "history": [
             "/reg/g/pcds/epics-dev/sabbah01/xpp/ccm/deltaTauMotion/current",
@@ -19730,8 +19730,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-mon-ccm-alio",
-        "script": "/reg/neh/home/mcbrowne/trunk2/ioc/xpp/ccm/deltaTauMotion/current/iocBoot/ioc-xpp-mon-ccm-alio/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/xpp/ccm/deltaTauMotion/current/bin/rhel7-x86_64/deltaTauMotion"
+        "script": "/reg/g/pcds/epics/ioc/xpp/ccm/deltaTauMotion/R1.0.1/iocBoot/ioc-xpp-mon-ccm-alio/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/xpp/ccm/deltaTauMotion/R1.0.1/bin/rhel7-x86_64/deltaTauMotion"
     },
     {
         "host": "ioc-xpp-rec02",
@@ -20013,7 +20013,7 @@
     {
         "host": "ioc-xpp-rob01",
         "port": 30012,
-        "dir": "/reg/neh/home/mcbrowne/trunk2/ioc/xpp/ccm/piMotion/current",
+        "dir": "ioc/xpp/ccm/piMotion/R1.0.1",
         "alias": "MON CCM PI Dev",
         "history": [
             "/reg/g/pcds/package/epics/3.14-dev/ioc/xpp/ccm/piMotion/current"
@@ -20021,8 +20021,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-mon-ccm-piMotion",
-        "script": "/reg/neh/home/mcbrowne/trunk2/ioc/xpp/ccm/piMotion/current/iocBoot/ioc-xpp-mon-ccm-piMotion/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/xpp/ccm/piMotion/current/bin/linux-x86/piMotion"
+        "script": "/reg/g/pcds/epics/ioc/xpp/ccm/piMotion/R1.0.1/iocBoot/ioc-xpp-mon-ccm-piMotion/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/xpp/ccm/piMotion/R1.0.1/bin/linux-x86/piMotion"
     },
     {
         "host": "ioc-xpp-rob01",
