@@ -10839,11 +10839,12 @@
     {
         "host": "ioc-mec-evr01",
         "port": 42042,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/mec/dg/current",
+        "dir": "ioc/mec/dg/R2.0.5",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-delaygen-uxi",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/mec/dg/current/build/iocBoot/ioc-mec-delaygen-uxi/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/mec/dg/R2.0.5/build/iocBoot/ioc-mec-delaygen-uxi/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/dg/R2.0.4/bin/linux-x86_64/delaygenApp"
     },
     {
@@ -12761,11 +12762,12 @@
     {
         "host": "ioc-mec-opal01",
         "port": 30002,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/mec/thermotek",
+        "dir": "ioc/mec/thermotek/R1.0.0",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-thermotek-02",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/mec/thermotek/build/iocBoot/ioc-mec-thermotek-02/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/mec/thermotek/R1.0.0/build/iocBoot/ioc-mec-thermotek-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.7/bin/linux-x86_64/thermotek"
     },
     {
@@ -12800,12 +12802,13 @@
     {
         "host": "ioc-mec-qadc",
         "port": 30002,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/qadc",
+        "dir": "ioc/common/qadc/R2.0.4",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-qadc134",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/qadc/children/build/iocBoot/ioc-mec-qadc134/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/qadc/bin/rhel7-x86_64/qadc134Ioc"
+        "script": "/reg/g/pcds/epics/ioc/common/qadc/R2.0.4/children/build/iocBoot/ioc-mec-qadc134/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/qadc/R2.0.4/bin/rhel7-x86_64/qadc134Ioc"
     },
     {
         "host": "ioc-mec-rec01",
