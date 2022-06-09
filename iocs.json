@@ -13746,7 +13746,7 @@
     {
         "host": "ioc-mfx-rec02",
         "port": 42004,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/mfx/TDS3000/current",
+        "dir": "ioc/mfx/TDS3000/R1.0.0",
         "alias": "OSC - TDS3000",
         "history": [
             "/reg/neh/home/mbutner/ioc-workarea/common/TDS3000/current",
@@ -13755,7 +13755,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-scope-portable01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/mfx/TDS3000/current/build/iocBoot/ioc-mfx-scope-portable01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/mfx/TDS3000/R1.0.0/build/iocBoot/ioc-mfx-scope-portable01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/TDS3000/R1.0.0/bin/linux-x86_64/TDS3000"
     },
     {
