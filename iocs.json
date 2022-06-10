@@ -19216,6 +19216,17 @@
     },
     {
         "host": "ioc-xpp-misc01",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/NewportXPS8",
+        "alias": "USR Motion Newport LBL",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-lbl-xps",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/NewportXPS8/build/iocBoot/ioc-xpp-lbl-xps/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
+    },
+    {
+        "host": "ioc-xpp-misc01",
         "port": 30115,
         "dir": "ioc/xpp/pvNotepad/R1.1.8",
         "alias": "pcdsdevices pvNotepad",
@@ -20203,7 +20214,7 @@
         "host": "ioc-xpp-usr01",
         "port": 32508,
         "dir": "/reg/g/pcds/epics-dev/spencera/xpp/dg",
-        "alias": "USR Delaygen. 2 (DG645)",
+        "alias": "USR Delaygen. (DG645) 2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-delaygen2",
@@ -20339,17 +20350,6 @@
         "name": "ioc-xpp-las-xps2",
         "script": "/reg/g/pcds/epics/ioc/xpp/NewportXPS8/R2.0.1/build/iocBoot/ioc-xpp-las-xps2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
-    },
-    {
-        "host": "ioc-xpp-usr01",
-        "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/NewportXPS8",
-        "alias": "USR Motion Newport LBL",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-lbl-xps",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/NewportXPS8/build/iocBoot/ioc-xpp-lbl-xps/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
     },
     {
         "host": "ioc-xpp-usr01",
