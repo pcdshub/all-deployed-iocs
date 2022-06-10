@@ -12154,16 +12154,17 @@
     {
         "host": "ioc-mec-misc01",
         "port": 31000,
-        "dir": "/reg/neh/home/mcbrowne/trunk2/ioc/mec/ns_oper/current",
+        "dir": "ioc/mec/ns_oper/R1.0.1",
         "history": [
             "ioc/mec/ns_oper/R1.0.0",
-            "/reg/neh/home/tjohnson/trunk/mec/ns_oper"
+            "/reg/neh/home/tjohnson/trunk/mec/ns_oper",
+            "/reg/neh/home/mcbrowne/trunk2/ioc/mec/ns_oper/current"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-nsoper",
-        "script": "/reg/neh/home/mcbrowne/trunk2/ioc/mec/ns_oper/current/iocBoot/ioc-mec-nsoper/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/mec/ns_oper/current/bin/linux-x86_64/nsoper"
+        "script": "/reg/g/pcds/epics/ioc/mec/ns_oper/R1.0.1/iocBoot/ioc-mec-nsoper/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/mec/ns_oper/R1.0.1/bin/linux-x86_64/nsoper"
     },
     {
         "host": "ioc-mec-misc01",
