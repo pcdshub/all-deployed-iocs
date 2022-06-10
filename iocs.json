@@ -19194,6 +19194,28 @@
     },
     {
         "host": "ioc-xpp-misc01",
+        "port": 30205,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/dg",
+        "alias": "USR Delaygen. (DG645) LBL 01",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-lbl-delaygen1",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/dg/build/iocBoot/ioc-xpp-lbl-delaygen1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/dg/R2.0.3/bin/rhel7-x86_64/delaygenApp"
+    },
+    {
+        "host": "ioc-xpp-misc01",
+        "port": 30206,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/dg",
+        "alias": "USR Delaygen. (DG645) LBL 02",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-lbl-delaygen2",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/dg/build/iocBoot/ioc-xpp-lbl-delaygen2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/dg/R2.0.3/bin/rhel7-x86_64/delaygenApp"
+    },
+    {
+        "host": "ioc-xpp-misc01",
         "port": 30115,
         "dir": "ioc/xpp/pvNotepad/R1.1.8",
         "alias": "pcdsdevices pvNotepad",
@@ -19612,7 +19634,6 @@
         "host": "ioc-xpp-rec02",
         "port": 30001,
         "dir": "ioc/xpp/gigECam/R2.0.1",
-        "disable": true,
         "alias": "Gige LBL1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -19624,7 +19645,6 @@
         "host": "ioc-xpp-rec02",
         "port": 30003,
         "dir": "ioc/xpp/gigECam/R2.0.1",
-        "disable": true,
         "alias": "Gige LBL2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -19636,7 +19656,6 @@
         "host": "ioc-xpp-rec02",
         "port": 30004,
         "dir": "ioc/xpp/gigECam/R2.0.1",
-        "disable": true,
         "alias": "Gige LBL3",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -19969,30 +19988,6 @@
         "name": "ioc-xpp-keithley6514",
         "script": "/reg/neh/home/zlentz/epics/ioc/xpp/Keithley6514/current/build/iocBoot/ioc-xpp-keithley6514/st.cmd",
         "binary": "/cds/home/z/zlentz/epics/ioc/common/Keithley6514/current/bin/linux-x86/Keithley6514"
-    },
-    {
-        "host": "ioc-xpp-rob01",
-        "port": 30205,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/dg/current",
-        "disable": true,
-        "alias": "USR Delaygen. (DG645) LBL 01",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-lbl-delaygen1",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/dg/current/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ioc-xpp-rob01",
-        "port": 30206,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/dg/current",
-        "disable": true,
-        "alias": "USR Delaygen. (DG645) LBL 02",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-lbl-delaygen2",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/dg/current/st.cmd",
-        "binary": null
     },
     {
         "host": "ioc-xpp-rob01",
