@@ -13431,6 +13431,17 @@
     },
     {
         "host": "ioc-mfx-hera",
+        "port": 39100,
+        "dir": "/cds/home/b/batyuk/epics/ioc/mfx/vimbaCam/build",
+        "alias": "CAM - ALV 01",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-alv-01",
+        "script": "/cds/home/b/batyuk/epics/ioc/mfx/vimbaCam/build/iocBoot/ioc-mfx-alv-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.3/bin/rhel7-x86_64/usb"
+    },
+    {
+        "host": "ioc-mfx-hera",
         "port": 30086,
         "dir": "ioc/mfx/gigECam/R0.5.5",
         "disable": true,
@@ -13773,6 +13784,7 @@
         "host": "ioc-mfx-rec02",
         "port": 42004,
         "dir": "ioc/mfx/TDS3000/R1.0.0",
+        "disable": true,
         "alias": "OSC - TDS3000",
         "history": [
             "/reg/neh/home/mbutner/ioc-workarea/common/TDS3000/current",
