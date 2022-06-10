@@ -19633,34 +19633,34 @@
     {
         "host": "ioc-xpp-rec02",
         "port": 30001,
-        "dir": "ioc/xpp/gigECam/R2.0.1",
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam",
         "alias": "Gige LBL1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-lbl-01",
-        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.1/build/iocBoot/ioc-xpp-gige-lbl-01/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-xpp-gige-lbl-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-rec02",
         "port": 30003,
-        "dir": "ioc/xpp/gigECam/R2.0.1",
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam",
         "alias": "Gige LBL2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-lbl-02",
-        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.1/build/iocBoot/ioc-xpp-gige-lbl-02/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-xpp-gige-lbl-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-rec02",
         "port": 30004,
-        "dir": "ioc/xpp/gigECam/R2.0.1",
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam",
         "alias": "Gige LBL3",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-lbl-03",
-        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.1/build/iocBoot/ioc-xpp-gige-lbl-03/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-xpp-gige-lbl-03/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
     },
     {
