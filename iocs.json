@@ -2654,6 +2654,60 @@
         "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.1/bin/rhel7-x86_64/ls336"
     },
     {
+        "host": "ctl-rix-crix-mot-01",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/pennebak/shimadzu-lc20/next",
+        "history": [
+            "/reg/g/pcds/epics-dev/pennebak/shimadzu-lc20/next"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-lc20",
+        "script": "/reg/g/pcds/epics-dev/pennebak/shimadzu-lc20/next/iocBoot/ioc-rix-lc20/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/pennebak/shimadzu-lc20/next/bin/rhel7-x86_64/lc20"
+    },
+    {
+        "host": "ctl-rix-crix-mot-01",
+        "port": 39104,
+        "dir": "ioc/rix/Sentry4/R2.4.1",
+        "history": [
+            "ioc/rix/Sentry4/R2.4.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-pwr-r02",
+        "script": "/reg/g/pcds/epics/ioc/rix/Sentry4/R2.4.1/build/iocBoot/ioc-rix-pwr-r02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.1/bin/rhel7-x86_64/Leviton"
+    },
+    {
+        "host": "ctl-rix-crix-mot-01",
+        "port": 32103,
+        "dir": "ioc/rix/vacuum/R1.0.4",
+        "history": [
+            "ioc/rix/vacuum/R1.0.4",
+            "/reg/g/pcds/epics-dev/wwright/ioc/rix/vacuum"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-vac-support",
+        "script": "/reg/g/pcds/epics/ioc/rix/vacuum/R1.0.4/build/iocBoot/ioc-rix-vac-support/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.0/bin/rhel7-x86_64/vacuum"
+    },
+    {
+        "host": "ctl-rix-crix-vac-01",
+        "port": 39101,
+        "dir": "ioc/common/expstate/R1.0.6",
+        "alias": "Experiment State Tracker",
+        "history": [
+            "ioc/common/expstate/R1.0.2"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-expstate",
+        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.6/children/build/iocBoot/ioc-rix-expstate/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.6/bin/rhel7-x86_64/expState"
+    },
+    {
         "host": "ctl-rix-fim-01",
         "port": 30001,
         "dir": "ioc/rix/pgpWave8/R1.6.0",
@@ -2796,6 +2850,20 @@
     },
     {
         "host": "ctl-rix-mot-01",
+        "port": 30555,
+        "dir": "/reg/g/pcds/epics-dev/jjoshi/common/eventSeqCfg/current",
+        "alias": "Event Sequencer ",
+        "history": [
+            "/reg/g/pcds/epics-dev/jjoshi/common/eventSeqCfg/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-eventSequencer",
+        "script": "/reg/g/pcds/epics-dev/jjoshi/common/eventSeqCfg/current/iocBoot/ioc-rix-eventSequencer/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/jjoshi/common/eventSeqCfg/current/bin/rhel7-x86_64/eventSequencer"
+    },
+    {
+        "host": "ctl-rix-mot-01",
         "port": 30201,
         "dir": "ioc/rix/dc_power/ict",
         "history": [
@@ -2871,6 +2939,19 @@
         "name": "ioc-rix-plv-pdu-06",
         "script": "/reg/g/pcds/epics/ioc/rix/dc_power/ict/build/iocBoot/ioc-rix-plv-pdu-06/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.3/bin/rhel7-x86_64/ict"
+    },
+    {
+        "host": "ctl-rix-mot-01",
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/rixdev",
+        "history": [
+            "/reg/g/pcds/epics-dev/pennebak/sample-delivery/cxidev/ioc-rix-sds"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-sds",
+        "script": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/rixdev/iocBoot/ioc-rix-sds/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-rix-mot-01",
@@ -2992,87 +3073,6 @@
         "name": "ioc-mcp-rix-al1k2",
         "script": "/reg/g/pcds/epics-dev/jjoshi/ioc/picoMotion/build/iocBoot/ioc-mcp-rix-al1k2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/picoMotion/R3.0.0/bin/rhel7-x86_64/motion"
-    },
-    {
-        "host": "ctl-rix-vac-01",
-        "port": 30555,
-        "dir": "/reg/g/pcds/epics-dev/jjoshi/common/eventSeqCfg/current",
-        "alias": "Event Sequencer ",
-        "history": [
-            "/reg/g/pcds/epics-dev/jjoshi/common/eventSeqCfg/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-rix-eventSequencer",
-        "script": "/reg/g/pcds/epics-dev/jjoshi/common/eventSeqCfg/current/iocBoot/ioc-rix-eventSequencer/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/jjoshi/common/eventSeqCfg/current/bin/rhel7-x86_64/eventSequencer"
-    },
-    {
-        "host": "ctl-rix-vac-01",
-        "port": 39101,
-        "dir": "ioc/common/expstate/R1.0.6",
-        "alias": "Experiment State Tracker",
-        "history": [
-            "ioc/common/expstate/R1.0.2"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-rix-expstate",
-        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.6/children/build/iocBoot/ioc-rix-expstate/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.6/bin/rhel7-x86_64/expState"
-    },
-    {
-        "host": "ctl-rix-vac-01",
-        "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/shimadzu-lc20/next",
-        "history": [
-            "/reg/g/pcds/epics-dev/pennebak/shimadzu-lc20/next"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-rix-lc20",
-        "script": "/reg/g/pcds/epics-dev/pennebak/shimadzu-lc20/next/iocBoot/ioc-rix-lc20/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/pennebak/shimadzu-lc20/next/bin/rhel7-x86_64/lc20"
-    },
-    {
-        "host": "ctl-rix-vac-01",
-        "port": 39100,
-        "dir": "ioc/rix/Sentry4/R2.4.1",
-        "history": [
-            "ioc/rix/Sentry4/R2.4.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-rix-pwr-r02",
-        "script": "/reg/g/pcds/epics/ioc/rix/Sentry4/R2.4.1/build/iocBoot/ioc-rix-pwr-r02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.1/bin/rhel7-x86_64/Leviton"
-    },
-    {
-        "host": "ctl-rix-vac-01",
-        "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/rixdev",
-        "history": [
-            "/reg/g/pcds/epics-dev/pennebak/sample-delivery/cxidev/ioc-rix-sds"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-rix-sds",
-        "script": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/rixdev/iocBoot/ioc-rix-sds/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ctl-rix-vac-01",
-        "port": 32103,
-        "dir": "ioc/rix/vacuum/R1.0.4",
-        "history": [
-            "ioc/rix/vacuum/R1.0.4",
-            "/reg/g/pcds/epics-dev/wwright/ioc/rix/vacuum"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-rix-vac-support",
-        "script": "/reg/g/pcds/epics/ioc/rix/vacuum/R1.0.4/build/iocBoot/ioc-rix-vac-support/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.0/bin/rhel7-x86_64/vacuum"
     },
     {
         "host": "ctl-tmo-cam-01",
