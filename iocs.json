@@ -19343,18 +19343,14 @@
     },
     {
         "host": "ioc-xpp-mot01",
-        "port": 37060,
-        "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/rowland/arcus_dmx/current",
-        "disable": true,
-        "alias": "USR - Rowland DMX",
-        "history": [
-            "/reg/g/pcds/package/epics/3.14-dev/ioc/rowland/arcus_dmx/current"
-        ],
+        "port": 30001,
+        "dir": "/cds/home/z/zlentz/epics/ioc/xcs/arcus_dmx/current",
+        "alias": "DET - Rowland Arcus Motion",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-rowland-01",
-        "script": "/reg/g/pcds/package/epics/3.14-dev/ioc/rowland/arcus_dmx/current/build/iocBoot/ioc-rowland-01/st.cmd",
-        "binary": "/cds/home/e/eshelman/arcus_dmx/dmx_ioc/bin/linux-x86/dmx"
+        "script": "/cds/home/z/zlentz/epics/ioc/xcs/arcus_dmx/current/build/iocBoot/ioc-rowland-01/st.cmd",
+        "binary": "/cds/home/z/zlentz/epics/ioc/common/arcus_dmx/current/bin/linux-x86/dmx"
     },
     {
         "host": "ioc-xpp-mot01",
@@ -20211,17 +20207,6 @@
         "name": "pyioc-xpp-usr-mpulser",
         "script": "/reg/neh/home/zlentz/python/pyIOC/servers/magPulser/st.cmd",
         "binary": "/usr/bin/bash"
-    },
-    {
-        "host": "ioc-xpp-usr01",
-        "port": 30001,
-        "dir": "/cds/home/z/zlentz/epics/ioc/xcs/arcus_dmx/current",
-        "alias": "DET - Rowland Arcus Motion",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-rowland-01",
-        "script": "/cds/home/z/zlentz/epics/ioc/xcs/arcus_dmx/current/build/iocBoot/ioc-rowland-01/st.cmd",
-        "binary": "/cds/home/z/zlentz/epics/ioc/common/arcus_dmx/current/bin/linux-x86/dmx"
     },
     {
         "host": "ioc-xpp-usr01",
