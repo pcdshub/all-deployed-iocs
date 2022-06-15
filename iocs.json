@@ -16024,8 +16024,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-las-mec-pwr-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/Leviton/Leviton-git/build/iocBoot/ioc-las-mec-pwr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/common/Leviton/Leviton-git/bin/rhel7-x86_64/Leviton"
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/Leviton/Leviton-git/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-tst-13",
