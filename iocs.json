@@ -16010,6 +16010,16 @@
     },
     {
         "host": "ioc-tst-13",
+        "port": 39103,
+        "dir": "/reg/g/pcds/epics-dev/klauer/simdet-R2.8-0.0.4/iocs/simDetectorIOC/iocBoot/iocSimDetector",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-adsim-detector",
+        "script": "/reg/g/pcds/epics-dev/klauer/simdet-R2.8-0.0.4/iocs/simDetectorIOC/iocBoot/iocSimDetector/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/klauer/simdet-R2.8-0.0.4/iocs/simDetectorIOC/bin/rhel7-x86_64/simDetectorApp"
+    },
+    {
+        "host": "ioc-tst-13",
         "port": 39801,
         "dir": "/reg/g/pcds/epics-dev/nrw/iocs/dosfet/current/children/build/iocBoot/ioc-dosfet-01/",
         "base_version": "3.15",
@@ -21683,7 +21693,7 @@
     {
         "host": "ioc-xrt-wave8",
         "port": 39112,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/xrt/vacuum",
+        "dir": "ioc/xrt/vacuum/R2.1.5",
         "alias": "Vacuum XRT",
         "history": [
             "ioc/xrt/vacuum/R2.0.2",
@@ -21693,8 +21703,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-vacuum",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/xrt/vacuum/iocBoot/ioc-xrt-vacuum/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/xrt/vacuum/bin/rhel7-x86_64/vacuum"
+        "script": "/reg/g/pcds/epics/ioc/xrt/vacuum/R2.1.5/iocBoot/ioc-xrt-vacuum/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/xrt/vacuum/R2.1.5/bin/rhel7-x86_64/vacuum"
     },
     {
         "host": "ioc-xrt-xcsmisc1",
