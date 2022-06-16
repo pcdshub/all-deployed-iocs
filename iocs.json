@@ -16943,7 +16943,7 @@
     {
         "host": "ioc-xcs-gige01",
         "port": 36037,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xcs/gigECam/build",
+        "dir": "/reg/g/pcds/epics-dev/spencera/xcs/gigECam",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-19",
@@ -17133,7 +17133,7 @@
     {
         "host": "ioc-xcs-mot1",
         "port": 32053,
-        "dir": "ioc/xcs/NewportXPS8/R2.0.1/build",
+        "dir": "ioc/xcs/NewportXPS8/R2.0.1",
         "alias": "LAS - Newport 1",
         "history": [
             "/reg/g/pcds/epics-dev/spencera/xcs/NewportXPS8/build"
@@ -17147,7 +17147,7 @@
     {
         "host": "ioc-xcs-mot1",
         "port": 32054,
-        "dir": "ioc/xcs/NewportXPS8/R2.0.1/build",
+        "dir": "ioc/xcs/NewportXPS8/R2.0.1",
         "alias": "LAS - Newport 2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
