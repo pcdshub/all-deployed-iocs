@@ -12188,21 +12188,6 @@
     },
     {
         "host": "ioc-mec-misc01",
-        "port": 30020,
-        "dir": "ioc/common/Leviton/R1.26.4",
-        "alias": "Power (PDU) Racks",
-        "history": [
-            "/reg/g/pcds/epics-dev/cymel123/mec2/Leviton/current",
-            "ioc/common/Leviton/R1.26.4"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-pdu-ac",
-        "script": "/reg/g/pcds/epics/ioc/common/Leviton/R1.26.4/iocBoot/ioc-mec-pdu-ac/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R1.26.4/bin/linux-x86_64/Leviton"
-    },
-    {
-        "host": "ioc-mec-misc01",
         "port": 39002,
         "dir": "ioc/mec/potentiometer/R0.2.0",
         "history": [
@@ -12413,6 +12398,21 @@
         "name": "ioc-mec-ns1-ursbpp150-ims",
         "script": "/reg/g/pcds/epics/ioc/mec/ims/R2.2.3/build/iocBoot/ioc-mec-ns1-ursbpp150-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.7/bin/linux-x86/ims"
+    },
+    {
+        "host": "ioc-mec-mot3",
+        "port": 30020,
+        "dir": "ioc/common/Leviton/R1.26.4",
+        "alias": "Power (PDU) Racks",
+        "history": [
+            "/reg/g/pcds/epics-dev/cymel123/mec2/Leviton/current",
+            "ioc/common/Leviton/R1.26.4"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-pdu-ac",
+        "script": "/reg/g/pcds/epics/ioc/common/Leviton/R1.26.4/iocBoot/ioc-mec-pdu-ac/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R1.26.4/bin/linux-x86_64/Leviton"
     },
     {
         "host": "ioc-mec-mot3",
