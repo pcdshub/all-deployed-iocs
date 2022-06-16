@@ -18212,6 +18212,20 @@
     },
     {
         "host": "ioc-xcs-user1",
+        "port": 30105,
+        "dir": "/reg/g/pcds/epics-dev/oluwade/xcs/thermocube",
+        "alias": "DET - Chiller",
+        "history": [
+            "ioc/xcs/thermocube/R1.0.3"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-chiller1",
+        "script": "/reg/g/pcds/epics-dev/oluwade/xcs/thermocube/build/iocBoot/ioc-xcs-chiller1/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/oluwade/common/thermocube/bin/rhel7-x86_64/chiller"
+    },
+    {
+        "host": "ioc-xcs-user1",
         "port": 31003,
         "dir": "/reg/g/pcds/epics-dev/spencera/common/cryojet",
         "alias": "XCS Cryojet",
@@ -18464,20 +18478,6 @@
         "name": "ioc-xcs-analogScaleOffset",
         "script": "/reg/g/pcds/epics/ioc/xcs/analogScaleOffset/R1.0.1/build/iocBoot/ioc-xcs-analogScaleOffset/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/analogScaleOffset/R0.9.1/bin/linux-x86_64/analogScaleOffset"
-    },
-    {
-        "host": "ioc-xcs-user2",
-        "port": 30105,
-        "dir": "/reg/g/pcds/epics-dev/oluwade/xcs/thermocube/build",
-        "alias": "DET - Chiller",
-        "history": [
-            "ioc/xcs/thermocube/R1.0.3"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-chiller1",
-        "script": "/reg/g/pcds/epics-dev/oluwade/xcs/thermocube/build/iocBoot/ioc-xcs-chiller1/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/oluwade/common/thermocube/bin/rhel7-x86_64/chiller"
     },
     {
         "host": "ioc-xcs-user2",
