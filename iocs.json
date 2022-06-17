@@ -2696,7 +2696,7 @@
     {
         "host": "ctl-rix-crix-vac-01",
         "port": 39101,
-        "dir": "ioc/common/expstate/R1.0.6",
+        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/expstate",
         "alias": "Experiment State Tracker",
         "history": [
             "ioc/common/expstate/R1.0.2"
@@ -2704,8 +2704,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-expstate",
-        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.6/children/build/iocBoot/ioc-rix-expstate/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.6/bin/rhel7-x86_64/expState"
+        "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/expstate/build/iocBoot/ioc-rix-expstate/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.7/bin/rhel7-x86_64/expState"
     },
     {
         "host": "ctl-rix-fim-01",
