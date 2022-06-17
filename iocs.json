@@ -12820,7 +12820,7 @@
     {
         "host": "ioc-mec-rec01",
         "port": 36455,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/common/dg",
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/dg",
         "history": [
             "ioc/common/dg/R1.4.3",
             "ioc/common/dg/R1.0.7-0.2.0"
@@ -12829,7 +12829,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-delaygen5",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/common/dg/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/dg/st.cmd",
         "binary": null
     },
     {
