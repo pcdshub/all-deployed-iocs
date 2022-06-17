@@ -3029,7 +3029,7 @@
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-gige-01",
         "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/gigECam/build/iocBoot/ioc-qrix-gige-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.1/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-rix-qrix-cam-01",
