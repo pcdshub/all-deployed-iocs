@@ -3035,7 +3035,6 @@
         "host": "ctl-rix-qrix-cam-01",
         "port": 39101,
         "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/gigECam",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-gige-02",
