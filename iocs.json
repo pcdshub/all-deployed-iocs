@@ -19802,7 +19802,7 @@
     {
         "host": "ioc-xpp-rec02",
         "port": 30010,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/xpp/ccm/deltaTauMotion",
+        "dir": "ioc/xpp/ccm/deltaTauMotion/R1.0.2",
         "alias": "MON - CCM Alio",
         "history": [
             "ioc/xpp/ccm/deltaTauMotion/R1.0.1",
@@ -19812,8 +19812,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-mon-ccm-alio",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/xpp/ccm/deltaTauMotion/iocBoot/ioc-xpp-mon-ccm-alio/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/xpp/ccm/deltaTauMotion/bin/rhel7-x86_64/deltaTauMotion"
+        "script": "/reg/g/pcds/epics/ioc/xpp/ccm/deltaTauMotion/R1.0.2/iocBoot/ioc-xpp-mon-ccm-alio/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/xpp/ccm/deltaTauMotion/R1.0.2/bin/rhel7-x86_64/deltaTauMotion"
     },
     {
         "host": "ioc-xpp-rec02",
