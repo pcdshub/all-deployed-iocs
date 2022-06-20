@@ -12477,7 +12477,7 @@
     {
         "host": "ioc-mec-mot3",
         "port": 31620,
-        "dir": "ioc/mec/ims/R2.1.0",
+        "dir": "ioc/mec/ims/R2.3.2",
         "history": [
             "ioc/mec/ims/R2.1.0",
             "ioc/mec/ims/R1.0.1"
@@ -12486,8 +12486,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-tc1-bwdxrts-ims",
-        "script": "/reg/g/pcds/epics/ioc/mec/ims/R2.1.0/build/iocBoot/ioc-mec-tc1-bwdxrts-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.1.0/bin/linux-x86/ims"
+        "script": "/reg/g/pcds/epics/ioc/mec/ims/R2.3.2/build/iocBoot/ioc-mec-tc1-bwdxrts-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.9/bin/linux-x86/ims"
     },
     {
         "host": "ioc-mec-mot3",
@@ -12507,7 +12507,7 @@
     {
         "host": "ioc-mec-mot3",
         "port": 30617,
-        "dir": "ioc/mec/ims/R2.1.0",
+        "dir": "ioc/mec/ims/R2.3.2",
         "history": [
             "ioc/mec/ims/R2.1.0",
             "ioc/mec/ims/R1.0.1"
@@ -12516,8 +12516,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-tc1-fwheels-ims",
-        "script": "/reg/g/pcds/epics/ioc/mec/ims/R2.1.0/build/iocBoot/ioc-mec-tc1-fwheels-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.1.0/bin/linux-x86/ims"
+        "script": "/reg/g/pcds/epics/ioc/mec/ims/R2.3.2/build/iocBoot/ioc-mec-tc1-fwheels-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.9/bin/linux-x86/ims"
     },
     {
         "host": "ioc-mec-mot3",
@@ -12551,7 +12551,7 @@
     {
         "host": "ioc-mec-mot3",
         "port": 30622,
-        "dir": "ioc/mec/ims/R2.1.0",
+        "dir": "ioc/mec/ims/R2.3.2",
         "history": [
             "ioc/mec/ims/R2.1.0",
             "ioc/mec/ims/R1.0.1"
@@ -12560,13 +12560,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-tc1-questar-ims",
-        "script": "/reg/g/pcds/epics/ioc/mec/ims/R2.1.0/build/iocBoot/ioc-mec-tc1-questar-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.1.0/bin/linux-x86/ims"
+        "script": "/reg/g/pcds/epics/ioc/mec/ims/R2.3.2/build/iocBoot/ioc-mec-tc1-questar-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.9/bin/linux-x86/ims"
     },
     {
         "host": "ioc-mec-mot3",
         "port": 30621,
-        "dir": "ioc/mec/ims/R2.1.0",
+        "dir": "ioc/mec/ims/R2.3.2",
         "history": [
             "ioc/mec/ims/R2.1.0",
             "ioc/mec/ims/R1.0.1"
@@ -12575,8 +12575,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-tc1-vt21hv-ims",
-        "script": "/reg/g/pcds/epics/ioc/mec/ims/R2.1.0/build/iocBoot/ioc-mec-tc1-vt21hv-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.1.0/bin/linux-x86/ims"
+        "script": "/reg/g/pcds/epics/ioc/mec/ims/R2.3.2/build/iocBoot/ioc-mec-tc1-vt21hv-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.9/bin/linux-x86/ims"
     },
     {
         "host": "ioc-mec-mot3",
@@ -12622,7 +12622,7 @@
     {
         "host": "ioc-mec-mot3",
         "port": 31631,
-        "dir": "ioc/mec/ims/R2.2.3",
+        "dir": "ioc/mec/ims/R2.3.2",
         "history": [
             "ioc/mec/ims/R2.1.0",
             "ioc/mec/ims/R1.0.1"
@@ -12631,8 +12631,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-usr-navitar-ims",
-        "script": "/reg/g/pcds/epics/ioc/mec/ims/R2.2.3/build/iocBoot/ioc-mec-usr-navitar-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.7/bin/linux-x86/ims"
+        "script": "/reg/g/pcds/epics/ioc/mec/ims/R2.3.2/build/iocBoot/ioc-mec-usr-navitar-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.9/bin/linux-x86/ims"
     },
     {
         "host": "ioc-mec-mot3",
@@ -12738,7 +12738,7 @@
     {
         "host": "ioc-mec-opal01",
         "port": 31624,
-        "dir": "ioc/mec/ims/R2.1.0",
+        "dir": "ioc/mec/ims/R2.3.2",
         "history": [
             "ioc/mec/ims/R2.1.0",
             "ioc/mec/ims/R1.0.1"
@@ -12747,13 +12747,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-tc1-fhvrot1-ims",
-        "script": "/reg/g/pcds/epics/ioc/mec/ims/R2.1.0/build/iocBoot/ioc-mec-tc1-fhvrot1-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.1.0/bin/linux-x86/ims"
+        "script": "/reg/g/pcds/epics/ioc/mec/ims/R2.3.2/build/iocBoot/ioc-mec-tc1-fhvrot1-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.9/bin/linux-x86/ims"
     },
     {
         "host": "ioc-mec-opal01",
         "port": 30623,
-        "dir": "ioc/mec/ims/R2.1.0",
+        "dir": "ioc/mec/ims/R2.3.2",
         "history": [
             "ioc/mec/ims/R2.1.0",
             "ioc/mec/ims/R1.0.1"
@@ -12762,8 +12762,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-tc1-vt50-ims",
-        "script": "/reg/g/pcds/epics/ioc/mec/ims/R2.1.0/build/iocBoot/ioc-mec-tc1-vt50-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.1.0/bin/linux-x86/ims"
+        "script": "/reg/g/pcds/epics/ioc/mec/ims/R2.3.2/build/iocBoot/ioc-mec-tc1-vt50-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.9/bin/linux-x86/ims"
     },
     {
         "host": "ioc-mec-opal01",
@@ -12779,7 +12779,7 @@
     {
         "host": "ioc-mec-opal01",
         "port": 30636,
-        "dir": "ioc/mec/ims/R2.1.0",
+        "dir": "ioc/mec/ims/R2.3.2",
         "alias": "Smart Motors",
         "history": [
             "ioc/mec/ims/R2.1.0"
@@ -12787,13 +12787,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-usr-smart-ims",
-        "script": "/reg/g/pcds/epics/ioc/mec/ims/R2.1.0/build/iocBoot/ioc-mec-usr-smart-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.1.0/bin/linux-x86/ims"
+        "script": "/reg/g/pcds/epics/ioc/mec/ims/R2.3.2/build/iocBoot/ioc-mec-usr-smart-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.9/bin/linux-x86/ims"
     },
     {
         "host": "ioc-mec-opal01",
         "port": 30631,
-        "dir": "ioc/mec/ims/R2.3.1",
+        "dir": "ioc/mec/ims/R2.3.2",
         "alias": "Patch panel dumb motors",
         "history": [
             "ioc/mec/ims/R2.1.0",
@@ -12802,7 +12802,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-usrppl-ims",
-        "script": "/reg/g/pcds/epics/ioc/mec/ims/R2.3.1/build/iocBoot/ioc-mec-usrppl-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/mec/ims/R2.3.2/build/iocBoot/ioc-mec-usrppl-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.9/bin/linux-x86/ims"
     },
     {
