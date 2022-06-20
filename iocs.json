@@ -2087,6 +2087,16 @@
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.3/bin/rhel7-x86_64/gige"
     },
     {
+        "host": "ctl-lfe-cam-02",
+        "port": 30001,
+        "dir": "/cds/home/m/mkestra/gigECam/build",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/lfe/iocmanager.cfg",
+        "name": "ioc-lfe-st1l0-gige",
+        "script": "/cds/home/m/mkestra/gigECam/build/iocBoot/ioc-lfe-st1l0-gige/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.1/bin/rhel7-x86_64/gige"
+    },
+    {
         "host": "ctl-lfe-misc-01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics/ioc/fee/dosfet/R0.0.11/current/children/build/iocBoot/ioc-fee-dosfet-01/",
