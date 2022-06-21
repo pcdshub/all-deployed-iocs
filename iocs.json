@@ -1,5 +1,15 @@
 [
     {
+        "host": "ctl-crix-cam-01",
+        "port": 39101,
+        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/gigECam",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-qrix-gige-02",
+        "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/gigECam/build/iocBoot/ioc-qrix-gige-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.1/bin/rhel7-x86_64/gige"
+    },
+    {
         "host": "ctl-det-drp01",
         "port": 30100,
         "dir": "ioc/common/pgpWave8/R1.6.0",
@@ -2354,6 +2364,16 @@
     },
     {
         "host": "ctl-rix-cam-01",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/gigECam",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-qrix-gige-01",
+        "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/gigECam/build/iocBoot/ioc-qrix-gige-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.1/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-rix-cam-01",
         "port": 30088,
         "dir": "ioc/rix/evr/R1.1.0",
         "history": [
@@ -2495,26 +2515,6 @@
         "name": "ioc-im6k2-gige",
         "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R1.1.0/build/iocBoot/ioc-im6k2-gige/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.3/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-rix-cam-03",
-        "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/gigECam",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-qrix-gige-01",
-        "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/gigECam/build/iocBoot/ioc-qrix-gige-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.1/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-rix-cam-03",
-        "port": 39101,
-        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/gigECam",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-qrix-gige-02",
-        "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/gigECam/build/iocBoot/ioc-qrix-gige-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-rix-cam-03",
