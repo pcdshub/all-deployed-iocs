@@ -8082,12 +8082,12 @@
     {
         "host": "ioc-cxi-wave8",
         "port": 30002,
-        "dir": "ioc/cxi/wave8/R2.1.3",
-        "alias": "Wave8 USR",
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/wave8",
+        "alias": "Wave8 USR DIO",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-usr-bmmon",
-        "script": "/reg/g/pcds/epics/ioc/cxi/wave8/R2.1.3/build/iocBoot/ioc-cxi-usr-bmmon/st.cmd",
+        "name": "ioc-cxi-usr-dio",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/wave8/build/iocBoot/ioc-cxi-usr-dio/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/wave8/R1.0.14/bin/rhel7-x86_64/wave8Ioc"
     },
     {
@@ -16054,8 +16054,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-las-mec-pwr-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/Leviton/Leviton-git/build/iocBoot/ioc-las-mec-pwr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/common/Leviton/Leviton-git/bin/rhel7-x86_64/Leviton"
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/Leviton/Leviton-git/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-tst-13",
