@@ -3032,15 +3032,15 @@
     {
         "host": "ctl-rix-mpod-fim-01",
         "port": 30001,
-        "dir": "ioc/common/isegPower/R1.3.0",
+        "dir": "ioc/common/isegPower/R1.3.1",
         "history": [
             "ioc/common/isegPower/R1.3.0"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-mpod-fim-01",
-        "script": "/reg/g/pcds/epics/ioc/common/isegPower/R1.3.0/children/build/iocBoot/ioc-rix-mpod-fim-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/isegPower/R1.3.0/bin/linux-arm-apalis/isegPower"
+        "script": "/reg/g/pcds/epics/ioc/common/isegPower/R1.3.1/children/build/iocBoot/ioc-rix-mpod-fim-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/isegPower/R1.3.1/bin/linux-arm-apalis/isegPower"
     },
     {
         "host": "ctl-rix-qrix-cam-02",
@@ -10007,15 +10007,15 @@
     {
         "host": "ioc-kfe-mpod-gmd-xgmd",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/isegPower/current",
+        "dir": "ioc/common/isegPower/R1.3.1",
         "history": [
             "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/isegPower/current"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-mpod-gmd-xgmd",
-        "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/isegPower/current/children/build/iocBoot/ioc-kfe-mpod-gmd-xgmd/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/isegPower/current/bin/linux-arm-apalis/isegPower"
+        "script": "/reg/g/pcds/epics/ioc/common/isegPower/R1.3.1/children/build/iocBoot/ioc-kfe-mpod-gmd-xgmd/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/isegPower/R1.3.1/bin/linux-arm-apalis/isegPower"
     },
     {
         "host": "ioc-las-cxi-srv05",
@@ -15497,15 +15497,15 @@
     {
         "host": "ioc-tmo-mpod-fim-01",
         "port": 30001,
-        "dir": "ioc/common/isegPower/R1.3.0",
+        "dir": "ioc/common/isegPower/R1.3.1",
         "history": [
             "ioc/common/isegPower/R1.3.0"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-mpod-fim-01",
-        "script": "/reg/g/pcds/epics/ioc/common/isegPower/R1.3.0/children/build/iocBoot/ioc-tmo-mpod-fim-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/isegPower/R1.3.0/bin/linux-arm-apalis/isegPower"
+        "script": "/reg/g/pcds/epics/ioc/common/isegPower/R1.3.1/children/build/iocBoot/ioc-tmo-mpod-fim-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/isegPower/R1.3.1/bin/linux-arm-apalis/isegPower"
     },
     {
         "host": "ioc-tmo-mpod-fim-02",
