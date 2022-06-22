@@ -244,7 +244,7 @@
     {
         "host": "ctl-kfe-misc-01",
         "port": 30309,
-        "dir": "ioc/common/Keithley6514/R1.9.3",
+        "dir": "ioc/common/Keithley6514/R1.9.4",
         "history": [
             "ioc/common/Keithley6514/R1.9.3",
             "ioc/common/Keithley6514/R1.9.2"
@@ -252,8 +252,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-gmd-etm-01",
-        "script": "/reg/g/pcds/epics/ioc/common/Keithley6514/R1.9.3/children/build/iocBoot/ioc-kfe-gmd-etm-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/Keithley6514/R1.9.3/bin/rhel7-x86_64/Keithley6514"
+        "script": "/reg/g/pcds/epics/ioc/common/Keithley6514/R1.9.4/children/build/iocBoot/ioc-kfe-gmd-etm-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/Keithley6514/R1.9.4/bin/rhel7-x86_64/Keithley6514"
     },
     {
         "host": "ctl-kfe-misc-01",
@@ -365,15 +365,15 @@
     {
         "host": "ctl-kfe-misc-01",
         "port": 30306,
-        "dir": "ioc/common/Keithley6514/R1.9.3",
+        "dir": "ioc/common/Keithley6514/R1.9.4",
         "history": [
             "ioc/common/Keithley6514/R1.9.3"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-xgmd-etm-01",
-        "script": "/reg/g/pcds/epics/ioc/common/Keithley6514/R1.9.3/children/build/iocBoot/ioc-kfe-xgmd-etm-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/Keithley6514/R1.9.3/bin/rhel7-x86_64/Keithley6514"
+        "script": "/reg/g/pcds/epics/ioc/common/Keithley6514/R1.9.4/children/build/iocBoot/ioc-kfe-xgmd-etm-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/Keithley6514/R1.9.4/bin/rhel7-x86_64/Keithley6514"
     },
     {
         "host": "ctl-kfe-mot-01",
@@ -10007,15 +10007,15 @@
     {
         "host": "ioc-kfe-mpod-gmd-xgmd",
         "port": 30001,
-        "dir": "ioc/common/isegPower/R1.3.1",
+        "dir": "ioc/common/isegPower/R1.3.2",
         "history": [
             "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/isegPower/current"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-mpod-gmd-xgmd",
-        "script": "/reg/g/pcds/epics/ioc/common/isegPower/R1.3.1/children/build/iocBoot/ioc-kfe-mpod-gmd-xgmd/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/isegPower/R1.3.1/bin/linux-arm-apalis/isegPower"
+        "script": "/reg/g/pcds/epics/ioc/common/isegPower/R1.3.2/children/build/iocBoot/ioc-kfe-mpod-gmd-xgmd/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/isegPower/R1.3.2/bin/linux-arm-apalis/isegPower"
     },
     {
         "host": "ioc-las-cxi-srv05",
