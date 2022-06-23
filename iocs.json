@@ -1672,8 +1672,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-pwr-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/Leviton/Leviton-git/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/Leviton/Leviton-git/build/iocBoot/ioc-las-lhn-pwr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/common/Leviton/Leviton-git/bin/rhel7-x86_64/Leviton"
     },
     {
         "host": "ctl-las-lhn-01",
@@ -1880,8 +1880,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-pwr-04",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/Leviton/Leviton-git/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/Leviton/Leviton-git/build/iocBoot/ioc-las-lhn-pwr-04/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/common/Leviton/Leviton-git/bin/rhel7-x86_64/Leviton"
     },
     {
         "host": "ctl-las-lhn-04",
