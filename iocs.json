@@ -3043,6 +3043,16 @@
         "binary": "/cds/group/pcds/epics/ioc/common/isegPower/R1.3.1/bin/linux-arm-apalis/isegPower"
     },
     {
+        "host": "ctl-rix-qrix-cam-01",
+        "port": 30100,
+        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/gigECam",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-qrix-gige-03",
+        "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/gigECam/build/iocBoot/ioc-qrix-gige-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.1/bin/rhel7-x86_64/gige"
+    },
+    {
         "host": "ctl-rix-qrix-cam-02",
         "port": 39100,
         "dir": "ioc/rix/gigECam/R3.6.1.1",
@@ -4671,6 +4681,7 @@
         "host": "daq-xpp-pgp01",
         "port": 30101,
         "dir": "ioc/xpp/epix/R1.0.4",
+        "disable": true,
         "alias": "DET - User Epix 1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -4682,6 +4693,7 @@
         "host": "daq-xpp-pgp01",
         "port": 30102,
         "dir": "ioc/xpp/epix/R1.0.4",
+        "disable": true,
         "alias": "DET - User Epix 2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
