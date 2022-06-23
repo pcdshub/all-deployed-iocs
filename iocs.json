@@ -511,15 +511,15 @@
     {
         "host": "ctl-kfe-vac-01",
         "port": 30101,
-        "dir": "ioc/common/vacuum/R1.0.3",
+        "dir": "ioc/common/vacuum/R1.0.5",
         "history": [
             "/reg/g/pcds/epics-dev/nwbrown/vacuum_IOCs/current"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-xgmd-vac-support",
-        "script": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.3/children/build/iocBoot/ioc-kfe-xgmd-vac-support/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.3/bin/rhel7-x86_64/vacuum"
+        "script": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.5/children/build/iocBoot/ioc-kfe-xgmd-vac-support/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.5/bin/rhel7-x86_64/vacuum"
     },
     {
         "host": "ctl-kfe-vac-01",
