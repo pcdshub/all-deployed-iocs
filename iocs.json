@@ -18464,6 +18464,17 @@
     },
     {
         "host": "ioc-xcs-user1",
+        "port": 30526,
+        "dir": "/reg/g/pcds/epics-dev/spencera/xcs/ims",
+        "alias": "USR - Test Stages",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-usr-test",
+        "script": "/reg/g/pcds/epics-dev/spencera/xcs/ims/build/iocBoot/ioc-xcs-usr-test/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xcs-user1",
         "port": 31001,
         "dir": "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current",
         "alias": "USR - Gon Newport",
