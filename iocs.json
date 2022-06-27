@@ -3962,15 +3962,15 @@
     {
         "host": "ctl-tmo-vac-01",
         "port": 35001,
-        "dir": "/reg/g/pcds/epics-dev/jyin/ioc/vacuum",
+        "dir": "/reg/g/pcds/epics-dev/bosum123/tmo-vac-support/vacuum",
         "history": [
             "/reg/g/pcds/epics-dev/jyin/ioc/vacuum"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-vac-pip-support",
-        "script": "/reg/g/pcds/epics-dev/jyin/ioc/vacuum/children/build/iocBoot/ioc-tmo-vac-pip-support/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/jyin/ioc/vacuum/bin/rhel7-x86_64/vacuum"
+        "script": "/reg/g/pcds/epics-dev/bosum123/tmo-vac-support/vacuum/children/build/iocBoot/ioc-tmo-vac-pip-support/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/bosum123/tmo-vac-support/vacuum/bin/rhel7-x86_64/vacuum"
     },
     {
         "host": "ctl-tmo-vac-01",
