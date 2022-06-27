@@ -16877,8 +16877,7 @@
     {
         "host": "ioc-xcs-gige01",
         "port": 32501,
-        "dir": "/reg/neh/home/jjoshi/xcs",
-        "disable": true,
+        "dir": "ioc/xcs/gigECam/R1.2.3",
         "alias": "CAM - Gige 01",
         "history": [
             "ioc/xcs/gigECam/R0.5.3",
@@ -16889,8 +16888,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-01",
-        "script": "/reg/neh/home/jjoshi/xcs/build/iocBoot/ioc-xcs-gige-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/linux-x86_64/gige"
+        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R1.2.3/build/iocBoot/ioc-xcs-gige-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R2.7.1/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-xcs-gige01",
