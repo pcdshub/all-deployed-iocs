@@ -13044,32 +13044,15 @@
     },
     {
         "host": "ioc-mfx-cam01",
-        "port": 30087,
-        "dir": "ioc/mfx/gigECam/R0.5.5",
-        "alias": "CAM - DG3 YAG",
-        "history": [
-            "ioc/mfx/gigECam/R0.5.4",
-            "/reg/g/pcds/package/epics/3.14/ioc/mfx/gigECam/R0.4.0"
-        ],
+        "port": 39100,
+        "dir": "/cds/home/b/batyuk/epics/ioc/mfx/vimbaCam/build",
+        "disable": true,
+        "alias": "CAM - Alvium 01 - testing",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-gige-02",
-        "script": "/reg/g/pcds/epics/ioc/mfx/gigECam/R0.5.5/build/iocBoot/ioc-mfx-gige-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.3/bin/linux-x86_64/gige"
-    },
-    {
-        "host": "ioc-mfx-cam01",
-        "port": 30088,
-        "dir": "ioc/mfx/gigECam/R0.5.5",
-        "alias": "CAM - GigE 04",
-        "history": [
-            "ioc/mfx/gigECam/R0.5.4"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-gige-04",
-        "script": "/reg/g/pcds/epics/ioc/mfx/gigECam/R0.5.5/build/iocBoot/ioc-mfx-gige-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.3/bin/linux-x86_64/gige"
+        "name": "ioc-mfx-alv-01",
+        "script": "/cds/home/b/batyuk/epics/ioc/mfx/vimbaCam/build/iocBoot/ioc-mfx-alv-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.3/bin/rhel7-x86_64/usb"
     },
     {
         "host": "ioc-mfx-cam01",
@@ -13289,6 +13272,21 @@
     },
     {
         "host": "ioc-mfx-cam02",
+        "port": 30087,
+        "dir": "ioc/mfx/gigECam/R0.5.5",
+        "alias": "CAM - DG3 YAG",
+        "history": [
+            "ioc/mfx/gigECam/R0.5.4",
+            "/reg/g/pcds/package/epics/3.14/ioc/mfx/gigECam/R0.4.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-gige-02",
+        "script": "/reg/g/pcds/epics/ioc/mfx/gigECam/R0.5.5/build/iocBoot/ioc-mfx-gige-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.3/bin/linux-x86_64/gige"
+    },
+    {
+        "host": "ioc-mfx-cam02",
         "port": 34917,
         "dir": "ioc/mfx/gigECam/R0.5.5",
         "disable": true,
@@ -13301,6 +13299,20 @@
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-gige-03",
         "script": "/reg/g/pcds/epics/ioc/mfx/gigECam/R0.5.5/build/iocBoot/ioc-mfx-gige-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.3/bin/linux-x86_64/gige"
+    },
+    {
+        "host": "ioc-mfx-cam02",
+        "port": 30088,
+        "dir": "ioc/mfx/gigECam/R0.5.5",
+        "alias": "CAM - GigE 04 - Timetool",
+        "history": [
+            "ioc/mfx/gigECam/R0.5.4"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-gige-04",
+        "script": "/reg/g/pcds/epics/ioc/mfx/gigECam/R0.5.5/build/iocBoot/ioc-mfx-gige-04/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.3/bin/linux-x86_64/gige"
     },
     {
@@ -13449,18 +13461,6 @@
         "name": "ioc-mfx-xps-usr4",
         "script": "/reg/g/pcds/epics/ioc/mfx/NewportXPS8/R2.1.0/build/iocBoot/ioc-mfx-xps-usr4/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
-    },
-    {
-        "host": "ioc-mfx-hera",
-        "port": 39100,
-        "dir": "/cds/home/b/batyuk/epics/ioc/mfx/vimbaCam/build",
-        "disable": true,
-        "alias": "HERA - Alvium 01 - testing",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-alv-01",
-        "script": "/cds/home/b/batyuk/epics/ioc/mfx/vimbaCam/build/iocBoot/ioc-mfx-alv-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.3/bin/rhel7-x86_64/usb"
     },
     {
         "host": "ioc-mfx-hera",
@@ -14093,6 +14093,7 @@
         "host": "ioc-mfx-wave8",
         "port": 30101,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam",
+        "disable": true,
         "alias": "CAM - GigE Liquid Jet 1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
@@ -14116,6 +14117,7 @@
         "host": "ioc-mfx-wave8",
         "port": 30103,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam",
+        "disable": true,
         "alias": "CAM - GigE Liquid Jet 3",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
