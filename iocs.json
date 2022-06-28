@@ -13046,7 +13046,6 @@
         "host": "ioc-mfx-cam01",
         "port": 39100,
         "dir": "/cds/home/b/batyuk/epics/ioc/mfx/vimbaCam/build",
-        "disable": true,
         "alias": "CAM - Alvium 01 - testing",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
