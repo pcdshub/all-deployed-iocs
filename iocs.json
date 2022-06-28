@@ -1697,6 +1697,16 @@
     },
     {
         "host": "ctl-las-lhn-01",
+        "port": 30303,
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/vacuum/vacuum-git",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-lhn-vac-bts",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/vacuum/vacuum-git/build/iocBoot/ioc-las-lhn-vac-bts/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.5/bin/rhel7-x86_64/vacuum"
+    },
+    {
+        "host": "ctl-las-lhn-01",
         "port": 30504,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/vitara/vitara-git",
         "base_version": "3.15",
