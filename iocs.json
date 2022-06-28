@@ -13586,6 +13586,7 @@
         "host": "ioc-mfx-misc01",
         "port": 31001,
         "dir": "/reg/g/pcds/epics-dev/ioc/mfx/daqserver/current",
+        "disable": true,
         "alias": "MISC - DAQ Control",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
