@@ -1703,7 +1703,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-vac-bts",
         "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/vacuum/vacuum-git/build/iocBoot/ioc-las-lhn-vac-bts/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.5/bin/rhel7-x86_64/vacuum"
+        "binary": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.1/bin/rhel7-x86_64/vacuum"
     },
     {
         "host": "ctl-las-lhn-01",
