@@ -10144,7 +10144,6 @@
         "host": "ioc-las-fstiming",
         "port": 30003,
         "dir": "ioc/las/phaseCavity/R3.2.0",
-        "disable": true,
         "alias": "zz - ioc-las-bat2",
         "history": [
             "ioc/las/phaseCavity/R3.2.0",
