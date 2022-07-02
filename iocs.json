@@ -6126,6 +6126,17 @@
     },
     {
         "host": "ioc-cxi-mot1",
+        "port": 30016,
+        "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/lusiAtt",
+        "alias": "DIA Attenuator Calculator",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-dia-lusiAtt",
+        "script": "/reg/g/pcds/epics-dev/pennebak/git/cxi/lusiAtt/build/iocBoot/ioc-cxi-dia-lusiAtt/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/lusiAtt/R1.4.0/bin/linux-x86_64/lusiAtt"
+    },
+    {
+        "host": "ioc-cxi-mot1",
         "port": 43809,
         "dir": "/reg/g/pcds/epics-dev/pennebak/pulsepicker/current",
         "alias": "DS1 Pulse Picker",
@@ -6272,17 +6283,6 @@
         "name": "ioc-cxi-slits-ims",
         "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.2/build/iocBoot/ioc-cxi-slits-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
-    },
-    {
-        "host": "ioc-cxi-mot2",
-        "port": 30003,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/ims",
-        "alias": "IMS DIA Attenuators",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-dia-att-ims",
-        "script": "/reg/g/pcds/epics-dev/pennebak/git/cxi/ims/build/iocBoot/ioc-cxi-dia-att-ims/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -6612,6 +6612,17 @@
         "name": "ioc-cxi-cspadPV",
         "script": "/reg/g/pcds/epics-dev/pennebak/git/cxi/pvNotepad/build/iocBoot/ioc-cxi-cspadPV/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
+    },
+    {
+        "host": "ioc-cxi-qadc",
+        "port": 30016,
+        "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/ims",
+        "alias": "IMS DIA Attenuators",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-dia-att-ims",
+        "script": "/reg/g/pcds/epics-dev/pennebak/git/cxi/ims/build/iocBoot/ioc-cxi-dia-att-ims/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-qadc",
@@ -7975,17 +7986,6 @@
         "name": "ioc-cxi-usr-sc2-smart-ims",
         "script": "/reg/g/pcds/epics/ioc/cxi/ims/R2.1.0/build/iocBoot/ioc-cxi-usr-sc2-smart-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.0/bin/linux-x86/ims"
-    },
-    {
-        "host": "ioc-cxi-vacuum",
-        "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/lusiAtt",
-        "alias": "DIA Attenuator Calculator",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-dia-lusiAtt",
-        "script": "/reg/g/pcds/epics-dev/pennebak/git/cxi/lusiAtt/build/iocBoot/ioc-cxi-dia-lusiAtt/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/lusiAtt/R1.4.0/bin/linux-x86_64/lusiAtt"
     },
     {
         "host": "ioc-cxi-vacuum",
