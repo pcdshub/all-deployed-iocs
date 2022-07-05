@@ -4620,6 +4620,7 @@
         "host": "daq-xcs-pgp02",
         "port": 31000,
         "dir": "ioc/xcs/epix/R1.0.1",
+        "disable": true,
         "history": [
             "/reg/g/pcds/epics-dev/jjoshi/xcs_dir/epix/current",
             "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/epix",
