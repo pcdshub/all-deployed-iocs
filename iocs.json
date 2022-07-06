@@ -8055,6 +8055,7 @@
         "host": "ioc-cxi-wave8",
         "port": 30509,
         "dir": "/reg/g/pcds/epics-dev/pennebak/cxi/ims/current",
+        "disable": true,
         "alias": "IMS KB2 Optics",
         "history": [
             "ioc/cxi/ims"
