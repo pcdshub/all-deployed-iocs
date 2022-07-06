@@ -8012,6 +8012,7 @@
         "host": "ioc-cxi-wave8",
         "port": 33018,
         "dir": "/reg/g/pcds/pyps/apps/hutch-python/cxi/scripts/door_watcher",
+        "disable": true,
         "alias": "ioc-door-watcher",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -8023,6 +8024,7 @@
         "host": "ioc-cxi-wave8",
         "port": 30303,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
+        "disable": true,
         "alias": "Wave8 DG2",
         "history": [
             "ioc/cxi/wave8/R2.1.1",
@@ -8041,6 +8043,7 @@
         "host": "ioc-cxi-wave8",
         "port": 30001,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
+        "disable": true,
         "alias": "Wave8 DG3",
         "history": [
             "ioc/cxi/wave8/R2.1.2"
@@ -8071,6 +8074,7 @@
         "host": "ioc-cxi-wave8",
         "port": 30011,
         "dir": "/reg/g/pcds/epics-dev/cymel123/git_ioc/cxi/mps",
+        "disable": true,
         "alias": "MPS PLC",
         "history": [
             "ioc/cxi/mps/R0.1.0"
@@ -8085,6 +8089,7 @@
         "host": "ioc-cxi-wave8",
         "port": 30032,
         "dir": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/cxidev/ioc-cxi-sds",
+        "disable": true,
         "alias": "SDS M3",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -8096,6 +8101,7 @@
         "host": "ioc-cxi-wave8",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/cymel123/cxi/setra/current",
+        "disable": true,
         "alias": "SetraAir5000",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -8107,6 +8113,7 @@
         "host": "ioc-cxi-wave8",
         "port": 30002,
         "dir": "ioc/cxi/wave8/R2.1.4",
+        "disable": true,
         "alias": "Wave8 USR DIO",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
