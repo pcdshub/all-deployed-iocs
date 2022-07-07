@@ -3270,7 +3270,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-gcip1",
         "script": "/reg/g/pcds/epics-dev/janezg/tmo/hpm900IP1/build/iocBoot/ioc-tmo-gcip1/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-gasCabinet/bin/rhel7-x86_64/hpm900"
+        "binary": "/reg/g/pcds/epics/ioc/common/gasCabinet/R1.0.0/bin/rhel7-x86_64/hpm900"
     },
     {
         "host": "ctl-tmo-cam-02",
@@ -3280,7 +3280,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-gcip2",
         "script": "/reg/g/pcds/epics-dev/janezg/tmo/hpm900IP2/build/iocBoot/ioc-tmo-gcip2/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-gasCabinet/bin/rhel7-x86_64/hpm900"
+        "binary": "/reg/g/pcds/epics/ioc/common/gasCabinet/R1.0.0/bin/rhel7-x86_64/hpm900"
     },
     {
         "host": "ctl-tmo-cam-02",
@@ -4143,6 +4143,7 @@
         "host": "ctl-xpp-wave8",
         "port": 30001,
         "dir": "ioc/common/pgpWave8/R1.6.1",
+        "disable": true,
         "alias": "SB3 - WAVE8 NEW",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -8136,6 +8137,22 @@
         "name": "ioc-cxi-usr-sc2-dumb-ims",
         "script": "/reg/g/pcds/epics-dev/pennebak/cxi/ims/current/build/iocBoot/ioc-cxi-usr-sc2-dumb-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
+    },
+    {
+        "host": "ioc-cxi-wave8",
+        "port": 30100,
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
+        "alias": "SB2 - WAVE8",
+        "history": [
+            "ioc/xpp/wave8/R2.0.1",
+            "ioc/xpp/wave8/R2.0.0",
+            "/reg/neh/home/snelson/work/xpp/wave8/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-sb2-bmmon",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-xpp-sb2-bmmon/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-det-evg",
@@ -20917,22 +20934,6 @@
         "name": "ioc-xpp-jf2",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf/build/iocBoot/ioc-xpp-jf2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/roving_jf/R1.0.0/bin/rhel7-x86_64/roving"
-    },
-    {
-        "host": "ioc-xpp-wave8",
-        "port": 30100,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
-        "alias": "SB2 - WAVE8",
-        "history": [
-            "ioc/xpp/wave8/R2.0.1",
-            "ioc/xpp/wave8/R2.0.0",
-            "/reg/neh/home/snelson/work/xpp/wave8/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-sb2-bmmon",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-xpp-sb2-bmmon/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-xpp-wave8",
