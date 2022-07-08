@@ -4068,7 +4068,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-pgp01",
         "script": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current/children/build/iocBoot/ioc-tst-pgp01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpCamlink/pgpCamlink-git/bin/rhel7-x86_64/pgpCl"
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/pgpCamlink/pgpCamlink-git/bin/rhel7-x86_64/pgpCl"
     },
     {
         "host": "ctl-tst-pgp01",
