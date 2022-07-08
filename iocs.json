@@ -18567,6 +18567,7 @@
         "host": "ioc-xcs-user1",
         "port": 35217,
         "dir": "/reg/g/pcds/epics-dev/spencera/plcs/lcls-plc-xpp-jjslit-motion",
+        "disable": true,
         "alias": "XPP JJ Slits",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
