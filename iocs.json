@@ -10393,6 +10393,16 @@
     },
     {
         "host": "ioc-las-mfx-srv45",
+        "port": 32002,
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/Leviton/Leviton-git",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-cxi-pwr-01",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/Leviton/Leviton-git/build/iocBoot/ioc-las-cxi-pwr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/common/Leviton/Leviton-git/bin/rhel7-x86_64/Leviton"
+    },
+    {
+        "host": "ioc-las-mfx-srv45",
         "port": 30560,
         "dir": "ioc/las/ek9000/R1.0.1",
         "base_version": "3.15",
