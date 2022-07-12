@@ -5938,21 +5938,6 @@
     },
     {
         "host": "ioc-cxi-misc1",
-        "port": 30010,
-        "dir": "ioc/cxi/vacuum/R1.6.1",
-        "alias": "Vacuum",
-        "history": [
-            "ioc/cxi/vacuum/R1.5.0",
-            "ioc/cxi/vacuum/R1.3.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-vacuum",
-        "script": "/reg/g/pcds/epics/ioc/cxi/vacuum/R1.6.1/iocBoot/ioc-cxi-vacuum/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/cxi/vacuum/R1.6.1/bin/linux-x86_64/vacuum"
-    },
-    {
-        "host": "ioc-cxi-misc1",
         "port": 30009,
         "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/ipmiSrv",
         "disable": true,
@@ -7260,6 +7245,21 @@
         "name": "ioc-cxi-sc2-navitar-ims",
         "script": "/reg/g/pcds/epics/ioc/cxi/ims/R2.1.0/build/iocBoot/ioc-cxi-sc2-navitar-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.0/bin/linux-x86/ims"
+    },
+    {
+        "host": "ioc-cxi-sc2",
+        "port": 30010,
+        "dir": "ioc/cxi/vacuum/R1.6.1",
+        "alias": "Vacuum",
+        "history": [
+            "ioc/cxi/vacuum/R1.5.0",
+            "ioc/cxi/vacuum/R1.3.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-vacuum",
+        "script": "/reg/g/pcds/epics/ioc/cxi/vacuum/R1.6.1/iocBoot/ioc-cxi-vacuum/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/cxi/vacuum/R1.6.1/bin/linux-x86_64/vacuum"
     },
     {
         "host": "ioc-cxi-usr1",
