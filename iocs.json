@@ -10974,33 +10974,6 @@
     },
     {
         "host": "ioc-mec-evr01",
-        "port": 42042,
-        "dir": "ioc/mec/dg/R2.0.5",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-delaygen-uxi",
-        "script": "/reg/g/pcds/epics/ioc/mec/dg/R2.0.5/build/iocBoot/ioc-mec-delaygen-uxi/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/dg/R2.0.4/bin/linux-x86_64/delaygenApp"
-    },
-    {
-        "host": "ioc-mec-evr01",
-        "port": 42040,
-        "dir": "ioc/mec/dg/R2.0.4",
-        "disable": true,
-        "alias": "zz - Delay Generator 7",
-        "history": [
-            "ioc/common/dg/R1.4.3"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-delaygen7",
-        "script": "/reg/g/pcds/epics/ioc/mec/dg/R2.0.4/build/iocBoot/ioc-mec-delaygen7/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/dg/R2.0.4/bin/linux-x86_64/delaygenApp"
-    },
-    {
-        "host": "ioc-mec-evr01",
         "port": 42031,
         "dir": "ioc/las/epm2000/R2.0.0",
         "alias": "Xray power meter",
@@ -12855,6 +12828,16 @@
     },
     {
         "host": "ioc-mec-rec01",
+        "port": 42042,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/dg",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-delaygen-uxi",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/dg/build/iocBoot/ioc-mec-delaygen-uxi/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/dg/R3.0.0/bin/rhel7-x86_64/delaygenApp"
+    },
+    {
+        "host": "ioc-mec-rec01",
         "port": 36451,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/dg",
         "history": [
@@ -12936,6 +12919,21 @@
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-delaygen6",
         "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/dg/build/iocBoot/ioc-mec-delaygen6/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/dg/R3.0.0/bin/rhel7-x86_64/delaygenApp"
+    },
+    {
+        "host": "ioc-mec-rec01",
+        "port": 42040,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/dg",
+        "alias": "zz - Delay Generator 7",
+        "history": [
+            "ioc/common/dg/R1.4.3"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-delaygen7",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/dg/build/iocBoot/ioc-mec-delaygen7/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/dg/R3.0.0/bin/rhel7-x86_64/delaygenApp"
     },
     {
