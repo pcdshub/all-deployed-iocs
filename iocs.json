@@ -4093,7 +4093,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-pgp02",
         "script": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current/children/build/iocBoot/ioc-tst-pgp02/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpCamlink/pgpCamlink-git/bin/rhel7-x86_64/pgpCl"
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/pgpCamlink/pgpCamlink-git/bin/rhel7-x86_64/pgpCl"
     },
     {
         "host": "ctl-tst-pgp01",
@@ -4106,7 +4106,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-pgp03",
         "script": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current/children/build/iocBoot/ioc-tst-pgp03/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpCamlink/pgpCamlink-git/bin/rhel7-x86_64/pgpCl"
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/pgpCamlink/pgpCamlink-git/bin/rhel7-x86_64/pgpCl"
     },
     {
         "host": "ctl-tst-pgp01",
@@ -4119,7 +4119,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-pgp04",
         "script": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current/children/build/iocBoot/ioc-tst-pgp04/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpCamlink/pgpCamlink-git/bin/rhel7-x86_64/pgpCl"
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/pgpCamlink/pgpCamlink-git/bin/rhel7-x86_64/pgpCl"
     },
     {
         "host": "ctl-tst-pgp01",
@@ -4132,7 +4132,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-xpm01",
         "script": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current/children/build/iocBoot/ioc-tst-xpm01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpCamlink/pgpCamlink-git/bin/rhel7-x86_64/pgpRogue"
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/pgpCamlink/pgpCamlink-git/bin/rhel7-x86_64/pgpRogue"
     },
     {
         "host": "ctl-tst-pgp02",
