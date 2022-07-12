@@ -18340,8 +18340,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-chiller1",
-        "script": "/reg/g/pcds/epics-dev/oluwade/xcs/thermocube/build/iocBoot/ioc-xcs-chiller1/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/oluwade/common/thermocube/bin/rhel7-x86_64/chiller"
+        "script": "/reg/g/pcds/epics-dev/oluwade/xcs/thermocube/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-user1",
