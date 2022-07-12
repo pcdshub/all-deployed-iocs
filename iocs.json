@@ -17749,13 +17749,13 @@
     {
         "host": "ioc-xcs-rec01",
         "port": 39887,
-        "dir": "/cds/home/j/jjoshi/xcs",
+        "dir": "ioc/xcs/gigECam/R3.0.3",
         "disable": true,
         "alias": "CAM - Liquid Jet Vert. Inline",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-gige-ljv-inline",
-        "script": "/cds/home/j/jjoshi/xcs/build/iocBoot/ioc-gige-ljv-inline/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R3.0.3/build/iocBoot/ioc-gige-ljv-inline/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/linux-x86_64/gige"
     },
     {
