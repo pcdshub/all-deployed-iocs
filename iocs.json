@@ -10435,12 +10435,12 @@
     {
         "host": "ioc-las-mfx-srv45",
         "port": 35010,
-        "dir": "ioc/common/agilent5322/R0.6.3",
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/agilent5322/agilent5322-git",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-mfx-ctr-01",
-        "script": "/reg/g/pcds/epics/ioc/common/agilent5322/R0.6.3/iocBoot/ioc-las-mfx-ctr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R0.6.3/bin/rhel7-x86_64/agilent5322"
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/agilent5322/agilent5322-git/build/iocBoot/ioc-las-mfx-ctr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/common/agilent5322/agilent5322-git/bin/rhel7-x86_64/agilent5322"
     },
     {
         "host": "ioc-las-mfx-srv45",
