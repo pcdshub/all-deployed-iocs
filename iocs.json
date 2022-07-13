@@ -3334,7 +3334,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-thermocon",
         "script": "/reg/g/pcds/epics-dev/janezg/tmo/thermocon/current/build/iocBoot/ioc-tmo-thermocon/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-tmo-kbo-chiller/current/bin/rhel7-x86_64/thermocon"
+        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-kboChiller/current/bin/rhel7-x86_64/thermocon"
     },
     {
         "host": "ctl-tmo-fim-01",
