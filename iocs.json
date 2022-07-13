@@ -5895,21 +5895,6 @@
     },
     {
         "host": "ioc-cxi-misc1",
-        "port": 30101,
-        "dir": "/reg/g/pcds/epics-dev/cymel123/Leviton/current",
-        "alias": "Power Leviton Racks",
-        "history": [
-            "ioc/common/Leviton/R1.28.8"
-        ],
-        "cmd": "../../bin/linux-x86_64/Leviton st.cmd",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-lev",
-        "script": "/reg/g/pcds/epics-dev/cymel123/Leviton/current/iocBoot/ioc-cxi-lev/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cymel123/Leviton/current/bin/linux-x86_64/Leviton"
-    },
-    {
-        "host": "ioc-cxi-misc1",
         "port": 30301,
         "dir": "ioc/common/mpod/R2.0.9",
         "alias": "DS1 Mpod",
@@ -6196,6 +6181,21 @@
         "name": "ioc-cxi-kb1-fmr-ims",
         "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.2/build/iocBoot/ioc-cxi-kb1-fmr-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
+    },
+    {
+        "host": "ioc-cxi-mot1",
+        "port": 30101,
+        "dir": "ioc/common/Leviton/R1.28.8",
+        "alias": "Power Leviton Racks",
+        "history": [
+            "ioc/common/Leviton/R1.28.8"
+        ],
+        "cmd": "../../bin/linux-x86_64/Leviton st.cmd",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-lev",
+        "script": "/reg/g/pcds/epics/ioc/common/Leviton/R1.28.8/iocBoot/ioc-cxi-lev/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R1.28.8/bin/linux-x86_64/Leviton"
     },
     {
         "host": "ioc-cxi-mot1",
