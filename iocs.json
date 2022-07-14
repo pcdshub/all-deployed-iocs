@@ -3274,16 +3274,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.1/bin/rhel7-x86_64/gige"
     },
     {
-        "host": "ctl-tmo-cam-01",
-        "port": 30165,
-        "dir": "/reg/g/pcds/epics-dev/janezg/tmo-git/edtCam",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-tmo-imatm02-gige",
-        "script": "/reg/g/pcds/epics-dev/janezg/tmo-git/edtCam/build/iocBoot/ioc-tmo-imatm02-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.1/bin/rhel7-x86_64/gige"
-    },
-    {
         "host": "ctl-tmo-cam-02",
         "port": 38400,
         "dir": "/reg/g/pcds/epics-dev/janezg/tmo/im540/current",
@@ -10466,6 +10456,16 @@
         "name": "ioc-las-mfx-phase-ims-01",
         "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-git/build/iocBoot/ioc-las-mfx-phase-ims-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-las-mfx-srv45",
+        "port": 35045,
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/Leviton/Leviton-git",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-mfx-pwr-01",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/Leviton/Leviton-git/build/iocBoot/ioc-las-mfx-pwr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/common/Leviton/Leviton-git/bin/rhel7-x86_64/Leviton"
     },
     {
         "host": "ioc-las-mfx-srv45",
