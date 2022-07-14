@@ -3156,19 +3156,6 @@
     },
     {
         "host": "ctl-tmo-cam-01",
-        "port": 30215,
-        "dir": "/reg/g/pcds/epics-dev/tongju/tmo/gigEcam",
-        "history": [
-            "/reg/g/pcds/epics-dev/tongju/tmo/gigEcam"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-cam-tmo-15",
-        "script": "/reg/g/pcds/epics-dev/tongju/tmo/gigEcam/build/iocBoot/ioc-cam-tmo-15/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.1/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-tmo-cam-01",
         "port": 30134,
         "dir": "ioc/tmo/gigEcam/R1.0.1",
         "history": [
@@ -21847,7 +21834,7 @@
     {
         "host": "ioc-xrt-wave8",
         "port": 39112,
-        "dir": "ioc/xrt/vacuum/R2.1.5",
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/xrt/vacuum",
         "alias": "Vacuum XRT",
         "history": [
             "ioc/xrt/vacuum/R2.1.5",
@@ -21858,8 +21845,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-vacuum",
-        "script": "/reg/g/pcds/epics/ioc/xrt/vacuum/R2.1.5/iocBoot/ioc-xrt-vacuum/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/xrt/vacuum/R2.1.5/bin/rhel7-x86_64/vacuum"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/xrt/vacuum/iocBoot/ioc-xrt-vacuum/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/xrt/vacuum/bin/rhel7-x86_64/vacuum"
     },
     {
         "host": "ioc-xrt-xcsmisc1",
