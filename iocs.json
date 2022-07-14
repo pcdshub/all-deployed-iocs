@@ -3281,7 +3281,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-imatm02-gige",
         "script": "/reg/g/pcds/epics-dev/janezg/tmo-git/edtCam/build/iocBoot/ioc-tmo-imatm02-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-tmo-cam-02",
