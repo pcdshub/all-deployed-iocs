@@ -18379,6 +18379,17 @@
     },
     {
         "host": "ioc-xcs-user1",
+        "port": 30106,
+        "dir": "/reg/g/pcds/epics-dev/oluwade/xcs/RohdeSchwarzHMP",
+        "alias": "DET - GON HMP Jungfrau",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-det-hmp01",
+        "script": "/reg/g/pcds/epics-dev/oluwade/xcs/RohdeSchwarzHMP/build/iocBoot/ioc-xcs-det-hmp01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.1/bin/rhel7-x86_64/rshmp"
+    },
+    {
+        "host": "ioc-xcs-user1",
         "port": 33433,
         "dir": "/reg/neh/home/zlentz/epics/ioc/xcs/Keithley6514/current",
         "disable": true,
@@ -18619,17 +18630,6 @@
         "name": "ioc-xcs-analogScaleOffset",
         "script": "/reg/g/pcds/epics/ioc/xcs/analogScaleOffset/R1.0.1/build/iocBoot/ioc-xcs-analogScaleOffset/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/analogScaleOffset/R0.9.1/bin/linux-x86_64/analogScaleOffset"
-    },
-    {
-        "host": "ioc-xcs-user2",
-        "port": 30106,
-        "dir": "ioc/xcs/RohdeSchwarzHMP/R1.0.2",
-        "alias": "DET - GON HMP Jungfrau",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-det-hmp01",
-        "script": "/reg/g/pcds/epics/ioc/xcs/RohdeSchwarzHMP/R1.0.2/build/iocBoot/ioc-xcs-det-hmp01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.1/bin/linux-x86_64/rshmp"
     },
     {
         "host": "ioc-xcs-user2",
@@ -21834,7 +21834,7 @@
     {
         "host": "ioc-xrt-wave8",
         "port": 39112,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/xrt/vacuum",
+        "dir": "ioc/xrt/vacuum/R2.1.5",
         "alias": "Vacuum XRT",
         "history": [
             "ioc/xrt/vacuum/R2.1.5",
@@ -21845,8 +21845,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-vacuum",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/xrt/vacuum/iocBoot/ioc-xrt-vacuum/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/xrt/vacuum/bin/rhel7-x86_64/vacuum"
+        "script": "/reg/g/pcds/epics/ioc/xrt/vacuum/R2.1.5/iocBoot/ioc-xrt-vacuum/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/xrt/vacuum/R2.1.5/bin/rhel7-x86_64/vacuum"
     },
     {
         "host": "ioc-xrt-xcsmisc1",
