@@ -11418,6 +11418,20 @@
     },
     {
         "host": "ioc-mec-las-gige01",
+        "port": 32533,
+        "dir": "ioc/mec/gigECam/R1.3.0",
+        "alias": "Gige SPS Compressor 2",
+        "history": [
+            "ioc/mec/gigECam/R0.1.9"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-gige33",
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.3.0/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ioc-mec-las-gige01",
         "port": 32534,
         "dir": "ioc/mec/gigECam/R1.3.0",
         "alias": "Gige SPS Time tool 1",
