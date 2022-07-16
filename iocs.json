@@ -2383,6 +2383,20 @@
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
+        "host": "ctl-rix--crix-vac-01",
+        "port": 31020,
+        "dir": "ioc/rix/lakeshore336/R1.0.1",
+        "history": [
+            "ioc/rix/lakeshore336/R1.0.1",
+            "/reg/g/pcds/epics-dev/spencera/rix/lakeshore336/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-crix-usr-ls336",
+        "script": "/reg/g/pcds/epics/ioc/rix/lakeshore336/R1.0.1/build/iocBoot/ioc-crix-usr-ls336/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.1/bin/rhel7-x86_64/ls336"
+    },
+    {
         "host": "ctl-rix-cam-01",
         "port": 30088,
         "dir": "ioc/rix/evr/R1.1.0",
@@ -2660,7 +2674,7 @@
         "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.4/bin/rhel7-x86_64/smaract"
     },
     {
-        "host": "ctl-rix-crix-mot-01",
+        "host": "ctl-rix-crix-vac-01",
         "port": 39100,
         "dir": "ioc/rix/lakeshore336/R1.0.0",
         "history": [
@@ -2675,8 +2689,8 @@
         "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.1/bin/rhel7-x86_64/ls336"
     },
     {
-        "host": "ctl-rix-crix-mot-01",
-        "port": 39101,
+        "host": "ctl-rix-crix-vac-01",
+        "port": 39102,
         "dir": "ioc/rix/lakeshore336/R1.0.0",
         "history": [
             "ioc/rix/lakeshore336/R1.0.0",
@@ -2688,60 +2702,6 @@
         "name": "ioc-crix-cryo-ls336-02",
         "script": "/reg/g/pcds/epics/ioc/rix/lakeshore336/R1.0.0/build/iocBoot/ioc-crix-cryo-ls336-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.1/bin/rhel7-x86_64/ls336"
-    },
-    {
-        "host": "ctl-rix-crix-mot-01",
-        "port": 31020,
-        "dir": "ioc/rix/lakeshore336/R1.0.1",
-        "history": [
-            "ioc/rix/lakeshore336/R1.0.1",
-            "/reg/g/pcds/epics-dev/spencera/rix/lakeshore336/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-crix-usr-ls336",
-        "script": "/reg/g/pcds/epics/ioc/rix/lakeshore336/R1.0.1/build/iocBoot/ioc-crix-usr-ls336/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.1/bin/rhel7-x86_64/ls336"
-    },
-    {
-        "host": "ctl-rix-crix-mot-01",
-        "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/shimadzu-lc20/next",
-        "history": [
-            "/reg/g/pcds/epics-dev/pennebak/shimadzu-lc20/next"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-rix-lc20",
-        "script": "/reg/g/pcds/epics-dev/pennebak/shimadzu-lc20/next/iocBoot/ioc-rix-lc20/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/pennebak/shimadzu-lc20/next/bin/rhel7-x86_64/lc20"
-    },
-    {
-        "host": "ctl-rix-crix-mot-01",
-        "port": 39104,
-        "dir": "ioc/rix/Sentry4/R2.4.1",
-        "history": [
-            "ioc/rix/Sentry4/R2.4.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-rix-pwr-r02",
-        "script": "/reg/g/pcds/epics/ioc/rix/Sentry4/R2.4.1/build/iocBoot/ioc-rix-pwr-r02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.1/bin/rhel7-x86_64/Leviton"
-    },
-    {
-        "host": "ctl-rix-crix-mot-01",
-        "port": 32103,
-        "dir": "ioc/rix/vacuum/R1.0.4",
-        "history": [
-            "ioc/rix/vacuum/R1.0.4",
-            "/reg/g/pcds/epics-dev/wwright/ioc/rix/vacuum"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-rix-vac-support",
-        "script": "/reg/g/pcds/epics/ioc/rix/vacuum/R1.0.4/build/iocBoot/ioc-rix-vac-support/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.0/bin/rhel7-x86_64/vacuum"
     },
     {
         "host": "ctl-rix-crix-vac-01",
@@ -2756,6 +2716,46 @@
         "name": "ioc-rix-expstate",
         "script": "/reg/g/pcds/epics/ioc/rix/expstate/R1.0.7/build/iocBoot/ioc-rix-expstate/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.7/bin/rhel7-x86_64/expState"
+    },
+    {
+        "host": "ctl-rix-crix-vac-01",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/pennebak/shimadzu-lc20/next",
+        "history": [
+            "/reg/g/pcds/epics-dev/pennebak/shimadzu-lc20/next"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-lc20",
+        "script": "/reg/g/pcds/epics-dev/pennebak/shimadzu-lc20/next/iocBoot/ioc-rix-lc20/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/pennebak/shimadzu-lc20/next/bin/rhel7-x86_64/lc20"
+    },
+    {
+        "host": "ctl-rix-crix-vac-01",
+        "port": 39104,
+        "dir": "ioc/rix/Sentry4/R2.4.1",
+        "history": [
+            "ioc/rix/Sentry4/R2.4.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-pwr-r02",
+        "script": "/reg/g/pcds/epics/ioc/rix/Sentry4/R2.4.1/build/iocBoot/ioc-rix-pwr-r02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.1/bin/rhel7-x86_64/Leviton"
+    },
+    {
+        "host": "ctl-rix-crix-vac-01",
+        "port": 32103,
+        "dir": "ioc/rix/vacuum/R1.0.4",
+        "history": [
+            "ioc/rix/vacuum/R1.0.4",
+            "/reg/g/pcds/epics-dev/wwright/ioc/rix/vacuum"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-vac-support",
+        "script": "/reg/g/pcds/epics/ioc/rix/vacuum/R1.0.4/build/iocBoot/ioc-rix-vac-support/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.0/bin/rhel7-x86_64/vacuum"
     },
     {
         "host": "ctl-rix-fim-01",
