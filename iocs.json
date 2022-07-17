@@ -11133,7 +11133,7 @@
     },
     {
         "host": "ioc-mec-imb02",
-        "port": 33000,
+        "port": 33011,
         "dir": "ioc/mec/gigECam/R1.1.1",
         "alias": "Gige Short Pulse 1",
         "base_version": "3.15",
