@@ -11498,6 +11498,7 @@
     },
     {
         "host": "ioc-mec-las-gige02",
+        "disable": true,
         "port": 32515,
         "dir": "ioc/mec/gigECam/R1.3.0",
         "alias": "Gige Long Pulse 5",
