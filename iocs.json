@@ -20044,8 +20044,7 @@
     {
         "host": "ioc-xpp-rec03",
         "port": 35000,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/common/piMotion/current",
-        "disable": true,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/common/piMotion",
         "history": [
             "ioc/common/piMotion/R1.2.1",
             "ioc/common/piMotion/R1.1.0",
@@ -20055,7 +20054,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-pi-motion",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/piMotion/current/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/piMotion/st.cmd",
         "binary": null
     },
     {
