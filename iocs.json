@@ -20054,8 +20054,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-pi-motion",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/piMotion/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/piMotion/children/build/iocBoot/ioc-xpp-pi-motion/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/piMotion/bin/linux-x86_64/piMotion"
     },
     {
         "host": "ioc-xpp-rec03",
