@@ -11094,6 +11094,28 @@
         "binary": "/reg/g/pcds/epics/ioc/mec/usrevr/R1.13.0/bin/linux-x86_64/evr"
     },
     {
+        "host": "ioc-mec-gige01",
+        "port": 32501,
+        "dir": "ioc/mec/gigECam/R1.1.1",
+        "alias": "Gige 1 Target Chamber (Questar1)",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-gige1",
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.1.1/build/iocBoot/ioc-mec-gige1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/linux-x86_64/gige"
+    },
+    {
+        "host": "ioc-mec-gige01",
+        "port": 32502,
+        "dir": "ioc/mec/gigECam/R1.1.1",
+        "alias": "Gige 2 Target Chamber (Questar2)",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-gige2",
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.1.1/build/iocBoot/ioc-mec-gige2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/linux-x86_64/gige"
+    },
+    {
         "host": "ioc-mec-imb02",
         "port": 38001,
         "dir": "ioc/common/eventSeqCfg/R3.8.3",
@@ -11188,28 +11210,6 @@
         "name": "ioc-mec-announce",
         "script": "/reg/g/pcds/epics/ioc/mec/pu610k/R1.0.3/iocBoot/ioc-mec-announce/st.cmd",
         "binary": "/usr/bin/bash"
-    },
-    {
-        "host": "ioc-mec-ipimb01",
-        "port": 32501,
-        "dir": "ioc/mec/gigECam/R1.1.1",
-        "alias": "Gige 1 Target Chamber (Questar1)",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-gige1",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.1.1/build/iocBoot/ioc-mec-gige1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/linux-x86_64/gige"
-    },
-    {
-        "host": "ioc-mec-ipimb01",
-        "port": 32502,
-        "dir": "ioc/mec/gigECam/R1.1.1",
-        "alias": "Gige 2 Target Chamber (Questar2)",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-gige2",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.1.1/build/iocBoot/ioc-mec-gige2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-ipimb01",
