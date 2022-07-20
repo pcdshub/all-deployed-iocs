@@ -3988,7 +3988,7 @@
     {
         "host": "ctl-tmo-mot-01",
         "port": 34242,
-        "dir": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/tmo_granite3/lcls-plc-tmo-motion",
+        "dir": "/reg/g/pcds/epics-dev/tongju/PLC/lcls-plc-tmo-motion",
         "alias": "TMO CC Motion",
         "history": [
             "ioc/tmo/lcls-plc-tmo-motion/v1.2.0"
@@ -3996,7 +3996,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-motion",
-        "script": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/tmo_granite3/lcls-plc-tmo-motion/iocBoot/ioc-tmo-motion/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/tongju/PLC/lcls-plc-tmo-motion/iocBoot/ioc-tmo-motion/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
@@ -13136,6 +13136,17 @@
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-alv-01",
         "script": "/cds/home/b/batyuk/epics/ioc/mfx/vimbaCam/build/iocBoot/ioc-mfx-alv-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.3/bin/rhel7-x86_64/usb"
+    },
+    {
+        "host": "ioc-mfx-cam01",
+        "port": 39101,
+        "dir": "/cds/home/b/batyuk/epics/ioc/mfx/vimbaCam",
+        "alias": "CAM - Alvium 02",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-alv-02",
+        "script": "/cds/home/b/batyuk/epics/ioc/mfx/vimbaCam/build/iocBoot/ioc-mfx-alv-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.3/bin/rhel7-x86_64/usb"
     },
     {
