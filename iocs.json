@@ -2714,6 +2714,20 @@
         "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.4/bin/rhel7-x86_64/smaract"
     },
     {
+        "host": "ctl-rix-crix-mot-01",
+        "port": 39101,
+        "dir": "ioc/rix/expstate/R1.0.7",
+        "alias": "Experiment State Tracker",
+        "history": [
+            "ioc/common/expstate/R1.0.2"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-expstate",
+        "script": "/reg/g/pcds/epics/ioc/rix/expstate/R1.0.7/build/iocBoot/ioc-rix-expstate/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.7/bin/rhel7-x86_64/expState"
+    },
+    {
         "host": "ctl-rix-crix-vac-01",
         "port": 39100,
         "dir": "ioc/rix/lakeshore336/R1.0.0",
@@ -2742,20 +2756,6 @@
         "name": "ioc-crix-cryo-ls336-02",
         "script": "/reg/g/pcds/epics/ioc/rix/lakeshore336/R1.0.0/build/iocBoot/ioc-crix-cryo-ls336-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.1/bin/rhel7-x86_64/ls336"
-    },
-    {
-        "host": "ctl-rix-crix-vac-01",
-        "port": 39101,
-        "dir": "ioc/rix/expstate/R1.0.7",
-        "alias": "Experiment State Tracker",
-        "history": [
-            "ioc/common/expstate/R1.0.2"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-rix-expstate",
-        "script": "/reg/g/pcds/epics/ioc/rix/expstate/R1.0.7/build/iocBoot/ioc-rix-expstate/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.7/bin/rhel7-x86_64/expState"
     },
     {
         "host": "ctl-rix-crix-vac-01",
@@ -2898,20 +2898,6 @@
         "name": "ioc-kfe-rix-motion",
         "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-rix-motion/v1.13.0/iocBoot/ioc-kfe-rix-motion/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ctl-rix-mot-01",
-        "port": 30112,
-        "dir": "ioc/kfe/lcls-plc-kfe-rix-vac/v1.3.0",
-        "history": [
-            "ioc/kfe/lcls-plc-kfe-rix-vac/v1.3.0",
-            "ioc/kfe/lcls-plc-kfe-rix-vac/v1.2.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-plc-kfe-rix-vac",
-        "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-rix-vac/v1.3.0/iocBoot/ioc-plc-kfe-rix-vac/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.4.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-rix-mot-01",
@@ -3177,6 +3163,20 @@
         "name": "ioc-mcp-rix-al1k2",
         "script": "/reg/g/pcds/epics-dev/jjoshi/ioc/picoMotion/build/iocBoot/ioc-mcp-rix-al1k2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/picoMotion/R3.0.0/bin/rhel7-x86_64/motion"
+    },
+    {
+        "host": "ctl-rix-vac-01",
+        "port": 30112,
+        "dir": "ioc/kfe/lcls-plc-kfe-rix-vac/v1.3.0",
+        "history": [
+            "ioc/kfe/lcls-plc-kfe-rix-vac/v1.3.0",
+            "ioc/kfe/lcls-plc-kfe-rix-vac/v1.2.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-plc-kfe-rix-vac",
+        "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-rix-vac/v1.3.0/iocBoot/ioc-plc-kfe-rix-vac/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.4.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-rix-vac-01",
@@ -13131,7 +13131,7 @@
         "host": "ioc-mfx-cam01",
         "port": 39100,
         "dir": "/cds/home/b/batyuk/epics/ioc/mfx/vimbaCam/build",
-        "alias": "CAM - Alvium 01 - testing",
+        "alias": "CAM - Alvium 01",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-alv-01",
