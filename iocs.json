@@ -11094,71 +11094,6 @@
         "binary": "/reg/g/pcds/epics/ioc/mec/usrevr/R1.13.0/bin/linux-x86_64/evr"
     },
     {
-        "host": "ioc-mec-gige01",
-        "port": 33007,
-        "dir": "ioc/mec/gigECam/R1.1.1",
-        "alias": "Gige Short Pulse 8",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-gige16",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.1.1/build/iocBoot/ioc-mec-gige16/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/linux-x86_64/gige"
-    },
-    {
-        "host": "ioc-mec-gige01",
-        "port": 32517,
-        "dir": "ioc/mec/gigECam/R1.1.1",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-gige17",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.1.1/build/iocBoot/ioc-mec-gige17/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/linux-x86_64/gige"
-    },
-    {
-        "host": "ioc-mec-gige01",
-        "port": 32505,
-        "dir": "ioc/mec/gigECam/R1.1.1",
-        "alias": "Gige VISAR 1",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-gige18",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.1.1/build/iocBoot/ioc-mec-gige18/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/linux-x86_64/gige"
-    },
-    {
-        "host": "ioc-mec-gige01",
-        "port": 32506,
-        "dir": "ioc/mec/gigECam/R1.1.1",
-        "alias": "Gige VISAR 2",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-gige19",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.1.1/build/iocBoot/ioc-mec-gige19/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/linux-x86_64/gige"
-    },
-    {
-        "host": "ioc-mec-gige01",
-        "port": 32503,
-        "dir": "ioc/mec/gigECam/R1.1.1",
-        "alias": "Gige VISAR 3",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-gige20",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.1.1/build/iocBoot/ioc-mec-gige20/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/linux-x86_64/gige"
-    },
-    {
-        "host": "ioc-mec-gige01",
-        "port": 32504,
-        "dir": "ioc/mec/gigECam/R1.1.1",
-        "alias": "Gige VISAR 4",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-gige21",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.1.1/build/iocBoot/ioc-mec-gige21/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/linux-x86_64/gige"
-    },
-    {
         "host": "ioc-mec-imb02",
         "port": 38001,
         "dir": "ioc/common/eventSeqCfg/R3.8.3",
@@ -11646,6 +11581,71 @@
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige33",
         "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.3.0/build/iocBoot/ioc-mec-gige33/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/linux-x86_64/gige"
+    },
+    {
+        "host": "ioc-mec-las-gige04",
+        "port": 33007,
+        "dir": "ioc/mec/gigECam/R1.3.0",
+        "alias": "Gige Short Pulse 8",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-gige16",
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.3.0/build/iocBoot/ioc-mec-gige16/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/linux-x86_64/gige"
+    },
+    {
+        "host": "ioc-mec-las-gige04",
+        "port": 32517,
+        "dir": "ioc/mec/gigECam/R1.3.0",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-gige17",
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.3.0/build/iocBoot/ioc-mec-gige17/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/linux-x86_64/gige"
+    },
+    {
+        "host": "ioc-mec-las-gige04",
+        "port": 32505,
+        "dir": "ioc/mec/gigECam/R1.3.0",
+        "alias": "Gige VISAR 1",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-gige18",
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.3.0/build/iocBoot/ioc-mec-gige18/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/linux-x86_64/gige"
+    },
+    {
+        "host": "ioc-mec-las-gige04",
+        "port": 32506,
+        "dir": "ioc/mec/gigECam/R1.3.0",
+        "alias": "Gige VISAR 2",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-gige19",
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.3.0/build/iocBoot/ioc-mec-gige19/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/linux-x86_64/gige"
+    },
+    {
+        "host": "ioc-mec-las-gige04",
+        "port": 32503,
+        "dir": "ioc/mec/gigECam/R1.3.0",
+        "alias": "Gige VISAR 3",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-gige20",
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.3.0/build/iocBoot/ioc-mec-gige20/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/linux-x86_64/gige"
+    },
+    {
+        "host": "ioc-mec-las-gige04",
+        "port": 32504,
+        "dir": "ioc/mec/gigECam/R1.3.0",
+        "alias": "Gige VISAR 4",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-gige21",
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.3.0/build/iocBoot/ioc-mec-gige21/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/linux-x86_64/gige"
     },
     {
