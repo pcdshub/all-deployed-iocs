@@ -3949,6 +3949,7 @@
         "host": "ctl-tmo-mot-01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/tmo/mmc",
+        "disable": true,
         "alias": "ioc-tmo-cvmi-2axis-mmc-01",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
