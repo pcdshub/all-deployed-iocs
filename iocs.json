@@ -3219,7 +3219,6 @@
         "host": "ctl-tmo-cam-01",
         "port": 30134,
         "dir": "ioc/tmo/gigEcam/R1.0.1",
-        "disable": true,
         "history": [
             "ioc/tmo/gigEcam/R1.0.1"
         ],
