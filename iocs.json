@@ -3947,6 +3947,17 @@
     },
     {
         "host": "ctl-tmo-mot-01",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/tmo/mmc",
+        "alias": "ioc-tmo-cvmi-2axis-mmc-01",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-tmo-cvmi-2axis-mmc-01",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/tmo/mmc/build/iocBoot/ioc-tmo-cvmi-2axis-mmc-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
+    },
+    {
+        "host": "ctl-tmo-mot-01",
         "port": 34765,
         "dir": "/reg/g/pcds/epics-dev/rsmm97/ioc/tmo/RohdeSchwarzHMP/current",
         "alias": "Rohde Schwarz Supply",
