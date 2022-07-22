@@ -7569,6 +7569,7 @@
         "host": "ioc-cxi-usr1",
         "port": 30008,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc",
+        "disable": true,
         "alias": "MMC100WPP30",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
