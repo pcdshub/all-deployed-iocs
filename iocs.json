@@ -2209,16 +2209,6 @@
     },
     {
         "host": "ctl-lfe-misc-01",
-        "port": 34321,
-        "dir": "/reg/g/pcds/epics-dev/mlandrum/current",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/lfe/iocmanager.cfg",
-        "name": "ioc-lfe-bk9k",
-        "script": "/reg/g/pcds/epics-dev/mlandrum/current/iocBoot/ioc-lfe-bk9k/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/mlandrum/current/bin/rhel6-x86_64/XraySlitKSpect"
-    },
-    {
-        "host": "ctl-lfe-misc-01",
         "port": 30300,
         "dir": "ioc/lfe/ict/R1.0.0",
         "base_version": "3.15",
