@@ -12707,13 +12707,13 @@
     {
         "host": "ioc-mec-mot3",
         "port": 36030,
-        "dir": "ioc/mec/ims/2.3.9",
+        "dir": "ioc/mec/ims/R2.3.3",
         "alias": "XTCS Filter Wheel",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-xtcs-fwheel-ims",
-        "script": "/reg/g/pcds/epics/ioc/mec/ims/2.3.9/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/ims/R2.3.3/build/iocBoot/ioc-mec-xtcs-fwheel-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.9/bin/linux-x86/ims"
     },
     {
         "host": "ioc-mec-opal01",
