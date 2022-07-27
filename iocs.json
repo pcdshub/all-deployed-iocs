@@ -3427,15 +3427,17 @@
     {
         "host": "ctl-tmo-cam-02",
         "port": 36554,
-        "dir": "/reg/g/pcds/epics-dev/janezg/tmo/lakeshore335/current/ioc-tmo-ip1",
+        "dir": "ioc/tmo/lakeshore335/R1.0.0",
         "history": [
+            "ioc/tmo/lakeshore335/R1.0.0",
+            "/reg/g/pcds/epics-dev/janezg/tmo-git/lakeshore335",
             "/reg/g/pcds/epics-dev/janezg/tmo/lakeshore335/current/ioc-tmo-ip1"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-ip1-temp",
-        "script": "/reg/g/pcds/epics-dev/janezg/tmo/lakeshore335/current/ioc-tmo-ip1/build/iocBoot/ioc-tmo-ip1-temp/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/janezg/lakeshore335/current/bin/rhel7-x86_64/lakeshore335"
+        "script": "/reg/g/pcds/epics/ioc/tmo/lakeshore335/R1.0.0/build/iocBoot/ioc-tmo-ip1-temp/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/lakeshore335/R2.0.0/bin/rhel7-x86_64/lakeshore335"
     },
     {
         "host": "ctl-tmo-cam-02",
@@ -3712,12 +3714,16 @@
     {
         "host": "ctl-tmo-misc-01",
         "port": 36555,
-        "dir": "/reg/g/pcds/epics-dev/janezg/tmo/lakeshore335/current/ioc-tmo-ip2",
+        "dir": "ioc/tmo/lakeshore335/R1.0.0",
+        "history": [
+            "ioc/tmo/lakeshore335/R1.0.0",
+            "/reg/g/pcds/epics-dev/janezg/tmo-git/lakeshore335"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-ip2-temp",
-        "script": "/reg/g/pcds/epics-dev/janezg/tmo/lakeshore335/current/ioc-tmo-ip2/build/iocBoot/ioc-tmo-ip2-temp/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/janezg/lakeshore335/current/bin/rhel7-x86_64/lakeshore335"
+        "script": "/reg/g/pcds/epics/ioc/tmo/lakeshore335/R1.0.0/build/iocBoot/ioc-tmo-ip2-temp/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/lakeshore335/R2.0.0/bin/rhel7-x86_64/lakeshore335"
     },
     {
         "host": "ctl-tmo-misc-01",
