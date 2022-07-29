@@ -4331,7 +4331,7 @@
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-d51-epix",
         "script": "/reg/g/pcds/epics-dev/pennebak/git/cxi/epix/build/iocBoot/ioc-cxi-d51-epix/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.2.0/bin/rhel7-x86_64/epixMonIoc"
+        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.4.6/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-det-jungfrau",
