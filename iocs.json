@@ -12146,7 +12146,7 @@
     {
         "host": "ioc-mec-misc01",
         "port": 50300,
-        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/thorlabs/current/iocBoot/ioc-mec-filterWheel/",
+        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/thorlabs/current",
         "alias": "ThorLabs Filterwheel 1",
         "history": [
             "ioc/common/thorlabs/filterWheel/R0.1.2"
