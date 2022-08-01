@@ -3339,7 +3339,7 @@
     {
         "host": "ctl-tmo-cam-01",
         "port": 30310,
-        "dir": "ioc/tmo/edtCam/R1.0.0",
+        "dir": "ioc/tmo/edtCam/R1.0.1",
         "alias": "CVMI gige 01 outh side",
         "history": [
             "ioc/tmo/edtCam/R1.0.0"
@@ -3347,7 +3347,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-cvmi-gige01",
-        "script": "/reg/g/pcds/epics/ioc/tmo/edtCam/R1.0.0/build/iocBoot/ioc-tmo-cvmi-gige01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/tmo/edtCam/R1.0.1/build/iocBoot/ioc-tmo-cvmi-gige01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.1/bin/rhel7-x86_64/gige"
     },
     {
