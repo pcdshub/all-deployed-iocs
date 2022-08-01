@@ -21769,16 +21769,6 @@
         "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/edtCam/current/bin/rhel7-x86_64/edt"
     },
     {
-        "host": "ioc-xrt-rec06",
-        "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/mkestra/ioc/xrt/gigECam",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
-        "name": "ioc-xrt-gige-yag1",
-        "script": "/reg/g/pcds/epics-dev/mkestra/ioc/xrt/gigECam/build/iocBoot/ioc-xrt-gige-yag1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/rhel7-x86_64/gige"
-    },
-    {
         "host": "ioc-xrt-rec07",
         "port": 39303,
         "dir": "/reg/g/pcds/epics-dev/spencera/lfe/edtCam",
