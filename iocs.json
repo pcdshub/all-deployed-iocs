@@ -17663,6 +17663,16 @@
     },
     {
         "host": "ioc-xcs-mot2",
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs/picoMotion",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-pico-las01",
+        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs/picoMotion/build/iocBoot/ioc-xcs-pico-las01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/picoMotion/R4.0.1/bin/rhel7-x86_64/motion"
+    },
+    {
+        "host": "ioc-xcs-mot2",
         "port": 30517,
         "dir": "ioc/xcs/ims/R6.0.2",
         "alias": "SB1 - IPM4 Motion",
