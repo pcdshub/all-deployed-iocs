@@ -2612,6 +2612,16 @@
     },
     {
         "host": "ctl-rix-cam-03",
+        "port": 30122,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/gigECam",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-qrix-gige-05",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/gigECam/build/iocBoot/ioc-qrix-gige-05/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.1/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-rix-cam-03",
         "port": 30099,
         "dir": "ioc/rix/evr/R1.1.0",
         "history": [
@@ -3114,26 +3124,6 @@
         "name": "ioc-rix-mpod-fim-01",
         "script": "/reg/g/pcds/epics/ioc/common/isegPower/R1.3.1/children/build/iocBoot/ioc-rix-mpod-fim-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/isegPower/R1.3.1/bin/linux-arm-apalis/isegPower"
-    },
-    {
-        "host": "ctl-rix-qrix-cam-01",
-        "port": 30019,
-        "dir": "/reg/g/pcds/epics-dev/jozamudi/rix/gigECam",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-qrix-gige-03",
-        "script": "/reg/g/pcds/epics-dev/jozamudi/rix/gigECam/build/iocBoot/ioc-qrix-gige-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.1/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-rix-qrix-cam-01",
-        "port": 30122,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/gigECam",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-qrix-gige-05",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/gigECam/build/iocBoot/ioc-qrix-gige-05/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-rix-qrix-cam-02",
@@ -16350,7 +16340,7 @@
     {
         "host": "ioc-tst-13",
         "port": 30004,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager",
+        "dir": "ioc/common/pfts_manager/R1.0.5",
         "history": [
             "ioc/common/pfts_manager/R1.0.4",
             "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager"
@@ -16358,8 +16348,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-dicon01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager/children/build/iocBoot/ioc-tst-dicon01/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager/bin/rhel7-x86_64/pftsman"
+        "script": "/reg/g/pcds/epics/ioc/common/pfts_manager/R1.0.5/children/build/iocBoot/ioc-tst-dicon01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pfts_manager/R1.0.5/bin/rhel7-x86_64/pftsman"
     },
     {
         "host": "ioc-tst-13",
