@@ -6827,17 +6827,6 @@
     },
     {
         "host": "ioc-cxi-qadc",
-        "port": 32106,
-        "dir": "/cds/group/pcds/epics-dev/pennebak/git/cxi/gigECam",
-        "alias": "CAM - Gige 06",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-gige-06",
-        "script": "/cds/group/pcds/epics-dev/pennebak/git/cxi/gigECam/build/iocBoot/ioc-cxi-gige-06/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ioc-cxi-qadc",
         "port": 34112,
         "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/pvNotepad",
         "alias": "MISC - PVs for Jet Tracking",
@@ -7110,6 +7099,7 @@
         "host": "ioc-cxi-rec04",
         "port": 30103,
         "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/gigECam",
+        "disable": true,
         "alias": "CAM - SC3 Inline Questar Gige 05",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -7121,6 +7111,7 @@
         "host": "ioc-cxi-rec04",
         "port": 40000,
         "dir": "/reg/g/pcds/controls/camrecord",
+        "disable": true,
         "alias": "CAM - Recorder04",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -7132,6 +7123,7 @@
         "host": "ioc-cxi-rec04",
         "port": 34642,
         "dir": "ioc/cxi/evr/R0.1.2",
+        "disable": true,
         "alias": "\"MISC\": REC04 EVR",
         "history": [
             "/reg/neh/home/sheppard/ioc/cxi/evr"
@@ -8223,7 +8215,6 @@
         "host": "ioc-cxi-wave8",
         "port": 30303,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
-        "disable": true,
         "alias": "Wave8 DG2",
         "history": [
             "ioc/cxi/wave8/R2.1.1",
@@ -8242,7 +8233,6 @@
         "host": "ioc-cxi-wave8",
         "port": 30001,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
-        "disable": true,
         "alias": "Wave8 DG3",
         "history": [
             "ioc/cxi/wave8/R2.1.2"
@@ -8255,9 +8245,19 @@
     },
     {
         "host": "ioc-cxi-wave8",
+        "port": 32106,
+        "dir": "/cds/group/pcds/epics-dev/pennebak/git/cxi/gigECam",
+        "alias": "CAM - Gige 06",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-gige-06",
+        "script": "/cds/group/pcds/epics-dev/pennebak/git/cxi/gigECam/build/iocBoot/ioc-cxi-gige-06/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-cxi-wave8",
         "port": 30011,
         "dir": "/reg/g/pcds/epics-dev/cymel123/git_ioc/cxi/mps",
-        "disable": true,
         "alias": "MPS PLC",
         "history": [
             "ioc/cxi/mps/R0.1.0"
@@ -8272,7 +8272,6 @@
         "host": "ioc-cxi-wave8",
         "port": 30032,
         "dir": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/cxidev/ioc-cxi-sds",
-        "disable": true,
         "alias": "SDS M3",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -8284,7 +8283,6 @@
         "host": "ioc-cxi-wave8",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/cymel123/cxi/setra/current",
-        "disable": true,
         "alias": "SetraAir5000",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -8296,7 +8294,6 @@
         "host": "ioc-cxi-wave8",
         "port": 30002,
         "dir": "ioc/cxi/wave8/R2.1.4",
-        "disable": true,
         "alias": "Wave8 USR DIO",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
