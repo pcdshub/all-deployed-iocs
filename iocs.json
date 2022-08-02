@@ -16330,7 +16330,7 @@
     },
     {
         "host": "ioc-tst-13",
-        "port": 30004,
+        "port": 30006,
         "dir": "ioc/common/pfts_manager/R1.0.5",
         "history": [
             "ioc/common/pfts_manager/R1.0.4",
