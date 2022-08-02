@@ -3137,16 +3137,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.1/bin/rhel7-x86_64/gige"
     },
     {
-        "host": "ctl-rix-qrix-cam-02",
-        "port": 30122,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/gigECam",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-qrix-gige-05",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/gigECam/build/iocBoot/ioc-qrix-gige-05/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.1/bin/rhel7-x86_64/gige"
-    },
-    {
         "host": "ctl-rix-qrix-mot-01",
         "port": 39300,
         "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/smaract/build/iocBoot/ioc-rix-crix-mcs2-01",
