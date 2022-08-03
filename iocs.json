@@ -1080,6 +1080,16 @@
         "binary": "/usr/bin/bash"
     },
     {
+        "host": "ctl-las-ftl-srv01",
+        "port": 30005,
+        "dir": "/reg/g/pcds/epics-dev/payers/FTL-LEAK-DET",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-plc-ftl-leak-det",
+        "script": "/reg/g/pcds/epics-dev/payers/FTL-LEAK-DET/iocBoot/ioc-plc-ftl-leak-det/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
+    },
+    {
         "host": "ctl-las-ip1-srv01",
         "port": 30040,
         "dir": "ioc/las/evr/R1.0.5",
