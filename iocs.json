@@ -11518,7 +11518,7 @@
     },
     {
         "host": "ioc-mec-las-gige02",
-        "port": 32514,
+        "port": 39200,
         "dir": "ioc/mec/gigECam/R1.3.0",
         "alias": "Gige Long Pulse 4",
         "base_version": "3.15",
