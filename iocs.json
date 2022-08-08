@@ -482,15 +482,15 @@
     {
         "host": "ctl-kfe-vac-01",
         "port": 39140,
-        "dir": "/reg/g/pcds/epics-dev/ioc/kfe/lcls-plc-kfe-vac/ioc/ioc-plc-kfe-vac",
+        "dir": "/reg/g/pcds/epics-dev/ioc/kfe/lcls-plc-kfe-vac/ioc/ioc-kfe-vac",
         "history": [
-            "/reg/g/pcds/epics-dev/nwbrown/lcls-plc-kfe-vac/plc/iocBoot/ioc-plc-kfe-vac"
+            "/reg/g/pcds/epics-dev/nwbrown/lcls-plc-kfe-vac/plc/iocBoot/ioc-kfe-vac"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-vac",
-        "script": "/reg/g/pcds/epics-dev/ioc/kfe/lcls-plc-kfe-vac/ioc/ioc-plc-kfe-vac/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.4.1/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics-dev/ioc/kfe/lcls-plc-kfe-vac/ioc/ioc-kfe-vac/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-kfe-vac-01",
