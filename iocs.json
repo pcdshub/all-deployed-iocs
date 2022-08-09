@@ -6800,6 +6800,20 @@
     },
     {
         "host": "ioc-cxi-qadc",
+        "port": 30105,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/thermocube",
+        "alias": "Chiller DSD",
+        "history": [
+            "ioc/cxi/thermocube/R1.0.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-dsd-chiller",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/thermocube/build/iocBoot/ioc-cxi-dsd-chiller/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thermocube/R1.0.6/bin/rhel7-x86_64/chiller"
+    },
+    {
+        "host": "ioc-cxi-qadc",
         "port": 31100,
         "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/pvNotepad",
         "disable": true,
@@ -8082,20 +8096,6 @@
         "name": "ioc-cxi-dsb-ims",
         "script": "/reg/g/pcds/epics-dev/pennebak/git/cxi/ims/build/iocBoot/ioc-cxi-dsb-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-cxi-usrmot2",
-        "port": 30105,
-        "dir": "/reg/g/pcds/epics-dev/cymel123/git_ioc/cxi/thermocube/current",
-        "alias": "Chiller DSD",
-        "history": [
-            "ioc/cxi/thermocube/R1.0.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-dsd-chiller",
-        "script": "/reg/g/pcds/epics-dev/cymel123/git_ioc/cxi/thermocube/current/build/iocBoot/ioc-cxi-dsd-chiller/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cymel123/git_ioc/cxi/thermocube1/bin/rhel7-x86_64/chiller"
     },
     {
         "host": "ioc-cxi-usrmot2",
