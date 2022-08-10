@@ -19458,12 +19458,12 @@
     {
         "host": "ioc-xpp-misc01",
         "port": 30111,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/plcs/lcls-plc-xcs-liquid-jet/iocBoot/ioc-LiquidJetPLC",
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/plcs/lcls-plc-xcs-liquid-jet",
         "alias": "XCS Liquid Jet (Beckhoff)",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xcs-ljh",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/plcs/lcls-plc-xcs-liquid-jet/iocBoot/ioc-LiquidJetPLC/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/plcs/lcls-plc-xcs-liquid-jet/iocBoot/ioc-xcs-ljh/st.cmd",
         "binary": "/cds/home/k/klauer/Repos/ads-ioc/bin/rhel7-x86_64/adsIoc"
     },
     {
