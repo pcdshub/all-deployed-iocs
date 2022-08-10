@@ -4217,8 +4217,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-pgp01",
-        "script": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current/children/build/iocBoot/ioc-tst-pgp01/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/pgpCamlink/pgpCamlink-git/bin/rhel7-x86_64/pgpCl"
     },
     {
         "host": "ctl-tst-pgp01",
@@ -4231,8 +4231,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-pgp02",
-        "script": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current/children/build/iocBoot/ioc-tst-pgp02/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/pgpCamlink/pgpCamlink-git/bin/rhel7-x86_64/pgpCl"
     },
     {
         "host": "ctl-tst-pgp01",
@@ -4244,8 +4244,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-pgp03",
-        "script": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current/children/build/iocBoot/ioc-tst-pgp03/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/pgpCamlink/pgpCamlink-git/bin/rhel7-x86_64/pgpCl"
     },
     {
         "host": "ctl-tst-pgp01",
@@ -4257,8 +4257,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-pgp04",
-        "script": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current/children/build/iocBoot/ioc-tst-pgp04/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/pgpCamlink/pgpCamlink-git/bin/rhel7-x86_64/pgpCl"
     },
     {
         "host": "ctl-tst-pgp01",
@@ -4270,8 +4270,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-xpm01",
-        "script": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current/children/build/iocBoot/ioc-tst-xpm01/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/pgpCamlink/pgpCamlink-git/bin/rhel7-x86_64/pgpRogue"
     },
     {
         "host": "ctl-tst-pgp02",
