@@ -16450,7 +16450,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-mec-xrts",
         "script": "/cds/home/p/peregrin/modules/mec/xrts/current/iocBoot/ioc-tst-mec-xrts/st.cmd",
-        "binary": "/cds/home/p/peregrin/modules/mec/xrts/current/bin/linux-x86_64/nsoper"
+        "binary": "/cds/home/p/peregrin/modules/mec/xrts/current/bin/rhel7-x86_64/xrts"
     },
     {
         "host": "ioc-tst-13",
