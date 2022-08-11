@@ -16443,7 +16443,7 @@
     },
     {
         "host": "ioc-tst-13",
-        "port": 35123,
+        "port": 35556,
         "dir": "/cds/home/p/peregrin/modules/mec/xrts/current",
         "alias": "MEC XRTS Test",
         "base_version": "3.15",
