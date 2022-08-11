@@ -1067,7 +1067,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-ftl-mcs2-01",
         "script": "/cds/home/t/tjohnson/trunk/common/smaract/children/build/iocBoot/ioc-las-ftl-mcs2-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.10/bin/rhel7-x86_64/smaract"
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.5/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ftl-srv01",
