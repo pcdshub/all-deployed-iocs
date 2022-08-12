@@ -16215,6 +16215,17 @@
     },
     {
         "host": "ioc-tst-13",
+        "port": 35556,
+        "dir": "/cds/home/p/peregrin/modules/mec/xrts/current",
+        "alias": "MEC XRTS Test",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc--mec-xrts",
+        "script": "/cds/home/p/peregrin/modules/mec/xrts/current/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ioc-tst-13",
         "port": 39103,
         "dir": "/reg/g/pcds/epics-dev/klauer/simdet-R2.8-0.0.4/iocs/simDetectorIOC/iocBoot/iocSimDetector",
         "base_version": "3.15",
@@ -16440,17 +16451,6 @@
         "name": "ioc-tst-meanwell01",
         "script": "/reg/neh/home/sfsyunus/workarea/meanwell/current/children/build/iocBoot/ioc-tst-meanwell01/st.cmd",
         "binary": "/cds/home/s/sfsyunus/workarea/meanwell/current/bin/rhel7-x86_64/meanwell"
-    },
-    {
-        "host": "ioc-tst-13",
-        "port": 35556,
-        "dir": "/cds/home/p/peregrin/modules/mec/xrts/current",
-        "alias": "MEC XRTS Test",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-mec-xrts",
-        "script": "/cds/home/p/peregrin/modules/mec/xrts/current/iocBoot/ioc-tst-mec-xrts/st.cmd",
-        "binary": "/cds/home/p/peregrin/modules/mec/xrts/current/bin/rhel7-x86_64/xrts"
     },
     {
         "host": "ioc-tst-13",
