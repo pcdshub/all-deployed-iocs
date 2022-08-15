@@ -12887,7 +12887,6 @@
         "host": "ioc-mec-qadc",
         "port": 30002,
         "dir": "ioc/common/qadc/R2.0.4",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-qadc134",
