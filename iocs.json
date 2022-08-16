@@ -2063,6 +2063,16 @@
     },
     {
         "host": "ctl-las-lhn-sp01",
+        "port": 30003,
+        "dir": "/cds/home/t/tjohnson/trunk/las/agilent5322/agilent5322-git",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-lhn-ctr-03",
+        "script": "/cds/home/t/tjohnson/trunk/las/agilent5322/agilent5322-git/build/iocBoot/ioc-las-lhn-ctr-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R2.0.1/bin/rhel7-x86_64/agilent5322"
+    },
+    {
+        "host": "ctl-las-lhn-sp01",
         "port": 30001,
         "dir": "/cds/home/t/tjohnson/trunk/las/pgpWave8",
         "base_version": "3.15",
