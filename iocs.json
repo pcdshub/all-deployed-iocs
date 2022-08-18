@@ -11384,7 +11384,7 @@
     {
         "host": "ioc-mec-ipimb01",
         "port": 35000,
-        "dir": "ioc/mec/pu610k/R1.0.3",
+        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/pu610k/children/build/iocBoot/ioc-mec-pu610k/",
         "alias": "PFN Charging",
         "history": [
             "ioc/mec/pu610k/R1.0.3",
@@ -11393,8 +11393,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-pu610k",
-        "script": "/reg/g/pcds/epics/ioc/mec/pu610k/R1.0.3/children/build/iocBoot/ioc-mec-pu610k/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/mec/pu610k/R1.0.3/bin/linux-x86_64/pu610k"
+        "script": "/reg/g/pcds/epics-dev/nrw/iocs/pu610k/children/build/iocBoot/ioc-mec-pu610k/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/nrw/iocs/pu610k/bin/linux-x86_64/pu610k"
     },
     {
         "host": "ioc-mec-ipmb01",
