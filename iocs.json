@@ -18870,7 +18870,7 @@
     {
         "host": "ioc-xcs-user2",
         "port": 32222,
-        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs/lusiAtt",
+        "dir": "ioc/xcs/lusiAtt/R1.5.0",
         "alias": "SB2 - Attenuators",
         "history": [
             "ioc/xcs/lusiAtt/R0.4.5",
@@ -18882,7 +18882,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-lusiAtt",
-        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs/lusiAtt/build/iocBoot/ioc-xcs-lusiAtt/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xcs/lusiAtt/R1.5.0/build/iocBoot/ioc-xcs-lusiAtt/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/lusiAtt/R1.5.0/bin/linux-x86_64/lusiAtt"
     },
     {
