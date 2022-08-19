@@ -18871,7 +18871,6 @@
         "host": "ioc-xcs-user2",
         "port": 32222,
         "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs/lusiAtt",
-        "disable": true,
         "alias": "SB2 - Attenuators",
         "history": [
             "ioc/xcs/lusiAtt/R0.4.5",
