@@ -18883,7 +18883,7 @@
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-lusiAtt",
         "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs/lusiAtt/build/iocBoot/ioc-xcs-lusiAtt/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/lusiAtt/bin/linux-x86_64/lusiAtt"
+        "binary": "/reg/g/pcds/epics/ioc/common/lusiAtt/R1.5.0/bin/linux-x86_64/lusiAtt"
     },
     {
         "host": "ioc-xcs-user2",
