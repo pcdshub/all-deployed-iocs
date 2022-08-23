@@ -17165,7 +17165,6 @@
         "host": "ioc-xcs-gige01",
         "port": 32516,
         "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs/gigECam",
-        "disable": true,
         "alias": "CAM - Gige 16 - Yag 4",
         "history": [
             "/reg/neh/home4/rajan-01/checkouts/epics/xcs/gigECam/current"
