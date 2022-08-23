@@ -17179,11 +17179,12 @@
     {
         "host": "ioc-xcs-gige01",
         "port": 36037,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xcs/gigECam",
+        "dir": "ioc/xcs/gigECam/R3.0.3",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-19",
-        "script": "/reg/g/pcds/epics-dev/spencera/xcs/gigECam/build/iocBoot/ioc-xcs-gige-19/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R3.0.3/build/iocBoot/ioc-xcs-gige-19/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.4/bin/linux-x86_64/gige"
     },
     {
