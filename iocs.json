@@ -2103,6 +2103,16 @@
     },
     {
         "host": "ctl-las-lhn-sp01",
+        "port": 30006,
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/pgp_switch",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-pgpswitch-01",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/pgp_switch/children/build/iocBoot/ioc-las-pgpswitch-01/st.cmd",
+        "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ctl-las-lhn-sp01",
         "port": 30004,
         "dir": "/cds/home/t/tjohnson/trunk/las/lockerGen2",
         "base_version": "3.15",
