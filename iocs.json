@@ -10579,6 +10579,16 @@
     },
     {
         "host": "ioc-las-mfx-srv45",
+        "port": 35008,
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/Leviton/Leviton-git",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-cxi-pwr-01",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/Leviton/Leviton-git/build/iocBoot/ioc-las-cxi-pwr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/common/Leviton/Leviton-git/bin/rhel7-x86_64/Leviton"
+    },
+    {
+        "host": "ioc-las-mfx-srv45",
         "port": 35830,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/Leviton/Leviton-git/build",
         "base_version": "3.15",
@@ -10606,16 +10616,6 @@
         "name": "ioc-las-mfx-ctr-01",
         "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R1.0.1/build/iocBoot/ioc-las-mfx-ctr-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R2.0.1/bin/rhel7-x86_64/agilent5322"
-    },
-    {
-        "host": "ioc-las-mfx-srv45",
-        "port": 3,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/Leviton/Leviton-git",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-mfx-cxi-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/Leviton/Leviton-git/st.cmd",
-        "binary": null
     },
     {
         "host": "ioc-las-mfx-srv45",
