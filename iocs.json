@@ -3297,17 +3297,6 @@
     },
     {
         "host": "ctl-tmo-cam-01",
-        "port": 35981,
-        "dir": "ioc/tmo/gigECam/R1.0.3",
-        "alias": "PEPPEX GIGE 01",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-cam-peppex-01",
-        "script": "/reg/g/pcds/epics/ioc/tmo/gigECam/R1.0.3/build/iocBoot/ioc-cam-peppex-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.1/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-tmo-cam-01",
         "port": 30134,
         "dir": "ioc/tmo/gigECam/R1.0.1",
         "history": [
@@ -3357,19 +3346,6 @@
     },
     {
         "host": "ctl-tmo-cam-01",
-        "port": 38165,
-        "dir": "ioc/tmo/edtCam/R1.0.1",
-        "history": [
-            "ioc/tmo/edtCam/R1.0.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-imatm02-gige",
-        "script": "/reg/g/pcds/epics/ioc/tmo/edtCam/R1.0.1/build/iocBoot/ioc-imatm02-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.1/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-tmo-cam-01",
         "port": 30001,
         "dir": "ioc/common/usbCam/R1.0.0",
         "disable": true,
@@ -3383,46 +3359,14 @@
         "binary": "/reg/g/pcds/epics/ioc/common/usbCam/R1.0.0/bin/rhel7-x86_64/usb"
     },
     {
-        "host": "ctl-tmo-cam-01",
-        "port": 30164,
-        "dir": "ioc/tmo/edtCam/R1.0.0",
-        "alias": "ATM gige",
-        "history": [
-            "ioc/tmo/edtCam/R1.0.0",
-            "/reg/g/pcds/package/epics/3.14/ioc/cxi/edtCam/R1.3.2"
-        ],
+        "host": "ctl-tmo-cam-02",
+        "port": 35981,
+        "dir": "ioc/tmo/gigECam/R1.0.3",
+        "alias": "PEPPEX GIGE 01",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-tmo-atm-gige",
-        "script": "/reg/g/pcds/epics/ioc/tmo/edtCam/R1.0.0/build/iocBoot/ioc-tmo-atm-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.1/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-tmo-cam-01",
-        "port": 30310,
-        "dir": "ioc/tmo/edtCam/R1.0.1",
-        "alias": "CVMI gige 01 outh side",
-        "history": [
-            "ioc/tmo/edtCam/R1.0.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-tmo-cvmi-gige01",
-        "script": "/reg/g/pcds/epics/ioc/tmo/edtCam/R1.0.1/build/iocBoot/ioc-tmo-cvmi-gige01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.1/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-tmo-cam-01",
-        "port": 30309,
-        "dir": "ioc/tmo/edtCam/R1.0.0",
-        "alias": "CVMI gige 02 (north side)",
-        "history": [
-            "ioc/tmo/edtCam/R1.0.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-tmo-cvmi-gige02",
-        "script": "/reg/g/pcds/epics/ioc/tmo/edtCam/R1.0.0/build/iocBoot/ioc-tmo-cvmi-gige02/st.cmd",
+        "name": "ioc-cam-peppex-01",
+        "script": "/reg/g/pcds/epics/ioc/tmo/gigECam/R1.0.3/build/iocBoot/ioc-cam-peppex-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.1/bin/rhel7-x86_64/gige"
     },
     {
@@ -3434,6 +3378,19 @@
         "name": "ioc-im540-tst",
         "script": "/reg/g/pcds/epics-dev/janezg/tmo/im540/current/build/iocBoot/ioc-im540-tst/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-leyboldim540/current/bin/rhel7-x86_64/leyboldim540"
+    },
+    {
+        "host": "ctl-tmo-cam-02",
+        "port": 38165,
+        "dir": "ioc/tmo/edtCam/R1.0.1",
+        "history": [
+            "ioc/tmo/edtCam/R1.0.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-imatm02-gige",
+        "script": "/reg/g/pcds/epics/ioc/tmo/edtCam/R1.0.1/build/iocBoot/ioc-imatm02-gige/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-tmo-cam-02",
@@ -3454,6 +3411,49 @@
         "name": "ioc-inficonMPH",
         "script": "/reg/g/pcds/epics-dev/janezg/tmo/inficon/build/iocBoot/ioc-inficonMPH/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-inficonMPH/current/bin/rhel7-x86_64/inficon"
+    },
+    {
+        "host": "ctl-tmo-cam-02",
+        "port": 30164,
+        "dir": "ioc/tmo/edtCam/R1.0.0",
+        "alias": "ATM gige",
+        "history": [
+            "ioc/tmo/edtCam/R1.0.0",
+            "/reg/g/pcds/package/epics/3.14/ioc/cxi/edtCam/R1.3.2"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-tmo-atm-gige",
+        "script": "/reg/g/pcds/epics/ioc/tmo/edtCam/R1.0.0/build/iocBoot/ioc-tmo-atm-gige/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.1/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-tmo-cam-02",
+        "port": 30310,
+        "dir": "ioc/tmo/edtCam/R1.0.1",
+        "alias": "CVMI gige 01 outh side",
+        "history": [
+            "ioc/tmo/edtCam/R1.0.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-tmo-cvmi-gige01",
+        "script": "/reg/g/pcds/epics/ioc/tmo/edtCam/R1.0.1/build/iocBoot/ioc-tmo-cvmi-gige01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.1/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-tmo-cam-02",
+        "port": 30309,
+        "dir": "ioc/tmo/edtCam/R1.0.0",
+        "alias": "CVMI gige 02 (north side)",
+        "history": [
+            "ioc/tmo/edtCam/R1.0.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-tmo-cvmi-gige02",
+        "script": "/reg/g/pcds/epics/ioc/tmo/edtCam/R1.0.0/build/iocBoot/ioc-tmo-cvmi-gige02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-tmo-cam-02",
