@@ -2834,6 +2834,19 @@
         "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.7/bin/rhel7-x86_64/expState"
     },
     {
+        "host": "ctl-rix-crix-mot-01",
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/rixdev",
+        "history": [
+            "/reg/g/pcds/epics-dev/pennebak/sample-delivery/cxidev/ioc-rix-sds"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-sds",
+        "script": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/rixdev/iocBoot/ioc-rix-sds/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
+    },
+    {
         "host": "ctl-rix-crix-vac-01",
         "port": 31000,
         "dir": "ioc/rix/lcls-plc-crixs-vac/v1.4.1/lcls-plc-crix-vac",
@@ -3111,19 +3124,6 @@
         "name": "ioc-rix-plv-pdu-04",
         "script": "/reg/g/pcds/epics/ioc/rix/dc_power/ict/build/iocBoot/ioc-rix-plv-pdu-04/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.3/bin/rhel7-x86_64/ict"
-    },
-    {
-        "host": "ctl-rix-mot-01",
-        "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/rixdev",
-        "history": [
-            "/reg/g/pcds/epics-dev/pennebak/sample-delivery/cxidev/ioc-rix-sds"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-rix-sds",
-        "script": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/rixdev/iocBoot/ioc-rix-sds/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-rix-mot-01",
