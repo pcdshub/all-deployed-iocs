@@ -21577,6 +21577,34 @@
     },
     {
         "host": "ioc-xrt-rec01",
+        "port": 39102,
+        "dir": "ioc/xrt/edtCam/R1.4.0",
+        "alias": "MEC-XCS-CXI common YAG0 camera",
+        "history": [
+            "ioc/xrt/edtCam/R1.4.0",
+            "ioc/xrt/edtCam/R1.1.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
+        "name": "ioc-hxm-cam1",
+        "script": "/reg/g/pcds/epics/ioc/xrt/edtCam/R1.4.0/build/iocBoot/ioc-hxm-cam1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.0/bin/linux-x86_64/edt"
+    },
+    {
+        "host": "ioc-xrt-rec01",
+        "port": 31234,
+        "dir": "ioc/fee/XraySlitKSpect/R1.7.0",
+        "history": [
+            "/reg/neh/home/mcbrowne/trunk2/ioc/fee/XraySlitKSpect/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
+        "name": "ioc-lfe-bk9k",
+        "script": "/reg/g/pcds/epics/ioc/fee/XraySlitKSpect/R1.7.0/iocBoot/ioc-lfe-bk9k/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/fee/XraySlitKSpect/R1.7.0/bin/linux-x86_64/XraySlitKSpect"
+    },
+    {
+        "host": "ioc-xrt-rec01",
         "port": 39103,
         "dir": "ioc/xrt/ims/R2.2.7",
         "alias": "MEC-XCS-CXI common YAG0 motion",
@@ -21588,6 +21616,21 @@
         "name": "ioc-xrt-hxx-hxm-pim01-ims",
         "script": "/reg/g/pcds/epics/ioc/xrt/ims/R2.2.7/build/iocBoot/ioc-xrt-hxx-hxm-pim01-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.0/bin/linux-x86/ims"
+    },
+    {
+        "host": "ioc-xrt-rec01",
+        "port": 39202,
+        "dir": "ioc/xrt/edtCam/R1.4.0",
+        "alias": "UM6 YAG (XCS YAG1)",
+        "history": [
+            "ioc/xrt/edtCam/R1.4.0",
+            "ioc/xrt/edtCam/R1.3.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
+        "name": "ioc-xrt-hxx-um6-p6740",
+        "script": "/reg/g/pcds/epics/ioc/xrt/edtCam/R1.4.0/build/iocBoot/ioc-xrt-hxx-um6-p6740/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.0/bin/linux-x86_64/edt"
     },
     {
         "host": "ioc-xrt-rec01",
@@ -21604,49 +21647,6 @@
     },
     {
         "host": "ioc-xrt-rec02",
-        "port": 39103,
-        "dir": "ioc/xrt/edtCam/R1.4.0",
-        "alias": "MEC-XCS-CXI common YAG0 camera",
-        "history": [
-            "ioc/xrt/edtCam/R1.4.0",
-            "ioc/xrt/edtCam/R1.1.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
-        "name": "ioc-hxm-cam1",
-        "script": "/reg/g/pcds/epics/ioc/xrt/edtCam/R1.4.0/build/iocBoot/ioc-hxm-cam1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.0/bin/linux-x86_64/edt"
-    },
-    {
-        "host": "ioc-xrt-rec02",
-        "port": 31234,
-        "dir": "ioc/fee/XraySlitKSpect/R1.7.0",
-        "history": [
-            "/reg/neh/home/mcbrowne/trunk2/ioc/fee/XraySlitKSpect/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
-        "name": "ioc-lfe-bk9k",
-        "script": "/reg/g/pcds/epics/ioc/fee/XraySlitKSpect/R1.7.0/iocBoot/ioc-lfe-bk9k/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/fee/XraySlitKSpect/R1.7.0/bin/linux-x86_64/XraySlitKSpect"
-    },
-    {
-        "host": "ioc-xrt-rec02",
-        "port": 39202,
-        "dir": "ioc/xrt/edtCam/R1.4.0",
-        "alias": "UM6 YAG (XCS YAG1)",
-        "history": [
-            "ioc/xrt/edtCam/R1.4.0",
-            "ioc/xrt/edtCam/R1.3.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
-        "name": "ioc-xrt-hxx-um6-p6740",
-        "script": "/reg/g/pcds/epics/ioc/xrt/edtCam/R1.4.0/build/iocBoot/ioc-xrt-hxx-um6-p6740/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.0/bin/linux-x86_64/edt"
-    },
-    {
-        "host": "ioc-xrt-rec02",
         "port": 39199,
         "dir": "/reg/g/pcds/controls/camrecord",
         "history": [
@@ -21657,21 +21657,6 @@
         "name": "ioc-xrt-rec02",
         "script": "/reg/g/pcds/controls/camrecord/st.cmd",
         "binary": "/usr/bin/bash"
-    },
-    {
-        "host": "ioc-xrt-rec02",
-        "port": 39111,
-        "dir": "ioc/xrt/ipimb/R4.2.0",
-        "alias": "DG1 IPIMB",
-        "history": [
-            "ioc/xrt/ipimb/R4.2.0",
-            "ioc/xrt/ipimb/R4.1.5"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
-        "name": "ioc-xrt-xcsimb1",
-        "script": "/reg/g/pcds/epics/ioc/xrt/ipimb/R4.2.0/build/iocBoot/ioc-xrt-xcsimb1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ipimb/R3.1.7/bin/linux-x86_64/ipimbIoc"
     },
     {
         "host": "ioc-xrt-rec03",
@@ -21716,6 +21701,21 @@
         "name": "ioc-xrt-rec03",
         "script": "/reg/g/pcds/controls/camrecord/st.cmd",
         "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ioc-xrt-rec03",
+        "port": 39111,
+        "dir": "ioc/xrt/ipimb/R4.2.0",
+        "alias": "DG1 IPIMB",
+        "history": [
+            "ioc/xrt/ipimb/R4.2.0",
+            "ioc/xrt/ipimb/R4.1.5"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
+        "name": "ioc-xrt-xcsimb1",
+        "script": "/reg/g/pcds/epics/ioc/xrt/ipimb/R4.2.0/build/iocBoot/ioc-xrt-xcsimb1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ipimb/R3.1.7/bin/linux-x86_64/ipimbIoc"
     },
     {
         "host": "ioc-xrt-rec04",
