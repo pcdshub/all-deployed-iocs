@@ -7121,17 +7121,6 @@
     },
     {
         "host": "ioc-cxi-rec01",
-        "port": 30402,
-        "dir": "/reg/g/pcds/epics-dev/aegger/cxi/edtCam/current",
-        "alias": "CAM - SC1 Offaxis Questar Opal 1000m",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-sc1-offaxis",
-        "script": "/reg/g/pcds/epics-dev/aegger/cxi/edtCam/current/build/iocBoot/ioc-cxi-sc1-offaxis/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.0/bin/linux-x86_64/edt"
-    },
-    {
-        "host": "ioc-cxi-rec01",
         "port": 36247,
         "dir": "/reg/neh/home/trendahl/repo/dg2ipm_02",
         "disable": true,
@@ -7259,6 +7248,17 @@
         "name": "ioc-cxi-rec04-evr",
         "script": "/reg/g/pcds/epics/ioc/cxi/evr/R0.1.2/build/iocBoot/ioc-cxi-rec04-evr/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.2.2/bin/rhel7-x86_64/evr"
+    },
+    {
+        "host": "ioc-cxi-rec04",
+        "port": 30402,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/edtCam",
+        "alias": "CAM - SC1 Offaxis Questar Opal 1000m",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-sc1-offaxis",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/edtCam/build/iocBoot/ioc-cxi-sc1-offaxis/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.2/bin/rhel7-x86_64/edt"
     },
     {
         "host": "ioc-cxi-rec04",
@@ -21646,19 +21646,6 @@
         "binary": "/usr/bin/bash"
     },
     {
-        "host": "ioc-xrt-rec02",
-        "port": 39199,
-        "dir": "/reg/g/pcds/controls/camrecord",
-        "history": [
-            "/reg/g/pcds/controls/camrecord"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
-        "name": "ioc-xrt-rec02",
-        "script": "/reg/g/pcds/controls/camrecord/st.cmd",
-        "binary": "/usr/bin/bash"
-    },
-    {
         "host": "ioc-xrt-rec03",
         "port": 39201,
         "dir": "ioc/xrt/edtCam/R1.4.0",
@@ -21857,16 +21844,6 @@
         "name": "ioc-mfx-dia-p6740",
         "script": "/reg/neh/home/bhill/wa2/epics/ioc/mfx/edtCam/current/build/iocBoot/ioc-mfx-dia-p6740/st.cmd",
         "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/edtCam/current/bin/rhel7-x86_64/edt"
-    },
-    {
-        "host": "ioc-xrt-rec06",
-        "port": 39115,
-        "dir": "/reg/g/pcds/epics-dev/mkestra/ioc/xrt/gigECam",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
-        "name": "ioc-xrt-gige-yag3m",
-        "script": "/reg/g/pcds/epics-dev/mkestra/ioc/xrt/gigECam/build/iocBoot/ioc-xrt-gige-yag3m/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xrt-rec07",
