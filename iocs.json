@@ -18408,7 +18408,6 @@
         "host": "ioc-xcs-srv01",
         "port": 30116,
         "dir": "ioc/xcs/thermotek/R1.0.0",
-        "disable": true,
         "alias": "DET - GON Chiller",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
