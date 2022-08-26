@@ -6942,6 +6942,17 @@
     },
     {
         "host": "ioc-cxi-qadc",
+        "port": 30103,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/gigECam",
+        "alias": "CAM - SC3 Offaxis Gige 03",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-gige-03",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/gigECam/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ioc-cxi-qadc",
         "port": 34112,
         "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/pvNotepad",
         "alias": "MISC - PVs for Jet Tracking",
@@ -7150,17 +7161,6 @@
         "name": "ioc-cxi-dg3-p6740",
         "script": "/reg/g/pcds/epics/ioc/cxi/edtCam/R1.3.0/build/iocBoot/ioc-cxi-dg3-p6740/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.0/bin/linux-x86_64/edt"
-    },
-    {
-        "host": "ioc-cxi-rec03",
-        "port": 30103,
-        "dir": "ioc/cxi/gigECam/R1.0.0",
-        "alias": "CAM - SC3 Offaxis Gige 03",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-gige-03",
-        "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R1.0.0/build/iocBoot/ioc-cxi-gige-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R2.7.1/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-cxi-rec03",
