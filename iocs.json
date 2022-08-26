@@ -2991,22 +2991,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.6.0/bin/rhel7-x86_64/pgpWave8"
     },
     {
-        "host": "ctl-rix-fim-01",
-        "port": 30004,
-        "dir": "ioc/rix/pgpWave8/R1.6.0",
-        "disable": true,
-        "history": [
-            "ioc/common/pgpWave8/R1.4.0",
-            "ioc/common/pgpWave8/R1.2.0",
-            "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-rix-pgpw8-04",
-        "script": "/reg/g/pcds/epics/ioc/rix/pgpWave8/R1.6.0/build/iocBoot/ioc-rix-pgpw8-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.6.0/bin/rhel7-x86_64/pgpWave8"
-    },
-    {
         "host": "ctl-rix-mot-01",
         "port": 30400,
         "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/plcprojects/lcls-plc-crixs-motion/lcls-plc-crixs-motion",
@@ -3076,27 +3060,21 @@
     {
         "host": "ctl-rix-mot-01",
         "port": 30201,
-        "dir": "ioc/rix/dc_power/ict",
-        "history": [
-            "ioc/rix/dc_power/ict"
-        ],
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/rix/ict",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-plv-pdu-01",
-        "script": "/reg/g/pcds/epics/ioc/rix/dc_power/ict/build/iocBoot/ioc-rix-plv-pdu-01/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/jozamudi/rix/ict/build/iocBoot/ioc-rix-plv-pdu-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.3/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-rix-mot-01",
         "port": 30202,
-        "dir": "ioc/rix/dc_power/ict",
-        "history": [
-            "ioc/rix/dc_power/ict"
-        ],
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/rix/ict",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-plv-pdu-02",
-        "script": "/reg/g/pcds/epics/ioc/rix/dc_power/ict/build/iocBoot/ioc-rix-plv-pdu-02/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/jozamudi/rix/ict/build/iocBoot/ioc-rix-plv-pdu-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.3/bin/rhel7-x86_64/ict"
     },
     {
