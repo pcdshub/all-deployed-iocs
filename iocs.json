@@ -1981,8 +1981,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-pwr-04",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/pdu_snmp/pdu_snmp-git/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/pdu_snmp/pdu_snmp-git/build/iocBoot/ioc-las-lhn-pwr-04/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/common/pdu_snmp/pdu_snmp-git/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ctl-las-lhn-04",
