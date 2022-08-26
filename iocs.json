@@ -3233,6 +3233,26 @@
     },
     {
         "host": "ctl-rix-qrix-mot-01",
+        "port": 30101,
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/rix/ict",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-qrix-plv-pdu-01",
+        "script": "/reg/g/pcds/epics-dev/jozamudi/rix/ict/build/iocBoot/ioc-qrix-plv-pdu-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.3/bin/rhel7-x86_64/ict"
+    },
+    {
+        "host": "ctl-rix-qrix-mot-01",
+        "port": 30102,
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/rix/ict",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-qrix-plv-pdu-02",
+        "script": "/reg/g/pcds/epics-dev/jozamudi/rix/ict/build/iocBoot/ioc-qrix-plv-pdu-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.3/bin/rhel7-x86_64/ict"
+    },
+    {
+        "host": "ctl-rix-qrix-mot-01",
         "port": 30001,
         "dir": "ioc/common/SmarPod/R1.0.0",
         "base_version": "3.15",
@@ -3263,32 +3283,6 @@
         "name": "ioc-mcp-rix-al1k2",
         "script": "/reg/g/pcds/epics-dev/jjoshi/ioc/picoMotion/build/iocBoot/ioc-mcp-rix-al1k2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/picoMotion/R3.0.0/bin/rhel7-x86_64/motion"
-    },
-    {
-        "host": "ctl-rix-vac-01",
-        "port": 39150,
-        "dir": "/reg/g/pcds/epics-dev/gcastillo/qrix_ict_ioc/ict",
-        "history": [
-            "/reg/g/pcds/epics-dev/gcastillo/qrix_ict_ioc/ict"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-qrix-plv-pdu-01",
-        "script": "/reg/g/pcds/epics-dev/gcastillo/qrix_ict_ioc/ict/build/iocBoot/ioc-qrix-plv-pdu-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.3/bin/rhel7-x86_64/ict"
-    },
-    {
-        "host": "ctl-rix-vac-01",
-        "port": 30298,
-        "dir": "/reg/g/pcds/epics-dev/gcastillo/qrix_ict_ioc/ict",
-        "history": [
-            "/reg/g/pcds/epics-dev/gcastillo/qrix_ict_ioc/ict"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-qrix-plv-pdu-02",
-        "script": "/reg/g/pcds/epics-dev/gcastillo/qrix_ict_ioc/ict/build/iocBoot/ioc-qrix-plv-pdu-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.3/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-tmo-cam-01",
