@@ -8846,7 +8846,7 @@
     {
         "host": "ioc-det-portable2",
         "port": 30001,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/mpod",
+        "dir": "ioc/common/mpod/R2.2.9",
         "history": [
             "ioc/common/mpod/R2.2.6",
             "ioc/common/mpod/R2.0.8"
@@ -8854,8 +8854,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-mbl02-mpod",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/mpod/iocBoot/ioc-det-mbl02-mpod/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/mpod/bin/rhel7-x86_64/mpod"
+        "script": "/reg/g/pcds/epics/ioc/common/mpod/R2.2.9/iocBoot/ioc-det-mbl02-mpod/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/mpod/R2.2.9/bin/rhel7-x86_64/mpod"
     },
     {
         "host": "ioc-det-portable2",
