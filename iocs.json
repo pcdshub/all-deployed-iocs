@@ -1753,7 +1753,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-pwr-01",
         "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/pdu_snmp/pdu_snmp-git/build/iocBoot/ioc-las-lhn-pwr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/pdu_snmp/pdu_snmp-git/build/bin/rhel7-x86_64/pdu"
+        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/common/pdu_snmp/pdu_snmp-git/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ctl-las-lhn-01",
@@ -1981,7 +1981,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-pwr-04",
         "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/pdu_snmp/pdu_snmp-git/build/iocBoot/ioc-las-lhn-pwr-04/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/pdu_snmp/pdu_snmp-git/build/bin/rhel7-x86_64/pdu"
+        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/common/pdu_snmp/pdu_snmp-git/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ctl-las-lhn-04",
@@ -17885,13 +17885,13 @@
     {
         "host": "ioc-xcs-qadc",
         "port": 32000,
-        "dir": "/reg/g/pcds/epics-dev/jjoshi/qadc",
+        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/qadc",
         "alias": "Quad ADC",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-qadc",
-        "script": "/reg/g/pcds/epics-dev/jjoshi/qadc/children/build/iocBoot/ioc-xcs-qadc/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/jjoshi/qadc/bin/rhel7-x86_64/qadcIoc"
+        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/qadc/children/build/iocBoot/ioc-xcs-qadc/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/qadc/bin/rhel7-x86_64/qadcIoc"
     },
     {
         "host": "ioc-xcs-rec01",
