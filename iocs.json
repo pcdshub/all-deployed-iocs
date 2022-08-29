@@ -11019,7 +11019,7 @@
         "config_file": "/reg/g/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-lfe-lcp-01",
         "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/fee/lcp/lcp/iocBoot/ioc-lfe-lcp-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/fee/lcp/lcp/bin/linux-x86_64/lcp"
+        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/fee/lcp/lcp/bin/rhel7-linux-x86_64/lcp"
     },
     {
         "host": "ioc-lfe-kmono-daq",
