@@ -2931,20 +2931,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.1/bin/rhel7-x86_64/Leviton"
     },
     {
-        "host": "ctl-rix-crix-vac-01",
-        "port": 32103,
-        "dir": "ioc/rix/vacuum/R1.0.4",
-        "history": [
-            "ioc/rix/vacuum/R1.0.4",
-            "/reg/g/pcds/epics-dev/wwright/ioc/rix/vacuum"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-rix-vac-support",
-        "script": "/reg/g/pcds/epics/ioc/rix/vacuum/R1.0.4/build/iocBoot/ioc-rix-vac-support/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.0/bin/rhel7-x86_64/vacuum"
-    },
-    {
         "host": "ctl-rix-fim-01",
         "port": 30001,
         "dir": "ioc/rix/pgpWave8/R1.6.0",
@@ -3123,6 +3109,20 @@
         "name": "ioc-rix-sp1k1-calc",
         "script": "/reg/g/pcds/epics-dev/zlentz/ioc-rix-sp1k1-calc/st.cmd",
         "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ctl-rix-mot-01",
+        "port": 32103,
+        "dir": "ioc/rix/vacuum/R1.0.4",
+        "history": [
+            "ioc/rix/vacuum/R1.0.4",
+            "/reg/g/pcds/epics-dev/wwright/ioc/rix/vacuum"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-vac-support",
+        "script": "/reg/g/pcds/epics/ioc/rix/vacuum/R1.0.4/build/iocBoot/ioc-rix-vac-support/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.0/bin/rhel7-x86_64/vacuum"
     },
     {
         "host": "ctl-rix-mot-01",
@@ -17885,13 +17885,13 @@
     {
         "host": "ioc-xcs-qadc",
         "port": 32000,
-        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/qadc",
+        "dir": "/reg/g/pcds/epics-dev/jjoshi/qadc",
         "alias": "Quad ADC",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-qadc",
-        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/qadc/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/jjoshi/qadc/children/build/iocBoot/ioc-xcs-qadc/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/jjoshi/qadc/bin/rhel7-x86_64/qadcIoc"
     },
     {
         "host": "ioc-xcs-rec01",
