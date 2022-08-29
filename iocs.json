@@ -1752,8 +1752,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-pwr-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/pdu_snmp/pdu_snmp-git/build/iocBoot/ioc-las-lhn-pwr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/common/pdu_snmp/pdu_snmp-git/bin/rhel7-x86_64/pdu"
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/pdu_snmp/pdu_snmp-git/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-las-lhn-01",
@@ -1980,8 +1980,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-pwr-04",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/pdu_snmp/pdu_snmp-git/build/iocBoot/ioc-las-lhn-pwr-04/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/common/pdu_snmp/pdu_snmp-git/bin/rhel7-x86_64/pdu"
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/pdu_snmp/pdu_snmp-git/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-las-lhn-04",
@@ -19586,8 +19586,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-pwr-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/xpp/Leviton/xpp-power-r13-12/build/iocBoot/ioc-xpp-pwr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.2/bin/rhel7-x86_64/Leviton"
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/xpp/Leviton/xpp-power-r13-12/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xpp-misc01",
