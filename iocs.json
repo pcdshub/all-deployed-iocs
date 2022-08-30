@@ -21903,11 +21903,11 @@
     {
         "host": "ioc-xrt-wave8",
         "port": 39007,
-        "dir": "/reg/g/pcds/epics/ioc/xrt/HOMS_XRT/v4.4.0/iocBoot/ioc-HOMS-XRT-PLC/",
+        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/HOMS/HOMS_XRT/iocBoot/ioc-HOMS-XRT-PLC/",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-HOMS-XRT-PLC",
-        "script": "/reg/g/pcds/epics/ioc/xrt/HOMS_XRT/v4.4.0/iocBoot/ioc-HOMS-XRT-PLC/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/nrw/iocs/HOMS/HOMS_XRT/iocBoot/ioc-HOMS-XRT-PLC/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
