@@ -6577,6 +6577,20 @@
     },
     {
         "host": "ioc-cxi-mot2",
+        "port": 42019,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/NewportXPS8",
+        "alias": "zz - Newport XPS Det2",
+        "history": [
+            "ioc/cxi/NewportXPS8"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-xps-det2",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/NewportXPS8/build/iocBoot/ioc-cxi-xps-det2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
+    },
+    {
+        "host": "ioc-cxi-mot2",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/divya/local_dir/lcls-plc-bergmann-kohzu/ioc-lcls-plc-bergmann-kohzu",
         "alias": "Bergmann Experiment Kohzu Setup",
@@ -7924,21 +7938,6 @@
         "name": "ioc-cxi-usrPV",
         "script": "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/userIO_PV/current/iocBoot/ioc-cxi-usrPV/st.cmd",
         "binary": "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/userIO_PV/current/bin/linux-x86_64/usrPV"
-    },
-    {
-        "host": "ioc-cxi-usr1",
-        "port": 42019,
-        "dir": "ioc/cxi/NewportXPS8/R1.0.0",
-        "disable": true,
-        "alias": "zz - Newport XPS Det2",
-        "history": [
-            "ioc/cxi/NewportXPS8"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-xps-det2",
-        "script": "/reg/g/pcds/epics/ioc/cxi/NewportXPS8/R1.0.0/build/iocBoot/ioc-cxi-xps-det2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
     },
     {
         "host": "ioc-cxi-usr1",
