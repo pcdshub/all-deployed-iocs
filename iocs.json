@@ -2090,7 +2090,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-pgpw8-01",
         "script": "/cds/home/t/tjohnson/trunk/las/pgpWave8/build/iocBoot/ioc-las-lhn-pgpw8-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R1.5.0/bin/rhel7-x86_64/pgpWave8"
+        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R1.6.1/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-las-lhn-sp01",
