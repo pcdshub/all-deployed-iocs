@@ -10664,17 +10664,6 @@
     },
     {
         "host": "ioc-las-mfx-srv45",
-        "port": 35052,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/NewportXPS8/NewportXPS8-git",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-mfx-xps-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/NewportXPS8/NewportXPS8-git/build/iocBoot/ioc-las-mfx-xps-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/common/NewportXPS8/NewportXPS8-git/bin/rhel7-x86_64/xps8"
-    },
-    {
-        "host": "ioc-las-mfx-srv45",
         "port": 35021,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/sr620/current",
         "disable": true,
