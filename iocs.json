@@ -1728,12 +1728,12 @@
     {
         "host": "ctl-las-lhn-01",
         "port": 30502,
-        "dir": "ioc/common/agilent5322/R0.6.3",
+        "dir": "ioc/las/agilent5322/R1.0.1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-ctr-01",
-        "script": "/reg/g/pcds/epics/ioc/common/agilent5322/R0.6.3/iocBoot/ioc-las-lhn-ctr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R0.6.3/bin/rhel7-x86_64/agilent5322"
+        "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R1.0.1/build/iocBoot/ioc-las-lhn-ctr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R2.0.1/bin/rhel7-x86_64/agilent5322"
     },
     {
         "host": "ctl-las-lhn-01",
@@ -1946,12 +1946,12 @@
     {
         "host": "ctl-las-lhn-04",
         "port": 30502,
-        "dir": "ioc/common/agilent5322/R0.6.3",
+        "dir": "ioc/las/agilent5322/R1.0.1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-ctr-04",
-        "script": "/reg/g/pcds/epics/ioc/common/agilent5322/R0.6.3/iocBoot/ioc-las-lhn-ctr-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R0.6.3/bin/rhel7-x86_64/agilent5322"
+        "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R1.0.1/build/iocBoot/ioc-las-lhn-ctr-04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R2.0.1/bin/rhel7-x86_64/agilent5322"
     },
     {
         "host": "ctl-las-lhn-04",
@@ -10257,8 +10257,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-cxi-evr-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/evr/evr-git/build/iocBoot/ioc-las-cxi-evr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/linux-x86_64/evr"
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/evr/evr-git/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-las-cxi-srv05",
