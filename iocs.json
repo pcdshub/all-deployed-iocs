@@ -4365,6 +4365,17 @@
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.4.6/bin/rhel7-x86_64/epixMonIoc"
     },
     {
+        "host": "daq-cxi-pgp04",
+        "port": 30103,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/gigECam",
+        "alias": "CAM - SC3 Offaxis Gige 03",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-gige-03",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/gigECam/build/iocBoot/ioc-cxi-gige-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/rhel7-x86_64/gige"
+    },
+    {
         "host": "daq-det-jungfrau",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/andorCam/current",
@@ -6946,17 +6957,6 @@
         "name": "ioc-cxi-elog-post",
         "script": "/reg/g/pcds/epics-dev/pennebak/git/cxi/pvNotepad/build/iocBoot/ioc-cxi-elog-post/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
-    },
-    {
-        "host": "ioc-cxi-qadc",
-        "port": 30103,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/gigECam",
-        "alias": "CAM - SC3 Offaxis Gige 03",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-gige-03",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/gigECam/build/iocBoot/ioc-cxi-gige-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-cxi-qadc",
