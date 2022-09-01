@@ -1738,11 +1738,11 @@
     {
         "host": "ctl-las-lhn-01",
         "port": 30002,
-        "dir": "ioc/las/evr/R1.0.5",
+        "dir": "ioc/las/evr/R1.0.6",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-evr-01",
-        "script": "/reg/g/pcds/epics/ioc/las/evr/R1.0.5/build/iocBoot/ioc-las-lhn-evr-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/evr/R1.0.6/build/iocBoot/ioc-las-lhn-evr-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/rhel7-x86_64/evr"
     },
     {
@@ -1956,11 +1956,11 @@
     {
         "host": "ctl-las-lhn-04",
         "port": 30002,
-        "dir": "ioc/las/evr/R1.0.5",
+        "dir": "ioc/las/evr/R1.0.6",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-evr-04",
-        "script": "/reg/g/pcds/epics/ioc/las/evr/R1.0.5/build/iocBoot/ioc-las-lhn-evr-04/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/evr/R1.0.6/build/iocBoot/ioc-las-lhn-evr-04/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/rhel7-x86_64/evr"
     },
     {
@@ -2135,11 +2135,11 @@
     {
         "host": "ctl-las-lln-01",
         "port": 30001,
-        "dir": "/cds/home/t/tjohnson/trunk/las/evr",
+        "dir": "ioc/las/evr/R1.0.6",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lln-evr-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/evr/build/iocBoot/ioc-las-lln-evr-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/evr/R1.0.6/build/iocBoot/ioc-las-lln-evr-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/rhel7-x86_64/evr"
     },
     {
@@ -2165,11 +2165,11 @@
     {
         "host": "ctl-las-lln-02",
         "port": 30001,
-        "dir": "/cds/home/t/tjohnson/trunk/las/evr",
+        "dir": "ioc/las/evr/R1.0.6",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lln-evr-02",
-        "script": "/cds/home/t/tjohnson/trunk/las/evr/build/iocBoot/ioc-las-lln-evr-02/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/evr/R1.0.6/build/iocBoot/ioc-las-lln-evr-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/rhel7-x86_64/evr"
     },
     {
