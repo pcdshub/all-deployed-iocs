@@ -1700,8 +1700,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-bhc-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ek9000/ek9000-git/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ek9000/ek9000-git/build/iocBoot/ioc-las-lhn-bhc-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.3.1/bin/rhel7-x86_64/ek9000IOC"
     },
     {
         "host": "ctl-las-lhn-01",
@@ -1941,8 +1941,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-bhc-04",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ek9000/ek9000-git/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ek9000/ek9000-git/build/iocBoot/ioc-las-lhn-bhc-04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.3.1/bin/rhel7-x86_64/ek9000IOC"
     },
     {
         "host": "ctl-las-lhn-04",
@@ -16657,6 +16657,7 @@
         "host": "ioc-tst-rec02",
         "port": 30003,
         "dir": "/reg/g/pcds/epics/ioc/tst/evr/latest",
+        "disable": true,
         "history": [
             "/reg/g/pcds/epics/ioc/tst/evr/latest",
             "/reg/neh/home5/bhill/wa2/epics/ioc/tst/evr/current"
@@ -16744,6 +16745,7 @@
         "host": "ioc-tst-rec02",
         "port": 32010,
         "dir": "/reg/neh/home/bhill/wa2/epics/ioc/tst/Leviton/current",
+        "disable": true,
         "history": [
             "/reg/neh/home/bhill/wa2/epics/ioc/tst/Leviton/current"
         ],
@@ -16799,6 +16801,7 @@
         "host": "ioc-tst-rec03",
         "port": 32120,
         "dir": "/reg/g/pcds/epics/ioc/tst/evr/latest",
+        "disable": true,
         "history": [
             "/reg/g/pcds/epics/ioc/tst/evr/latest",
             "/reg/neh/home/bhill/wa2/epics/ioc/tst/evr/current"
@@ -16827,6 +16830,7 @@
         "host": "ioc-tst-rec03",
         "port": 32506,
         "dir": "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current",
+        "disable": true,
         "history": [
             "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current"
         ],
