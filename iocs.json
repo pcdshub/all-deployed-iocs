@@ -16978,7 +16978,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-tt-01",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool/children/build/iocBoot/ioc-tst-tt-01/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool/bin/linux-x86_64/gsd"
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ioc-tst-rhel7",
