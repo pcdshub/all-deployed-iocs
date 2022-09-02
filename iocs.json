@@ -4242,7 +4242,6 @@
         "host": "ctl-tst-pgp01",
         "port": 30001,
         "dir": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current",
-        "disable": true,
         "history": [
             "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current"
         ],
@@ -4299,7 +4298,6 @@
         "host": "ctl-tst-pgp01",
         "port": 30009,
         "dir": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current",
-        "disable": true,
         "history": [
             "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current"
         ],
@@ -4729,6 +4727,7 @@
         "host": "daq-tst-dev03",
         "port": 33001,
         "dir": "/reg/neh/home/mcbrowne/trunk2/ioc/common/tprStandalone/current",
+        "disable": true,
         "history": [
             "/reg/neh/home/mcbrowne/trunk2/ioc/common/tprStandalone/current"
         ],
@@ -16970,6 +16969,7 @@
         "host": "ioc-tst-rec10",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/icldev/iocBoot",
+        "disable": true,
         "alias": "ICL SDS",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
