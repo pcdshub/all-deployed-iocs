@@ -20854,7 +20854,7 @@
     {
         "host": "ioc-xpp-usr01",
         "port": 30021,
-        "dir": "ioc/common/Leviton/R2.4.1",
+        "dir": "ioc/common/Leviton/R1.28.8",
         "alias": "AC Power R32",
         "history": [
             "ioc/common/Leviton/R1.28.8",
@@ -20863,8 +20863,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-pwr-r32",
-        "script": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.1/iocBoot/ioc-xpp-pwr-r32/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.1/bin/linux-x86_64/Leviton"
+        "script": "/reg/g/pcds/epics/ioc/common/Leviton/R1.28.8/iocBoot/ioc-xpp-pwr-r32/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R1.28.8/bin/linux-x86_64/Leviton"
     },
     {
         "host": "ioc-xpp-usr01",
