@@ -20855,7 +20855,6 @@
         "host": "ioc-xpp-usr01",
         "port": 30021,
         "dir": "ioc/common/Leviton/R2.4.1",
-        "disable": true,
         "alias": "AC Power R32",
         "history": [
             "ioc/common/Leviton/R1.28.8",
