@@ -3203,7 +3203,7 @@
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-plv-pdu-02",
         "script": "/reg/g/pcds/epics-dev/jozamudi/rix/ict/build/iocBoot/ioc-qrix-plv-pdu-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.3/bin/rhel7-x86_64/ict"
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.4/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-rix-qrix-mot-01",
