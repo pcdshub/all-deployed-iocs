@@ -10721,6 +10721,19 @@
     },
     {
         "host": "ioc-las-srv01",
+        "port": 30600,
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/pvNotepad/current",
+        "history": [
+            "/reg/g/pcds/epics-dev/snelson/las/pvNotepad/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-fstiming-gluePV",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/pvNotepad/current/build/iocBoot/ioc-las-fstiming-gluePV/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1/bin/linux-x86_64/pvNotepad"
+    },
+    {
+        "host": "ioc-las-srv01",
         "port": 30501,
         "dir": "ioc/las/ims/R0.4.0",
         "base_version": "3.15",
@@ -10796,29 +10809,6 @@
         "name": "ioc-las-xps4",
         "script": "/reg/g/pcds/epics-dev/sfsyunus/las/NewportXPS8/current/build/iocBoot/ioc-las-xps4/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/sfsyunus/common/NewportXPS8/current/bin/linux-x86_64/xps8"
-    },
-    {
-        "host": "ioc-las-xcs-srv04",
-        "port": 30601,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/pvNotepad/current",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-fstiming-PV",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/pvNotepad/current/build/iocBoot/ioc-las-fstiming-PV/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1/bin/linux-x86_64/pvNotepad"
-    },
-    {
-        "host": "ioc-las-xcs-srv04",
-        "port": 30600,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/pvNotepad/current",
-        "history": [
-            "/reg/g/pcds/epics-dev/snelson/las/pvNotepad/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-fstiming-gluePV",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/pvNotepad/current/build/iocBoot/ioc-las-fstiming-gluePV/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1/bin/linux-x86_64/pvNotepad"
     },
     {
         "host": "ioc-las-xcs-srv04",
