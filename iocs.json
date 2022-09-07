@@ -2818,7 +2818,7 @@
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-plv-pdu-01",
         "script": "/reg/g/pcds/epics-dev/jozamudi/rix/ict/build/iocBoot/ioc-crix-plv-pdu-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.3/bin/rhel7-x86_64/ict"
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.4/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-rix-crix-mot-01",
@@ -2828,7 +2828,7 @@
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-plv-pdu-02",
         "script": "/reg/g/pcds/epics-dev/jozamudi/rix/ict/build/iocBoot/ioc-crix-plv-pdu-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.3/bin/rhel7-x86_64/ict"
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.4/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-rix-crix-mot-01",
@@ -3048,7 +3048,7 @@
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-plv-pdu-01",
         "script": "/reg/g/pcds/epics-dev/jozamudi/rix/ict/build/iocBoot/ioc-rix-plv-pdu-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.3/bin/rhel7-x86_64/ict"
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.4/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-rix-mot-01",
@@ -3058,7 +3058,7 @@
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-plv-pdu-02",
         "script": "/reg/g/pcds/epics-dev/jozamudi/rix/ict/build/iocBoot/ioc-rix-plv-pdu-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.3/bin/rhel7-x86_64/ict"
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.4/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-rix-mot-01",
@@ -3068,7 +3068,7 @@
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-plv-pdu-03",
         "script": "/reg/g/pcds/epics-dev/jozamudi/rix/ict/build/iocBoot/ioc-rix-plv-pdu-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.3/bin/rhel7-x86_64/ict"
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.4/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-rix-mot-01",
@@ -3078,7 +3078,7 @@
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-plv-pdu-04",
         "script": "/reg/g/pcds/epics-dev/jozamudi/rix/ict/build/iocBoot/ioc-rix-plv-pdu-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.3/bin/rhel7-x86_64/ict"
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.4/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-rix-mot-01",
@@ -3193,7 +3193,7 @@
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-plv-pdu-01",
         "script": "/reg/g/pcds/epics-dev/jozamudi/rix/ict/build/iocBoot/ioc-qrix-plv-pdu-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.3/bin/rhel7-x86_64/ict"
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.4/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-rix-qrix-mot-01",
@@ -6504,6 +6504,22 @@
     },
     {
         "host": "ioc-cxi-mot2",
+        "port": 34506,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims",
+        "alias": "IMS DSB Motors",
+        "history": [
+            "ioc/cxi/ims/R4.0.39",
+            "ioc/cxi/ims/R2.0.0",
+            "ioc/cxi/ims"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-dsb-ims",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims/build/iocBoot/ioc-cxi-dsb-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-cxi-mot2",
         "port": 30509,
         "dir": "/reg/g/pcds/epics-dev/pennebak/cxi/ims/current",
         "alias": "IMS KB2 Optics",
@@ -8121,22 +8137,6 @@
         "name": "ioc-cxi-dg4-stand-le",
         "script": "/reg/g/pcds/epics/ioc/cxi/motion/R3.0.0/st.cmd",
         "binary": null
-    },
-    {
-        "host": "ioc-cxi-usrmot2",
-        "port": 34506,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/ims",
-        "alias": "IMS DSB Motors",
-        "history": [
-            "ioc/cxi/ims/R4.0.39",
-            "ioc/cxi/ims/R2.0.0",
-            "ioc/cxi/ims"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-dsb-ims",
-        "script": "/reg/g/pcds/epics-dev/pennebak/git/cxi/ims/build/iocBoot/ioc-cxi-dsb-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-usrmot2",
