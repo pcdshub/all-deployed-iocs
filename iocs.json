@@ -1700,8 +1700,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-bhc-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ek9000/ek9000-git/build/iocBoot/ioc-las-lhn-bhc-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.3.1/bin/rhel7-x86_64/ek9000IOC"
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ek9000/ek9000-git/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-las-lhn-01",
@@ -1940,8 +1940,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-bhc-04",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ek9000/ek9000-git/build/iocBoot/ioc-las-lhn-bhc-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.3.1/bin/rhel7-x86_64/ek9000IOC"
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ek9000/ek9000-git/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-las-lhn-04",
@@ -6314,21 +6314,6 @@
     },
     {
         "host": "ioc-cxi-mot1",
-        "port": 32002,
-        "dir": "ioc/cxi/ims/R2.1.0",
-        "alias": "IMS PI3",
-        "history": [
-            "ioc/cxi/ims/R2.0.0",
-            "ioc/cxi/ims"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-pi3-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R2.1.0/build/iocBoot/ioc-cxi-pi3-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.0/bin/linux-x86/ims"
-    },
-    {
-        "host": "ioc-cxi-mot1",
         "port": 30057,
         "dir": "ioc/cxi/ims/R2.0.0",
         "alias": "IMS DSB Pulse-Picker Encoder (V7)",
@@ -6543,6 +6528,21 @@
         "name": "ioc-cxi-las-xps1",
         "script": "/reg/g/pcds/epics/ioc/cxi/NewportXPS8/R1.2.0/build/iocBoot/ioc-cxi-las-xps1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
+    },
+    {
+        "host": "ioc-cxi-mot2",
+        "port": 32002,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims",
+        "alias": "IMS PI3",
+        "history": [
+            "ioc/cxi/ims/R2.0.0",
+            "ioc/cxi/ims"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-pi3-ims",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims/build/iocBoot/ioc-cxi-pi3-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -10586,8 +10586,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-mfx-bhc-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ek9000/ek9000-git/build/iocBoot/ioc-las-mfx-bhc-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.3.1/bin/rhel7-x86_64/ek9000IOC"
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ek9000/ek9000-git/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-las-mfx-srv45",
