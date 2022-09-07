@@ -1681,7 +1681,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-bts",
         "script": "/reg/g/pcds/epics-dev/klauer/lcls-plc-las-bts/iocBoot/ioc-las-bts/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-las-lhn-01",
@@ -11112,7 +11112,6 @@
         "host": "ioc-mec-evg",
         "port": 30002,
         "dir": "ioc/common/evg/R1.0.3",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-evg-fake",
