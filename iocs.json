@@ -6450,6 +6450,22 @@
     },
     {
         "host": "ioc-cxi-mot2",
+        "port": 30530,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims",
+        "alias": "IMS DG4 Stand",
+        "history": [
+            "ioc/cxi/ims/R2.0.0",
+            "ioc/cxi/ims"
+        ],
+        "delay": 10,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-dg4-stand-ims",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims/build/iocBoot/ioc-cxi-dg4-stand-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-cxi-mot2",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/pennebak/cxi/ims/current",
         "alias": "IMS DS1 Extra Dumb Motors",
@@ -8090,22 +8106,6 @@
         "name": "ioc-cxi-dg4-stand-clin",
         "script": "/reg/g/pcds/epics/ioc/cxi/motion/R3.0.0/st.cmd",
         "binary": null
-    },
-    {
-        "host": "ioc-cxi-usrmot2",
-        "port": 30530,
-        "dir": "ioc/cxi/ims/R2.1.0",
-        "alias": "IMS DG4 Stand",
-        "history": [
-            "ioc/cxi/ims/R2.0.0",
-            "ioc/cxi/ims"
-        ],
-        "delay": 10,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-dg4-stand-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R2.1.0/build/iocBoot/ioc-cxi-dg4-stand-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.0/bin/linux-x86/ims"
     },
     {
         "host": "ioc-cxi-usrmot2",
