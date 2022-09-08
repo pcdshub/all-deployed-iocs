@@ -11101,6 +11101,7 @@
         "host": "ioc-mec-evg",
         "port": 30002,
         "dir": "ioc/common/evg/R1.0.3",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-evg-fake",
