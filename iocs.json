@@ -1695,6 +1695,19 @@
     },
     {
         "host": "ctl-las-lhn-01",
+        "port": 30600,
+        "dir": "ioc/las/pvNotepad/R1.0.1",
+        "history": [
+            "/reg/g/pcds/epics-dev/snelson/las/pvNotepad/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-fstiming-gluePV",
+        "script": "/reg/g/pcds/epics/ioc/las/pvNotepad/R1.0.1/build/iocBoot/ioc-las-fstiming-gluePV/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
+    },
+    {
+        "host": "ctl-las-lhn-01",
         "port": 30300,
         "dir": "ioc/las/ek9000/R1.0.3",
         "base_version": "3.15",
@@ -10721,19 +10734,6 @@
     },
     {
         "host": "ioc-las-srv01",
-        "port": 30600,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/pvNotepad/current",
-        "history": [
-            "/reg/g/pcds/epics-dev/snelson/las/pvNotepad/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-fstiming-gluePV",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/pvNotepad/current/build/iocBoot/ioc-las-fstiming-gluePV/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1/bin/linux-x86_64/pvNotepad"
-    },
-    {
-        "host": "ioc-las-srv01",
         "port": 30501,
         "dir": "ioc/las/ims/R0.4.0",
         "base_version": "3.15",
@@ -11384,7 +11384,7 @@
     {
         "host": "ioc-mec-ipimb01",
         "port": 35000,
-        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/pu610k/children/build/iocBoot/ioc-mec-pu610k/",
+        "dir": "/reg/g/pcds/epics/ioc/mec/pu610k/R1.1.2/children/build/iocBoot/ioc-mec-pu610k/",
         "alias": "PFN Charging",
         "history": [
             "ioc/mec/pu610k/R1.0.3",
@@ -11393,8 +11393,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-pu610k",
-        "script": "/reg/g/pcds/epics-dev/nrw/iocs/pu610k/children/build/iocBoot/ioc-mec-pu610k/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/nrw/iocs/pu610k/bin/linux-x86_64/pu610k"
+        "script": "/reg/g/pcds/epics/ioc/mec/pu610k/R1.1.2/children/build/iocBoot/ioc-mec-pu610k/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/mec/pu610k/R1.1.2/bin/linux-x86_64/pu610k"
     },
     {
         "host": "ioc-mec-ipmb01",
