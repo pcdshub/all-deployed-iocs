@@ -6576,6 +6576,23 @@
     },
     {
         "host": "ioc-cxi-mot2",
+        "port": 35518,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims",
+        "alias": "IMS SC1 Navitar",
+        "history": [
+            "ioc/cxi/ims/R4.0.39",
+            "ioc/cxi/ims/R2.0.0",
+            "ioc/cxi/ims"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-sc1-navitar-ims",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims/build/iocBoot/ioc-cxi-sc1-navitar-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-cxi-mot2",
         "port": 32001,
         "dir": "/reg/g/pcds/epics-dev/cymel123/cxi/ims/current",
         "alias": "IMS SC3 Motors",
@@ -7427,23 +7444,6 @@
         "name": "ioc-cxi-sc1-PMC100",
         "script": "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/pmc100/build/iocBoot/ioc-cxi-sc1-PMC100/st.cmd",
         "binary": "/cds/home/d/dhzhang/Epics/arcus_test/current/bin/linux-x86/arcus"
-    },
-    {
-        "host": "ioc-cxi-sc1",
-        "port": 35518,
-        "dir": "ioc/cxi/ims/R4.0.39",
-        "alias": "IMS SC1 Navitar",
-        "history": [
-            "ioc/cxi/ims/R4.0.39",
-            "ioc/cxi/ims/R2.0.0",
-            "ioc/cxi/ims"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-sc1-navitar-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R4.0.39/build/iocBoot/ioc-cxi-sc1-navitar-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.0/bin/linux-x86/ims"
     },
     {
         "host": "ioc-cxi-sc1",
