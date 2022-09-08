@@ -6389,23 +6389,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
     },
     {
-        "host": "ioc-cxi-mot1",
-        "port": 30503,
-        "dir": "ioc/cxi/ims/R6.0.2",
-        "alias": "IMS Slit Control",
-        "history": [
-            "ioc/cxi/ims/R4.0.39",
-            "/reg/neh/home/koglin/ioc/cxi/ims/current/R2.0.0",
-            "ioc/cxi/ims"
-        ],
-        "delay": 10,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-slits-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.2/build/iocBoot/ioc-cxi-slits-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
-    },
-    {
         "host": "ioc-cxi-mot2",
         "port": 30550,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims",
@@ -6604,6 +6587,23 @@
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc3-ims",
         "script": "/reg/g/pcds/epics-dev/cymel123/cxi/ims/current/build/iocBoot/ioc-cxi-sc3-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-cxi-mot2",
+        "port": 30503,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims",
+        "alias": "IMS Slit Control",
+        "history": [
+            "ioc/cxi/ims/R4.0.39",
+            "/reg/neh/home/koglin/ioc/cxi/ims/current/R2.0.0",
+            "ioc/cxi/ims"
+        ],
+        "delay": 10,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-slits-ims",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims/build/iocBoot/ioc-cxi-slits-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
