@@ -2829,22 +2829,22 @@
     {
         "host": "ctl-rix-crix-mot-01",
         "port": 30401,
-        "dir": "ioc/rix/ict/R1.0.0",
+        "dir": "ioc/rix/ict/R1.0.1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-plv-pdu-01",
-        "script": "/reg/g/pcds/epics/ioc/rix/ict/R1.0.0/build/iocBoot/ioc-crix-plv-pdu-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.5/bin/rhel7-x86_64/ict"
+        "script": "/reg/g/pcds/epics/ioc/rix/ict/R1.0.1/build/iocBoot/ioc-crix-plv-pdu-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.6/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-rix-crix-mot-01",
         "port": 30402,
-        "dir": "ioc/rix/ict/R1.0.0",
+        "dir": "ioc/rix/ict/R1.0.1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-plv-pdu-02",
-        "script": "/reg/g/pcds/epics/ioc/rix/ict/R1.0.0/build/iocBoot/ioc-crix-plv-pdu-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.5/bin/rhel7-x86_64/ict"
+        "script": "/reg/g/pcds/epics/ioc/rix/ict/R1.0.1/build/iocBoot/ioc-crix-plv-pdu-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.6/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-rix-crix-mot-01",
@@ -3059,42 +3059,42 @@
     {
         "host": "ctl-rix-mot-01",
         "port": 30201,
-        "dir": "ioc/rix/ict/R1.0.0",
+        "dir": "ioc/rix/ict/R1.0.1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-plv-pdu-01",
-        "script": "/reg/g/pcds/epics/ioc/rix/ict/R1.0.0/build/iocBoot/ioc-rix-plv-pdu-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.5/bin/rhel7-x86_64/ict"
+        "script": "/reg/g/pcds/epics/ioc/rix/ict/R1.0.1/build/iocBoot/ioc-rix-plv-pdu-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.6/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-rix-mot-01",
         "port": 30202,
-        "dir": "ioc/rix/ict/R1.0.0",
+        "dir": "ioc/rix/ict/R1.0.1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-plv-pdu-02",
-        "script": "/reg/g/pcds/epics/ioc/rix/ict/R1.0.0/build/iocBoot/ioc-rix-plv-pdu-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.5/bin/rhel7-x86_64/ict"
+        "script": "/reg/g/pcds/epics/ioc/rix/ict/R1.0.1/build/iocBoot/ioc-rix-plv-pdu-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.6/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-rix-mot-01",
         "port": 30203,
-        "dir": "ioc/rix/ict/R1.0.0",
+        "dir": "ioc/rix/ict/R1.0.1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-plv-pdu-03",
-        "script": "/reg/g/pcds/epics/ioc/rix/ict/R1.0.0/build/iocBoot/ioc-rix-plv-pdu-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.5/bin/rhel7-x86_64/ict"
+        "script": "/reg/g/pcds/epics/ioc/rix/ict/R1.0.1/build/iocBoot/ioc-rix-plv-pdu-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.6/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-rix-mot-01",
         "port": 30204,
-        "dir": "ioc/rix/ict/R1.0.0",
+        "dir": "ioc/rix/ict/R1.0.1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-plv-pdu-04",
-        "script": "/reg/g/pcds/epics/ioc/rix/ict/R1.0.0/build/iocBoot/ioc-rix-plv-pdu-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.5/bin/rhel7-x86_64/ict"
+        "script": "/reg/g/pcds/epics/ioc/rix/ict/R1.0.1/build/iocBoot/ioc-rix-plv-pdu-04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.6/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-rix-mot-01",
@@ -3204,22 +3204,22 @@
     {
         "host": "ctl-rix-qrix-mot-01",
         "port": 30101,
-        "dir": "ioc/rix/ict/R1.0.0",
+        "dir": "ioc/rix/ict/R1.0.1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-plv-pdu-01",
-        "script": "/reg/g/pcds/epics/ioc/rix/ict/R1.0.0/build/iocBoot/ioc-qrix-plv-pdu-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.5/bin/rhel7-x86_64/ict"
+        "script": "/reg/g/pcds/epics/ioc/rix/ict/R1.0.1/build/iocBoot/ioc-qrix-plv-pdu-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.6/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-rix-qrix-mot-01",
         "port": 30102,
-        "dir": "ioc/rix/ict/R1.0.0",
+        "dir": "ioc/rix/ict/R1.0.1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-plv-pdu-02",
-        "script": "/reg/g/pcds/epics/ioc/rix/ict/R1.0.0/build/iocBoot/ioc-qrix-plv-pdu-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.5/bin/rhel7-x86_64/ict"
+        "script": "/reg/g/pcds/epics/ioc/rix/ict/R1.0.1/build/iocBoot/ioc-qrix-plv-pdu-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.6/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-rix-qrix-mot-01",
