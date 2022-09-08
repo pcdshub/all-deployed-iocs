@@ -6494,6 +6494,21 @@
     },
     {
         "host": "ioc-cxi-mot2",
+        "port": 32520,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims",
+        "alias": "IMS DS1 XFLS",
+        "history": [
+            "ioc/cxi/ims/R2.0.0",
+            "ioc/cxi/ims"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-ds1-ims",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims/build/iocBoot/ioc-cxi-ds1-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-cxi-mot2",
         "port": 30004,
         "dir": "/reg/g/pcds/epics-dev/pennebak/cxi/ims/current",
         "alias": "IMS DS2 Extra Dumb Motors",
@@ -6712,21 +6727,6 @@
         "name": "ioc-cxi-d51-140k",
         "script": "/reg/g/pcds/epics/ioc/common/detector-ctrl/R2.2.2/iocBoot/ioc-cxi-d51-140k/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/detector-ctrl/R2.2.2/bin/linux-x86_64/detector"
-    },
-    {
-        "host": "ioc-cxi-protura1",
-        "port": 32520,
-        "dir": "ioc/cxi/ims/R6.0.2",
-        "alias": "IMS DS1 XFLS",
-        "history": [
-            "ioc/cxi/ims/R2.0.0",
-            "ioc/cxi/ims"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-ds1-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.2/build/iocBoot/ioc-cxi-ds1-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
     },
     {
         "host": "ioc-cxi-protura1",
