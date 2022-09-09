@@ -12294,6 +12294,7 @@
         "host": "ioc-mec-misc01",
         "port": 31001,
         "dir": "/cds/home/t/tjohnson/trunk/mec/pvNotepad",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-scanVars",
