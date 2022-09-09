@@ -4376,13 +4376,13 @@
     {
         "host": "daq-cxi-pgp04",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/epix",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/epix",
         "alias": "DS1 Epixes",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-d51-epix",
-        "script": "/reg/g/pcds/epics-dev/pennebak/git/cxi/epix/build/iocBoot/ioc-cxi-d51-epix/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.4.6/bin/rhel7-x86_64/epixMonIoc"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/epix/st.cmd",
+        "binary": null
     },
     {
         "host": "daq-det-jungfrau",
