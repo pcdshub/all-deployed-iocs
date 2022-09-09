@@ -6625,6 +6625,21 @@
     },
     {
         "host": "ioc-cxi-mot2",
+        "port": 34501,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims",
+        "alias": "IMS SC1 User Smart Motors",
+        "history": [
+            "ioc/cxi/ims/R2.0.0",
+            "ioc/cxi/ims"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-usr-sc1-smart-ims",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims/build/iocBoot/ioc-cxi-usr-sc1-smart-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-cxi-mot2",
         "port": 34504,
         "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/ims",
         "alias": "IMS SC2 User Dumb Motors",
@@ -7488,21 +7503,6 @@
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-usr-dumb-ims",
         "script": "/reg/g/pcds/epics/ioc/cxi/ims/R2.1.0/build/iocBoot/ioc-cxi-usr-dumb-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.0/bin/linux-x86/ims"
-    },
-    {
-        "host": "ioc-cxi-sc1",
-        "port": 34501,
-        "dir": "ioc/cxi/ims/R2.1.0",
-        "alias": "IMS SC1 User Smart Motors",
-        "history": [
-            "ioc/cxi/ims/R2.0.0",
-            "ioc/cxi/ims"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-usr-sc1-smart-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R2.1.0/build/iocBoot/ioc-cxi-usr-sc1-smart-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.0/bin/linux-x86/ims"
     },
     {
