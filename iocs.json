@@ -6357,22 +6357,6 @@
         "binary": "/reg/g/pcds/epics-dev/pennebak/git/common/pulsepicker/bin/linux-x86/motion"
     },
     {
-        "host": "ioc-cxi-mot1",
-        "port": 30518,
-        "dir": "ioc/cxi/ims/R6.0.2",
-        "alias": "IMS PI1",
-        "history": [
-            "ioc/cxi/ims/R2.0.0",
-            "ioc/cxi/ims"
-        ],
-        "delay": 10,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-sc1-pi1-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.2/build/iocBoot/ioc-cxi-sc1-pi1-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
-    },
-    {
         "host": "ioc-cxi-mot2",
         "port": 30550,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims",
@@ -6573,6 +6557,22 @@
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc1-navitar-ims",
         "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims/build/iocBoot/ioc-cxi-sc1-navitar-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-cxi-mot2",
+        "port": 30518,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims",
+        "alias": "IMS PI1",
+        "history": [
+            "ioc/cxi/ims/R2.0.0",
+            "ioc/cxi/ims"
+        ],
+        "delay": 10,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-sc1-pi1-ims",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims/build/iocBoot/ioc-cxi-sc1-pi1-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
