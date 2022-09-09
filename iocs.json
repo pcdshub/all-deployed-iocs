@@ -2724,15 +2724,15 @@
     {
         "host": "ctl-rix-crix-cam-01",
         "port": 30001,
-        "dir": "ioc/rix/gigECam/R1.1.0",
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/rix/gigECam",
         "history": [
             "ioc/rix/gigECam/R1.1.0"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-gige-01",
-        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R1.1.0/build/iocBoot/ioc-crix-gige-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.3/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/jozamudi/rix/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-rix-crix-cam-01",
