@@ -6223,6 +6223,21 @@
     },
     {
         "host": "ioc-cxi-mot1",
+        "port": 30528,
+        "dir": "ioc/cxi/ims/R6.0.2",
+        "alias": "IMS DG3 IPM",
+        "history": [
+            "ioc/cxi/ims/R2.0.0",
+            "ioc/cxi/ims"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-dg3-ipm-ims",
+        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.2/build/iocBoot/ioc-cxi-dg3-ipm-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
+    },
+    {
+        "host": "ioc-cxi-mot1",
         "port": 30704,
         "dir": "ioc/common/picoMotion/R1.0.11",
         "alias": "Pico DG3 (DSB Ref Laser)",
@@ -6371,21 +6386,6 @@
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg3-det-ims",
         "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims/build/iocBoot/ioc-cxi-dg3-det-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-cxi-mot2",
-        "port": 30528,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims",
-        "alias": "IMS DG3 IPM",
-        "history": [
-            "ioc/cxi/ims/R2.0.0",
-            "ioc/cxi/ims"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-dg3-ipm-ims",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims/build/iocBoot/ioc-cxi-dg3-ipm-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
