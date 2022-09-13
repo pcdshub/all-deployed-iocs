@@ -1005,13 +1005,13 @@
     },
     {
         "host": "ctl-las-ftl-sp01",
-        "port": 30004,
-        "dir": "/cds/home/t/tjohnson/trunk/las/lockerGen2",
+        "port": 30010,
+        "dir": "/cds/home/t/tjohnson/trunk/common/locker_manager",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-ftl-llg2-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/lockerGen2/children/build/iocBoot/ioc-ftl-llg2-01/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/las/lockerGen2/bin/rhel7-x86_64/lockerGen2"
+        "name": "ioc-ftl-llman-01",
+        "script": "/cds/home/t/tjohnson/trunk/common/locker_manager/children/build/iocBoot/ioc-ftl-llman-01/st.cmd",
+        "binary": "/cds/home/t/tjohnson/trunk/common/locker_manager/bin/rhel7-x86_64/lockerman"
     },
     {
         "host": "ctl-las-ftl-sp01",
