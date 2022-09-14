@@ -2849,7 +2849,7 @@
     },
     {
         "host": "ctl-rix-crix-mot-01",
-        "port": 39101,
+        "port": 30100,
         "dir": "ioc/rix/expstate/R1.0.7",
         "alias": "Experiment State Tracker",
         "history": [
@@ -2890,7 +2890,7 @@
     },
     {
         "host": "ctl-rix-crix-vac-01",
-        "port": 39100,
+        "port": 32000,
         "dir": "ioc/rix/lakeshore336/R1.0.0",
         "history": [
             "ioc/rix/lakeshore336/R1.0.0",
@@ -2905,7 +2905,7 @@
     },
     {
         "host": "ctl-rix-crix-vac-01",
-        "port": 39102,
+        "port": 32001,
         "dir": "ioc/rix/lakeshore336/R1.0.0",
         "history": [
             "ioc/rix/lakeshore336/R1.0.0",
@@ -2947,7 +2947,7 @@
     },
     {
         "host": "ctl-rix-crix-vac-01",
-        "port": 39104,
+        "port": 31001,
         "dir": "ioc/rix/Sentry4/R2.4.1",
         "history": [
             "ioc/rix/Sentry4/R2.4.1"
@@ -3154,7 +3154,7 @@
     },
     {
         "host": "ctl-rix-qrix-cam-02",
-        "port": 39100,
+        "port": 34000,
         "dir": "ioc/rix/gigECam/R2.0.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
@@ -3164,7 +3164,7 @@
     },
     {
         "host": "ctl-rix-qrix-cam-02",
-        "port": 39101,
+        "port": 34001,
         "dir": "ioc/rix/gigECam/R2.0.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
@@ -3174,7 +3174,7 @@
     },
     {
         "host": "ctl-rix-qrix-mot-01",
-        "port": 39300,
+        "port": 32000,
         "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/smaract/build/iocBoot/ioc-rix-crix-mcs2-01",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
@@ -3184,7 +3184,7 @@
     },
     {
         "host": "ctl-rix-qrix-mot-01",
-        "port": 39301,
+        "port": 32001,
         "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/smaract/build/iocBoot/ioc-rix-crix-mcs2-02",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
