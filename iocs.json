@@ -4305,7 +4305,6 @@
         "host": "ctl-tst-pgp01",
         "port": 30004,
         "dir": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current",
-        "disable": true,
         "history": [
             "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current"
         ],
