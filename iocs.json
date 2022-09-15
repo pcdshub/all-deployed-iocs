@@ -17674,6 +17674,7 @@
         "host": "ioc-xcs-mot2",
         "port": 30485,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/plcs/lcls-plc-xcs-liquid-jet",
+        "disable": true,
         "alias": "Liquid Jet PLC",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
