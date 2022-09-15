@@ -6453,12 +6453,12 @@
     {
         "host": "ioc-cxi-mot2",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/cxi/ims/current",
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims",
         "alias": "IMS DS1 Extra Dumb Motors",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-ds1-dumb-ims",
-        "script": "/reg/g/pcds/epics-dev/pennebak/cxi/ims/current/build/iocBoot/ioc-cxi-ds1-dumb-ims/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims/build/iocBoot/ioc-cxi-ds1-dumb-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.9/bin/rhel7-x86_64/ims"
     },
     {
