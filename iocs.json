@@ -13212,22 +13212,22 @@
     {
         "host": "ioc-mec-wave8",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/hpi_6012/current",
+        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/hpi_6012/children/build/iocBoot/ioc-mec-hpi-3",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-hpi-3",
-        "script": "/reg/g/pcds/epics-dev/nrw/iocs/hpi_6012/current/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/nrw/iocs/hpi_6012/children/build/iocBoot/ioc-mec-hpi-3/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/nrw/iocs/hpi_6012/bin/rhel7-x86_64/hpi_6012"
     },
     {
         "host": "ioc-mec-wave8",
         "port": 39103,
-        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/hpi_6012/current",
+        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/hpi_6012/children/build/iocBoot/ioc-mec-hpi-4",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-hpi-4",
-        "script": "/reg/g/pcds/epics-dev/nrw/iocs/hpi_6012/current/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/nrw/iocs/hpi_6012/children/build/iocBoot/ioc-mec-hpi-4/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/nrw/iocs/hpi_6012/bin/rhel7-x86_64/hpi_6012"
     },
     {
         "host": "ioc-mec-wave8",
