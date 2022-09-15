@@ -20783,7 +20783,7 @@
     {
         "host": "ioc-xpp-usr01",
         "port": 32222,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/lusiAtt/current",
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/lusiAtt",
         "alias": "SB2 - Attenuator",
         "history": [
             "ioc/xpp/lusiAtt/R0.5.6",
@@ -20795,8 +20795,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-lusiAtt",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/lusiAtt/current/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/lusiAtt/build/iocBoot/ioc-xpp-lusiAtt/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/lusiAtt/R1.5.0/bin/linux-x86_64/lusiAtt"
     },
     {
         "host": "ioc-xpp-usr01",
