@@ -17673,13 +17673,13 @@
     {
         "host": "ioc-xcs-mot2",
         "port": 30485,
-        "dir": "/reg/g/pcds/epics-dev/spencera/plcs/lcls-plc-xcs-liquid-jet/ioc-xcs-ljh",
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/plcs/lcls-plc-xcs-liquid-jet",
         "alias": "Liquid Jet PLC",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-ljh",
-        "script": "/reg/g/pcds/epics-dev/spencera/plcs/lcls-plc-xcs-liquid-jet/ioc-xcs-ljh/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.2.5/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/plcs/lcls-plc-xcs-liquid-jet/iocBoot/ioc-xcs-ljh/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ioc-xcs-mot2",
@@ -19535,7 +19535,7 @@
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xcs-ljh",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/plcs/lcls-plc-xcs-liquid-jet/iocBoot/ioc-xcs-ljh/st.cmd",
-        "binary": "/cds/home/k/klauer/Repos/ads-ioc/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ioc-xpp-misc01",
