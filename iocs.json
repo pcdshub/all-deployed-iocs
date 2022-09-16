@@ -13647,7 +13647,7 @@
     {
         "host": "ioc-mfx-cam02",
         "port": 30950,
-        "dir": "ioc/mfx/ims/R2.0.0",
+        "dir": "ioc/mfx/ims/R2.1.0",
         "alias": "USR - Motion Dumb",
         "history": [
             "ioc/mfx/ims/R2.0.0",
@@ -13656,8 +13656,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-usr-dumb-ims",
-        "script": "/reg/g/pcds/epics/ioc/mfx/ims/R2.0.0/build/iocBoot/ioc-mfx-usr-dumb-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.0/bin/linux-x86/ims"
+        "script": "/reg/g/pcds/epics/ioc/mfx/ims/R2.1.0/build/iocBoot/ioc-mfx-usr-dumb-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.9/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-mfx-cam02",
