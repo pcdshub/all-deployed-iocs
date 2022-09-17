@@ -7256,13 +7256,12 @@
     {
         "host": "ioc-cxi-rec01",
         "port": 34640,
-        "dir": "ioc/cxi/evr/R0.1.0",
-        "disable": true,
+        "dir": "ioc/cxi/evr/R0.1.2",
         "alias": "\"MISC\": REC01 EVR",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-rec01-evr",
-        "script": "/reg/g/pcds/epics/ioc/cxi/evr/R0.1.0/build/iocBoot/ioc-cxi-rec01-evr/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/cxi/evr/R0.1.2/build/iocBoot/ioc-cxi-rec01-evr/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.2.0/bin/linux-x86_64/evr"
     },
     {
