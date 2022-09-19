@@ -1775,7 +1775,6 @@
         "host": "ctl-las-lhn-01",
         "port": 30503,
         "dir": "ioc/las/smc100/R0.3.4",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-smc100-01",
