@@ -16527,16 +16527,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
-        "host": "ioc-tst-13",
-        "port": 34050,
-        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-git",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "py-fstiming-TST",
-        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-git/st.cmd",
-        "binary": "/usr/bin/bash"
-    },
-    {
         "host": "ioc-tst-evg",
         "port": 30001,
         "dir": "/reg/g/pcds/controls/testEvg/R1.5.0",
@@ -17010,6 +17000,16 @@
         "name": "ioc-tst-tt-01",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool/children/build/iocBoot/ioc-tst-tt-01/st.cmd",
         "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool/bin/rhel7-x86_64/gsd"
+    },
+    {
+        "host": "ioc-tst-rec10",
+        "port": 30404,
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-git",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "py-fstiming-TST",
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-git/st.cmd",
+        "binary": "/usr/bin/bash"
     },
     {
         "host": "ioc-tst-rhel7",
