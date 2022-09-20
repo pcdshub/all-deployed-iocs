@@ -2886,7 +2886,7 @@
     {
         "host": "ctl-rix-crix-vac-01",
         "port": 31000,
-        "dir": "ioc/rix/lcls-plc-crixs-vac/v1.4.1/lcls-plc-crix-vac",
+        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/plcprojects/lcls-plc-crixs-vac/lcls-plc-crix-vac",
         "history": [
             "/reg/g/pcds/epics-dev/wwright/ioc/rix/plcprojects/lcls-plc-crixs-vac/lcls-plc-crix-vac",
             "/reg/g/pcds/epics-dev/jyin/gitProjects/lcls-plc-crixs-vac/lcls-plc-crix-vac"
@@ -2894,7 +2894,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-PLC-CRIX-VAC",
-        "script": "/reg/g/pcds/epics/ioc/rix/lcls-plc-crixs-vac/v1.4.1/lcls-plc-crix-vac/iocBoot/ioc-PLC-CRIX-VAC/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/plcprojects/lcls-plc-crixs-vac/lcls-plc-crix-vac/iocBoot/ioc-PLC-CRIX-VAC/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
