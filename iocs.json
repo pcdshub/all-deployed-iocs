@@ -3671,19 +3671,6 @@
     },
     {
         "host": "ctl-tmo-misc-01",
-        "port": 34222,
-        "dir": "/reg/g/pcds/epics-dev/lorelli/ioc-tmo-adc01",
-        "history": [
-            "/reg/g/pcds/epics-dev/lorelli/ioc-tmo-adc01"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-tmo-adc01",
-        "script": "/reg/g/pcds/epics-dev/lorelli/ioc-tmo-adc01/children/build/iocBoot/ioc-tmo-adc01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/lorelli/ioc-tmo-adc01/bin/rhel7-x86_64/ek9000IOC"
-    },
-    {
-        "host": "ctl-tmo-misc-01",
         "port": 11223,
         "dir": "ioc/tmo/AgilentE3632A/R1.0.0",
         "history": [
