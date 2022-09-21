@@ -16945,6 +16945,16 @@
     },
     {
         "host": "ioc-tst-rec10",
+        "port": 33314,
+        "dir": "/reg/g/pcds/epics-dev/wwright/sample-delivery/icl_iocs/shimadzu-lc20",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/icl/iocmanager.cfg",
+        "name": "ioc-icl-lc20",
+        "script": "/reg/g/pcds/epics-dev/wwright/sample-delivery/icl_iocs/shimadzu-lc20/build/iocBoot/ioc-icl-lc20/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.1.0/bin/rhel7-x86_64/lc20"
+    },
+    {
+        "host": "ioc-tst-rec10",
         "port": 33313,
         "dir": "/reg/g/pcds/epics-dev/pennebak/git/icl/shimadzu-lc20",
         "history": [
