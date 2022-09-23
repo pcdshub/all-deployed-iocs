@@ -21998,11 +21998,11 @@
     {
         "host": "ioc-xrt-wave8",
         "port": 35286,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xrt/Leviton",
+        "dir": "/reg/g/pcds/epics-dev/spencera/common/Leviton",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-pwr-pr01",
-        "script": "/reg/g/pcds/epics-dev/spencera/xrt/Leviton/build/iocBoot/ioc-xrt-pwr-pr01/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/spencera/common/Leviton/iocBoot/ioc-xrt-pwr-pr01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.3.4/bin/rhel7-x86_64/Leviton"
     },
     {
