@@ -10339,7 +10339,7 @@
     {
         "host": "ioc-las-cxi-srv05",
         "port": 32001,
-        "dir": "ioc/las/vitara/R3.0.0",
+        "dir": "ioc/las/vitara/R2.12.1",
         "history": [
             "ioc/las/vitara/R2.9.9",
             "ioc/las/vitara/R2.9.5",
@@ -10350,8 +10350,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-cxi-vitara",
-        "script": "/reg/g/pcds/epics/ioc/las/vitara/R3.0.0/iocBoot/ioc-las-cxi-vitara/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/las/vitara/R3.0.0/bin/linux-x86_64/vitara"
+        "script": "/reg/g/pcds/epics/ioc/las/vitara/R2.12.1/iocBoot/ioc-las-cxi-vitara/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/las/vitara/R2.12.1/bin/linux-x86_64/vitara"
     },
     {
         "host": "ioc-las-cxi-srv05",
