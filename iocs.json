@@ -10979,7 +10979,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-xcs-vitara",
         "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/vitara/vitara-git/iocBoot/ioc-las-xcs-vitara/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/vitara/vitara-git/bin/linux-x86/vitara"
+        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/vitara/vitara-git/bin/linux-x86_64/vitara"
     },
     {
         "host": "ioc-las-xcs-srv04",
