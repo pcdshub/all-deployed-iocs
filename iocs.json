@@ -7389,12 +7389,12 @@
     {
         "host": "ioc-cxi-rec04",
         "port": 30103,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/gigECam",
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/gigECam",
         "alias": "CAM - SC3 Inline Questar Gige 05",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-gige-05",
-        "script": "/reg/g/pcds/epics-dev/pennebak/git/cxi/gigECam/build/iocBoot/ioc-cxi-gige-05/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/gigECam/build/iocBoot/ioc-cxi-gige-05/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
     },
     {
