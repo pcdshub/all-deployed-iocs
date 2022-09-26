@@ -2915,7 +2915,7 @@
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-PLC-CRIX-VAC",
         "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/plcprojects/lcls-plc-crixs-vac/lcls-plc-crix-vac/iocBoot/ioc-PLC-CRIX-VAC/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-rix-crix-vac-01",
