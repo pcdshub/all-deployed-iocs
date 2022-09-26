@@ -7454,7 +7454,6 @@
         "host": "ioc-cxi-rec04",
         "port": 30102,
         "dir": "ioc/cxi/edtCam/R2.0.1",
-        "disable": true,
         "alias": "CAM - SC3 Inline Questar Opal4000m",
         "history": [
             "/reg/g/pcds/epics-dev/aegger/edtCam/current",
