@@ -195,6 +195,7 @@
         "port": 39301,
         "dir": "ioc/kfe/gigECam/R1.0.0",
         "alias": "IM1K3",
+        "disable": true,
         "history": [
             "/reg/neh/home/zlentz/github/lcls2-fee-cams"
         ],
