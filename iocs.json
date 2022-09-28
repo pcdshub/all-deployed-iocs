@@ -194,8 +194,8 @@
         "host": "ctl-kfe-cam-03",
         "port": 39301,
         "dir": "ioc/kfe/gigECam/R1.0.0",
-        "alias": "IM1K3",
         "disable": true,
+        "alias": "IM1K3",
         "history": [
             "/reg/neh/home/zlentz/github/lcls2-fee-cams"
         ],
@@ -225,6 +225,16 @@
         "name": "ioc-at1k4-gige",
         "script": "/reg/g/pcds/epics-dev/aegger/R1.0.0/build/iocBoot/ioc-at1k4-gige/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.3/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-kfe-misc-01",
+        "port": 30022,
+        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/thermocon/current",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
+        "name": "ioc-fee-thermocon",
+        "script": "/reg/g/pcds/epics-dev/nrw/iocs/thermocon/current/build/iocBoot/ioc-fee-thermocon/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-kboChiller/current/bin/rhel7-x86_64/thermocon"
     },
     {
         "host": "ctl-kfe-misc-01",
