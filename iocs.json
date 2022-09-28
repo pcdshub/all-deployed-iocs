@@ -4303,7 +4303,6 @@
         "host": "ctl-tst-pgp01",
         "port": 30002,
         "dir": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current",
-        "disable": true,
         "history": [
             "/cds/home/c/claus/lclsii/controls/ioc/common/pgpCamlink/pgpCamlink-git",
             "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current"
