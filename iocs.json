@@ -4368,6 +4368,17 @@
         "binary": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git/bin/rhel7-x86_64/pgpWave8"
     },
     {
+        "host": "ctl-txi-misc-01",
+        "port": 30012,
+        "dir": "ioc/common/lcp/R1.1.0",
+        "cmd": "../../bin/linux-x86_64/lcp st.cmd",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/txi/iocmanager.cfg",
+        "name": "ioc-aux-feh-lcp-02",
+        "script": "/reg/g/pcds/epics/ioc/common/lcp/R1.1.0/iocBoot/ioc-aux-feh-lcp-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/lcp/R1.1.0/bin/linux-x86_64/lcp"
+    },
+    {
         "host": "ctl-ued-pgp-01",
         "port": 30001,
         "dir": "ioc/common/pgpWave8/R1.6.0",
