@@ -7560,6 +7560,20 @@
     },
     {
         "host": "ioc-cxi-sc1",
+        "port": 30011,
+        "dir": "/reg/g/pcds/epics-dev/cymel123/git_ioc/cxi/mps",
+        "alias": "MPS PLC",
+        "history": [
+            "ioc/cxi/mps/R0.1.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-mps",
+        "script": "/reg/g/pcds/epics-dev/cymel123/git_ioc/cxi/mps/iocBoot/ioc-cxi-mps/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/cymel123/git_ioc/cxi/mps/bin/linux-x86_64/mps"
+    },
+    {
+        "host": "ioc-cxi-sc1",
         "port": 34500,
         "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/pmc100",
         "alias": "Piezo SC1 PP-30 Motors",
@@ -8346,20 +8360,6 @@
         "name": "ioc-cxi-gige-06",
         "script": "/cds/group/pcds/epics-dev/pennebak/git/cxi/gigECam/build/iocBoot/ioc-cxi-gige-06/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ioc-cxi-wave8",
-        "port": 30011,
-        "dir": "/reg/g/pcds/epics-dev/cymel123/git_ioc/cxi/mps",
-        "alias": "MPS PLC",
-        "history": [
-            "ioc/cxi/mps/R0.1.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-mps",
-        "script": "/reg/g/pcds/epics-dev/cymel123/git_ioc/cxi/mps/iocBoot/ioc-cxi-mps/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cymel123/git_ioc/cxi/mps/bin/linux-x86_64/mps"
     },
     {
         "host": "ioc-cxi-wave8",
