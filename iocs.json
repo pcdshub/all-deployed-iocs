@@ -526,7 +526,7 @@
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-xgmd-vac",
         "script": "/reg/g/pcds/epics-dev/ioc/kfe/lcls-plc-kfe-xgmd-vac/iocBoot/ioc-plc-kfe-xgmd-vac/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.4.0/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-kfe-vac-01",
