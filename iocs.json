@@ -8190,6 +8190,7 @@
         "host": "ioc-cxi-usrmot2",
         "port": 31526,
         "dir": "ioc/cxi/motion/R3.1.11",
+        "disable": true,
         "alias": "Beamline DG3 Stand LE",
         "history": [
             "ioc/cxi/motion/R3.1.11"
