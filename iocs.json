@@ -19459,22 +19459,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/ipimb/R3.1.8/bin/linux-x86_64/ipimbIoc"
     },
     {
-        "host": "ioc-xpp-ipimb",
-        "port": 30053,
-        "dir": "ioc/xpp/ims/R2.3.2",
-        "alias": "SB2 - Double Slits",
-        "history": [
-            "ioc/xpp/ims/R2.3.0",
-            "ioc/xpp/ims/R2.0.0",
-            "ioc/xpp/ims/R1.0.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-sb2-dslits-ims",
-        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R2.3.2/build/iocBoot/ioc-xpp-sb2-dslits-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.7/bin/linux-x86/ims"
-    },
-    {
         "host": "ioc-xpp-las01",
         "port": 30002,
         "dir": "/cds/home/t/tjohnson/trunk/las/gigECam",
@@ -19799,6 +19783,22 @@
         "name": "ioc-xpp-usr-ls336",
         "script": "/reg/g/pcds/epics-dev/spencera/xpp/lakeshore336/build/iocBoot/ioc-xpp-usr-ls336/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.1/bin/rhel7-x86_64/ls336"
+    },
+    {
+        "host": "ioc-xpp-misc02",
+        "port": 30053,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims",
+        "alias": "SB2 - Double Slits",
+        "history": [
+            "ioc/xpp/ims/R2.3.0",
+            "ioc/xpp/ims/R2.0.0",
+            "ioc/xpp/ims/R1.0.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-sb2-dslits-ims",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims/build/iocBoot/ioc-xpp-sb2-dslits-ims/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xpp-mot01",
