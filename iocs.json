@@ -7287,7 +7287,7 @@
     {
         "host": "ioc-cxi-rec01",
         "port": 30003,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ipimb",
+        "dir": "ioc/cxi/ipimb/R1.1.1",
         "alias": "IPIMB CXI",
         "history": [
             "ioc/cxi/ipimb/R1.1.0",
@@ -7296,8 +7296,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-ipimb",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ipimb/build/iocBoot/ioc-cxi-ipimb/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/ctsoi/ioc/common/ipimb/bin/rhel7-x86_64/ipimbIoc"
+        "script": "/reg/g/pcds/epics/ioc/cxi/ipimb/R1.1.1/build/iocBoot/ioc-cxi-ipimb/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ipimb/R3.2.3/bin/rhel7-x86_64/ipimbIoc"
     },
     {
         "host": "ioc-cxi-rec01",
