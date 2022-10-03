@@ -19446,7 +19446,7 @@
     {
         "host": "ioc-xpp-ipimb",
         "port": 30001,
-        "dir": "ioc/xpp/ipimb/R4.1.6",
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ipimb",
         "alias": "Ipimb - XPP",
         "history": [
             "ioc/xpp/ipimb/R4.1.5",
@@ -19456,8 +19456,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-ipimb01",
-        "script": "/reg/g/pcds/epics/ioc/xpp/ipimb/R4.1.6/build/iocBoot/ioc-xpp-ipimb01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ipimb/R3.1.8/bin/linux-x86_64/ipimbIoc"
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ipimb/build/iocBoot/ioc-xpp-ipimb01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ipimb/R3.2.3/bin/linux-x86_64/ipimbIoc"
     },
     {
         "host": "ioc-xpp-las01",
