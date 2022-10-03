@@ -7234,13 +7234,13 @@
     {
         "host": "ioc-cxi-rec01",
         "port": 30041,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/cxi/gigECam/current",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - DG1 PIM Gige 01",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg1-gige",
-        "script": "/reg/g/pcds/epics-dev/pennebak/cxi/gigECam/current/build/iocBoot/ioc-cxi-dg1-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R2.7.1/bin/linux-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-cxi-rec01",
@@ -19457,7 +19457,7 @@
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-ipimb01",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ipimb/build/iocBoot/ioc-xpp-ipimb01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ipimb/R3.2.3/bin/rhel7-x86_64/ipimbIoc"
+        "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/ipimb/bin/rhel7-x86_64/ipimbIoc"
     },
     {
         "host": "ioc-xpp-las01",
