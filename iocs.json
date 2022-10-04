@@ -17873,6 +17873,16 @@
     },
     {
         "host": "ioc-xcs-mot2",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs/ims",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-sb2-lib-ims",
+        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs/ims/build/iocBoot/ioc-xcs-sb2-lib-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xcs-mot2",
         "port": 30429,
         "dir": "ioc/xcs/ims/R6.0.2",
         "alias": "SB2 - YAG5 Motion",
@@ -18768,7 +18778,7 @@
     {
         "host": "ioc-xcs-user1",
         "port": 30582,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xcs/ims",
+        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs/ims",
         "alias": "USR - Patch Smart Motion",
         "history": [
             "ioc/xcs/ims/R6.0.2"
@@ -18776,7 +18786,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-usr-smart-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xcs/ims/build/iocBoot/ioc-xcs-usr-smart-ims/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs/ims/build/iocBoot/ioc-xcs-usr-smart-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
