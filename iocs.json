@@ -17875,6 +17875,7 @@
         "host": "ioc-xcs-mot2",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs/ims",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-sb2-lib-ims",
