@@ -8249,7 +8249,7 @@
     {
         "host": "ioc-cxi-usrmot2",
         "port": 31526,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/bin/linux-x86",
         "alias": "Beamline DG3 Stand LE",
         "history": [
             "ioc/cxi/motion/R3.1.11"
@@ -8258,7 +8258,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg3-stand-le",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/bin/linux-x86/st.cmd",
         "binary": null
     },
     {
