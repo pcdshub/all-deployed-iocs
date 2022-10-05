@@ -7586,6 +7586,28 @@
     },
     {
         "host": "ioc-cxi-sc1",
+        "port": 30003,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc",
+        "alias": "MMC - SC2 1 Axis",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-mmc-pp30-07",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc/build/iocBoot/ioc-cxi-mmc-pp30-07/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
+    },
+    {
+        "host": "ioc-cxi-sc1",
+        "port": 30004,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc",
+        "alias": "MMC - SC2 1 Axis 2",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-mmc-pp30-08",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc/build/iocBoot/ioc-cxi-mmc-pp30-08/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
+    },
+    {
+        "host": "ioc-cxi-sc1",
         "port": 30020,
         "dir": "/reg/g/pcds/epics-dev/pennebak/cxi/mmc/current",
         "disable": true,
@@ -13340,7 +13362,7 @@
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-setra",
         "script": "/reg/g/pcds/epics-dev/cymel123/mec/setra/current/build/iocBoot/ioc-mec-setra/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/setra/R0.1.1/bin/rhel7-x86_64/setra"
+        "binary": "/cds/group/pcds/epics/ioc/common/setra/R0.1.2/bin/rhel7-x86_64/setra"
     },
     {
         "host": "ioc-mec-wave8",
