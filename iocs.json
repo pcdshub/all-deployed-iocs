@@ -277,6 +277,17 @@
     },
     {
         "host": "ctl-kfe-misc-01",
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/fee/lcp/lcp",
+        "alias": "KFE LCP (FEE Rack Room)",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
+        "name": "ioc-kfe-lcp-01",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/fee/lcp/lcp/iocBoot/ioc-kfe-lcp-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/fee/lcp/lcp/bin/rhel7-x86_64/lcp"
+    },
+    {
+        "host": "ctl-kfe-misc-01",
         "port": 30300,
         "dir": "ioc/kfe/ict/R1.0.0",
         "history": [
