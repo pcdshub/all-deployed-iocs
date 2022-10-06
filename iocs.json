@@ -7585,6 +7585,17 @@
     },
     {
         "host": "ioc-cxi-sc1",
+        "port": 30008,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc",
+        "alias": "MMC100WPP30",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-mmc-pp30-03",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc/build/iocBoot/ioc-cxi-mmc-pp30-03/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
+    },
+    {
+        "host": "ioc-cxi-sc1",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc",
         "alias": "MMC - SC2 4 Axis",
@@ -7917,17 +7928,6 @@
         "name": "ioc-cxi-mks670b",
         "script": "/reg/g/pcds/epics-dev/pennebak/git/cxi/mks670b/iocBoot/ioc-cxi-mks670b/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/pennebak/git/cxi/mks670b/bin/linux-x86_64/mks670b"
-    },
-    {
-        "host": "ioc-cxi-usr1",
-        "port": 30008,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc",
-        "alias": "MMC100WPP30",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-mmc-pp30-03",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc/build/iocBoot/ioc-cxi-mmc-pp30-03/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
     },
     {
         "host": "ioc-cxi-usr1",
