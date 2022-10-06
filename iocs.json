@@ -7921,6 +7921,7 @@
         "host": "ioc-cxi-usr1",
         "port": 30008,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc",
+        "disable": true,
         "alias": "MMC100WPP30",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -22088,7 +22089,7 @@
     {
         "host": "ioc-xrt-wave8",
         "port": 39111,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/xrt/vacuum",
+        "dir": "ioc/xrt/vacuum/R2.1.7",
         "alias": "Vacuum HFX",
         "history": [
             "ioc/xrt/vacuum/R2.1.5",
@@ -22097,8 +22098,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-hfx-vacuum",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/xrt/vacuum/iocBoot/ioc-hfx-vacuum/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/xrt/vacuum/bin/rhel7-x86_64/vacuum"
+        "script": "/reg/g/pcds/epics/ioc/xrt/vacuum/R2.1.7/iocBoot/ioc-hfx-vacuum/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/xrt/vacuum/R2.1.7/bin/rhel7-x86_64/vacuum"
     },
     {
         "host": "ioc-xrt-wave8",
