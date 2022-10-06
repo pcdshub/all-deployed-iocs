@@ -4445,6 +4445,7 @@
         "host": "cxi-control",
         "port": 31101,
         "dir": "/reg/g/pcds/pyps/cxi/dev/cxi/scripts/elogpost",
+        "disable": true,
         "alias": "Elog post python watcher",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -8249,7 +8250,7 @@
     {
         "host": "ioc-cxi-usrmot2",
         "port": 31526,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/bin/linux-x86",
+        "dir": "ioc/cxi/motion/R3.1.11_Copy",
         "alias": "Beamline DG3 Stand LE",
         "history": [
             "ioc/cxi/motion/R3.1.11"
@@ -8258,8 +8259,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg3-stand-le",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/bin/linux-x86/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/cxi/motion/R3.1.11_Copy/iocBoot/ioc-cxi-dg3-stand-le/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/cxi/motion/R3.1.11_Copy/bin/linux-x86/motion"
     },
     {
         "host": "ioc-cxi-usrmot2",
