@@ -2881,7 +2881,7 @@
     {
         "host": "ctl-rix-crix-mot-01",
         "port": 35001,
-        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336",
+        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/common/lakeshore336/children_test",
         "history": [
             "ioc/rix/lakeshore336/R1.0.0",
             "/reg/g/pcds/package/epics/3.14/ioc/rix/lakeshore336/R1.0.0",
@@ -2890,8 +2890,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-cryo-ls336-01",
-        "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336/build/iocBoot/ioc-crix-cryo-ls336-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.1/bin/rhel7-x86_64/ls336"
+        "script": "/reg/g/pcds/epics-dev/wwright/ioc/common/lakeshore336/children_test/build/iocBoot/ioc-crix-cryo-ls336-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/wwright/ioc/common/lakeshore336/bin/rhel7-x86_64/ls336"
     },
     {
         "host": "ctl-rix-crix-mot-01",
@@ -6412,8 +6412,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-mmc-pp30-08",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc/build/iocBoot/ioc-cxi-mmc-pp30-08/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
     },
     {
         "host": "ioc-cxi-mot1",
@@ -7601,8 +7601,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-mmc-pp30-03",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc/build/iocBoot/ioc-cxi-mmc-pp30-03/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
     },
     {
         "host": "ioc-cxi-sc1",
@@ -7612,8 +7612,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-mmc-pp30-05",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc/build/iocBoot/ioc-cxi-mmc-pp30-05/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
     },
     {
         "host": "ioc-cxi-sc1",
@@ -7623,8 +7623,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-mmc-pp30-06",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc/build/iocBoot/ioc-cxi-mmc-pp30-06/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
     },
     {
         "host": "ioc-cxi-sc1",
@@ -7634,8 +7634,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-mmc-pp30-07",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc/build/iocBoot/ioc-cxi-mmc-pp30-07/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
     },
     {
         "host": "ioc-cxi-sc1",
