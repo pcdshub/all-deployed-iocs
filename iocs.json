@@ -4418,6 +4418,16 @@
         "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.2/bin/rhel7-x86_64/Leviton"
     },
     {
+        "host": "ctl-txi-misc-01",
+        "port": 30101,
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/txi/vacuum",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/txi/iocmanager.cfg",
+        "name": "ioc-txi-vac-support",
+        "script": "/reg/g/pcds/epics-dev/jozamudi/txi/vacuum/build/iocBoot/ioc-txi-vac-support/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.5/bin/rhel7-x86_64/vacuum"
+    },
+    {
         "host": "ctl-ued-pgp-01",
         "port": 30001,
         "dir": "ioc/common/pgpWave8/R1.6.0",
