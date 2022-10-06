@@ -2890,8 +2890,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-cryo-ls336-01",
-        "script": "/reg/g/pcds/epics-dev/wwright/ioc/common/lakeshore336/children_test/build/iocBoot/ioc-crix-cryo-ls336-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/wwright/ioc/common/lakeshore336/bin/rhel7-x86_64/ls336"
+        "script": "/reg/g/pcds/epics-dev/wwright/ioc/common/lakeshore336/children_test/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-rix-crix-mot-01",
