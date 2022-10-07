@@ -2987,7 +2987,7 @@
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-usr-ls336",
         "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336/build/iocBoot/ioc-crix-usr-ls336/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.1/bin/rhel7-x86_64/ls336"
+        "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.3/bin/rhel7-x86_64/ls336"
     },
     {
         "host": "ctl-rix-crix-vac-01",
