@@ -6455,6 +6455,7 @@
         "host": "ioc-cxi-mot2",
         "port": 30515,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims",
+        "disable": true,
         "alias": "IMS DG2 Stand",
         "history": [
             "ioc/cxi/ims"
