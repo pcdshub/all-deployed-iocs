@@ -2911,7 +2911,7 @@
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-cryo-ls336-01",
         "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336/build/iocBoot/ioc-crix-cryo-ls336-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.2/bin/rhel7-x86_64/ls336"
+        "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.3/bin/rhel7-x86_64/ls336"
     },
     {
         "host": "ctl-rix-crix-mot-01",
@@ -2926,7 +2926,7 @@
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-cryo-ls336-02",
         "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336/build/iocBoot/ioc-crix-cryo-ls336-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.2/bin/rhel7-x86_64/ls336"
+        "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.3/bin/rhel7-x86_64/ls336"
     },
     {
         "host": "ctl-rix-crix-mot-01",
