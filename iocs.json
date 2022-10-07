@@ -17372,7 +17372,6 @@
         "host": "ioc-xcs-gige01",
         "port": 32517,
         "dir": "ioc/xcs/gigECam/R1.2.4",
-        "disable": true,
         "alias": "CAM - Gige LJC inline",
         "history": [
             "/reg/neh/home4/snelson/work/xcs/gigECam/current"
