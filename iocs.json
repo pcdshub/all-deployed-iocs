@@ -1137,12 +1137,12 @@
     {
         "host": "ctl-las-ftl-srv01",
         "port": 35000,
-        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/las/iTech_RFOF",
+        "dir": "ioc/las/iTech_RFOF/R1.0.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-rfof-itech-01",
-        "script": "/reg/g/pcds/epics-dev/wwright/ioc/las/iTech_RFOF/build/iocBoot/ioc-las-rfof-itech-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/iTech_RFOF/R1.0.0/bin/rhel7-x86_64/rfof"
+        "script": "/reg/g/pcds/epics/ioc/las/iTech_RFOF/R1.0.0/build/iocBoot/ioc-las-rfof-itech-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/iTech_RFOF/R1.0.1/bin/rhel7-x86_64/rfof"
     },
     {
         "host": "ctl-las-ftl-srv01",
