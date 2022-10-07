@@ -943,7 +943,7 @@
     {
         "host": "ctl-las-crix-srv05",
         "port": 30100,
-        "dir": "ioc/las/qadc/R1.0.0",
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/qadc",
         "history": [
             "/cds/home/m/mcbrowne/trunk2/ioc/common/qadc",
             "ioc/las/qadc/R1.0.0"
@@ -951,8 +951,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-qadc134-01",
-        "script": "/reg/g/pcds/epics/ioc/las/qadc/R1.0.0/build/iocBoot/ioc-lm2k2-qadc134-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/qadc/R2.0.3/bin/rhel7-x86_64/qadc134Ioc"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/qadc/children/build/iocBoot/ioc-lm2k2-qadc134-01/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/qadc/bin/rhel7-x86_64/qadc134Ioc"
     },
     {
         "host": "ctl-las-crix-srv06",
@@ -4222,16 +4222,6 @@
     },
     {
         "host": "ctl-tmo-vac-01",
-        "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/divyak/gitproject/lcls-plc-dream-vac/lcls-plc-dream-vac",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-lcls-plc-dream-vac",
-        "script": "/reg/g/pcds/epics-dev/divyak/gitproject/lcls-plc-dream-vac/lcls-plc-dream-vac/iocBoot/ioc-lcls-plc-dream-vac/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ctl-tmo-vac-01",
         "port": 30112,
         "dir": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/lcls-plc-cvmi-vac/plc-cvmi-vac",
         "history": [
@@ -4241,6 +4231,16 @@
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-plc-cvmi-vac",
         "script": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/lcls-plc-cvmi-vac/plc-cvmi-vac/iocBoot/ioc-plc-cvmi-vac/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ctl-tmo-vac-01",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/divyak/gitproject/lcls-plc-dream-vac/lcls-plc-dream-vac/iocBoot/ioc-lcls-plc-dream-vac",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-plc-dream-vac",
+        "script": "/reg/g/pcds/epics-dev/divyak/gitproject/lcls-plc-dream-vac/lcls-plc-dream-vac/iocBoot/ioc-lcls-plc-dream-vac/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
@@ -17372,6 +17372,7 @@
         "host": "ioc-xcs-gige01",
         "port": 32517,
         "dir": "ioc/xcs/gigECam/R1.2.4",
+        "disable": true,
         "alias": "CAM - Gige LJC inline",
         "history": [
             "/reg/neh/home4/snelson/work/xcs/gigECam/current"
