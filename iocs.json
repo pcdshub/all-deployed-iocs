@@ -1137,12 +1137,12 @@
     {
         "host": "ctl-las-ftl-srv01",
         "port": 35000,
-        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/common/iTech_RFOF",
+        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/las/iTech_RFOF",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-rfof-itech-01",
-        "script": "/reg/g/pcds/epics-dev/wwright/ioc/common/iTech_RFOF/children/build/iocBoot/ioc-las-rfof-itech-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/wwright/ioc/common/iTech_RFOF/bin/rhel7-x86_64/rfof"
+        "script": "/reg/g/pcds/epics-dev/wwright/ioc/las/iTech_RFOF/build/iocBoot/ioc-las-rfof-itech-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/iTech_RFOF/R1.0.0/bin/rhel7-x86_64/rfof"
     },
     {
         "host": "ctl-las-ftl-srv01",
@@ -17405,6 +17405,20 @@
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.4/bin/linux-x86_64/gige"
     },
     {
+        "host": "ioc-xcs-gige01",
+        "port": 32522,
+        "dir": "ioc/xcs/gigECam/R1.2.6",
+        "alias": "CAM - Gige 20",
+        "history": [
+            "ioc/xcs/gigECam/R1.2.6"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-gige-20",
+        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R1.2.6/build/iocBoot/ioc-xcs-gige-20/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.4/bin/linux-x86_64/gige"
+    },
+    {
         "host": "ioc-xcs-misc1",
         "port": 30700,
         "dir": "/reg/g/pcds/epics-dev/pennebak/xcs/Leviton/current",
@@ -19309,21 +19323,6 @@
         "name": "ioc-det-thermotek-01",
         "script": "/reg/g/pcds/epics/ioc/det/thermotek/R1.0.0/build/iocBoot/ioc-det-thermotek-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.0/bin/rhel7-x86_64/thermotek"
-    },
-    {
-        "host": "ioc-xcs-wave8",
-        "port": 32522,
-        "dir": "ioc/xcs/gigECam/R1.2.6",
-        "disable": true,
-        "alias": "CAM - Gige 20",
-        "history": [
-            "ioc/xcs/gigECam/R1.2.6"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-gige-20",
-        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R1.2.6/build/iocBoot/ioc-xcs-gige-20/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.4/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-xcs-wave8",
