@@ -8192,6 +8192,7 @@
         "host": "ioc-cxi-usrmot2",
         "port": 31522,
         "dir": "ioc/cxi/motion/R3.0.0",
+        "disable": true,
         "alias": "Beamline 1MS Stand Inclinometer",
         "history": [
             "ioc/cxi/motion/R3.0.0"
