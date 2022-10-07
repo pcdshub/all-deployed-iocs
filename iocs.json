@@ -8252,7 +8252,7 @@
     {
         "host": "ioc-cxi-usrmot2",
         "port": 31517,
-        "dir": "ioc/cxi/motion/R3.0.0",
+        "dir": "/reg/g/pcds/epics-dev/divya/local_dir/encoder/1ms-stand-le",
         "alias": "Beamline DG2 Stand LE",
         "history": [
             "ioc/cxi/motion/R3.0.0"
@@ -8261,7 +8261,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg2-stand-le",
-        "script": "/reg/g/pcds/epics/ioc/cxi/motion/R3.0.0/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/divya/local_dir/encoder/1ms-stand-le/st.cmd",
         "binary": null
     },
     {
