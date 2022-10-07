@@ -2233,12 +2233,12 @@
     {
         "host": "ctl-las-lln-02",
         "port": 30002,
-        "dir": "/cds/home/t/tjohnson/trunk/common/smaract",
+        "dir": "/reg/g/pcds/epics-dev/mods/LLN/smaract",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-mcs2-01",
-        "script": "/cds/home/t/tjohnson/trunk/common/smaract/children/build/iocBoot/ioc-lm1k2-mcs2-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.8/bin/rhel7-x86_64/smaract"
+        "script": "/reg/g/pcds/epics-dev/mods/LLN/smaract/build/iocBoot/ioc-lm1k2-mcs2-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.10/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-lln-03",
@@ -2881,7 +2881,7 @@
     {
         "host": "ctl-rix-crix-mot-01",
         "port": 35001,
-        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/common/lakeshore336/children_test",
+        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336",
         "history": [
             "ioc/rix/lakeshore336/R1.0.0",
             "/reg/g/pcds/package/epics/3.14/ioc/rix/lakeshore336/R1.0.0",
@@ -2890,13 +2890,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-cryo-ls336-01",
-        "script": "/reg/g/pcds/epics-dev/wwright/ioc/common/lakeshore336/children_test/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336/build/iocBoot/ioc-crix-cryo-ls336-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.2/bin/rhel7-x86_64/ls336"
     },
     {
         "host": "ctl-rix-crix-mot-01",
         "port": 35002,
-        "dir": "ioc/rix/lakeshore336/R1.0.0",
+        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336",
         "history": [
             "ioc/rix/lakeshore336/R1.0.0",
             "/reg/g/pcds/package/epics/3.14/ioc/rix/lakeshore336/R1.0.0",
@@ -2905,8 +2905,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-cryo-ls336-02",
-        "script": "/reg/g/pcds/epics/ioc/rix/lakeshore336/R1.0.0/build/iocBoot/ioc-crix-cryo-ls336-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.1/bin/rhel7-x86_64/ls336"
+        "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336/build/iocBoot/ioc-crix-cryo-ls336-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.2/bin/rhel7-x86_64/ls336"
     },
     {
         "host": "ctl-rix-crix-mot-01",
@@ -8247,7 +8247,7 @@
     {
         "host": "ioc-cxi-usrmot2",
         "port": 31526,
-        "dir": "ioc/cxi/motion/R3.1.11",
+        "dir": "ioc/cxi/motion/R3.1.11_Copy",
         "alias": "Beamline DG3 Stand LE",
         "history": [
             "ioc/cxi/motion/R3.1.11"
@@ -8256,8 +8256,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg3-stand-le",
-        "script": "/reg/g/pcds/epics/ioc/cxi/motion/R3.1.11/iocBoot/ioc-cxi-dg3-stand-le/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/cxi/motion/R3.1.11/bin/linux-x86/motion"
+        "script": "/reg/g/pcds/epics/ioc/cxi/motion/R3.1.11_Copy/iocBoot/ioc-cxi-dg3-stand-le/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/cxi/motion/R3.1.11_Copy/bin/linux-x86/motion"
     },
     {
         "host": "ioc-cxi-usrmot2",
