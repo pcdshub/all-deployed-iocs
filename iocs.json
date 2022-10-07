@@ -4450,6 +4450,16 @@
     },
     {
         "host": "ctl-txi-misc-01",
+        "port": 39201,
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/txi/lcls-plc-txi-sxr-vac",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/txi/iocmanager.cfg",
+        "name": "ioc-txi-sxr-vac",
+        "script": "/reg/g/pcds/epics-dev/jozamudi/txi/lcls-plc-txi-sxr-vac/iocBoot/ioc-txi-sxr-vac/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ctl-txi-misc-01",
         "port": 30101,
         "dir": "/reg/g/pcds/epics-dev/jozamudi/txi/vacuum",
         "base_version": "3.15",
@@ -20135,6 +20145,23 @@
     },
     {
         "host": "ioc-xpp-mot01",
+        "port": 30169,
+        "dir": "ioc/xpp/ims/R2.3.0",
+        "alias": "USR Motion DUMB",
+        "history": [
+            "ioc/xpp/ims/R2.2.0",
+            "ioc/xpp/ims/R2.0.0",
+            "ioc/xpp/ims/R1.0.1"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-usr-dumb",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R2.3.0/build/iocBoot/ioc-xpp-usr-dumb/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.5/bin/linux-x86/ims"
+    },
+    {
+        "host": "ioc-xpp-mot01",
         "port": 30056,
         "dir": "/reg/neh/home/snelson/work/ioc/common/picoMotion/current",
         "disable": true,
@@ -21186,23 +21213,6 @@
         "name": "ioc-xpp-usr-acromag",
         "script": "/reg/g/pcds/epics/ioc/common/pciAcromag/R0.0.1-0.1.15/children/build/iocBoot/ioc-xpp-usr-acromag/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pciAcromag/R0.0.1-0.1.15/bin/linux-x86_64/pciAcromag"
-    },
-    {
-        "host": "ioc-xpp-usr01",
-        "port": 30169,
-        "dir": "ioc/xpp/ims/R2.3.0",
-        "alias": "USR Motion DUMB",
-        "history": [
-            "ioc/xpp/ims/R2.2.0",
-            "ioc/xpp/ims/R2.0.0",
-            "ioc/xpp/ims/R1.0.1"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-usr-dumb",
-        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R2.3.0/build/iocBoot/ioc-xpp-usr-dumb/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.5/bin/linux-x86/ims"
     },
     {
         "host": "ioc-xpp-usr01",
