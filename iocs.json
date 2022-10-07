@@ -7591,17 +7591,6 @@
     },
     {
         "host": "ioc-cxi-sc1",
-        "port": 30008,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc",
-        "alias": "MMC100WPP30",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-mmc-pp30-03",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc/build/iocBoot/ioc-cxi-mmc-pp30-03/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
-    },
-    {
-        "host": "ioc-cxi-sc1",
         "port": 30020,
         "dir": "/reg/g/pcds/epics-dev/pennebak/cxi/mmc/current",
         "disable": true,
@@ -7674,6 +7663,17 @@
         "name": "ioc-cxi-usr-dumb-ims",
         "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims/build/iocBoot/ioc-cxi-usr-dumb-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-cxi-sc2",
+        "port": 30008,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc",
+        "alias": "MMC100WPP30",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-mmc-pp30-03",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc/build/iocBoot/ioc-cxi-mmc-pp30-03/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
     },
     {
         "host": "ioc-cxi-sc2",
@@ -8223,7 +8223,7 @@
     {
         "host": "ioc-cxi-usrmot2",
         "port": 30521,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/1ms-stand-le",
+        "dir": "/reg/g/pcds/epics-dev/divya/local_dir/encoder/1ms-stand-le",
         "alias": "Beamline 1MS Stand LE",
         "history": [
             "ioc/cxi/motion/R3.0.0"
@@ -8232,7 +8232,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-1ms-stand-le",
-        "script": "/reg/g/pcds/epics-dev/pennebak/1ms-stand-le/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/divya/local_dir/encoder/1ms-stand-le/st.cmd",
         "binary": null
     },
     {
