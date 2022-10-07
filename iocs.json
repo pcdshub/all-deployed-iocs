@@ -4420,11 +4420,11 @@
     {
         "host": "ctl-txi-misc-01",
         "port": 39200,
-        "dir": "ioc/txi/lcls-plc-txi-hxr-vac/v1.0.0",
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/txi/lcls-plc-txi-hxr-vac",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-hxr-vac",
-        "script": "/reg/g/pcds/epics/ioc/txi/lcls-plc-txi-hxr-vac/v1.0.0/iocBoot/ioc-txi-hxr-vac/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/jozamudi/txi/lcls-plc-txi-hxr-vac/iocBoot/ioc-txi-hxr-vac/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
