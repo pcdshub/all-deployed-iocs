@@ -7656,7 +7656,7 @@
     {
         "host": "ioc-cxi-sc1",
         "port": 30702,
-        "dir": "ioc/common/picoMotion/R1.0.11",
+        "dir": "ioc/common/picoMotion/R4.0.1",
         "alias": "Pico SC1 Questar Optics",
         "history": [
             "ioc/common/picoMotion/R1.0.11"
@@ -7664,8 +7664,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc1-pico",
-        "script": "/reg/g/pcds/epics/ioc/common/picoMotion/R1.0.11/iocBoot/ioc-cxi-sc1-pico/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/picoMotion/R1.0.11/bin/linux-x86/motion"
+        "script": "/reg/g/pcds/epics/ioc/common/picoMotion/R4.0.1/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-cxi-sc1",
