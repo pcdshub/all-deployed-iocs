@@ -4186,6 +4186,7 @@
         "host": "ctl-tmo-mot-01",
         "port": 36669,
         "dir": "ioc/tmo/lcls-plc-tmo-spectrometer-motion/v1.0.0",
+        "disable": true,
         "history": [
             "ioc/tmo/lcls-plc-tmo-spectrometer-motion/v1.0.0"
         ],
@@ -7701,6 +7702,7 @@
         "host": "ioc-cxi-sc2",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc",
+        "disable": true,
         "alias": "MMC - SC2 4 Axis",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
