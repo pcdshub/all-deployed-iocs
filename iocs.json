@@ -3719,6 +3719,7 @@
         "host": "ctl-tmo-misc-01",
         "port": 30201,
         "dir": "ioc/tmo/gigECam/R1.0.1",
+        "disable": true,
         "history": [
             "ioc/tmo/gigECam/R1.0.1"
         ],
