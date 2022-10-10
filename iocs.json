@@ -4452,21 +4452,21 @@
     {
         "host": "ctl-txi-misc-01",
         "port": 39201,
-        "dir": "/reg/g/pcds/epics-dev/jozamudi/txi/lcls-plc-txi-sxr-vac",
+        "dir": "ioc/txi/lcls-plc-txi-sxr-vac/v1.0.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-sxr-vac",
-        "script": "/reg/g/pcds/epics-dev/jozamudi/txi/lcls-plc-txi-sxr-vac/iocBoot/ioc-txi-sxr-vac/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/jozamudi/txi/lcls-plc-txi-sxr-vac/iocBoot/ioc-txi-sxr-vac/c:/Repos/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics/ioc/txi/lcls-plc-txi-sxr-vac/v1.0.0/iocBoot/ioc-txi-sxr-vac/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-txi-misc-01",
         "port": 30101,
-        "dir": "/reg/g/pcds/epics-dev/jozamudi/txi/vacuum",
+        "dir": "ioc/txi/vacuum/R1.0.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-vac-support",
-        "script": "/reg/g/pcds/epics-dev/jozamudi/txi/vacuum/build/iocBoot/ioc-txi-vac-support/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/txi/vacuum/R1.0.0/build/iocBoot/ioc-txi-vac-support/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.5/bin/rhel7-x86_64/vacuum"
     },
     {
