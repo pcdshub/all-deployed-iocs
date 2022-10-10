@@ -3291,6 +3291,17 @@
         "binary": "/reg/g/pcds/epics-dev/wwright/ioc/common/SmarPod/bin/rhel7-x86_64/gsd"
     },
     {
+        "host": "ctl-rix-qrix-mot-01",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/Levitons/power-rix-r03-01",
+        "alias": "Rack 3 PDU (QRIXS)",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-pwr-r03",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/Levitons/power-rix-r03-01/build/iocBoot/ioc-rix-pwr-r03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
+    },
+    {
         "host": "ctl-rix-qrix-vac-01",
         "port": 31313,
         "dir": "/reg/g/pcds/epics-dev/ioc/rix/lcls-plc-qrix-vac/lcls-plc-qrix-vac/iocBoot/ioc-PLC-QRIX-VAC",
