@@ -4171,7 +4171,7 @@
     {
         "host": "ctl-tmo-mot-01",
         "port": 34242,
-        "dir": "/reg/g/pcds/epics-dev/tongju/PLC/lcls-plc-tmo-motion",
+        "dir": "/reg/g/pcds/epics-dev/zlentz/lcls-plc-tmo-motion",
         "alias": "TMO CC Motion",
         "history": [
             "ioc/tmo/lcls-plc-tmo-motion/v1.2.0"
@@ -4179,8 +4179,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-motion",
-        "script": "/reg/g/pcds/epics-dev/tongju/PLC/lcls-plc-tmo-motion/iocBoot/ioc-tmo-motion/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics-dev/zlentz/lcls-plc-tmo-motion/iocBoot/ioc-tmo-motion/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-tmo-mot-01",
@@ -7702,7 +7702,6 @@
         "host": "ioc-cxi-sc2",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc",
-        "disable": true,
         "alias": "MMC - SC2 4 Axis",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
