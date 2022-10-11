@@ -2976,6 +2976,17 @@
         "binary": "/reg/g/pcds/epics-dev/pennebak/shimadzu-lc20/next/bin/rhel7-x86_64/lc20"
     },
     {
+        "host": "ctl-rix-crix-mot-01",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/Levitons/power-rix-r04-01",
+        "alias": "Rack 4 PDU (ChemRIXS)",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-pwr-r04",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/Levitons/power-rix-r04-01/build/iocBoot/ioc-rix-pwr-r04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
+    },
+    {
         "host": "ctl-rix-crix-vac-01",
         "port": 31020,
         "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336",
