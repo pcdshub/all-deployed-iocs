@@ -5935,6 +5935,17 @@
         "binary": "/reg/g/pcds/epics/ioc/common/lcp/R1.1.0/bin/linux-x86_64/lcp"
     },
     {
+        "host": "ioc-cxi-acromag",
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/common/pciAcromag",
+        "alias": "USR - Acromag",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-usr-acromag",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/pciAcromag/children/build/iocBoot/ioc-cxi-usr-acromag/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/pciAcromag/bin/linux-x86_64/pciAcromag"
+    },
+    {
         "host": "ioc-cxi-cam1",
         "port": 30001,
         "dir": "ioc/cxi/unixCam/R3.4.25",
