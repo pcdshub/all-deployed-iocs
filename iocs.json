@@ -2983,8 +2983,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pwr-r04",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/Levitons/power-rix-r04-01/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/Levitons/power-rix-r04-01/build/iocBoot/ioc-rix-pwr-r04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.3.6/bin/rhel7-x86_64/Leviton"
     },
     {
         "host": "ctl-rix-crix-vac-01",
@@ -18200,7 +18200,7 @@
     {
         "host": "ioc-xcs-rec01",
         "port": 39150,
-        "dir": "/reg/g/pcds/epics-dev/adamwh/deltaTauMotion/current",
+        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/ccm/deltaTauMotion/iocBoot/ioc-xcs-mon-ccm-alio",
         "alias": "MON - CCM Alio",
         "history": [
             "/reg/g/pcds/epics-dev/snelson/xcs/ccm/deltaTauMotion/current",
@@ -18210,8 +18210,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-deltaTauMotion",
-        "script": "/reg/g/pcds/epics-dev/adamwh/deltaTauMotion/current/iocBoot/ioc-xcs-deltaTauMotion/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/adamwh/deltaTauMotion/current/bin/linux-x86_64/deltaTauMotion"
+        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/ccm/deltaTauMotion/iocBoot/ioc-xcs-mon-ccm-alio/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/ccm/deltaTauMotion/bin/linux-x86_64/deltaTauMotion"
     },
     {
         "host": "ioc-xcs-rec01",
