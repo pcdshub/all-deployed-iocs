@@ -19756,6 +19756,48 @@
     },
     {
         "host": "ioc-xpp-las01",
+        "port": 31001,
+        "dir": "ioc/xpp/NewportXPS8/R2.0.1",
+        "alias": "LAS - Newport Motion 1",
+        "history": [
+            "ioc/xpp/NewportXPS8/R2.0.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-las-xps1",
+        "script": "/reg/g/pcds/epics/ioc/xpp/NewportXPS8/R2.0.1/build/iocBoot/ioc-xpp-las-xps1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
+    },
+    {
+        "host": "ioc-xpp-las01",
+        "port": 31002,
+        "dir": "ioc/xpp/NewportXPS8/R2.0.1",
+        "alias": "LAS - Newport Motion 2",
+        "history": [
+            "ioc/xpp/NewportXPS8/R2.0.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-las-xps2",
+        "script": "/reg/g/pcds/epics/ioc/xpp/NewportXPS8/R2.0.1/build/iocBoot/ioc-xpp-las-xps2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
+    },
+    {
+        "host": "ioc-xpp-las01",
+        "port": 31003,
+        "dir": "ioc/xpp/NewportXPS8/R2.0.1",
+        "alias": "LAS - Newport Motion 3",
+        "history": [
+            "ioc/xpp/NewportXPS8/R2.0.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-las-xps3",
+        "script": "/reg/g/pcds/epics/ioc/xpp/NewportXPS8/R2.0.1/build/iocBoot/ioc-xpp-las-xps3/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
+    },
+    {
+        "host": "ioc-xpp-las01",
         "port": 30007,
         "dir": "ioc/xpp/picoMotion/R1.0.0",
         "alias": "LAS - picomotion",
@@ -20044,59 +20086,6 @@
         "name": "ioc-row-ims",
         "script": "/reg/g/pcds/package/epics/3.14-dev/ioc/rowland/ims/build/iocBoot/ioc-row-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.0.0/bin/linux-x86/ims"
-    },
-    {
-        "host": "ioc-xpp-mot01",
-        "port": 30001,
-        "dir": "/cds/home/z/zlentz/epics/ioc/xcs/arcus_dmx/current",
-        "alias": "DET - Rowland Arcus Motion",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-rowland-01",
-        "script": "/cds/home/z/zlentz/epics/ioc/xcs/arcus_dmx/current/build/iocBoot/ioc-rowland-01/st.cmd",
-        "binary": "/cds/home/z/zlentz/epics/ioc/common/arcus_dmx/current/bin/linux-x86/dmx"
-    },
-    {
-        "host": "ioc-xpp-mot01",
-        "port": 31001,
-        "dir": "ioc/xpp/NewportXPS8/R2.0.1",
-        "alias": "LAS - Newport Motion 1",
-        "history": [
-            "ioc/xpp/NewportXPS8/R2.0.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-las-xps1",
-        "script": "/reg/g/pcds/epics/ioc/xpp/NewportXPS8/R2.0.1/build/iocBoot/ioc-xpp-las-xps1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
-    },
-    {
-        "host": "ioc-xpp-mot01",
-        "port": 31002,
-        "dir": "ioc/xpp/NewportXPS8/R2.0.1",
-        "alias": "LAS - Newport Motion 2",
-        "history": [
-            "ioc/xpp/NewportXPS8/R2.0.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-las-xps2",
-        "script": "/reg/g/pcds/epics/ioc/xpp/NewportXPS8/R2.0.1/build/iocBoot/ioc-xpp-las-xps2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
-    },
-    {
-        "host": "ioc-xpp-mot01",
-        "port": 31003,
-        "dir": "ioc/xpp/NewportXPS8/R2.0.1",
-        "alias": "LAS - Newport Motion 3",
-        "history": [
-            "ioc/xpp/NewportXPS8/R2.0.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-las-xps3",
-        "script": "/reg/g/pcds/epics/ioc/xpp/NewportXPS8/R2.0.1/build/iocBoot/ioc-xpp-las-xps3/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
     },
     {
         "host": "ioc-xpp-mot01",
@@ -20903,6 +20892,17 @@
         "name": "pyioc-xpp-usr-mpulser",
         "script": "/reg/neh/home/zlentz/python/pyIOC/servers/magPulser/st.cmd",
         "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ioc-xpp-usr01",
+        "port": 30001,
+        "dir": "/cds/home/z/zlentz/epics/ioc/xcs/arcus_dmx/current",
+        "alias": "DET - Rowland Arcus Motion",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-rowland-01",
+        "script": "/cds/home/z/zlentz/epics/ioc/xcs/arcus_dmx/current/build/iocBoot/ioc-rowland-01/st.cmd",
+        "binary": "/cds/home/z/zlentz/epics/ioc/common/arcus_dmx/current/bin/linux-x86/dmx"
     },
     {
         "host": "ioc-xpp-usr01",
