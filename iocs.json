@@ -18205,6 +18205,7 @@
         "host": "ioc-xcs-rec01",
         "port": 39150,
         "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/ccm/deltaTauMotion/iocBoot/ioc-xcs-mon-ccm-alio",
+        "disable": true,
         "alias": "MON - CCM Alio",
         "history": [
             "/reg/g/pcds/epics-dev/snelson/xcs/ccm/deltaTauMotion/current",
