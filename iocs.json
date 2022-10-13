@@ -2983,8 +2983,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pwr-r04",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/Levitons/power-rix-r04-01/build/iocBoot/ioc-rix-pwr-r04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.3.6/bin/rhel7-x86_64/Leviton"
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/Levitons/power-rix-r04-01/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-rix-crix-vac-01",
@@ -6004,13 +6004,13 @@
     {
         "host": "ioc-cxi-cam2",
         "port": 30402,
-        "dir": "ioc/cxi/edtCam/R1.3.1",
+        "dir": "/reg/g/pcds/epics-dev/divya/local_dir/edtCam_rhel5_test/edtCam/R1.3.1",
         "alias": "CAM - SC1 Offaxis Questar Opal 1000m",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc1-offaxis",
-        "script": "/reg/g/pcds/epics/ioc/cxi/edtCam/R1.3.1/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/local_dir/edtCam_rhel5_test/edtCam/R1.3.1/build/iocBoot/ioc-cxi-sc1-offaxis/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.0/bin/linux-x86_64/edt"
     },
     {
         "host": "ioc-cxi-cam4",
