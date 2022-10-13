@@ -6008,12 +6008,12 @@
     {
         "host": "ioc-cxi-cam2",
         "port": 30402,
-        "dir": "/reg/g/pcds/epics-dev/divya/local_dir/edtCam_rhel5_test/edtCam/R1.3.1",
+        "dir": "/reg/g/pcds/epics-dev/divya/local_dir/edtCam_rhel5_test/edtCam/R1.3.0",
         "alias": "CAM - SC1 Offaxis Questar Opal 1000m",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc1-offaxis",
-        "script": "/reg/g/pcds/epics-dev/divya/local_dir/edtCam_rhel5_test/edtCam/R1.3.1/build/iocBoot/ioc-cxi-sc1-offaxis/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/divya/local_dir/edtCam_rhel5_test/edtCam/R1.3.0/build/iocBoot/ioc-cxi-sc1-offaxis/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.0/bin/linux-x86_64/edt"
     },
     {
@@ -18204,7 +18204,7 @@
     {
         "host": "ioc-xcs-rec01",
         "port": 39150,
-        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/ccm/deltaTauMotion/iocBoot/ioc-xcs-mon-ccm-alio",
+        "dir": "/reg/g/pcds/epics-dev/adamwh/deltaTauMotion/current",
         "alias": "MON - CCM Alio",
         "history": [
             "/reg/g/pcds/epics-dev/snelson/xcs/ccm/deltaTauMotion/current",
@@ -18214,8 +18214,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-deltaTauMotion",
-        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/ccm/deltaTauMotion/iocBoot/ioc-xcs-mon-ccm-alio/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/ccm/deltaTauMotion/bin/linux-x86_64/deltaTauMotion"
+        "script": "/reg/g/pcds/epics-dev/adamwh/deltaTauMotion/current/iocBoot/ioc-xcs-deltaTauMotion/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/adamwh/deltaTauMotion/current/bin/linux-x86_64/deltaTauMotion"
     },
     {
         "host": "ioc-xcs-rec01",
