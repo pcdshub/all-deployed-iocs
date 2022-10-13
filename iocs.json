@@ -3453,6 +3453,58 @@
     },
     {
         "host": "ctl-tmo-cam-02",
+        "port": 30205,
+        "dir": "ioc/tmo/gigECam/R1.0.1",
+        "history": [
+            "ioc/tmo/gigECam/R1.0.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-cam-tmo-09",
+        "script": "/reg/g/pcds/epics/ioc/tmo/gigECam/R1.0.1/build/iocBoot/ioc-cam-tmo-09/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.1/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-tmo-cam-02",
+        "port": 30206,
+        "dir": "ioc/tmo/gigECam/R1.0.1",
+        "history": [
+            "ioc/tmo/gigECam/R1.0.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-cam-tmo-10",
+        "script": "/reg/g/pcds/epics/ioc/tmo/gigECam/R1.0.1/build/iocBoot/ioc-cam-tmo-10/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.1/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-tmo-cam-02",
+        "port": 30207,
+        "dir": "ioc/tmo/gigECam/R1.0.1",
+        "history": [
+            "ioc/tmo/gigECam/R1.0.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-cam-tmo-11",
+        "script": "/reg/g/pcds/epics/ioc/tmo/gigECam/R1.0.1/build/iocBoot/ioc-cam-tmo-11/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.1/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-tmo-cam-02",
+        "port": 30212,
+        "dir": "ioc/tmo/gigECam/R1.0.1",
+        "history": [
+            "ioc/tmo/gigECam/R1.0.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-cam-tmo-12",
+        "script": "/reg/g/pcds/epics/ioc/tmo/gigECam/R1.0.1/build/iocBoot/ioc-cam-tmo-12/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.1/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-tmo-cam-02",
         "port": 38400,
         "dir": "/reg/g/pcds/epics-dev/janezg/tmo/im540/current",
         "base_version": "3.15",
@@ -3650,6 +3702,7 @@
         "host": "ctl-tmo-misc-01",
         "port": 30203,
         "dir": "ioc/tmo/gigECam/R1.0.1",
+        "disable": true,
         "history": [
             "ioc/tmo/gigECam/R1.0.1"
         ],
@@ -3661,60 +3714,9 @@
     },
     {
         "host": "ctl-tmo-misc-01",
-        "port": 30205,
-        "dir": "ioc/tmo/gigECam/R1.0.1",
-        "history": [
-            "ioc/tmo/gigECam/R1.0.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-cam-tmo-09",
-        "script": "/reg/g/pcds/epics/ioc/tmo/gigECam/R1.0.1/build/iocBoot/ioc-cam-tmo-09/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.1/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-tmo-misc-01",
-        "port": 30206,
-        "dir": "ioc/tmo/gigECam/R1.0.1",
-        "history": [
-            "ioc/tmo/gigECam/R1.0.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-cam-tmo-10",
-        "script": "/reg/g/pcds/epics/ioc/tmo/gigECam/R1.0.1/build/iocBoot/ioc-cam-tmo-10/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.1/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-tmo-misc-01",
-        "port": 30207,
-        "dir": "ioc/tmo/gigECam/R1.0.1",
-        "history": [
-            "ioc/tmo/gigECam/R1.0.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-cam-tmo-11",
-        "script": "/reg/g/pcds/epics/ioc/tmo/gigECam/R1.0.1/build/iocBoot/ioc-cam-tmo-11/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.1/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-tmo-misc-01",
-        "port": 30212,
-        "dir": "ioc/tmo/gigECam/R1.0.1",
-        "history": [
-            "ioc/tmo/gigECam/R1.0.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-cam-tmo-12",
-        "script": "/reg/g/pcds/epics/ioc/tmo/gigECam/R1.0.1/build/iocBoot/ioc-cam-tmo-12/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.1/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-tmo-misc-01",
         "port": 30213,
         "dir": "ioc/tmo/gigECam/R1.0.1",
+        "disable": true,
         "history": [
             "ioc/tmo/gigECam/R1.0.1"
         ],
