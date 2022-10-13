@@ -5943,7 +5943,7 @@
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-usr-acromag",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/common/pciAcromag/children/build/iocBoot/ioc-cxi-usr-acromag/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/pciAcromag/bin/linux-x86_64/pciAcromag"
+        "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/pciAcromag/bin/rhel7-x86_64/pciAcromag"
     },
     {
         "host": "ioc-cxi-cam1",
@@ -13562,8 +13562,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-pico-tt",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/common/picoMotion/current/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/common/picoMotion/current/children/build/iocBoot/ioc-mfx-pico-tt/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/common/picoMotion/current/bin/rhel7-x86_64/motion"
     },
     {
         "host": "ioc-mfx-cam01",
@@ -19756,48 +19756,6 @@
     },
     {
         "host": "ioc-xpp-las01",
-        "port": 31001,
-        "dir": "ioc/xpp/NewportXPS8/R2.0.1",
-        "alias": "LAS - Newport Motion 1",
-        "history": [
-            "ioc/xpp/NewportXPS8/R2.0.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-las-xps1",
-        "script": "/reg/g/pcds/epics/ioc/xpp/NewportXPS8/R2.0.1/build/iocBoot/ioc-xpp-las-xps1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
-    },
-    {
-        "host": "ioc-xpp-las01",
-        "port": 31002,
-        "dir": "ioc/xpp/NewportXPS8/R2.0.1",
-        "alias": "LAS - Newport Motion 2",
-        "history": [
-            "ioc/xpp/NewportXPS8/R2.0.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-las-xps2",
-        "script": "/reg/g/pcds/epics/ioc/xpp/NewportXPS8/R2.0.1/build/iocBoot/ioc-xpp-las-xps2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
-    },
-    {
-        "host": "ioc-xpp-las01",
-        "port": 31003,
-        "dir": "ioc/xpp/NewportXPS8/R2.0.1",
-        "alias": "LAS - Newport Motion 3",
-        "history": [
-            "ioc/xpp/NewportXPS8/R2.0.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-las-xps3",
-        "script": "/reg/g/pcds/epics/ioc/xpp/NewportXPS8/R2.0.1/build/iocBoot/ioc-xpp-las-xps3/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
-    },
-    {
-        "host": "ioc-xpp-las01",
         "port": 30007,
         "dir": "ioc/xpp/picoMotion/R1.0.0",
         "alias": "LAS - picomotion",
@@ -21048,6 +21006,48 @@
         "name": "ioc-xpp-lakeshore",
         "script": "/reg/g/pcds/epics/ioc/common/lakeshore340/R3.0.8/iocBoot/ioc-xpp-lakeshore/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/lakeshore340/R3.0.8/bin/linux-x86_64/lakeshore340"
+    },
+    {
+        "host": "ioc-xpp-usr01",
+        "port": 31001,
+        "dir": "ioc/xpp/NewportXPS8/R2.0.1",
+        "alias": "LAS - Newport Motion 1",
+        "history": [
+            "ioc/xpp/NewportXPS8/R2.0.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-las-xps1",
+        "script": "/reg/g/pcds/epics/ioc/xpp/NewportXPS8/R2.0.1/build/iocBoot/ioc-xpp-las-xps1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
+    },
+    {
+        "host": "ioc-xpp-usr01",
+        "port": 31002,
+        "dir": "ioc/xpp/NewportXPS8/R2.0.1",
+        "alias": "LAS - Newport Motion 2",
+        "history": [
+            "ioc/xpp/NewportXPS8/R2.0.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-las-xps2",
+        "script": "/reg/g/pcds/epics/ioc/xpp/NewportXPS8/R2.0.1/build/iocBoot/ioc-xpp-las-xps2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
+    },
+    {
+        "host": "ioc-xpp-usr01",
+        "port": 31003,
+        "dir": "ioc/xpp/NewportXPS8/R2.0.1",
+        "alias": "LAS - Newport Motion 3",
+        "history": [
+            "ioc/xpp/NewportXPS8/R2.0.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-las-xps3",
+        "script": "/reg/g/pcds/epics/ioc/xpp/NewportXPS8/R2.0.1/build/iocBoot/ioc-xpp-las-xps3/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
     },
     {
         "host": "ioc-xpp-usr01",
