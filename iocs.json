@@ -18200,6 +18200,22 @@
     },
     {
         "host": "ioc-xcs-rec01",
+        "port": 39150,
+        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/ccm/deltaTauMotion/iocBoot/ioc-xcs-mon-ccm-alio",
+        "alias": "MON - CCM Alio",
+        "history": [
+            "/reg/g/pcds/epics-dev/snelson/xcs/ccm/deltaTauMotion/current",
+            "/reg/g/pcds/package/epics/3.14-dev/ioc/xcs/ccm/deltaTauMotion/current"
+        ],
+        "cmd": "../../bin/linux-x86_64/deltaTauMotion st.cmd",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-deltaTauMotion",
+        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/ccm/deltaTauMotion/iocBoot/ioc-xcs-mon-ccm-alio/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/ccm/deltaTauMotion/bin/linux-x86/deltaTauMotion"
+    },
+    {
+        "host": "ioc-xcs-rec01",
         "port": 32504,
         "dir": "ioc/xcs/gigECam/R1.2.6",
         "alias": "CAM - Gige 04 - Yag5",
@@ -18316,22 +18332,6 @@
         "name": "ioc-gige-ljv-offaxis",
         "script": "/reg/g/pcds/epics-dev/spencera/xcs.svn/gigECam/current/build/iocBoot/ioc-gige-ljv-offaxis/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/linux-x86_64/gige"
-    },
-    {
-        "host": "ioc-xcs-rec02",
-        "port": 39150,
-        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/ccm/deltaTauMotion/iocBoot/ioc-xcs-mon-ccm-alio",
-        "alias": "MON - CCM Alio",
-        "history": [
-            "/reg/g/pcds/epics-dev/snelson/xcs/ccm/deltaTauMotion/current",
-            "/reg/g/pcds/package/epics/3.14-dev/ioc/xcs/ccm/deltaTauMotion/current"
-        ],
-        "cmd": "../../bin/linux-x86_64/deltaTauMotion st.cmd",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-deltaTauMotion",
-        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/ccm/deltaTauMotion/iocBoot/ioc-xcs-mon-ccm-alio/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/ccm/deltaTauMotion/bin/linux-x86_6/deltaTauMotion"
     },
     {
         "host": "ioc-xcs-rec02",
