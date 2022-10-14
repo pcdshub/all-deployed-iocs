@@ -6006,17 +6006,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R2.7.1/bin/linux-x86_64/gige"
     },
     {
-        "host": "ioc-cxi-cam2",
-        "port": 30402,
-        "dir": "/reg/g/pcds/epics-dev/divya/local_dir/edtCam_rhel5_test/edtCam/R1.3.0",
-        "alias": "CAM - SC1 Offaxis Questar Opal 1000m",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-sc1-offaxis",
-        "script": "/reg/g/pcds/epics-dev/divya/local_dir/edtCam_rhel5_test/edtCam/R1.3.0/build/iocBoot/ioc-cxi-sc1-offaxis/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.0/bin/linux-x86_64/edt"
-    },
-    {
         "host": "ioc-cxi-cam4",
         "port": 30001,
         "dir": "ioc/cxi/unixCam/R3.4.25",
@@ -7573,6 +7562,17 @@
         "name": "ioc-cxi-rec04-evr",
         "script": "/reg/g/pcds/epics/ioc/cxi/evr/R0.1.2/build/iocBoot/ioc-cxi-rec04-evr/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.2.2/bin/rhel7-x86_64/evr"
+    },
+    {
+        "host": "ioc-cxi-rec04",
+        "port": 30402,
+        "dir": "ioc/cxi/edtCam/R2.0.1",
+        "alias": "CAM - SC1 Offaxis Questar Opal 1000m",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-sc1-offaxis",
+        "script": "/reg/g/pcds/epics/ioc/cxi/edtCam/R2.0.1/build/iocBoot/ioc-cxi-sc1-offaxis/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.2/bin/rhel7-x86_64/edt"
     },
     {
         "host": "ioc-cxi-rec04",
