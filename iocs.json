@@ -17745,7 +17745,6 @@
         "host": "ioc-xcs-mot2",
         "port": 32500,
         "dir": "/reg/g/pcds/epics-dev/spencera/plcs/vonhamos-motion/epics/cfg",
-        "disable": true,
         "alias": "Vonhamos PLC",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
