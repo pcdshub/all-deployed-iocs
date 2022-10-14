@@ -2849,7 +2849,6 @@
         "host": "ctl-rix-crix-cam-01",
         "port": 30005,
         "dir": "ioc/rix/gigECam/R2.0.0",
-        "disable": true,
         "history": [
             "ioc/rix/gigECam/R1.1.0"
         ],
