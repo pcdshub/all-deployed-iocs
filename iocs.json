@@ -21267,13 +21267,13 @@
     {
         "host": "ioc-xpp-usr01",
         "port": 31013,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/NewportXPS8",
+        "dir": "ioc/xpp/NewportXPS8/R2.0.5",
         "alias": "USR Motion Newport 2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-user-xps2",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/NewportXPS8/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/xpp/NewportXPS8/R2.0.5/build/iocBoot/ioc-xpp-user-xps2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/linux-x86_64/xps8"
     },
     {
         "host": "ioc-xpp-usr01",
@@ -21290,13 +21290,13 @@
     {
         "host": "ioc-xpp-usr01",
         "port": 31016,
-        "dir": "/cds/group/pcds/epics-dev/espov/ioc/xpp/NewportXPS8",
+        "dir": "ioc/xpp/NewportXPS8/R2.0.5",
         "alias": "USR Motion Newport 4",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-user-xps4",
-        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/NewportXPS8/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/xpp/NewportXPS8/R2.0.5/build/iocBoot/ioc-xpp-user-xps4/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/linux-x86_64/xps8"
     },
     {
         "host": "ioc-xpp-usr01",
