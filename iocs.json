@@ -20076,21 +20076,6 @@
     },
     {
         "host": "ioc-xpp-mot01",
-        "port": 30160,
-        "dir": "ioc/common/picoMotion/R1.0.4",
-        "alias": "SB1 - Reflaser Pico",
-        "history": [
-            "ioc/common/picoMotion/R1.0.4"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-hx2-sb1-ref-pico",
-        "script": "/reg/g/pcds/epics/ioc/common/picoMotion/R1.0.4/iocBoot/ioc-hx2-sb1-ref-pico/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/picoMotion/R1.0.4/bin/linux-x86/motion"
-    },
-    {
-        "host": "ioc-xpp-mot01",
         "port": 37065,
         "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/rowland/ims",
         "disable": true,
@@ -20121,21 +20106,6 @@
         "name": "ioc-xpp-mon-nav-ims",
         "script": "/reg/g/pcds/epics/ioc/xpp/ims/R2.3.0/build/iocBoot/ioc-xpp-mon-nav-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.5/bin/linux-x86/ims"
-    },
-    {
-        "host": "ioc-xpp-mot01",
-        "port": 30050,
-        "dir": "ioc/common/pulsepicker/R1.1.8",
-        "alias": "SB2 - Pulsepicker",
-        "history": [
-            "ioc/common/pulsepicker/R1.0.0"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-pulsepicker-ims",
-        "script": "/reg/g/pcds/epics/ioc/common/pulsepicker/R1.1.8/iocBoot/ioc-xpp-pulsepicker-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pulsepicker/R1.1.8/bin/linux-x86/motion"
     },
     {
         "host": "ioc-xpp-mot01",
@@ -20200,7 +20170,7 @@
     {
         "host": "ioc-xpp-mot01",
         "port": 30065,
-        "dir": "ioc/xpp/ims/R2.3.2",
+        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
         "alias": "SB3 - HRMs",
         "history": [
             "ioc/xpp/ims/R2.0.0",
@@ -20209,13 +20179,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb3-hrms-ims",
-        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R2.3.2/build/iocBoot/ioc-xpp-sb3-hrms-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.7/bin/linux-x86/ims"
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-sb3-hrms-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xpp-mot01",
         "port": 30064,
-        "dir": "ioc/xpp/ims/R2.3.2",
+        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
         "disable": true,
         "alias": "SB3 - LCH Motion",
         "history": [
@@ -20225,23 +20195,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb3-lch-ims",
-        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R2.3.2/build/iocBoot/ioc-xpp-sb3-lch-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.7/bin/linux-x86/ims"
-    },
-    {
-        "host": "ioc-xpp-mot01",
-        "port": 30056,
-        "dir": "/reg/neh/home/snelson/work/ioc/common/picoMotion/current",
-        "disable": true,
-        "alias": "SB2 - Timetool Pico",
-        "history": [
-            "/reg/neh/home/snelson/work/ioc/common/picoMotion/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-usr-pico",
-        "script": "/reg/neh/home/snelson/work/ioc/common/picoMotion/current/iocBoot/ioc-xpp-usr-pico/st.cmd",
-        "binary": "/cds/home/s/snelson/work/ioc/common/picoMotion/current/bin/linux-x86/motion"
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-sb3-lch-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xpp-rec01",
@@ -20895,6 +20850,21 @@
     },
     {
         "host": "ioc-xpp-usr01",
+        "port": 30160,
+        "dir": "ioc/common/picoMotion/R1.0.4",
+        "alias": "SB1 - Reflaser Pico",
+        "history": [
+            "ioc/common/picoMotion/R1.0.4"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-hx2-sb1-ref-pico",
+        "script": "/reg/g/pcds/epics/ioc/common/picoMotion/R1.0.4/iocBoot/ioc-hx2-sb1-ref-pico/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/picoMotion/R1.0.4/bin/linux-x86/motion"
+    },
+    {
+        "host": "ioc-xpp-usr01",
         "port": 30001,
         "dir": "/cds/home/z/zlentz/epics/ioc/xcs/arcus_dmx/current",
         "disable": true,
@@ -21242,6 +21212,21 @@
     },
     {
         "host": "ioc-xpp-usr01",
+        "port": 30050,
+        "dir": "ioc/common/pulsepicker/R1.1.8",
+        "alias": "SB2 - Pulsepicker",
+        "history": [
+            "ioc/common/pulsepicker/R1.0.0"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-pulsepicker-ims",
+        "script": "/reg/g/pcds/epics/ioc/common/pulsepicker/R1.1.8/iocBoot/ioc-xpp-pulsepicker-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pulsepicker/R1.1.8/bin/linux-x86/motion"
+    },
+    {
+        "host": "ioc-xpp-usr01",
         "port": 31024,
         "dir": "ioc/xpp/AgilentE3632A/R1.0.0/build",
         "disable": true,
@@ -21272,22 +21257,6 @@
     },
     {
         "host": "ioc-xpp-usr01",
-        "port": 31010,
-        "dir": "ioc/xpp/NewportXPS8/R2.0.0",
-        "disable": true,
-        "alias": "USR Motion Newport",
-        "history": [
-            "ioc/xpp/NewportXPS8/R2.0.0",
-            "ioc/xpp/NewportXPS8"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-user-xps",
-        "script": "/reg/g/pcds/epics/ioc/xpp/NewportXPS8/R2.0.0/build/iocBoot/ioc-xpp-user-xps/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
-    },
-    {
-        "host": "ioc-xpp-usr01",
         "port": 31014,
         "dir": "/cds/group/pcds/epics-dev/espov/ioc/xpp/NewportXPS8/current",
         "disable": true,
@@ -21297,18 +21266,6 @@
         "name": "ioc-xpp-user-xps3",
         "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/NewportXPS8/current/st.cmd",
         "binary": null
-    },
-    {
-        "host": "ioc-xpp-usr01",
-        "port": 31016,
-        "dir": "ioc/xpp/NewportXPS8/R2.0.5",
-        "disable": true,
-        "alias": "USR Motion Newport 4",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-user-xps4",
-        "script": "/reg/g/pcds/epics/ioc/xpp/NewportXPS8/R2.0.5/build/iocBoot/ioc-xpp-user-xps4/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/linux-x86_64/xps8"
     },
     {
         "host": "ioc-xpp-usr01",
@@ -21357,6 +21314,21 @@
         "name": "ioc-xpp-usr-lakeshore331",
         "script": "/reg/g/pcds/epics/ioc/common/tempControl/R0.8.0/iocBoot/ioc-xpp-usr-lakeshore331/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/tempControl/R0.8.0/bin/linux-x86_64/lakeshore331"
+    },
+    {
+        "host": "ioc-xpp-usr01",
+        "port": 30056,
+        "dir": "/reg/neh/home/snelson/work/ioc/common/picoMotion/current",
+        "disable": true,
+        "alias": "SB2 - Timetool Pico",
+        "history": [
+            "/reg/neh/home/snelson/work/ioc/common/picoMotion/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-usr-pico",
+        "script": "/reg/neh/home/snelson/work/ioc/common/picoMotion/current/iocBoot/ioc-xpp-usr-pico/st.cmd",
+        "binary": "/cds/home/s/snelson/work/ioc/common/picoMotion/current/bin/linux-x86/motion"
     },
     {
         "host": "ioc-xpp-usr01",
