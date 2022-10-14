@@ -19837,6 +19837,22 @@
     },
     {
         "host": "ioc-xpp-misc01",
+        "port": 30024,
+        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "alias": "GON  - Motion",
+        "history": [
+            "ioc/xpp/ims/R2.0.0",
+            "ioc/xpp/ims/R1.0.1"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-gon-ims",
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-gon-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xpp-misc01",
         "port": 30205,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/dg",
         "disable": true,
@@ -19948,6 +19964,21 @@
     },
     {
         "host": "ioc-xpp-misc01",
+        "port": 30065,
+        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "alias": "SB3 - HRMs",
+        "history": [
+            "ioc/xpp/ims/R2.0.0",
+            "ioc/xpp/ims/R1.0.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-sb3-hrms-ims",
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-sb3-hrms-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xpp-misc01",
         "port": 30061,
         "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
         "alias": "SB3 - IPM Motion",
@@ -19959,6 +19990,21 @@
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb3-ipm01-ims",
         "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-sb3-ipm01-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xpp-misc01",
+        "port": 30064,
+        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "alias": "SB3 - LCH Motion",
+        "history": [
+            "ioc/xpp/ims/R2.0.0",
+            "ioc/xpp/ims/R1.0.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-sb3-lch-ims",
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-sb3-lch-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
@@ -20021,6 +20067,23 @@
         "name": "ioc-xpp-userPV",
         "script": "/reg/g/pcds/epics/ioc/xpp/pvNotepad/R1.1.8/build/iocBoot/ioc-xpp-userPV/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
+    },
+    {
+        "host": "ioc-xpp-misc01",
+        "port": 30169,
+        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "alias": "USR Motion DUMB",
+        "history": [
+            "ioc/xpp/ims/R2.2.0",
+            "ioc/xpp/ims/R2.0.0",
+            "ioc/xpp/ims/R1.0.1"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-usr-dumb",
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-usr-dumb/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xpp-misc01",
@@ -20166,37 +20229,6 @@
         "name": "ioc-xpp-pwr-usr",
         "script": "/reg/g/pcds/epics/ioc/common/Leviton/R1.28.8/iocBoot/ioc-xpp-pwr-usr/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R1.28.8/bin/linux-x86_64/Leviton"
-    },
-    {
-        "host": "ioc-xpp-mot01",
-        "port": 30065,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
-        "alias": "SB3 - HRMs",
-        "history": [
-            "ioc/xpp/ims/R2.0.0",
-            "ioc/xpp/ims/R1.0.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-sb3-hrms-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-sb3-hrms-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xpp-mot01",
-        "port": 30064,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
-        "disable": true,
-        "alias": "SB3 - LCH Motion",
-        "history": [
-            "ioc/xpp/ims/R2.0.0",
-            "ioc/xpp/ims/R1.0.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-sb3-lch-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-sb3-lch-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xpp-rec01",
@@ -20652,22 +20684,6 @@
         "name": "ioc-xpp-alcove-mpod",
         "script": "/reg/g/pcds/epics-dev/pennebak/mpod/current/iocBoot/ioc-xpp-alcove-mpod/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/pennebak/mpod/current/bin/linux-x86_64/mpod"
-    },
-    {
-        "host": "ioc-xpp-rob01",
-        "port": 30024,
-        "dir": "ioc/xpp/ims/R2.3.0",
-        "alias": "GON  - Motion",
-        "history": [
-            "ioc/xpp/ims/R2.0.0",
-            "ioc/xpp/ims/R1.0.1"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-gon-ims",
-        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R2.3.0/build/iocBoot/ioc-xpp-gon-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.5/bin/linux-x86/ims"
     },
     {
         "host": "ioc-xpp-rob01",
@@ -21282,23 +21298,6 @@
         "name": "ioc-xpp-usr-acromag",
         "script": "/reg/g/pcds/epics/ioc/common/pciAcromag/R0.0.1-0.1.15/children/build/iocBoot/ioc-xpp-usr-acromag/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pciAcromag/R0.0.1-0.1.15/bin/linux-x86_64/pciAcromag"
-    },
-    {
-        "host": "ioc-xpp-usr01",
-        "port": 30169,
-        "dir": "ioc/xpp/ims/R2.3.0",
-        "alias": "USR Motion DUMB",
-        "history": [
-            "ioc/xpp/ims/R2.2.0",
-            "ioc/xpp/ims/R2.0.0",
-            "ioc/xpp/ims/R1.0.1"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-usr-dumb",
-        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R2.3.0/build/iocBoot/ioc-xpp-usr-dumb/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.5/bin/linux-x86/ims"
     },
     {
         "host": "ioc-xpp-usr01",
