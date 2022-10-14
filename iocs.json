@@ -19682,6 +19682,22 @@
         "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.2.2/bin/linux-x86_64/evr"
     },
     {
+        "host": "ioc-xpp-gon",
+        "port": 32493,
+        "dir": "ioc/xpp/vacuum/R1.2.3",
+        "alias": "Vacuum",
+        "history": [
+            "/reg/neh/home/snelson/work/ioc/xpp/vacuum/current",
+            "ioc/xpp/vacuum/R1.2.1",
+            "ioc/xpp/vacuum/R1.2.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-vacuum",
+        "script": "/reg/g/pcds/epics/ioc/xpp/vacuum/R1.2.3/iocBoot/ioc-xpp-vacuum/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/xpp/vacuum/R1.2.3/bin/linux-x86_64/vacuum"
+    },
+    {
         "host": "ioc-xpp-ipimb",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ipimb",
@@ -20192,23 +20208,6 @@
         "name": "ioc-xpp-sb3-lch-ims",
         "script": "/reg/g/pcds/epics/ioc/xpp/ims/R2.3.2/build/iocBoot/ioc-xpp-sb3-lch-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.7/bin/linux-x86/ims"
-    },
-    {
-        "host": "ioc-xpp-mot01",
-        "port": 30169,
-        "dir": "ioc/xpp/ims/R2.3.0",
-        "alias": "USR Motion DUMB",
-        "history": [
-            "ioc/xpp/ims/R2.2.0",
-            "ioc/xpp/ims/R2.0.0",
-            "ioc/xpp/ims/R1.0.1"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-usr-dumb",
-        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R2.3.0/build/iocBoot/ioc-xpp-usr-dumb/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.5/bin/linux-x86/ims"
     },
     {
         "host": "ioc-xpp-mot01",
@@ -21320,6 +21319,23 @@
     },
     {
         "host": "ioc-xpp-usr01",
+        "port": 30169,
+        "dir": "ioc/xpp/ims/R2.3.0",
+        "alias": "USR Motion DUMB",
+        "history": [
+            "ioc/xpp/ims/R2.2.0",
+            "ioc/xpp/ims/R2.0.0",
+            "ioc/xpp/ims/R1.0.1"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-usr-dumb",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R2.3.0/build/iocBoot/ioc-xpp-usr-dumb/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.5/bin/linux-x86/ims"
+    },
+    {
+        "host": "ioc-xpp-usr01",
         "port": 30200,
         "dir": "ioc/common/tempControl/R0.8.0",
         "disable": true,
@@ -21390,22 +21406,6 @@
         "name": "ioc-xpp-leds",
         "script": "/reg/g/pcds/epics/ioc/xpp/xppLed/R0.5.0/iocBoot/ioc-xpp-leds/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/xpp/xppLed/R0.5.0/bin/linux-x86_64/xppLed"
-    },
-    {
-        "host": "ioc-xpp-vacuum",
-        "port": 32493,
-        "dir": "ioc/xpp/vacuum/R1.2.3",
-        "alias": "Vacuum",
-        "history": [
-            "/reg/neh/home/snelson/work/ioc/xpp/vacuum/current",
-            "ioc/xpp/vacuum/R1.2.1",
-            "ioc/xpp/vacuum/R1.2.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-vacuum",
-        "script": "/reg/g/pcds/epics/ioc/xpp/vacuum/R1.2.3/iocBoot/ioc-xpp-vacuum/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/xpp/vacuum/R1.2.3/bin/linux-x86_64/vacuum"
     },
     {
         "host": "ioc-xpp-vacuum",
