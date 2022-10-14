@@ -2983,7 +2983,7 @@
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pwr-r04",
         "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/Levitons/power-rix-r04-01/build/iocBoot/ioc-rix-pwr-r04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.3.6/bin/rhel7-x86_64/Leviton"
+        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.2/bin/rhel7-x86_64/Leviton"
     },
     {
         "host": "ctl-rix-crix-vac-01",
