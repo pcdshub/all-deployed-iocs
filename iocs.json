@@ -20214,21 +20214,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
     },
     {
-        "host": "ioc-xpp-mot01",
-        "port": 37065,
-        "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/rowland/ims",
-        "disable": true,
-        "alias": "USR - Rowland IMS",
-        "history": [
-            "/reg/g/pcds/package/epics/3.14-dev/ioc/rowland/ims"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-row-ims",
-        "script": "/reg/g/pcds/package/epics/3.14-dev/ioc/rowland/ims/build/iocBoot/ioc-row-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.0.0/bin/linux-x86/ims"
-    },
-    {
         "host": "ioc-xpp-rec01",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/wave8",
@@ -20844,6 +20829,21 @@
         "name": "ioc-hx2-sb1-ref-pico",
         "script": "/reg/g/pcds/epics/ioc/common/picoMotion/R1.0.4/iocBoot/ioc-hx2-sb1-ref-pico/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/picoMotion/R1.0.4/bin/linux-x86/motion"
+    },
+    {
+        "host": "ioc-xpp-usr01",
+        "port": 37065,
+        "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/rowland/ims",
+        "disable": true,
+        "alias": "USR - Rowland IMS",
+        "history": [
+            "/reg/g/pcds/package/epics/3.14-dev/ioc/rowland/ims"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-row-ims",
+        "script": "/reg/g/pcds/package/epics/3.14-dev/ioc/rowland/ims/build/iocBoot/ioc-row-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.0.0/bin/linux-x86/ims"
     },
     {
         "host": "ioc-xpp-usr01",
