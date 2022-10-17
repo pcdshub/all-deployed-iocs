@@ -19888,55 +19888,6 @@
     },
     {
         "host": "ioc-xpp-misc01",
-        "port": 30071,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
-        "alias": "MON - CCM Motion",
-        "history": [
-            "ioc/xpp/ims/R2.0.0",
-            "/reg/g/pcds/package/epics/3.14-dev/ioc/xpp/motion/current"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-mon-ccm-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-mon-ccm-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xpp-misc01",
-        "port": 34501,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
-        "alias": "MON - LODCM Motion",
-        "history": [
-            "ioc/xpp/ims/R2.0.0",
-            "/reg/g/pcds/package/epics/3.14-dev/ioc/xpp/motion/current"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-mon-lodcm-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-mon-lodcm-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xpp-misc01",
-        "port": 31071,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
-        "alias": "MON - Navitar Motion",
-        "history": [
-            "ioc/xpp/ims/R2.3.0",
-            "ioc/xpp/ims/R2.0.0",
-            "/reg/g/pcds/package/epics/3.14-dev/ioc/xpp/motion/current"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-mon-nav-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-mon-nav-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xpp-misc01",
         "port": 30115,
         "dir": "ioc/xpp/pvNotepad/R1.1.8",
         "alias": "pcdsdevices pvNotepad",
@@ -19970,6 +19921,22 @@
     },
     {
         "host": "ioc-xpp-misc01",
+        "port": 30085,
+        "dir": "ioc/common/Leviton/R2.3.4",
+        "disable": true,
+        "alias": "AC POWER OTHER",
+        "history": [
+            "ioc/common/Leviton/R1.28.8",
+            "ioc/common/Leviton/R1.26.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-pwr",
+        "script": "/reg/g/pcds/epics/ioc/common/Leviton/R2.3.4/iocBoot/ioc-xpp-pwr/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.3.4/bin/linux-x86_64/Leviton"
+    },
+    {
+        "host": "ioc-xpp-misc01",
         "port": 30028,
         "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/xpp/Leviton/xpp-power-r13-12",
         "alias": "AC Power Other #2 (located in TXI)",
@@ -19993,33 +19960,6 @@
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb2-ipm01-ims",
         "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-sb2-ipm01-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xpp-misc01",
-        "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims",
-        "alias": "SB2 - Attenuator Motors",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-sb2-ppatt-ims",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims/build/iocBoot/ioc-xpp-sb2-ppatt-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xpp-misc01",
-        "port": 30055,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
-        "alias": "SB2 - Be Lens",
-        "history": [
-            "ioc/xpp/ims/R2.3.0",
-            "ioc/xpp/ims/R2.0.0",
-            "ioc/xpp/ims/R1.0.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-sb2-xfls-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-sb2-xfls-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
@@ -20212,6 +20152,82 @@
         "name": "ioc-xpp-user-xps2",
         "script": "/reg/g/pcds/epics-dev/spencera/xpp/NewportXPS8/build/iocBoot/ioc-xpp-user-xps2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
+    },
+    {
+        "host": "ioc-xpp-mot01",
+        "port": 30071,
+        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "alias": "MON - CCM Motion",
+        "history": [
+            "ioc/xpp/ims/R2.0.0",
+            "/reg/g/pcds/package/epics/3.14-dev/ioc/xpp/motion/current"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-mon-ccm-ims",
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-mon-ccm-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xpp-mot01",
+        "port": 34501,
+        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "alias": "MON - LODCM Motion",
+        "history": [
+            "ioc/xpp/ims/R2.0.0",
+            "/reg/g/pcds/package/epics/3.14-dev/ioc/xpp/motion/current"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-mon-lodcm-ims",
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-mon-lodcm-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xpp-mot01",
+        "port": 31071,
+        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "alias": "MON - Navitar Motion",
+        "history": [
+            "ioc/xpp/ims/R2.3.0",
+            "ioc/xpp/ims/R2.0.0",
+            "/reg/g/pcds/package/epics/3.14-dev/ioc/xpp/motion/current"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-mon-nav-ims",
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-mon-nav-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xpp-mot01",
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims",
+        "alias": "SB2 - Attenuator Motors",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-sb2-ppatt-ims",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims/build/iocBoot/ioc-xpp-sb2-ppatt-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xpp-mot01",
+        "port": 30055,
+        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "alias": "SB2 - Be Lens",
+        "history": [
+            "ioc/xpp/ims/R2.3.0",
+            "ioc/xpp/ims/R2.0.0",
+            "ioc/xpp/ims/R1.0.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-sb2-xfls-ims",
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-sb2-xfls-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xpp-rec01",
@@ -21200,6 +21216,7 @@
         "host": "ioc-xpp-usr01",
         "port": 30070,
         "dir": "ioc/common/Leviton/R1.28.8",
+        "disable": true,
         "alias": "AC Power Other",
         "history": [
             "ioc/common/Leviton/R1.28.8",
