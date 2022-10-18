@@ -19905,22 +19905,6 @@
     },
     {
         "host": "ioc-xpp-misc01",
-        "port": 30085,
-        "dir": "ioc/common/Leviton/R2.3.4",
-        "disable": true,
-        "alias": "AC POWER OTHER",
-        "history": [
-            "ioc/common/Leviton/R1.28.8",
-            "ioc/common/Leviton/R1.26.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-pwr",
-        "script": "/reg/g/pcds/epics/ioc/common/Leviton/R2.3.4/iocBoot/ioc-xpp-pwr/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.3.4/bin/linux-x86_64/Leviton"
-    },
-    {
-        "host": "ioc-xpp-misc01",
         "port": 30028,
         "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/xpp/Leviton/xpp-power-r13-12",
         "alias": "AC Power Other #2 (located in TXI)",
@@ -21216,7 +21200,6 @@
         "host": "ioc-xpp-usr01",
         "port": 30070,
         "dir": "ioc/common/Leviton/R1.28.8",
-        "disable": true,
         "alias": "AC Power Other",
         "history": [
             "ioc/common/Leviton/R1.28.8",
@@ -21800,16 +21783,17 @@
     {
         "host": "ioc-xrt-misc02",
         "port": 39113,
-        "dir": "ioc/xrt/vacuum/R2.1.3",
+        "dir": "ioc/xrt/vacuum/R2.1.7",
         "alias": "Vacuum HXN (HX2/HX3)",
         "history": [
+            "ioc/xpp/vacuum/R2.1.3",
             "ioc/xpp/vacuum/R1.2.1"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-hxn-vacuum",
-        "script": "/reg/g/pcds/epics/ioc/xrt/vacuum/R2.1.3/iocBoot/ioc-hxn-vacuum/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/xrt/vacuum/R2.1.3/bin/linux-x86_64/vacuum"
+        "script": "/reg/g/pcds/epics/ioc/xrt/vacuum/R2.1.7/iocBoot/ioc-hxn-vacuum/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/xrt/vacuum/R2.1.7/bin/rhel7-x86_64/vacuum"
     },
     {
         "host": "ioc-xrt-misc02",
@@ -22276,7 +22260,7 @@
     {
         "host": "ioc-xrt-wave8",
         "port": 39112,
-        "dir": "ioc/xrt/vacuum/R2.1.5",
+        "dir": "ioc/xrt/vacuum/R2.1.7",
         "alias": "Vacuum XRT",
         "history": [
             "ioc/xrt/vacuum/R2.1.5",
@@ -22286,8 +22270,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-vacuum",
-        "script": "/reg/g/pcds/epics/ioc/xrt/vacuum/R2.1.5/iocBoot/ioc-xrt-vacuum/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/xrt/vacuum/R2.1.5/bin/rhel7-x86_64/vacuum"
+        "script": "/reg/g/pcds/epics/ioc/xrt/vacuum/R2.1.7/iocBoot/ioc-xrt-vacuum/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/xrt/vacuum/R2.1.7/bin/rhel7-x86_64/vacuum"
     },
     {
         "host": "ioc-xrt-xcsmisc1",
