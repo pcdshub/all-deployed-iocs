@@ -13582,7 +13582,6 @@
         "host": "ioc-mfx-cam01",
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/mmc",
-        "disable": true,
         "alias": "USR - MMC10",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
@@ -13594,7 +13593,6 @@
         "host": "ioc-mfx-cam01",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/mmc",
-        "disable": true,
         "alias": "USR - MMC30",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
@@ -13606,7 +13604,6 @@
         "host": "ioc-mfx-cam01",
         "port": 30004,
         "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/mmc",
-        "disable": true,
         "alias": "USR - MMC40",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
@@ -17231,8 +17228,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-las-tst-ctr-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/agilent5322/agilent5322-git/build/iocBoot/ioc-las-tst-ctr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R2.0.1/bin/rhel7-x86_64/agilent5322"
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/agilent5322/agilent5322-git/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-tst-rec10",
