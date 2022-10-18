@@ -19682,22 +19682,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.2.2/bin/linux-x86_64/evr"
     },
     {
-        "host": "ioc-xpp-gon",
-        "port": 32493,
-        "dir": "ioc/xpp/vacuum/R1.2.3",
-        "alias": "Vacuum",
-        "history": [
-            "/reg/neh/home/snelson/work/ioc/xpp/vacuum/current",
-            "ioc/xpp/vacuum/R1.2.1",
-            "ioc/xpp/vacuum/R1.2.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-vacuum",
-        "script": "/reg/g/pcds/epics/ioc/xpp/vacuum/R1.2.3/iocBoot/ioc-xpp-vacuum/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/xpp/vacuum/R1.2.3/bin/linux-x86_64/vacuum"
-    },
-    {
         "host": "ioc-xpp-ipimb",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ipimb",
@@ -20000,6 +19984,22 @@
         "name": "ioc-xpp-user-xps2",
         "script": "/reg/g/pcds/epics-dev/spencera/xpp/NewportXPS8/build/iocBoot/ioc-xpp-user-xps2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
+    },
+    {
+        "host": "ioc-xpp-misc02",
+        "port": 32493,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/vacuum",
+        "alias": "Vacuum",
+        "history": [
+            "/reg/neh/home/snelson/work/ioc/xpp/vacuum/current",
+            "ioc/xpp/vacuum/R1.2.1",
+            "ioc/xpp/vacuum/R1.2.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-vacuum",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/vacuum/iocBoot/ioc-xpp-vacuum/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/espov/ioc/xpp/vacuum/bin/rhel7-x86_64/vacuum"
     },
     {
         "host": "ioc-xpp-mot01",
