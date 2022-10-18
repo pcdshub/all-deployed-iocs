@@ -7137,7 +7137,7 @@
     {
         "host": "ioc-cxi-protura2",
         "port": 30058,
-        "dir": "ioc/cxi/protura/R2.0.0",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/protura",
         "alias": "IMS DS2 Stand Encoders",
         "history": [
             "ioc/cxi/protura/R2.0.0",
@@ -7146,7 +7146,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-protura2",
-        "script": "/reg/g/pcds/epics/ioc/cxi/protura/R2.0.0/build/iocBoot/ioc-cxi-protura2/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/protura/build/iocBoot/ioc-cxi-protura2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/protura/R1.0.0/bin/linux-x86_64/protura"
     },
     {
@@ -13522,7 +13522,6 @@
         "host": "ioc-mfx-cam01",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam",
-        "disable": true,
         "alias": "CAM - GigE 06",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
@@ -13786,7 +13785,6 @@
         "host": "ioc-mfx-cam02",
         "port": 34917,
         "dir": "ioc/mfx/gigECam/R0.5.5",
-        "disable": true,
         "alias": "CAM - GigE 03",
         "history": [
             "ioc/mfx/gigECam/R0.5.3",
