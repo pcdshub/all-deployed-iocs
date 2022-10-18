@@ -11313,12 +11313,15 @@
     {
         "host": "ioc-mec-evg",
         "port": 30002,
-        "dir": "ioc/common/evg/R1.0.3",
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/evg",
+        "history": [
+            "ioc/common/evg/R1.0.3"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-evg-fake",
-        "script": "/reg/g/pcds/epics/ioc/common/evg/R1.0.3/children/build/iocBoot/ioc-mec-evg-fake/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/evg/R1.0.3/bin/linux-x86/evg"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/evg/children/build/iocBoot/ioc-mec-evg-fake/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/evg/bin/linux-x86/evg"
     },
     {
         "host": "ioc-mec-evg",
@@ -17220,6 +17223,16 @@
         "name": "ioc-icl-lc20",
         "script": "/reg/g/pcds/epics-dev/wwright/sample-delivery/icl_iocs/shimadzu-lc20/build/iocBoot/ioc-icl-lc20/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/pennebak/git/common/shimadzu-lc20/bin/rhel7-x86_64/lc20"
+    },
+    {
+        "host": "ioc-tst-rec10",
+        "port": 34032,
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/agilent5322/agilent5322-git",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-las-tst-ctr-01",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/agilent5322/agilent5322-git/build/iocBoot/ioc-las-tst-ctr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R2.0.1/bin/rhel7-x86_64/agilent5322"
     },
     {
         "host": "ioc-tst-rec10",
