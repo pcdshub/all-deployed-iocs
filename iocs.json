@@ -20607,7 +20607,6 @@
         "host": "ioc-xpp-rec02",
         "port": 30030,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/mmc",
-        "disable": true,
         "alias": "USR - MMC-100 6 axis",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
