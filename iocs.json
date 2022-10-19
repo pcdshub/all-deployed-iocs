@@ -18695,6 +18695,16 @@
     },
     {
         "host": "ioc-xcs-srv01",
+        "port": 30001,
+        "dir": "/cds/home/t/tjohnson/trunk/las/qmini",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-las-xcs-spec-01",
+        "script": "/cds/home/t/tjohnson/trunk/las/qmini/build/iocBoot/ioc-las-xcs-spec-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/qmini/R0.2.1/bin/rhel7-x86_64/qmini"
+    },
+    {
+        "host": "ioc-xcs-srv01",
         "port": 32507,
         "dir": "ioc/xcs/gigECam/R1.2.3",
         "alias": "CAM - Gige 07",
