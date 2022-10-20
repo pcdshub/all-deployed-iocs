@@ -19988,6 +19988,65 @@
     },
     {
         "host": "ioc-xpp-misc02",
+        "port": 30024,
+        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "alias": "GON  - Motion",
+        "history": [
+            "ioc/xpp/ims/R2.0.0",
+            "ioc/xpp/ims/R1.0.1"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-gon-ims",
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-gon-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xpp-misc02",
+        "port": 30053,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims",
+        "alias": "SB2 - Double Slits",
+        "history": [
+            "ioc/xpp/ims/R2.3.0",
+            "ioc/xpp/ims/R2.0.0",
+            "ioc/xpp/ims/R1.0.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-sb2-dslits-ims",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims/build/iocBoot/ioc-xpp-sb2-dslits-ims/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xpp-misc02",
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims",
+        "alias": "SB2 - Attenuator Motors",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-sb2-ppatt-ims",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims/build/iocBoot/ioc-xpp-sb2-ppatt-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xpp-misc02",
+        "port": 30055,
+        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "alias": "SB2 - Be Lens",
+        "history": [
+            "ioc/xpp/ims/R2.3.0",
+            "ioc/xpp/ims/R2.0.0",
+            "ioc/xpp/ims/R1.0.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-sb2-xfls-ims",
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-sb2-xfls-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xpp-misc02",
         "port": 35261,
         "dir": "/reg/g/pcds/epics-dev/spencera/xpp/NewportXPS8",
         "alias": "USR Motion Newport 1",
@@ -20023,22 +20082,6 @@
         "name": "ioc-xpp-vacuum",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/vacuum/iocBoot/ioc-xpp-vacuum/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/espov/ioc/xpp/vacuum/bin/rhel7-x86_64/vacuum"
-    },
-    {
-        "host": "ioc-xpp-mot01",
-        "port": 30024,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
-        "alias": "GON  - Motion",
-        "history": [
-            "ioc/xpp/ims/R2.0.0",
-            "ioc/xpp/ims/R1.0.1"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-gon-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-gon-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xpp-mot01",
@@ -20091,22 +20134,6 @@
     },
     {
         "host": "ioc-xpp-mot01",
-        "port": 30053,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims",
-        "alias": "SB2 - Double Slits",
-        "history": [
-            "ioc/xpp/ims/R2.3.0",
-            "ioc/xpp/ims/R2.0.0",
-            "ioc/xpp/ims/R1.0.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-sb2-dslits-ims",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims/build/iocBoot/ioc-xpp-sb2-dslits-ims/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xpp-mot01",
         "port": 30051,
         "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
         "alias": "SB2 - IPM Motion",
@@ -20119,33 +20146,6 @@
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb2-ipm01-ims",
         "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-sb2-ipm01-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xpp-mot01",
-        "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims",
-        "alias": "SB2 - Attenuator Motors",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-sb2-ppatt-ims",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims/build/iocBoot/ioc-xpp-sb2-ppatt-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xpp-mot01",
-        "port": 30055,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
-        "alias": "SB2 - Be Lens",
-        "history": [
-            "ioc/xpp/ims/R2.3.0",
-            "ioc/xpp/ims/R2.0.0",
-            "ioc/xpp/ims/R1.0.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-sb2-xfls-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-sb2-xfls-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
