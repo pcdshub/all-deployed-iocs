@@ -14680,7 +14680,6 @@
         "host": "ioc-mfx-wave8",
         "port": 32231,
         "dir": "ioc/mfx/wave8/R2.0.1",
-        "disable": true,
         "alias": "WAVE8 - USER DIODE",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
