@@ -19915,6 +19915,21 @@
     },
     {
         "host": "ioc-xpp-misc01",
+        "port": 30070,
+        "dir": "ioc/common/Leviton/R2.3.0",
+        "alias": "AC Power Other",
+        "history": [
+            "ioc/common/Leviton/R1.28.8",
+            "ioc/common/Leviton/R1.26.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-pwr",
+        "script": "/reg/g/pcds/epics/ioc/common/Leviton/R2.3.0/iocBoot/ioc-xpp-pwr/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.3.0/bin/linux-x86_64/Leviton"
+    },
+    {
+        "host": "ioc-xpp-misc01",
         "port": 30028,
         "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/xpp/Leviton/xpp-power-r13-12",
         "alias": "AC Power Other #2 (located in TXI)",
@@ -19985,21 +20000,6 @@
         "name": "ioc-xpp-usr-smart",
         "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-usr-smart/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xpp-misc02",
-        "port": 30070,
-        "dir": "/reg/g/pcds/epics-dev/cymel123/Leviton/current",
-        "alias": "AC Power Other",
-        "history": [
-            "ioc/common/Leviton/R1.28.8",
-            "ioc/common/Leviton/R1.26.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-pwr",
-        "script": "/reg/g/pcds/epics-dev/cymel123/Leviton/current/iocBoot/ioc-xpp-pwr/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cymel123/Leviton/current/bin/linux-x86_64/Leviton"
     },
     {
         "host": "ioc-xpp-misc02",
