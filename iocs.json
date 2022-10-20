@@ -19915,21 +19915,6 @@
     },
     {
         "host": "ioc-xpp-misc01",
-        "port": 30070,
-        "dir": "ioc/common/Leviton/R2.3.0",
-        "alias": "AC Power Other",
-        "history": [
-            "ioc/common/Leviton/R1.28.8",
-            "ioc/common/Leviton/R1.26.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-pwr",
-        "script": "/reg/g/pcds/epics/ioc/common/Leviton/R2.3.0/iocBoot/ioc-xpp-pwr/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.3.0/bin/linux-x86_64/Leviton"
-    },
-    {
-        "host": "ioc-xpp-misc01",
         "port": 30028,
         "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/xpp/Leviton/xpp-power-r13-12",
         "alias": "AC Power Other #2 (located in TXI)",
@@ -21235,6 +21220,21 @@
         "name": "ioc-xpp-pulsepicker-ims",
         "script": "/reg/g/pcds/epics/ioc/common/pulsepicker/R1.1.8/iocBoot/ioc-xpp-pulsepicker-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pulsepicker/R1.1.8/bin/linux-x86/motion"
+    },
+    {
+        "host": "ioc-xpp-usr01",
+        "port": 30070,
+        "dir": "ioc/common/Leviton/R2.2.0",
+        "alias": "AC Power Other",
+        "history": [
+            "ioc/common/Leviton/R1.28.8",
+            "ioc/common/Leviton/R1.26.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-pwr",
+        "script": "/reg/g/pcds/epics/ioc/common/Leviton/R2.2.0/iocBoot/ioc-xpp-pwr/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.2.0/bin/linux-x86_64/Leviton"
     },
     {
         "host": "ioc-xpp-usr01",
