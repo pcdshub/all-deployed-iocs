@@ -213,8 +213,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-tpr1",
-        "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/tprStandalone/current/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/tprStandalone/current/children/build/iocBoot/ioc-kfe-tpr1/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/tprStandalone/tprStandalone-git/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "ctl-kfe-misc-01",
