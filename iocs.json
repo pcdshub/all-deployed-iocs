@@ -418,6 +418,16 @@
         "binary": "/cds/group/pcds/epics/ioc/common/Keithley6514/R1.9.4/bin/rhel7-x86_64/Keithley6514"
     },
     {
+        "host": "ctl-kfe-misc-01",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/klauer/whatrecord/fee",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
+        "name": "whatrecord-server",
+        "script": "/reg/g/pcds/epics-dev/klauer/whatrecord/fee/st.cmd",
+        "binary": "/usr/bin/bash"
+    },
+    {
         "host": "ctl-kfe-mot-01",
         "port": 34203,
         "dir": "ioc/kfe/gigECam/R1.0.0",
