@@ -3043,16 +3043,14 @@
     },
     {
         "host": "ctl-rix-crix-vac-01",
-        "port": 31001,
-        "dir": "ioc/rix/Sentry4/R2.4.1",
-        "history": [
-            "ioc/rix/Sentry4/R2.4.1"
-        ],
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/Levitons/power-rix-r02-01/Sentry4",
+        "alias": "Rack 02 PDU (Beamline)",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pwr-r02",
-        "script": "/reg/g/pcds/epics/ioc/rix/Sentry4/R2.4.1/build/iocBoot/ioc-rix-pwr-r02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.1/bin/rhel7-x86_64/Leviton"
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/Levitons/power-rix-r02-01/Sentry4/build/iocBoot/ioc-rix-pwr-r02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.5/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ctl-rix-fim-01",
