@@ -7533,7 +7533,6 @@
         "host": "ioc-cxi-rec03",
         "port": 34641,
         "dir": "/reg/neh/home/rajan-01/checkouts/epics/cxi/evr",
-        "disable": true,
         "alias": "\"MISC\": REC03 EVR",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
