@@ -3354,6 +3354,17 @@
         "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
     },
     {
+        "host": "ctl-rix-qrix-mot-01",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/Levitons/power-rix-r07-01",
+        "alias": "Rack 7 PDU (Laser)",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-pwr-r07",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/Levitons/power-rix-r07-01/build/iocBoot/ioc-rix-pwr-r07/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.5/bin/rhel7-x86_64/pdu"
+    },
+    {
         "host": "ctl-rix-qrix-vac-01",
         "port": 31313,
         "dir": "/reg/g/pcds/epics-dev/ioc/rix/lcls-plc-qrix-vac/lcls-plc-qrix-vac/iocBoot/ioc-PLC-QRIX-VAC",
@@ -7532,18 +7543,18 @@
     {
         "host": "ioc-cxi-rec03",
         "port": 34641,
-        "dir": "/reg/neh/home/rajan-01/checkouts/epics/cxi/evr",
+        "dir": "ioc/cxi/evr/R0.1.2",
         "alias": "\"MISC\": REC03 EVR",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-rec03-evr",
-        "script": "/reg/neh/home/rajan-01/checkouts/epics/cxi/evr/build/iocBoot/ioc-cxi-rec03-evr/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/cxi/evr/R0.1.2/build/iocBoot/ioc-cxi-rec03-evr/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.2.0/bin/linux-x86_64/evr"
     },
     {
         "host": "ioc-cxi-rec03",
         "port": 30101,
-        "dir": "ioc/cxi/edtCam/R1.3.0",
+        "dir": "ioc/cxi/edtCam/R2.0.1",
         "alias": "CAM - SC1 Inline Questar Opal1000m",
         "history": [
             "ioc/cxi/edtCam/R1.2.1"
@@ -7551,8 +7562,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc1-inline",
-        "script": "/reg/g/pcds/epics/ioc/cxi/edtCam/R1.3.0/build/iocBoot/ioc-cxi-sc1-inline/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.0/bin/linux-x86_64/edt"
+        "script": "/reg/g/pcds/epics/ioc/cxi/edtCam/R2.0.1/build/iocBoot/ioc-cxi-sc1-inline/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.2/bin/rhel7-x86_64/edt"
     },
     {
         "host": "ioc-cxi-rec04",
