@@ -7611,7 +7611,7 @@
     {
         "host": "ioc-cxi-rec04",
         "port": 34642,
-        "dir": "ioc/cxi/evr/R0.1.2",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/evr",
         "alias": "\"MISC\": REC04 EVR",
         "history": [
             "/reg/neh/home/sheppard/ioc/cxi/evr"
@@ -7619,8 +7619,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-rec04-evr",
-        "script": "/reg/g/pcds/epics/ioc/cxi/evr/R0.1.2/build/iocBoot/ioc-cxi-rec04-evr/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.2.2/bin/rhel7-x86_64/evr"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/evr/build/iocBoot/ioc-cxi-rec04-evr/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/rhel7-x86_64/evr"
     },
     {
         "host": "ioc-cxi-rec04",
