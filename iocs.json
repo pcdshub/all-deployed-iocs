@@ -7563,7 +7563,7 @@
     {
         "host": "ioc-cxi-rec03",
         "port": 30101,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam",
+        "dir": "ioc/cxi/edtCam/R2.0.1",
         "alias": "CAM - SC1 Inline Questar Opal1000m",
         "history": [
             "ioc/cxi/edtCam/R1.2.1"
@@ -7571,8 +7571,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc1-inline",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam/build/iocBoot/ioc-cxi-sc1-inline/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R1.20.0/bin/rhel7-x86_64/edt"
+        "script": "/reg/g/pcds/epics/ioc/cxi/edtCam/R2.0.1/build/iocBoot/ioc-cxi-sc1-inline/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.2/bin/rhel7-x86_64/edt"
     },
     {
         "host": "ioc-cxi-rec04",
@@ -7620,7 +7620,7 @@
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-rec04-evr",
         "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/evr/build/iocBoot/ioc-cxi-rec04-evr/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/rhel7-x86_64/evr"
+        "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.2.2/bin/rhel7-x86_64/evr"
     },
     {
         "host": "ioc-cxi-rec04",
