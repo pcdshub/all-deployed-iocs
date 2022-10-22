@@ -7589,7 +7589,6 @@
         "host": "ioc-cxi-rec04",
         "port": 30103,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/gigECam",
-        "disable": true,
         "alias": "CAM - SC3 Inline Questar Gige 05",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -7653,7 +7652,7 @@
         "port": 30102,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam",
         "disable": true,
-        "alias": "CAM - SC3 Inline Questar Opal4000m",
+        "alias": "Old? \"DT\": CAM - SC3 Inline Questar Opal4000m",
         "history": [
             "/reg/g/pcds/epics-dev/aegger/edtCam/current",
             "ioc/cxi/edtCam/R1.2.1"
