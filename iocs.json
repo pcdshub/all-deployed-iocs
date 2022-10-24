@@ -17453,6 +17453,7 @@
         "host": "ioc-xcs-gige01",
         "port": 32501,
         "dir": "ioc/xcs/gigECam/R3.0.3",
+        "disable": true,
         "alias": "CAM - Gige 01",
         "history": [
             "ioc/xcs/gigECam/R0.5.3",
