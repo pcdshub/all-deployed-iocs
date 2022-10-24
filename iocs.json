@@ -13623,7 +13623,6 @@
         "host": "ioc-mfx-cam01",
         "port": 30005,
         "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/mmc",
-        "disable": true,
         "alias": "USR - MMC01",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
