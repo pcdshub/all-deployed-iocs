@@ -7098,21 +7098,6 @@
     },
     {
         "host": "ioc-cxi-protura1",
-        "port": 30060,
-        "dir": "ioc/cxi/protura/R2.0.0",
-        "alias": "IMS DS1 Stand Encoders",
-        "history": [
-            "ioc/cxi/protura/R2.0.0",
-            "ioc/cxi/protura/R0.2.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-protura",
-        "script": "/reg/g/pcds/epics/ioc/cxi/protura/R2.0.0/build/iocBoot/ioc-cxi-protura/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/protura/R1.0.0/bin/linux-x86_64/protura"
-    },
-    {
-        "host": "ioc-cxi-protura1",
         "port": 30123,
         "dir": "/reg/g/pcds/epics-dev/pennebak/cxi/RohdeSchwarzHMP/current",
         "alias": "USR - Rohde-Schwarz",
@@ -7592,6 +7577,21 @@
         "name": "ioc-cxi-gige-05",
         "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/gigECam/build/iocBoot/ioc-cxi-gige-05/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-cxi-rec04",
+        "port": 30060,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/protura",
+        "alias": "IMS DS1 Stand Encoders",
+        "history": [
+            "ioc/cxi/protura/R2.0.0",
+            "ioc/cxi/protura/R0.2.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-protura",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/protura/build/iocBoot/ioc-cxi-protura/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/divya/ioc/common/protura/bin/rhel7-x86_64/protura"
     },
     {
         "host": "ioc-cxi-rec04",
@@ -13623,6 +13623,7 @@
         "host": "ioc-mfx-cam01",
         "port": 30005,
         "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/mmc",
+        "disable": true,
         "alias": "USR - MMC01",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
@@ -13634,6 +13635,7 @@
         "host": "ioc-mfx-cam01",
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/mmc",
+        "disable": true,
         "alias": "USR - MMC10",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
@@ -13645,6 +13647,7 @@
         "host": "ioc-mfx-cam01",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/mmc",
+        "disable": true,
         "alias": "USR - MMC30",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
@@ -13656,6 +13659,7 @@
         "host": "ioc-mfx-cam01",
         "port": 30004,
         "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/mmc",
+        "disable": true,
         "alias": "USR - MMC40",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
