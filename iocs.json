@@ -17512,6 +17512,20 @@
     },
     {
         "host": "ioc-xcs-gige01",
+        "port": 32516,
+        "dir": "ioc/xcs/gigECam/R3.0.4",
+        "alias": "CAM - Gige 16 - Yag 4",
+        "history": [
+            "/reg/neh/home4/rajan-01/checkouts/epics/xcs/gigECam/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-gige-16",
+        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R3.0.4/build/iocBoot/ioc-xcs-gige-16/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-xcs-gige01",
         "port": 32517,
         "dir": "ioc/xcs/gigECam/R1.2.4",
         "disable": true,
@@ -18911,20 +18925,6 @@
         "name": "ioc-xcs-det-hmp01",
         "script": "/reg/g/pcds/epics-dev/oluwade/xcs/RohdeSchwarzHMP/build/iocBoot/ioc-xcs-det-hmp01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.1/bin/rhel7-x86_64/rshmp"
-    },
-    {
-        "host": "ioc-xcs-user1",
-        "port": 32516,
-        "dir": "ioc/xcs/gigECam/R3.0.4",
-        "alias": "CAM - Gige 16 - Yag 4",
-        "history": [
-            "/reg/neh/home4/rajan-01/checkouts/epics/xcs/gigECam/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-gige-16",
-        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R3.0.4/build/iocBoot/ioc-xcs-gige-16/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xcs-user1",
@@ -21982,16 +21982,6 @@
         "name": "ioc-xrt-rec01",
         "script": "/reg/g/pcds/controls/camrecord/st.cmd",
         "binary": "/usr/bin/bash"
-    },
-    {
-        "host": "ioc-xrt-rec02",
-        "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/mkestra/ioc/xrt/gigECam",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
-        "name": "ioc-xrt-gige-yag1",
-        "script": "/reg/g/pcds/epics-dev/mkestra/ioc/xrt/gigECam/build/iocBoot/ioc-xrt-gige-yag1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xrt-rec03",
