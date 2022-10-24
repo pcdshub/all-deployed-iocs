@@ -3008,23 +3008,23 @@
     {
         "host": "ctl-rix-crix-mot-01",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/Levitons/power-rix-r04-01",
+        "dir": "ioc/rix/pdu_snmp/R1.0.0",
         "alias": "Rack 4 PDU (ChemRIXS)",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pwr-r04",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/Levitons/power-rix-r04-01/build/iocBoot/ioc-rix-pwr-r04/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/pdu_snmp/R1.0.0/build/iocBoot/ioc-rix-pwr-r04/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.5/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ctl-rix-crix-mot-01",
         "port": 39101,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/Levitons/power-rix-r05-01",
+        "dir": "ioc/rix/pdu_snmp/R1.0.0",
         "alias": "Rack 5 PDU (Laser)",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pwr-r05",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/Levitons/power-rix-r05-01/build/iocBoot/ioc-rix-pwr-r05/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/pdu_snmp/R1.0.0/build/iocBoot/ioc-rix-pwr-r05/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.5/bin/rhel7-x86_64/pdu"
     },
     {
@@ -3044,12 +3044,12 @@
     {
         "host": "ctl-rix-crix-vac-01",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/Levitons/power-rix-r02-01/Sentry4",
+        "dir": "ioc/rix/pdu_snmp/R1.0.0",
         "alias": "Rack 02 PDU (Beamline)",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pwr-r02",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/Levitons/power-rix-r02-01/Sentry4/build/iocBoot/ioc-rix-pwr-r02/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/pdu_snmp/R1.0.0/build/iocBoot/ioc-rix-pwr-r02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.5/bin/rhel7-x86_64/pdu"
     },
     {
@@ -3343,23 +3343,23 @@
     {
         "host": "ctl-rix-qrix-mot-01",
         "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/Levitons/power-rix-r03-01",
+        "dir": "ioc/rix/pdu_snmp/R1.0.0",
         "alias": "Rack 3 PDU (QRIXS)",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pwr-r03",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/Levitons/power-rix-r03-01/build/iocBoot/ioc-rix-pwr-r03/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/pdu_snmp/R1.0.0/build/iocBoot/ioc-rix-pwr-r03/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.5/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ctl-rix-qrix-mot-01",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/Levitons/power-rix-r07-01",
+        "dir": "ioc/rix/pdu_snmp/R1.0.0",
         "alias": "Rack 7 PDU (Laser)",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pwr-r07",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/Levitons/power-rix-r07-01/build/iocBoot/ioc-rix-pwr-r07/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/pdu_snmp/R1.0.0/build/iocBoot/ioc-rix-pwr-r07/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.5/bin/rhel7-x86_64/pdu"
     },
     {
@@ -3402,12 +3402,12 @@
     {
         "host": "ctl-rix-vac-01",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/Levitons/power-rix-06-01",
+        "dir": "ioc/rix/pdu_snmp/R1.0.0",
         "alias": "Rack 6 PDU (PAXS)",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pwr-06",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/Levitons/power-rix-06-01/build/iocBoot/ioc-rix-pwr-06/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/pdu_snmp/R1.0.0/build/iocBoot/ioc-rix-pwr-06/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.5/bin/rhel7-x86_64/pdu"
     },
     {
