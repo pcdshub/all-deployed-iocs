@@ -21969,17 +21969,6 @@
     },
     {
         "host": "ioc-xrt-rec01",
-        "port": 39104,
-        "dir": "ioc/xrt/edtCam/R1.4.0",
-        "alias": "ioc-xrt-yag1",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
-        "name": "ioc-xrt-hxx-um6-p6740",
-        "script": "/reg/g/pcds/epics/ioc/xrt/edtCam/R1.4.0/build/iocBoot/ioc-xrt-hxx-um6-p6740/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.0/bin/linux-x86_64/edt"
-    },
-    {
-        "host": "ioc-xrt-rec01",
         "port": 39199,
         "dir": "/reg/g/pcds/controls/camrecord",
         "history": [
@@ -21990,6 +21979,17 @@
         "name": "ioc-xrt-rec01",
         "script": "/reg/g/pcds/controls/camrecord/st.cmd",
         "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ioc-xrt-rec02",
+        "port": 39104,
+        "dir": "ioc/xrt/edtCam/R1.4.0",
+        "alias": "ioc-xrt-yag1",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
+        "name": "ioc-xrt-hxx-um6-p6740",
+        "script": "/reg/g/pcds/epics/ioc/xrt/edtCam/R1.4.0/build/iocBoot/ioc-xrt-hxx-um6-p6740/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.0/bin/linux-x86_64/edt"
     },
     {
         "host": "ioc-xrt-rec03",
