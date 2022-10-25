@@ -21992,10 +21992,10 @@
         "host": "ioc-xrt-rec02",
         "port": 39104,
         "dir": "ioc/xrt/edtCam/R1.4.1",
+        "alias": "ioc-xrt-yag1",
         "history": [
             "ioc/xrt/edtCam/R1.4.0"
         ],
-        "alias": "ioc-xrt-yag1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-hxx-um6-p6740",
@@ -22114,21 +22114,6 @@
         "name": "ioc-xrt-xcsimb3",
         "script": "/reg/g/pcds/epics/ioc/xrt/ipimb/R4.2.0/build/iocBoot/ioc-xrt-xcsimb3/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ipimb/R3.1.7/bin/linux-x86_64/ipimbIoc"
-    },
-    {
-        "host": "ioc-xrt-rec05",
-        "port": 39102,
-        "dir": "ioc/xrt/edtCam/R1.4.0",
-        "alias": "MEC YAG1 camera",
-        "history": [
-            "ioc/xrt/edtCam/R1.4.0",
-            "ioc/xrt/edtCam/R1.1.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
-        "name": "ioc-hxm-cam2",
-        "script": "/reg/g/pcds/epics/ioc/xrt/edtCam/R1.4.0/build/iocBoot/ioc-hxm-cam2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.0/bin/linux-x86_64/edt"
     },
     {
         "host": "ioc-xrt-rec05",
