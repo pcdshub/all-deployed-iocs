@@ -3626,6 +3626,7 @@
         "host": "ctl-tmo-cam-02",
         "port": 30310,
         "dir": "ioc/tmo/edtCam/R1.0.1",
+        "disable": true,
         "alias": "CVMI gige 01 outh side",
         "history": [
             "ioc/tmo/edtCam/R1.0.0"
