@@ -20048,6 +20048,17 @@
     },
     {
         "host": "ioc-xpp-misc02",
+        "port": 30102,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/common/mpod",
+        "alias": "DET - Alcove MPOD",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-alcove-mpod",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/mpod/iocBoot/ioc-xpp-alcove-mpod/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/espov/ioc/common/mpod/bin/rhel7-x86_64/mpod"
+    },
+    {
+        "host": "ioc-xpp-misc02",
         "port": 30024,
         "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
         "alias": "GON  - Motion",
@@ -20061,6 +20072,21 @@
         "name": "ioc-xpp-gon-ims",
         "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-gon-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xpp-misc02",
+        "port": 30101,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/common/mpod",
+        "alias": "DET - mpod power (Robot)",
+        "history": [
+            "ioc/common/mpod/R2.0.1",
+            "ioc/common/mpod/R1.15.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-mpod",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/mpod/iocBoot/ioc-xpp-mpod/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/espov/ioc/common/mpod/bin/rhel7-x86_64/mpod"
     },
     {
         "host": "ioc-xpp-misc02",
@@ -20744,17 +20770,6 @@
     },
     {
         "host": "ioc-xpp-rob01",
-        "port": 30102,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/mpod/current",
-        "alias": "DET - Alcove MPOD",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-alcove-mpod",
-        "script": "/reg/g/pcds/epics-dev/pennebak/mpod/current/iocBoot/ioc-xpp-alcove-mpod/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/pennebak/mpod/current/bin/linux-x86_64/mpod"
-    },
-    {
-        "host": "ioc-xpp-rob01",
         "port": 36363,
         "dir": "/reg/neh/home/zlentz/epics/ioc/xpp/Keithley6514/current",
         "disable": true,
@@ -20781,21 +20796,6 @@
         "name": "ioc-xpp-mon-ccm-piMotion",
         "script": "/reg/g/pcds/epics/ioc/xpp/ccm/piMotion/R1.0.1/iocBoot/ioc-xpp-mon-ccm-piMotion/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/xpp/ccm/piMotion/R1.0.1/bin/linux-x86/piMotion"
-    },
-    {
-        "host": "ioc-xpp-rob01",
-        "port": 30101,
-        "dir": "ioc/common/mpod/R2.2.3",
-        "alias": "DET - mpod power (Robot)",
-        "history": [
-            "ioc/common/mpod/R2.0.1",
-            "ioc/common/mpod/R1.15.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-mpod",
-        "script": "/reg/g/pcds/epics/ioc/common/mpod/R2.2.3/iocBoot/ioc-xpp-mpod/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/mpod/R2.2.3/bin/linux-x86_64/mpod"
     },
     {
         "host": "ioc-xpp-rob01",
