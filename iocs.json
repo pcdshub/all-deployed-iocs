@@ -21969,11 +21969,11 @@
         "host": "ioc-xrt-rec02",
         "port": 39102,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/xrt/edtCam",
+        "alias": "MEC-XCS-CXI common YAG0 camera",
         "history": [
             "ioc/xrt/edtCam/R1.4.0",
             "ioc/xrt/edtCam/R1.1.0"
         ],
-        "alias": "MEC-XCS-CXI common YAG0 camera",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-hxm-cam1",
