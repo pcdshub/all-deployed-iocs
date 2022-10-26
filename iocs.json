@@ -16700,7 +16700,7 @@
     {
         "host": "ioc-tst-13",
         "port": 30010,
-        "dir": "/reg/g/pcds/epics/ioc/tst/evr/latest",
+        "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/tst/evr/current",
         "history": [
             "/reg/g/pcds/epics/ioc/tst/evr/latest",
             "/reg/neh/home/slepicka/ws_svn/ioc/tst/evr/current"
@@ -16708,8 +16708,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-evr-13",
-        "script": "/reg/g/pcds/epics/ioc/tst/evr/latest/build/iocBoot/ioc-tst-evr-13/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.2.4/bin/linux-x86_64/evr"
+        "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/tst/evr/current/build/iocBoot/ioc-tst-evr-13/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/evr/current/bin/linux-x86_64/evr"
     },
     {
         "host": "ioc-tst-13",
