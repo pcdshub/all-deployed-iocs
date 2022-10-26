@@ -21927,21 +21927,6 @@
     },
     {
         "host": "ioc-xrt-rec01",
-        "port": 39102,
-        "dir": "ioc/xrt/edtCam/R1.4.0",
-        "alias": "MEC-XCS-CXI common YAG0 camera",
-        "history": [
-            "ioc/xrt/edtCam/R1.4.0",
-            "ioc/xrt/edtCam/R1.1.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
-        "name": "ioc-hxm-cam1",
-        "script": "/reg/g/pcds/epics/ioc/xrt/edtCam/R1.4.0/build/iocBoot/ioc-hxm-cam1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.0/bin/linux-x86_64/edt"
-    },
-    {
-        "host": "ioc-xrt-rec01",
         "port": 31234,
         "dir": "ioc/fee/XraySlitKSpect/R1.7.0",
         "history": [
@@ -21979,6 +21964,21 @@
         "name": "ioc-xrt-rec01",
         "script": "/reg/g/pcds/controls/camrecord/st.cmd",
         "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ioc-xrt-rec02",
+        "port": 39102,
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/xrt/edtCam",
+        "history": [
+            "ioc/xrt/edtCam/R1.4.0",
+            "ioc/xrt/edtCam/R1.1.0"
+        ],
+        "alias": "MEC-XCS-CXI common YAG0 camera",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
+        "name": "ioc-hxm-cam1",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/xrt/edtCam/build/iocBoot/ioc-hxm-cam1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.2/bin/rhel7-x86_64/edt"
     },
     {
         "host": "ioc-xrt-rec02",
