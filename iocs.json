@@ -2233,6 +2233,16 @@
     },
     {
         "host": "ctl-las-lln-01",
+        "port": 33841,
+        "dir": "/reg/g/pcds/epics-dev/mods/LLN/gigECam",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k2-inj-gige-ff-01",
+        "script": "/reg/g/pcds/epics-dev/mods/LLN/gigECam/build/iocBoot/ioc-lm1k2-inj-gige-ff-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-lln-01",
         "port": 33840,
         "dir": "/reg/g/pcds/epics-dev/mods/LLN/gigECam",
         "base_version": "3.15",
@@ -19775,20 +19785,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.2.2/bin/linux-x86_64/evr"
     },
     {
-        "host": "ioc-xpp-gon",
-        "port": 36247,
-        "dir": "/reg/neh/home/zlentz/python/pyIOC/servers/lodcm",
-        "alias": "pyioc lodcm calc",
-        "history": [
-            "/reg/neh/home/zlentz/python/pyIOC/servers/lodcm"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "pyioc-xpp-lom-calc",
-        "script": "/reg/neh/home/zlentz/python/pyIOC/servers/lodcm/st.cmd",
-        "binary": "/usr/bin/bash"
-    },
-    {
         "host": "ioc-xpp-ipimb",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ipimb",
@@ -20192,6 +20188,20 @@
         "name": "ioc-xpp-vacuum",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/vacuum/iocBoot/ioc-xpp-vacuum/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/espov/ioc/xpp/vacuum/bin/rhel7-x86_64/vacuum"
+    },
+    {
+        "host": "ioc-xpp-misc02",
+        "port": 36247,
+        "dir": "/reg/neh/home/zlentz/python/pyIOC/servers/lodcm",
+        "alias": "pyioc lodcm calc",
+        "history": [
+            "/reg/neh/home/zlentz/python/pyIOC/servers/lodcm"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "pyioc-xpp-lom-calc",
+        "script": "/reg/neh/home/zlentz/python/pyIOC/servers/lodcm/st.cmd",
+        "binary": "/usr/bin/bash"
     },
     {
         "host": "ioc-xpp-mot01",
