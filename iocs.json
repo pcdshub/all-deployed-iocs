@@ -20111,48 +20111,6 @@
     },
     {
         "host": "ioc-xpp-misc02",
-        "port": 30102,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/common/mpod",
-        "alias": "DET - Alcove MPOD",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-alcove-mpod",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/mpod/iocBoot/ioc-xpp-alcove-mpod/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/espov/ioc/common/mpod/bin/rhel7-x86_64/mpod"
-    },
-    {
-        "host": "ioc-xpp-misc02",
-        "port": 30024,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
-        "alias": "GON  - Motion",
-        "history": [
-            "ioc/xpp/ims/R2.0.0",
-            "ioc/xpp/ims/R1.0.1"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-gon-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-gon-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xpp-misc02",
-        "port": 30101,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/common/mpod",
-        "alias": "DET - mpod power (Robot)",
-        "history": [
-            "ioc/common/mpod/R2.0.1",
-            "ioc/common/mpod/R1.15.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-mpod",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/mpod/iocBoot/ioc-xpp-mpod/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/espov/ioc/common/mpod/bin/rhel7-x86_64/mpod"
-    },
-    {
-        "host": "ioc-xpp-misc02",
         "port": 30053,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims",
         "alias": "SB2 - Double Slits",
@@ -20833,6 +20791,33 @@
     },
     {
         "host": "ioc-xpp-rob01",
+        "port": 30102,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/common/mpod",
+        "alias": "DET - Alcove MPOD",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-alcove-mpod",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/mpod/iocBoot/ioc-xpp-alcove-mpod/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/espov/ioc/common/mpod/bin/rhel7-x86_64/mpod"
+    },
+    {
+        "host": "ioc-xpp-rob01",
+        "port": 30024,
+        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "alias": "GON  - Motion",
+        "history": [
+            "ioc/xpp/ims/R2.0.0",
+            "ioc/xpp/ims/R1.0.1"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-gon-ims",
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-gon-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xpp-rob01",
         "port": 36363,
         "dir": "/reg/neh/home/zlentz/epics/ioc/xpp/Keithley6514/current",
         "disable": true,
@@ -20845,6 +20830,21 @@
         "name": "ioc-xpp-keithley6514",
         "script": "/reg/neh/home/zlentz/epics/ioc/xpp/Keithley6514/current/build/iocBoot/ioc-xpp-keithley6514/st.cmd",
         "binary": "/cds/home/z/zlentz/epics/ioc/common/Keithley6514/current/bin/linux-x86/Keithley6514"
+    },
+    {
+        "host": "ioc-xpp-rob01",
+        "port": 30101,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/common/mpod",
+        "alias": "DET - mpod power (Robot)",
+        "history": [
+            "ioc/common/mpod/R2.0.1",
+            "ioc/common/mpod/R1.15.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-mpod",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/mpod/iocBoot/ioc-xpp-mpod/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/espov/ioc/common/mpod/bin/rhel7-x86_64/mpod"
     },
     {
         "host": "ioc-xpp-rob01",
@@ -22225,6 +22225,7 @@
         "host": "ioc-xrt-rec07",
         "port": 39303,
         "dir": "/reg/g/pcds/epics-dev/spencera/lfe/edtCam",
+        "alias": "HXS ORCA",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-lfe-orca1",
@@ -22296,7 +22297,7 @@
         "host": "ioc-xrt-vacuum",
         "port": 39005,
         "dir": "ioc/mfx/vacuum/R0.0.3",
-        "alias": "MFX-XRT-VACUUM",
+        "alias": "Vacuum MFX-XRT",
         "history": [
             "ioc/mfx/vacuum/R0.0.3"
         ],
@@ -22320,7 +22321,7 @@
         "host": "ioc-xrt-wave8",
         "port": 39001,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
-        "alias": "WAVE8 - HFX DG2",
+        "alias": "DG2 HFX IPM (WAVE8) ",
         "history": [
             "ioc/xrt/wave8/R2.0.0",
             "ioc/xrt/wave8/R1.1.0"
@@ -22356,17 +22357,6 @@
         "name": "ioc-hxx-vonhamos",
         "script": "/reg/g/pcds/epics-dev/sheppard/lcls-plc-hxx-vonhamos/iocBoot/ioc-hxx-vonhamos/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.3.1/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ioc-xrt-wave8",
-        "port": 39002,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/lcls-plc-roving-spectrometer/ioc-lcls-plc-roving-spectrometer",
-        "alias": "Roving Spectrometer",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
-        "name": "ioc-lcls-plc-roving-spectrometer",
-        "script": "/reg/g/pcds/epics-dev/pennebak/lcls-plc-roving-spectrometer/ioc-lcls-plc-roving-spectrometer/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/ajshack/lcls-plc-roving-spectrometer/ioc-lcls-plc-roving-spectrometer/R0.2.5-dev/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ioc-xrt-wave8",
