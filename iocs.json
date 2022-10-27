@@ -19751,16 +19751,6 @@
         "binary": "/cds/group/pcds/epics-dev/pennebak/gigECam/bin/rhel7-x86_64/gige"
     },
     {
-        "host": "ioc-xpp-gige02",
-        "port": 30006,
-        "dir": "ioc/common/mpod/R2.2.8",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-usr-mpod",
-        "script": "/reg/g/pcds/epics/ioc/common/mpod/R2.2.8/iocBoot/ioc-xpp-usr-mpod/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/mpod/R2.2.8/bin/rhel7-x86_64/mpod"
-    },
-    {
         "host": "ioc-xpp-gon",
         "port": 30106,
         "dir": "ioc/xpp/RohdeSchwarzHMP/R1.0.0",
@@ -19829,6 +19819,16 @@
     },
     {
         "host": "ioc-xpp-ipimb",
+        "port": 39100,
+        "dir": "ioc/common/expstate/R1.0.6",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-expstate",
+        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.6/children/build/iocBoot/ioc-xpp-expstate/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.6/bin/rhel7-x86_64/expState"
+    },
+    {
+        "host": "ioc-xpp-ipimb",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ipimb",
         "alias": "Ipimb - XPP",
@@ -19842,6 +19842,17 @@
         "name": "ioc-xpp-ipimb01",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ipimb/build/iocBoot/ioc-xpp-ipimb01/st.cmd",
         "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/ipimb/bin/rhel7-x86_64/ipimbIoc"
+    },
+    {
+        "host": "ioc-xpp-ipimb",
+        "port": 30115,
+        "dir": "ioc/xpp/pvNotepad/R1.1.8",
+        "alias": "pcdsdevices pvNotepad",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-pcdsdevices",
+        "script": "/reg/g/pcds/epics/ioc/xpp/pvNotepad/R1.1.8/build/iocBoot/ioc-xpp-pcdsdevices/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
     },
     {
         "host": "ioc-xpp-las01",
@@ -19960,16 +19971,6 @@
     },
     {
         "host": "ioc-xpp-misc01",
-        "port": 39100,
-        "dir": "ioc/common/expstate/R1.0.6",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-expstate",
-        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.6/children/build/iocBoot/ioc-xpp-expstate/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.6/bin/rhel7-x86_64/expState"
-    },
-    {
-        "host": "ioc-xpp-misc01",
         "port": 30205,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/dg",
         "disable": true,
@@ -20000,19 +20001,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-lbl-xps",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/NewportXPS8/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ioc-xpp-misc01",
-        "port": 30115,
-        "dir": "ioc/xpp/pvNotepad/R1.1.8",
-        "alias": "pcdsdevices pvNotepad",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-pcdsdevices",
-        "script": "/reg/g/pcds/epics/ioc/xpp/pvNotepad/R1.1.8/build/iocBoot/ioc-xpp-pcdsdevices/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/NewportXPS8/build/iocBoot/ioc-xpp-lbl-xps/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
     },
     {
         "host": "ioc-xpp-misc01",
@@ -20046,6 +20036,28 @@
         "name": "ioc-xpp-pwr-01",
         "script": "/reg/g/pcds/epics/ioc/xpp/Levitons/R1.0.0/build/iocBoot/ioc-xpp-pwr-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
+    },
+    {
+        "host": "ioc-xpp-misc01",
+        "port": 35261,
+        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/NewportXPS8",
+        "alias": "USR Motion Newport 1",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-user-xps1",
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/NewportXPS8/build/iocBoot/ioc-xpp-user-xps1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
+    },
+    {
+        "host": "ioc-xpp-misc01",
+        "port": 31013,
+        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/NewportXPS8",
+        "alias": "USR Motion Newport 2",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-user-xps2",
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/NewportXPS8/build/iocBoot/ioc-xpp-user-xps2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
     },
     {
         "host": "ioc-xpp-misc01",
@@ -20151,28 +20163,6 @@
         "name": "ioc-xpp-sb2-xfls-ims",
         "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-sb2-xfls-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xpp-misc02",
-        "port": 35261,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/NewportXPS8",
-        "alias": "USR Motion Newport 1",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-user-xps1",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/NewportXPS8/build/iocBoot/ioc-xpp-user-xps1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
-    },
-    {
-        "host": "ioc-xpp-misc02",
-        "port": 31013,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/NewportXPS8",
-        "alias": "USR Motion Newport 2",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-user-xps2",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/NewportXPS8/build/iocBoot/ioc-xpp-user-xps2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
     },
     {
         "host": "ioc-xpp-misc02",
@@ -20859,6 +20849,16 @@
         "name": "ioc-xpp-rob",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/staubli/build/iocBoot/ioc-xpp-rob/st.cmd",
         "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/staubli/bin/rhel7-x86_64/staubli"
+    },
+    {
+        "host": "ioc-xpp-rob01",
+        "port": 30006,
+        "dir": "ioc/common/mpod/R2.2.8",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-usr-mpod",
+        "script": "/reg/g/pcds/epics/ioc/common/mpod/R2.2.8/iocBoot/ioc-xpp-usr-mpod/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/mpod/R2.2.8/bin/rhel7-x86_64/mpod"
     },
     {
         "host": "ioc-xpp-rob01",
