@@ -4945,12 +4945,12 @@
     {
         "host": "daq-rix-andor-01",
         "port": 30012,
-        "dir": "ioc/common/andorCam/R1.0.0",
+        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/andorCam",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-norm-andor",
-        "script": "/reg/g/pcds/epics/ioc/common/andorCam/R1.0.0/children/build/iocBoot/ioc-rix-norm-andor/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/andorCam/R1.0.0/bin/rhel7-x86_64/andor"
+        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/andorCam/children/build/iocBoot/ioc-rix-norm-andor/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/ddamiani/ioc/common/andorCam/bin/rhel7-x86_64/andor"
     },
     {
         "host": "daq-rix-andor-01",
@@ -20848,6 +20848,20 @@
     },
     {
         "host": "ioc-xpp-rob01",
+        "port": 37626,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/staubli",
+        "alias": "XPP Robot",
+        "history": [
+            "ioc/xpp/staubli/R1.2.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-rob",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/staubli/build/iocBoot/ioc-xpp-rob/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/staubli/bin/rhel7-x86_64/staubli"
+    },
+    {
+        "host": "ioc-xpp-rob01",
         "port": 36242,
         "dir": "/reg/neh/home/zlentz/python/pyIOC/servers/offsetBasic",
         "disable": true,
@@ -22661,20 +22675,6 @@
         "name": "xcs_ttfltpos",
         "script": "/cds/home/opr/xcsopr/live_data/epics/xcs_ttfltpos/st.cmd",
         "binary": "/usr/bin/bash"
-    },
-    {
-        "host": "xpp-control",
-        "port": 37626,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/staubli",
-        "alias": "XPP Robot",
-        "history": [
-            "ioc/xpp/staubli/R1.2.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-rob",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/staubli/build/iocBoot/ioc-xpp-rob/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/staubli/bin/rhel7-x86_64/staubli"
     },
     {
         "host": "xpp-control",
