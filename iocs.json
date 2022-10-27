@@ -19785,6 +19785,48 @@
         "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.2.2/bin/linux-x86_64/evr"
     },
     {
+        "host": "ioc-xpp-gon",
+        "port": 30012,
+        "dir": "ioc/xpp/ccm/piMotion/R1.0.1",
+        "alias": "MON CCM PI Dev",
+        "history": [
+            "/reg/g/pcds/package/epics/3.14-dev/ioc/xpp/ccm/piMotion/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-mon-ccm-piMotion",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ccm/piMotion/R1.0.1/iocBoot/ioc-xpp-mon-ccm-piMotion/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/xpp/ccm/piMotion/R1.0.1/bin/linux-x86/piMotion"
+    },
+    {
+        "host": "ioc-xpp-gon",
+        "port": 36246,
+        "dir": "/reg/neh/home/zlentz/python/pyIOC/servers/ccm",
+        "alias": "pyioc ccm calc",
+        "history": [
+            "/reg/neh/home/zlentz/python/pyIOC/servers/ccm"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "pyioc-xpp-ccm-calc",
+        "script": "/reg/neh/home/zlentz/python/pyIOC/servers/ccm/st.cmd",
+        "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ioc-xpp-gon",
+        "port": 36247,
+        "dir": "/reg/neh/home/zlentz/python/pyIOC/servers/lodcm",
+        "alias": "pyioc lodcm calc",
+        "history": [
+            "/reg/neh/home/zlentz/python/pyIOC/servers/lodcm"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "pyioc-xpp-lom-calc",
+        "script": "/reg/neh/home/zlentz/python/pyIOC/servers/lodcm/st.cmd",
+        "binary": "/usr/bin/bash"
+    },
+    {
         "host": "ioc-xpp-ipimb",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ipimb",
@@ -20188,20 +20230,6 @@
         "name": "ioc-xpp-vacuum",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/vacuum/iocBoot/ioc-xpp-vacuum/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/espov/ioc/xpp/vacuum/bin/rhel7-x86_64/vacuum"
-    },
-    {
-        "host": "ioc-xpp-misc02",
-        "port": 36247,
-        "dir": "/reg/neh/home/zlentz/python/pyIOC/servers/lodcm",
-        "alias": "pyioc lodcm calc",
-        "history": [
-            "/reg/neh/home/zlentz/python/pyIOC/servers/lodcm"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "pyioc-xpp-lom-calc",
-        "script": "/reg/neh/home/zlentz/python/pyIOC/servers/lodcm/st.cmd",
-        "binary": "/usr/bin/bash"
     },
     {
         "host": "ioc-xpp-mot01",
@@ -20816,34 +20844,6 @@
         "name": "ioc-xpp-keithley6514",
         "script": "/reg/neh/home/zlentz/epics/ioc/xpp/Keithley6514/current/build/iocBoot/ioc-xpp-keithley6514/st.cmd",
         "binary": "/cds/home/z/zlentz/epics/ioc/common/Keithley6514/current/bin/linux-x86/Keithley6514"
-    },
-    {
-        "host": "ioc-xpp-rob01",
-        "port": 30012,
-        "dir": "ioc/xpp/ccm/piMotion/R1.0.1",
-        "alias": "MON CCM PI Dev",
-        "history": [
-            "/reg/g/pcds/package/epics/3.14-dev/ioc/xpp/ccm/piMotion/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-mon-ccm-piMotion",
-        "script": "/reg/g/pcds/epics/ioc/xpp/ccm/piMotion/R1.0.1/iocBoot/ioc-xpp-mon-ccm-piMotion/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/xpp/ccm/piMotion/R1.0.1/bin/linux-x86/piMotion"
-    },
-    {
-        "host": "ioc-xpp-rob01",
-        "port": 36246,
-        "dir": "/reg/neh/home/zlentz/python/pyIOC/servers/ccm",
-        "alias": "pyioc ccm calc",
-        "history": [
-            "/reg/neh/home/zlentz/python/pyIOC/servers/ccm"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "pyioc-xpp-ccm-calc",
-        "script": "/reg/neh/home/zlentz/python/pyIOC/servers/ccm/st.cmd",
-        "binary": "/usr/bin/bash"
     },
     {
         "host": "ioc-xpp-rob01",
