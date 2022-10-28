@@ -289,13 +289,13 @@
     {
         "host": "ctl-kfe-misc-01",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/fee/lcp/lcp",
+        "dir": "ioc/common/lcp/R2.0.0",
         "alias": "KFE LCP (FEE Rack Room)",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-lcp-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/fee/lcp/lcp/iocBoot/ioc-kfe-lcp-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/fee/lcp/lcp/bin/rhel7-x86_64/lcp"
+        "script": "/reg/g/pcds/epics/ioc/common/lcp/R2.0.0/iocBoot/ioc-kfe-lcp-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/lcp/R2.0.0/bin/rhel7-x86_64/lcp"
     },
     {
         "host": "ctl-kfe-misc-01",
@@ -2451,12 +2451,12 @@
     {
         "host": "ctl-lfe-misc-01",
         "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/fee/lcp/lcp",
+        "dir": "ioc/common/lcp/R2.0.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-lfe-lcp-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/fee/lcp/lcp/iocBoot/ioc-lfe-lcp-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/fee/lcp/lcp/bin/rhel7-x86_64/lcp"
+        "script": "/reg/g/pcds/epics/ioc/common/lcp/R2.0.0/iocBoot/ioc-lfe-lcp-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/lcp/R2.0.0/bin/rhel7-x86_64/lcp"
     },
     {
         "host": "ctl-lfe-misc-01",
@@ -4543,13 +4543,13 @@
     {
         "host": "ctl-txi-misc-01",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/fee/lcp/lcp",
+        "dir": "ioc/common/lcp/R2.0.0",
         "alias": "TXI LCP (Located in FEE Rack Room)",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-lcp-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/fee/lcp/lcp/iocBoot/ioc-txi-lcp-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/fee/lcp/lcp/bin/rhel7-x86_64/lcp"
+        "script": "/reg/g/pcds/epics/ioc/common/lcp/R2.0.0/iocBoot/ioc-txi-lcp-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/lcp/R2.0.0/bin/rhel7-x86_64/lcp"
     },
     {
         "host": "ctl-txi-misc-01",
