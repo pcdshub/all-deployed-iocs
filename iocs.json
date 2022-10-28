@@ -7003,13 +7003,13 @@
     {
         "host": "ioc-cxi-mot2",
         "port": 30006,
-        "dir": "ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/NewportXPS8",
         "alias": "Newport XPS User 3",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-usr-xps3",
-        "script": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/NewportXPS8/build/iocBoot/ioc-cxi-usr-xps3/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
     },
     {
         "host": "ioc-cxi-mot2",
