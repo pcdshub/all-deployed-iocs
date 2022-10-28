@@ -11050,12 +11050,12 @@
     {
         "host": "ioc-las-srv04",
         "port": 30501,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-rhel5",
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-phase-ims04",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-rhel5/iocBoot/ioc-las-lhn-phase-ims04/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-rhel5/bin/linux-x86/motion"
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0/iocBoot/ioc-las-lhn-phase-ims04/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0/bin/linux-x86/motion"
     },
     {
         "host": "ioc-las-srv04",
