@@ -8071,7 +8071,7 @@
     {
         "host": "ioc-cxi-usr1",
         "port": 30024,
-        "dir": "/reg/g/pcds/epics-dev/cymel123/shimadzu-lc20/current",
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/common/shimadzu-lc20",
         "alias": "SDS Shimadzu HPLC",
         "history": [
             "/reg/g/pcds/package/epics/3.14-dev/ioc/common/shimadzu-lc20/current",
@@ -8080,8 +8080,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-lc20",
-        "script": "/reg/g/pcds/epics-dev/cymel123/shimadzu-lc20/current/iocBoot/ioc-cxi-lc20/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cymel123/shimadzu-lc20/current/bin/linux-x86_64/lc20"
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/common/shimadzu-lc20/iocBoot/ioc-cxi-lc20/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/ctsoi/ioc/common/shimadzu-lc20/bin/linux-x86_64/lc20"
     },
     {
         "host": "ioc-cxi-usr1",
