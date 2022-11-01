@@ -16681,7 +16681,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tc-mot-example",
         "script": "/reg/g/pcds/epics-dev/zlentz/lcls-twincat-motion-example/iocBoot/ioc-tc-mot-example/st.cmd",
-        "binary": "/cds/home/z/zlentz/github/ads-ioc/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ioc-tst-13",
