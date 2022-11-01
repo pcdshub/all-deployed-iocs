@@ -17314,12 +17314,12 @@
     {
         "host": "ioc-tst-rec10",
         "port": 34033,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/smaract",
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/tst/smaract",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-rot-mcs2-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/smaract/st.cmd",
-        "binary": null
+        "name": "ioc-tst-rot-mcs2",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/tst/smaract/build/iocBoot/ioc-tst-rot-mcs2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.11/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ioc-tst-rec10",
