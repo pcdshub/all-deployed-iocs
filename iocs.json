@@ -2402,8 +2402,9 @@
     },
     {
         "host": "ctl-lfe-cam-02",
-        "port": 30002,
+        "port": 30001,
         "dir": "/cds/home/m/mkestra/gigECam",
+        "alias": "RTDSL0-GIGE-01",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-lfe-rtdsl0-01",
@@ -2412,8 +2413,9 @@
     },
     {
         "host": "ctl-lfe-cam-02",
-        "port": 30001,
+        "port": 30002,
         "dir": "/cds/home/m/mkestra/gigECam",
+        "alias": "ST1L0-GIGE-01",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-lfe-st1l0-gige",
