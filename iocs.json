@@ -17313,6 +17313,16 @@
     },
     {
         "host": "ioc-tst-rec10",
+        "port": 34033,
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/smaract",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-tst-rot-mcs2-01",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/smaract/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ioc-tst-rec10",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/icldev/iocBoot",
         "disable": true,
