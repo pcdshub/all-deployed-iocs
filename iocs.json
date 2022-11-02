@@ -13593,6 +13593,17 @@
     },
     {
         "host": "ioc-mfx-cam01",
+        "port": 30006,
+        "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/gigECam",
+        "alias": "LU07521",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-gige-usr-01",
+        "script": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/gigECam/build/iocBoot/ioc-mfx-gige-usr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.1/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-mfx-cam01",
         "port": 33000,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/lcls-plc-mfx-motion",
         "alias": "PLC MOTION",
