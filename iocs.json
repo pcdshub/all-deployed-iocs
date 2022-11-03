@@ -6091,6 +6091,7 @@
         "host": "ioc-cxi-cam4",
         "port": 30001,
         "dir": "ioc/cxi/unixCam/R3.4.25",
+        "disable": true,
         "alias": "Camera4 SC1-1 SC1-4",
         "history": [
             "ioc/cxi/unixCam/R3.4.25"
@@ -7663,6 +7664,7 @@
         "host": "ioc-cxi-rec04",
         "port": 30402,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam",
+        "disable": true,
         "alias": "CAM - SC1 Offaxis Questar Opal 1000m",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
