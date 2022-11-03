@@ -7663,7 +7663,6 @@
         "host": "ioc-cxi-rec04",
         "port": 30402,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam",
-        "disable": true,
         "alias": "CAM - SC1 Offaxis Questar Opal 1000m",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
