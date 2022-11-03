@@ -17376,7 +17376,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "py-fstiming-TST",
         "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-git/st.cmd",
-        "binary": "/usr/bin/bash"
+        "binary": null
     },
     {
         "host": "ioc-tst-rhel7",
