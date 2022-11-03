@@ -20133,6 +20133,22 @@
     },
     {
         "host": "ioc-xpp-misc02",
+        "port": 34501,
+        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "alias": "MON - LODCM Motion",
+        "history": [
+            "ioc/xpp/ims/R2.0.0",
+            "/reg/g/pcds/package/epics/3.14-dev/ioc/xpp/motion/current"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-mon-lodcm-ims",
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-mon-lodcm-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xpp-misc02",
         "port": 30053,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims",
         "alias": "SB2 - Double Slits",
@@ -20204,22 +20220,6 @@
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-mon-ccm-ims",
         "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-mon-ccm-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xpp-mot01",
-        "port": 34501,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
-        "alias": "MON - LODCM Motion",
-        "history": [
-            "ioc/xpp/ims/R2.0.0",
-            "/reg/g/pcds/package/epics/3.14-dev/ioc/xpp/motion/current"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-mon-lodcm-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-mon-lodcm-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
