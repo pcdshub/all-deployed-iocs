@@ -7620,6 +7620,17 @@
     },
     {
         "host": "ioc-cxi-rec04",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract",
+        "alias": "USR - Handheld MCS2 Controller",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-mcs2-usr01",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract/build/iocBoot/ioc-cxi-mcs2-usr01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.4/bin/rhel7-x86_64/smaract"
+    },
+    {
+        "host": "ioc-cxi-rec04",
         "port": 30060,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/protura",
         "alias": "IMS DS1 Stand Encoders",
