@@ -1112,8 +1112,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-dly-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/delay/delay-git/children/build/iocBoot/ioc-las-dly-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/delay/delay-git/bin/rhel7-x86_64/delay"
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/delay/delay-git/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-las-ftl-srv01",
@@ -8564,7 +8564,6 @@
         "host": "ioc-cxi-wave8",
         "port": 30303,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
-        "disable": true,
         "alias": "Wave8 DG2",
         "history": [
             "ioc/cxi/wave8/R2.1.1",
