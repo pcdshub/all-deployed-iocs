@@ -20234,7 +20234,7 @@
     {
         "host": "ioc-xpp-mot01",
         "port": 30071,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "dir": "ioc/xpp/ims/R6.0.3",
         "alias": "MON - CCM Motion",
         "history": [
             "ioc/xpp/ims/R2.0.0",
@@ -20244,13 +20244,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-mon-ccm-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-mon-ccm-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-mon-ccm-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xpp-mot01",
         "port": 31071,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "dir": "ioc/xpp/ims/R6.0.3",
         "alias": "MON - Navitar Motion",
         "history": [
             "ioc/xpp/ims/R2.3.0",
@@ -20261,13 +20261,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-mon-nav-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-mon-nav-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-mon-nav-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xpp-mot01",
         "port": 30051,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "dir": "ioc/xpp/ims/R6.0.3",
         "alias": "SB2 - IPM Motion",
         "history": [
             "ioc/xpp/ims/R2.3.0",
@@ -20277,13 +20277,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb2-ipm01-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-sb2-ipm01-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-sb2-ipm01-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xpp-mot01",
         "port": 30065,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "dir": "ioc/xpp/ims/R6.0.3",
         "alias": "SB3 - HRMs",
         "history": [
             "ioc/xpp/ims/R2.0.0",
@@ -20292,13 +20292,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb3-hrms-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-sb3-hrms-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-sb3-hrms-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xpp-mot01",
         "port": 30061,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "dir": "ioc/xpp/ims/R6.0.3",
         "alias": "SB3 - IPM Motion",
         "history": [
             "ioc/xpp/ims/R2.0.0",
@@ -20307,13 +20307,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb3-ipm01-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-sb3-ipm01-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-sb3-ipm01-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xpp-mot01",
         "port": 30064,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "dir": "ioc/xpp/ims/R6.0.3",
         "alias": "SB3 - LCH Motion",
         "history": [
             "ioc/xpp/ims/R2.0.0",
@@ -20322,13 +20322,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb3-lch-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-sb3-lch-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-sb3-lch-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xpp-mot01",
         "port": 30062,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "dir": "ioc/xpp/ims/R6.0.3",
         "alias": "SB3 - YAG2 Screen Motion",
         "history": [
             "ioc/xpp/ims/R2.0.0",
@@ -20337,13 +20337,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb3-pim01-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-sb3-pim01-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-sb3-pim01-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xpp-mot01",
         "port": 30063,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims",
+        "dir": "ioc/xpp/ims/R6.0.3",
         "alias": "SB3 - Slits",
         "history": [
             "ioc/xpp/ims/R2.0.0",
@@ -20352,13 +20352,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb3-slit01-ims",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims/build/iocBoot/ioc-xpp-sb3-slit01-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-sb3-slit01-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xpp-mot01",
         "port": 31072,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "dir": "ioc/xpp/ims/R6.0.3",
         "alias": "SB2 - Timetool Motion",
         "history": [
             "ioc/xpp/ims/R2.3.2",
@@ -20368,7 +20368,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-timetool-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-timetool-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-timetool-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
