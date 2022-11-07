@@ -20053,12 +20053,12 @@
     {
         "host": "ioc-xpp-misc01",
         "port": 30170,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "dir": "ioc/xpp/ims/R6.0.3",
         "alias": "USR Motion DUMB Mk I Portable Rack",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-portable02-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-portable02-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-portable02-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
@@ -20112,7 +20112,7 @@
     {
         "host": "ioc-xpp-misc01",
         "port": 30169,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "dir": "ioc/xpp/ims/R6.0.3",
         "alias": "USR Motion DUMB",
         "history": [
             "ioc/xpp/ims/R2.2.0",
@@ -20123,7 +20123,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-usr-dumb",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-usr-dumb/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-usr-dumb/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
@@ -20143,7 +20143,7 @@
     {
         "host": "ioc-xpp-misc01",
         "port": 30167,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "dir": "ioc/xpp/ims/R6.0.3",
         "alias": "USR Motion SMART",
         "history": [
             "ioc/xpp/ims/R2.2.0",
@@ -20153,13 +20153,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-usr-smart",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-usr-smart/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-usr-smart/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xpp-misc02",
         "port": 34501,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "dir": "ioc/xpp/ims/R6.0.3",
         "alias": "MON - LODCM Motion",
         "history": [
             "ioc/xpp/ims/R2.0.0",
@@ -20169,7 +20169,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-mon-lodcm-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-mon-lodcm-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-mon-lodcm-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
@@ -20202,7 +20202,7 @@
     {
         "host": "ioc-xpp-misc02",
         "port": 30055,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "dir": "ioc/xpp/ims/R6.0.3",
         "alias": "SB2 - Be Lens",
         "history": [
             "ioc/xpp/ims/R2.3.0",
@@ -20212,7 +20212,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb2-xfls-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-sb2-xfls-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-sb2-xfls-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
@@ -20828,7 +20828,7 @@
     {
         "host": "ioc-xpp-rob01",
         "port": 30024,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "dir": "ioc/xpp/ims/R6.0.3",
         "alias": "GON  - Motion",
         "history": [
             "ioc/xpp/ims/R2.0.0",
@@ -20838,7 +20838,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gon-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-xpp-gon-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-gon-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
