@@ -8653,6 +8653,22 @@
         "binary": "/reg/g/pcds/epics/ioc/common/wave8/R1.0.14/bin/rhel7-x86_64/wave8Ioc"
     },
     {
+        "host": "ioc-cxi-wave8b",
+        "port": 30100,
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
+        "alias": "SB2 - WAVE8",
+        "history": [
+            "ioc/xpp/wave8/R2.0.1",
+            "ioc/xpp/wave8/R2.0.0",
+            "/reg/neh/home/snelson/work/xpp/wave8/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-sb2-bmmon",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-xpp-sb2-bmmon/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
+    },
+    {
         "host": "ioc-det-evg",
         "port": 30001,
         "dir": "/reg/g/pcds/controls/testEvg/R1.7.0",
@@ -21603,22 +21619,6 @@
         "name": "ioc-xpp-jf2",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf/build/iocBoot/ioc-xpp-jf2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/roving_jf/R1.0.0/bin/rhel7-x86_64/roving"
-    },
-    {
-        "host": "ioc-xpp-wave8",
-        "port": 30100,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
-        "alias": "SB2 - WAVE8",
-        "history": [
-            "ioc/xpp/wave8/R2.0.1",
-            "ioc/xpp/wave8/R2.0.0",
-            "/reg/neh/home/snelson/work/xpp/wave8/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-sb2-bmmon",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-xpp-sb2-bmmon/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-xpp-wave8",
