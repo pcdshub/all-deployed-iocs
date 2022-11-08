@@ -8654,6 +8654,55 @@
     },
     {
         "host": "ioc-cxi-wave8b",
+        "port": 34512,
+        "dir": "/reg/g/pcds/epics-dev/rsmm97/RohdeSchwarzHMP/current",
+        "disable": true,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-tmo-hmp-test",
+        "script": "/reg/g/pcds/epics-dev/rsmm97/RohdeSchwarzHMP/current/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ioc-cxi-wave8b",
+        "port": 33000,
+        "dir": "/reg/g/pcds/epics-dev/spencera/common/cryojet",
+        "disable": true,
+        "alias": "USR Cryojet",
+        "history": [
+            "ioc/common/cryojet/R0.2.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-cryojet-01",
+        "script": "/reg/g/pcds/epics-dev/spencera/common/cryojet/iocBoot/ioc-xpp-cryojet-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/spencera/common/cryojet/bin/rhel7-x86_64/cryojet"
+    },
+    {
+        "host": "ioc-cxi-wave8b",
+        "port": 30003,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf",
+        "alias": "DET - JF INTERLOCK 1",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-jf1",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf/build/iocBoot/ioc-xpp-jf1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/roving_jf/R1.0.0/bin/rhel7-x86_64/roving"
+    },
+    {
+        "host": "ioc-cxi-wave8b",
+        "port": 30004,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf",
+        "disable": true,
+        "alias": "DET - JF INTERLOCK 2",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-jf2",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf/build/iocBoot/ioc-xpp-jf2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/roving_jf/R1.0.0/bin/rhel7-x86_64/roving"
+    },
+    {
+        "host": "ioc-cxi-wave8b",
         "port": 30100,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
         "alias": "SB2 - WAVE8",
@@ -8667,6 +8716,70 @@
         "name": "ioc-xpp-sb2-bmmon",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-xpp-sb2-bmmon/st.cmd",
         "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
+    },
+    {
+        "host": "ioc-cxi-wave8b",
+        "port": 30101,
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
+        "disable": true,
+        "alias": "SB3 - WAVE8",
+        "history": [
+            "ioc/xpp/wave8/R2.0.1",
+            "ioc/xpp/wave8/R2.0.0",
+            "/reg/neh/home/snelson/work/xpp/wave8/current",
+            "/reg/neh/home/mcbrowne/trunk2/ioc/common/wave8/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-sb3-bmmon",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-xpp-sb3-bmmon/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
+    },
+    {
+        "host": "ioc-cxi-wave8b",
+        "port": 32936,
+        "dir": "ioc/xpp/chiller/R1.0.0",
+        "alias": "Thermotek Chiller 01",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-thermotek-01",
+        "script": "/reg/g/pcds/epics/ioc/xpp/chiller/R1.0.0/build/iocBoot/ioc-xpp-thermotek-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.6/bin/rhel7-x86_64/thermotek"
+    },
+    {
+        "host": "ioc-cxi-wave8b",
+        "port": 30001,
+        "dir": "ioc/xpp/chiller/R1.0.0",
+        "alias": "Thermotek Chiller SB5",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-thermotek-02",
+        "script": "/reg/g/pcds/epics/ioc/xpp/chiller/R1.0.0/build/iocBoot/ioc-xpp-thermotek-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.6/bin/rhel7-x86_64/thermotek"
+    },
+    {
+        "host": "ioc-cxi-wave8b",
+        "port": 32937,
+        "dir": "/reg/g/pcds/epics-dev/pennebak/xpp/chiller/current",
+        "disable": true,
+        "alias": "Thermotek Chiller Temporary 01",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-thermotek-temp-01",
+        "script": "/reg/g/pcds/epics-dev/pennebak/xpp/chiller/current/build/iocBoot/ioc-xpp-thermotek-temp-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.6/bin/rhel7-x86_64/thermotek"
+    },
+    {
+        "host": "ioc-cxi-wave8b",
+        "port": 30222,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/mmc/current",
+        "disable": true,
+        "alias": "USR - MMC-100 2 axis",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-usr-2axis-mmc-01",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/mmc/current/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-det-evg",
@@ -21570,119 +21683,6 @@
         "name": "ioc-xpp-xyGraphTrigger",
         "script": "/reg/g/pcds/epics/ioc/xpp/xyGraphTrigger/R0.1.0/iocBoot/ioc-xpp-xyGraphTrigger/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/xyGraphTrigger/R0.1.0/bin/linux-x86_64/xyGraphTrigger"
-    },
-    {
-        "host": "ioc-xpp-wave8",
-        "port": 34512,
-        "dir": "/reg/g/pcds/epics-dev/rsmm97/RohdeSchwarzHMP/current",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-tmo-hmp-test",
-        "script": "/reg/g/pcds/epics-dev/rsmm97/RohdeSchwarzHMP/current/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ioc-xpp-wave8",
-        "port": 33000,
-        "dir": "/reg/g/pcds/epics-dev/spencera/common/cryojet",
-        "disable": true,
-        "alias": "USR Cryojet",
-        "history": [
-            "ioc/common/cryojet/R0.2.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-cryojet-01",
-        "script": "/reg/g/pcds/epics-dev/spencera/common/cryojet/iocBoot/ioc-xpp-cryojet-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/spencera/common/cryojet/bin/rhel7-x86_64/cryojet"
-    },
-    {
-        "host": "ioc-xpp-wave8",
-        "port": 30003,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf",
-        "alias": "DET - JF INTERLOCK 1",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-jf1",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf/build/iocBoot/ioc-xpp-jf1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/roving_jf/R1.0.0/bin/rhel7-x86_64/roving"
-    },
-    {
-        "host": "ioc-xpp-wave8",
-        "port": 30004,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf",
-        "disable": true,
-        "alias": "DET - JF INTERLOCK 2",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-jf2",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf/build/iocBoot/ioc-xpp-jf2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/roving_jf/R1.0.0/bin/rhel7-x86_64/roving"
-    },
-    {
-        "host": "ioc-xpp-wave8",
-        "port": 30101,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
-        "disable": true,
-        "alias": "SB3 - WAVE8",
-        "history": [
-            "ioc/xpp/wave8/R2.0.1",
-            "ioc/xpp/wave8/R2.0.0",
-            "/reg/neh/home/snelson/work/xpp/wave8/current",
-            "/reg/neh/home/mcbrowne/trunk2/ioc/common/wave8/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-sb3-bmmon",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-xpp-sb3-bmmon/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
-    },
-    {
-        "host": "ioc-xpp-wave8",
-        "port": 32936,
-        "dir": "ioc/xpp/chiller/R1.0.0",
-        "alias": "Thermotek Chiller 01",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-thermotek-01",
-        "script": "/reg/g/pcds/epics/ioc/xpp/chiller/R1.0.0/build/iocBoot/ioc-xpp-thermotek-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.6/bin/rhel7-x86_64/thermotek"
-    },
-    {
-        "host": "ioc-xpp-wave8",
-        "port": 30001,
-        "dir": "ioc/xpp/chiller/R1.0.0",
-        "alias": "Thermotek Chiller SB5",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-thermotek-02",
-        "script": "/reg/g/pcds/epics/ioc/xpp/chiller/R1.0.0/build/iocBoot/ioc-xpp-thermotek-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.6/bin/rhel7-x86_64/thermotek"
-    },
-    {
-        "host": "ioc-xpp-wave8",
-        "port": 32937,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/xpp/chiller/current",
-        "disable": true,
-        "alias": "Thermotek Chiller Temporary 01",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-thermotek-temp-01",
-        "script": "/reg/g/pcds/epics-dev/pennebak/xpp/chiller/current/build/iocBoot/ioc-xpp-thermotek-temp-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.6/bin/rhel7-x86_64/thermotek"
-    },
-    {
-        "host": "ioc-xpp-wave8",
-        "port": 30222,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/mmc/current",
-        "disable": true,
-        "alias": "USR - MMC-100 2 axis",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-usr-2axis-mmc-01",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/mmc/current/st.cmd",
-        "binary": null
     },
     {
         "host": "ioc-xrt-evr01",
