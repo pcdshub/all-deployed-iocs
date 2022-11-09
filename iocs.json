@@ -18718,6 +18718,16 @@
         "binary": "/usr/bin/bash"
     },
     {
+        "host": "ioc-xcs-rec02",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/timetool",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-tt",
+        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/timetool/children/build/iocBoot/ioc-xcs-tt/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/timetool/bin/rhel7-x86_64/gsd"
+    },
+    {
         "host": "ioc-xcs-rec03",
         "port": 32508,
         "dir": "ioc/xcs/gigECam/R1.1.0",
@@ -18788,16 +18798,6 @@
         "name": "ioc-xcs-rec03",
         "script": "/reg/g/pcds/controls/camrecord/st.cmd",
         "binary": "/usr/bin/bash"
-    },
-    {
-        "host": "ioc-xcs-rec03",
-        "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/timetool",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-tt",
-        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/timetool/children/build/iocBoot/ioc-xcs-tt/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/timetool/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ioc-xcs-rec04",
