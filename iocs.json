@@ -1175,8 +1175,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-rfof-itech-01",
-        "script": "/reg/g/pcds/epics-dev/wwright/ioc/common/iTech_RFOF/children_test/build/iocBoot/ioc-las-rfof-itech-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/wwright/ioc/common/iTech_RFOF/bin/rhel7-x86_64/rfof"
+        "script": "/reg/g/pcds/epics-dev/wwright/ioc/common/iTech_RFOF/children_test/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-las-ftl-srv01",
@@ -2955,8 +2955,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-cryo-ls336-01",
-        "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336/build/iocBoot/ioc-crix-cryo-ls336-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.3/bin/rhel7-x86_64/ls336"
+        "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-rix-crix-mot-01",
@@ -2970,8 +2970,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-cryo-ls336-02",
-        "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336/build/iocBoot/ioc-crix-cryo-ls336-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.3/bin/rhel7-x86_64/ls336"
+        "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-rix-crix-mot-01",
@@ -3067,8 +3067,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-usr-ls336",
-        "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336/build/iocBoot/ioc-crix-usr-ls336/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.3/bin/rhel7-x86_64/ls336"
+        "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-rix-crix-vac-01",
@@ -3303,7 +3303,7 @@
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-mcp-qrix-01",
         "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/smaract/build/iocBoot/ioc-rix-crix-mcs2-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.8/bin/rhel7-x86_64/smaract"
+        "binary": null
     },
     {
         "host": "ctl-rix-qrix-mot-01",
@@ -3313,7 +3313,7 @@
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-mcp-qrix-02",
         "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/smaract/build/iocBoot/ioc-rix-crix-mcs2-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.8/bin/rhel7-x86_64/smaract"
+        "binary": null
     },
     {
         "host": "ctl-rix-qrix-mot-01",
@@ -3352,8 +3352,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-smarpod-01",
-        "script": "/reg/g/pcds/epics-dev/wwright/ioc/common/SmarPod/children/build/iocBoot/ioc-qrix-smarpod-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/wwright/ioc/common/SmarPod/bin/rhel7-x86_64/gsd"
+        "script": "/reg/g/pcds/epics-dev/wwright/ioc/common/SmarPod/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-rix-qrix-mot-01",
@@ -7024,6 +7024,7 @@
         "host": "ioc-cxi-mot2",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/divya/local_dir/lcls-plc-bergmann-kohzu/ioc-lcls-plc-bergmann-kohzu",
+        "disable": true,
         "alias": "Bergmann Experiment Kohzu Setup",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -17443,8 +17444,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/icl/iocmanager.cfg",
         "name": "ioc-icl-lc20",
-        "script": "/reg/g/pcds/epics-dev/wwright/sample-delivery/icl_iocs/shimadzu-lc20/build/iocBoot/ioc-icl-lc20/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/pennebak/git/common/shimadzu-lc20/bin/rhel7-x86_64/lc20"
+        "script": "/reg/g/pcds/epics-dev/wwright/sample-delivery/icl_iocs/shimadzu-lc20/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-tst-rec10",
@@ -18786,6 +18787,16 @@
         "name": "ioc-xcs-rec03",
         "script": "/reg/g/pcds/controls/camrecord/st.cmd",
         "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ioc-xcs-rec03",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/timetool",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-tt",
+        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/timetool/children/build/iocBoot/ioc-xcs-tt/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/timetool/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ioc-xcs-rec04",
