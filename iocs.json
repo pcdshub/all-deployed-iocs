@@ -1107,17 +1107,6 @@
     },
     {
         "host": "ctl-las-ftl-srv01",
-        "port": 30104,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/delay/delay-git",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-dly-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/delay/delay-git/children/build/iocBoot/ioc-las-dly-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/delay/delay-git/bin/rhel7-x86_64/delay"
-    },
-    {
-        "host": "ctl-las-ftl-srv01",
         "port": 30006,
         "dir": "/cds/home/t/tjohnson/trunk/las/evr",
         "base_version": "3.15",
