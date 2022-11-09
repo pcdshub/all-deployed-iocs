@@ -7134,6 +7134,21 @@
     },
     {
         "host": "ioc-cxi-protura1",
+        "port": 30060,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/protura",
+        "alias": "IMS DS1 Stand Encoders",
+        "history": [
+            "ioc/cxi/protura/R2.0.0",
+            "ioc/cxi/protura/R0.2.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-protura",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/protura/build/iocBoot/ioc-cxi-protura/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/divya/ioc/common/protura/bin/rhel7-x86_64/protura"
+    },
+    {
+        "host": "ioc-cxi-protura1",
         "port": 30123,
         "dir": "/reg/g/pcds/epics-dev/pennebak/cxi/RohdeSchwarzHMP/current",
         "alias": "USR - Rohde-Schwarz",
@@ -7642,21 +7657,6 @@
     },
     {
         "host": "ioc-cxi-rec04",
-        "port": 30060,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/protura",
-        "alias": "IMS DS1 Stand Encoders",
-        "history": [
-            "ioc/cxi/protura/R2.0.0",
-            "ioc/cxi/protura/R0.2.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-protura",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/protura/build/iocBoot/ioc-cxi-protura/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/divya/ioc/common/protura/bin/rhel7-x86_64/protura"
-    },
-    {
-        "host": "ioc-cxi-rec04",
         "port": 40000,
         "dir": "/reg/g/pcds/controls/camrecord",
         "disable": true,
@@ -7685,7 +7685,6 @@
         "host": "ioc-cxi-rec04",
         "port": 30402,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam",
-        "disable": true,
         "alias": "CAM - SC1 Offaxis Questar Opal 1000m",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
