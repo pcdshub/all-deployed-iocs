@@ -19513,12 +19513,12 @@
     {
         "host": "ioc-xcs-user2",
         "port": 30004,
-        "dir": "ioc/xcs/pvNotepad/R1.0.3",
+        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/pvNotepad",
         "alias": "USR - PVs",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-userPV",
-        "script": "/reg/g/pcds/epics/ioc/xcs/pvNotepad/R1.0.3/build/iocBoot/ioc-xcs-userPV/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/pvNotepad/build/iocBoot/ioc-xcs-userPV/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.3/bin/linux-x86_64/pvNotepad"
     },
     {
