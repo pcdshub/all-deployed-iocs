@@ -4936,7 +4936,6 @@
         "host": "daq-rix-andor-01",
         "port": 30010,
         "dir": "ioc/common/andorCam/R1.0.1",
-        "disable": true,
         "history": [
             "ioc/common/andorCam/R0.6.0",
             "/reg/g/pcds/epics-dev/ddamiani/ioc/common/andorCam"
@@ -17024,7 +17023,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-opal1",
         "script": "/reg/neh/home5/bhill/wa2/epics/ioc/tst/edtCam/current/build/iocBoot/ioc-tst-opal1/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/edtCam/current/bin/rhel7-x86_64/edt"
+        "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.1/bin/rhel7-x86_64/edt"
     },
     {
         "host": "ioc-tst-13",
