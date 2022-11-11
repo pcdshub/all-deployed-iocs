@@ -11895,6 +11895,7 @@
         "host": "ioc-mec-las-gige01",
         "port": 32510,
         "dir": "ioc/mec/gigECam/R1.3.0",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige10",
