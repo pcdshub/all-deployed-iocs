@@ -20268,17 +20268,6 @@
     },
     {
         "host": "ioc-xpp-misc02",
-        "port": 30003,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf",
-        "alias": "DET - JF INTERLOCK 1",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-jf1",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf/build/iocBoot/ioc-xpp-jf1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/roving_jf/R1.0.0/bin/rhel7-x86_64/roving"
-    },
-    {
-        "host": "ioc-xpp-misc02",
         "port": 34501,
         "dir": "ioc/xpp/ims/R6.0.3",
         "alias": "MON - LODCM Motion",
@@ -20335,28 +20324,6 @@
         "name": "ioc-xpp-sb2-xfls-ims",
         "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-sb2-xfls-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xpp-misc02",
-        "port": 32936,
-        "dir": "ioc/xpp/chiller/R1.0.0",
-        "alias": "Thermotek Chiller 01",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-thermotek-01",
-        "script": "/reg/g/pcds/epics/ioc/xpp/chiller/R1.0.0/build/iocBoot/ioc-xpp-thermotek-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.6/bin/rhel7-x86_64/thermotek"
-    },
-    {
-        "host": "ioc-xpp-misc02",
-        "port": 30002,
-        "dir": "ioc/xpp/chiller/R1.0.0",
-        "alias": "Thermotek Chiller SB5",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-thermotek-02",
-        "script": "/reg/g/pcds/epics/ioc/xpp/chiller/R1.0.0/build/iocBoot/ioc-xpp-thermotek-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.6/bin/rhel7-x86_64/thermotek"
     },
     {
         "host": "ioc-xpp-misc02",
@@ -21700,6 +21667,17 @@
     },
     {
         "host": "ioc-xpp-wave8b",
+        "port": 30003,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf",
+        "alias": "DET - JF INTERLOCK 1",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-jf1",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf/build/iocBoot/ioc-xpp-jf1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/roving_jf/R1.0.0/bin/rhel7-x86_64/roving"
+    },
+    {
+        "host": "ioc-xpp-wave8b",
         "port": 30100,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
         "alias": "SB2 - WAVE8",
@@ -21713,6 +21691,28 @@
         "name": "ioc-xpp-sb2-bmmon",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-xpp-sb2-bmmon/st.cmd",
         "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
+    },
+    {
+        "host": "ioc-xpp-wave8b",
+        "port": 32936,
+        "dir": "ioc/xpp/chiller/R1.0.0",
+        "alias": "Thermotek Chiller 01",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-thermotek-01",
+        "script": "/reg/g/pcds/epics/ioc/xpp/chiller/R1.0.0/build/iocBoot/ioc-xpp-thermotek-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.6/bin/rhel7-x86_64/thermotek"
+    },
+    {
+        "host": "ioc-xpp-wave8b",
+        "port": 30002,
+        "dir": "ioc/xpp/chiller/R1.0.0",
+        "alias": "Thermotek Chiller SB5",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-thermotek-02",
+        "script": "/reg/g/pcds/epics/ioc/xpp/chiller/R1.0.0/build/iocBoot/ioc-xpp-thermotek-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.6/bin/rhel7-x86_64/thermotek"
     },
     {
         "host": "ioc-xrt-evr01",
