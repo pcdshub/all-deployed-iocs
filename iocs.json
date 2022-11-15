@@ -6858,7 +6858,6 @@
         "host": "ioc-cxi-mot2",
         "port": 32000,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims",
-        "disable": true,
         "alias": "IMS SC2 Motors",
         "history": [
             "ioc/cxi/ims/R2.0.0",
@@ -6874,7 +6873,6 @@
         "host": "ioc-cxi-mot2",
         "port": 31511,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims",
-        "disable": true,
         "alias": "IMS SC2 Navitar",
         "history": [
             "ioc/cxi/ims/R2.0.0",
