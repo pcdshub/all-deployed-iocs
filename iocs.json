@@ -194,8 +194,7 @@
     {
         "host": "ctl-kfe-cam-03",
         "port": 39301,
-        "dir": "ioc/kfe/gigECam/R1.0.0",
-        "disable": true,
+        "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam-TPR/gigECam-TPR-git",
         "alias": "IM1K3",
         "history": [
             "/reg/neh/home/zlentz/github/lcls2-fee-cams"
@@ -203,8 +202,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-im1k3-gige",
-        "script": "/reg/g/pcds/epics/ioc/kfe/gigECam/R1.0.0/build/iocBoot/ioc-im1k3-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.3/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam-TPR/gigECam-TPR-git/children/build/iocBoot/ioc-im1k3-gige/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam-TPR/gigECam-TPR-git/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-kfe-cam-03",
