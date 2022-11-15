@@ -7747,6 +7747,21 @@
     },
     {
         "host": "ioc-cxi-sc1",
+        "port": 30509,
+        "dir": "/reg/g/pcds/epics-dev/pennebak/cxi/ims/current",
+        "alias": "IMS KB2 Optics",
+        "history": [
+            "ioc/cxi/ims"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-kb2-fmr-ims",
+        "script": "/reg/g/pcds/epics-dev/pennebak/cxi/ims/current/build/iocBoot/ioc-cxi-kb2-fmr-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.9/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-cxi-sc1",
         "port": 30021,
         "dir": "/reg/g/pcds/epics-dev/spencera/cxi/mmc/current",
         "disable": true,
@@ -8351,21 +8366,6 @@
         "name": "pyioc-cxi-lightpath",
         "script": "/reg/g/pcds/pyps/config/cxi/lightpath/st.cmd",
         "binary": "/usr/bin/bash"
-    },
-    {
-        "host": "ioc-cxi-usrmot1",
-        "port": 30509,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/cxi/ims/current",
-        "alias": "IMS KB2 Optics",
-        "history": [
-            "ioc/cxi/ims"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-kb2-fmr-ims",
-        "script": "/reg/g/pcds/epics-dev/pennebak/cxi/ims/current/build/iocBoot/ioc-cxi-kb2-fmr-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.9/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-usrmot2",
