@@ -4472,6 +4472,7 @@
         "port": 30002,
         "dir": "ioc/common/pgpCamlink/R1.4.0",
         "history": [
+            "ioc/common/pgpCamlink/R1.4.0",
             "/cds/home/c/claus/lclsii/controls/ioc/common/pgpCamlink/pgpCamlink-git",
             "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current"
         ],
@@ -16736,6 +16737,9 @@
         "host": "ioc-tst-13",
         "port": 39103,
         "dir": "/reg/g/pcds/epics-dev/klauer/simdet-R2.8-0.0.4/iocs/simDetectorIOC/iocBoot/iocSimDetector",
+        "history": [
+            "/reg/g/pcds/epics-dev/klauer/simdet-R2.8-0.0.4/iocs/simDetectorIOC/iocBoot/iocSimDetector"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-adsim-detector",
@@ -16746,6 +16750,9 @@
         "host": "ioc-tst-13",
         "port": 39801,
         "dir": "/reg/g/pcds/epics-dev/nrw/iocs/dosfet/current/children/build/iocBoot/ioc-dosfet-01/",
+        "history": [
+            "/reg/g/pcds/epics-dev/nrw/iocs/dosfet/current/children/build/iocBoot/ioc-dosfet-01/"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-dosfet-01",
@@ -16757,6 +16764,9 @@
         "port": 36799,
         "dir": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/LED_test",
         "alias": "LED test IOC",
+        "history": [
+            "/reg/g/pcds/epics-dev/bosum123/plc_iocs/LED_test"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-led-test",
@@ -16798,8 +16808,8 @@
         "port": 34242,
         "dir": "/reg/g/pcds/epics-dev/zlentz/lcls-twincat-motion-example",
         "history": [
-            "/reg/g/pcds/epics-dev/nrw/lcls-twincat-motion-example",
-            "/reg/g/pcds/epics-dev/zlentz/lcls-twincat-motion-example"
+            "/reg/g/pcds/epics-dev/zlentz/lcls-twincat-motion-example",
+            "/reg/g/pcds/epics-dev/nrw/lcls-twincat-motion-example"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
@@ -16840,8 +16850,8 @@
         "port": 30004,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager",
         "history": [
-            "ioc/common/pfts_manager/R1.0.6",
-            "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager"
+            "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager",
+            "ioc/common/pfts_manager/R1.0.6"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
@@ -16854,6 +16864,7 @@
         "port": 30010,
         "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/tst/evr/current",
         "history": [
+            "/reg/g/pcds/epics-dev/bhill/epics/ioc/tst/evr/current",
             "/reg/g/pcds/epics/ioc/tst/evr/latest",
             "/reg/neh/home/slepicka/ws_svn/ioc/tst/evr/current"
         ],
@@ -16867,6 +16878,9 @@
         "host": "ioc-tst-13",
         "port": 39100,
         "dir": "ioc/common/expstate/R1.0.6",
+        "history": [
+            "ioc/common/expstate/R1.0.6"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-expstate",
@@ -16902,12 +16916,15 @@
     {
         "host": "ioc-tst-13",
         "port": 30201,
-        "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/tst/gigECam/current",
+        "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam-TPR/gigECam-TPR-git",
+        "history": [
+            "/reg/g/pcds/epics-dev/bhill/epics/ioc/tst/gigECam/current"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-g201b-1",
-        "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/tst/gigECam/current/build/iocBoot/ioc-tst-g201b-1/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam-TPR/gigECam-TPR-git/children/build/iocBoot/ioc-tst-g201b-1/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam-TPR/gigECam-TPR-git/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-tst-13",
@@ -16954,6 +16971,9 @@
         "host": "ioc-tst-13",
         "port": 30005,
         "dir": "/reg/g/pcds/epics-dev/zlentz/lcls-plc-mini-powermeter-calib",
+        "history": [
+            "/reg/g/pcds/epics-dev/zlentz/lcls-plc-mini-powermeter-calib"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-mini-powermeter-calib",
@@ -16993,6 +17013,9 @@
         "host": "ioc-tst-13",
         "port": 39101,
         "dir": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/mr3k3-mr4k3-mr2l1-mr3l1-sat",
+        "history": [
+            "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/mr3k3-mr4k3-mr2l1-mr3l1-sat"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-txi-optics",
@@ -17428,6 +17451,9 @@
         "host": "ioc-tst-rec10",
         "port": 34032,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/agilent5322/agilent5322-git",
+        "history": [
+            "/reg/g/pcds/epics-dev/cpino/ioc/las/agilent5322/agilent5322-git"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-las-tst-ctr-01",
@@ -17438,6 +17464,9 @@
         "host": "ioc-tst-rec10",
         "port": 30001,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/xrt/vacuum",
+        "history": [
+            "/cds/home/m/mcbrowne/trunk2/ioc/xrt/vacuum"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-mcb-vacuum",
@@ -17450,6 +17479,9 @@
         "dir": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/icldev/iocBoot",
         "disable": true,
         "alias": "ICL SDS",
+        "history": [
+            "/reg/g/pcds/epics-dev/pennebak/sample-delivery/icldev/iocBoot"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-sds",
@@ -17473,6 +17505,9 @@
         "host": "ioc-tst-rec10",
         "port": 30003,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/PI_663",
+        "history": [
+            "/cds/home/m/mcbrowne/trunk2/ioc/common/PI_663"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-sim",
@@ -17483,6 +17518,9 @@
         "host": "ioc-tst-rec10",
         "port": 30010,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool",
+        "history": [
+            "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-tt-01",
@@ -17493,6 +17531,9 @@
         "host": "ioc-tst-rec10",
         "port": 30404,
         "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-git",
+        "history": [
+            "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-git"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "py-fstiming-TST",
@@ -22682,6 +22723,9 @@
         "port": 30010,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-git",
         "disable": true,
+        "history": [
+            "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-git"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-las-tst-phase-ims01",
