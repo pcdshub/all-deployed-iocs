@@ -20302,6 +20302,7 @@
         "host": "ioc-xpp-misc01",
         "port": 30343,
         "dir": "/reg/g/pcds/epics-dev/spencera/xpp/lakeshore336",
+        "disable": true,
         "alias": "USR Lakeshore 336",
         "history": [
             "ioc/xpp/lakeshore336/R1.0.0"
@@ -20327,6 +20328,17 @@
         "name": "ioc-xpp-usr-smart",
         "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-usr-smart/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xpp-misc01",
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/lakeshore336",
+        "alias": "USR Lakeshore 336 XCS",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-xcs-ls336",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/lakeshore336/build/iocBoot/ioc-xpp-xcs-ls336/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.1/bin/rhel7-x86_64/ls336"
     },
     {
         "host": "ioc-xpp-misc02",
