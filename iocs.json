@@ -6459,8 +6459,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg2-ipm-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.2/build/iocBoot/ioc-cxi-dg2-ipm-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
+        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.2/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-cxi-mot1",
@@ -6562,8 +6562,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-kb1-fmr-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.2/build/iocBoot/ioc-cxi-kb1-fmr-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
+        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.2/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-cxi-mot1",
@@ -7100,8 +7100,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-ds1-stand-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.2/build/iocBoot/ioc-cxi-ds1-stand-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
+        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.2/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-cxi-protura1",
@@ -7756,8 +7756,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-kb2-fmr-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.3/build/iocBoot/ioc-cxi-kb2-fmr-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
+        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.3/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-cxi-sc1",
@@ -8395,8 +8395,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-1ms-stand-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.2/build/iocBoot/ioc-cxi-1ms-stand-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
+        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.2/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-cxi-usrmot2",
