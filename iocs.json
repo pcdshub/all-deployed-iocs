@@ -4572,21 +4572,21 @@
     {
         "host": "ctl-txi-misc-01",
         "port": 30500,
-        "dir": "/reg/g/pcds/epics-dev/jozamudi/txi/ict",
+        "dir": "ioc/txi/ict/R0.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-plv-pdu-01",
-        "script": "/reg/g/pcds/epics-dev/jozamudi/txi/ict/build/iocBoot/ioc-txi-plv-pdu-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/txi/ict/R0.0/build/iocBoot/ioc-txi-plv-pdu-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.7/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-txi-misc-01",
         "port": 30501,
-        "dir": "/reg/g/pcds/epics-dev/jozamudi/txi/ict",
+        "dir": "ioc/txi/ict/R0.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-plv-pdu-02",
-        "script": "/reg/g/pcds/epics-dev/jozamudi/txi/ict/build/iocBoot/ioc-txi-plv-pdu-02/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/txi/ict/R0.0/build/iocBoot/ioc-txi-plv-pdu-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.7/bin/rhel7-x86_64/ict"
     },
     {
