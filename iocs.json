@@ -6847,7 +6847,7 @@
     {
         "host": "ioc-cxi-mot2",
         "port": 30703,
-        "dir": "/reg/g/pcds/epics-dev/cymel123/cxi/ims/current",
+        "dir": "ioc/cxi/ims/R6.0.4",
         "alias": "IMS SC1 Motors",
         "history": [
             "ioc/cxi/ims/R2.0.0",
@@ -6857,7 +6857,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc1-ims",
-        "script": "/reg/g/pcds/epics-dev/cymel123/cxi/ims/current/build/iocBoot/ioc-cxi-sc1-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.4/build/iocBoot/ioc-cxi-sc1-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
@@ -6944,7 +6944,7 @@
     {
         "host": "ioc-cxi-mot2",
         "port": 32001,
-        "dir": "/reg/g/pcds/epics-dev/cymel123/cxi/ims/current",
+        "dir": "ioc/cxi/ims/R6.0.4",
         "alias": "IMS SC3 Motors",
         "history": [
             "ioc/cxi/ims/R2.0.0",
@@ -6953,7 +6953,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc3-ims",
-        "script": "/reg/g/pcds/epics-dev/cymel123/cxi/ims/current/build/iocBoot/ioc-cxi-sc3-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.4/build/iocBoot/ioc-cxi-sc3-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
