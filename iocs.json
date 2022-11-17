@@ -2231,8 +2231,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-dly-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/delay/delay-git/children/build/iocBoot/ioc-las-dly-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/delay/delay-git/bin/rhel7-x86_64/delay"
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/delay/delay-git/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-las-lln-01",
@@ -14287,6 +14287,17 @@
         "name": "ioc-mfx-xps-hera",
         "script": "/reg/g/pcds/epics/ioc/mfx/NewportXPS8/R2.1.0/build/iocBoot/ioc-mfx-xps-hera/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
+    },
+    {
+        "host": "ioc-mfx-misc01",
+        "port": 39064,
+        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/mfx/knobBox/current/iocBoot/ioc-cxi-knob01",
+        "alias": "ioc-mfx-knobbox",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "MISC - KnobBox",
+        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/mfx/knobBox/current/iocBoot/ioc-cxi-knob01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/wwright8/ioc/mfx/knobBox/current/bin/linux-x86/knob"
     },
     {
         "host": "ioc-mfx-misc01",
