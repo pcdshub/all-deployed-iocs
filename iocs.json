@@ -6048,6 +6048,35 @@
         "binary": "/reg/g/pcds/epics/ioc/common/lcp/R1.1.0/bin/linux-x86_64/lcp"
     },
     {
+        "host": "ioc-cx1-sc1",
+        "port": 30509,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims",
+        "alias": "IMS KB2 Optics",
+        "history": [
+            "ioc/cxi/ims"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-kb2-fmr-ims",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims/build/iocBoot/ioc-cxi-kb2-fmr-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-cx1-sc1",
+        "port": 50060,
+        "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/common/knobBox/current",
+        "alias": "SDS Knobs",
+        "history": [
+            "/reg/g/pcds/package/epics/3.14-dev/ioc/common/knobBox/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-knob01",
+        "script": "/reg/g/pcds/package/epics/3.14-dev/ioc/common/knobBox/current/iocBoot/ioc-cxi-knob01/st.cmd",
+        "binary": "/reg/g/pcds/package/epics/3.14-dev/ioc/common/knobBox/current/bin/linux-x86/knob"
+    },
+    {
         "host": "ioc-cxi-acromag",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/common/pciAcromag",
@@ -6777,20 +6806,6 @@
         "name": "ioc-cxi-dsb-ims",
         "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims/build/iocBoot/ioc-cxi-dsb-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-cxi-mot2",
-        "port": 50060,
-        "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/common/knobBox/current",
-        "alias": "SDS Knobs",
-        "history": [
-            "/reg/g/pcds/package/epics/3.14-dev/ioc/common/knobBox/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-knob01",
-        "script": "/reg/g/pcds/package/epics/3.14-dev/ioc/common/knobBox/current/iocBoot/ioc-cxi-knob01/st.cmd",
-        "binary": "/reg/g/pcds/package/epics/3.14-dev/ioc/common/knobBox/current/bin/linux-x86/knob"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7756,21 +7771,6 @@
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg2-pfls-ims",
         "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims/build/iocBoot/ioc-cxi-dg2-pfls-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-cxi-sc1",
-        "port": 30509,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims",
-        "alias": "IMS KB2 Optics",
-        "history": [
-            "ioc/cxi/ims"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-kb2-fmr-ims",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims/build/iocBoot/ioc-cxi-kb2-fmr-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
