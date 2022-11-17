@@ -6780,6 +6780,20 @@
     },
     {
         "host": "ioc-cxi-mot2",
+        "port": 50060,
+        "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/common/knobBox/current",
+        "alias": "SDS Knobs",
+        "history": [
+            "/reg/g/pcds/package/epics/3.14-dev/ioc/common/knobBox/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-knob01",
+        "script": "/reg/g/pcds/package/epics/3.14-dev/ioc/common/knobBox/current/iocBoot/ioc-cxi-knob01/st.cmd",
+        "binary": "/reg/g/pcds/package/epics/3.14-dev/ioc/common/knobBox/current/bin/linux-x86/knob"
+    },
+    {
+        "host": "ioc-cxi-mot2",
         "port": 30005,
         "dir": "ioc/cxi/NewportXPS8/R1.2.0",
         "alias": "Newport XPS Laser",
@@ -8095,20 +8109,6 @@
         "name": "ioc-cxi-kb-motorRtd",
         "script": "/reg/g/pcds/epics/ioc/cxi/KBMotorTemps/R2.1.0/iocBoot/ioc-cxi-kb-motorRtd/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/cxi/KBMotorTemps/R2.1.0/bin/linux-x86_64/KBMotorTemps"
-    },
-    {
-        "host": "ioc-cxi-usr1",
-        "port": 50060,
-        "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/common/knobBox/current",
-        "alias": "SDS Knobs",
-        "history": [
-            "/reg/g/pcds/package/epics/3.14-dev/ioc/common/knobBox/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-knob01",
-        "script": "/reg/g/pcds/package/epics/3.14-dev/ioc/common/knobBox/current/iocBoot/ioc-cxi-knob01/st.cmd",
-        "binary": "/reg/g/pcds/package/epics/3.14-dev/ioc/common/knobBox/current/bin/linux-x86/knob"
     },
     {
         "host": "ioc-cxi-usr1",
