@@ -17516,6 +17516,7 @@
         "host": "ioc-tst-rec10",
         "port": 34032,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/agilent5322/agilent5322-git",
+        "disable": true,
         "history": [
             "/reg/g/pcds/epics-dev/cpino/ioc/las/agilent5322/agilent5322-git"
         ],
