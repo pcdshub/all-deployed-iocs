@@ -14090,16 +14090,6 @@
     },
     {
         "host": "ioc-mfx-cam02",
-        "port": 50060,
-        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/misc/knobBox/current",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-knob01",
-        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/misc/knobBox/current/iocBoot/ioc-mfx-knob01/st.cmd",
-        "binary": "/reg/g/pcds/package/epics/3.14-dev/ioc/common/knobBox/current/bin/linux-x86/knob"
-    },
-    {
-        "host": "ioc-mfx-cam02",
         "port": 30001,
         "dir": "ioc/mfx/leds/R0.3.0",
         "alias": "MISC - LEDs",
@@ -14389,6 +14379,16 @@
         "name": "ioc-mfx-expstate",
         "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.6/children/build/iocBoot/ioc-mfx-expstate/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.6/bin/rhel7-x86_64/expState"
+    },
+    {
+        "host": "ioc-mfx-misc01",
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/misc/knobBox/current",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-knob01",
+        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/misc/knobBox/current/iocBoot/ioc-mfx-knob01/st.cmd",
+        "binary": "/reg/g/pcds/package/epics/3.14-dev/ioc/common/knobBox/current/bin/linux-x86/knob"
     },
     {
         "host": "ioc-mfx-misc01",
