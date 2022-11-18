@@ -6473,70 +6473,6 @@
     },
     {
         "host": "ioc-cxi-mot1",
-        "port": 30504,
-        "dir": "ioc/cxi/ims/R2.1.0",
-        "alias": "IMS DG1",
-        "history": [
-            "ioc/cxi/ims/R2.0.0",
-            "ioc/cxi/ims"
-        ],
-        "delay": 10,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-dg1-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R2.1.0/build/iocBoot/ioc-cxi-dg1-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.0/bin/linux-x86/ims"
-    },
-    {
-        "host": "ioc-cxi-mot1",
-        "port": 30513,
-        "dir": "ioc/cxi/ims/R6.0.2",
-        "alias": "IMS DG2 IPM",
-        "history": [
-            "ioc/cxi/ims/R2.0.0",
-            "ioc/cxi/ims"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-dg2-ipm-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.2/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ioc-cxi-mot1",
-        "port": 30514,
-        "dir": "ioc/cxi/ims/R4.0.39",
-        "alias": "IMS DG2 PIM",
-        "history": [
-            "ioc/cxi/ims/R4.0.39",
-            "ioc/cxi/ims/R2.0.0",
-            "ioc/cxi/ims"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-dg2-pim-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R4.0.39/build/iocBoot/ioc-cxi-dg2-pim-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.0/bin/linux-x86/ims"
-    },
-    {
-        "host": "ioc-cxi-mot1",
-        "port": 30708,
-        "dir": "ioc/cxi/ims/R4.0.39",
-        "alias": "IMS DG3 user",
-        "history": [
-            "ioc/cxi/ims/R4.0.39",
-            "ioc/cxi/ims/R2.0.0",
-            "ioc/cxi/ims"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-dg3-dumb-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R4.0.39/build/iocBoot/ioc-cxi-dg3-dumb-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.0/bin/linux-x86/ims"
-    },
-    {
-        "host": "ioc-cxi-mot1",
         "port": 30704,
         "dir": "ioc/common/picoMotion/R1.0.11",
         "alias": "Pico DG3 (DSB Ref Laser)",
@@ -6591,22 +6527,6 @@
     },
     {
         "host": "ioc-cxi-mot1",
-        "port": 30506,
-        "dir": "ioc/cxi/ims/R6.0.2",
-        "alias": "IMS KB1 Optics",
-        "history": [
-            "ioc/cxi/ims/R2.0.0",
-            "ioc/cxi/ims"
-        ],
-        "delay": 10,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-kb1-fmr-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.2/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ioc-cxi-mot1",
         "port": 30101,
         "dir": "ioc/common/Leviton/R1.28.8",
         "alias": "Power Leviton Racks",
@@ -6631,22 +6551,6 @@
         "name": "ioc-cxi-mandrel-01",
         "script": "/reg/g/pcds/epics-dev/pennebak/cxi/mandrel/current/build/iocBoot/ioc-cxi-mandrel-01/st.cmd",
         "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/ims/current/bin/linux-x86_64/ims"
-    },
-    {
-        "host": "ioc-cxi-mot1",
-        "port": 30057,
-        "dir": "ioc/cxi/ims/R2.0.0",
-        "alias": "IMS DSB Pulse-Picker Encoder (V7)",
-        "history": [
-            "ioc/cxi/ims/R2.0.0",
-            "ioc/cxi/ims"
-        ],
-        "delay": 10,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-ppenc-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R2.0.0/build/iocBoot/ioc-cxi-ppenc-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.0.0/bin/linux-x86/ims"
     },
     {
         "host": "ioc-cxi-mot1",
@@ -7129,22 +7033,6 @@
     },
     {
         "host": "ioc-cxi-protura1",
-        "port": 32519,
-        "dir": "ioc/cxi/ims/R6.0.2",
-        "alias": "IMS DS1 Stand",
-        "history": [
-            "ioc/cxi/ims/R2.0.0",
-            "ioc/cxi/ims"
-        ],
-        "delay": 5,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-ds1-stand-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.2/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ioc-cxi-protura1",
         "port": 39546,
         "dir": "ioc/cxi/lakeshore336/R1.0.0",
         "alias": "JF4M - Temp Control",
@@ -7249,22 +7137,6 @@
         "name": "ioc-cxi-d50-epix02",
         "script": "/reg/g/pcds/epics/ioc/common/detector-ctrl/R3.2.3/iocBoot/ioc-cxi-d50-epix02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/detector-ctrl/R3.2.3/bin/linux-x86_64/detector"
-    },
-    {
-        "host": "ioc-cxi-protura2",
-        "port": 31520,
-        "dir": "ioc/cxi/ims/R2.1.0",
-        "alias": "IMS DS2 stand",
-        "history": [
-            "ioc/cxi/ims/R2.0.0",
-            "ioc/cxi/ims"
-        ],
-        "delay": 5,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-ds2-stand-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R2.1.0/build/iocBoot/ioc-cxi-ds2-stand-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.0/bin/linux-x86/ims"
     },
     {
         "host": "ioc-cxi-protura2",
@@ -7527,6 +7399,38 @@
     },
     {
         "host": "ioc-cxi-rec01",
+        "port": 32519,
+        "dir": "ioc/cxi/ims/R6.0.4",
+        "alias": "IMS DS1 Stand",
+        "history": [
+            "ioc/cxi/ims/R2.0.0",
+            "ioc/cxi/ims"
+        ],
+        "delay": 5,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-ds1-stand-ims",
+        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.4/build/iocBoot/ioc-cxi-ds1-stand-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-cxi-rec01",
+        "port": 31520,
+        "dir": "ioc/cxi/ims/R6.0.4",
+        "alias": "IMS DS2 stand",
+        "history": [
+            "ioc/cxi/ims/R2.0.0",
+            "ioc/cxi/ims"
+        ],
+        "delay": 5,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-ds2-stand-ims",
+        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.4/build/iocBoot/ioc-cxi-ds2-stand-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-cxi-rec01",
         "port": 30003,
         "dir": "ioc/cxi/ipimb/R1.1.1",
         "alias": "IPIMB CXI",
@@ -7539,6 +7443,38 @@
         "name": "ioc-cxi-ipimb",
         "script": "/reg/g/pcds/epics/ioc/cxi/ipimb/R1.1.1/build/iocBoot/ioc-cxi-ipimb/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ipimb/R3.2.3/bin/rhel7-x86_64/ipimbIoc"
+    },
+    {
+        "host": "ioc-cxi-rec01",
+        "port": 30506,
+        "dir": "ioc/cxi/ims/R6.0.4",
+        "alias": "IMS KB1 Optics",
+        "history": [
+            "ioc/cxi/ims/R2.0.0",
+            "ioc/cxi/ims"
+        ],
+        "delay": 10,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-kb1-fmr-ims",
+        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.4/build/iocBoot/ioc-cxi-kb1-fmr-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-cxi-rec01",
+        "port": 30057,
+        "dir": "ioc/cxi/ims/R6.0.4",
+        "alias": "IMS DSB Pulse-Picker Encoder (V7)",
+        "history": [
+            "ioc/cxi/ims/R2.0.0",
+            "ioc/cxi/ims"
+        ],
+        "delay": 10,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-ppenc-ims",
+        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.4/build/iocBoot/ioc-cxi-ppenc-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-rec01",
@@ -7775,6 +7711,37 @@
     },
     {
         "host": "ioc-cxi-sc1",
+        "port": 30504,
+        "dir": "ioc/cxi/ims/R6.0.4",
+        "alias": "IMS DG1",
+        "history": [
+            "ioc/cxi/ims/R2.0.0",
+            "ioc/cxi/ims"
+        ],
+        "delay": 10,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-dg1-ims",
+        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.4/build/iocBoot/ioc-cxi-dg1-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-cxi-sc1",
+        "port": 30513,
+        "dir": "ioc/cxi/ims/R6.0.4",
+        "alias": "IMS DG2 IPM",
+        "history": [
+            "ioc/cxi/ims/R2.0.0",
+            "ioc/cxi/ims"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-dg2-ipm-ims",
+        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.4/build/iocBoot/ioc-cxi-dg2-ipm-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-cxi-sc1",
         "port": 30512,
         "dir": "ioc/cxi/ims/R6.0.4",
         "alias": "IMS DG2 PFLS",
@@ -7782,6 +7749,39 @@
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg2-pfls-ims",
         "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.4/build/iocBoot/ioc-cxi-dg2-pfls-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-cxi-sc1",
+        "port": 30514,
+        "dir": "ioc/cxi/ims/R6.0.4",
+        "alias": "IMS DG2 PIM",
+        "history": [
+            "ioc/cxi/ims/R4.0.39",
+            "ioc/cxi/ims/R2.0.0",
+            "ioc/cxi/ims"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-dg2-pim-ims",
+        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.4/build/iocBoot/ioc-cxi-dg2-pim-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-cxi-sc1",
+        "port": 30708,
+        "dir": "ioc/cxi/ims/R6.0.4",
+        "alias": "IMS DG3 user",
+        "history": [
+            "ioc/cxi/ims/R4.0.39",
+            "ioc/cxi/ims/R2.0.0",
+            "ioc/cxi/ims"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-dg3-dumb-ims",
+        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.4/build/iocBoot/ioc-cxi-dg3-dumb-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
