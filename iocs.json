@@ -14090,11 +14090,11 @@
     },
     {
         "host": "ioc-mfx-cam02",
-        "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/misc/knobBox/current/iocBoot/ioc-mfx-knob01",
+        "port": 50060,
+        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/misc/knobBox/current",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-knobbox",
+        "name": "ioc-mfx-knob01",
         "script": "/reg/g/pcds/epics-dev/wwright8/ioc/misc/knobBox/current/iocBoot/ioc-mfx-knob01/st.cmd",
         "binary": "/reg/g/pcds/package/epics/3.14-dev/ioc/common/knobBox/current/bin/linux-x86/knob"
     },
