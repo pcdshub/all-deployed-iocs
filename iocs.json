@@ -6927,7 +6927,7 @@
     {
         "host": "ioc-cxi-mot2",
         "port": 30519,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims",
+        "dir": "ioc/cxi/ims/R6.0.4",
         "disable": true,
         "alias": "IMS PI2",
         "history": [
@@ -6938,7 +6938,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc2-pi2-ims",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims/build/iocBoot/ioc-cxi-sc2-pi2-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.4/build/iocBoot/ioc-cxi-sc2-pi2-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
