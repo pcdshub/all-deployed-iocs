@@ -14382,7 +14382,7 @@
     },
     {
         "host": "ioc-mfx-misc01",
-        "port": 30001,
+        "port": 50060,
         "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/misc/knobBox/current",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
