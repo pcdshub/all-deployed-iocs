@@ -13889,6 +13889,17 @@
     },
     {
         "host": "ioc-mfx-cam02",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/mfx/knobBox/current/iocBoot/ioc-mfx-knob1",
+        "alias": "ioc-mfx-knobbox",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "MISC - KnobBox",
+        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/mfx/knobBox/current/iocBoot/ioc-mfx-knob1/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ioc-mfx-cam02",
         "port": 30095,
         "dir": "ioc/mfx/delaygen/R1.0.0",
         "disable": true,
@@ -14327,17 +14338,6 @@
         "name": "ioc-mfx-xps-hera",
         "script": "/reg/g/pcds/epics/ioc/mfx/NewportXPS8/R2.1.0/build/iocBoot/ioc-mfx-xps-hera/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
-    },
-    {
-        "host": "ioc-mfx-misc01",
-        "port": 39064,
-        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/mfx/knobBox/current/iocBoot/ioc-cxi-knob01",
-        "alias": "ioc-mfx-knobbox",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "MISC - KnobBox",
-        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/mfx/knobBox/current/iocBoot/ioc-cxi-knob01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/wwright8/ioc/mfx/knobBox/current/bin/linux-x86/knob"
     },
     {
         "host": "ioc-mfx-misc01",
