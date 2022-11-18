@@ -13889,17 +13889,6 @@
     },
     {
         "host": "ioc-mfx-cam02",
-        "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/mfx/knobBox/current/iocBoot/ioc-mfx-knob1",
-        "alias": "ioc-mfx-knobbox",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "MISC - KnobBox",
-        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/mfx/knobBox/current/iocBoot/ioc-mfx-knob1/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ioc-mfx-cam02",
         "port": 30095,
         "dir": "ioc/mfx/delaygen/R1.0.0",
         "disable": true,
@@ -14098,6 +14087,16 @@
         "name": "ioc-mfx-hxr-mobile-dumb",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/mfx/ims/current/st.cmd",
         "binary": null
+    },
+    {
+        "host": "ioc-mfx-cam02",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/misc/knobBox/current/iocBoot/ioc-mfx-knob01",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-knobbox",
+        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/misc/knobBox/current/iocBoot/ioc-mfx-knob01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/wwright8/ioc/misc/knobBox/current/bin/linux-x86/knob"
     },
     {
         "host": "ioc-mfx-cam02",
