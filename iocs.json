@@ -7711,6 +7711,21 @@
     },
     {
         "host": "ioc-cxi-sc1",
+        "port": 30520,
+        "dir": "ioc/cxi/ims/R6.0.4",
+        "alias": "IMS 1MS Stand",
+        "history": [
+            "ioc/cxi/ims"
+        ],
+        "delay": 10,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-1ms-stand-ims",
+        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.4/build/iocBoot/ioc-cxi-1ms-stand-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-cxi-sc1",
         "port": 30504,
         "dir": "ioc/cxi/ims/R6.0.4",
         "alias": "IMS DG1",
@@ -8421,21 +8436,6 @@
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-1ms-stand-clin",
         "script": "/reg/g/pcds/epics/ioc/cxi/motion/R3.0.0/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ioc-cxi-usrmot2",
-        "port": 30520,
-        "dir": "ioc/cxi/ims/R6.0.2",
-        "alias": "IMS 1MS Stand",
-        "history": [
-            "ioc/cxi/ims"
-        ],
-        "delay": 10,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-1ms-stand-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.2/st.cmd",
         "binary": null
     },
     {
