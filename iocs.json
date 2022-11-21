@@ -7547,7 +7547,7 @@
     {
         "host": "ioc-cxi-rec03",
         "port": 30408,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam",
+        "dir": "ioc/cxi/edtCam/R2.0.2",
         "alias": "CAM - DG3 PIM",
         "history": [
             "ioc/cxi/edtCam/R1.2.1"
@@ -7555,7 +7555,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg3-p6740",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam/build/iocBoot/ioc-cxi-dg3-p6740/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/cxi/edtCam/R2.0.2/build/iocBoot/ioc-cxi-dg3-p6740/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.2/bin/rhel7-x86_64/edt"
     },
     {
@@ -7698,7 +7698,7 @@
     {
         "host": "ioc-cxi-rec04",
         "port": 33331,
-        "dir": "ioc/cxi/edtCam/R1.2.1",
+        "dir": "ioc/cxi/edtCam/R2.0.2",
         "disable": true,
         "alias": "CAM - SC2 Inline Questar Opal1000m",
         "history": [
@@ -7707,8 +7707,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc2-inline",
-        "script": "/reg/g/pcds/epics/ioc/cxi/edtCam/R1.2.1/build/iocBoot/ioc-cxi-sc2-inline/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R1.19.0/bin/rhel7-x86_64/edt"
+        "script": "/reg/g/pcds/epics/ioc/cxi/edtCam/R2.0.2/build/iocBoot/ioc-cxi-sc2-inline/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.2/bin/rhel7-x86_64/edt"
     },
     {
         "host": "ioc-cxi-rec04",
@@ -19117,6 +19117,7 @@
         "host": "ioc-xcs-user1",
         "port": 30200,
         "dir": "/reg/g/pcds/epics-dev/spencera/xcs.svn/BK-Precision/current",
+        "disable": true,
         "alias": "USR - BK Precision",
         "history": [
             "ioc/common/BK-Precision/R1.0.1"
@@ -19195,6 +19196,7 @@
         "host": "ioc-xcs-user1",
         "port": 30106,
         "dir": "/reg/g/pcds/epics-dev/oluwade/xcs/RohdeSchwarzHMP",
+        "disable": true,
         "alias": "DET - GON HMP Jungfrau",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
@@ -19362,6 +19364,7 @@
         "host": "ioc-xcs-user1",
         "port": 30301,
         "dir": "/reg/g/pcds/epics-dev/spencera/xcs.svn/AgilentE3648A/current",
+        "disable": true,
         "alias": "USR - Agilent Power Supply",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
@@ -19381,18 +19384,6 @@
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-usr-smart-ims",
         "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs/ims/build/iocBoot/ioc-xcs-usr-smart-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xcs-user1",
-        "port": 30526,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xcs/ims",
-        "disable": true,
-        "alias": "USR - Test Stages",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-usr-test",
-        "script": "/reg/g/pcds/epics-dev/spencera/xcs/ims/build/iocBoot/ioc-xcs-usr-test/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
