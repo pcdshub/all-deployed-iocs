@@ -7583,7 +7583,7 @@
     {
         "host": "ioc-cxi-rec03",
         "port": 30101,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam",
+        "dir": "ioc/cxi/edtCam/R2.0.2",
         "alias": "CAM - SC1 Inline Questar Opal1000m",
         "history": [
             "ioc/cxi/edtCam/R1.2.1"
@@ -7591,7 +7591,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc1-inline",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam/build/iocBoot/ioc-cxi-sc1-inline/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/cxi/edtCam/R2.0.2/build/iocBoot/ioc-cxi-sc1-inline/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.2/bin/rhel7-x86_64/edt"
     },
     {
@@ -7687,12 +7687,12 @@
     {
         "host": "ioc-cxi-rec04",
         "port": 30402,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam",
+        "dir": "ioc/cxi/edtCam/R2.0.2",
         "alias": "CAM - SC1 Offaxis Questar Opal 1000m",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc1-offaxis",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam/build/iocBoot/ioc-cxi-sc1-offaxis/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/cxi/edtCam/R2.0.2/build/iocBoot/ioc-cxi-sc1-offaxis/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.2/bin/rhel7-x86_64/edt"
     },
     {
@@ -8044,21 +8044,6 @@
         "name": "ioc-cxi-sc2-PMC100",
         "script": "/reg/g/pcds/epics-dev/pennebak/cxi/pmc100/build/iocBoot/ioc-cxi-sc2-PMC100/st.cmd",
         "binary": "/cds/home/d/dhzhang/Epics/arcus_test/current/bin/linux-x86/arcus"
-    },
-    {
-        "host": "ioc-cxi-sc2",
-        "port": 30010,
-        "dir": "ioc/cxi/vacuum/R1.6.1",
-        "alias": "Vacuum",
-        "history": [
-            "ioc/cxi/vacuum/R1.5.0",
-            "ioc/cxi/vacuum/R1.3.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-vacuum",
-        "script": "/reg/g/pcds/epics/ioc/cxi/vacuum/R1.6.1/iocBoot/ioc-cxi-vacuum/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/cxi/vacuum/R1.6.1/bin/linux-x86_64/vacuum"
     },
     {
         "host": "ioc-cxi-usr1",
@@ -8587,6 +8572,21 @@
         "name": "ioc-cxi-dsb-lusiAtt",
         "script": "/reg/g/pcds/epics/ioc/cxi/lusiAtt/R0.2.8/build/iocBoot/ioc-cxi-dsb-lusiAtt/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/lusiAtt/R1.5.0/bin/linux-x86_64/lusiAtt"
+    },
+    {
+        "host": "ioc-cxi-vacuum",
+        "port": 30010,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vacuum",
+        "alias": "Vacuum",
+        "history": [
+            "ioc/cxi/vacuum/R1.5.0",
+            "ioc/cxi/vacuum/R1.3.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-vacuum",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vacuum/iocBoot/ioc-cxi-vacuum/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vacuum/bin/linux-x86_64/vacuum"
     },
     {
         "host": "ioc-cxi-vacuum",
@@ -19387,6 +19387,7 @@
         "host": "ioc-xcs-user1",
         "port": 30526,
         "dir": "/reg/g/pcds/epics-dev/spencera/xcs/ims",
+        "disable": true,
         "alias": "USR - Test Stages",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
