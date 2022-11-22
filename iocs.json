@@ -7898,6 +7898,17 @@
     },
     {
         "host": "ioc-cxi-sc1",
+        "port": 30005,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc",
+        "alias": "MMC - SC2 1 Axis PR32",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-mmc-pr32-01",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc/build/iocBoot/ioc-cxi-mmc-pr32-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
+    },
+    {
+        "host": "ioc-cxi-sc1",
         "port": 34500,
         "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/pmc100",
         "alias": "Piezo SC1 PP-30 Motors",
