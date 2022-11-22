@@ -66,7 +66,7 @@ def print_changes(ioc: str) -> None:
         The IOC name.
     """
     last = {}
-    for commit in git.Repo(".").iter_commits():  # reverse=True
+    for commit in git.Repo(".").iter_commits(reverse=True):
         try:
             blob = commit.tree / "iocs.json"
         except KeyError:
@@ -81,7 +81,7 @@ def print_changes(ioc: str) -> None:
         changed = list(get_changes(last, iocs[ioc]))
         if changed:
             print()
-            print(f"-- {commit.committed_datetime}")  #  {commit.author.name}")
+            print(f"{commit.committed_datetime}")  #  {commit.author.name}")
 
             for key, change in changed:
                 print(f"  {key}: {change}")
