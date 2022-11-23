@@ -2739,16 +2739,16 @@
     {
         "host": "ctl-rix-cam-01",
         "port": 30112,
-        "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/rix/gigECam/gigECam-git",
+        "dir": "ioc/rix/gigECam/R2.1.0",
         "history": [
-            "ioc/rix/gigECam/R1.1.0",
-            "/reg/g/pcds/epics-dev/bhill/epics/ioc/rix/gigECam/gigECam-git"
+            "/reg/g/pcds/epics-dev/bhill/epics/ioc/rix/gigECam/gigECam-git",
+            "ioc/rix/gigECam/R1.1.0"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-sl1k2-gige",
-        "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/rix/gigECam/gigECam-git/build/iocBoot/ioc-sl1k2-gige/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.1.0/build/iocBoot/ioc-sl1k2-gige/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.0.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-rix-cam-02",
