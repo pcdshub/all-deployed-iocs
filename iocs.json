@@ -2739,22 +2739,23 @@
     {
         "host": "ctl-rix-cam-01",
         "port": 30112,
-        "dir": "ioc/rix/gigECam/R1.1.0",
+        "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/rix/gigECam/gigECam-git",
         "history": [
-            "/reg/g/pcds/epics-dev/bhill/epics/ioc/rix/gigECam/gigECam-git",
-            "ioc/rix/gigECam/R1.1.0"
+            "ioc/rix/gigECam/R1.1.0",
+            "/reg/g/pcds/epics-dev/bhill/epics/ioc/rix/gigECam/gigECam-git"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-sl1k2-gige",
-        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R1.1.0/build/iocBoot/ioc-sl1k2-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.3/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/rix/gigECam/gigECam-git/build/iocBoot/ioc-sl1k2-gige/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-rix-cam-02",
         "port": 30011,
         "dir": "ioc/rix/gigECam/R2.0.0",
         "history": [
+            "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
         "base_version": "3.15",
@@ -2768,6 +2769,7 @@
         "port": 30055,
         "dir": "ioc/rix/gigECam/R2.0.0",
         "history": [
+            "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
         "base_version": "3.15",
@@ -2781,6 +2783,7 @@
         "port": 30031,
         "dir": "ioc/rix/gigECam/R2.0.0",
         "history": [
+            "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
         "base_version": "3.15",
@@ -2807,6 +2810,7 @@
         "port": 30066,
         "dir": "ioc/rix/gigECam/R2.0.1",
         "history": [
+            "ioc/rix/gigECam/R2.0.1",
             "ioc/rix/gigECam/R1.1.0"
         ],
         "base_version": "3.15",
@@ -2820,6 +2824,7 @@
         "port": 30012,
         "dir": "ioc/rix/gigECam/R2.0.0",
         "history": [
+            "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
         "base_version": "3.15",
@@ -2833,6 +2838,7 @@
         "port": 30022,
         "dir": "ioc/rix/gigECam/R2.0.0",
         "history": [
+            "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
         "base_version": "3.15",
@@ -2846,6 +2852,7 @@
         "port": 30033,
         "dir": "ioc/rix/gigECam/R2.0.0",
         "history": [
+            "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
         "base_version": "3.15",
@@ -2886,6 +2893,7 @@
         "port": 30001,
         "dir": "ioc/rix/gigECam/R2.0.0",
         "history": [
+            "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
         "base_version": "3.15",
@@ -2899,6 +2907,7 @@
         "port": 30002,
         "dir": "ioc/rix/gigECam/R2.0.0",
         "history": [
+            "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
         "base_version": "3.15",
@@ -2913,6 +2922,7 @@
         "dir": "ioc/rix/gigECam/R2.0.0",
         "disable": true,
         "history": [
+            "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
         "base_version": "3.15",
@@ -2926,6 +2936,7 @@
         "port": 30004,
         "dir": "ioc/rix/gigECam/R2.0.0",
         "history": [
+            "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
         "base_version": "3.15",
@@ -2939,6 +2950,7 @@
         "port": 30005,
         "dir": "ioc/rix/gigECam/R2.0.0",
         "history": [
+            "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
         "base_version": "3.15",
@@ -2952,6 +2964,7 @@
         "port": 30006,
         "dir": "ioc/rix/gigECam/R2.0.0",
         "history": [
+            "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
         "base_version": "3.15",
@@ -2965,6 +2978,7 @@
         "port": 30007,
         "dir": "ioc/rix/gigECam/R2.0.0",
         "history": [
+            "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
         "base_version": "3.15",
@@ -2991,9 +3005,9 @@
         "port": 35001,
         "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336",
         "history": [
+            "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336",
             "ioc/rix/lakeshore336/R1.0.0",
-            "/reg/g/pcds/package/epics/3.14/ioc/rix/lakeshore336/R1.0.0",
-            "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336"
+            "/reg/g/pcds/package/epics/3.14/ioc/rix/lakeshore336/R1.0.0"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
@@ -3006,9 +3020,9 @@
         "port": 35002,
         "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336",
         "history": [
+            "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336",
             "ioc/rix/lakeshore336/R1.0.0",
-            "/reg/g/pcds/package/epics/3.14/ioc/rix/lakeshore336/R1.0.0",
-            "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336"
+            "/reg/g/pcds/package/epics/3.14/ioc/rix/lakeshore336/R1.0.0"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
@@ -3020,6 +3034,9 @@
         "host": "ctl-rix-crix-mot-01",
         "port": 30401,
         "dir": "ioc/rix/ict/R1.0.2",
+        "history": [
+            "ioc/rix/ict/R1.0.2"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-plv-pdu-01",
@@ -3030,6 +3047,9 @@
         "host": "ctl-rix-crix-mot-01",
         "port": 30402,
         "dir": "ioc/rix/ict/R1.0.2",
+        "history": [
+            "ioc/rix/ict/R1.0.2"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-plv-pdu-02",
@@ -3042,6 +3062,7 @@
         "dir": "ioc/rix/expstate/R1.0.7",
         "alias": "Experiment State Tracker",
         "history": [
+            "ioc/rix/expstate/R1.0.7",
             "ioc/common/expstate/R1.0.2"
         ],
         "base_version": "3.15",
@@ -3068,6 +3089,9 @@
         "port": 39100,
         "dir": "ioc/rix/pdu_snmp/R1.0.0",
         "alias": "Rack 4 PDU (ChemRIXS)",
+        "history": [
+            "ioc/rix/pdu_snmp/R1.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pwr-r04",
@@ -3079,6 +3103,9 @@
         "port": 39101,
         "dir": "ioc/rix/pdu_snmp/R1.0.0",
         "alias": "Rack 5 PDU (Laser)",
+        "history": [
+            "ioc/rix/pdu_snmp/R1.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pwr-r05",
@@ -3090,6 +3117,7 @@
         "port": 31000,
         "dir": "ioc/rix/lcls-plc-crixs-vac/v1.5.1/lcls-plc-crix-vac",
         "history": [
+            "ioc/rix/lcls-plc-crixs-vac/v1.5.1/lcls-plc-crix-vac",
             "/reg/g/pcds/epics-dev/wwright/ioc/rix/plcprojects/lcls-plc-crixs-vac/lcls-plc-crix-vac",
             "/reg/g/pcds/epics-dev/jyin/gitProjects/lcls-plc-crixs-vac/lcls-plc-crix-vac"
         ],
@@ -3104,6 +3132,7 @@
         "port": 31020,
         "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336",
         "history": [
+            "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336",
             "ioc/rix/lakeshore336/R1.0.1",
             "/reg/g/pcds/epics-dev/spencera/rix/lakeshore336/current"
         ],
@@ -3118,6 +3147,9 @@
         "port": 39100,
         "dir": "ioc/rix/pdu_snmp/R1.0.0",
         "alias": "Rack 02 PDU (Beamline)",
+        "history": [
+            "ioc/rix/pdu_snmp/R1.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pwr-r02",
@@ -3129,6 +3161,7 @@
         "port": 30001,
         "dir": "ioc/rix/pgpWave8/R1.6.0",
         "history": [
+            "ioc/rix/pgpWave8/R1.6.0",
             "ioc/common/pgpWave8/R1.4.0",
             "ioc/common/pgpWave8/R1.2.0",
             "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git",
@@ -3145,6 +3178,7 @@
         "port": 30002,
         "dir": "ioc/rix/pgpWave8/R1.6.0",
         "history": [
+            "ioc/rix/pgpWave8/R1.6.0",
             "ioc/common/pgpWave8/R1.4.0",
             "ioc/common/pgpWave8/R1.2.0",
             "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git"
@@ -3160,6 +3194,7 @@
         "port": 30003,
         "dir": "ioc/rix/pgpWave8/R1.6.0",
         "history": [
+            "ioc/rix/pgpWave8/R1.6.0",
             "ioc/common/pgpWave8/R1.4.0",
             "ioc/common/pgpWave8/R1.2.0",
             "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git"
@@ -3175,6 +3210,7 @@
         "port": 30400,
         "dir": "ioc/rix/lcls-plc-crixs-motion/v1.9.0/lcls-plc-crixs-motion",
         "history": [
+            "ioc/rix/lcls-plc-crixs-motion/v1.9.0/lcls-plc-crixs-motion",
             "ioc/rix/lcls-plc-crixs-motion/v1.3.0/lcls-plc-crixs-motion"
         ],
         "base_version": "3.15",
@@ -3227,6 +3263,9 @@
         "host": "ctl-rix-mot-01",
         "port": 30201,
         "dir": "ioc/rix/ict/R1.0.2",
+        "history": [
+            "ioc/rix/ict/R1.0.2"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-plv-pdu-01",
@@ -3237,6 +3276,9 @@
         "host": "ctl-rix-mot-01",
         "port": 30202,
         "dir": "ioc/rix/ict/R1.0.2",
+        "history": [
+            "ioc/rix/ict/R1.0.2"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-plv-pdu-02",
@@ -3247,6 +3289,9 @@
         "host": "ctl-rix-mot-01",
         "port": 30203,
         "dir": "ioc/rix/ict/R1.0.2",
+        "history": [
+            "ioc/rix/ict/R1.0.2"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-plv-pdu-03",
@@ -3257,6 +3302,9 @@
         "host": "ctl-rix-mot-01",
         "port": 30204,
         "dir": "ioc/rix/ict/R1.0.2",
+        "history": [
+            "ioc/rix/ict/R1.0.2"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-plv-pdu-04",
@@ -3296,6 +3344,7 @@
         "dir": "/reg/g/pcds/epics/ioc/rix/lcls-plc-rixs-optics/v1.7.0/iocBoot/ioc-rixs-optics/",
         "alias": "ioc-rixs-optics",
         "history": [
+            "/reg/g/pcds/epics/ioc/rix/lcls-plc-rixs-optics/v1.7.0/iocBoot/ioc-rixs-optics/",
             "ioc/rix/lcls-plc-rixs-optics/v1.5.0",
             "ioc/rix/lcls-plc-rixs-optics/v1.4.0"
         ],
@@ -3310,6 +3359,7 @@
         "port": 30001,
         "dir": "ioc/common/isegPower/R1.3.1",
         "history": [
+            "ioc/common/isegPower/R1.3.1",
             "ioc/common/isegPower/R1.3.0"
         ],
         "base_version": "3.15",
@@ -3322,6 +3372,9 @@
         "host": "ctl-rix-qrix-cam-02",
         "port": 34000,
         "dir": "ioc/rix/gigECam/R2.0.0",
+        "history": [
+            "ioc/rix/gigECam/R2.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-gige-01",
@@ -3332,6 +3385,9 @@
         "host": "ctl-rix-qrix-cam-02",
         "port": 34001,
         "dir": "ioc/rix/gigECam/R2.0.0",
+        "history": [
+            "ioc/rix/gigECam/R2.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-gige-02",
@@ -3342,6 +3398,9 @@
         "host": "ctl-rix-qrix-mot-01",
         "port": 32000,
         "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/smaract/build/iocBoot/ioc-rix-crix-mcs2-01",
+        "history": [
+            "/reg/g/pcds/epics-dev/wwright/ioc/rix/smaract/build/iocBoot/ioc-rix-crix-mcs2-01"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-mcp-qrix-01",
@@ -3352,6 +3411,9 @@
         "host": "ctl-rix-qrix-mot-01",
         "port": 32001,
         "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/smaract/build/iocBoot/ioc-rix-crix-mcs2-02",
+        "history": [
+            "/reg/g/pcds/epics-dev/wwright/ioc/rix/smaract/build/iocBoot/ioc-rix-crix-mcs2-02"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-mcp-qrix-02",
@@ -3362,6 +3424,9 @@
         "host": "ctl-rix-qrix-mot-01",
         "port": 31013,
         "dir": "/reg/g/pcds/epics-dev/ioc/rix/lcls-plc-qrix-motion/lcls-plc-qrix-motion/lcls-plc-qrix-motion/iocBoot/ioc-PLC-QRIX-MOT",
+        "history": [
+            "/reg/g/pcds/epics-dev/ioc/rix/lcls-plc-qrix-motion/lcls-plc-qrix-motion/lcls-plc-qrix-motion/iocBoot/ioc-PLC-QRIX-MOT"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-plc-qrix-mot",
@@ -3372,6 +3437,9 @@
         "host": "ctl-rix-qrix-mot-01",
         "port": 30101,
         "dir": "ioc/rix/ict/R1.0.2",
+        "history": [
+            "ioc/rix/ict/R1.0.2"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-plv-pdu-01",
@@ -3382,6 +3450,9 @@
         "host": "ctl-rix-qrix-mot-01",
         "port": 30102,
         "dir": "ioc/rix/ict/R1.0.2",
+        "history": [
+            "ioc/rix/ict/R1.0.2"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-plv-pdu-02",
@@ -3392,6 +3463,9 @@
         "host": "ctl-rix-qrix-mot-01",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/wwright/ioc/common/SmarPod",
+        "history": [
+            "/reg/g/pcds/epics-dev/wwright/ioc/common/SmarPod"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-smarpod-01",
@@ -3403,6 +3477,9 @@
         "port": 30002,
         "dir": "ioc/rix/pdu_snmp/R1.0.0",
         "alias": "Rack 3 PDU (QRIXS)",
+        "history": [
+            "ioc/rix/pdu_snmp/R1.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pwr-r03",
@@ -3414,6 +3491,9 @@
         "port": 39100,
         "dir": "ioc/rix/pdu_snmp/R1.0.0",
         "alias": "Rack 7 PDU (Laser)",
+        "history": [
+            "ioc/rix/pdu_snmp/R1.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pwr-r07",
@@ -3424,6 +3504,9 @@
         "host": "ctl-rix-qrix-vac-01",
         "port": 31313,
         "dir": "/reg/g/pcds/epics-dev/ioc/rix/lcls-plc-qrix-vac/lcls-plc-qrix-vac/iocBoot/ioc-PLC-QRIX-VAC",
+        "history": [
+            "/reg/g/pcds/epics-dev/ioc/rix/lcls-plc-qrix-vac/lcls-plc-qrix-vac/iocBoot/ioc-PLC-QRIX-VAC"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-plc-qrix-vac",
@@ -3462,6 +3545,9 @@
         "port": 39100,
         "dir": "ioc/rix/pdu_snmp/R1.0.0",
         "alias": "Rack 6 PDU (PAXS)",
+        "history": [
+            "ioc/rix/pdu_snmp/R1.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pwr-06",
@@ -3473,6 +3559,7 @@
         "port": 37001,
         "dir": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/rixdev",
         "history": [
+            "/reg/g/pcds/epics-dev/pennebak/sample-delivery/rixdev",
             "/reg/g/pcds/epics-dev/pennebak/sample-delivery/cxidev/ioc-rix-sds"
         ],
         "base_version": "3.15",
@@ -4991,6 +5078,7 @@
         "port": 30010,
         "dir": "ioc/common/andorCam/R1.0.1",
         "history": [
+            "ioc/common/andorCam/R1.0.1",
             "ioc/common/andorCam/R0.6.0",
             "/reg/g/pcds/epics-dev/ddamiani/ioc/common/andorCam"
         ],
@@ -5005,6 +5093,9 @@
         "host": "daq-rix-andor-01",
         "port": 30012,
         "dir": "ioc/common/andorCam/R1.0.1",
+        "history": [
+            "ioc/common/andorCam/R1.0.1"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-norm-andor",
@@ -5016,6 +5107,7 @@
         "port": 30011,
         "dir": "ioc/common/andorCam/R1.0.1",
         "history": [
+            "ioc/common/andorCam/R1.0.1",
             "ioc/common/andorCam/R0.6.0"
         ],
         "delay": 30,
