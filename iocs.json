@@ -14984,6 +14984,7 @@
         "host": "ioc-mfx-wave8",
         "port": 30002,
         "dir": "/cds/group/pcds/epics-dev/agilardi/iocs/mfx/vimbaCam",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-goldeye1",
