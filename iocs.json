@@ -20277,13 +20277,13 @@
     {
         "host": "ioc-xpp-misc01",
         "port": 3536,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "dir": "ioc/xpp/ims/R6.0.4",
         "alias": "HXR Dumb Motor Portable",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-hxr-dumb-portable01-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.4/build/iocBoot/ioc-hxr-dumb-portable01-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xpp-misc01",
@@ -20422,7 +20422,7 @@
     {
         "host": "ioc-xpp-misc01",
         "port": 30343,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/lakeshore336",
+        "dir": "ioc/xpp/lakeshore336/R2.2.1",
         "disable": true,
         "alias": "USR Lakeshore 336",
         "history": [
@@ -20431,7 +20431,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-usr-ls336",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/lakeshore336/build/iocBoot/ioc-xpp-usr-ls336/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/lakeshore336/R2.2.1/build/iocBoot/ioc-xpp-usr-ls336/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.1/bin/rhel7-x86_64/ls336"
     },
     {
