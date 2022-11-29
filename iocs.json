@@ -21352,12 +21352,12 @@
     {
         "host": "ioc-xpp-usr01",
         "port": 32508,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/dg",
+        "dir": "ioc/xpp/dg/R0.0.3",
         "alias": "USR Delaygen. (DG645) 2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-delaygen2",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/dg/build/iocBoot/ioc-xpp-delaygen2/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/dg/R0.0.3/build/iocBoot/ioc-xpp-delaygen2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/dg/R2.0.3/bin/linux-x86_64/delaygenApp"
     },
     {
@@ -21523,13 +21523,13 @@
     {
         "host": "ioc-xpp-usr01",
         "port": 35425,
-        "dir": "/reg/g/pcds/epics-dev/spencera/common/lecroy",
+        "dir": "ioc/common/lecroy/R1.0.3",
         "alias": "MISC- Lecroy Wavemaster",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-lecroy-01",
-        "script": "/reg/g/pcds/epics-dev/spencera/common/lecroy/iocBoot/ioc-xpp-lecroy-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/spencera/common/lecroy/bin/linux-x86_64/lecroy"
+        "script": "/reg/g/pcds/epics/ioc/common/lecroy/R1.0.3/iocBoot/ioc-xpp-lecroy-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/lecroy/R1.0.3/bin/linux-x86_64/lecroy"
     },
     {
         "host": "ioc-xpp-usr01",
