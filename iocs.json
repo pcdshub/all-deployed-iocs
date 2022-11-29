@@ -5054,23 +5054,23 @@
     {
         "host": "daq-mfx-pgp02",
         "port": 38001,
-        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/mfx/epix/current",
+        "dir": "ioc/mfx/epix/R1.0.3",
         "alias": "DET - ePix100.1 IOC",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-epix100",
-        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/mfx/epix/current/build/iocBoot/ioc-mfx-epix100/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/mfx/epix/R1.0.3/build/iocBoot/ioc-mfx-epix100/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.4.6/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-mfx-pgp02",
         "port": 38002,
-        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/mfx/epix/current",
+        "dir": "ioc/mfx/epix/R1.0.3",
         "alias": "DET - ePix100.2 IOC",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-epix100-2",
-        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/mfx/epix/current/build/iocBoot/ioc-mfx-epix100-2/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/mfx/epix/R1.0.3/build/iocBoot/ioc-mfx-epix100-2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.4.6/bin/rhel7-x86_64/epixMonIoc"
     },
     {
