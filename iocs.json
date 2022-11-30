@@ -21033,7 +21033,7 @@
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-tt",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/timetool/build/iocBoot/ioc-xpp-tt/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/timetool/bin/rhel7-x86_64/gsd"
+        "binary": "/cds/group/pcds/epics/ioc/common/timetool/R1.0.3/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ioc-xpp-rec02",
