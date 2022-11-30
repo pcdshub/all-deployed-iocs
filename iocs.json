@@ -8123,7 +8123,8 @@
         "host": "ioc-cxi-sc2",
         "port": 34500,
         "dir": "/reg/g/pcds/epics-dev/pennebak/cxi/pmc100",
-        "alias": "Piezo SC2 PP-30 Motor",
+        "disable": true,
+        "alias": "Remove - DT- Piezo SC2 PP-30 Motor",
         "history": [
             "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/pmc100"
         ],
