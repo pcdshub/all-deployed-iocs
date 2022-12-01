@@ -7948,7 +7948,6 @@
         "host": "ioc-cxi-sc1",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc",
-        "disable": true,
         "alias": "MMC - SC2 4 Axis",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -7971,7 +7970,8 @@
         "host": "ioc-cxi-sc1",
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc",
-        "alias": "MMC - SC2 1 Axis",
+        "disable": true,
+        "alias": "Remove or Rename - DT- MMC - SC2 1 Axis",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-mmc-pp30-07",
@@ -7982,7 +7982,8 @@
         "host": "ioc-cxi-sc1",
         "port": 30004,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc",
-        "alias": "MMC - SC2 1 Axis 2",
+        "disable": true,
+        "alias": "Remove or Rename - DT - MMC - SC2 1 Axis 2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-mmc-pp30-08",
@@ -8118,22 +8119,6 @@
         "name": "ioc-cxi-sc2-02-pico",
         "script": "/reg/g/pcds/epics/ioc/cxi/picoMotion/R2.1.0/build/iocBoot/ioc-cxi-sc2-02-pico/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/picoMotion/R2.1.0/bin/linux-x86/motion"
-    },
-    {
-        "host": "ioc-cxi-sc2",
-        "port": 34500,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/cxi/pmc100",
-        "disable": true,
-        "alias": "Remove - DT- Piezo SC2 PP-30 Motor",
-        "history": [
-            "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/pmc100"
-        ],
-        "delay": 10,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-sc2-PMC100",
-        "script": "/reg/g/pcds/epics-dev/pennebak/cxi/pmc100/build/iocBoot/ioc-cxi-sc2-PMC100/st.cmd",
-        "binary": "/cds/home/d/dhzhang/Epics/arcus_test/current/bin/linux-x86/arcus"
     },
     {
         "host": "ioc-cxi-usr1",
