@@ -6938,7 +6938,6 @@
         "host": "ioc-cxi-mot2",
         "port": 30519,
         "dir": "ioc/cxi/ims/R6.0.4",
-        "disable": true,
         "alias": "IMS PI2",
         "history": [
             "ioc/cxi/ims/R2.0.0",
