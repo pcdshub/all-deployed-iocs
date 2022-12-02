@@ -13975,12 +13975,12 @@
     {
         "host": "ioc-mfx-cam01",
         "port": 31001,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/NewportXPS8",
+        "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/NewportXPS8",
         "alias": "LAS - Motion XPS 1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-xps-las1",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/mfx/NewportXPS8/build/iocBoot/ioc-mfx-xps-las1/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/NewportXPS8/build/iocBoot/ioc-mfx-xps-las1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
     },
     {
