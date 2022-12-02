@@ -3474,6 +3474,16 @@
     },
     {
         "host": "ctl-rix-qrix-mot-01",
+        "port": 34001,
+        "dir": "/cds/home/w/wright8/pcdshub_repos/solid-attenuator/solid_attenuator/ioc_kfe_at1k2_calc",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-at1k2-calc",
+        "script": "/cds/home/w/wright8/pcdshub_repos/solid-attenuator/solid_attenuator/ioc_kfe_at1k2_calc/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ctl-rix-qrix-mot-01",
         "port": 30002,
         "dir": "ioc/rix/pdu_snmp/R1.0.0",
         "alias": "Rack 3 PDU (QRIXS)",
