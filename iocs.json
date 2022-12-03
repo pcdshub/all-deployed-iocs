@@ -3475,12 +3475,12 @@
     {
         "host": "ctl-rix-qrix-mot-01",
         "port": 34001,
-        "dir": "/cds/home/w/wright8/pcdshub_repos/solid-attenuator/solid_attenuator/ioc_kfe_at1k2_calc",
+        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/ioc-rix-at1k2-calc",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-at1k2-calc",
-        "script": "/cds/home/w/wright8/pcdshub_repos/solid-attenuator/solid_attenuator/ioc_kfe_at1k2_calc/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/ioc-rix-at1k2-calc/st.cmd",
+        "binary": "/usr/bin/env bash"
     },
     {
         "host": "ctl-rix-qrix-mot-01",
@@ -11756,6 +11756,7 @@
         "host": "ioc-mec-ipimb01",
         "port": 32503,
         "dir": "ioc/mec/gigECam/R1.1.1",
+        "disable": true,
         "alias": "Gige 3 Target Chamber",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
@@ -11767,6 +11768,7 @@
         "host": "ioc-mec-ipimb01",
         "port": 32504,
         "dir": "ioc/mec/gigECam/R1.1.1",
+        "disable": true,
         "alias": "Gige 4 Target Chamber",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
@@ -11778,6 +11780,7 @@
         "host": "ioc-mec-ipimb01",
         "port": 32505,
         "dir": "ioc/mec/gigECam/R1.1.1",
+        "disable": true,
         "alias": "Gige 5 Target Chamber",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
@@ -11789,6 +11792,7 @@
         "host": "ioc-mec-ipimb01",
         "port": 32506,
         "dir": "ioc/mec/gigECam/R1.1.1",
+        "disable": true,
         "alias": "Gige 6 Target Chamber",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
