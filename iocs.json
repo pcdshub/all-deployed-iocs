@@ -194,7 +194,7 @@
     {
         "host": "ctl-kfe-cam-03",
         "port": 39301,
-        "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam-TPR/gigECam-TPR-git",
+        "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-TPR-git",
         "alias": "IM1K3",
         "history": [
             "/reg/neh/home/zlentz/github/lcls2-fee-cams"
@@ -202,8 +202,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-im1k3-gige",
-        "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam-TPR/gigECam-TPR-git/children/build/iocBoot/ioc-im1k3-gige/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam-TPR/gigECam-TPR-git/bin/rhel7-x86_64/gigeTpr"
+        "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-TPR-git/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-kfe-cam-03",
@@ -17009,15 +17009,15 @@
     {
         "host": "ioc-tst-13",
         "port": 30201,
-        "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam-TPR/gigECam-TPR-git",
+        "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-TPR-git",
         "history": [
             "/reg/g/pcds/epics-dev/bhill/epics/ioc/tst/gigECam/current"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-g201b-1",
-        "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam-TPR/gigECam-TPR-git/children/build/iocBoot/ioc-tst-g201b-1/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam-TPR/gigECam-TPR-git/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-TPR-git/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-tst-13",
