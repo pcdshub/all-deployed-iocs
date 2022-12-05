@@ -20313,8 +20313,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-user-xps1",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/NewportXPS8/build/iocBoot/ioc-xpp-user-xps1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/NewportXPS8/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xpp-misc01",
@@ -20324,8 +20324,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-user-xps2",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/NewportXPS8/build/iocBoot/ioc-xpp-user-xps2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/NewportXPS8/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xpp-misc01",
