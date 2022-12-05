@@ -11845,7 +11845,7 @@
     {
         "host": "ioc-mec-ipimb01",
         "port": 35000,
-        "dir": "/reg/g/pcds/epics/ioc/mec/pu610k/R1.1.2/children/build/iocBoot/ioc-mec-pu610k/",
+        "dir": "ioc/mec/pu610k/R1.1.2",
         "alias": "PFN Charging",
         "history": [
             "ioc/mec/pu610k/R1.0.3",
