@@ -1170,12 +1170,12 @@
     {
         "host": "ctl-las-ftl-srv01",
         "port": 35000,
-        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/common/iTech_RFOF/children_test",
+        "dir": "ioc/las/iTech_RFOF/R1.0.2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-rfof-itech-01",
-        "script": "/reg/g/pcds/epics-dev/wwright/ioc/common/iTech_RFOF/children_test/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/las/iTech_RFOF/R1.0.2/build/iocBoot/ioc-las-rfof-itech-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/iTech_RFOF/R1.0.4/bin/rhel7-x86_64/rfof"
     },
     {
         "host": "ctl-las-ftl-srv01",
@@ -14923,13 +14923,14 @@
     },
     {
         "host": "ioc-mfx-wave8",
-        "port": 30002,
-        "dir": "/cds/group/pcds/epics-dev/agilardi/iocs/mfx/vimbaCam",
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/vimbaCam",
+        "alias": "ioc-mfx-goldeye",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-goldeye1",
-        "script": "/cds/group/pcds/epics-dev/agilardi/iocs/mfx/vimbaCam/children/build/iocBoot/ioc-mfx-goldeye1/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/agilardi/iocs/mfx/vimbaCam/bin/rhel7-x86_64/usb"
+        "script": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/vimbaCam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-mfx-wave8",
