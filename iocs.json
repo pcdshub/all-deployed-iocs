@@ -65,6 +65,7 @@
         "dir": "ioc/common/pgpCamlink/R0.8.0",
         "alias": "IM1K0",
         "history": [
+            "ioc/common/pgpCamlink/R0.8.0",
             "ioc/common/pgpCamlink/R0.7.0",
             "ioc/common/pgpCamlink/R0.5.1",
             "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpCamlink/current"
@@ -81,6 +82,7 @@
         "dir": "ioc/common/pgpCamlink/R0.8.0",
         "alias": "IM1K4",
         "history": [
+            "ioc/common/pgpCamlink/R0.8.0",
             "ioc/common/pgpCamlink/R0.7.0",
             "ioc/common/pgpCamlink/R0.5.1",
             "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpCamlink/current"
@@ -96,6 +98,7 @@
         "port": 39009,
         "dir": "ioc/common/pgpRogue/R0.5.0",
         "history": [
+            "ioc/common/pgpRogue/R0.5.0",
             "ioc/common/pgpRogue/R0.3.0",
             "ioc/common/axiRogue/R0.2.0"
         ],
@@ -109,6 +112,9 @@
         "host": "ctl-kfe-cam-01",
         "port": 30002,
         "dir": "/cds/home/m/mkestra/gigECam",
+        "history": [
+            "/cds/home/m/mkestra/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-rtdsk0-gige",
@@ -120,6 +126,9 @@
         "port": 39100,
         "dir": "/cds/home/m/mkestra/gigECam",
         "alias": "ioc-kfe-st1k4-gige",
+        "history": [
+            "/cds/home/m/mkestra/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-st1k4-gige",
@@ -130,6 +139,9 @@
         "host": "ctl-kfe-cam-02",
         "port": 34201,
         "dir": "ioc/kfe/gigECam/R1.0.1",
+        "history": [
+            "ioc/kfe/gigECam/R1.0.1"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-cam-kfe-zos-01",
@@ -142,6 +154,7 @@
         "dir": "ioc/kfe/gigECam/R1.0.0",
         "alias": "IM1K1",
         "history": [
+            "ioc/kfe/gigECam/R1.0.0",
             "/reg/neh/home/zlentz/github/lcls2-fee-cams"
         ],
         "base_version": "3.15",
@@ -155,6 +168,9 @@
         "port": 39104,
         "dir": "ioc/kfe/gigECam/R1.1.0",
         "alias": "IM2K0 - GIGE",
+        "history": [
+            "ioc/kfe/gigECam/R1.1.0"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-im2k0-gige",
@@ -167,6 +183,7 @@
         "dir": "ioc/kfe/gigECam/R1.0.0",
         "alias": "IM2K1",
         "history": [
+            "ioc/kfe/gigECam/R1.0.0",
             "/reg/neh/home/zlentz/github/lcls2-fee-cams"
         ],
         "base_version": "3.15",
@@ -181,6 +198,7 @@
         "dir": "ioc/kfe/gigECam/R1.0.0",
         "alias": "IM2K4",
         "history": [
+            "ioc/kfe/gigECam/R1.0.0",
             "ioc/kfe/gigECam/R0.1.0",
             "/reg/g/pcds/epics-dev/bhill/epics/ioc/kfe/gigECam/gigECam.git",
             "/reg/neh/home/zlentz/github/lcls2-fee-cams"
@@ -194,31 +212,38 @@
     {
         "host": "ctl-kfe-cam-03",
         "port": 39301,
-        "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git",
+        "dir": "ioc/kfe/gigECam/R1.2.0",
         "alias": "IM1K3",
         "history": [
+            "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git",
             "/reg/neh/home/zlentz/github/lcls2-fee-cams"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-im1k3-gige",
-        "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/children/build/iocBoot/ioc-im1k3-gige/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/rhel7-x86_64/gigeTpr"
+        "script": "/reg/g/pcds/epics/ioc/kfe/gigECam/R1.2.0/build/iocBoot/ioc-im1k3-gige/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.1.0/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-kfe-cam-03",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/tprStandalone/current",
+        "dir": "ioc/common/tprStandalone/R1.1.0",
+        "history": [
+            "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/tprStandalone/current"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-tpr1",
-        "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/tprStandalone/current/children/build/iocBoot/ioc-kfe-tpr1/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/tprStandalone/tprStandalone-git/bin/rhel7-x86_64/tpr"
+        "script": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.0/children/build/iocBoot/ioc-kfe-tpr1/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/tprStandalone/R1.1.0/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "ctl-kfe-misc-01",
         "port": 30020,
         "dir": "/reg/g/pcds/epics-dev/klauer/archstats",
+        "history": [
+            "/reg/g/pcds/epics-dev/klauer/archstats"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-archstats",
@@ -230,6 +255,9 @@
         "port": 39504,
         "dir": "/reg/g/pcds/epics-dev/aegger/R1.0.0",
         "alias": "imat1k4",
+        "history": [
+            "/reg/g/pcds/epics-dev/aegger/R1.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-at1k4-gige",
@@ -240,6 +268,9 @@
         "host": "ctl-kfe-misc-01",
         "port": 30022,
         "dir": "/reg/g/pcds/epics-dev/nrw/iocs/thermocon/current",
+        "history": [
+            "/reg/g/pcds/epics-dev/nrw/iocs/thermocon/current"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-fee-thermocon",
@@ -252,6 +283,7 @@
         "dir": "ioc/kfe/lcls-plc-kfe-arbiter/v2.0.1/iocBoot/ioc-ArbiterPLC",
         "alias": "KFE Arbiter",
         "history": [
+            "ioc/kfe/lcls-plc-kfe-arbiter/v2.0.1/iocBoot/ioc-ArbiterPLC",
             "/reg/g/pcds/epics-dev/ioc/kfe/lcls-plc-kfe-arbiter/iocBoot/ioc-ArbiterPLC",
             "/reg/g/pcds/epics-dev/awallace/lcls-plc-kfe-arbiter/iocBoot/ioc-ArbiterPLC"
         ],
@@ -265,6 +297,9 @@
         "host": "ctl-kfe-misc-01",
         "port": 30021,
         "dir": "/reg/g/pcds/epics-dev/klauer/ioc-kfe-at1k4-calc",
+        "history": [
+            "/reg/g/pcds/epics-dev/klauer/ioc-kfe-at1k4-calc"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-at1k4-calc",
@@ -276,6 +311,7 @@
         "port": 30309,
         "dir": "ioc/common/Keithley6514/R1.9.4",
         "history": [
+            "ioc/common/Keithley6514/R1.9.4",
             "ioc/common/Keithley6514/R1.9.3",
             "ioc/common/Keithley6514/R1.9.2"
         ],
@@ -290,6 +326,9 @@
         "port": 30001,
         "dir": "ioc/common/lcp/R2.0.1",
         "alias": "KFE LCP (FEE Rack Room)",
+        "history": [
+            "ioc/common/lcp/R2.0.1"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-lcp-01",
@@ -384,6 +423,9 @@
         "host": "ctl-kfe-misc-01",
         "port": 30400,
         "dir": "/reg/g/pcds/epics-dev/jyin/epics/ioc/kfe/Leviton/current",
+        "history": [
+            "/reg/g/pcds/epics-dev/jyin/epics/ioc/kfe/Leviton/current"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-pwr-r08",
@@ -395,6 +437,7 @@
         "port": 30150,
         "dir": "/reg/g/pcds/epics-dev/nrw/iocs/ek9000/build/iocBoot/ioc-kfe-rtd01/",
         "history": [
+            "/reg/g/pcds/epics-dev/nrw/iocs/ek9000/build/iocBoot/ioc-kfe-rtd01/",
             "/reg/g/pcds/epics-dev/lorelli/ioc-fee-rtd"
         ],
         "base_version": "3.15",
@@ -408,6 +451,7 @@
         "port": 30306,
         "dir": "ioc/common/Keithley6514/R1.9.4",
         "history": [
+            "ioc/common/Keithley6514/R1.9.4",
             "ioc/common/Keithley6514/R1.9.3"
         ],
         "base_version": "3.15",
@@ -420,6 +464,9 @@
         "host": "ctl-kfe-misc-01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/klauer/whatrecord/fee",
+        "history": [
+            "/reg/g/pcds/epics-dev/klauer/whatrecord/fee"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "whatrecord-kfe-lfe-server",
@@ -431,6 +478,7 @@
         "port": 34203,
         "dir": "ioc/kfe/gigECam/R1.0.0",
         "history": [
+            "ioc/kfe/gigECam/R1.0.0",
             "/reg/neh/home/zlentz/github/lcls2-fee-cams"
         ],
         "base_version": "3.15",
@@ -444,6 +492,7 @@
         "port": 34204,
         "dir": "ioc/kfe/gigECam/R1.0.0",
         "history": [
+            "ioc/kfe/gigECam/R1.0.0",
             "/reg/neh/home/zlentz/github/lcls2-fee-cams"
         ],
         "base_version": "3.15",
@@ -458,6 +507,7 @@
         "dir": "ioc/kfe/lcls-plc-kfe-motion/v3.0.1",
         "alias": "KFE CC Motion",
         "history": [
+            "ioc/kfe/lcls-plc-kfe-motion/v3.0.1",
             "/reg/g/pcds/epics-dev/zlentz/lcls-plc-kfe-motion"
         ],
         "base_version": "3.15",
@@ -471,6 +521,7 @@
         "port": 30250,
         "dir": "ioc/kfe/picoMotion/R1.0.1",
         "history": [
+            "ioc/kfe/picoMotion/R1.0.1",
             "/reg/neh/home/zlentz/github/lcls2-ref-pico"
         ],
         "base_version": "3.15",
@@ -484,6 +535,7 @@
         "port": 30103,
         "dir": "/reg/g/pcds/epics/ioc/tmo/lcls-plc-tmo-optics/v2.2.0/iocBoot/ioc-tmo-optics/",
         "history": [
+            "/reg/g/pcds/epics/ioc/tmo/lcls-plc-tmo-optics/v2.2.0/iocBoot/ioc-tmo-optics/",
             "/reg/g/pcds/epics-dev/awallace/lcls-plc-tmo-optics",
             "/reg/g/pcds/epics-dev/sfsyunus/lcls-plc-tmo-optics",
             "/reg/neh/home/sheppard/HOMS/ioc/lcls-plc-tmo-optics"
@@ -499,6 +551,7 @@
         "port": 39142,
         "dir": "/reg/g/pcds/epics-dev/ioc/kfe/lcls-plc-kfe-gmd-vac/iocBoot/ioc-plc-kfe-gmd-vac",
         "history": [
+            "/reg/g/pcds/epics-dev/ioc/kfe/lcls-plc-kfe-gmd-vac/iocBoot/ioc-plc-kfe-gmd-vac",
             "/reg/g/pcds/epics-dev/nwbrown/lcls-plc-kfe-gmd-vac/plc/iocBoot/ioc-plc-kfe-gmd-vac"
         ],
         "base_version": "3.15",
@@ -512,6 +565,7 @@
         "port": 30102,
         "dir": "/reg/g/pcds/epics-dev/ioc/kfe/ioc-kfe-gmd-vac-serial/current",
         "history": [
+            "/reg/g/pcds/epics-dev/ioc/kfe/ioc-kfe-gmd-vac-serial/current",
             "/reg/g/pcds/epics-dev/nwbrown/vacuum_IOCs/current"
         ],
         "base_version": "3.15",
@@ -525,6 +579,7 @@
         "port": 39140,
         "dir": "/reg/g/pcds/epics-dev/ioc/kfe/lcls-plc-kfe-vac/ioc/ioc-kfe-vac",
         "history": [
+            "/reg/g/pcds/epics-dev/ioc/kfe/lcls-plc-kfe-vac/ioc/ioc-kfe-vac",
             "/reg/g/pcds/epics-dev/nwbrown/lcls-plc-kfe-vac/plc/iocBoot/ioc-kfe-vac"
         ],
         "base_version": "3.15",
@@ -538,6 +593,7 @@
         "port": 30100,
         "dir": "/reg/g/pcds/epics-dev/ioc/kfe/ioc-kfe-vac-support/current",
         "history": [
+            "/reg/g/pcds/epics-dev/ioc/kfe/ioc-kfe-vac-support/current",
             "/reg/neh/home/nwbrown/Documents/kfe-workspace/current"
         ],
         "base_version": "3.15",
@@ -551,6 +607,7 @@
         "port": 39141,
         "dir": "/reg/g/pcds/epics-dev/ioc/kfe/lcls-plc-kfe-xgmd-vac/iocBoot/ioc-plc-kfe-xgmd-vac",
         "history": [
+            "/reg/g/pcds/epics-dev/ioc/kfe/lcls-plc-kfe-xgmd-vac/iocBoot/ioc-plc-kfe-xgmd-vac",
             "/reg/g/pcds/epics-dev/nwbrown/lcls-plc-kfe-xgmd-vac/plc/iocBoot/ioc-plc-kfe-xgmd-vac"
         ],
         "base_version": "3.15",
@@ -564,6 +621,7 @@
         "port": 30101,
         "dir": "ioc/common/vacuum/R1.0.5",
         "history": [
+            "ioc/common/vacuum/R1.0.5",
             "/reg/g/pcds/epics-dev/nwbrown/vacuum_IOCs/current"
         ],
         "base_version": "3.15",
@@ -578,6 +636,7 @@
         "dir": "/reg/g/pcds/epics-dev/ioc/kfe/lcls-plc-kfe-gatt",
         "alias": "ioc-kfe-gatt",
         "history": [
+            "/reg/g/pcds/epics-dev/ioc/kfe/lcls-plc-kfe-gatt",
             "/reg/g/pcds/epics-dev/mghaly/lcls-plc-kfe-gatt"
         ],
         "base_version": "3.15",
@@ -10711,6 +10770,7 @@
         "port": 30001,
         "dir": "ioc/common/isegPower/R1.3.2",
         "history": [
+            "ioc/common/isegPower/R1.3.2",
             "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/isegPower/current"
         ],
         "base_version": "3.15",
