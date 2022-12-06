@@ -1174,8 +1174,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-rfof-itech-01",
-        "script": "/reg/g/pcds/epics-dev/wwright/ioc/common/iTech_RFOF/children_test/build/iocBoot/ioc-las-rfof-itech-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/wwright8/ioc/common/iTech_RFOF/bin/rhel7-x86_64/rfof"
+        "script": "/reg/g/pcds/epics-dev/wwright/ioc/common/iTech_RFOF/children_test/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-las-ftl-srv01",
@@ -14925,7 +14925,6 @@
         "host": "ioc-mfx-wave8",
         "port": 30002,
         "dir": "/cds/group/pcds/epics-dev/agilardi/iocs/mfx/vimbaCam",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-goldeye1",
