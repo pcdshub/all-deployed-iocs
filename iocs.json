@@ -22736,7 +22736,7 @@
     {
         "host": "ioc-xrt-xcsmot1",
         "port": 39151,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xrt/ims",
+        "dir": "ioc/xrt/ims/R6.0.3",
         "alias": "DG3 \"motion\": YAG3m/Slit 3m",
         "history": [
             "ioc/xrt/ims/R2.2.3",
@@ -22745,7 +22745,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-hfx-dg3-ims",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xrt/ims/build/iocBoot/ioc-xrt-hfx-dg3-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xrt/ims/R6.0.3/build/iocBoot/ioc-xrt-hfx-dg3-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
     },
     {
@@ -22773,7 +22773,7 @@
     {
         "host": "ioc-xrt-xcsmot1",
         "port": 39154,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xrt/ims",
+        "dir": "ioc/xrt/ims/R6.0.3",
         "alias": "UM6 \"motion\": SLIT01",
         "history": [
             "ioc/xrt/ims/R2.2.3",
@@ -22782,7 +22782,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-hxx-um6-slit01-ims",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xrt/ims/build/iocBoot/ioc-xrt-hxx-um6-slit01-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xrt/ims/R6.0.3/build/iocBoot/ioc-xrt-hxx-um6-slit01-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
     },
     {
