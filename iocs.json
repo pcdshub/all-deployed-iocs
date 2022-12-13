@@ -22728,7 +22728,7 @@
     {
         "host": "ioc-xrt-xcsmot1",
         "port": 39150,
-        "dir": "ioc/xrt/ims/R2.2.7",
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xrt/ims",
         "alias": "DG2 \"motion\": IPM2/YAG2/Slit2 ",
         "history": [
             "/reg/neh/home/rajan-01/checkouts/epics/xcs/ims/current"
@@ -22737,13 +22737,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-hfx-dg2-ims",
-        "script": "/reg/g/pcds/epics/ioc/xrt/ims/R2.2.7/build/iocBoot/ioc-xrt-hfx-dg2-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.5/bin/linux-x86/ims"
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xrt/ims/build/iocBoot/ioc-xrt-hfx-dg2-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
     },
     {
         "host": "ioc-xrt-xcsmot1",
         "port": 39151,
-        "dir": "ioc/xrt/ims/R2.2.4",
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xrt/ims",
         "alias": "DG3 \"motion\": YAG3m/Slit 3m",
         "history": [
             "ioc/xrt/ims/R2.2.3",
@@ -22752,8 +22752,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-hfx-dg3-ims",
-        "script": "/reg/g/pcds/epics/ioc/xrt/ims/R2.2.4/build/iocBoot/ioc-xrt-hfx-dg3-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.0/bin/linux-x86/ims"
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xrt/ims/build/iocBoot/ioc-xrt-hfx-dg3-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
     },
     {
         "host": "ioc-xrt-xcsmot1",
