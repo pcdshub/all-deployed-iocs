@@ -3119,7 +3119,7 @@
     {
         "host": "ctl-rix-crix-mot-01",
         "port": 35001,
-        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336",
+        "dir": "ioc/rix/lakeshore336/R1.0.2",
         "history": [
             "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336",
             "ioc/rix/lakeshore336/R1.0.0",
@@ -3128,13 +3128,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-cryo-ls336-01",
-        "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336/build/iocBoot/ioc-crix-cryo-ls336-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/lakeshore336/R1.0.2/build/iocBoot/ioc-crix-cryo-ls336-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.3/bin/rhel7-x86_64/ls336"
     },
     {
         "host": "ctl-rix-crix-mot-01",
         "port": 35002,
-        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336",
+        "dir": "ioc/rix/lakeshore336/R1.0.2",
         "history": [
             "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336",
             "ioc/rix/lakeshore336/R1.0.0",
@@ -3143,7 +3143,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-cryo-ls336-02",
-        "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336/build/iocBoot/ioc-crix-cryo-ls336-02/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/lakeshore336/R1.0.2/build/iocBoot/ioc-crix-cryo-ls336-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.3/bin/rhel7-x86_64/ls336"
     },
     {
@@ -3246,7 +3246,7 @@
     {
         "host": "ctl-rix-crix-vac-01",
         "port": 31020,
-        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336",
+        "dir": "ioc/rix/lakeshore336/R1.0.2",
         "history": [
             "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336",
             "ioc/rix/lakeshore336/R1.0.1",
@@ -3255,7 +3255,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-usr-ls336",
-        "script": "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336/build/iocBoot/ioc-crix-usr-ls336/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/lakeshore336/R1.0.2/build/iocBoot/ioc-crix-usr-ls336/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.3/bin/rhel7-x86_64/ls336"
     },
     {
