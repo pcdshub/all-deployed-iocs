@@ -1934,11 +1934,11 @@
     {
         "host": "ctl-las-lhn-01",
         "port": 30002,
-        "dir": "ioc/las/evr/R1.0.6",
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/evr/evr-git",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-evr-01",
-        "script": "/reg/g/pcds/epics/ioc/las/evr/R1.0.6/build/iocBoot/ioc-las-lhn-evr-01/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/evr/evr-git/build/iocBoot/ioc-las-lhn-evr-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/rhel7-x86_64/evr"
     },
     {
