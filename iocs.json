@@ -22721,7 +22721,7 @@
     {
         "host": "ioc-xrt-xcsmot1",
         "port": 39150,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xrt/ims",
+        "dir": "ioc/xrt/ims/R6.0.3",
         "alias": "DG2 \"motion\": IPM2/YAG2/Slit2 ",
         "history": [
             "/reg/neh/home/rajan-01/checkouts/epics/xcs/ims/current"
@@ -22730,7 +22730,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-hfx-dg2-ims",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xrt/ims/build/iocBoot/ioc-xrt-hfx-dg2-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xrt/ims/R6.0.3/build/iocBoot/ioc-xrt-hfx-dg2-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
     },
     {
