@@ -12072,17 +12072,6 @@
     },
     {
         "host": "ioc-mec-las-gige01",
-        "port": 32537,
-        "dir": "/cds/home/p/peregrin/modules/mec/gigECam/current",
-        "alias": "Gige LPL 100J #2",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-gige37",
-        "script": "/cds/home/p/peregrin/modules/mec/gigECam/current/build/iocBoot/ioc-mec-gige37/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/linux-x86_64/gige"
-    },
-    {
-        "host": "ioc-mec-las-gige01",
         "port": 32507,
         "dir": "ioc/mec/gigECam/R1.3.0",
         "base_version": "3.15",
@@ -12186,6 +12175,17 @@
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige35",
         "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.3.0/build/iocBoot/ioc-mec-gige35/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/linux-x86_64/gige"
+    },
+    {
+        "host": "ioc-mec-las-gige02",
+        "port": 32537,
+        "dir": "/cds/home/p/peregrin/modules/mec/gigECam/current",
+        "alias": "Gige LPL 100J #2",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-gige37",
+        "script": "/cds/home/p/peregrin/modules/mec/gigECam/current/build/iocBoot/ioc-mec-gige37/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/linux-x86_64/gige"
     },
     {
@@ -15119,14 +15119,14 @@
     {
         "host": "ioc-rix-mpod-01",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/isegPower",
+        "dir": "ioc/rix/isegPower/R1.3.1",
         "history": [
             "/reg/g/pcds/epics-dev/spencera/rix/isegPower"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-mpod-01",
-        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/isegPower/build/iocBoot/ioc-crix-mpod-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/isegPower/R1.3.1/build/iocBoot/ioc-crix-mpod-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/isegPower/R1.3.2/bin/linux-arm-apalis/isegPower"
     },
     {
@@ -22409,6 +22409,17 @@
         "name": "ioc-xrt-xcsimb1",
         "script": "/reg/g/pcds/epics/ioc/xrt/ipimb/R4.2.0/build/iocBoot/ioc-xrt-xcsimb1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ipimb/R3.1.7/bin/linux-x86_64/ipimbIoc"
+    },
+    {
+        "host": "ioc-xrt-rec04",
+        "port": 39101,
+        "dir": "/reg/g/pcds/epics-dev/mkestra/ioc/xrt/gigECam",
+        "alias": "XCS-YAG3M",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
+        "name": "ioc-xrt-gige-yag3m",
+        "script": "/reg/g/pcds/epics-dev/mkestra/ioc/xrt/gigECam/build/iocBoot/ioc-xrt-gige-yag3m/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xrt-rec05",
