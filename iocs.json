@@ -11558,7 +11558,7 @@
         "dir": "ioc/fee/GasDetDAQ/R4.0.21",
         "alias": "GasDetDAQ",
         "history": [
-            "/reg/neh/home/rajan-01/checkouts/GasDetDAQ/current"
+            "/cds/home/m/mcbrowne/trunk2/ioc/fee/GasDetDAQ"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/lfe/iocmanager.cfg",
