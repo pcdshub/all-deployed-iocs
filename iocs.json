@@ -3190,15 +3190,15 @@
     {
         "host": "ctl-rix-crix-mot-01",
         "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/shimadzu-lc20/next",
+        "dir": "ioc/rix/shimadzu-lc20/R1.0.0",
         "history": [
             "/reg/g/pcds/epics-dev/pennebak/shimadzu-lc20/next"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-lc20",
-        "script": "/reg/g/pcds/epics-dev/pennebak/shimadzu-lc20/next/iocBoot/ioc-rix-lc20/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/pennebak/shimadzu-lc20/next/bin/rhel7-x86_64/lc20"
+        "script": "/reg/g/pcds/epics/ioc/rix/shimadzu-lc20/R1.0.0/build/iocBoot/ioc-rix-lc20/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.2.0/bin/rhel7-x86_64/lc20"
     },
     {
         "host": "ctl-rix-crix-mot-01",
