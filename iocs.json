@@ -3377,6 +3377,17 @@
     },
     {
         "host": "ctl-rix-mot-01",
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/lcp/lcp",
+        "alias": "RIX LCP 01 (rix subnet)",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-lcp-01",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/lcp/lcp/iocBoot/ioc-rix-lcp-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/lcp/lcp/bin/rhel7-x86_64/lcp"
+    },
+    {
+        "host": "ctl-rix-mot-01",
         "port": 30201,
         "dir": "ioc/rix/ict/R1.0.2",
         "history": [
