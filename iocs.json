@@ -6657,16 +6657,6 @@
     },
     {
         "host": "ioc-cxi-misc1",
-        "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/payers/lcls-plc-cxi-fms",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-fms-cxi-plc-01",
-        "script": "/reg/g/pcds/epics-dev/payers/lcls-plc-cxi-fms/iocBoot/ioc-fms-cxi-plc-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ioc-cxi-misc1",
         "port": 30009,
         "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/ipmiSrv",
         "disable": true,
@@ -8539,6 +8529,16 @@
         "name": "ioc-cxi-usrPV",
         "script": "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/userIO_PV/current/iocBoot/ioc-cxi-usrPV/st.cmd",
         "binary": "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/userIO_PV/current/bin/linux-x86_64/usrPV"
+    },
+    {
+        "host": "ioc-cxi-usr1",
+        "port": 30044,
+        "dir": "/reg/g/pcds/epics-dev/payers/lcls-plc-cxi-fms",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-fms-cxi-plc-01",
+        "script": "/reg/g/pcds/epics-dev/payers/lcls-plc-cxi-fms/iocBoot/ioc-fms-cxi-plc-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ioc-cxi-usr1",
@@ -16977,6 +16977,17 @@
         "name": "ioc-dosfet-01",
         "script": "/reg/g/pcds/epics-dev/nrw/iocs/dosfet/current/children/build/iocBoot/ioc-dosfet-01/st.cmd",
         "binary": null
+    },
+    {
+        "host": "ioc-tst-13",
+        "port": 30006,
+        "dir": "/reg/g/pcds/epics-dev/zlentz/Keithley2700/Keithley2700-git",
+        "alias": "IM3L0 Keithley Test",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-im3l0-pm-k2700",
+        "script": "/reg/g/pcds/epics-dev/zlentz/Keithley2700/Keithley2700-git/iocBoot/ioc-im3l0-pm-k2700/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/zlentz/Keithley2700/Keithley2700-git/bin/linux-x86_64/k2700"
     },
     {
         "host": "ioc-tst-13",
