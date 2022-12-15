@@ -4900,6 +4900,16 @@
         "binary": null
     },
     {
+        "host": "cxi-control",
+        "port": 30044,
+        "dir": "/reg/g/pcds/epics-dev/payers/lcls-plc-cxi-fms",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-fms-cxi-plc-01",
+        "script": "/reg/g/pcds/epics-dev/payers/lcls-plc-cxi-fms/iocBoot/ioc-fms-cxi-plc-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
+    },
+    {
         "host": "daq-cxi-pgp04",
         "port": 30001,
         "dir": "ioc/cxi/epix/R1.0.2",
@@ -8529,16 +8539,6 @@
         "name": "ioc-cxi-usrPV",
         "script": "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/userIO_PV/current/iocBoot/ioc-cxi-usrPV/st.cmd",
         "binary": "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/userIO_PV/current/bin/linux-x86_64/usrPV"
-    },
-    {
-        "host": "ioc-cxi-usr1",
-        "port": 30044,
-        "dir": "/reg/g/pcds/epics-dev/payers/lcls-plc-cxi-fms",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-fms-cxi-plc-01",
-        "script": "/reg/g/pcds/epics-dev/payers/lcls-plc-cxi-fms/iocBoot/ioc-fms-cxi-plc-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ioc-cxi-usr1",
