@@ -8131,7 +8131,6 @@
         "host": "ioc-cxi-sc1",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc",
-        "disable": true,
         "alias": "MMC - SC2 4 Axis 2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
