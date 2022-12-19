@@ -3596,8 +3596,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-smarpod-01",
-        "script": "/reg/g/pcds/epics-dev/wwright/ioc/common/SmarPod/children/build/iocBoot/ioc-qrix-smarpod-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/wwright8/ioc/common/SmarPod/bin/rhel7-x86_64/SmarPod"
+        "script": "/reg/g/pcds/epics-dev/wwright/ioc/common/SmarPod/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-rix-qrix-mot-01",
