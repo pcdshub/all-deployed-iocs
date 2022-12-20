@@ -3260,17 +3260,6 @@
     },
     {
         "host": "ctl-rix-crix-vac-01",
-        "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/lcp/lcp",
-        "alias": "RIX LCP 01 (Beamline)",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-rix-lcp-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/lcp/lcp/iocBoot/ioc-rix-lcp-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/lcp/lcp/bin/rhel7-x86_64/lcp"
-    },
-    {
-        "host": "ctl-rix-crix-vac-01",
         "port": 39100,
         "dir": "ioc/rix/pdu_snmp/R1.0.0",
         "alias": "Rack 02 PDU (Beamline)",
@@ -3385,6 +3374,17 @@
         "name": "ioc-rix-eventSequencer",
         "script": "/reg/g/pcds/epics-dev/jjoshi/common/eventSeqCfg/current/iocBoot/ioc-rix-eventSequencer/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/jjoshi/common/eventSeqCfg/current/bin/rhel7-x86_64/eventSequencer"
+    },
+    {
+        "host": "ctl-rix-mot-01",
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/lcp/lcp",
+        "alias": "RIX LCP 01 (Beamline)",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-lcp-01",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/lcp/lcp/iocBoot/ioc-rix-lcp-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/lcp/lcp/bin/rhel7-x86_64/lcp"
     },
     {
         "host": "ctl-rix-mot-01",
