@@ -4900,6 +4900,17 @@
     },
     {
         "host": "ctl-xpp-wave8",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/common/aerotech",
+        "alias": "USR - Aerotech 01",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-ensemble-01",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/aerotech/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ctl-xpp-wave8",
         "port": 30001,
         "dir": "ioc/common/pgpWave8/R1.6.1",
         "alias": "SB3 - WAVE8 NEW",
