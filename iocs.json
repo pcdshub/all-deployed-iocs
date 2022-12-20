@@ -4900,17 +4900,6 @@
     },
     {
         "host": "ctl-xpp-wave8",
-        "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/common/aerotech",
-        "alias": "USR - Aerotech 01",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-ensemble-01",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/aerotech/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ctl-xpp-wave8",
         "port": 30001,
         "dir": "ioc/common/pgpWave8/R1.6.1",
         "alias": "SB3 - WAVE8 NEW",
@@ -21534,6 +21523,17 @@
         "name": "ioc-xpp-device-states",
         "script": "/reg/g/pcds/epics/ioc/xpp/device_states/R1.0.1/build/iocBoot/ioc-xpp-device-states/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/device_states/R1.3.1/bin/linux-x86_64/states"
+    },
+    {
+        "host": "ioc-xpp-usr01",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/common/aerotech",
+        "alias": "USR - Aerotech 01",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-ensemble-01",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/aerotech/children/build/iocBoot/ioc-xpp-ensemble-01/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/aerotech/bin/linux-x86/aerotech"
     },
     {
         "host": "ioc-xpp-usr01",
