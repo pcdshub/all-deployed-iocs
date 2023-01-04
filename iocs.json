@@ -20565,6 +20565,22 @@
     },
     {
         "host": "ioc-xpp-misc01",
+        "port": 32493,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/vacuum",
+        "alias": "Vacuum",
+        "history": [
+            "/reg/neh/home/snelson/work/ioc/xpp/vacuum/current",
+            "ioc/xpp/vacuum/R1.2.1",
+            "ioc/xpp/vacuum/R1.2.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-vacuum",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/vacuum/iocBoot/ioc-xpp-vacuum/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/espov/ioc/xpp/vacuum/bin/rhel7-x86_64/vacuum"
+    },
+    {
+        "host": "ioc-xpp-misc01",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/lakeshore336",
         "alias": "USR Lakeshore 336 XCS",
@@ -20632,22 +20648,6 @@
         "name": "ioc-xpp-sb2-xfls-ims",
         "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-sb2-xfls-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xpp-misc02",
-        "port": 32493,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/vacuum",
-        "alias": "Vacuum",
-        "history": [
-            "/reg/neh/home/snelson/work/ioc/xpp/vacuum/current",
-            "ioc/xpp/vacuum/R1.2.1",
-            "ioc/xpp/vacuum/R1.2.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-vacuum",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/vacuum/iocBoot/ioc-xpp-vacuum/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/espov/ioc/xpp/vacuum/bin/rhel7-x86_64/vacuum"
     },
     {
         "host": "ioc-xpp-mot01",
