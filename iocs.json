@@ -8899,17 +8899,6 @@
     },
     {
         "host": "ioc-cxi-wave8b",
-        "port": 34512,
-        "dir": "/reg/g/pcds/epics-dev/rsmm97/RohdeSchwarzHMP/current",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-tmo-hmp-test",
-        "script": "/reg/g/pcds/epics-dev/rsmm97/RohdeSchwarzHMP/current/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ioc-cxi-wave8b",
         "port": 33000,
         "dir": "/reg/g/pcds/epics-dev/spencera/common/cryojet",
         "disable": true,
@@ -8964,18 +8953,6 @@
         "name": "ioc-xpp-thermotek-temp-01",
         "script": "/reg/g/pcds/epics-dev/pennebak/xpp/chiller/current/build/iocBoot/ioc-xpp-thermotek-temp-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.6/bin/rhel7-x86_64/thermotek"
-    },
-    {
-        "host": "ioc-cxi-wave8b",
-        "port": 30222,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/mmc/current",
-        "disable": true,
-        "alias": "USR - MMC-100 2 axis",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-usr-2axis-mmc-01",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/mmc/current/st.cmd",
-        "binary": null
     },
     {
         "host": "ioc-det-evg",
@@ -20181,6 +20158,7 @@
         "host": "ioc-xpp-gige02",
         "port": 37045,
         "dir": "ioc/xpp/gigECam/R2.0.1",
+        "disable": true,
         "alias": "Gige 15 - USR",
         "history": [
             "/reg/g/pcds/package/epics/3.14/ioc/xpp/gigECam/R0.11.6"
