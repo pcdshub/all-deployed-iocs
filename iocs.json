@@ -17705,12 +17705,12 @@
     {
         "host": "ioc-tst-rec10",
         "port": 33313,
-        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/common/shimadzu-lc20",
+        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/icl/shimadzu-lc20",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/icl/iocmanager.cfg",
         "name": "ioc-icl-lc20",
-        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/common/shimadzu-lc20/children/build/iocBoot/ioc-icl-lc20/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/wwright8/ioc/common/shimadzu-lc20/bin/rhel7-x86_64/lc20"
+        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/icl/shimadzu-lc20/build/iocBoot/ioc-icl-lc20/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.3.5/bin/rhel7-x86_64/lc20"
     },
     {
         "host": "ioc-tst-rec10",
