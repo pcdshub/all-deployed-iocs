@@ -2818,13 +2818,13 @@
     {
         "host": "ctl-lfe-vac-01",
         "port": 31313,
-        "dir": "/reg/g/pcds/epics-dev/ioc/lfe/lcls-plc-lfe-gem",
+        "dir": "ioc/lfe/lcls-plc-lfe-gem/v3.0.0",
         "alias": "ioc-lfe-gem",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-plc-lfe-gem",
-        "script": "/reg/g/pcds/epics-dev/ioc/lfe/lcls-plc-lfe-gem/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/lfe/lcls-plc-lfe-gem/v3.0.0/iocBoot/ioc-plc-lfe-gem/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-rix-cam-01",
@@ -22651,12 +22651,12 @@
     {
         "host": "ioc-xrt-wave8",
         "port": 39007,
-        "dir": "/reg/g/pcds/epics/ioc/xrt/HOMS_XRT/v4.4.1/iocBoot/ioc-HOMS-XRT-PLC/",
+        "dir": "/reg/g/pcds/epics/ioc/xrt/HOMS_XRT/v4.5.0/iocBoot/ioc-HOMS-XRT-PLC/",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-HOMS-XRT-PLC",
-        "script": "/reg/g/pcds/epics/ioc/xrt/HOMS_XRT/v4.4.1/iocBoot/ioc-HOMS-XRT-PLC/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics/ioc/xrt/HOMS_XRT/v4.5.0/iocBoot/ioc-HOMS-XRT-PLC/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ioc-xrt-wave8",
