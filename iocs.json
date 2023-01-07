@@ -14638,6 +14638,21 @@
         "binary": "/reg/g/pcds/epics/ioc/common/pulsepicker/R1.1.7/bin/linux-x86/motion"
     },
     {
+        "host": "ioc-mfx-mot1",
+        "port": 30500,
+        "dir": "ioc/mfx/vacuum/R0.0.4",
+        "alias": "Vacuum",
+        "history": [
+            "ioc/mfx/vacuum/R0.0.4",
+            "/reg/neh/home/trendahl/Workarea/mfx/vacuum/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-vacuum",
+        "script": "/reg/g/pcds/epics/ioc/mfx/vacuum/R0.0.4/iocBoot/ioc-mfx-vacuum/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/mfx/vacuum/R0.0.4/bin/linux-x86_64/vacuum"
+    },
+    {
         "host": "ioc-mfx-rec01",
         "port": 34901,
         "dir": "ioc/mfx/edtCam/R1.0.0",
@@ -14896,21 +14911,6 @@
         "name": "ioc-mfx-userIO",
         "script": "/reg/g/pcds/epics/ioc/mfx/userIO/R0.2.1/iocBoot/ioc-mfx-userIO/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/mfx/userIO/R0.2.1/bin/linux-x86_64/userIO"
-    },
-    {
-        "host": "ioc-mfx-vacuum",
-        "port": 30500,
-        "dir": "ioc/mfx/vacuum/R0.0.4",
-        "alias": "Vacuum",
-        "history": [
-            "ioc/mfx/vacuum/R0.0.4",
-            "/reg/neh/home/trendahl/Workarea/mfx/vacuum/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-vacuum",
-        "script": "/reg/g/pcds/epics/ioc/mfx/vacuum/R0.0.4/iocBoot/ioc-mfx-vacuum/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/mfx/vacuum/R0.0.4/bin/linux-x86_64/vacuum"
     },
     {
         "host": "ioc-mfx-wave8",
