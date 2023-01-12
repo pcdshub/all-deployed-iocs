@@ -2559,13 +2559,13 @@
     {
         "host": "ctl-lfe-misc-01",
         "port": 39103,
-        "dir": "ioc/common/lcp/R2.0.2",
+        "dir": "ioc/common/lcp/R2.2.1",
         "alias": "DRP-01 LCP (FEE Alcove, R11 and R12)",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-drp-lcp-01",
-        "script": "/reg/g/pcds/epics/ioc/common/lcp/R2.0.2/iocBoot/ioc-drp-lcp-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/lcp/R2.0.2/bin/rhel7-x86_64/lcp"
+        "script": "/reg/g/pcds/epics/ioc/common/lcp/R2.2.1/iocBoot/ioc-drp-lcp-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/lcp/R2.2.1/bin/rhel7-x86_64/lcp"
     },
     {
         "host": "ctl-lfe-misc-01",
@@ -2601,15 +2601,15 @@
     {
         "host": "ctl-lfe-misc-01",
         "port": 30002,
-        "dir": "ioc/common/lcp/R2.0.1",
+        "dir": "ioc/common/lcp/R2.2.1",
         "history": [
             "ioc/common/lcp/R2.0.1"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-lfe-lcp-01",
-        "script": "/reg/g/pcds/epics/ioc/common/lcp/R2.0.1/iocBoot/ioc-lfe-lcp-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/lcp/R2.0.1/bin/rhel7-x86_64/lcp"
+        "script": "/reg/g/pcds/epics/ioc/common/lcp/R2.2.1/iocBoot/ioc-lfe-lcp-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/lcp/R2.2.1/bin/rhel7-x86_64/lcp"
     },
     {
         "host": "ctl-lfe-misc-01",
@@ -3203,13 +3203,13 @@
     {
         "host": "ctl-rix-crix-mot-01",
         "port": 30001,
-        "dir": "ioc/common/lcp/R2.2.0",
+        "dir": "ioc/common/lcp/R2.2.1",
         "alias": "RIX LCP 02 (ChemRIXS)",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-lcp-02",
-        "script": "/reg/g/pcds/epics/ioc/common/lcp/R2.2.0/iocBoot/ioc-rix-lcp-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/lcp/R2.2.0/bin/rhel7-x86_64/lcp"
+        "script": "/reg/g/pcds/epics/ioc/common/lcp/R2.2.1/iocBoot/ioc-rix-lcp-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/lcp/R2.2.1/bin/rhel7-x86_64/lcp"
     },
     {
         "host": "ctl-rix-crix-mot-01",
@@ -3389,13 +3389,13 @@
     {
         "host": "ctl-rix-mot-01",
         "port": 30001,
-        "dir": "ioc/common/lcp/R2.2.0",
+        "dir": "ioc/common/lcp/R2.2.1",
         "alias": "RIX LCP 01 (Beamline)",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-lcp-01",
-        "script": "/reg/g/pcds/epics/ioc/common/lcp/R2.2.0/iocBoot/ioc-rix-lcp-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/lcp/R2.2.0/bin/rhel7-x86_64/lcp"
+        "script": "/reg/g/pcds/epics/ioc/common/lcp/R2.2.1/iocBoot/ioc-rix-lcp-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/lcp/R2.2.1/bin/rhel7-x86_64/lcp"
     },
     {
         "host": "ctl-rix-mot-01",
@@ -3535,13 +3535,13 @@
     {
         "host": "ctl-rix-qrix-mot-01",
         "port": 30003,
-        "dir": "ioc/common/lcp/R2.2.0",
+        "dir": "ioc/common/lcp/R2.2.1",
         "alias": "RIX LCP 03 (Laser)",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-las-lcp-03",
-        "script": "/reg/g/pcds/epics/ioc/common/lcp/R2.2.0/iocBoot/ioc-las-lcp-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/lcp/R2.2.0/bin/rhel7-x86_64/lcp"
+        "script": "/reg/g/pcds/epics/ioc/common/lcp/R2.2.1/iocBoot/ioc-las-lcp-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/lcp/R2.2.1/bin/rhel7-x86_64/lcp"
     },
     {
         "host": "ctl-rix-qrix-mot-01",
@@ -4827,13 +4827,13 @@
     {
         "host": "ctl-txi-misc-01",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/lcp/lcp",
+        "dir": "ioc/common/lcp/R2.2.1",
         "alias": "TXI LCP (Located in FEE Rack Room)",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-lcp-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/lcp/lcp/iocBoot/ioc-txi-lcp-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/rix/lcp/lcp/bin/rhel7-x86_64/lcp"
+        "script": "/reg/g/pcds/epics/ioc/common/lcp/R2.2.1/iocBoot/ioc-txi-lcp-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/lcp/R2.2.1/bin/rhel7-x86_64/lcp"
     },
     {
         "host": "ctl-txi-misc-01",
