@@ -7946,6 +7946,7 @@
         "host": "ioc-cxi-rec04",
         "port": 33331,
         "dir": "ioc/cxi/edtCam/R2.0.2",
+        "disable": true,
         "alias": "CAM - SC2 Inline Questar Opal1000m",
         "history": [
             "ioc/cxi/edtCam/R1.2.1"
