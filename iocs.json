@@ -8798,12 +8798,12 @@
     {
         "host": "ioc-cxi-wave8",
         "port": 33018,
-        "dir": "/reg/g/pcds/pyps/apps/hutch-python/cxi/scripts/door_watcher",
+        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/cxi/door_watcher",
         "alias": "ioc-door-watcher",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "door_watcher",
-        "script": "/reg/g/pcds/pyps/apps/hutch-python/cxi/scripts/door_watcher/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/cxi/door_watcher/st.cmd",
         "binary": "/usr/bin/env bash"
     },
     {
