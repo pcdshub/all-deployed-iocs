@@ -2798,12 +2798,12 @@
     {
         "host": "ctl-lfe-vac-01",
         "port": 30111,
-        "dir": "ioc/lfe/lcls-plc-lfe-vac/v2.0.1",
+        "dir": "ioc/lfe/lcls-plc-lfe-vac/v2.0.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-lfe-vac",
-        "script": "/reg/g/pcds/epics/ioc/lfe/lcls-plc-lfe-vac/v2.0.1/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/lfe/lcls-plc-lfe-vac/v2.0.0/iocBoot/ioc-lfe-vac/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-lfe-vac-01",
