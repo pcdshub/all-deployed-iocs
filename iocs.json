@@ -18890,6 +18890,7 @@
         "host": "ioc-xcs-rec02",
         "port": 31042,
         "dir": "/reg/neh/home/eshelman/epics/ioc/xcs/evr/current",
+        "disable": true,
         "alias": "EVR - REC02",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
