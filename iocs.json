@@ -7177,12 +7177,12 @@
     {
         "host": "ioc-cxi-mot2",
         "port": 31122,
-        "dir": "ioc/cxi/NewportXPS8/R1.2.1",
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/NewportXPS8",
         "alias": "Newport XPS User 2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-usr-xps2",
-        "script": "/reg/g/pcds/epics/ioc/cxi/NewportXPS8/R1.2.1/build/iocBoot/ioc-cxi-usr-xps2/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/NewportXPS8/build/iocBoot/ioc-cxi-usr-xps2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
     },
     {
@@ -18924,6 +18924,7 @@
         "host": "ioc-xcs-rec02",
         "port": 32561,
         "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam",
+        "disable": true,
         "history": [
             "/cds/home/j/jjoshi/xcs"
         ],
