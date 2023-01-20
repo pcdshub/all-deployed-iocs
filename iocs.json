@@ -12238,6 +12238,7 @@
         "host": "ioc-mec-las-gige02",
         "port": 32538,
         "dir": "/cds/home/p/peregrin/modules/mec/gigECam/current",
+        "disable": true,
         "alias": "Gige LPL 100J #3",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
