@@ -8812,6 +8812,7 @@
         "host": "ioc-cxi-wave8",
         "port": 30303,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
+        "disable": true,
         "alias": "Wave8 DG2",
         "history": [
             "ioc/cxi/wave8/R2.1.1",
