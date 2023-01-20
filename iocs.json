@@ -151,7 +151,7 @@
     {
         "host": "ctl-kfe-cam-02",
         "port": 39101,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/kfe/gigECam",
+        "dir": "ioc/kfe/gigECam/R1.3.0",
         "alias": "IM1K1",
         "history": [
             "ioc/kfe/gigECam/R1.0.0",
@@ -160,13 +160,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-im1k1-gige",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/kfe/gigECam/build/iocBoot/ioc-im1k1-gige/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/kfe/gigECam/R1.3.0/build/iocBoot/ioc-im1k1-gige/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.1/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-kfe-cam-02",
         "port": 39104,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/kfe/gigECam",
+        "dir": "ioc/kfe/gigECam/R1.3.0",
         "alias": "IM2K0 - GIGE",
         "history": [
             "ioc/kfe/gigECam/R1.1.0"
@@ -174,13 +174,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-im2k0-gige",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/kfe/gigECam/build/iocBoot/ioc-im2k0-gige/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/kfe/gigECam/R1.3.0/build/iocBoot/ioc-im2k0-gige/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.1/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-kfe-cam-02",
         "port": 39201,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/kfe/gigECam",
+        "dir": "ioc/kfe/gigECam/R1.3.0",
         "alias": "IM2K1",
         "history": [
             "ioc/kfe/gigECam/R1.0.0",
@@ -189,13 +189,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-im2k1-gige",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/kfe/gigECam/build/iocBoot/ioc-im2k1-gige/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/kfe/gigECam/R1.3.0/build/iocBoot/ioc-im2k1-gige/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.1/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-kfe-cam-02",
         "port": 39105,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/kfe/gigECam",
+        "dir": "ioc/kfe/gigECam/R1.3.0",
         "alias": "IM2K4",
         "history": [
             "ioc/kfe/gigECam/R1.0.0",
@@ -206,20 +206,20 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-im2k4-gige",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/kfe/gigECam/build/iocBoot/ioc-im2k4-gige/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/kfe/gigECam/R1.3.0/build/iocBoot/ioc-im2k4-gige/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.1/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-kfe-cam-02",
         "port": 30001,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/kfe/tprStandalone",
+        "dir": "ioc/kfe/tprStandalone/R1.0.0",
         "history": [
             "/cds/home/m/mcbrowne/trunk2/ioc/kfe/tprStandalone"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-tpr2",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/kfe/tprStandalone/build/iocBoot/ioc-kfe-tpr2/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/kfe/tprStandalone/R1.0.0/build/iocBoot/ioc-kfe-tpr2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.0/bin/rhel7-x86_64/tpr"
     },
     {
