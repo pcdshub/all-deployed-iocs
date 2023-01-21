@@ -1270,6 +1270,7 @@
         "host": "ctl-las-ftl-srv01",
         "port": 30009,
         "dir": "ioc/common/pfts_manager/R1.0.7",
+        "disable": true,
         "history": [
             "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager"
         ],
