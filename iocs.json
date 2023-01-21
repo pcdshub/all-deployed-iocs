@@ -517,7 +517,7 @@
     {
         "host": "ctl-kfe-mot-01",
         "port": 34242,
-        "dir": "ioc/kfe/lcls-plc-kfe-motion/v3.0.3",
+        "dir": "/cds/home/z/zlentz/github/lcls-plc-kfe-motion",
         "alias": "KFE CC Motion",
         "history": [
             "ioc/kfe/lcls-plc-kfe-motion/v3.0.1",
@@ -526,8 +526,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-motion",
-        "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-motion/v3.0.3/iocBoot/ioc-kfe-motion/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
+        "script": "/cds/home/z/zlentz/github/lcls-plc-kfe-motion/iocBoot/ioc-kfe-motion/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-kfe-mot-01",
@@ -3544,6 +3544,16 @@
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-gige-02",
         "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.0.0/build/iocBoot/ioc-qrix-gige-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-rix-qrix-cam-02",
+        "port": 34005,
+        "dir": "/reg/g/pcds/epics-dev/opperman/iocs/rix/gigECam",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-qrix-gige-05",
+        "script": "/reg/g/pcds/epics-dev/opperman/iocs/rix/gigECam/build/iocBoot/ioc-qrix-gige-05/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/rhel7-x86_64/gige"
     },
     {
