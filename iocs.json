@@ -7202,7 +7202,6 @@
         "host": "ioc-cxi-mot2",
         "port": 30006,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/NewportXPS8",
-        "disable": true,
         "alias": "Newport XPS User 3",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
