@@ -6401,7 +6401,7 @@
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-cam4",
         "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam_rhel5/build/iocBoot/ioc-cxi-cam4/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.0.0/bin/linux-x86_64/edt"
+        "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.0/bin/linux-x86_64/edt"
     },
     {
         "host": "ioc-cxi-cam5",
