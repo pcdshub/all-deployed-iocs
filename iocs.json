@@ -2885,6 +2885,7 @@
         "host": "ctl-rix-cam-01",
         "port": 30088,
         "dir": "ioc/rix/evr/R1.1.0",
+        "alias": "RIX EVR 1",
         "history": [
             "ioc/rix/evr/R1.1.0"
         ],
@@ -2898,6 +2899,7 @@
         "host": "ctl-rix-cam-01",
         "port": 30101,
         "dir": "ioc/rix/pvNotepad/R2.0.3",
+        "alias": "PV Notepad",
         "history": [
             "ioc/rix/pvNotepad/R2.0.3"
         ],
@@ -2911,6 +2913,7 @@
         "host": "ctl-rix-cam-01",
         "port": 30112,
         "dir": "ioc/rix/gigECam/R2.1.0",
+        "alias": "SL1K2 GIGE",
         "history": [
             "/reg/g/pcds/epics-dev/bhill/epics/ioc/rix/gigECam/gigECam-git",
             "ioc/rix/gigECam/R1.1.0"
@@ -2970,6 +2973,7 @@
         "host": "ctl-rix-cam-02",
         "port": 30099,
         "dir": "ioc/rix/evr/R1.1.0",
+        "alias": "RIX EVR 2",
         "history": [
             "ioc/rix/evr/R1.1.0"
         ],
@@ -2983,6 +2987,7 @@
         "host": "ctl-rix-cam-02",
         "port": 30066,
         "dir": "ioc/rix/gigECam/R2.0.1",
+        "alias": "TM2K2 GIGE",
         "history": [
             "ioc/rix/gigECam/R2.0.1",
             "ioc/rix/gigECam/R1.1.0"
@@ -3042,6 +3047,7 @@
         "host": "ctl-rix-cam-03",
         "port": 30099,
         "dir": "ioc/rix/evr/R1.1.0",
+        "alias": "RIX EVR 3",
         "history": [
             "ioc/rix/evr/R1.1.0"
         ],
@@ -3176,6 +3182,7 @@
         "host": "ctl-rix-crix-cam-01",
         "port": 30100,
         "dir": "ioc/rix/smaract/R1.0.0",
+        "alias": "CRIXS Smaract Controller 1",
         "history": [
             "/cds/home/t/tjohnson/trunk/common/smaract"
         ],
@@ -3264,6 +3271,7 @@
         "host": "ctl-rix-crix-mot-01",
         "port": 30002,
         "dir": "ioc/rix/shimadzu-lc20/R1.1.1",
+        "alias": "Shimadzu HPLCs",
         "history": [
             "/reg/g/pcds/epics-dev/pennebak/shimadzu-lc20/next"
         ],
@@ -3316,6 +3324,7 @@
         "host": "ctl-rix-crix-vac-01",
         "port": 31000,
         "dir": "ioc/rix/lcls-plc-crixs-vac/v1.5.3/lcls-plc-crix-vac",
+        "alias": "CRIXS Vacuum PLC IOC",
         "history": [
             "ioc/rix/lcls-plc-crixs-vac/v1.5.1/lcls-plc-crix-vac",
             "/reg/g/pcds/epics-dev/wwright/ioc/rix/plcprojects/lcls-plc-crixs-vac/lcls-plc-crix-vac",
@@ -3361,6 +3370,7 @@
         "host": "ctl-rix-fim-01",
         "port": 30001,
         "dir": "ioc/rix/pgpWave8/R1.6.0",
+        "alias": "Beamline Wave8 01",
         "history": [
             "ioc/rix/pgpWave8/R1.6.0",
             "ioc/common/pgpWave8/R1.4.0",
@@ -3378,6 +3388,7 @@
         "host": "ctl-rix-fim-01",
         "port": 30002,
         "dir": "ioc/rix/pgpWave8/R1.6.0",
+        "alias": "Beamline Wave8 02",
         "history": [
             "ioc/rix/pgpWave8/R1.6.0",
             "ioc/common/pgpWave8/R1.4.0",
@@ -3394,6 +3405,7 @@
         "host": "ctl-rix-fim-01",
         "port": 30003,
         "dir": "ioc/rix/pgpWave8/R1.6.0",
+        "alias": "Beamline Wave8 03",
         "history": [
             "ioc/rix/pgpWave8/R1.6.0",
             "ioc/common/pgpWave8/R1.4.0",
@@ -3410,6 +3422,7 @@
         "host": "ctl-rix-mot-01",
         "port": 30400,
         "dir": "ioc/rix/lcls-plc-crixs-motion/v1.9.0/lcls-plc-crixs-motion",
+        "alias": "CRIXS Motion PLC IOC",
         "history": [
             "ioc/rix/lcls-plc-crixs-motion/v1.9.0/lcls-plc-crixs-motion",
             "ioc/rix/lcls-plc-crixs-motion/v1.3.0/lcls-plc-crixs-motion"
@@ -3424,6 +3437,7 @@
         "host": "ctl-rix-mot-01",
         "port": 30108,
         "dir": "ioc/kfe/lcls-plc-kfe-rix-motion/v1.13.0",
+        "alias": "Beamline Motion PLC IOC",
         "history": [
             "ioc/kfe/lcls-plc-kfe-rix-motion/v1.13.0"
         ],
@@ -3437,6 +3451,7 @@
         "host": "ctl-rix-mot-01",
         "port": 30310,
         "dir": "/reg/g/pcds/epics-dev/klauer/ioc-rix-at2k2-calc",
+        "alias": "AT2K2 Calculator IOC",
         "history": [
             "/reg/g/pcds/epics-dev/klauer/ioc-rix-at2k2-calc"
         ],
@@ -3475,6 +3490,7 @@
         "host": "ctl-rix-mot-01",
         "port": 30201,
         "dir": "ioc/rix/ict/R1.0.2",
+        "alias": "R02 ICT 01",
         "history": [
             "ioc/rix/ict/R1.0.2"
         ],
@@ -3488,6 +3504,7 @@
         "host": "ctl-rix-mot-01",
         "port": 30202,
         "dir": "ioc/rix/ict/R1.0.2",
+        "alias": "R02 ICT 02",
         "history": [
             "ioc/rix/ict/R1.0.2"
         ],
@@ -3501,6 +3518,7 @@
         "host": "ctl-rix-mot-01",
         "port": 30203,
         "dir": "ioc/rix/ict/R1.0.2",
+        "alias": "R02 ICT 03",
         "history": [
             "ioc/rix/ict/R1.0.2"
         ],
@@ -3514,6 +3532,7 @@
         "host": "ctl-rix-mot-01",
         "port": 30204,
         "dir": "ioc/rix/ict/R1.0.2",
+        "alias": "R02 ICT 04",
         "history": [
             "ioc/rix/ict/R1.0.2"
         ],
@@ -3541,6 +3560,7 @@
         "host": "ctl-rix-mot-01",
         "port": 30320,
         "dir": "/reg/g/pcds/epics-dev/zlentz/ioc-rix-sp1k1-calc",
+        "alias": "SP1K2 Calculator IOC",
         "history": [
             "/reg/g/pcds/epics-dev/zlentz/ioc-rix-sp1k1-calc"
         ],
@@ -3554,7 +3574,7 @@
         "host": "ctl-rix-mot-01",
         "port": 30107,
         "dir": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-rixs-optics/iocBoot/ioc-rixs-optics/",
-        "alias": "ioc-rixs-optics",
+        "alias": "RIXS Optics PLC IOC",
         "history": [
             "/reg/g/pcds/epics/ioc/rix/lcls-plc-rixs-optics/v1.7.0/iocBoot/ioc-rixs-optics/",
             "ioc/rix/lcls-plc-rixs-optics/v1.5.0",
@@ -3570,6 +3590,7 @@
         "host": "ctl-rix-mpod-fim-01",
         "port": 30001,
         "dir": "ioc/common/isegPower/R1.3.1",
+        "alias": "Beamline MPOD",
         "history": [
             "ioc/common/isegPower/R1.3.1",
             "ioc/common/isegPower/R1.3.0"
@@ -3584,6 +3605,7 @@
         "host": "ctl-rix-qrix-cam-02",
         "port": 34000,
         "dir": "ioc/rix/gigECam/R2.0.0",
+        "alias": "QRIXS GIGE 01",
         "history": [
             "ioc/rix/gigECam/R2.0.0"
         ],
@@ -3597,6 +3619,7 @@
         "host": "ctl-rix-qrix-cam-02",
         "port": 34001,
         "dir": "ioc/rix/gigECam/R2.0.0",
+        "alias": "QRIXS GIGE 02",
         "history": [
             "ioc/rix/gigECam/R2.0.0"
         ],
@@ -3621,6 +3644,7 @@
         "host": "ctl-rix-qrix-mot-01",
         "port": 32000,
         "dir": "ioc/rix/smaract/R1.0.0/build/iocBoot/ioc-rix-qrix-mcs2-01",
+        "alias": "QRIXS Smaract Controller 1",
         "history": [
             "/reg/g/pcds/epics-dev/wwright/ioc/rix/smaract/build/iocBoot/ioc-rix-crix-mcs2-01"
         ],
@@ -3634,6 +3658,7 @@
         "host": "ctl-rix-qrix-mot-01",
         "port": 32001,
         "dir": "ioc/rix/smaract/R1.0.0/build/iocBoot/ioc-rix-qrix-mcs2-02",
+        "alias": "QRIXS Smaract Controller 2",
         "history": [
             "/reg/g/pcds/epics-dev/wwright/ioc/rix/smaract/build/iocBoot/ioc-rix-crix-mcs2-02"
         ],
@@ -3647,6 +3672,7 @@
         "host": "ctl-rix-qrix-mot-01",
         "port": 31013,
         "dir": "/reg/g/pcds/epics-dev/ioc/rix/lcls-plc-qrix-motion/lcls-plc-qrix-motion/lcls-plc-qrix-motion/iocBoot/ioc-PLC-QRIX-MOT",
+        "alias": "QRIXS Motion PLC IOC",
         "history": [
             "/reg/g/pcds/epics-dev/ioc/rix/lcls-plc-qrix-motion/lcls-plc-qrix-motion/lcls-plc-qrix-motion/iocBoot/ioc-PLC-QRIX-MOT"
         ],
@@ -3660,6 +3686,7 @@
         "host": "ctl-rix-qrix-mot-01",
         "port": 30101,
         "dir": "ioc/rix/ict/R1.0.2",
+        "alias": "QRIXS ICT 01",
         "history": [
             "ioc/rix/ict/R1.0.2"
         ],
@@ -3673,6 +3700,7 @@
         "host": "ctl-rix-qrix-mot-01",
         "port": 30102,
         "dir": "ioc/rix/ict/R1.0.2",
+        "alias": "QRIXS ICT 02",
         "history": [
             "ioc/rix/ict/R1.0.2"
         ],
@@ -3686,6 +3714,7 @@
         "host": "ctl-rix-qrix-mot-01",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/wwright/ioc/common/SmarPod",
+        "alias": "QRIXS Smarpod",
         "history": [
             "/reg/g/pcds/epics-dev/wwright/ioc/common/SmarPod"
         ],
@@ -3694,16 +3723,6 @@
         "name": "ioc-qrix-smarpod-01",
         "script": "/reg/g/pcds/epics-dev/wwright/ioc/common/SmarPod/st.cmd",
         "binary": null
-    },
-    {
-        "host": "ctl-rix-qrix-mot-01",
-        "port": 34001,
-        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/ioc-rix-at1k2-calc",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-rix-at1k2-calc",
-        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/ioc-rix-at1k2-calc/st.cmd",
-        "binary": "/usr/bin/env bash"
     },
     {
         "host": "ctl-rix-qrix-mot-01",
@@ -3737,6 +3756,7 @@
         "host": "ctl-rix-qrix-vac-01",
         "port": 31313,
         "dir": "/reg/g/pcds/epics-dev/ioc/rix/lcls-plc-qrix-vac/lcls-plc-qrix-vac/iocBoot/ioc-PLC-QRIX-VAC",
+        "alias": "QRIXS Vacuum PLC IOC",
         "history": [
             "/reg/g/pcds/epics-dev/ioc/rix/lcls-plc-qrix-vac/lcls-plc-qrix-vac/iocBoot/ioc-PLC-QRIX-VAC"
         ],
@@ -3750,6 +3770,7 @@
         "host": "ctl-rix-vac-01",
         "port": 30222,
         "dir": "ioc/rix/picoMotion/R1.0.0",
+        "alias": "AL1K2 picoMotion",
         "history": [
             "/reg/g/pcds/epics-dev/jjoshi/ioc/picoMotion"
         ],
@@ -3763,6 +3784,7 @@
         "host": "ctl-rix-vac-01",
         "port": 30112,
         "dir": "ioc/kfe/lcls-plc-kfe-rix-vac/v1.3.0",
+        "alias": "Beamline Vacuum PLC IOC",
         "history": [
             "ioc/kfe/lcls-plc-kfe-rix-vac/v1.3.0",
             "ioc/kfe/lcls-plc-kfe-rix-vac/v1.2.0"
@@ -3788,6 +3810,7 @@
         "host": "ctl-rix-vac-01",
         "port": 37001,
         "dir": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/rixdev",
+        "alias": "SDS IOC",
         "history": [
             "/reg/g/pcds/epics-dev/pennebak/sample-delivery/rixdev",
             "/reg/g/pcds/epics-dev/pennebak/sample-delivery/cxidev/ioc-rix-sds"
@@ -3802,6 +3825,7 @@
         "host": "ctl-rix-vac-01",
         "port": 32103,
         "dir": "ioc/rix/vacuum/R1.0.4",
+        "alias": "Vacuum Support",
         "history": [
             "ioc/rix/vacuum/R1.0.4",
             "/reg/g/pcds/epics-dev/wwright/ioc/rix/vacuum"
@@ -5307,6 +5331,7 @@
         "host": "daq-rix-andor-01",
         "port": 30010,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam",
+        "alias": "Dir Andor Cam",
         "history": [
             "ioc/common/andorCam/R1.0.1",
             "ioc/common/andorCam/R0.6.0",
@@ -5323,6 +5348,7 @@
         "host": "daq-rix-andor-01",
         "port": 30012,
         "dir": "ioc/common/andorCam/R1.0.1",
+        "alias": "Norm Andor Cam",
         "history": [
             "ioc/common/andorCam/R1.0.1"
         ],
@@ -5336,6 +5362,7 @@
         "host": "daq-rix-andor-01",
         "port": 30011,
         "dir": "ioc/common/andorCam/R1.0.1",
+        "alias": "VLS Andor Cam",
         "history": [
             "ioc/common/andorCam/R1.0.1",
             "ioc/common/andorCam/R0.6.0"
