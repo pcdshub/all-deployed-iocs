@@ -6412,7 +6412,7 @@
     {
         "host": "ioc-cxi-cam4",
         "port": 30001,
-        "dir": "ioc/cxi/unixCam/R3.4.25",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam_rhel5",
         "alias": "Camera4 SC1-1 SC1-4",
         "history": [
             "ioc/cxi/unixCam/R3.4.25"
@@ -6420,8 +6420,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-cam4",
-        "script": "/reg/g/pcds/epics/ioc/cxi/unixCam/R3.4.25/build/iocBoot/ioc-cxi-cam4/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/unixCam/R3.4.25/bin/linux-x86_64/unixCam"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam_rhel5/build/iocBoot/ioc-cxi-cam4/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.0/bin/linux-x86_64/edt"
     },
     {
         "host": "ioc-cxi-cam5",
