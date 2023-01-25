@@ -8806,7 +8806,7 @@
     {
         "host": "ioc-cxi-vacuum",
         "port": 30535,
-        "dir": "ioc/cxi/lusiAtt/R0.2.8",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/lusiAtt",
         "alias": "DSB Attenuator Calculator",
         "history": [
             "ioc/cxi/lusiAtt/R0.2.7",
@@ -8815,8 +8815,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dsb-lusiAtt",
-        "script": "/reg/g/pcds/epics/ioc/cxi/lusiAtt/R0.2.8/build/iocBoot/ioc-cxi-dsb-lusiAtt/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/lusiAtt/R1.5.0/bin/linux-x86_64/lusiAtt"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/lusiAtt/build/iocBoot/ioc-cxi-dsb-lusiAtt/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/lusiAtt/R1.5.0/bin/rhel7-x86_64/lusiAtt"
     },
     {
         "host": "ioc-cxi-vacuum",
