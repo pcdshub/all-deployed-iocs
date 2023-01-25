@@ -3730,15 +3730,15 @@
     {
         "host": "ctl-rix-vac-01",
         "port": 30222,
-        "dir": "/reg/g/pcds/epics-dev/jjoshi/ioc/picoMotion",
+        "dir": "ioc/rix/picoMotion/R1.0.0",
         "history": [
             "/reg/g/pcds/epics-dev/jjoshi/ioc/picoMotion"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-mcp-rix-al1k2",
-        "script": "/reg/g/pcds/epics-dev/jjoshi/ioc/picoMotion/build/iocBoot/ioc-mcp-rix-al1k2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/picoMotion/R3.0.0/bin/rhel7-x86_64/motion"
+        "script": "/reg/g/pcds/epics/ioc/rix/picoMotion/R1.0.0/build/iocBoot/ioc-mcp-rix-al1k2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/picoMotion/R4.0.1/bin/rhel7-x86_64/motion"
     },
     {
         "host": "ctl-rix-vac-01",
