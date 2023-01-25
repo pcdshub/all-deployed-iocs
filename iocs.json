@@ -2925,6 +2925,7 @@
         "host": "ctl-rix-cam-02",
         "port": 30011,
         "dir": "ioc/rix/gigECam/R2.0.0",
+        "alias": "IM2K2 GIGE",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
@@ -2939,6 +2940,7 @@
         "host": "ctl-rix-cam-02",
         "port": 30055,
         "dir": "ioc/rix/gigECam/R2.0.0",
+        "alias": "IM3K2 GIGE",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
@@ -2953,6 +2955,7 @@
         "host": "ctl-rix-cam-02",
         "port": 30031,
         "dir": "ioc/rix/gigECam/R2.0.0",
+        "alias": "IM4K2 GIGE",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
@@ -2994,6 +2997,7 @@
         "host": "ctl-rix-cam-03",
         "port": 30012,
         "dir": "ioc/rix/gigECam/R2.0.0",
+        "alias": "IM1K2 GIGE",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
@@ -3008,6 +3012,7 @@
         "host": "ctl-rix-cam-03",
         "port": 30022,
         "dir": "ioc/rix/gigECam/R2.0.0",
+        "alias": "IM5K2 GIGE",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
@@ -3022,6 +3027,7 @@
         "host": "ctl-rix-cam-03",
         "port": 30033,
         "dir": "ioc/rix/gigECam/R2.0.0",
+        "alias": "IM6K2 GIGE",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
@@ -3049,6 +3055,7 @@
         "host": "ctl-rix-crix-cam-01",
         "port": 30008,
         "dir": "ioc/rix/evr/R1.1.0",
+        "alias": "ChemRIXS EVR",
         "history": [
             "ioc/rix/evr/R1.1.0",
             "ioc/rix/evr/R1.0.0"
@@ -3063,6 +3070,7 @@
         "host": "ctl-rix-crix-cam-01",
         "port": 30001,
         "dir": "ioc/rix/gigECam/R2.0.0",
+        "alias": "CRIXS GIGE 01",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
@@ -3077,6 +3085,7 @@
         "host": "ctl-rix-crix-cam-01",
         "port": 30002,
         "dir": "ioc/rix/gigECam/R2.0.0",
+        "alias": "CRIXS GIGE 02",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
@@ -3091,6 +3100,7 @@
         "host": "ctl-rix-crix-cam-01",
         "port": 30003,
         "dir": "ioc/rix/gigECam/R2.0.0",
+        "alias": "CRIXS GIGE 03",
         "disable": true,
         "history": [
             "ioc/rix/gigECam/R2.0.0",
@@ -3106,6 +3116,7 @@
         "host": "ctl-rix-crix-cam-01",
         "port": 30004,
         "dir": "ioc/rix/gigECam/R2.0.0",
+        "alias": "CRIXS GIGE 04",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
@@ -3120,6 +3131,7 @@
         "host": "ctl-rix-crix-cam-01",
         "port": 30005,
         "dir": "ioc/rix/gigECam/R2.0.0",
+        "alias": "CRIXS GIGE 05",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
@@ -3134,6 +3146,7 @@
         "host": "ctl-rix-crix-cam-01",
         "port": 30006,
         "dir": "ioc/rix/gigECam/R2.0.0",
+        "alias": "CRIXS GIGE 06",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
@@ -3148,6 +3161,7 @@
         "host": "ctl-rix-crix-cam-01",
         "port": 30007,
         "dir": "ioc/rix/gigECam/R2.0.0",
+        "alias": "CRIXS GIGE 07",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
@@ -3175,6 +3189,7 @@
         "host": "ctl-rix-crix-mot-01",
         "port": 35001,
         "dir": "ioc/rix/lakeshore336/R1.0.2",
+        "alias": "Cryo Lakeshore 336 1",
         "history": [
             "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336",
             "ioc/rix/lakeshore336/R1.0.0",
@@ -3190,6 +3205,7 @@
         "host": "ctl-rix-crix-mot-01",
         "port": 35002,
         "dir": "ioc/rix/lakeshore336/R1.0.2",
+        "alias": "Cryo Lakeshore 336 2",
         "history": [
             "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336",
             "ioc/rix/lakeshore336/R1.0.0",
@@ -3205,6 +3221,7 @@
         "host": "ctl-rix-crix-mot-01",
         "port": 30401,
         "dir": "ioc/rix/ict/R1.0.2",
+        "alias": "CRIXS ICT 01",
         "history": [
             "ioc/rix/ict/R1.0.2"
         ],
@@ -3218,6 +3235,7 @@
         "host": "ctl-rix-crix-mot-01",
         "port": 30402,
         "dir": "ioc/rix/ict/R1.0.2",
+        "alias": "CRIXS ICT 02",
         "history": [
             "ioc/rix/ict/R1.0.2"
         ],
@@ -3313,6 +3331,7 @@
         "host": "ctl-rix-crix-vac-01",
         "port": 31020,
         "dir": "ioc/rix/lakeshore336/R1.0.2",
+        "alias": "Cryostat Lakeshore 336",
         "history": [
             "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336",
             "ioc/rix/lakeshore336/R1.0.1",
@@ -5287,7 +5306,7 @@
     {
         "host": "daq-rix-andor-01",
         "port": 30010,
-        "dir": "ioc/common/andorCam/R1.0.1",
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam",
         "history": [
             "ioc/common/andorCam/R1.0.1",
             "ioc/common/andorCam/R0.6.0",
@@ -5297,8 +5316,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-dir-andor",
-        "script": "/reg/g/pcds/epics/ioc/common/andorCam/R1.0.1/children/build/iocBoot/ioc-rix-dir-andor/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/andorCam/R1.0.1/bin/rhel7-x86_64/andor"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam/children/build/iocBoot/ioc-rix-dir-andor/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam/bin/rhel7-x86_64/andor"
     },
     {
         "host": "daq-rix-andor-01",
@@ -15263,6 +15282,7 @@
         "host": "ioc-rix-mpod-01",
         "port": 30001,
         "dir": "ioc/rix/isegPower/R1.3.1",
+        "alias": "CRIXS MPOD",
         "history": [
             "/reg/g/pcds/epics-dev/spencera/rix/isegPower"
         ],
