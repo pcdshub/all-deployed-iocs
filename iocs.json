@@ -2923,8 +2923,7 @@
     {
         "host": "ctl-rix-cam-01",
         "port": 30112,
-        "dir": "ioc/rix/gigECam/R2.1.0",
-        "disable": true,
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/rix/gigECam",
         "alias": "SL1K2 GIGE",
         "history": [
             "/reg/g/pcds/epics-dev/bhill/epics/ioc/rix/gigECam/gigECam-git",
@@ -2933,8 +2932,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-sl1k2-gige",
-        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.1.0/build/iocBoot/ioc-sl1k2-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.0.0/bin/rhel7-x86_64/gige"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/rix/gigECam/build/iocBoot/ioc-sl1k2-gige/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.1/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-rix-cam-02",
@@ -5353,9 +5352,10 @@
     {
         "host": "daq-rix-andor-01",
         "port": 30010,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam",
+        "dir": "ioc/common/andorCam/R1.0.1",
         "alias": "Dir Andor Cam",
         "history": [
+            "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam",
             "ioc/common/andorCam/R1.0.1",
             "ioc/common/andorCam/R0.6.0",
             "/reg/g/pcds/epics-dev/ddamiani/ioc/common/andorCam"
@@ -5364,8 +5364,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-dir-andor",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam/children/build/iocBoot/ioc-rix-dir-andor/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam/bin/rhel7-x86_64/andor"
+        "script": "/reg/g/pcds/epics/ioc/common/andorCam/R1.0.1/children/build/iocBoot/ioc-rix-dir-andor/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/andorCam/R1.0.1/bin/rhel7-x86_64/andor"
     },
     {
         "host": "daq-rix-andor-01",
