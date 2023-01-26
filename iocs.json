@@ -3862,6 +3862,7 @@
         "host": "ctl-tmo-cam-01",
         "port": 30134,
         "dir": "ioc/tmo/gigECam/R1.0.1",
+        "disable": true,
         "history": [
             "ioc/tmo/gigECam/R1.0.1"
         ],
@@ -3875,6 +3876,7 @@
         "host": "ctl-tmo-cam-01",
         "port": 30144,
         "dir": "ioc/tmo/gigECam/R1.0.1",
+        "disable": true,
         "history": [
             "ioc/tmo/gigECam/R1.0.1"
         ],
@@ -3888,6 +3890,7 @@
         "host": "ctl-tmo-cam-01",
         "port": 30154,
         "dir": "ioc/tmo/gigECam/R1.0.1",
+        "disable": true,
         "history": [
             "ioc/tmo/gigECam/R1.0.1"
         ],
@@ -3901,6 +3904,7 @@
         "host": "ctl-tmo-cam-01",
         "port": 30174,
         "dir": "/reg/g/pcds/epics-dev/tongju/gigEcam/gigEcam-git",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-im6k4-gige",
