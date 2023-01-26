@@ -226,7 +226,6 @@
         "host": "ctl-kfe-cam-03",
         "port": 39301,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/kfe/gigECam",
-        "disable": true,
         "alias": "IM1K3",
         "history": [
             "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git",
@@ -2881,23 +2880,9 @@
     },
     {
         "host": "ctl-rix-cam-01",
-        "port": 30088,
-        "dir": "ioc/rix/evr/R1.1.0",
-        "disable": true,
-        "alias": "RIX EVR 1",
-        "history": [
-            "ioc/rix/evr/R1.1.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-rix-evr-01",
-        "script": "/reg/g/pcds/epics/ioc/rix/evr/R1.1.0/build/iocBoot/ioc-rix-evr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.2.4/bin/linux-x86_64/evr"
-    },
-    {
-        "host": "ctl-rix-cam-01",
         "port": 30001,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/rix/tprStandalone",
+        "alias": "RIX TPR 1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-tpr1",
