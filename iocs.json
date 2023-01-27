@@ -7982,7 +7982,7 @@
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-kb2-fmr-ims",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/cxi/ims/build/iocBoot/ioc-cxi-kb2-fmr-ims/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/ims/bin/rhel7-x86_64/ims"
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-rec04",
