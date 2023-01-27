@@ -8880,7 +8880,7 @@
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dsb-lusiAtt",
         "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/lusiAtt/build/iocBoot/ioc-cxi-dsb-lusiAtt/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/divya/ioc/common/lusiAtt/bin/rhel7-x86_64/lusiAtt"
+        "binary": "/reg/g/pcds/epics/ioc/common/lusiAtt/R1.5.0/bin/rhel7-x86_64/lusiAtt"
     },
     {
         "host": "ioc-cxi-vacuum",
