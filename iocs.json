@@ -2922,6 +2922,7 @@
         "host": "ctl-rix-cam-02",
         "port": 30011,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/rix/gigECam",
+        "disable": true,
         "alias": "IM2K2 GIGE",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
@@ -2995,7 +2996,6 @@
         "host": "ctl-rix-cam-02",
         "port": 30066,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/rix/gigECam",
-        "disable": true,
         "alias": "TM2K2 GIGE",
         "history": [
             "ioc/rix/gigECam/R2.0.1",
