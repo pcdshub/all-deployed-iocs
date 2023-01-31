@@ -5550,7 +5550,19 @@
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-vls-andor",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam/children/build/iocBoot/ioc-rix-vls-andor/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam/bin/rhel7-x86_64/andor"
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam/bin/rhel7-x86_64/andorTpr"
+    },
+    {
+        "host": "daq-rix-ccd-01",
+        "port": 30001,
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/rix/tprStandalone",
+        "alias": "RIX CCD TPR 1",
+        "disable": true,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-ccd-tpr1",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/rix/tprStandalone/build/iocBoot/ioc-rix-ccd-tpr1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.0/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "daq-sxr-pgp01",
