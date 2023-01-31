@@ -5428,8 +5428,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-dir-andor",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam/st.cmd",
-        "binary": null
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam/children/build/iocBoot/ioc-rix-dir-andor/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam/bin/rhel7-x86_64/andor"
     },
     {
         "host": "daq-rix-andor-01",
@@ -5443,8 +5443,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-norm-andor",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam/st.cmd",
-        "binary": null
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam/children/build/iocBoot/ioc-rix-norm-andor/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam/bin/rhel7-x86_64/andor"
     },
     {
         "host": "daq-rix-andor-01",
@@ -20655,6 +20655,17 @@
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-ensemble-01",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/common/aerotech/children/build/iocBoot/ioc-xpp-ensemble-01/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/aerotech/bin/rhel7-x86_64/aerotech"
+    },
+    {
+        "host": "ioc-xpp-misc01",
+        "port": 30004,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/common/aerotech",
+        "alias": "USR - Aerotech 03",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-ensemble-03",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/aerotech/children/build/iocBoot/ioc-xpp-ensemble-03/st.cmd",
         "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/aerotech/bin/rhel7-x86_64/aerotech"
     },
     {
