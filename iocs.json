@@ -1408,12 +1408,12 @@
     {
         "host": "ctl-las-ip1-srv01",
         "port": 30011,
-        "dir": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell",
+        "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/inj/thorlabs-ell/",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-inj-ell-02",
-        "script": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-lm1k4-inj-ell-02/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/bin/rhel7-x86_64/ell"
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/inj/thorlabs-ell/build/iocBoot/ioc-lm1k4-inj-ell-02/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-ip1-srv01",
