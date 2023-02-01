@@ -1483,32 +1483,32 @@
     {
         "host": "ctl-las-ip1-srv02",
         "port": 30010,
-        "dir": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell",
+        "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/com/thorlabs-ell/",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-com-ell-01",
-        "script": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-lm1k4-com-ell-01/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/bin/rhel7-x86_64/ell"
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/com/thorlabs-ell/build/iocBoot/ioc-lm1k4-com-ell-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-ip1-srv02",
         "port": 30011,
-        "dir": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/",
+        "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/com/thorlabs-ell/",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-com-ell-02",
-        "script": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-lm1k4-com-ell-02/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/bin/rhel7-x86_64/ell"
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/com/thorlabs-ell/build/iocBoot/ioc-lm1k4-com-ell-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-ip1-srv02",
         "port": 30012,
-        "dir": "/reg/neh/home/tjohnson/trunk/common/thorlabs-ell",
+        "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/com/thorlabs-ell/",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-com-ell-03",
-        "script": "/reg/neh/home/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-lm1k4-com-ell-03/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/bin/rhel7-x86_64/ell"
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/com/thorlabs-ell/build/iocBoot/ioc-lm1k4-com-ell-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-ip1-srv02",
@@ -20761,6 +20761,50 @@
         "name": "ioc-xpp-ensemble-03",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/common/aerotech/children/build/iocBoot/ioc-xpp-ensemble-03/st.cmd",
         "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/aerotech/bin/rhel7-x86_64/aerotech"
+    },
+    {
+        "host": "ioc-xpp-misc01",
+        "port": 38770,
+        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/gigECam",
+        "alias": "User GigE 18",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-gige-18",
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/gigECam/build/iocBoot/ioc-xpp-gige-18/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.4/bin/linux-x86_64/gige"
+    },
+    {
+        "host": "ioc-xpp-misc01",
+        "port": 38771,
+        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/gigECam",
+        "alias": "User GigE 19",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-gige-19",
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/gigECam/build/iocBoot/ioc-xpp-gige-19/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.4/bin/linux-x86_64/gige"
+    },
+    {
+        "host": "ioc-xpp-misc01",
+        "port": 38772,
+        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/gigECam",
+        "alias": "User GigE 20",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-gige-20",
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/gigECam/build/iocBoot/ioc-xpp-gige-20/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-xpp-misc01",
+        "port": 38773,
+        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/gigECam",
+        "alias": "User GigE 21",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-gige-21",
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/gigECam/build/iocBoot/ioc-xpp-gige-21/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-misc01",
