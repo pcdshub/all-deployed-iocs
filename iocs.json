@@ -5511,7 +5511,7 @@
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-dir-andor",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam/children/build/iocBoot/ioc-rix-dir-andor/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam/bin/rhel7-x86_64/andor"
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam/bin/rhel7-x86_64/andorTpr"
     },
     {
         "host": "daq-rix-andor-01",
@@ -5526,7 +5526,7 @@
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-norm-andor",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam/children/build/iocBoot/ioc-rix-norm-andor/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam/bin/rhel7-x86_64/andor"
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam/bin/rhel7-x86_64/andorTpr"
     },
     {
         "host": "daq-rix-andor-01",
@@ -5569,7 +5569,7 @@
     {
         "host": "daq-tmo-andor-01",
         "port": 30001,
-        "dir": "ioc/common/andorCam/R0.5.0",
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam",
         "alias": "VLS-Andor",
         "history": [
             "ioc/common/andorCam/R0.5.0"
@@ -5577,8 +5577,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-andor1",
-        "script": "/reg/g/pcds/epics/ioc/common/andorCam/R0.5.0/children/build/iocBoot/ioc-tmo-andor1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/andorCam/R0.5.0/bin/rhel7-x86_64/andor"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam/children/build/iocBoot/ioc-tmo-andor1/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam/bin/rhel7-x86_64/andorTpr"
     },
     {
         "host": "daq-tmo-andor-01",
