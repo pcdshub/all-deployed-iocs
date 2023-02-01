@@ -7392,7 +7392,6 @@
         "host": "ioc-cxi-mot2",
         "port": 30503,
         "dir": "ioc/cxi/ims/R6.0.4",
-        "disable": true,
         "alias": "IMS Slit Control",
         "history": [
             "ioc/cxi/ims/R4.0.39",
