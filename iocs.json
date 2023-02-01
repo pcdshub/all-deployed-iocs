@@ -5487,7 +5487,6 @@
         "host": "daq-rix-andor-01",
         "port": 30001,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/rix/tprStandalone",
-        "disable": true,
         "alias": "RIX ANDOR TPR 1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
@@ -20793,7 +20792,7 @@
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-20",
         "script": "/reg/g/pcds/epics-dev/spencera/xpp/gigECam/build/iocBoot/ioc-xpp-gige-20/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-misc01",
@@ -20804,7 +20803,7 @@
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-21",
         "script": "/reg/g/pcds/epics-dev/spencera/xpp/gigECam/build/iocBoot/ioc-xpp-gige-21/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-misc01",
