@@ -7266,6 +7266,7 @@
         "host": "ioc-cxi-mot2",
         "port": 32002,
         "dir": "ioc/cxi/ims/R6.0.4",
+        "disable": true,
         "alias": "IMS PI3",
         "history": [
             "ioc/cxi/ims/R2.0.0",
