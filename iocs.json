@@ -1616,23 +1616,23 @@
     {
         "host": "ctl-las-ip1-srv04",
         "port": 30005,
-        "dir": "/reg/neh/home/tjohnson/trunk/las/gigECam",
+        "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/hrm/gigECam/",
         "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-hrm-gige-nf-01",
-        "script": "/reg/neh/home/tjohnson/trunk/las/gigECam/build/iocBoot/ioc-lm1k4-hrm-gige-nf-01/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/hrm/gigECam/build/iocBoot/ioc-lm1k4-hrm-gige-nf-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-ip1-srv04",
         "port": 30003,
-        "dir": "/reg/neh/home/tjohnson/trunk/las/gigECam",
+        "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/hrm/gigECam/",
         "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-hrm-gige-nf-02",
-        "script": "/reg/neh/home/tjohnson/trunk/las/gigECam/build/iocBoot/ioc-lm1k4-hrm-gige-nf-02/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/hrm/gigECam/build/iocBoot/ioc-lm1k4-hrm-gige-nf-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
     },
     {
@@ -20750,12 +20750,12 @@
     {
         "host": "ioc-xpp-misc01",
         "port": 3536,
-        "dir": "ioc/xpp/ims/R6.0.4",
+        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
         "alias": "HXR Dumb Motor Portable",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-hxr-dumb-portable01-ims",
-        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.4/build/iocBoot/ioc-hxr-dumb-portable01-ims/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-hxr-dumb-portable01-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
