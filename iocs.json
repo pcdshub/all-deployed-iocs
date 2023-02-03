@@ -3858,7 +3858,7 @@
     {
         "host": "ctl-rix-qrix-mot-01",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/wwright/ioc/common/SmarPod",
+        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/common/SmarPod",
         "alias": "QRIXS Smarpod",
         "history": [
             "/reg/g/pcds/epics-dev/wwright/ioc/common/SmarPod"
@@ -3866,8 +3866,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-smarpod-01",
-        "script": "/reg/g/pcds/epics-dev/wwright/ioc/common/SmarPod/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/common/SmarPod/children/build/iocBoot/ioc-qrix-smarpod-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/wwright8/ioc/common/SmarPod/bin/rhel7-x86_64/SmarPod"
     },
     {
         "host": "ctl-rix-qrix-mot-01",
@@ -7274,6 +7274,21 @@
     },
     {
         "host": "ioc-cxi-mot2",
+        "port": 30024,
+        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/cxi/shimadzu-lc20",
+        "alias": "SDS Shimadzu HPLC",
+        "history": [
+            "/reg/g/pcds/package/epics/3.14-dev/ioc/common/shimadzu-lc20/current",
+            "ioc/common/shimadzu/lc20/R0.3.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-lc20",
+        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/cxi/shimadzu-lc20/build/iocBoot/ioc-cxi-lc20/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.3.5/bin/rhel7-x86_64/lc20"
+    },
+    {
+        "host": "ioc-cxi-mot2",
         "port": 32002,
         "dir": "ioc/cxi/ims/R6.0.4",
         "alias": "IMS PI3",
@@ -8177,21 +8192,6 @@
         "name": "ioc-cxi-kb2-fmr-ims",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/cxi/ims/build/iocBoot/ioc-cxi-kb2-fmr-ims/st.cmd",
         "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/ims/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-cxi-rec04",
-        "port": 30024,
-        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/cxi/shimadzu-lc20",
-        "alias": "SDS Shimadzu HPLC",
-        "history": [
-            "/reg/g/pcds/package/epics/3.14-dev/ioc/common/shimadzu-lc20/current",
-            "ioc/common/shimadzu/lc20/R0.3.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-lc20",
-        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/cxi/shimadzu-lc20/build/iocBoot/ioc-cxi-lc20/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.3.5/bin/rhel7-x86_64/lc20"
     },
     {
         "host": "ioc-cxi-rec04",
