@@ -8313,6 +8313,7 @@
         "host": "ioc-cxi-sc1",
         "port": 30504,
         "dir": "ioc/cxi/ims/R6.0.4",
+        "disable": true,
         "alias": "IMS DG1",
         "history": [
             "ioc/cxi/ims/R2.0.0",
