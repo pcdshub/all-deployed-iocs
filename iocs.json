@@ -20881,6 +20881,22 @@
     },
     {
         "host": "ioc-xpp-misc01",
+        "port": 34501,
+        "dir": "ioc/xpp/ims/R6.0.3",
+        "alias": "MON - LODCM Motion",
+        "history": [
+            "ioc/xpp/ims/R2.0.0",
+            "/reg/g/pcds/package/epics/3.14-dev/ioc/xpp/motion/current"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-mon-lodcm-ims",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-mon-lodcm-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xpp-misc01",
         "port": 37425,
         "dir": "/reg/g/pcds/epics-dev/spencera/plcs/lcls-plc-xpp-jjslit-motion",
         "alias": "XPP JJ Slits",
@@ -21023,22 +21039,6 @@
         "name": "ioc-xpp-xcs-ls336",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/lakeshore336/build/iocBoot/ioc-xpp-xcs-ls336/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.1/bin/rhel7-x86_64/ls336"
-    },
-    {
-        "host": "ioc-xpp-misc02",
-        "port": 34501,
-        "dir": "ioc/xpp/ims/R6.0.3",
-        "alias": "MON - LODCM Motion",
-        "history": [
-            "ioc/xpp/ims/R2.0.0",
-            "/reg/g/pcds/package/epics/3.14-dev/ioc/xpp/motion/current"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-mon-lodcm-ims",
-        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-mon-lodcm-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xpp-misc02",
