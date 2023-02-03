@@ -1751,11 +1751,11 @@
     {
         "host": "ctl-las-ip1-srv05",
         "port": 30013,
-        "dir": "/cds/home/t/tjohnson/trunk/las/qmini",
+        "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/atm/qmini/",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-atm-spec-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/qmini/build/iocBoot/ioc-lm1k4-atm-spec-01/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/atm/qmini/build/iocBoot/ioc-lm1k4-atm-spec-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/qmini/R0.2.1/bin/rhel7-x86_64/qmini"
     },
     {
