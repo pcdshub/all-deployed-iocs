@@ -14177,7 +14177,7 @@
     {
         "host": "ioc-mec-vacuum",
         "port": 30001,
-        "dir": "/cds/home/p/peregrin/modules/mec/vacuum/R1.2.1",
+        "dir": "ioc/mec/vacuum/R1.3.0",
         "alias": "Vacuum",
         "history": [
             "ioc/mec/vacuum/R1.2.1"
@@ -14185,8 +14185,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-vacuum",
-        "script": "/cds/home/p/peregrin/modules/mec/vacuum/R1.2.1/iocBoot/ioc-mec-vacuum/st.cmd",
-        "binary": "/cds/home/p/peregrin/modules/mec/vacuum/R1.2.1/bin/rhel7-x86_64/vacuum"
+        "script": "/reg/g/pcds/epics/ioc/mec/vacuum/R1.3.0/iocBoot/ioc-mec-vacuum/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/mec/vacuum/R1.3.0/bin/rhel7-x86_64/vacuum"
     },
     {
         "host": "ioc-mec-wave8",
