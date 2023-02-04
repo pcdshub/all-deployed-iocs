@@ -1781,21 +1781,21 @@
     {
         "host": "ctl-las-ip1-srv05",
         "port": 30006,
-        "dir": "/cds/home/t/tjohnson/trunk/las/gigECam",
+        "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/cvmi/gigECam/",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-cvmi-gige-ff-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/gigECam/build/iocBoot/ioc-lm1k4-cvmi-gige-ff-01/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/cvmi/gigECam/build/iocBoot/ioc-lm1k4-cvmi-gige-ff-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-ip1-srv05",
         "port": 30005,
-        "dir": "/cds/home/t/tjohnson/trunk/las/gigECam",
+        "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/cvmi/gigECam/",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-cvmi-gige-nf-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/gigECam/build/iocBoot/ioc-lm1k4-cvmi-gige-nf-01/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/cvmi/gigECam/build/iocBoot/ioc-lm1k4-cvmi-gige-nf-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
     },
     {
@@ -7312,7 +7312,6 @@
         "host": "ioc-cxi-mot2",
         "port": 32002,
         "dir": "ioc/cxi/ims/R6.0.4",
-        "disable": true,
         "alias": "IMS PI3",
         "history": [
             "ioc/cxi/ims/R2.0.0",
