@@ -1832,32 +1832,32 @@
     {
         "host": "ctl-las-ip1-srv06",
         "port": 30011,
-        "dir": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell",
+        "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/thorlabs-ell",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-ejx-ell-02",
-        "script": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-lm1k4-ejx-ell-02/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/bin/rhel7-x86_64/ell"
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/thorlabs-ell/build/iocBoot/ioc-lm1k4-ejx-ell-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-ip1-srv06",
         "port": 30012,
-        "dir": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell",
+        "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/thorlabs-ell",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-ejx-ell-03",
-        "script": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-lm1k4-ejx-ell-03/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/bin/rhel7-x86_64/ell"
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/thorlabs-ell/build/iocBoot/ioc-lm1k4-ejx-ell-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-ip1-srv06",
         "port": 30010,
-        "dir": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell",
+        "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/thorlabs-ell",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-ejx-ell-04",
-        "script": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-lm1k4-ejx-ell-04/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/bin/rhel7-x86_64/ell"
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/thorlabs-ell/build/iocBoot/ioc-lm1k4-ejx-ell-04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-ip1-srv06",
@@ -1902,12 +1902,12 @@
     {
         "host": "ctl-las-ip1-srv07",
         "port": 30014,
-        "dir": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell",
+        "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/thorlabs-ell",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-ejx-ell-05",
-        "script": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-lm1k4-ejx-ell-05/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/bin/rhel7-x86_64/ell"
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/thorlabs-ell/build/iocBoot/ioc-lm1k4-ejx-ell-05/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-ip1-srv07",
@@ -3889,6 +3889,17 @@
         "name": "ioc-rix-at1k2-calc",
         "script": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/ioc-rix-at1k2-calc/st.cmd",
         "binary": "/usr/bin/env bash"
+    },
+    {
+        "host": "ctl-rix-qrix-mot-01",
+        "port": 33000,
+        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/pdu_snmp",
+        "alias": "Hoffman Box Misc PDU",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-pwr-misc-01",
+        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/pdu_snmp/build/iocBoot/ioc-rix-pwr-misc-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.5/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ctl-rix-qrix-mot-01",
