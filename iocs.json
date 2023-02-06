@@ -5601,6 +5601,7 @@
         "host": "daq-tmo-andor-01",
         "port": 30001,
         "dir": "ioc/common/andorCam/R1.0.3",
+        "disable": true,
         "alias": "VLS-Andor",
         "history": [
             "ioc/common/andorCam/R0.5.0"
