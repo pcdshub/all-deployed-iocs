@@ -2531,7 +2531,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lln-spec-01",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/qmini/children/build/iocBoot/ioc-las-lln-spec-01/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/qmini/bin/rhel7-x86_64/qmini"
+        "binary": "/reg/g/pcds/epics/ioc/common/qmini/R0.2.1/bin/rhel7-x86_64/qmini"
     },
     {
         "host": "ctl-las-lln-02",
