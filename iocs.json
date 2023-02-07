@@ -20819,8 +20819,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-ensemble-01",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/aerotech/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/aerotech/children/build/iocBoot/ioc-xpp-ensemble-01/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/aerotech/bin/rhel7-x86_64/aerotech"
     },
     {
         "host": "ioc-xpp-misc01",
@@ -20830,8 +20830,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-ensemble-03",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/aerotech/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/aerotech/children/build/iocBoot/ioc-xpp-ensemble-03/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/aerotech/bin/rhel7-x86_64/aerotech"
     },
     {
         "host": "ioc-xpp-misc01",
