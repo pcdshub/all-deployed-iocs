@@ -824,46 +824,46 @@
     {
         "host": "ctl-las-crix-srv02",
         "port": 30110,
-        "dir": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell",
+        "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/com/thorlabs-ell/",
         "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-com-ell-01",
-        "script": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-lm2k2-com-ell-01/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/bin/rhel7-x86_64/ell"
+        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/thorlabs-ell/build/iocBoot/ioc-lm2k2-com-ell-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-crix-srv02",
         "port": 30111,
-        "dir": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell",
+        "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/com/thorlabs-ell/",
         "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-com-ell-02",
-        "script": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-lm2k2-com-ell-02/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/bin/rhel7-x86_64/ell"
+        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/thorlabs-ell/build/iocBoot/ioc-lm2k2-com-ell-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-crix-srv02",
         "port": 30112,
-        "dir": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell",
+        "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/com/thorlabs-ell/",
         "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-com-ell-03",
-        "script": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-lm2k2-com-ell-03/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/bin/rhel7-x86_64/ell"
+        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/thorlabs-ell/build/iocBoot/ioc-lm2k2-com-ell-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-crix-srv02",
         "port": 30113,
-        "dir": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell",
+        "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/com/thorlabs-ell/",
         "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-com-ell-04",
-        "script": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-lm2k2-com-ell-04/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/bin/rhel7-x86_64/ell"
+        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/thorlabs-ell/build/iocBoot/ioc-lm2k2-com-ell-04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-crix-srv02",
@@ -912,12 +912,12 @@
     {
         "host": "ctl-las-crix-srv02",
         "port": 30050,
-        "dir": "/cds/home/t/tjohnson/trunk/las/qmini",
+        "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/com/qmini/",
         "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-com-spec-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/qmini/build/iocBoot/ioc-lm2k2-com-spec-01/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/qmini/build/iocBoot/ioc-lm2k2-com-spec-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/qmini/R0.2.1/bin/rhel7-x86_64/qmini"
     },
     {
@@ -3987,7 +3987,7 @@
     {
         "host": "ctl-rix-vac-01",
         "port": 37001,
-        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/new_sample_delivery/sample-delivery-system",
+        "dir": "ioc/common/sample-delivery-system/v1.1.1",
         "alias": "SDS IOC",
         "history": [
             "/reg/g/pcds/epics-dev/pennebak/sample-delivery/rixdev",
@@ -3996,7 +3996,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-sds",
-        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/new_sample_delivery/sample-delivery-system/iocBoot/ioc-rix-sds/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/common/sample-delivery-system/v1.1.1/iocBoot/ioc-rix-sds/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
     },
     {
