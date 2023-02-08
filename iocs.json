@@ -4203,7 +4203,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-plc-vat-test",
         "script": "/reg/g/pcds/epics-dev/janezg/plc_iocs/vat590-test/iocBoot/ioc-plc-vat-test/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-tmo-cam-02",
