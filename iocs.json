@@ -2527,11 +2527,11 @@
     {
         "host": "ctl-las-lln-02",
         "port": 30006,
-        "dir": "/reg/g/pcds/epics-dev/mods/LLN/qmini",
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/qmini",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lln-spec-01",
-        "script": "/reg/g/pcds/epics-dev/mods/LLN/qmini/build/iocBoot/ioc-las-lln-spec-01/st.cmd",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/qmini/children/build/iocBoot/ioc-las-lln-spec-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/qmini/R0.2.1/bin/rhel7-x86_64/qmini"
     },
     {
@@ -20572,24 +20572,13 @@
     },
     {
         "host": "ioc-xpp-gige02",
-        "port": 30772,
+        "port": 30009,
         "dir": "/reg/g/pcds/epics-dev/spencera/xpp/gigECam",
         "alias": "Gige 20 - USR",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-20",
         "script": "/reg/g/pcds/epics-dev/spencera/xpp/gigECam/build/iocBoot/ioc-xpp-gige-20/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ioc-xpp-gige02",
-        "port": 30773,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/gigECam",
-        "alias": "Gige 21 - USR",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-gige-21",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/gigECam/build/iocBoot/ioc-xpp-gige-21/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
     },
     {
