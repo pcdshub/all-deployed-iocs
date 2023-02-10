@@ -20583,6 +20583,17 @@
     },
     {
         "host": "ioc-xpp-gige02",
+        "port": 30010,
+        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/gigECam",
+        "alias": "Gige 21 - USR",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-gige-21",
+        "script": "/reg/g/pcds/epics-dev/spencera/xpp/gigECam/build/iocBoot/ioc-xpp-gige-21/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.1/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-xpp-gige02",
         "port": 30005,
         "dir": "/reg/g/pcds/epics-dev/pennebak/git/xpp/gigECam",
         "alias": "Gige 25 - USR IR",
