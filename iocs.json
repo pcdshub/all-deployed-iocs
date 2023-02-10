@@ -20579,7 +20579,7 @@
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-20",
         "script": "/reg/g/pcds/epics-dev/spencera/xpp/gigECam/build/iocBoot/ioc-xpp-gige-20/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-gige02",
