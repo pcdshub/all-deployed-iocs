@@ -6951,22 +6951,6 @@
     },
     {
         "host": "ioc-cxi-misc1",
-        "port": 30301,
-        "dir": "ioc/common/mpod/R2.2.10",
-        "alias": "DS1 Mpod",
-        "history": [
-            "ioc/common/mpod/R2.0.9",
-            "ioc/common/mpod/R1.11.1"
-        ],
-        "delay": 5,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-mpod-d51",
-        "script": "/reg/g/pcds/epics/ioc/common/mpod/R2.2.10/iocBoot/ioc-cxi-mpod-d51/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/mpod/R2.2.10/bin/linux-x86_64/mpod"
-    },
-    {
-        "host": "ioc-cxi-misc1",
         "port": 50044,
         "dir": "ioc/cxi/TDS3000/R1.0.0",
         "disable": true,
@@ -8428,6 +8412,22 @@
         "name": "ioc-cxi-mmc-pr32-01",
         "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc/build/iocBoot/ioc-cxi-mmc-pr32-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
+    },
+    {
+        "host": "ioc-cxi-sc1",
+        "port": 30301,
+        "dir": "ioc/common/mpod/R2.2.10",
+        "alias": "DS1 Mpod",
+        "history": [
+            "ioc/common/mpod/R2.0.9",
+            "ioc/common/mpod/R1.11.1"
+        ],
+        "delay": 5,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-mpod-d51",
+        "script": "/reg/g/pcds/epics/ioc/common/mpod/R2.2.10/iocBoot/ioc-cxi-mpod-d51/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/mpod/R2.2.10/bin/linux-x86_64/mpod"
     },
     {
         "host": "ioc-cxi-sc1",
