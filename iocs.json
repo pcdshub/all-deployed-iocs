@@ -12043,6 +12043,7 @@
         "host": "ioc-mec-evg",
         "port": 30002,
         "dir": "ioc/common/evg/R1.0.5",
+        "disable": true,
         "history": [
             "ioc/common/evg/R1.0.3"
         ],
