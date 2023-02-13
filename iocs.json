@@ -20479,16 +20479,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.1/bin/rhel7-x86_64/gige"
     },
     {
-        "host": "ioc-xpp-gige01",
-        "port": 30006,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-mcbtest",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool/children/build/iocBoot/ioc-xpp-mcbtest/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool/bin/rhel7-x86_64/gsd"
-    },
-    {
         "host": "ioc-xpp-gige02",
         "port": 37500,
         "dir": "/reg/g/pcds/epics-dev/pennebak/xpp/cryocon/current",
