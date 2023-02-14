@@ -22437,7 +22437,7 @@
         "binary": "/reg/g/pcds/epics/ioc/common/xyGraphTrigger/R0.1.0/bin/linux-x86_64/xyGraphTrigger"
     },
     {
-        "host": "ioc-xpp-wave8",
+        "host": "ioc-xpp-wave8-01",
         "port": 30100,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
         "alias": "SB2 - WAVE8",
