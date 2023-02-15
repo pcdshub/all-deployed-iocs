@@ -9707,8 +9707,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-cspad2",
-        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/detector-ctrl/current/iocBoot/ioc-det-cspad2/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/detector-ctrl/current/bin/linux-x86_64/detector"
+        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/detector-ctrl/current/children/build/iocBoot/ioc-det-cspad2/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/ddamiani/ioc/common/detector-ctrl/current/bin/rhel7-x86_64/detector"
     },
     {
         "host": "ioc-det-portable2",
