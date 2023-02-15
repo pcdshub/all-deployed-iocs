@@ -9526,7 +9526,6 @@
         "host": "ioc-det-portable1",
         "port": 30002,
         "dir": "ioc/common/detector-ctrl/R3.0.0",
-        "disable": true,
         "history": [
             "ioc/common/detector-ctrl/R3.0.0"
         ],
@@ -9702,7 +9701,6 @@
         "host": "ioc-det-portable2",
         "port": 30002,
         "dir": "ioc/common/detector-ctrl/R3.0.1",
-        "disable": true,
         "history": [
             "ioc/common/detector-ctrl/R3.0.1"
         ],
