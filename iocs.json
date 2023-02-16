@@ -3903,6 +3903,17 @@
     },
     {
         "host": "ctl-rix-qrix-mot-01",
+        "port": 33001,
+        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/pdu_snmp",
+        "alias": "K2S17 Misc PDU",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-pwr-misc-02",
+        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/pdu_snmp/build/iocBoot/ioc-rix-pwr-misc-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
+    },
+    {
+        "host": "ctl-rix-qrix-mot-01",
         "port": 30002,
         "dir": "ioc/rix/pdu_snmp/R1.0.1",
         "alias": "Rack 3 PDU (QRIXS)",
