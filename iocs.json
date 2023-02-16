@@ -3899,7 +3899,7 @@
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pwr-misc-01",
         "script": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/pdu_snmp/build/iocBoot/ioc-rix-pwr-misc-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.5/bin/rhel7-x86_64/pdu"
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ctl-rix-qrix-mot-01",
