@@ -14751,6 +14751,21 @@
     },
     {
         "host": "ioc-mfx-cam02",
+        "port": 30500,
+        "dir": "ioc/mfx/vacuum/R1.0.0",
+        "alias": "Vacuum",
+        "history": [
+            "ioc/mfx/vacuum/R0.0.4",
+            "/reg/neh/home/trendahl/Workarea/mfx/vacuum/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-vacuum",
+        "script": "/reg/g/pcds/epics/ioc/mfx/vacuum/R1.0.0/iocBoot/ioc-mfx-vacuum/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/mfx/vacuum/R1.0.0/bin/linux-x86_64/vacuum"
+    },
+    {
+        "host": "ioc-mfx-cam02",
         "port": 32505,
         "dir": "ioc/mfx/NewportXPS8/R2.1.0",
         "disable": true,
@@ -15024,21 +15039,6 @@
         "name": "ioc-mfx-pulsepicker-ims",
         "script": "/reg/g/pcds/epics/ioc/common/pulsepicker/R1.1.7/iocBoot/ioc-mfx-pulsepicker-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pulsepicker/R1.1.7/bin/linux-x86/motion"
-    },
-    {
-        "host": "ioc-mfx-mot1",
-        "port": 30500,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/mfx/vacuum",
-        "alias": "Vacuum",
-        "history": [
-            "ioc/mfx/vacuum/R0.0.4",
-            "/reg/neh/home/trendahl/Workarea/mfx/vacuum/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-vacuum",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/mfx/vacuum/iocBoot/ioc-mfx-vacuum/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/mfx/vacuum/bin/linux-x86_64/vacuum"
     },
     {
         "host": "ioc-mfx-rec01",
