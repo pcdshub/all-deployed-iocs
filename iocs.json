@@ -7520,6 +7520,7 @@
         "host": "ioc-cxi-mot2",
         "port": 31122,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/NewportXPS8",
+        "disable": true,
         "alias": "Newport XPS User 2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -8170,6 +8171,16 @@
         "name": "ioc-cxi-sc1-inline",
         "script": "/reg/g/pcds/epics/ioc/cxi/edtCam/R2.0.2/build/iocBoot/ioc-cxi-sc1-inline/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.2/bin/rhel7-x86_64/edt"
+    },
+    {
+        "host": "ioc-cxi-rec04",
+        "port": 30003,
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/BK-Precision",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-BK1",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/BK-Precision/children/build/iocBoot/ioc-cxi-BK1/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/BK-Precision/bin/rhel7-x86_64/BK-Precision"
     },
     {
         "host": "ioc-cxi-rec04",
