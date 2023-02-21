@@ -6683,7 +6683,7 @@
         "port": 30001,
         "dir": "ioc/cxi/unixCam/R3.4.25",
         "disable": true,
-        "alias": "Camera1 KB1",
+        "alias": "zz- DT- Camera1 KB1",
         "history": [
             "ioc/cxi/unixCam/R3.4.25"
         ],
@@ -6697,7 +6697,8 @@
         "host": "ioc-cxi-cam2",
         "port": 30001,
         "dir": "ioc/cxi/unixCam/R3.4.25",
-        "alias": "Camera2 SC2-1 SC2-2",
+        "disable": true,
+        "alias": "zz- DT- Camera2 SC2-1 SC2-2",
         "history": [
             "ioc/cxi/unixCam/R3.4.25"
         ],
@@ -6723,7 +6724,8 @@
         "host": "ioc-cxi-cam4",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam_rhel5",
-        "alias": "Camera4 SC1-1 SC1-4",
+        "disable": true,
+        "alias": "zz- DT- Camera4 SC1-1 SC1-4",
         "history": [
             "ioc/cxi/unixCam/R3.4.25"
         ],
@@ -6737,7 +6739,8 @@
         "host": "ioc-cxi-cam5",
         "port": 30001,
         "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/unixCam/R3.6.3",
-        "alias": "Camera5 SC1-2 SC1-3",
+        "disable": true,
+        "alias": "zz- DT- Camera5 SC1-2 SC1-3",
         "history": [
             "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/unixCam/R3.6.3",
             "ioc/cxi/unixCam/R3.4.25"
