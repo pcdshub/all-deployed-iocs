@@ -2521,8 +2521,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lln-spec-01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/qmini/st.cmd",
-        "binary": null
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/qmini/children/build/iocBoot/ioc-las-lln-spec-01/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/qmini/bin/rhel7-x86_64/qminiTpr"
     },
     {
         "host": "ctl-las-lln-02",
@@ -9057,7 +9057,7 @@
     {
         "host": "ioc-cxi-usrmot2",
         "port": 30531,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/iocBoot/ioc-cxi-dg4-newall-le",
         "alias": "Beamline DG4 Stand LE",
         "history": [
             "ioc/cxi/motion/R3.0.0"
@@ -9065,8 +9065,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg4-stand-le",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/iocBoot/ioc-cxi-dg4-newall-le/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/bin/linux-x86/motion"
     },
     {
         "host": "ioc-cxi-usrmot2",
