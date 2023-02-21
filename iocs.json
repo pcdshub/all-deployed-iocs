@@ -9041,6 +9041,16 @@
     },
     {
         "host": "ioc-cxi-usrmot2",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-dg4-newall-le",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/iocBoot/ioc-cxi-dg4-newall-le/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/bin/linux-x86/newall"
+    },
+    {
+        "host": "ioc-cxi-usrmot2",
         "port": 31532,
         "dir": "ioc/cxi/motion/R3.0.0",
         "alias": "Beamline DG4 Stand Inclinometer",
@@ -9058,6 +9068,7 @@
         "host": "ioc-cxi-usrmot2",
         "port": 30531,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/iocBoot/ioc-cxi-dg4-newall-le",
+        "disable": true,
         "alias": "Beamline DG4 Stand LE",
         "history": [
             "ioc/cxi/motion/R3.0.0"
