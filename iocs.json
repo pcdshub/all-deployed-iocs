@@ -8176,6 +8176,7 @@
         "dir": "ioc/cxi/edtCam/R2.0.2",
         "alias": "CAM - SC1 Inline Questar Opal1000m",
         "history": [
+            "ioc/cxi/edtCam/R2.0.2",
             "ioc/cxi/edtCam/R1.2.1"
         ],
         "base_version": "3.15",
@@ -9061,7 +9062,6 @@
         "history": [
             "ioc/cxi/motion/R3.0.0"
         ],
-        "cmd": "./st.cmd",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg4-stand-le",
