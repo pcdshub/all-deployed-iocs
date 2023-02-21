@@ -9043,7 +9043,6 @@
         "host": "ioc-cxi-usrmot2",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg4-newall-le",
@@ -9069,6 +9068,7 @@
         "host": "ioc-cxi-usrmot2",
         "port": 30531,
         "dir": "ioc/cxi/motion/R3.0.0",
+        "disable": true,
         "alias": "Beamline DG4 Stand LE",
         "history": [
             "ioc/cxi/motion/R3.0.0"
