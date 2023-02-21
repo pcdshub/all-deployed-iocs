@@ -9026,7 +9026,7 @@
     {
         "host": "ioc-cxi-usrmot2",
         "port": 31526,
-        "dir": "/reg/g/pcds/epics-dev/divya/local_dir/encoder/1ms-stand-le",
+        "dir": "ioc/cxi/motion/R3.1.11",
         "alias": "Beamline DG3 Stand LE",
         "history": [
             "ioc/cxi/motion/R3.1.11"
@@ -9036,8 +9036,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg3-stand-le",
-        "script": "/reg/g/pcds/epics-dev/divya/local_dir/encoder/1ms-stand-le/iocBoot/ioc-cxi-dg3-stand-le/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/divya/local_dir/encoder/1ms-stand-le/bin/linux-x86/motion"
+        "script": "/reg/g/pcds/epics/ioc/cxi/motion/R3.1.11/iocBoot/ioc-cxi-dg3-stand-le/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/cxi/motion/R3.1.11/bin/linux-x86/motion"
     },
     {
         "host": "ioc-cxi-usrmot2",
