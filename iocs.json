@@ -9066,7 +9066,7 @@
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg4-stand-le",
         "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/iocBoot/ioc-cxi-dg4-newall-le/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/bin/linux-x86/motion"
+        "binary": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/bin/linux-x86/newall"
     },
     {
         "host": "ioc-cxi-usrmot2",
