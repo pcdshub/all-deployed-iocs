@@ -9032,7 +9032,7 @@
             "ioc/cxi/motion/R3.1.11"
         ],
         "delay": 10,
-        "cmd": "./st-le.cmd",
+        "cmd": "./st.cmd",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg3-stand-le",
