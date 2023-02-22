@@ -2185,6 +2185,16 @@
     },
     {
         "host": "ctl-las-lhn-03",
+        "port": 30003,
+        "dir": "/cds/home/t/tjohnson/trunk/common/smaract",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-opcpa-mcs2-01",
+        "script": "/cds/home/t/tjohnson/trunk/common/smaract/children/build/iocBoot/ioc-las-opcpa-mcs2-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.11/bin/rhel7-x86_64/smaract"
+    },
+    {
+        "host": "ctl-las-lhn-03",
         "port": 30010,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/current",
         "base_version": "3.15",
