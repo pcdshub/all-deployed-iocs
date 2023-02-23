@@ -12879,17 +12879,6 @@
     },
     {
         "host": "ioc-mec-lpl01",
-        "port": 30200,
-        "dir": "/reg/g/pcds/epics-dev/sfsyunus/mec/pvNotepad/current",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-las-arr-notepad",
-        "script": "/reg/g/pcds/epics-dev/sfsyunus/mec/pvNotepad/current/build/iocBoot/ioc-mec-las-arr-notepad/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.2/bin/linux-x86_64/pvNotepad"
-    },
-    {
-        "host": "ioc-mec-lpl01",
         "port": 36015,
         "dir": "ioc/mec/gentec/R1.1.2",
         "alias": "Gentec las meter 1 (LPL)",
@@ -12965,17 +12954,6 @@
         "name": "ioc-mec-las-gentec7",
         "script": "/reg/g/pcds/epics/ioc/mec/gentec/R1.1.2/build/iocBoot/ioc-mec-las-gentec7/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gentec/R1.1.1/bin/linux-x86_64/gentec"
-    },
-    {
-        "host": "ioc-mec-lpl01",
-        "port": 36022,
-        "dir": "/reg/g/pcds/epics-dev/sfsyunus/mec/pvNotepad/current",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-las-notepad",
-        "script": "/reg/g/pcds/epics-dev/sfsyunus/mec/pvNotepad/current/build/iocBoot/ioc-mec-las-notepad/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1/bin/linux-x86_64/pvNotepad"
     },
     {
         "host": "ioc-mec-lpl01",
@@ -13373,17 +13351,6 @@
         "name": "ioc-mec-ris01",
         "script": "/reg/g/pcds/epics/ioc/mec/ris/R1.2.0/iocBoot/ioc-mec-ris01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/mec/ris/R1.2.0/bin/linux-x86_64/radmon"
-    },
-    {
-        "host": "ioc-mec-misc01",
-        "port": 31001,
-        "dir": "/cds/home/t/tjohnson/trunk/mec/pvNotepad",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-scanVars",
-        "script": "/cds/home/t/tjohnson/trunk/mec/pvNotepad/build/iocBoot/ioc-mec-scanVars/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1/bin/linux-x86_64/pvNotepad"
     },
     {
         "host": "ioc-mec-misc01",
@@ -14201,12 +14168,12 @@
     {
         "host": "ioc-mec-rec01",
         "port": 39211,
-        "dir": "/cds/home/p/peregrin/modules/mec/pvNotepad/current",
+        "dir": "ioc/mec/pvNotepad/R1.1.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-pvnotepad",
-        "script": "/cds/home/p/peregrin/modules/mec/pvNotepad/current/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/pvNotepad/R1.1.0/build/iocBoot/ioc-mec-pvnotepad/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
     },
     {
         "host": "ioc-mec-rec01",
@@ -14242,17 +14209,6 @@
         "name": "ioc-mec-thermotek-01",
         "script": "/reg/g/pcds/epics/ioc/mec/thermotek/R1.0.2/build/iocBoot/ioc-mec-thermotek-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.7/bin/rhel7-x86_64/thermotek"
-    },
-    {
-        "host": "ioc-mec-rec01",
-        "port": 39209,
-        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/pvNotepad/current",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-userPV",
-        "script": "/reg/g/pcds/epics-dev/nrw/iocs/pvNotepad/current/build/iocBoot/ioc-mec-userPV/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.3/bin/rhel7-x86_64/pvNotepad"
     },
     {
         "host": "ioc-mec-rec01",
