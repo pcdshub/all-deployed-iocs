@@ -4001,7 +4001,7 @@
     {
         "host": "ctl-rix-vac-01",
         "port": 30112,
-        "dir": "ioc/kfe/lcls-plc-kfe-rix-vac/v1.3.0",
+        "dir": "ioc/kfe/lcls-plc-kfe-rix-vac/v2.0.0",
         "alias": "Beamline Vacuum PLC IOC",
         "history": [
             "ioc/kfe/lcls-plc-kfe-rix-vac/v1.3.0",
@@ -4010,8 +4010,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-plc-kfe-rix-vac",
-        "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-rix-vac/v1.3.0/iocBoot/ioc-plc-kfe-rix-vac/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.4.1/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-rix-vac/v2.0.0/iocBoot/ioc-plc-kfe-rix-vac/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-rix-vac-01",
