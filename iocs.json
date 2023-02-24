@@ -12540,17 +12540,6 @@
     },
     {
         "host": "ioc-mec-las-gige01",
-        "port": 32508,
-        "dir": "ioc/mec/gigECam/R1.3.0",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-gige8",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.3.0/build/iocBoot/ioc-mec-gige8/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/linux-x86_64/gige"
-    },
-    {
-        "host": "ioc-mec-las-gige01",
         "port": 32509,
         "dir": "ioc/mec/gigECam/R1.3.0",
         "disable": true,
@@ -12724,6 +12713,28 @@
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige38",
         "script": "/cds/home/p/peregrin/modules/mec/gigECam/current/build/iocBoot/ioc-mec-gige38/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/linux-x86_64/gige"
+    },
+    {
+        "host": "ioc-mec-las-gige03",
+        "port": 32540,
+        "dir": "/cds/home/p/peregrin/modules/mec/gigECam/current",
+        "alias": "Gige LPL 100J #6",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-gige40",
+        "script": "/cds/home/p/peregrin/modules/mec/gigECam/current/build/iocBoot/ioc-mec-gige40/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/linux-x86_64/gige"
+    },
+    {
+        "host": "ioc-mec-las-gige03",
+        "port": 32508,
+        "dir": "/cds/home/p/peregrin/modules/mec/gigECam/current",
+        "alias": "Gige LPL 100J #5",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-gige8",
+        "script": "/cds/home/p/peregrin/modules/mec/gigECam/current/build/iocBoot/ioc-mec-gige8/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/linux-x86_64/gige"
     },
     {
