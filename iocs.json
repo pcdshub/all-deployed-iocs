@@ -3908,7 +3908,7 @@
     {
         "host": "ctl-rix-qrix-mot-01",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/SmarPod",
+        "dir": "ioc/rix/SmarPod/R1.0.0",
         "alias": "QRIXS Smarpod",
         "history": [
             "/reg/g/pcds/epics-dev/wwright/ioc/common/SmarPod"
@@ -3916,7 +3916,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-smarpod-01",
-        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/SmarPod/build/iocBoot/ioc-qrix-smarpod-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/SmarPod/R1.0.0/build/iocBoot/ioc-qrix-smarpod-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/SmarPod/R1.1.2/bin/rhel7-x86_64/SmarPod"
     },
     {
