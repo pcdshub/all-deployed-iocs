@@ -8538,7 +8538,7 @@
     {
         "host": "ioc-cxi-sc1",
         "port": 34503,
-        "dir": "ioc/cxi/ims/R6.0.4",
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims",
         "alias": "IMS DSB User Dumb Motors",
         "history": [
             "ioc/cxi/ims/R4.0.39",
@@ -8548,8 +8548,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-usr-dsb-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.4/build/iocBoot/ioc-cxi-usr-dsb-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/ims/build/iocBoot/ioc-cxi-usr-dsb-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.1.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-sc1",
