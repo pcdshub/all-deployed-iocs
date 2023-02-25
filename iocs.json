@@ -8111,22 +8111,6 @@
     },
     {
         "host": "ioc-cxi-rec01",
-        "port": 30057,
-        "dir": "ioc/cxi/ims/R6.0.4",
-        "alias": "IMS DSB Pulse-Picker Encoder (V7)",
-        "history": [
-            "ioc/cxi/ims/R2.0.0",
-            "ioc/cxi/ims"
-        ],
-        "delay": 10,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-ppenc-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.4/build/iocBoot/ioc-cxi-ppenc-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-cxi-rec01",
         "port": 34640,
         "dir": "ioc/cxi/evr/R0.1.3",
         "alias": "\"MISC\": REC01 EVR",
