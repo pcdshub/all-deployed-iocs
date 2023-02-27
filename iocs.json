@@ -12828,7 +12828,7 @@
     {
         "host": "ioc-mec-lasmot1",
         "port": 39100,
-        "dir": "ioc/las/NewportXPS8/R2.0.1",
+        "dir": "ioc/mec/NewportXPS8/R2.1.0",
         "alias": "Newport MPA power meter",
         "history": [
             "ioc/las/NewportXPS8/R2.0.1",
@@ -12836,14 +12836,14 @@
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-las-mec-xps1",
-        "script": "/reg/g/pcds/epics/ioc/las/NewportXPS8/R2.0.1/build/iocBoot/ioc-las-mec-xps1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.1/bin/linux-x86_64/xps8"
+        "name": "ioc-mec-las-xps1",
+        "script": "/reg/g/pcds/epics/ioc/mec/NewportXPS8/R2.1.0/build/iocBoot/ioc-mec-las-xps1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/linux-x86_64/xps8"
     },
     {
         "host": "ioc-mec-lasmot1",
         "port": 39101,
-        "dir": "ioc/las/NewportXPS8/R2.0.1",
+        "dir": "ioc/mec/NewportXPS8/R2.1.0",
         "alias": "Newport Compressor",
         "history": [
             "ioc/las/NewportXPS8/R2.0.1",
@@ -12851,14 +12851,14 @@
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-las-mec-xps2",
-        "script": "/reg/g/pcds/epics/ioc/las/NewportXPS8/R2.0.1/build/iocBoot/ioc-las-mec-xps2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.1/bin/linux-x86_64/xps8"
+        "name": "ioc-mec-las-xps2",
+        "script": "/reg/g/pcds/epics/ioc/mec/NewportXPS8/R2.1.0/build/iocBoot/ioc-mec-las-xps2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/linux-x86_64/xps8"
     },
     {
         "host": "ioc-mec-lasmot1",
         "port": 39102,
-        "dir": "ioc/las/NewportXPS8/R2.0.1",
+        "dir": "ioc/mec/NewportXPS8/R2.1.0",
         "alias": "Newport Time tool Ns power meter",
         "history": [
             "ioc/las/NewportXPS8/R2.0.1",
@@ -12866,22 +12866,22 @@
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-las-mec-xps3",
-        "script": "/reg/g/pcds/epics/ioc/las/NewportXPS8/R2.0.1/build/iocBoot/ioc-las-mec-xps3/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.1/bin/linux-x86_64/xps8"
+        "name": "ioc-mec-las-xps3",
+        "script": "/reg/g/pcds/epics/ioc/mec/NewportXPS8/R2.1.0/build/iocBoot/ioc-mec-las-xps3/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/linux-x86_64/xps8"
     },
     {
         "host": "ioc-mec-lasmot1",
         "port": 39103,
-        "dir": "ioc/las/NewportXPS8/R2.0.1",
+        "dir": "ioc/mec/NewportXPS8/R2.1.0",
         "history": [
             "ioc/las/NewportXPS8/R2.0.1"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-las-mec-xps4",
-        "script": "/reg/g/pcds/epics/ioc/las/NewportXPS8/R2.0.1/build/iocBoot/ioc-las-mec-xps4/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.1/bin/linux-x86_64/xps8"
+        "name": "ioc-mec-las-xps4",
+        "script": "/reg/g/pcds/epics/ioc/mec/NewportXPS8/R2.1.0/build/iocBoot/ioc-mec-las-xps4/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/linux-x86_64/xps8"
     },
     {
         "host": "ioc-mec-lpl01",
