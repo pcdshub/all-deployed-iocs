@@ -4003,7 +4003,7 @@
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-calc",
         "script": "/reg/g/pcds/epics-dev/wwright8/ioc/dev_iocs/rixcalc/ioc-rix-calc/st.cmd",
-        "binary": "/usr/bin/env bash"
+        "binary": null
     },
     {
         "host": "ctl-rix-vac-01",
