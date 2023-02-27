@@ -3997,13 +3997,13 @@
     {
         "host": "ctl-rix-qrix-vac-01",
         "port": 33000,
-        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/dev_iocs/rixcalc/ioc-rix-calc",
+        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/ioc-rix-calc",
         "alias": "RIX Misc Calculator",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-calc",
-        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/dev_iocs/rixcalc/ioc-rix-calc/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/ioc-rix-calc/st.cmd",
+        "binary": "/usr/bin/env bash"
     },
     {
         "host": "ctl-rix-vac-01",
