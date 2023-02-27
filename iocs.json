@@ -3995,6 +3995,17 @@
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
+        "host": "ctl-rix-qrix-vac-01",
+        "port": 33000,
+        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/dev_iocs/rixcalc/ioc-rix-calc",
+        "alias": "RIX Misc Calculator",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-calc",
+        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/dev_iocs/rixcalc/ioc-rix-calc/st.cmd",
+        "binary": null
+    },
+    {
         "host": "ctl-rix-vac-01",
         "port": 30222,
         "dir": "ioc/rix/picoMotion/R1.0.0",
