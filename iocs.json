@@ -2576,6 +2576,16 @@
     },
     {
         "host": "ctl-las-lln-02",
+        "port": 30010,
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/Thorlabs-WFS",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-lln-wfs-01",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/Thorlabs-WFS/children/build/iocBoot/ioc-las-lln-wfs-01/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/Thorlabs-WFS/bin/rhel7-gcc494-x86_64/wfs"
+    },
+    {
+        "host": "ctl-las-lln-02",
         "port": 30101,
         "dir": "/reg/g/pcds/epics-dev/mods/lm1k2/com/gigECam",
         "base_version": "3.15",
