@@ -2582,7 +2582,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lln-wfs-01",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/Thorlabs-WFS/children/build/iocBoot/ioc-las-lln-wfs-01/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/Thorlabs-WFS/bin/rhel7-gcc494-x86_64/wfs"
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/Thorlabs-WFS/bin/rhel7-gcc494-x86_64/wfsTpr"
     },
     {
         "host": "ctl-las-lln-02",
