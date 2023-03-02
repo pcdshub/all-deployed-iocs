@@ -1363,6 +1363,7 @@
         "host": "ctl-las-ftl-srv01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/menhir-1550/menhir-1550-git",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-menhir-tst",
@@ -13081,7 +13082,7 @@
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-motion",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/mfx/lcls-plc-mfx-motion/iocBoot/ioc-mfx-motion/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
+        "binary": null
     },
     {
         "host": "ioc-mfx-cam01",
