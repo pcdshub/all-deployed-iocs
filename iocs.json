@@ -2581,8 +2581,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lln-wfs-01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/Thorlabs-WFS/children/build/iocBoot/ioc-las-lln-wfs-01/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/Thorlabs-WFS/bin/rhel7-gcc494-x86_64/wfsTpr"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/Thorlabs-WFS/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-las-lln-02",
@@ -11200,17 +11200,6 @@
     },
     {
         "host": "ioc-mec-las-gige01",
-        "port": 32536,
-        "dir": "/cds/home/p/peregrin/modules/mec/gigECam/current",
-        "alias": "Gige LPL 100J #1",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-gige36",
-        "script": "/cds/home/p/peregrin/modules/mec/gigECam/current/build/iocBoot/ioc-mec-gige36/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/linux-x86_64/gige"
-    },
-    {
-        "host": "ioc-mec-las-gige01",
         "port": 32507,
         "dir": "ioc/mec/gigECam/R1.3.0",
         "disable": true,
@@ -11384,6 +11373,17 @@
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige33",
         "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.3.0/build/iocBoot/ioc-mec-gige33/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/linux-x86_64/gige"
+    },
+    {
+        "host": "ioc-mec-las-gige03",
+        "port": 32536,
+        "dir": "/cds/home/p/peregrin/modules/mec/gigECam/current",
+        "alias": "Gige LPL 100J #1",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-gige36",
+        "script": "/cds/home/p/peregrin/modules/mec/gigECam/current/build/iocBoot/ioc-mec-gige36/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/linux-x86_64/gige"
     },
     {
