@@ -10702,7 +10702,7 @@
     {
         "host": "ioc-lfe-gasdet-daq",
         "port": 39873,
-        "dir": "ioc/fee/GasDetDAQ/R4.0.22",
+        "dir": "ioc/fee/GasDetDAQ/R4.0.22-NOTS",
         "alias": "GasDetDAQ",
         "history": [
             "/cds/home/m/mcbrowne/trunk2/ioc/fee/GasDetDAQ"
@@ -10710,8 +10710,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-lfe-gasdet-daq",
-        "script": "/reg/g/pcds/epics/ioc/fee/GasDetDAQ/R4.0.22/children/build/iocBoot/ioc-lfe-gasdet-daq/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/fee/GasDetDAQ/R4.0.22/bin/linux-x86/GasDetDAQ"
+        "script": "/reg/g/pcds/epics/ioc/fee/GasDetDAQ/R4.0.22-NOTS/children/build/iocBoot/ioc-lfe-gasdet-daq/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/fee/GasDetDAQ/R4.0.22-NOTS/bin/linux-x86/GasDetDAQ"
     },
     {
         "host": "ioc-lfe-kmono-daq",
