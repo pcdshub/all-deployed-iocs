@@ -8560,13 +8560,13 @@
     {
         "host": "ioc-cxi-wave8",
         "port": 30032,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/cxidev/ioc-cxi-sds",
+        "dir": "ioc/common/sample-delivery-system/v1.1.1",
         "alias": "SDS M3",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sds",
-        "script": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/cxidev/ioc-cxi-sds/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.4.1/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics/ioc/common/sample-delivery-system/v1.1.1/iocBoot/ioc-cxi-sds/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ioc-cxi-wave8",
@@ -14227,7 +14227,7 @@
     {
         "host": "ioc-mfx-wave8",
         "port": 30115,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/cxidev/ioc-mfx-sds",
+        "dir": "ioc/common/sample-delivery-system/v1.1.1",
         "alias": "SDS - PLC",
         "history": [
             "/reg/g/pcds/epics-dev/pennebak/sample-delivery/current"
@@ -14235,8 +14235,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-sds",
-        "script": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/cxidev/ioc-mfx-sds/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.4.1/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics/ioc/common/sample-delivery-system/v1.1.1/iocBoot/ioc-mfx-sds/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ioc-mfx-wave8",
