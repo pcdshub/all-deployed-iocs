@@ -2599,7 +2599,6 @@
         "host": "ctl-las-lln-02",
         "port": 30010,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/Thorlabs-WFS",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lln-wfs-01",
