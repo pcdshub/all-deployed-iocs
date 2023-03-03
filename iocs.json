@@ -1366,8 +1366,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-menhir-tst",
-        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/menhir-1550/menhir-1550-git/children/build/iocBoot/ioc-menhir-tst/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/menhir-1550/menhir-1550-git/bin/rhel7-x86_64/menhir"
+        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/menhir-1550/menhir-1550-git/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-las-ftl-srv01",
