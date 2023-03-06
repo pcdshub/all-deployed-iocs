@@ -11582,7 +11582,6 @@
         "host": "ioc-mec-lasmot1",
         "port": 39103,
         "dir": "ioc/mec/NewportXPS8/R2.1.0",
-        "disable": true,
         "history": [
             "ioc/las/NewportXPS8/R2.0.1"
         ],
