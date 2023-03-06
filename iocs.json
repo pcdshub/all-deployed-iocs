@@ -11582,6 +11582,7 @@
         "host": "ioc-mec-lasmot1",
         "port": 39103,
         "dir": "ioc/mec/NewportXPS8/R2.1.0",
+        "disable": true,
         "history": [
             "ioc/las/NewportXPS8/R2.0.1"
         ],
@@ -18036,6 +18037,17 @@
     },
     {
         "host": "ioc-xcs-wave8",
+        "port": 30014,
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/qmini/current",
+        "disable": true,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-spec-01",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/qmini/current/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ioc-xcs-wave8-01",
         "port": 30111,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
         "alias": "SB2 - Wave8",
@@ -18050,17 +18062,6 @@
         "name": "ioc-xcs-sb2-bmmon",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-xcs-sb2-bmmon/st.cmd",
         "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
-    },
-    {
-        "host": "ioc-xcs-wave8",
-        "port": 30014,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/qmini/current",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-spec-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/qmini/current/st.cmd",
-        "binary": null
     },
     {
         "host": "ioc-xpp-gige01",
