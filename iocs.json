@@ -3121,7 +3121,7 @@
     {
         "host": "ctl-rix-cam-01",
         "port": 30112,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/rix/gigECam",
+        "dir": "ioc/rix/gigECam/R2.2.0",
         "alias": "SL1K2 GIGE",
         "history": [
             "/reg/g/pcds/epics-dev/bhill/epics/ioc/rix/gigECam/gigECam-git",
@@ -3130,13 +3130,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-sl1k2-gige",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/rix/gigECam/build/iocBoot/ioc-sl1k2-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.1/bin/rhel7-x86_64/gigeTpr"
+        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.2.0/build/iocBoot/ioc-sl1k2-gige/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-rix-cam-02",
         "port": 30011,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/rix/gigECam",
+        "dir": "ioc/rix/gigECam/R2.2.0",
         "disable": true,
         "alias": "IM2K2 GIGE",
         "history": [
@@ -3146,13 +3146,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-im2k2-gige",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/rix/gigECam/build/iocBoot/ioc-im2k2-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.1/bin/rhel7-x86_64/gigeTpr"
+        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.2.0/build/iocBoot/ioc-im2k2-gige/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-rix-cam-02",
         "port": 30055,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/rix/gigECam",
+        "dir": "ioc/rix/gigECam/R2.2.0",
         "disable": true,
         "alias": "IM3K2 GIGE",
         "history": [
@@ -3162,13 +3162,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-im3k2-gige",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/rix/gigECam/build/iocBoot/ioc-im3k2-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.1/bin/rhel7-x86_64/gigeTpr"
+        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.2.0/build/iocBoot/ioc-im3k2-gige/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-rix-cam-02",
         "port": 30031,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/rix/gigECam",
+        "dir": "ioc/rix/gigECam/R2.2.0",
         "disable": true,
         "alias": "IM4K2 GIGE",
         "history": [
@@ -3178,8 +3178,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-im4k2-gige",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/rix/gigECam/build/iocBoot/ioc-im4k2-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.1/bin/rhel7-x86_64/gigeTpr"
+        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.2.0/build/iocBoot/ioc-im4k2-gige/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-rix-cam-02",
@@ -3210,7 +3210,7 @@
     {
         "host": "ctl-rix-cam-02",
         "port": 30066,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/rix/gigECam",
+        "dir": "ioc/rix/gigECam/R2.2.0",
         "alias": "TM2K2 GIGE",
         "history": [
             "ioc/rix/gigECam/R2.0.1",
@@ -3219,13 +3219,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-tm2k2-gige-01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/rix/gigECam/build/iocBoot/ioc-tm2k2-gige-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.1/bin/rhel7-x86_64/gigeTpr"
+        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.2.0/build/iocBoot/ioc-tm2k2-gige-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-rix-cam-03",
         "port": 30012,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/rix/gigECam",
+        "dir": "ioc/rix/gigECam/R2.2.0",
         "alias": "IM1K2 GIGE",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
@@ -3234,13 +3234,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-im1k2-gige",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/rix/gigECam/build/iocBoot/ioc-im1k2-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.1/bin/rhel7-x86_64/gigeTpr"
+        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.2.0/build/iocBoot/ioc-im1k2-gige/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-rix-cam-03",
         "port": 30022,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/rix/gigECam",
+        "dir": "ioc/rix/gigECam/R2.2.0",
         "alias": "IM5K2 GIGE",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
@@ -3249,13 +3249,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-im5k2-gige",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/rix/gigECam/build/iocBoot/ioc-im5k2-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.1/bin/rhel7-x86_64/gigeTpr"
+        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.2.0/build/iocBoot/ioc-im5k2-gige/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-rix-cam-03",
         "port": 30033,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/rix/gigECam",
+        "dir": "ioc/rix/gigECam/R2.2.0",
         "alias": "IM6K2 GIGE",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
@@ -3264,8 +3264,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-im6k2-gige",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/rix/gigECam/build/iocBoot/ioc-im6k2-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.1/bin/rhel7-x86_64/gigeTpr"
+        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.2.0/build/iocBoot/ioc-im6k2-gige/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-rix-cam-03",
@@ -3820,7 +3820,7 @@
     {
         "host": "ctl-rix-qrix-cam-02",
         "port": 34000,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/rix/gigECam",
+        "dir": "ioc/rix/gigECam/R2.2.0",
         "alias": "QRIXS GIGE 01",
         "history": [
             "ioc/rix/gigECam/R2.0.0"
@@ -3828,13 +3828,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-gige-01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/rix/gigECam/build/iocBoot/ioc-qrix-gige-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.1/bin/rhel7-x86_64/gigeTpr"
+        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.2.0/build/iocBoot/ioc-qrix-gige-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-rix-qrix-cam-02",
         "port": 34001,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/rix/gigECam",
+        "dir": "ioc/rix/gigECam/R2.2.0",
         "alias": "QRIXS GIGE 02",
         "history": [
             "ioc/rix/gigECam/R2.0.0"
@@ -3842,8 +3842,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-gige-02",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/rix/gigECam/build/iocBoot/ioc-qrix-gige-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.1/bin/rhel7-x86_64/gigeTpr"
+        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.2.0/build/iocBoot/ioc-qrix-gige-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-rix-qrix-cam-02",
