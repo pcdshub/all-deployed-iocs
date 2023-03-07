@@ -7834,7 +7834,6 @@
         "host": "ioc-cxi-sc1",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc",
-        "disable": true,
         "alias": "MMC - SC2 4 Axis 1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -7846,7 +7845,6 @@
         "host": "ioc-cxi-sc1",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc",
-        "disable": true,
         "alias": "MMC - SC2 4 Axis 2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -8629,18 +8627,6 @@
         "name": "ioc-xpp-cryojet-01",
         "script": "/reg/g/pcds/epics-dev/spencera/common/cryojet/iocBoot/ioc-xpp-cryojet-01/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/spencera/common/cryojet/bin/rhel7-x86_64/cryojet"
-    },
-    {
-        "host": "ioc-cxi-wave8b",
-        "port": 30004,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf",
-        "disable": true,
-        "alias": "DET - JF INTERLOCK 2",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-jf2",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf/build/iocBoot/ioc-xpp-jf2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/roving_jf/R1.0.0/bin/rhel7-x86_64/roving"
     },
     {
         "host": "ioc-cxi-wave8b",
@@ -18804,6 +18790,62 @@
     },
     {
         "host": "ioc-xpp-misc02",
+        "port": 30003,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf",
+        "alias": "DET - JF INTERLOCK 1",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-jf1",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf/build/iocBoot/ioc-xpp-jf1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/roving_jf/R1.0.0/bin/rhel7-x86_64/roving"
+    },
+    {
+        "host": "ioc-xpp-misc02",
+        "port": 30004,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf",
+        "disable": true,
+        "alias": "DET - JF INTERLOCK 2",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-jf2",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf/build/iocBoot/ioc-xpp-jf2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/roving_jf/R1.0.0/bin/rhel7-x86_64/roving"
+    },
+    {
+        "host": "ioc-xpp-misc02",
+        "port": 30071,
+        "dir": "ioc/xpp/ims/R6.0.3",
+        "alias": "MON - CCM Motion",
+        "history": [
+            "ioc/xpp/ims/R2.0.0",
+            "/reg/g/pcds/package/epics/3.14-dev/ioc/xpp/motion/current"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-mon-ccm-ims",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-mon-ccm-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xpp-misc02",
+        "port": 31071,
+        "dir": "ioc/xpp/ims/R6.0.3",
+        "alias": "MON - Navitar Motion",
+        "history": [
+            "ioc/xpp/ims/R2.3.0",
+            "ioc/xpp/ims/R2.0.0",
+            "/reg/g/pcds/package/epics/3.14-dev/ioc/xpp/motion/current"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-mon-nav-ims",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-mon-nav-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xpp-misc02",
         "port": 30053,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims",
         "alias": "SB2 - Double Slits",
@@ -18817,6 +18859,22 @@
         "name": "ioc-xpp-sb2-dslits-ims",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims/build/iocBoot/ioc-xpp-sb2-dslits-ims/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xpp-misc02",
+        "port": 30051,
+        "dir": "ioc/xpp/ims/R6.0.3",
+        "alias": "SB2 - IPM Motion",
+        "history": [
+            "ioc/xpp/ims/R2.3.0",
+            "ioc/xpp/ims/R2.0.0",
+            "ioc/xpp/ims/R1.0.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-sb2-ipm01-ims",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-sb2-ipm01-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xpp-misc02",
@@ -18846,56 +18904,7 @@
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
-        "host": "ioc-xpp-mot01",
-        "port": 30071,
-        "dir": "ioc/xpp/ims/R6.0.3",
-        "alias": "MON - CCM Motion",
-        "history": [
-            "ioc/xpp/ims/R2.0.0",
-            "/reg/g/pcds/package/epics/3.14-dev/ioc/xpp/motion/current"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-mon-ccm-ims",
-        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-mon-ccm-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xpp-mot01",
-        "port": 31071,
-        "dir": "ioc/xpp/ims/R6.0.3",
-        "alias": "MON - Navitar Motion",
-        "history": [
-            "ioc/xpp/ims/R2.3.0",
-            "ioc/xpp/ims/R2.0.0",
-            "/reg/g/pcds/package/epics/3.14-dev/ioc/xpp/motion/current"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-mon-nav-ims",
-        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-mon-nav-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xpp-mot01",
-        "port": 30051,
-        "dir": "ioc/xpp/ims/R6.0.3",
-        "alias": "SB2 - IPM Motion",
-        "history": [
-            "ioc/xpp/ims/R2.3.0",
-            "ioc/xpp/ims/R2.0.0",
-            "ioc/xpp/ims/R1.0.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-sb2-ipm01-ims",
-        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-sb2-ipm01-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xpp-mot01",
+        "host": "ioc-xpp-misc02",
         "port": 30065,
         "dir": "ioc/xpp/ims/R6.0.3",
         "alias": "SB3 - HRMs",
@@ -18910,7 +18919,7 @@
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
-        "host": "ioc-xpp-mot01",
+        "host": "ioc-xpp-misc02",
         "port": 30061,
         "dir": "ioc/xpp/ims/R6.0.3",
         "alias": "SB3 - IPM Motion",
@@ -18925,7 +18934,7 @@
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
-        "host": "ioc-xpp-mot01",
+        "host": "ioc-xpp-misc02",
         "port": 30064,
         "dir": "ioc/xpp/ims/R6.0.3",
         "alias": "SB3 - LCH Motion",
@@ -18940,7 +18949,7 @@
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
-        "host": "ioc-xpp-mot01",
+        "host": "ioc-xpp-misc02",
         "port": 30062,
         "dir": "ioc/xpp/ims/R6.0.3",
         "alias": "SB3 - YAG2 Screen Motion",
@@ -18955,7 +18964,7 @@
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
-        "host": "ioc-xpp-mot01",
+        "host": "ioc-xpp-misc02",
         "port": 30063,
         "dir": "ioc/xpp/ims/R6.0.3",
         "alias": "SB3 - Slits",
@@ -18970,7 +18979,7 @@
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
-        "host": "ioc-xpp-mot01",
+        "host": "ioc-xpp-misc02",
         "port": 31072,
         "dir": "ioc/xpp/ims/R6.0.3",
         "alias": "SB2 - Timetool Motion",
@@ -18984,6 +18993,20 @@
         "name": "ioc-xpp-timetool-ims",
         "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-timetool-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xpp-misc02",
+        "port": 30999,
+        "dir": "ioc/xpp/xyGraphTrigger/R0.1.0",
+        "alias": "XPP Vacuum Tech Screen",
+        "history": [
+            "ioc/xpp/xyGraphTrigger/R0.1.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-xyGraphTrigger",
+        "script": "/reg/g/pcds/epics/ioc/xpp/xyGraphTrigger/R0.1.0/iocBoot/ioc-xpp-xyGraphTrigger/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/xyGraphTrigger/R0.1.0/bin/linux-x86_64/xyGraphTrigger"
     },
     {
         "host": "ioc-xpp-rec01",
@@ -20114,20 +20137,6 @@
         "binary": "/reg/g/pcds/epics/ioc/xpp/xppLed/R0.5.0/bin/linux-x86_64/xppLed"
     },
     {
-        "host": "ioc-xpp-vacuum",
-        "port": 30999,
-        "dir": "ioc/xpp/xyGraphTrigger/R0.1.0",
-        "alias": "XPP Vacuum Tech Screen",
-        "history": [
-            "ioc/xpp/xyGraphTrigger/R0.1.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-xyGraphTrigger",
-        "script": "/reg/g/pcds/epics/ioc/xpp/xyGraphTrigger/R0.1.0/iocBoot/ioc-xpp-xyGraphTrigger/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/xyGraphTrigger/R0.1.0/bin/linux-x86_64/xyGraphTrigger"
-    },
-    {
         "host": "ioc-xpp-wave8-01",
         "port": 30100,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
@@ -20144,18 +20153,7 @@
         "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
     },
     {
-        "host": "ioc-xpp-wave8b",
-        "port": 30003,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf",
-        "alias": "DET - JF INTERLOCK 1",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-jf1",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/roving_jf/build/iocBoot/ioc-xpp-jf1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/roving_jf/R1.0.0/bin/rhel7-x86_64/roving"
-    },
-    {
-        "host": "ioc-xpp-wave8b",
+        "host": "ioc-xpp-wave8-01",
         "port": 32936,
         "dir": "ioc/xpp/chiller/R1.0.0",
         "alias": "Thermotek Chiller 01",
@@ -20166,7 +20164,7 @@
         "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.6/bin/rhel7-x86_64/thermotek"
     },
     {
-        "host": "ioc-xpp-wave8b",
+        "host": "ioc-xpp-wave8-01",
         "port": 30002,
         "dir": "ioc/xpp/chiller/R1.0.0",
         "alias": "Thermotek Chiller SB5",
