@@ -4586,6 +4586,7 @@
         "host": "ctl-tmo-misc-01",
         "port": 30164,
         "dir": "ioc/tmo/evr/R1.0.2",
+        "disable": true,
         "alias": "EVR MISC 01",
         "history": [
             "/reg/g/pcds/epics-dev/bosum123/git_ioc/evr"
