@@ -3965,23 +3965,23 @@
     {
         "host": "ctl-rix-qrix-mot-01",
         "port": 33000,
-        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/pdu_snmp",
+        "dir": "ioc/rix/pdu_snmp/R1.1.0",
         "alias": "Hoffman Box Misc PDU",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pwr-misc-01",
-        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/pdu_snmp/build/iocBoot/ioc-rix-pwr-misc-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/pdu_snmp/R1.1.0/build/iocBoot/ioc-rix-pwr-misc-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ctl-rix-qrix-mot-01",
         "port": 33001,
-        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/pdu_snmp",
-        "alias": "K2S17 Misc PDU",
+        "dir": "ioc/rix/pdu_snmp/R1.1.0",
+        "alias": "K2S18 Misc PDU",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pwr-misc-02",
-        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/pdu_snmp/build/iocBoot/ioc-rix-pwr-misc-02/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/pdu_snmp/R1.1.0/build/iocBoot/ioc-rix-pwr-misc-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
     },
     {
@@ -6614,6 +6614,7 @@
         "host": "ioc-cxi-mot2",
         "port": 34506,
         "dir": "ioc/cxi/ims/R6.0.4",
+        "disable": true,
         "alias": "IMS DSB Motors",
         "history": [
             "ioc/cxi/ims/R4.0.39",
