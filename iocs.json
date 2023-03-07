@@ -18998,6 +18998,7 @@
         "host": "ioc-xpp-misc02",
         "port": 30999,
         "dir": "ioc/xpp/xyGraphTrigger/R0.1.0",
+        "disable": true,
         "alias": "XPP Vacuum Tech Screen",
         "history": [
             "ioc/xpp/xyGraphTrigger/R0.1.0"
