@@ -4650,6 +4650,16 @@
     },
     {
         "host": "ctl-tmo-misc-01",
+        "port": 38000,
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/tmo/tprStandalone",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-tmo-misc-tpr1",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/tmo/tprStandalone/build/iocBoot/ioc-tmo-misc-tpr1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.2/bin/rhel7-x86_64/tpr"
+    },
+    {
+        "host": "ctl-tmo-misc-01",
         "port": 31109,
         "dir": "ioc/tmo/dc_power/ict",
         "history": [
