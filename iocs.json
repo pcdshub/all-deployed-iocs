@@ -3788,7 +3788,7 @@
     {
         "host": "ctl-rix-mot-01",
         "port": 30107,
-        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-rixs-optics/iocBoot/ioc-rixs-optics/",
+        "dir": "/reg/g/pcds/epics/ioc/rix/lcls-plc-rixs-optics/v2.0.0/iocBoot/ioc-rixs-optics/",
         "alias": "RIXS Optics PLC IOC",
         "history": [
             "/reg/g/pcds/epics/ioc/rix/lcls-plc-rixs-optics/v1.7.0/iocBoot/ioc-rixs-optics/",
@@ -3798,7 +3798,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rixs-optics",
-        "script": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-rixs-optics/iocBoot/ioc-rixs-optics/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/lcls-plc-rixs-optics/v2.0.0/iocBoot/ioc-rixs-optics/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
     },
     {
