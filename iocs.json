@@ -10014,7 +10014,7 @@
     },
     {
         "host": "ioc-las-cxi-srv05",
-        "port": 31001,
+        "port": 30001,
         "dir": "ioc/las/agilent5322/R1.0.4",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
