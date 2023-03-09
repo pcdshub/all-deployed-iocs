@@ -11313,7 +11313,6 @@
         "host": "ioc-mec-las-gige02",
         "port": 33005,
         "dir": "ioc/mec/gigECam/R1.3.0",
-        "disable": true,
         "alias": "Gige Short Pulse 6",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
@@ -11325,7 +11324,6 @@
         "host": "ioc-mec-las-gige02",
         "port": 32534,
         "dir": "ioc/mec/gigECam/R1.3.0",
-        "disable": true,
         "alias": "Gige SPS Time tool 1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
@@ -20214,6 +20212,7 @@
         "host": "ioc-xrt-mec-mot1",
         "port": 39101,
         "dir": "ioc/common/pulsepicker/R1.1.7",
+        "disable": true,
         "alias": "Beamline Pulse Picker",
         "history": [
             "ioc/common/pulsepicker/R1.0.0"
@@ -20271,6 +20270,7 @@
         "host": "ioc-xrt-mec-mot1",
         "port": 39106,
         "dir": "ioc/xrt/ims/R2.2.10",
+        "disable": true,
         "alias": "Beamline PIM1 (YAG1)",
         "history": [
             "ioc/xrt/ims/R2.1.0",
