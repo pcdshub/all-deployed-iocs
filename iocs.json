@@ -17705,8 +17705,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xpp-portable-jjslit-motion",
-        "script": "/reg/g/pcds/epics-dev/spencera/plcs/lcls-plc-xpp-jjslit-motion/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/spencera/plcs/lcls-plc-xpp-jjslit-motion/iocBoot/ioc-xpp-portable-jjslit-motion/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.4.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ioc-xcs-user2",
@@ -18662,8 +18662,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-portable-jjslit-motion",
-        "script": "/reg/g/pcds/epics-dev/spencera/plcs/lcls-plc-xpp-jjslit-motion/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/spencera/plcs/lcls-plc-xpp-jjslit-motion/iocBoot/ioc-xpp-portable-jjslit-motion/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.4.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ioc-xpp-misc01",
