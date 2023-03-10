@@ -13435,7 +13435,7 @@
     {
         "host": "ioc-mfx-cam02",
         "port": 32507,
-        "dir": "ioc/mfx/shimadzu-lc20/R1.0.1",
+        "dir": "ioc/mfx/shimadzu-lc20/R1.0.2",
         "alias": "SDS - HPLC",
         "history": [
             "/reg/g/pcds/epics-dev/pennebak/shimadzu-lc20/current",
@@ -13444,8 +13444,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-lc20",
-        "script": "/reg/g/pcds/epics/ioc/mfx/shimadzu-lc20/R1.0.1/build/iocBoot/ioc-mfx-lc20/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.3.5/bin/rhel7-x86_64/lc20"
+        "script": "/reg/g/pcds/epics/ioc/mfx/shimadzu-lc20/R1.0.2/build/iocBoot/ioc-mfx-lc20/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.3.6/bin/rhel7-x86_64/lc20"
     },
     {
         "host": "ioc-mfx-cam02",
