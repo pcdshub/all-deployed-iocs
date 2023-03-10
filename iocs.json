@@ -12280,7 +12280,7 @@
     {
         "host": "ioc-mec-mot3",
         "port": 30633,
-        "dir": "/cds/home/p/peregrin/modules/mec/ims/ims-git",
+        "dir": "ioc/mec/ims/R2.1.0",
         "history": [
             "ioc/mec/ims/R2.1.0",
             "ioc/mec/ims/R1.0.1"
@@ -12289,8 +12289,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-ns1-ursbpp150-ims",
-        "script": "/cds/home/p/peregrin/modules/mec/ims/ims-git/build/iocBoot/ioc-mec-ns1-ursbpp150-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.9/bin/linux-x86/ims"
+        "script": "/reg/g/pcds/epics/ioc/mec/ims/R2.1.0/build/iocBoot/ioc-mec-ns1-ursbpp150-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.1.0/bin/linux-x86/ims"
     },
     {
         "host": "ioc-mec-mot3",
