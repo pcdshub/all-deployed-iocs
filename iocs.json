@@ -20291,6 +20291,7 @@
         "host": "ioc-xrt-mec-mot1",
         "port": 39106,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/xrt/ims",
+        "disable": true,
         "alias": "Beamline PIM1 (YAG1)",
         "history": [
             "ioc/xrt/ims/R2.1.0",
