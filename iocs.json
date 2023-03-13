@@ -7713,7 +7713,6 @@
         "host": "ioc-cxi-rec04",
         "port": 34503,
         "dir": "ioc/cxi/ims/R6.0.4",
-        "disable": true,
         "alias": "IMS DSB User Dumb Motors",
         "history": [
             "ioc/cxi/ims/R4.0.39",
@@ -12076,21 +12075,6 @@
     },
     {
         "host": "ioc-mec-misc01",
-        "port": 31000,
-        "dir": "ioc/mec/ns_oper/R1.0.1",
-        "history": [
-            "ioc/mec/ns_oper/R1.0.0",
-            "/reg/neh/home/tjohnson/trunk/mec/ns_oper",
-            "/reg/neh/home/mcbrowne/trunk2/ioc/mec/ns_oper/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-nsoper",
-        "script": "/reg/g/pcds/epics/ioc/mec/ns_oper/R1.0.1/iocBoot/ioc-mec-nsoper/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/mec/ns_oper/R1.0.1/bin/linux-x86_64/nsoper"
-    },
-    {
-        "host": "ioc-mec-misc01",
         "port": 39002,
         "dir": "ioc/mec/potentiometer/R0.2.0",
         "history": [
@@ -12930,6 +12914,21 @@
         "name": "ioc-mec-mcs1",
         "script": "/reg/g/pcds/epics/ioc/mec/smaract/R1.0.0/build/iocBoot/ioc-mec-mcs1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.4/bin/rhel7-x86_64/smaract"
+    },
+    {
+        "host": "ioc-mec-rec01",
+        "port": 31000,
+        "dir": "ioc/mec/ns_oper/R1.0.1",
+        "history": [
+            "ioc/mec/ns_oper/R1.0.0",
+            "/reg/neh/home/tjohnson/trunk/mec/ns_oper",
+            "/reg/neh/home/mcbrowne/trunk2/ioc/mec/ns_oper/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-nsoper",
+        "script": "/reg/g/pcds/epics/ioc/mec/ns_oper/R1.0.1/iocBoot/ioc-mec-nsoper/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/mec/ns_oper/R1.0.1/bin/linux-x86_64/nsoper"
     },
     {
         "host": "ioc-mec-rec01",
