@@ -18707,6 +18707,17 @@
     },
     {
         "host": "ioc-xpp-misc01",
+        "port": 30036,
+        "dir": "ioc/xpp/shimadzu-lc20/R1.0.1",
+        "alias": "SDS - HPLCs",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-lc20",
+        "script": "/reg/g/pcds/epics/ioc/xpp/shimadzu-lc20/R1.0.1/build/iocBoot/ioc-xpp-lc20/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.3.6/bin/rhel7-x86_64/lc20"
+    },
+    {
+        "host": "ioc-xpp-misc01",
         "port": 34501,
         "dir": "ioc/xpp/ims/R6.0.3",
         "alias": "MON - LODCM Motion",
@@ -19872,22 +19883,6 @@
         "name": "ioc-xpp-lakeshore",
         "script": "/reg/g/pcds/epics/ioc/common/lakeshore340/R3.0.8/iocBoot/ioc-xpp-lakeshore/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/lakeshore340/R3.0.8/bin/linux-x86_64/lakeshore340"
-    },
-    {
-        "host": "ioc-xpp-usr01",
-        "port": 40010,
-        "dir": "/reg/g/pcds/package/epics/3.14/ioc/common/shimadzu-lc20/R1.0.0",
-        "disable": true,
-        "alias": "SDS - LC20 HPLC",
-        "history": [
-            "/reg/g/pcds/package/epics/3.14-dev/ioc/common/shimadzu-lc20/current",
-            "/reg/g/pcds/package/epics/3.14-dev/ioc/common/shimadzu/lc20/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-lc20",
-        "script": "/reg/g/pcds/package/epics/3.14/ioc/common/shimadzu-lc20/R1.0.0/iocBoot/ioc-xpp-lc20/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.0.0/bin/linux-x86_64/lc20"
     },
     {
         "host": "ioc-xpp-usr01",
