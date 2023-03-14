@@ -12282,6 +12282,7 @@
         "host": "ioc-mec-mot3",
         "port": 30633,
         "dir": "/cds/home/p/peregrin/modules/mec/ims/ims-git",
+        "disable": true,
         "history": [
             "ioc/mec/ims/R2.1.0",
             "ioc/mec/ims/R1.0.1"
