@@ -8409,6 +8409,17 @@
     },
     {
         "host": "ioc-cxi-usrmot2",
+        "port": 39102,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le",
+        "alias": "Beamline DG2 Newall Stand LE",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-dg2-newall-le",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/iocBoot/ioc-cxi-dg2-newall-le/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/bin/linux-x86/newall"
+    },
+    {
+        "host": "ioc-cxi-usrmot2",
         "port": 31516,
         "dir": "ioc/cxi/motion/R3.1.11",
         "alias": "Beamline DG2 Stand Inclinometer",
