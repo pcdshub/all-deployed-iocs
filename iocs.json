@@ -7229,7 +7229,6 @@
         "host": "ioc-cxi-qadc",
         "port": 30513,
         "dir": "ioc/cxi/ims/R6.0.4",
-        "disable": true,
         "alias": "IMS DG2 IPM",
         "history": [
             "ioc/cxi/ims/R2.0.0",
@@ -7753,6 +7752,7 @@
         "host": "ioc-cxi-rec04",
         "port": 34503,
         "dir": "ioc/cxi/ims/R6.0.4",
+        "disable": true,
         "alias": "IMS DSB User Dumb Motors",
         "history": [
             "ioc/cxi/ims/R4.0.39",
