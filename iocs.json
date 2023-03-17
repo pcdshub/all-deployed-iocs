@@ -1307,6 +1307,16 @@
     },
     {
         "host": "ctl-las-ftl-srv01",
+        "port": 30010,
+        "dir": "/cds/home/t/tjohnson/trunk/las/menhir-1550",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-ftl-menhir-01",
+        "script": "/cds/home/t/tjohnson/trunk/las/menhir-1550/build/iocBoot/ioc-las-ftl-menhir-01/st.cmd",
+        "binary": "/cds/home/t/tjohnson/trunk/common/menhir-1550/bin/rhel7-x86_64/menhir"
+    },
+    {
+        "host": "ctl-las-ftl-srv01",
         "port": 30003,
         "dir": "/cds/home/t/tjohnson/trunk/las/local_gateway",
         "base_version": "3.15",
@@ -1358,16 +1368,6 @@
         "name": "ioc-las-rfof-itech-01",
         "script": "/reg/g/pcds/epics/ioc/las/iTech_RFOF/R1.0.2/build/iocBoot/ioc-las-rfof-itech-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/iTech_RFOF/R1.0.4/bin/rhel7-x86_64/rfof"
-    },
-    {
-        "host": "ctl-las-ftl-srv01",
-        "port": 30010,
-        "dir": "ioc/common/menhir-1550/R1.0.0",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-menhir-tst",
-        "script": "/reg/g/pcds/epics/ioc/common/menhir-1550/R1.0.0/children/build/iocBoot/ioc-menhir-tst/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/menhir-1550/R1.0.0/bin/rhel7-x86_64/menhir"
     },
     {
         "host": "ctl-las-ftl-srv01",
