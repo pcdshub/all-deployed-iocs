@@ -1308,11 +1308,11 @@
     {
         "host": "ctl-las-ftl-srv01",
         "port": 30010,
-        "dir": "/cds/home/t/tjohnson/trunk/las/menhir-1550",
+        "dir": "ioc/las/menhir-1550/R1.0.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-ftl-menhir-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/menhir-1550/build/iocBoot/ioc-las-ftl-menhir-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/menhir-1550/R1.0.0/build/iocBoot/ioc-las-ftl-menhir-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/menhir-1550/R1.0.1/bin/rhel7-x86_64/menhir"
     },
     {
