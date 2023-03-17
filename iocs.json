@@ -175,7 +175,7 @@
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-im2k0-gige",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/kfe/gigECam/build/iocBoot/ioc-im2k0-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.1/bin/rhel7-x86_64/gigeTpr"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-kfe-cam-02",
