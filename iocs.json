@@ -7370,13 +7370,12 @@
         "host": "ioc-cxi-rec01",
         "port": 30041,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
-        "disable": true,
-        "alias": "zz-DT-CAM - DG1 PIM Gige 01",
+        "alias": "CAM - DG1 PIM Gige 01",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg1-gige",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam/build/iocBoot/ioc-cxi-dg1-gige/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-cxi-rec01",
@@ -7455,6 +7454,7 @@
         "host": "ioc-cxi-rec01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
+        "disable": true,
         "alias": "CAM- DG1 PIM Gige 01",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
