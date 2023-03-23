@@ -8362,6 +8362,17 @@
     },
     {
         "host": "ioc-cxi-usrmot2",
+        "port": 39103,
+        "dir": "ioc/cxi/newall-le/R0.0.1",
+        "alias": "Beamline 1MS Newall Stand LE",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-1ms-newall-le",
+        "script": "/reg/g/pcds/epics/ioc/cxi/newall-le/R0.0.1/iocBoot/ioc-cxi-1ms-newall-le/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/cxi/newall-le/R0.0.1/bin/linux-x86/newall"
+    },
+    {
+        "host": "ioc-cxi-usrmot2",
         "port": 31522,
         "dir": "ioc/cxi/motion/R3.0.0",
         "disable": true,
@@ -8379,29 +8390,14 @@
     },
     {
         "host": "ioc-cxi-usrmot2",
-        "port": 30521,
-        "dir": "/reg/g/pcds/epics-dev/divya/local_dir/encoder/1ms-stand-le",
-        "alias": "Beamline 1MS Stand LE",
-        "history": [
-            "ioc/cxi/motion/R3.0.0"
-        ],
-        "cmd": "./st-le.cmd",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-1ms-stand-le",
-        "script": "/reg/g/pcds/epics-dev/divya/local_dir/encoder/1ms-stand-le/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ioc-cxi-usrmot2",
         "port": 39102,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le",
+        "dir": "ioc/cxi/newall-le/R0.0.1",
         "alias": "Beamline DG2 Newall Stand LE",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg2-newall-le",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/iocBoot/ioc-cxi-dg2-newall-le/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/bin/linux-x86/newall"
+        "script": "/reg/g/pcds/epics/ioc/cxi/newall-le/R0.0.1/iocBoot/ioc-cxi-dg2-newall-le/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/cxi/newall-le/R0.0.1/bin/linux-x86/newall"
     },
     {
         "host": "ioc-cxi-usrmot2",
@@ -8420,56 +8416,25 @@
     },
     {
         "host": "ioc-cxi-usrmot2",
-        "port": 31517,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/iocBoot/ioc-cxi-dg2-newall-le",
-        "disable": true,
-        "alias": "Beamline DG2 Stand LE",
-        "history": [
-            "ioc/cxi/motion/R3.0.0"
-        ],
-        "cmd": "./st.cmd",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-dg2-stand-le",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/iocBoot/ioc-cxi-dg2-newall-le/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/bin/linux-x86/newall"
-    },
-    {
-        "host": "ioc-cxi-usrmot2",
         "port": 39101,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le",
+        "dir": "ioc/cxi/newall-le/R0.0.1",
+        "alias": "Beamline DG3 Newall Stand LE",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg3-newall-le",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/iocBoot/ioc-cxi-dg3-newall-le/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/bin/linux-x86/newall"
-    },
-    {
-        "host": "ioc-cxi-usrmot2",
-        "port": 31526,
-        "dir": "ioc/cxi/motion/R3.1.11",
-        "disable": true,
-        "alias": "Beamline DG3 Stand LE",
-        "history": [
-            "ioc/cxi/motion/R3.1.11"
-        ],
-        "delay": 10,
-        "cmd": "./st.cmd",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-dg3-stand-le",
-        "script": "/reg/g/pcds/epics/ioc/cxi/motion/R3.1.11/iocBoot/ioc-cxi-dg3-stand-le/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/cxi/motion/R3.1.11/bin/linux-x86/motion"
+        "script": "/reg/g/pcds/epics/ioc/cxi/newall-le/R0.0.1/iocBoot/ioc-cxi-dg3-newall-le/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/cxi/newall-le/R0.0.1/bin/linux-x86/newall"
     },
     {
         "host": "ioc-cxi-usrmot2",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le",
+        "dir": "ioc/cxi/newall-le/R0.0.1",
+        "alias": "Beamline DG4 Newall Stand LE",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg4-newall-le",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/iocBoot/ioc-cxi-dg4-newall-le/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/divya/ioc/cxi/newall-le/bin/linux-x86/newall"
+        "script": "/reg/g/pcds/epics/ioc/cxi/newall-le/R0.0.1/iocBoot/ioc-cxi-dg4-newall-le/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/cxi/newall-le/R0.0.1/bin/linux-x86/newall"
     },
     {
         "host": "ioc-cxi-usrmot2",
@@ -8484,22 +8449,6 @@
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg4-stand-clin",
         "script": "/reg/g/pcds/epics/ioc/cxi/motion/R3.0.0/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ioc-cxi-usrmot2",
-        "port": 30531,
-        "dir": "ioc/cxi/motion/R3.1.11",
-        "disable": true,
-        "alias": "Beamline DG4 Stand LE",
-        "history": [
-            "ioc/cxi/motion/R3.0.0"
-        ],
-        "cmd": "./st-le.cmd",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-dg4-stand-le",
-        "script": "/reg/g/pcds/epics/ioc/cxi/motion/R3.1.11/st.cmd",
         "binary": null
     },
     {
