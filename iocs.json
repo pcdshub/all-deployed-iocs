@@ -138,15 +138,15 @@
     {
         "host": "ctl-kfe-cam-02",
         "port": 34201,
-        "dir": "ioc/kfe/gigECam/R1.0.1",
+        "dir": "ioc/kfe/gigECam/R1.3.0",
         "history": [
             "ioc/kfe/gigECam/R1.0.1"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-cam-kfe-zos-01",
-        "script": "/reg/g/pcds/epics/ioc/kfe/gigECam/R1.0.1/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/kfe/gigECam/R1.3.0/build/iocBoot/ioc-cam-kfe-zos-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.1/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-kfe-cam-02",
@@ -5957,16 +5957,6 @@
     },
     {
         "host": "drp-neh-cmp014",
-        "port": 30001,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/epixMon",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
-        "name": "ioc-det-epix3",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/epixMon/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "drp-neh-cmp014",
         "port": 30100,
         "dir": "ioc/common/epixMon/R1.4.1",
         "disable": true,
@@ -9117,8 +9107,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-ued-mpod-01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/mpod/current/st.cmd",
-        "binary": null
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/mpod/current/iocBoot/ioc-ued-mpod-01/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/mpod/bin/rhel7-x86_64/mpod"
     },
     {
         "host": "ioc-det-portable2",
