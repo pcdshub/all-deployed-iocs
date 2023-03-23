@@ -2140,6 +2140,7 @@
         "host": "ctl-las-lhn-01",
         "port": 43431,
         "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
+        "disable": true,
         "alias": "FS11 - FSTiming Python",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
