@@ -16814,6 +16814,7 @@
         "host": "ioc-xcs-qadc",
         "port": 32000,
         "dir": "ioc/common/qadc/R2.0.5",
+        "disable": true,
         "alias": "Quad ADC",
         "history": [
             "/reg/g/pcds/epics-dev/jjoshi/qadc"
