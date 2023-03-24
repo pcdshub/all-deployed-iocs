@@ -18062,16 +18062,6 @@
     },
     {
         "host": "ioc-xcs-wave8",
-        "port": 32520,
-        "dir": "ioc/det/thermotek/R1.0.0",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-det-thermotek-01",
-        "script": "/reg/g/pcds/epics/ioc/det/thermotek/R1.0.0/build/iocBoot/ioc-det-thermotek-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.0/bin/rhel7-x86_64/thermotek"
-    },
-    {
-        "host": "ioc-xcs-wave8",
         "port": 30014,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/qmini/current",
         "disable": true,
@@ -18080,6 +18070,16 @@
         "name": "ioc-xcs-spec-01",
         "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/qmini/current/st.cmd",
         "binary": null
+    },
+    {
+        "host": "ioc-xcs-wave8-01",
+        "port": 32520,
+        "dir": "ioc/det/thermotek/R1.0.0",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-det-thermotek-01",
+        "script": "/reg/g/pcds/epics/ioc/det/thermotek/R1.0.0/build/iocBoot/ioc-det-thermotek-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.0/bin/rhel7-x86_64/thermotek"
     },
     {
         "host": "ioc-xcs-wave8-01",
