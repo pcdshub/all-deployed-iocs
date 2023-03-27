@@ -7840,12 +7840,12 @@
     {
         "host": "ioc-cxi-sc1",
         "port": 30005,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc",
+        "dir": "ioc/cxi/mmc/R2.0.2",
         "alias": "MMC - SC2 1 Axis PR32",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-mmc-pr32-01",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc/build/iocBoot/ioc-cxi-mmc-pr32-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/cxi/mmc/R2.0.2/build/iocBoot/ioc-cxi-mmc-pr32-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
     },
     {
@@ -7867,23 +7867,23 @@
     {
         "host": "ioc-cxi-sc1",
         "port": 30003,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc",
+        "dir": "ioc/cxi/mmc/R2.0.2",
         "alias": "MMC - SC2 1 Axis 1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-pp30-1axis-03",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc/build/iocBoot/ioc-cxi-pp30-1axis-03/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/cxi/mmc/R2.0.2/build/iocBoot/ioc-cxi-pp30-1axis-03/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
     },
     {
         "host": "ioc-cxi-sc1",
         "port": 30004,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc",
+        "dir": "ioc/cxi/mmc/R2.0.2",
         "alias": "MMC - SC2 1 Axis 2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-pp30-1axis-04",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc/build/iocBoot/ioc-cxi-pp30-1axis-04/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/cxi/mmc/R2.0.2/build/iocBoot/ioc-cxi-pp30-1axis-04/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
     },
     {
@@ -7917,23 +7917,23 @@
     {
         "host": "ioc-cxi-sc1",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc",
+        "dir": "ioc/cxi/mmc/R2.0.2",
         "alias": "MMC - SC2 4 Axis 1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc2-pp30-4axis-01",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc/build/iocBoot/ioc-cxi-sc2-pp30-4axis-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/cxi/mmc/R2.0.2/build/iocBoot/ioc-cxi-sc2-pp30-4axis-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
     },
     {
         "host": "ioc-cxi-sc1",
         "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc",
+        "dir": "ioc/cxi/mmc/R2.0.2",
         "alias": "MMC - SC2 4 Axis 2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc2-pp30-4axis-02",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/cxi/mmc/build/iocBoot/ioc-cxi-sc2-pp30-4axis-02/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/cxi/mmc/R2.0.2/build/iocBoot/ioc-cxi-sc2-pp30-4axis-02/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
     },
     {
