@@ -19255,6 +19255,20 @@
     },
     {
         "host": "ioc-xpp-rec02",
+        "port": 30033,
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/usdusb4",
+        "alias": "USB Encoder - GON",
+        "history": [
+            "/reg/g/pcds/epics-dev/snelson/common/usdusb4/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-gon-usdusb4",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/usdusb4/children/build/iocBoot/ioc-xpp-gon-usdusb4/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/usdusb4/bin/rhel7-x86_64/usdusb4"
+    },
+    {
+        "host": "ioc-xpp-rec02",
         "port": 30234,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/usdusb4/current",
         "disable": true,
@@ -19447,20 +19461,6 @@
         "name": "ioc-xpp-usr-6axis-mmc-01",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/mmc/build/iocBoot/ioc-xpp-usr-6axis-mmc-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
-    },
-    {
-        "host": "ioc-xpp-rec03",
-        "port": 30003,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/usdusb4",
-        "alias": "USB Encoder - GON",
-        "history": [
-            "/reg/g/pcds/epics-dev/snelson/common/usdusb4/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-gon-usdusb4",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/usdusb4/children/build/iocBoot/ioc-xpp-gon-usdusb4/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/usdusb4/bin/linux-x86_64/usdusb4"
     },
     {
         "host": "ioc-xpp-rec03",
