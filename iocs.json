@@ -14273,12 +14273,12 @@
     {
         "host": "ioc-mfx-wave8",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/cymel123/mfx/Leviton/current",
+        "dir": "/cds/home/b/batyuk/epics/current",
         "alias": "Leviton (PDU) Racks",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-pdu",
-        "script": "/reg/g/pcds/epics-dev/cymel123/mfx/Leviton/current/build/iocBoot/ioc-mfx-pdu/st.cmd",
+        "script": "/cds/home/b/batyuk/epics/current/build/iocBoot/ioc-mfx-pdu/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.1/bin/rhel7-x86_64/Leviton"
     },
     {
