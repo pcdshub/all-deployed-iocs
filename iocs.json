@@ -7420,6 +7420,18 @@
     },
     {
         "host": "ioc-cxi-rec01",
+        "port": 39099,
+        "dir": "ioc/cxi/ims/R6.0.4",
+        "disable": true,
+        "alias": "DS1 PP",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-ds1-ppenc-ims",
+        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.0.4/build/iocBoot/ioc-cxi-ds1-ppenc-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-cxi-rec01",
         "port": 32519,
         "dir": "ioc/cxi/ims/R6.0.4",
         "alias": "IMS DS1 Stand",
