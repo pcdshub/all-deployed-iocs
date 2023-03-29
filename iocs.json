@@ -19589,7 +19589,7 @@
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-rob",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/staubli/build/iocBoot/ioc-xpp-rob/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/staubli/bin/rhel7-x86_64/staubli"
+        "binary": "/reg/g/pcds/epics/ioc/common/staubli/R1.3.0/bin/rhel7-x86_64/staubli"
     },
     {
         "host": "ioc-xpp-rob01",
