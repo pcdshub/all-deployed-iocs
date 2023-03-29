@@ -19580,7 +19580,7 @@
     {
         "host": "ioc-xpp-rob01",
         "port": 37626,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/staubli",
+        "dir": "ioc/xpp/staubli/R1.3.0",
         "alias": "XPP Robot",
         "history": [
             "ioc/xpp/staubli/R1.2.0"
@@ -19588,7 +19588,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-rob",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/staubli/build/iocBoot/ioc-xpp-rob/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/staubli/R1.3.0/build/iocBoot/ioc-xpp-rob/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/staubli/R1.3.0/bin/rhel7-x86_64/staubli"
     },
     {
