@@ -5374,14 +5374,13 @@
     {
         "host": "ctl-xpp-wave8",
         "port": 30001,
-        "dir": "ioc/common/pgpWave8/R1.6.1",
-        "disable": true,
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/pgpWave8",
         "alias": "SB3 - WAVE8 NEW",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb3-pgpW8",
-        "script": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.6.1/children/build/iocBoot/ioc-xpp-sb3-pgpW8/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.6.1/bin/rhel7-x86_64/pgpWave8"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/pgpWave8/st.cmd",
+        "binary": null
     },
     {
         "host": "cxi-control",
