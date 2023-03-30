@@ -18837,7 +18837,7 @@
     {
         "host": "ioc-xpp-misc01",
         "port": 32493,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/vacuum",
+        "dir": "ioc/xpp/vacuum/R1.3.0",
         "alias": "Vacuum",
         "history": [
             "/reg/neh/home/snelson/work/ioc/xpp/vacuum/current",
@@ -18847,8 +18847,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-vacuum",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/vacuum/iocBoot/ioc-xpp-vacuum/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/espov/ioc/xpp/vacuum/bin/rhel7-x86_64/vacuum"
+        "script": "/reg/g/pcds/epics/ioc/xpp/vacuum/R1.3.0/iocBoot/ioc-xpp-vacuum/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/xpp/vacuum/R1.3.0/bin/rhel7-x86_64/vacuum"
     },
     {
         "host": "ioc-xpp-misc01",
