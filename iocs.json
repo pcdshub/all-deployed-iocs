@@ -11007,8 +11007,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-mcb-evr",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/evr/current/children/build/iocBoot/ioc-mec-mcb-evr/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/evr/current/bin/linux-x86/evr"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/evr/current/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-mec-evr01",
@@ -13035,11 +13035,11 @@
     {
         "host": "ioc-mec-wave8",
         "port": 39101,
-        "dir": "ioc/mec/beamevr",
+        "dir": "ioc/mec/evr/R1.0.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-beam-evr-01",
-        "script": "/reg/g/pcds/epics/ioc/mec/beamevr/build/iocBoot/ioc-mec-beam-evr-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/mec/evr/R1.0.0/build/iocBoot/ioc-mec-beam-evr-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.2.4/bin/rhel7-x86_64/evr"
     },
     {
