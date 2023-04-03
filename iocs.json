@@ -7251,7 +7251,7 @@
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dia-pfls-ims",
         "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.1.0/build/iocBoot/ioc-cxi-dia-pfls-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.1.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-qadc",
