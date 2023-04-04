@@ -2754,6 +2754,16 @@
     },
     {
         "host": "ctl-las-lln-02",
+        "port": 30003,
+        "dir": "/reg/g/pcds/epics-dev/mods/lm1k2/smaract",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k2-mcs2-02",
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k2/smaract/build/iocBoot/ioc-lm1k2-mcs2-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.10/bin/rhel7-x86_64/smaract"
+    },
+    {
+        "host": "ctl-las-lln-02",
         "port": 30004,
         "dir": "/reg/g/pcds/epics-dev/mods/lm1k2/smaract",
         "base_version": "3.15",
@@ -2771,16 +2781,6 @@
         "name": "ioc-las-lln-evr-03",
         "script": "/reg/g/pcds/epics/ioc/las/evr/R1.0.6/build/iocBoot/ioc-las-lln-evr-03/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/rhel7-x86_64/evr"
-    },
-    {
-        "host": "ctl-las-lln-03",
-        "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm1k2/smaract",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k2-mcs2-02",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k2/smaract/build/iocBoot/ioc-lm1k2-mcs2-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.10/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-srv01",
