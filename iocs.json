@@ -4476,7 +4476,7 @@
     {
         "host": "ctl-tmo-fim-01",
         "port": 30001,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/pgpWave8",
+        "dir": "ioc/common/pgpWave8/R1.7.5",
         "history": [
             "ioc/common/pgpWave8/R1.5.0",
             "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git"
@@ -4484,13 +4484,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-pgpw8-01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/pgpWave8/children/build/iocBoot/ioc-tmo-pgpw8-01/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/pgpWave8/bin/rhel7-x86_64/pgpWave8"
+        "script": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.7.5/children/build/iocBoot/ioc-tmo-pgpw8-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.7.5/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-tmo-fim-01",
         "port": 30002,
-        "dir": "ioc/common/pgpWave8/R1.7.4",
+        "dir": "ioc/common/pgpWave8/R1.7.5",
         "history": [
             "ioc/common/pgpWave8/R1.5.0",
             "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git"
@@ -4498,19 +4498,19 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-pgpw8-02",
-        "script": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.7.4/children/build/iocBoot/ioc-tmo-pgpw8-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.7.4/bin/rhel7-x86_64/pgpWave8"
+        "script": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.7.5/children/build/iocBoot/ioc-tmo-pgpw8-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.7.5/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-tmo-fim-01",
         "port": 39100,
-        "dir": "ioc/common/pgpWave8/R1.7.4",
+        "dir": "ioc/common/pgpWave8/R1.7.5",
         "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-pgpw8-03",
-        "script": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.7.4/children/build/iocBoot/ioc-tmo-pgpw8-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.7.4/bin/rhel7-x86_64/pgpWave8"
+        "script": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.7.5/children/build/iocBoot/ioc-tmo-pgpw8-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.7.5/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-tmo-misc-01",
