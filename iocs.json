@@ -1371,6 +1371,16 @@
     },
     {
         "host": "ctl-las-ftl-srv01",
+        "port": 30013,
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-pftssim-01",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager/children/build/iocBoot/ioc-las-pftssim-01/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager/bin/rhel7-x86_64/pftsman"
+    },
+    {
+        "host": "ctl-las-ftl-srv01",
         "port": 35000,
         "dir": "ioc/las/iTech_RFOF/R1.0.2",
         "base_version": "3.15",
@@ -15252,20 +15262,6 @@
         "name": "ioc-tst-basler1",
         "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current/build/iocBoot/ioc-tst-basler1/st.cmd",
         "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ioc-tst-13",
-        "port": 30004,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager",
-        "history": [
-            "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager",
-            "ioc/common/pfts_manager/R1.0.6"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-dicon01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager/children/build/iocBoot/ioc-tst-dicon01/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager/bin/rhel7-x86_64/pftsman"
     },
     {
         "host": "ioc-tst-13",
