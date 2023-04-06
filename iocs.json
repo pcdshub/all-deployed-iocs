@@ -5327,6 +5327,16 @@
         "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git/bin/rhel7-x86_64/pgpWave8"
     },
     {
+        "host": "ctl-txi-cam-01",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/txi/gigECam",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/txi/iocmanager.cfg",
+        "name": "ioc-im2l1-gige",
+        "script": "/reg/g/pcds/epics-dev/jozamudi/txi/gigECam/build/iocBoot/ioc-im2l1-gige/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
+    },
+    {
         "host": "ctl-txi-misc-01",
         "port": 39200,
         "dir": "/reg/g/pcds/epics-dev/jozamudi/txi/lcls-plc-txi-hxr-vac",
