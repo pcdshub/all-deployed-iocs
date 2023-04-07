@@ -5329,7 +5329,7 @@
         "config_file": "/reg/g/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-im2l1-gige",
         "script": "/reg/g/pcds/epics-dev/jozamudi/txi/gigECam/build/iocBoot/ioc-im2l1-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gigeTpr"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-txi-misc-01",
