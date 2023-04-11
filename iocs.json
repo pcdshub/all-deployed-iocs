@@ -5149,14 +5149,14 @@
     {
         "host": "ctl-tmo-vac-01",
         "port": 30111,
-        "dir": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/lcls-plc-lamp-mbes-vac/plc-lamp-vac",
+        "dir": "/reg/g/pcds/epics-dev/tongju/PLC/lcls-plc-lamp-vac/plc-lamp-vac",
         "history": [
             "ioc/tmo/lamp/lcls-plc-lamp-vac/v1.0.2/plc-lamp-vac"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-plc-lamp-vac",
-        "script": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/lcls-plc-lamp-mbes-vac/plc-lamp-vac/iocBoot/ioc-plc-lamp-vac/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/tongju/PLC/lcls-plc-lamp-vac/plc-lamp-vac/iocBoot/ioc-plc-lamp-vac/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
