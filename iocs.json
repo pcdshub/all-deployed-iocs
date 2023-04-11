@@ -2777,7 +2777,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-mcs2-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k2/smaract/build/iocBoot/ioc-lm1k2-mcs2-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.10/bin/rhel7-x86_64/smaract"
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.12/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-lln-02",
