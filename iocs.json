@@ -20333,7 +20333,6 @@
         "host": "ioc-xrt-mec-mot1",
         "port": 39101,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/common/pulsepicker",
-        "disable": true,
         "alias": "Beamline Pulse Picker",
         "history": [
             "ioc/common/pulsepicker/R1.0.0"
