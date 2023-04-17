@@ -6241,6 +6241,17 @@
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
     },
     {
+        "host": "ioc-cxi-cam4",
+        "port": 32003,
+        "dir": "ioc/cxi/gigECam/R1.0.1",
+        "alias": "\"CAM\": Timetool Gige",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-timetool-gige",
+        "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R1.0.1/build/iocBoot/ioc-cxi-timetool-gige/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
+    },
+    {
         "host": "ioc-cxi-cam5",
         "port": 30001,
         "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/unixCam/R3.6.3",
@@ -7747,18 +7758,6 @@
     },
     {
         "host": "ioc-cxi-rec04",
-        "port": 39102,
-        "dir": "ioc/cxi/gigECam/R1.0.1",
-        "disable": true,
-        "alias": "\"CAM\": Timetool Viewing Gige",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-gige-08",
-        "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R1.0.1/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ioc-cxi-rec04",
         "port": 30509,
         "dir": "ioc/cxi/ims/R6.1.0",
         "alias": "IMS KB2 Optics",
@@ -7837,17 +7836,6 @@
         "name": "ioc-cxi-sc3-inline",
         "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam/build/iocBoot/ioc-cxi-sc3-inline/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.2/bin/rhel7-x86_64/edt"
-    },
-    {
-        "host": "ioc-cxi-rec04",
-        "port": 39100,
-        "dir": "ioc/cxi/gigECam/R1.0.1",
-        "alias": "\"CAM\": Timetool Gige",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-timetool-gige",
-        "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R1.0.1/build/iocBoot/ioc-cxi-timetool-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-cxi-rec04",
