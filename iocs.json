@@ -4528,6 +4528,16 @@
     },
     {
         "host": "ctl-tmo-cam-02",
+        "port": 38104,
+        "dir": "/reg/g/pcds/epics-dev/tongju/ioc-gasCabinet",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-tmo-gcip2-nonhazard",
+        "script": "/reg/g/pcds/epics-dev/tongju/ioc-gasCabinet/children/build/iocBoot/ioc-tmo-gcip2-nonhazard/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/tongju/ioc-gasCabinet/bin/rhel7-x86_64/hpm900"
+    },
+    {
+        "host": "ctl-tmo-cam-02",
         "port": 36554,
         "dir": "ioc/tmo/lakeshore335/R1.0.0",
         "history": [
