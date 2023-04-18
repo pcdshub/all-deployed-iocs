@@ -6257,6 +6257,17 @@
         "binary": "/reg/g/pcds/epics/ioc/common/unixCam/R3.4.25/bin/linux-x86_64/unixCam"
     },
     {
+        "host": "ioc-cxi-cam5",
+        "port": 32003,
+        "dir": "ioc/cxi/gigECam/R1.0.1",
+        "alias": "\"CAM\": Timetool Gige",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-timetool-gige",
+        "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R1.0.1/build/iocBoot/ioc-cxi-timetool-gige/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
+    },
+    {
         "host": "ioc-cxi-dg1",
         "port": 30102,
         "dir": "ioc/common/detector-ctrl/R3.2.3",
@@ -7610,17 +7621,6 @@
         "name": "ioc-cxi-recorder",
         "script": "/reg/g/pcds/controls/camrecord/st.cmd",
         "binary": "/usr/bin/bash"
-    },
-    {
-        "host": "ioc-cxi-rec01",
-        "port": 32003,
-        "dir": "ioc/cxi/gigECam/R1.0.1",
-        "alias": "\"CAM\": Timetool Gige",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-timetool-gige",
-        "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R1.0.1/build/iocBoot/ioc-cxi-timetool-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-cxi-rec01",
