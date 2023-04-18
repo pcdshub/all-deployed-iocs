@@ -5403,6 +5403,45 @@
         "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.2/bin/rhel7-x86_64/tpr"
     },
     {
+        "host": "ctl-txi-fim-01",
+        "port": 30001,
+        "dir": "ioc/common/pgpWave8/R1.7.5",
+        "history": [
+            "ioc/common/pgpWave8/R1.5.0",
+            "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-txi-pgpw8-01",
+        "script": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.7.5/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ctl-txi-fim-01",
+        "port": 30002,
+        "dir": "ioc/common/pgpWave8/R1.7.5",
+        "history": [
+            "ioc/common/pgpWave8/R1.5.0",
+            "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-txi-pgpw8-02",
+        "script": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.7.5/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ctl-txi-fim-01",
+        "port": 39100,
+        "dir": "ioc/common/pgpWave8/R1.7.5",
+        "disable": true,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-txi-pgpw8-03",
+        "script": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.7.5/st.cmd",
+        "binary": null
+    },
+    {
         "host": "ctl-txi-misc-01",
         "port": 39205,
         "dir": "/reg/g/pcds/epics-dev/jozamudi/txi/lcls-plc-txi-hxr-motion",
