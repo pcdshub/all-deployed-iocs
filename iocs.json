@@ -4478,6 +4478,7 @@
         "host": "ctl-tmo-cam-02",
         "port": 38100,
         "dir": "ioc/common/gasCabinet/R1.0.1",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-gcip1",
@@ -4486,13 +4487,44 @@
     },
     {
         "host": "ctl-tmo-cam-02",
+        "port": 38101,
+        "dir": "/reg/g/pcds/epics-dev/tongju/ioc-gasCabinet",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-tmo-gcip1-hazard",
+        "script": "/reg/g/pcds/epics-dev/tongju/ioc-gasCabinet/children/build/iocBoot/ioc-tmo-gcip1-hazard/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/tongju/ioc-gasCabinet/bin/rhel7-x86_64/hpm900"
+    },
+    {
+        "host": "ctl-tmo-cam-02",
+        "port": 38102,
+        "dir": "/reg/g/pcds/epics-dev/tongju/ioc-gasCabinet",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-tmo-gcip1-nonhazard",
+        "script": "/reg/g/pcds/epics-dev/tongju/ioc-gasCabinet/children/build/iocBoot/ioc-tmo-gcip1-nonhazard/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/tongju/ioc-gasCabinet/bin/rhel7-x86_64/hpm900"
+    },
+    {
+        "host": "ctl-tmo-cam-02",
         "port": 38200,
         "dir": "ioc/common/gasCabinet/R1.0.1",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-gcip2",
         "script": "/reg/g/pcds/epics/ioc/common/gasCabinet/R1.0.1/children/build/iocBoot/ioc-tmo-gcip2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gasCabinet/R1.0.1/bin/rhel7-x86_64/hpm900"
+    },
+    {
+        "host": "ctl-tmo-cam-02",
+        "port": 38103,
+        "dir": "/reg/g/pcds/epics-dev/tongju/ioc-gasCabinet",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-tmo-gcip2-hazard",
+        "script": "/reg/g/pcds/epics-dev/tongju/ioc-gasCabinet/children/build/iocBoot/ioc-tmo-gcip2-hazard/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/tongju/ioc-gasCabinet/bin/rhel7-x86_64/hpm900"
     },
     {
         "host": "ctl-tmo-cam-02",
