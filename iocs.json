@@ -6837,6 +6837,7 @@
         "host": "ioc-cxi-mot2",
         "port": 34506,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims",
+        "disable": true,
         "alias": "IMS DSB Motors",
         "history": [
             "ioc/cxi/ims/R4.0.39",
