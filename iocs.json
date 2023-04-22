@@ -1975,6 +1975,7 @@
         "host": "ctl-las-ip1-srv07",
         "port": 30002,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/vimbaCam",
+        "disable": true,
         "alias": "MCB - Test Camera 2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
