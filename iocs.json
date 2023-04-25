@@ -6105,12 +6105,12 @@
     {
         "host": "drp-srcf-cmp014",
         "port": 30100,
-        "dir": "ioc/common/epixMon/R1.4.1",
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/epixMon",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-epixHR-01",
-        "script": "/reg/g/pcds/epics/ioc/common/epixMon/R1.4.1/children/build/iocBoot/ioc-det-epixHR-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/epixMon/R1.4.1/bin/rhel7-x86_64/epixMonIoc"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/epixMon/children/build/iocBoot/ioc-det-epixHR-01/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/epixMon/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "drp-ued-cmp001",
