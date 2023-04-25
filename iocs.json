@@ -6106,7 +6106,6 @@
         "host": "drp-srcf-cmp014",
         "port": 30100,
         "dir": "ioc/common/epixMon/R1.4.1",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-epixHR-01",
