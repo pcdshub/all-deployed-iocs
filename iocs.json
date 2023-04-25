@@ -6103,7 +6103,7 @@
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.0.3/bin/rhel7-x86_64/epixMonIoc"
     },
     {
-        "host": "drp-neh-cmp014",
+        "host": "drp-srcf-cmp014",
         "port": 30100,
         "dir": "ioc/common/epixMon/R1.4.1",
         "disable": true,
