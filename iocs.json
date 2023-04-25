@@ -6800,7 +6800,6 @@
         "host": "ioc-cxi-mot2",
         "port": 30001,
         "dir": "ioc/cxi/ims/R6.1.0",
-        "disable": true,
         "alias": "IMS DS1 Extra Dumb Motors",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
