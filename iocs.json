@@ -3697,20 +3697,20 @@
     {
         "host": "ctl-rix-fim-01",
         "port": 30001,
-        "dir": "ioc/rix/pgpWave8/R1.6.0",
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/rix/pgpWave8",
         "alias": "Beamline Wave8 01",
         "history": [
+            "/reg/g/pcds/epics-dev/jozamudi/rix/pgpWave8",
             "ioc/rix/pgpWave8/R1.6.0",
             "ioc/common/pgpWave8/R1.4.0",
             "ioc/common/pgpWave8/R1.2.0",
-            "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git",
-            "/cds/home/t/tjohnson/trunk/pgpWave8/pgpWave8-git"
+            "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pgpw8-01",
-        "script": "/reg/g/pcds/epics/ioc/rix/pgpWave8/R1.6.0/build/iocBoot/ioc-rix-pgpw8-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.6.0/bin/rhel7-x86_64/pgpWave8"
+        "script": "/reg/g/pcds/epics-dev/jozamudi/rix/pgpWave8/build/iocBoot/ioc-rix-pgpw8-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.7.5/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-rix-fim-01",
@@ -4418,7 +4418,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-plc-vat-test",
         "script": "/reg/g/pcds/epics-dev/janezg/plc_iocs/vat590-test/iocBoot/ioc-plc-vat-test/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-tmo-cam-02",
