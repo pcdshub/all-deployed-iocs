@@ -3480,6 +3480,7 @@
         "host": "ctl-rix-crix-cam-01",
         "port": 30004,
         "dir": "ioc/rix/gigECam/R2.2.1",
+        "disable": true,
         "alias": "CRIXS GIGE 04",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
@@ -3495,6 +3496,7 @@
         "host": "ctl-rix-crix-cam-01",
         "port": 30005,
         "dir": "ioc/rix/gigECam/R2.2.1",
+        "disable": true,
         "alias": "CRIXS GIGE 05",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
