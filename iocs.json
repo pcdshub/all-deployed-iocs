@@ -6838,7 +6838,6 @@
         "host": "ioc-cxi-mot2",
         "port": 30004,
         "dir": "ioc/cxi/ims/R6.1.0",
-        "disable": true,
         "alias": "IMS DS2 Extra Dumb Motors",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -6956,6 +6955,7 @@
         "host": "ioc-cxi-mot2",
         "port": 32000,
         "dir": "ioc/cxi/ims/R6.1.0",
+        "disable": true,
         "alias": "IMS SC2 Motors",
         "history": [
             "ioc/cxi/ims/R2.0.0",
