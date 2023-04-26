@@ -7895,7 +7895,6 @@
         "host": "ioc-cxi-rec04",
         "port": 34503,
         "dir": "ioc/cxi/ims/R6.1.0",
-        "disable": true,
         "alias": "IMS DSB User Dumb Motors",
         "history": [
             "ioc/cxi/ims/R4.0.39",
