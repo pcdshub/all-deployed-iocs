@@ -6955,7 +6955,6 @@
         "host": "ioc-cxi-mot2",
         "port": 32000,
         "dir": "ioc/cxi/ims/R6.1.0",
-        "disable": true,
         "alias": "IMS SC2 Motors",
         "history": [
             "ioc/cxi/ims/R2.0.0",
