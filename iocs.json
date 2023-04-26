@@ -5485,6 +5485,16 @@
         "binary": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.5/bin/rhel7-x86_64/vacuum"
     },
     {
+        "host": "ctl-txi-wave8-01",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/txi/pgpWave8",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/txi/iocmanager.cfg",
+        "name": "ioc-txi-pgpw8-01",
+        "script": "/reg/g/pcds/epics-dev/jozamudi/txi/pgpWave8/build/iocBoot/ioc-txi-pgpw8-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.7.5/bin/rhel7-x86_64/pgpWave8"
+    },
+    {
         "host": "ctl-ued-pgp-01",
         "port": 30001,
         "dir": "ioc/common/pgpWave8/R1.6.0",
