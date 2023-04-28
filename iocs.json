@@ -5688,17 +5688,12 @@
     },
     {
         "host": "daq-det-standalone",
-        "port": 30065,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/det/RohdeSchwarzHMP",
-        "history": [
-            "ioc/det/RohdeSchwarzHMP/R1.2.1",
-            "ioc/det/RohdeSchwarzHMP/R1.2.0",
-            "ioc/det/RohdeSchwarzHMP/R1.1.0"
-        ],
+        "port": 30070,
+        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/RohdeSchwarzHMP/current",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
-        "name": "ioc-det-mbl02-hmp01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/det/RohdeSchwarzHMP/build/iocBoot/ioc-det-mbl02-hmp01/st.cmd",
+        "name": "ioc-det-mbl02-hmp05",
+        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/RohdeSchwarzHMP/current/build/iocBoot/ioc-det-mbl02-hmp05/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.1/bin/rhel7-x86_64/rshmp"
     },
     {
@@ -9307,6 +9302,22 @@
         "name": "ioc-det-jf4m",
         "script": "/reg/g/pcds/epics/ioc/common/jungfrau4m/R1.1.1/children/build/iocBoot/ioc-det-jf4m/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/jungfrau4m/R1.1.1/bin/rhel7-x86_64/jungfrau4m"
+    },
+    {
+        "host": "ioc-det-portable2",
+        "port": 30065,
+        "dir": "ioc/det/RohdeSchwarzHMP/R1.2.1",
+        "disable": true,
+        "history": [
+            "ioc/det/RohdeSchwarzHMP/R1.2.1",
+            "ioc/det/RohdeSchwarzHMP/R1.2.0",
+            "ioc/det/RohdeSchwarzHMP/R1.1.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
+        "name": "ioc-det-mbl02-hmp01",
+        "script": "/reg/g/pcds/epics/ioc/det/RohdeSchwarzHMP/R1.2.1/build/iocBoot/ioc-det-mbl02-hmp01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.0/bin/rhel7-x86_64/rshmp"
     },
     {
         "host": "ioc-det-portable2",
