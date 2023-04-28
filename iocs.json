@@ -5689,11 +5689,11 @@
     {
         "host": "daq-det-standalone",
         "port": 30070,
-        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/RohdeSchwarzHMP/current",
+        "dir": "ioc/det/RohdeSchwarzHMP/R1.2.3",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-mbl02-hmp05",
-        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/RohdeSchwarzHMP/current/build/iocBoot/ioc-det-mbl02-hmp05/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/det/RohdeSchwarzHMP/R1.2.3/build/iocBoot/ioc-det-mbl02-hmp05/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.1/bin/rhel7-x86_64/rshmp"
     },
     {
