@@ -3409,6 +3409,7 @@
         "host": "ctl-rix-crix-cam-01",
         "port": 30008,
         "dir": "ioc/rix/evr/R1.1.0",
+        "disable": true,
         "alias": "ChemRIXS EVR",
         "history": [
             "ioc/rix/evr/R1.1.0",
