@@ -19387,7 +19387,7 @@
     {
         "host": "ioc-xpp-rec02",
         "port": 30033,
-        "dir": "/reg/g/pcds/epics/ioc/common/usdusb4/R1.0.7",
+        "dir": "ioc/common/usdusb4/R1.0.7",
         "alias": "USB Encoder - GON",
         "history": [
             "/reg/g/pcds/epics-dev/snelson/common/usdusb4/current"
