@@ -3435,7 +3435,6 @@
         "host": "ctl-rix-crix-cam-01",
         "port": 30001,
         "dir": "ioc/rix/gigECam/R2.2.2",
-        "disable": true,
         "alias": "CRIXS GIGE 01",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
@@ -3541,6 +3540,17 @@
         "name": "ioc-crix-gige-07",
         "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.2.2/build/iocBoot/ioc-crix-gige-07/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-rix-crix-cam-01",
+        "port": 30007,
+        "dir": "ioc/rix/tprStandalone/R1.0.3",
+        "alias": "CRIX TPR 1",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-crix-tpr1",
+        "script": "/reg/g/pcds/epics/ioc/rix/tprStandalone/R1.0.3/build/iocBoot/ioc-crix-tpr1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.4/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "ctl-rix-crix-cam-01",
