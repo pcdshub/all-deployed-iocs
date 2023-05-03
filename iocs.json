@@ -3491,7 +3491,7 @@
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-gige-04",
         "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.2.2/build/iocBoot/ioc-crix-gige-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-rix-crix-cam-01",
@@ -3507,7 +3507,7 @@
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-gige-05",
         "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.2.2/build/iocBoot/ioc-crix-gige-05/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-rix-crix-cam-01",
@@ -5842,7 +5842,7 @@
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-epix10ka2m",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/mec/epix/build/iocBoot/ioc-mec-epix10ka2m/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.4.9/bin/rhel7-x86_64/epixMonIoc"
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/epix-R1.3.0/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-mfx-pgp01",
