@@ -5542,6 +5542,7 @@
         "host": "ctl-txi-wave8-01",
         "port": 39100,
         "dir": "ioc/txi/pgpWave8/R1.0.0",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-pgpw8-01",
