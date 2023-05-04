@@ -1168,7 +1168,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-dso4000-01",
         "script": "/cds/home/t/tjohnson/trunk/las/dso4000/build/iocBoot/ioc-las-dso4000-01/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/dso4000/bin/rhel7-x86_64/dso4000"
+        "binary": "/cds/group/pcds/epics/ioc/common/dso4000/R1.0.1/bin/rhel7-x86_64/dso4000"
     },
     {
         "host": "ctl-las-crix-srv06",
