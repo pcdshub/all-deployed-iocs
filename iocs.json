@@ -449,8 +449,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-pwr-r09",
-        "script": "/reg/g/pcds/epics-dev/jozamudi/kfe/Leviton/build/iocBoot/ioc-kfe-pwr-r09/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.3.6/bin/rhel7-x86_64/Leviton"
+        "script": "/reg/g/pcds/epics-dev/jozamudi/kfe/Leviton/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-kfe-misc-01",
@@ -5915,7 +5915,6 @@
         "host": "daq-rix-andor-01",
         "port": 30010,
         "dir": "ioc/common/andorCam/R1.0.6",
-        "disable": true,
         "alias": "Dir Andor Cam",
         "history": [
             "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam",
