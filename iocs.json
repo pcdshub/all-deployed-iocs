@@ -1258,12 +1258,12 @@
     {
         "host": "ctl-las-ftl-sp01",
         "port": 30010,
-        "dir": "/cds/home/t/tjohnson/trunk/common/locker_manager",
+        "dir": "ioc/common/locker_manager/R0.1.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-ftl-llman-01",
-        "script": "/cds/home/t/tjohnson/trunk/common/locker_manager/children/build/iocBoot/ioc-ftl-llman-01/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/locker_manager/bin/rhel7-x86_64/lockerman"
+        "script": "/reg/g/pcds/epics/ioc/common/locker_manager/R0.1.0/children/build/iocBoot/ioc-ftl-llman-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/locker_manager/R0.1.0/bin/rhel7-x86_64/lockerman"
     },
     {
         "host": "ctl-las-ftl-sp01",
@@ -1278,12 +1278,12 @@
     {
         "host": "ctl-las-ftl-sp01",
         "port": 30001,
-        "dir": "/cds/home/t/tjohnson/trunk/las/slice-dhv",
+        "dir": "ioc/las/slice-dhv/R1.0.1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-ftl-slice-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/slice-dhv/build/iocBoot/ioc-las-ftl-slice-01/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/slice-dhv/bin/rhel7-x86_64/slice"
+        "script": "/reg/g/pcds/epics/ioc/las/slice-dhv/R1.0.1/build/iocBoot/ioc-las-ftl-slice-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/slice-dhv/R1.0.1/bin/rhel7-x86_64/slice"
     },
     {
         "host": "ctl-las-ftl-sp01",
@@ -5307,6 +5307,16 @@
         "name": "ioc-plc-mrco-vac",
         "script": "/reg/g/pcds/epics/ioc/tmo/mrco/lcls-plc-mrco-vac/v1.0.0/plc-mrco-vac/iocBoot/ioc-plc-mrco-vac/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.4.1/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ctl-tmo-vac-01",
+        "port": 39101,
+        "dir": "ioc/tmo",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-tmo-lamp-rga-01",
+        "script": "/reg/g/pcds/epics/ioc/tmo/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tmo-vac-01",
