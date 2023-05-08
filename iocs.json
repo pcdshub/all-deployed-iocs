@@ -1278,11 +1278,11 @@
     {
         "host": "ctl-las-ftl-sp01",
         "port": 30001,
-        "dir": "/cds/home/t/tjohnson/trunk/common/slice-dhv",
+        "dir": "/cds/home/t/tjohnson/trunk/las/slice-dhv",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-ftl-slice-01",
-        "script": "/cds/home/t/tjohnson/trunk/common/slice-dhv/children/build/iocBoot/ioc-las-ftl-slice-01/st.cmd",
+        "script": "/cds/home/t/tjohnson/trunk/las/slice-dhv/build/iocBoot/ioc-las-ftl-slice-01/st.cmd",
         "binary": "/cds/home/t/tjohnson/trunk/common/slice-dhv/bin/rhel7-x86_64/slice"
     },
     {
