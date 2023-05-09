@@ -16779,6 +16779,17 @@
     },
     {
         "host": "ioc-xcs-mot2",
+        "port": 35327,
+        "dir": "/reg/g/pcds/epics-dev/spencera/xcs/shimadzu-lc20",
+        "alias": "HPLC",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-lc20",
+        "script": "/reg/g/pcds/epics-dev/spencera/xcs/shimadzu-lc20/build/iocBoot/ioc-xcs-lc20/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.3.6/bin/rhel7-x86_64/lc20"
+    },
+    {
+        "host": "ioc-xcs-mot2",
         "port": 30485,
         "dir": "/reg/g/pcds/epics-dev/spencera/plcs/lcls-plc-xcs-liquid-jet/ioc-xcs-ljh",
         "alias": "Liquid Jet PLC",
