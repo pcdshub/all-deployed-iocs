@@ -5500,11 +5500,11 @@
     {
         "host": "ctl-txi-misc-01",
         "port": 39200,
-        "dir": "/reg/g/pcds/epics-dev/jozamudi/txi/lcls-plc-txi-hxr-vac",
+        "dir": "/reg/g/pcds/epics-dev/jjoshi/txi/test/lcls-plc-txi-hxr-vac",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-hxr-vac",
-        "script": "/reg/g/pcds/epics-dev/jozamudi/txi/lcls-plc-txi-hxr-vac/iocBoot/ioc-txi-hxr-vac/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/jjoshi/txi/test/lcls-plc-txi-hxr-vac/iocBoot/ioc-txi-hxr-vac/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
     },
     {
@@ -16780,12 +16780,12 @@
     {
         "host": "ioc-xcs-mot2",
         "port": 35327,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xcs/shimadzu-lc20",
+        "dir": "ioc/xcs/shimadzu-lc20/R1.0.0",
         "alias": "HPLC",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-lc20",
-        "script": "/reg/g/pcds/epics-dev/spencera/xcs/shimadzu-lc20/build/iocBoot/ioc-xcs-lc20/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xcs/shimadzu-lc20/R1.0.0/build/iocBoot/ioc-xcs-lc20/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.3.6/bin/rhel7-x86_64/lc20"
     },
     {
