@@ -2370,12 +2370,8 @@
     },
     {
         "host": "ctl-las-lhn-04",
-        "port": 30202,
+        "port": 30006,
         "dir": "/cds/home/t/tjohnson/trunk/workarea/fiberOven/fiberOven-git",
-        "history": [
-            "ioc/las/fiberOven/R2.24.0"
-        ],
-        "cmd": "../../bin/linux-x86/fiberOven st.cmd",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-fiberOven",
