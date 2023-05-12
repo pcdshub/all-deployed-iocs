@@ -5453,15 +5453,15 @@
     {
         "host": "ctl-tst-pgp01",
         "port": 30009,
-        "dir": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current",
+        "dir": "/cds/home/d/dnajjar/areaDetectores/pgpCamlink",
         "history": [
             "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-xpm01",
-        "script": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current/children/build/iocBoot/ioc-tst-xpm01/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/pgpCamlink/pgpCamlink-git/bin/rhel7-x86_64/pgpRogue"
+        "script": "/cds/home/d/dnajjar/areaDetectores/pgpCamlink/children/build/iocBoot/ioc-tst-xpm01/st.cmd",
+        "binary": "/cds/home/d/dnajjar/areaDetectores/pgpCamlink/bin/rhel7-x86_64/pgpRogue"
     },
     {
         "host": "ctl-tst-pgp02",
