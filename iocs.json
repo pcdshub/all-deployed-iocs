@@ -4117,6 +4117,20 @@
     },
     {
         "host": "ctl-rix-qrix-mot-01",
+        "port": 31313,
+        "dir": "/reg/g/pcds/epics-dev/ioc/rix/lcls-plc-qrix-vac/lcls-plc-qrix-vac/iocBoot/ioc-PLC-QRIX-VAC",
+        "alias": "QRIXS Vacuum PLC IOC",
+        "history": [
+            "/reg/g/pcds/epics-dev/ioc/rix/lcls-plc-qrix-vac/lcls-plc-qrix-vac/iocBoot/ioc-PLC-QRIX-VAC"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-plc-qrix-vac",
+        "script": "/reg/g/pcds/epics-dev/ioc/rix/lcls-plc-qrix-vac/lcls-plc-qrix-vac/iocBoot/ioc-PLC-QRIX-VAC/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ctl-rix-qrix-mot-01",
         "port": 30101,
         "dir": "ioc/rix/ict/R1.0.2",
         "alias": "QRIXS ICT 01",
@@ -4170,6 +4184,17 @@
     },
     {
         "host": "ctl-rix-qrix-mot-01",
+        "port": 33005,
+        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/ioc-rix-calc",
+        "alias": "RIX Misc Calculator",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-calc",
+        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/ioc-rix-calc/st.cmd",
+        "binary": "/usr/bin/env bash"
+    },
+    {
+        "host": "ctl-rix-qrix-mot-01",
         "port": 33000,
         "dir": "ioc/rix/pdu_snmp/R1.1.0",
         "alias": "Hoffman Box Misc PDU",
@@ -4217,31 +4242,6 @@
         "name": "ioc-rix-pwr-r07",
         "script": "/reg/g/pcds/epics/ioc/rix/pdu_snmp/R1.1.1/build/iocBoot/ioc-rix-pwr-r07/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.5/bin/rhel7-x86_64/pdu"
-    },
-    {
-        "host": "ctl-rix-qrix-vac-01",
-        "port": 31313,
-        "dir": "/reg/g/pcds/epics-dev/ioc/rix/lcls-plc-qrix-vac/lcls-plc-qrix-vac/iocBoot/ioc-PLC-QRIX-VAC",
-        "alias": "QRIXS Vacuum PLC IOC",
-        "history": [
-            "/reg/g/pcds/epics-dev/ioc/rix/lcls-plc-qrix-vac/lcls-plc-qrix-vac/iocBoot/ioc-PLC-QRIX-VAC"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-plc-qrix-vac",
-        "script": "/reg/g/pcds/epics-dev/ioc/rix/lcls-plc-qrix-vac/lcls-plc-qrix-vac/iocBoot/ioc-PLC-QRIX-VAC/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ctl-rix-qrix-vac-01",
-        "port": 33000,
-        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/ioc-rix-calc",
-        "alias": "RIX Misc Calculator",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-rix-calc",
-        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/ioc-rix-calc/st.cmd",
-        "binary": "/usr/bin/env bash"
     },
     {
         "host": "ctl-rix-vac-01",
