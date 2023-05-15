@@ -5944,6 +5944,7 @@
         "host": "daq-rix-andor-01",
         "port": 30010,
         "dir": "ioc/common/andorCam/R1.0.6",
+        "disable": true,
         "alias": "Dir Andor Cam",
         "history": [
             "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam",
@@ -5962,6 +5963,7 @@
         "host": "daq-rix-andor-01",
         "port": 30012,
         "dir": "ioc/common/andorCam/R1.0.6",
+        "disable": true,
         "alias": "Norm Andor Cam",
         "history": [
             "ioc/common/andorCam/R1.0.1"
