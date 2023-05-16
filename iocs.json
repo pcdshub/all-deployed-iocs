@@ -1497,7 +1497,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-inj-wfs-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/inj/Thorlabs-WFS/build/iocBoot/ioc-lm1k4-inj-wfs-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/Thorlabs-WFS/R1.0.1/bin/rhel7-gcc494-x86_64/wfs"
+        "binary": "/cds/group/pcds/epics/ioc/common/Thorlabs-WFS/R1.0.3/bin/rhel7-gcc494-x86_64/wfs"
     },
     {
         "host": "ctl-las-ip1-srv01",
@@ -2847,7 +2847,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lln-wfs-01",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/Thorlabs-WFS/children/build/iocBoot/ioc-las-lln-wfs-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/Thorlabs-WFS/R1.0.2/bin/rhel7-gcc494-x86_64/wfsTpr"
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/Thorlabs-WFS/bin/rhel7-gcc494-x86_64/wfsTpr"
     },
     {
         "host": "ctl-las-lln-02",
