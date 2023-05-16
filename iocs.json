@@ -5284,12 +5284,12 @@
     {
         "host": "ctl-tmo-vac-01",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/divyak/gitproject/lcls-plc-dream-vac/lcls-plc-dream-vac/iocBoot/ioc-lcls-plc-dream-vac",
+        "dir": "/reg/g/pcds/epics-dev/janezg/plc_iocs/lcls-plc-dream-vac/lcls-plc-dream-vac/lcls-plc-dream-vac",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-plc-dream-vac",
-        "script": "/reg/g/pcds/epics-dev/divyak/gitproject/lcls-plc-dream-vac/lcls-plc-dream-vac/iocBoot/ioc-lcls-plc-dream-vac/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics-dev/janezg/plc_iocs/lcls-plc-dream-vac/lcls-plc-dream-vac/lcls-plc-dream-vac/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tmo-vac-01",
