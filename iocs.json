@@ -20824,7 +20824,7 @@
     {
         "host": "ioc-xrt-rec02",
         "port": 39111,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/xrt/ipimb",
+        "dir": "ioc/xrt/ipimb/R4.2.1",
         "alias": "DG1 IPIMB",
         "history": [
             "ioc/xrt/ipimb/R4.2.0",
@@ -20833,7 +20833,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-xcsimb1",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/xrt/ipimb/build/iocBoot/ioc-xrt-xcsimb1/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xrt/ipimb/R4.2.1/build/iocBoot/ioc-xrt-xcsimb1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ipimb/R3.2.3/bin/rhel7-x86_64/ipimbIoc"
     },
     {
