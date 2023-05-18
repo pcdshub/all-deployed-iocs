@@ -3744,6 +3744,7 @@
         "host": "ctl-rix-crix-vac-01",
         "port": 31000,
         "dir": "ioc/rix/lcls-plc-crixs-vac/v2.0.0/lcls-plc-crix-vac",
+        "disable": true,
         "alias": "CRIXS Vacuum PLC IOC",
         "history": [
             "ioc/rix/lcls-plc-crixs-vac/v1.5.1/lcls-plc-crix-vac",
