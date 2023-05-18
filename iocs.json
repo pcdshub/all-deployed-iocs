@@ -1093,9 +1093,8 @@
     },
     {
         "host": "ctl-las-crix-srv04",
-        "port": 30012,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/ejx/gigECam/",
-        "disable": true,
+        "port": 30003,
+        "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/ejx/gigECam",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-ejx-gige-nf-02",
