@@ -5847,24 +5847,24 @@
     {
         "host": "daq-mec-misc01",
         "port": 32999,
-        "dir": "ioc/mec/visar/R1.0.4",
+        "dir": "ioc/mec/visar/R1.0.5",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-streak-01",
-        "script": "/reg/g/pcds/epics/ioc/mec/visar/R1.0.4/build/iocBoot/ioc-mec-streak-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/mec/visar/R1.0.5/build/iocBoot/ioc-mec-streak-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/visar/R1.0.3/bin/rhel7-x86_64/visarCamera"
     },
     {
         "host": "daq-mec-misc01",
         "port": 32998,
-        "dir": "ioc/mec/visar/R1.0.4",
+        "dir": "ioc/mec/visar/R1.0.5",
         "history": [
             "/reg/g/pcds/epics/ioc/mec/visar/R1.0.3"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-streak-02",
-        "script": "/reg/g/pcds/epics/ioc/mec/visar/R1.0.4/build/iocBoot/ioc-mec-streak-02/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/mec/visar/R1.0.5/build/iocBoot/ioc-mec-streak-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/visar/R1.0.3/bin/rhel7-x86_64/visarCamera"
     },
     {
