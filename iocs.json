@@ -3306,16 +3306,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
-        "host": "ctl-rix-cam-01",
-        "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/rix/gigECam/build/iocBoot/ioc-rix-gige-01",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-test-rix-gige-01",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/rix/gigECam/build/iocBoot/ioc-rix-gige-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gigeTpr"
-    },
-    {
         "host": "ctl-rix-cam-02",
         "port": 30011,
         "dir": "ioc/rix/gigECam/R2.2.1",
