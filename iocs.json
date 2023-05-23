@@ -5518,11 +5518,11 @@
     {
         "host": "ctl-txi-misc-01",
         "port": 39200,
-        "dir": "/reg/g/pcds/epics-dev/jozamudi/txi/lcls-plc-txi-hxr-vac",
+        "dir": "/reg/g/pcds/epics-dev/jjoshi/txi/test/lcls-plc-txi-hxr-vac",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-hxr-vac",
-        "script": "/reg/g/pcds/epics-dev/jozamudi/txi/lcls-plc-txi-hxr-vac/iocBoot/ioc-txi-hxr-vac/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/jjoshi/txi/test/lcls-plc-txi-hxr-vac/iocBoot/ioc-txi-hxr-vac/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
     },
     {
@@ -20545,8 +20545,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-xrt-mecpim1-ims",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/xrt/ims/build/iocBoot/ioc-xrt-mecpim1-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/xrt/ims/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xrt-mec-mot1",
@@ -20789,7 +20789,7 @@
     {
         "host": "ioc-xrt-rec01",
         "port": 39103,
-        "dir": "/reg/g/pcds/epics-dev/mkestra/ims",
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/xrt/ims",
         "alias": "MEC-XCS-CXI common YAG0 motion",
         "history": [
             "ioc/mec/ims/R2.0.0"
@@ -20797,8 +20797,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-hxx-hxm-pim01-ims",
-        "script": "/reg/g/pcds/epics-dev/mkestra/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/xrt/ims/build/iocBoot/ioc-xrt-hxx-hxm-pim01-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
     },
     {
         "host": "ioc-xrt-rec01",
