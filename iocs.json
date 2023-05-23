@@ -20797,8 +20797,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-hxx-hxm-pim01-ims",
-        "script": "/reg/g/pcds/epics-dev/mkestra/ims/build/iocBoot/ioc-xrt-hxx-hxm-pim01-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
+        "script": "/reg/g/pcds/epics-dev/mkestra/ims/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xrt-rec01",
