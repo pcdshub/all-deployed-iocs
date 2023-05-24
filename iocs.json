@@ -2181,21 +2181,21 @@
     {
         "host": "ctl-las-lhn-01",
         "port": 30021,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/gigECam",
+        "dir": "ioc/las/gigECam/R0.2.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lhn-bay1-ff-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/gigECam/build/iocBoot/ioc-lhn-bay1-ff-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.2.0/build/iocBoot/ioc-lhn-bay1-ff-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lhn-01",
         "port": 30020,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/gigECam",
+        "dir": "ioc/las/gigECam/R0.2.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lhn-bay1-nf-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/gigECam/build/iocBoot/ioc-lhn-bay1-nf-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.2.0/build/iocBoot/ioc-lhn-bay1-nf-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
     },
     {
@@ -2211,12 +2211,12 @@
     {
         "host": "ctl-las-lhn-01",
         "port": 30003,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/gigECam",
+        "dir": "ioc/las/gigECam/R0.2.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lhn-bts-nf-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/gigECam/build/iocBoot/ioc-lhn-bts-nf-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.2.0/build/iocBoot/ioc-lhn-bts-nf-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lhn-01",
@@ -2330,12 +2330,12 @@
     {
         "host": "ctl-las-lhn-03",
         "port": 30010,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/current",
+        "dir": "ioc/las/gigECam/R0.2.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lhn-bay3-ff-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/current/build/iocBoot/ioc-lhn-bay3-ff-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.2.0/build/iocBoot/ioc-lhn-bay3-ff-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lhn-03",
@@ -2491,21 +2491,21 @@
     {
         "host": "ctl-las-lhn-04",
         "port": 30011,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/gigECam",
+        "dir": "ioc/las/gigECam/R0.2.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lhn-bay4-ff-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/gigECam/build/iocBoot/ioc-lhn-bay4-ff-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.2.0/build/iocBoot/ioc-lhn-bay4-ff-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lhn-04",
         "port": 30010,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/gigECam",
+        "dir": "ioc/las/gigECam/R0.2.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lhn-bay4-nf-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/gigECam/build/iocBoot/ioc-lhn-bay4-nf-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.2.0/build/iocBoot/ioc-lhn-bay4-nf-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
     },
     {
