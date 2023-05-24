@@ -5848,7 +5848,6 @@
         "host": "daq-mec-misc01",
         "port": 32999,
         "dir": "ioc/mec/visar/R1.0.4",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-streak-01",
@@ -5859,7 +5858,6 @@
         "host": "daq-mec-misc01",
         "port": 32998,
         "dir": "ioc/mec/visar/R1.0.4",
-        "disable": true,
         "history": [
             "/reg/g/pcds/epics/ioc/mec/visar/R1.0.3"
         ],
