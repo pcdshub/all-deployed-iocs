@@ -20789,7 +20789,7 @@
     {
         "host": "ioc-xrt-rec01",
         "port": 39103,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/xrt/ims",
+        "dir": "ioc/xrt/ims/R6.0.4",
         "alias": "MEC-XCS-CXI common YAG0 motion",
         "history": [
             "ioc/mec/ims/R2.0.0"
@@ -20797,7 +20797,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-hxx-hxm-pim01-ims",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/xrt/ims/build/iocBoot/ioc-xrt-hxx-hxm-pim01-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xrt/ims/R6.0.4/build/iocBoot/ioc-xrt-hxx-hxm-pim01-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
     },
     {
