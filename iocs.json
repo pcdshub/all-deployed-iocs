@@ -12915,7 +12915,6 @@
         "host": "ioc-mec-opal01",
         "port": 30002,
         "dir": "ioc/mec/thermotek/R1.0.2",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-thermotek-02",
@@ -13195,7 +13194,6 @@
         "host": "ioc-mec-rec01",
         "port": 32514,
         "dir": "ioc/mec/thermotek/R1.0.2",
-        "disable": true,
         "alias": "Thermotek Chiller",
         "history": [
             "/reg/g/pcds/epics-dev/sfsyunus"
