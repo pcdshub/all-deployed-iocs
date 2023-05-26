@@ -10277,13 +10277,13 @@
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
     },
     {
-        "host": "ioc-icl-rec01",
+        "host": "ioc-icl-rec10",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/jozamudi/icl/lcls-plc-icl-sample-delivery/iocBoot/ioc-Sample-Delivery",
         "alias": "ICL SDS",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/icl/iocmanager.cfg",
-        "name": "ioc-sds-controls",
+        "name": "ioc-icl-sds",
         "script": "/reg/g/pcds/epics-dev/jozamudi/icl/lcls-plc-icl-sample-delivery/iocBoot/ioc-Sample-Delivery/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
