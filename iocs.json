@@ -10277,6 +10277,17 @@
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
     },
     {
+        "host": "ioc-icl-rec01",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/icl/lcls-plc-icl-sample-delivery/iocBoot/ioc-Sample-Delivery",
+        "alias": "ICL SDS",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/icl/iocmanager.cfg",
+        "name": "ioc-sds-controls",
+        "script": "/reg/g/pcds/epics-dev/jozamudi/icl/lcls-plc-icl-sample-delivery/iocBoot/ioc-Sample-Delivery/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+    },
+    {
         "host": "ioc-kfe-mpod-gmd-xgmd",
         "port": 30001,
         "dir": "ioc/common/isegPower/R1.3.2",
@@ -15660,30 +15671,6 @@
         "binary": "/usr/bin/bash"
     },
     {
-        "host": "ioc-tst-fels01",
-        "port": 30002,
-        "dir": "/",
-        "disable": true,
-        "alias": "RAJ",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/icl/iocmanager.cfg",
-        "name": "RAJ",
-        "script": "/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ioc-tst-fels01",
-        "port": 30001,
-        "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/common/sds/current",
-        "disable": true,
-        "alias": "ICL SDS",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/icl/iocmanager.cfg",
-        "name": "ioc-tst-sds",
-        "script": "/reg/g/pcds/package/epics/3.14-dev/ioc/common/sds/current/iocBoot/ioc-tst-sds/st.cmd",
-        "binary": "/reg/g/pcds/package/epics/3.14-dev/ioc/common/sds/current/bin/linux-x86/sampleDelivery"
-    },
-    {
         "host": "ioc-tst-metrology",
         "port": 30110,
         "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/cleanroom/protura2",
@@ -16040,16 +16027,6 @@
         "name": "ioc-icl-felSim",
         "script": "/reg/neh/home/awallace/workspace/icl/edtCam/current/build/iocBoot/ioc-icl-felSim/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R1.19.0/bin/rhel7-x86_64/edt"
-    },
-    {
-        "host": "ioc-tst-rec10",
-        "port": 33313,
-        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/icl/shimadzu-lc20",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/icl/iocmanager.cfg",
-        "name": "ioc-icl-lc20",
-        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/icl/shimadzu-lc20/build/iocBoot/ioc-icl-lc20/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.3.5/bin/rhel7-x86_64/lc20"
     },
     {
         "host": "ioc-tst-rec10",
