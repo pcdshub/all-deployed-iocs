@@ -2013,13 +2013,13 @@
     {
         "host": "ctl-las-ip1-srv07",
         "port": 30002,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/vimbaCam",
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam",
         "alias": "MCB - Test Camera 2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-gige-mcb-02",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/vimbaCam/children/build/iocBoot/ioc-las-gige-mcb-02/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/vimbaCam/bin/rhel7-x86_64/vimba"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/children/build/iocBoot/ioc-las-gige-mcb-02/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-las-ip1-srv07",
