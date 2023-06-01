@@ -5353,8 +5353,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-lamp-rga-01",
-        "script": "/reg/g/pcds/epics-dev/baljamal/ioc/common/mksrga/children/build/iocBoot/ioc-tmo-lamp-rga-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/baljamal/ioc/common/mksrga/bin/rhel7-x86_64/gsd"
+        "script": "/reg/g/pcds/epics-dev/baljamal/ioc/common/mksrga/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tmo-vac-01",
