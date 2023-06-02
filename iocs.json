@@ -21318,8 +21318,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-amphos",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/amphos/amphos-git/iocBoot/ioc-las-amphos/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/amphos/amphos-git/bin/rhel7-x86_64/amphos"
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/amphos/amphos-git/st.cmd",
+        "binary": null
     },
     {
         "host": "mec-monitor",
