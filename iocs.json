@@ -1030,12 +1030,11 @@
         "host": "ctl-las-crix-srv04",
         "port": 30033,
         "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/ejx/ek9000/",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-ejx-ek9000-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/ejx/ek9000/build/iocBoot/ioc-lm2k2-ejx-ek9000-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.3.1/bin/rhel7-x86_64/ek9000IOC"
+        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.3.2/bin/rhel7-x86_64/ek9000IOC"
     },
     {
         "host": "ctl-las-crix-srv04",
