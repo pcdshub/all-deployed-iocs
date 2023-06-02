@@ -21322,6 +21322,16 @@
         "binary": null
     },
     {
+        "host": "las-neh-monitor",
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/amphos/amphos-git",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-lhn-amphos-03",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/amphos/amphos-git/iocBoot/ioc-las-lhn-amphos-03/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/amphos/amphos-git/bin/rhel7-x86_64/amphos"
+    },
+    {
         "host": "mec-monitor",
         "port": 30013,
         "dir": "ioc/common/lecroy/R1.0.2",
