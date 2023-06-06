@@ -5655,13 +5655,13 @@
     {
         "host": "daq-cxi-pgp04",
         "port": 30001,
-        "dir": "ioc/cxi/epix/R1.0.3",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/epix",
         "alias": "DS1 Epixes",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-d51-epix",
-        "script": "/reg/g/pcds/epics/ioc/cxi/epix/R1.0.3/build/iocBoot/ioc-cxi-d51-epix/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.4.6/bin/rhel7-x86_64/epixMonIoc"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/epix/build/iocBoot/ioc-cxi-d51-epix/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.5.0/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-det-jungfrau",
@@ -16162,6 +16162,16 @@
     },
     {
         "host": "ioc-ued-ccd01",
+        "port": 30005,
+        "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/ued/gigECam",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/ued/iocmanager.cfg",
+        "name": "ioc-ued-gige-01",
+        "script": "/reg/g/pcds/epics-dev/agilardi/iocs/ued/gigECam/build/iocBoot/ioc-ued-gige-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-ued-ccd01",
         "port": 31000,
         "dir": "ioc/common/scandinova/R1.0.2",
         "history": [
@@ -16218,6 +16228,16 @@
         "name": "ioc-ued-thermotek-01",
         "script": "/reg/g/pcds/epics/ioc/ued/thermotek/R1.0.1/build/iocBoot/ioc-ued-thermotek-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.7/bin/rhel7-x86_64/thermotek"
+    },
+    {
+        "host": "ioc-ued-ccd01",
+        "port": 30004,
+        "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/ued/liquid_chamber/XPS",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/ued/iocmanager.cfg",
+        "name": "ioc-ued-xps",
+        "script": "/reg/g/pcds/epics-dev/agilardi/iocs/ued/liquid_chamber/XPS/build/iocBoot/ioc-ued-xps/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
     },
     {
         "host": "ioc-und-rec01",
