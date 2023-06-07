@@ -10287,7 +10287,7 @@
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
     },
     {
-        "host": "ioc-icl-rec10",
+        "host": "ioc-icl-fels01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/jozamudi/icl/lcls-plc-icl-sample-delivery/iocBoot/ioc-Sample-Delivery",
         "alias": "ICL SDS",
