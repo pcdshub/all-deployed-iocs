@@ -10296,7 +10296,7 @@
         "config_file": "/reg/g/pcds/pyps/config/icl/iocmanager.cfg",
         "name": "ioc-icl-lc20",
         "script": "/reg/g/pcds/epics-dev/jozamudi/icl/shimaduz-lc20/build/iocBoot/ioc-icl-lc20/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.3.6/bin/rhel7-x86_64/lc20"
+        "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.3.5/bin/rhel7-x86_64/lc20"
     },
     {
         "host": "ioc-icl-fels01",
