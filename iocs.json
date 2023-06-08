@@ -10300,7 +10300,7 @@
     },
     {
         "host": "ioc-icl-rec10",
-        "port": 39101,
+        "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/jozamudi/icl/shimaduz-lc20",
         "alias": "ICL LC20",
         "base_version": "3.15",
