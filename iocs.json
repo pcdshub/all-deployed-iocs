@@ -10289,6 +10289,17 @@
     },
     {
         "host": "ioc-icl-fels01",
+        "port": 39101,
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/icl/shimaduz-lc20",
+        "alias": "ICL LC20",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/icl/iocmanager.cfg",
+        "name": "ioc-icl-lc20",
+        "script": "/reg/g/pcds/epics-dev/jozamudi/icl/shimaduz-lc20/build/iocBoot/ioc-icl-lc20/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.3.6/bin/rhel7-x86_64/lc20"
+    },
+    {
+        "host": "ioc-icl-fels01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/jozamudi/icl/lcls-plc-sample-delivery-system",
         "alias": "ICL PLC",
