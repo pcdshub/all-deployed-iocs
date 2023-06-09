@@ -1385,15 +1385,15 @@
     {
         "host": "ctl-las-ftl-srv01",
         "port": 30009,
-        "dir": "ioc/common/pfts_manager/R1.0.8",
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager",
         "history": [
             "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-pftsman01",
-        "script": "/reg/g/pcds/epics/ioc/common/pfts_manager/R1.0.8/children/build/iocBoot/ioc-las-pftsman01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pfts_manager/R1.0.8/bin/rhel7-x86_64/pftsman"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager/children/build/iocBoot/ioc-las-pftsman01/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager/bin/rhel7-x86_64/pftsman"
     },
     {
         "host": "ctl-las-ftl-srv01",
