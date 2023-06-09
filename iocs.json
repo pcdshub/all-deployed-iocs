@@ -1385,15 +1385,15 @@
     {
         "host": "ctl-las-ftl-srv01",
         "port": 30009,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager",
+        "dir": "ioc/common/pfts_manager/R1.0.9",
         "history": [
             "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-pftsman01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager/children/build/iocBoot/ioc-las-pftsman01/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/pfts_manager/bin/rhel7-x86_64/pftsman"
+        "script": "/reg/g/pcds/epics/ioc/common/pfts_manager/R1.0.9/children/build/iocBoot/ioc-las-pftsman01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pfts_manager/R1.0.9/bin/rhel7-x86_64/pftsman"
     },
     {
         "host": "ctl-las-ftl-srv01",
@@ -10301,12 +10301,12 @@
     {
         "host": "ioc-icl-fels01",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/jozamudi/icl/lcls-plc-sample-delivery-system",
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/icl/lcls-plc-icl-sample-delivery/iocBoot/ioc-Sample-Delivery",
         "alias": "ICL PLC",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/icl/iocmanager.cfg",
         "name": "ioc-icl-sds",
-        "script": "/reg/g/pcds/epics-dev/jozamudi/icl/lcls-plc-sample-delivery-system/iocBoot/ioc-icl-sds/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/jozamudi/icl/lcls-plc-icl-sample-delivery/iocBoot/ioc-Sample-Delivery/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
