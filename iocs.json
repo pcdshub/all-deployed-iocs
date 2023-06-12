@@ -3038,13 +3038,13 @@
     {
         "host": "ctl-lfe-misc-01",
         "port": 30016,
-        "dir": "ioc/lfe/lcls-plc-lfe-arbiter/v3.0.0/iocBoot/ioc-ArbiterPLC",
+        "dir": "ioc/lfe/lcls-plc-lfe-arbiter/v3.1.0/iocBoot/ioc-ArbiterPLC",
         "alias": "LFE Arbiter",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-lfe-arbiter",
-        "script": "/reg/g/pcds/epics/ioc/lfe/lcls-plc-lfe-arbiter/v3.0.0/iocBoot/ioc-ArbiterPLC/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics/ioc/lfe/lcls-plc-lfe-arbiter/v3.1.0/iocBoot/ioc-ArbiterPLC/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-lfe-misc-01",
