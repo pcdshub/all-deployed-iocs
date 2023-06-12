@@ -10300,12 +10300,12 @@
     {
         "host": "ioc-icl-fels01",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/jozamudi/icl/lcls-plc-icl-sample-delivery/iocBoot/ioc-Sample-Delivery",
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/icl/lcls-plc-sample-delivery-system",
         "alias": "ICL PLC",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/icl/iocmanager.cfg",
         "name": "ioc-icl-sds",
-        "script": "/reg/g/pcds/epics-dev/jozamudi/icl/lcls-plc-icl-sample-delivery/iocBoot/ioc-Sample-Delivery/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/jozamudi/icl/lcls-plc-sample-delivery-system/iocBoot/ioc-icl-sds/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
