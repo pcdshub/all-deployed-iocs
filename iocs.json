@@ -5359,28 +5359,28 @@
     {
         "host": "ctl-tmo-vac-01",
         "port": 35001,
-        "dir": "/reg/g/pcds/epics-dev/bosum123/tmo-vac-support/vacuum",
+        "dir": "ioc/common/vacuum/R1.0.7",
         "history": [
             "/reg/g/pcds/epics-dev/jyin/ioc/vacuum"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-vac-pip-support",
-        "script": "/reg/g/pcds/epics-dev/bosum123/tmo-vac-support/vacuum/children/build/iocBoot/ioc-tmo-vac-pip-support/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/bosum123/tmo-vac-support/vacuum/bin/rhel7-x86_64/vacuum"
+        "script": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.7/children/build/iocBoot/ioc-tmo-vac-pip-support/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.7/bin/rhel7-x86_64/vacuum"
     },
     {
         "host": "ctl-tmo-vac-01",
         "port": 34003,
-        "dir": "/reg/g/pcds/epics-dev/nwbrown/vacuum_IOCs/current",
+        "dir": "ioc/common/vacuum/R1.0.7",
         "history": [
             "/reg/g/pcds/epics-dev/nwbrown/vacuum_IOCs/current"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-vac-support",
-        "script": "/reg/g/pcds/epics-dev/nwbrown/vacuum_IOCs/current/children/build/iocBoot/ioc-tmo-vac-support/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/nwbrown/vacuum_IOCs/current/bin/rhel7-x86_64/vacuum"
+        "script": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.7/children/build/iocBoot/ioc-tmo-vac-support/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.7/bin/rhel7-x86_64/vacuum"
     },
     {
         "host": "ctl-tst-01",
