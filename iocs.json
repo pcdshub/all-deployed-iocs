@@ -4413,7 +4413,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-tpr1",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/tmo/tprStandalone/build/iocBoot/ioc-tmo-tpr1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.0/bin/rhel7-x86_64/tpr"
+        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.4/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "ctl-tmo-cam-02",
@@ -4934,7 +4934,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-misc-tpr1",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/tmo/tprStandalone/build/iocBoot/ioc-tmo-misc-tpr1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.2/bin/rhel7-x86_64/tpr"
+        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.4/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "ctl-tmo-misc-01",
@@ -6053,7 +6053,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-tpr-andor1",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/tmo/tprStandalone/build/iocBoot/ioc-tmo-tpr-andor1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.0/bin/rhel7-x86_64/tpr"
+        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.4/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "daq-tst-dev03",
