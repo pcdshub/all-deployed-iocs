@@ -5427,7 +5427,7 @@
         "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/rhel7-x86_64/gige"
     },
     {
-        "host": "ctl-tst-pgp01",
+        "host": "ctl-tst-dev-01",
         "port": 34242,
         "dir": "/cds/home/z/zlentz/github/lcls-plc-example-motion",
         "history": [
