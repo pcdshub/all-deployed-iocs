@@ -17314,14 +17314,15 @@
     {
         "host": "ioc-xcs-rec02",
         "port": 32561,
-        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam",
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam",
         "history": [
+            "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam",
             "/cds/home/j/jjoshi/xcs"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-lj2",
-        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam/build/iocBoot/ioc-xcs-gige-lj2/st.cmd",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/children/build/iocBoot/ioc-xcs-gige-lj2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/rhel5-x86_64/gige"
     },
     {
