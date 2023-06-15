@@ -18824,6 +18824,26 @@
     },
     {
         "host": "ioc-xpp-las01",
+        "port": 30008,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-midir-gige-ff",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-xpp-midir-gige-ff/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-xpp-las01",
+        "port": 30009,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-midir-gige-nf",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-xpp-midir-gige-nf/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-xpp-las01",
         "port": 30007,
         "dir": "ioc/xpp/picoMotion/R1.0.0",
         "alias": "LAS - picomotion",
