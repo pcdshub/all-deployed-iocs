@@ -7828,7 +7828,7 @@
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg3-p6740",
         "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam/build/iocBoot/ioc-cxi-dg3-p6740/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.3/bin/rhel7-x86_64/edt"
+        "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.2/bin/rhel7-x86_64/edt"
     },
     {
         "host": "ioc-cxi-rec03",
@@ -7876,7 +7876,7 @@
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc1-inline",
         "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam/build/iocBoot/ioc-cxi-sc1-inline/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.3/bin/rhel7-x86_64/edt"
+        "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.4/bin/rhel7-x86_64/edt"
     },
     {
         "host": "ioc-cxi-rec04",
