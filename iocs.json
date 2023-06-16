@@ -7866,7 +7866,7 @@
     {
         "host": "ioc-cxi-rec03",
         "port": 30101,
-        "dir": "ioc/cxi/edtCam/R2.0.2",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam",
         "alias": "CAM - SC1 Inline Questar Opal1000m",
         "history": [
             "ioc/cxi/edtCam/R2.0.2",
@@ -7875,8 +7875,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc1-inline",
-        "script": "/reg/g/pcds/epics/ioc/cxi/edtCam/R2.0.2/build/iocBoot/ioc-cxi-sc1-inline/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.2/bin/rhel7-x86_64/edt"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam/build/iocBoot/ioc-cxi-sc1-inline/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.3/bin/rhel7-x86_64/edt"
     },
     {
         "host": "ioc-cxi-rec04",
