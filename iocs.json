@@ -10322,7 +10322,7 @@
         "config_file": "/reg/g/pcds/pyps/config/icl/iocmanager.cfg",
         "name": "ioc-icl-knobBox",
         "script": "/reg/g/pcds/epics-dev/jozamudi/icl/knobBox/build/iocBoot/ioc-icl-knobBox/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/jozamudi/common/knobBox/bin/linux-x86/knob"
+        "binary": "/reg/g/pcds/epics-dev/jozamudi/common/knobBox/bin/rhel7-x86_64/knob"
     },
     {
         "host": "ioc-icl-fels01",
