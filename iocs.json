@@ -10315,12 +10315,12 @@
     {
         "host": "ioc-icl-fels01",
         "port": 39102,
-        "dir": "/reg/g/pcds/epics-dev/jozamudi/icl/knobBox",
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/common/knobBox/iocBoot/ioc-icl-knob01",
         "alias": "ICL KnobBox",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/icl/iocmanager.cfg",
         "name": "ioc-icl-knobBox",
-        "script": "/reg/g/pcds/epics-dev/jozamudi/icl/knobBox/build/iocBoot/ioc-icl-knobBox/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/jozamudi/common/knobBox/iocBoot/ioc-icl-knob01/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/jozamudi/common/knobBox/bin/rhel7-x86_64/knob"
     },
     {
