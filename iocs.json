@@ -8137,7 +8137,6 @@
         "host": "ioc-cxi-sc1",
         "port": 30003,
         "dir": "ioc/cxi/mmc/R2.0.2",
-        "disable": true,
         "alias": "MMC - SC2 1 Axis 1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
