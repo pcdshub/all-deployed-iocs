@@ -21193,11 +21193,11 @@
     {
         "host": "ioc-xrt-wave8",
         "port": 39007,
-        "dir": "/reg/g/pcds/epics/ioc/xrt/lcls-plc-xrt-optics/v5.2.1/iocBoot/ioc-xrt-optics/",
+        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-xrt-optics/iocBoot/ioc-xrt-optics/",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-optics",
-        "script": "/reg/g/pcds/epics/ioc/xrt/lcls-plc-xrt-optics/v5.2.1/iocBoot/ioc-xrt-optics/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-xrt-optics/iocBoot/ioc-xrt-optics/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
