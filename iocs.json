@@ -1481,7 +1481,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-mcs2-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/build/iocBoot/ioc-lm1k4-mcs2-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.10/bin/rhel7-x86_64/smaract"
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.13/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ip1-srv01",
@@ -1492,18 +1492,17 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-mcs2-02",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/build/iocBoot/ioc-lm1k4-mcs2-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.10/bin/rhel7-x86_64/smaract"
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.13/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ip1-srv01",
         "port": 30022,
         "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-mcs2-03",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/build/iocBoot/ioc-lm1k4-mcs2-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.10/bin/rhel7-x86_64/smaract"
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.13/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ip1-srv01",
@@ -1514,7 +1513,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-mcs2-04",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/build/iocBoot/ioc-lm1k4-mcs2-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.10/bin/rhel7-x86_64/smaract"
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.13/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ip1-srv02",
