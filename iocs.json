@@ -96,7 +96,7 @@
     {
         "host": "ctl-kfe-cam-01",
         "port": 39009,
-        "dir": "ioc/common/pgpRogue/R0.5.0",
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/pgpRogue",
         "history": [
             "ioc/common/pgpRogue/R0.5.0",
             "ioc/common/pgpRogue/R0.3.0",
@@ -105,8 +105,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-rogue1",
-        "script": "/reg/g/pcds/epics/ioc/common/pgpRogue/R0.5.0/children/build/iocBoot/ioc-kfe-rogue1/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/pgpRogue/R0.5.0/bin/rhel7-x86_64/pgpRogue"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/pgpRogue/children/build/iocBoot/ioc-kfe-rogue1/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/pgpRogue/bin/rhel7-x86_64/pgpRogue"
     },
     {
         "host": "ctl-kfe-cam-01",
