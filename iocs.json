@@ -61,23 +61,6 @@
     },
     {
         "host": "ctl-kfe-cam-01",
-        "port": 39102,
-        "dir": "ioc/common/pgpCamlink/R0.8.0",
-        "alias": "IM1K0",
-        "history": [
-            "ioc/common/pgpCamlink/R0.8.0",
-            "ioc/common/pgpCamlink/R0.7.0",
-            "ioc/common/pgpCamlink/R0.5.1",
-            "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpCamlink/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
-        "name": "ioc-kfe-pgp01",
-        "script": "/reg/g/pcds/epics/ioc/common/pgpCamlink/R0.8.0/children/build/iocBoot/ioc-kfe-pgp01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/pgpCamlink/R0.8.0/bin/rhel7-x86_64/pgpCl"
-    },
-    {
-        "host": "ctl-kfe-cam-01",
         "port": 39103,
         "dir": "ioc/common/pgpCamlink/R1.6.0",
         "alias": "IM1K4",
