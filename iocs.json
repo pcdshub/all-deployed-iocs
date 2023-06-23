@@ -1293,31 +1293,31 @@
     {
         "host": "ctl-las-ftl-srv01",
         "port": 30003,
-        "dir": "/cds/home/t/tjohnson/trunk/las/local_gateway",
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/local_gateway",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-ftl-pfts-gw-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/local_gateway/build/iocBoot/ioc-las-ftl-pfts-gw-01/st.cmd",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/local_gateway/children/build/iocBoot/ioc-las-ftl-pfts-gw-01/st.cmd",
         "binary": "/usr/bin/bash"
     },
     {
         "host": "ctl-las-ftl-srv01",
         "port": 30008,
-        "dir": "/cds/home/t/tjohnson/trunk/las/local_gateway",
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/local_gateway",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-ftl-rfofrx-gw-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/local_gateway/build/iocBoot/ioc-las-ftl-rfofrx-gw-01/st.cmd",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/local_gateway/children/build/iocBoot/ioc-las-ftl-rfofrx-gw-01/st.cmd",
         "binary": "/usr/bin/bash"
     },
     {
         "host": "ctl-las-ftl-srv01",
         "port": 30007,
-        "dir": "/cds/home/t/tjohnson/trunk/las/local_gateway",
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/local_gateway",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-ftl-rfoftx-gw-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/local_gateway/build/iocBoot/ioc-las-ftl-rfoftx-gw-01/st.cmd",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/local_gateway/children/build/iocBoot/ioc-las-ftl-rfoftx-gw-01/st.cmd",
         "binary": "/usr/bin/bash"
     },
     {
