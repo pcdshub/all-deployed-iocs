@@ -3167,6 +3167,7 @@
         "host": "ctl-lfe-misc-01",
         "port": 30131,
         "dir": "/reg/g/pcds/epics-dev/lorelli/ioc-fee-rtd",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-lfe-rtd01",
