@@ -4357,7 +4357,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-im3k4-gige",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/tmo/gigECam/build/iocBoot/ioc-im3k4-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.1/bin/rhel7-x86_64/gigeTpr"
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam.temp/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-tmo-cam-01",
