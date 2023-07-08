@@ -20580,6 +20580,7 @@
         "host": "ioc-xrt-mec-mot1",
         "port": 39105,
         "dir": "ioc/xrt/ims/R2.2.2",
+        "disable": true,
         "alias": "Beamline IPM1",
         "history": [
             "ioc/xrt/ims/R2.1.0",
