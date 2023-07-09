@@ -19638,7 +19638,6 @@
         "host": "ioc-xpp-rec02",
         "port": 30077,
         "dir": "/reg/neh/home/mcbrowne/trunk2/ioc/xpp/edtCam/current",
-        "disable": true,
         "alias": "MON YAG LOM",
         "history": [
             "ioc/xpp/edtCam/R1.12.0",
