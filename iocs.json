@@ -6934,6 +6934,7 @@
         "host": "ioc-cxi-mot2",
         "port": 32520,
         "dir": "ioc/cxi/ims/R6.3.0",
+        "disable": true,
         "alias": "IMS DS1 XFLS",
         "history": [
             "ioc/cxi/ims/R2.0.0",
