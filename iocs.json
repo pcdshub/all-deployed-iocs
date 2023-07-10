@@ -4570,7 +4570,6 @@
         "host": "ctl-tmo-cam-02",
         "port": 30309,
         "dir": "ioc/tmo/edtCam/R1.0.0",
-        "disable": true,
         "alias": "CVMI gige 02 (north side)",
         "history": [
             "ioc/tmo/edtCam/R1.0.0"
