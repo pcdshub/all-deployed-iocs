@@ -1355,6 +1355,16 @@
     },
     {
         "host": "ctl-las-ftl-srv01",
+        "port": 30014,
+        "dir": "/cds/home/t/tjohnson/trunk/las/thermocon",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-rfof-thermocon-01",
+        "script": "/cds/home/t/tjohnson/trunk/las/thermocon/build/iocBoot/ioc-las-rfof-thermocon-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/thermocon/R1.0.0/bin/rhel7-x86_64/thermocon"
+    },
+    {
+        "host": "ctl-las-ftl-srv01",
         "port": 30011,
         "dir": "/cds/home/t/tjohnson/trunk/las/pdu_snmp",
         "base_version": "3.15",
