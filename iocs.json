@@ -11848,7 +11848,6 @@
         "host": "ioc-mec-las-gige02",
         "port": 32515,
         "dir": "ioc/mec/gigECam/R1.3.0",
-        "disable": true,
         "alias": "Gige Long Pulse 5",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
