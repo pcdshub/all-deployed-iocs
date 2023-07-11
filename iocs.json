@@ -89,7 +89,7 @@
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-rogue1",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/pgpCamlink/children/build/iocBoot/ioc-kfe-rogue1/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/pgpCamlink/bin/rhel7-x86_64/pgpRogue"
+        "binary": "/reg/g/pcds/epics/ioc/common/pgpCamlink/R1.6.0/bin/rhel7-x86_64/pgpRogue"
     },
     {
         "host": "ctl-kfe-cam-01",
