@@ -5911,6 +5911,7 @@
         "host": "daq-mec-misc01",
         "port": 32998,
         "dir": "ioc/mec/visar/R1.0.4",
+        "disable": true,
         "history": [
             "/reg/g/pcds/epics/ioc/mec/visar/R1.0.3"
         ],
@@ -6402,17 +6403,6 @@
         "name": "ioc-cxi-cam2",
         "script": "/reg/g/pcds/epics/ioc/cxi/unixCam/R3.4.25/build/iocBoot/ioc-cxi-cam2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/unixCam/R3.4.25/bin/linux-x86_64/unixCam"
-    },
-    {
-        "host": "ioc-cxi-cam2",
-        "port": 32106,
-        "dir": "ioc/cxi/gigECam/R1.0.1",
-        "alias": "CAM - SC2 Inline Gige 06",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-gige-06",
-        "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R1.0.1/build/iocBoot/ioc-cxi-gige-06/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-cxi-cam2",
@@ -8897,6 +8887,17 @@
         "name": "ioc-cxi-dg3-bmmon",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-cxi-dg3-bmmon/st.cmd",
         "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
+    },
+    {
+        "host": "ioc-cxi-wave8",
+        "port": 32106,
+        "dir": "ioc/cxi/gigECam/R1.0.1",
+        "alias": "CAM - SC2 Inline Gige 06",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-gige-06",
+        "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R1.0.1/build/iocBoot/ioc-cxi-gige-06/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-cxi-wave8",
