@@ -5911,7 +5911,6 @@
         "host": "daq-mec-misc01",
         "port": 32998,
         "dir": "ioc/mec/visar/R1.0.4",
-        "disable": true,
         "history": [
             "/reg/g/pcds/epics/ioc/mec/visar/R1.0.3"
         ],
