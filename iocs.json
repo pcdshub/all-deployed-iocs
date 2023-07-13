@@ -2698,6 +2698,7 @@
         "host": "ctl-las-lln-01",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/mods/lm1k2/hrm/gigECam",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-hrm-gige-ff-01",
@@ -2708,6 +2709,7 @@
         "host": "ctl-las-lln-01",
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/mods/lm1k2/hrm/gigECam",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-hrm-gige-ff-02",
@@ -2718,6 +2720,7 @@
         "host": "ctl-las-lln-01",
         "port": 30004,
         "dir": "/reg/g/pcds/epics-dev/mods/lm1k2/hrm/gigECam",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-hrm-gige-nf-01",
@@ -2728,6 +2731,7 @@
         "host": "ctl-las-lln-01",
         "port": 30005,
         "dir": "/reg/g/pcds/epics-dev/mods/lm1k2/hrm/gigECam",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-hrm-gige-nf-02",
@@ -2762,7 +2766,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-com-gige-ff-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/gigECam/build/iocBoot/ioc-lm2k2-com-gige-ff-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics-dev/mcbrowne/ioc/common/gigECam/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lln-01",
@@ -2772,7 +2776,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-com-gige-ff-02",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/gigECam/build/iocBoot/ioc-lm2k2-com-gige-ff-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics-dev/mcbrowne/ioc/common/gigECam/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lln-01",
@@ -2782,7 +2786,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-com-gige-nf-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/gigECam/build/iocBoot/ioc-lm2k2-com-gige-nf-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics-dev/mcbrowne/ioc/common/gigECam/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lln-01",
@@ -2792,7 +2796,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-com-gige-nf-02",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/gigECam/build/iocBoot/ioc-lm2k2-com-gige-nf-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics-dev/mcbrowne/ioc/common/gigECam/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lln-01",
@@ -2802,7 +2806,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-com-gige-nf-03",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/gigECam/build/iocBoot/ioc-lm2k2-com-gige-nf-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics-dev/mcbrowne/ioc/common/gigECam/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lln-01",
@@ -2812,7 +2816,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-com-gige-nf-04",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/gigECam/build/iocBoot/ioc-lm2k2-com-gige-nf-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics-dev/mcbrowne/ioc/common/gigECam/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lln-01",
