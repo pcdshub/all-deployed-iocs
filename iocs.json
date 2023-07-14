@@ -186,7 +186,7 @@
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-gige-mcb-01",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/vimbaCam/children/build/iocBoot/ioc-kfe-gige-mcb-01/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/vimbaCam/bin/rhel7-x86_64/vimba"
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/vimbaCam/bin/rhel7-x86_64/vimbaTpr"
     },
     {
         "host": "ctl-kfe-cam-02",
