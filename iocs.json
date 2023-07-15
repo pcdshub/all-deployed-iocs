@@ -599,7 +599,7 @@
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-vac",
         "script": "/reg/g/pcds/epics-dev/ioc/kfe/lcls-plc-kfe-vac/ioc/ioc-kfe-vac/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
+        "binary": "/cds/group/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-kfe-vac-01",
