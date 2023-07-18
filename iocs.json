@@ -1964,8 +1964,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-gige-mcb-01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/children/build/iocBoot/ioc-las-gige-mcb-01/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/bin/rhel7-x86_64/gigeTpr"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-las-ip1-srv07",
@@ -1975,8 +1975,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-gige-mcb-02",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/children/build/iocBoot/ioc-las-gige-mcb-02/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/bin/rhel7-x86_64/gigeTpr"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-las-ip1-srv07",
@@ -15584,8 +15584,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-g125c",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/children/build/iocBoot/ioc-tst-g125c/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/bin/rhel7-x86_64/gige"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-tst-13",
@@ -17514,8 +17514,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-lj2",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/children/build/iocBoot/ioc-xcs-gige-lj2/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/bin/rhel7-x86_64/gige"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-rec04",
