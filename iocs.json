@@ -17522,7 +17522,7 @@
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-lj2",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/children/build/iocBoot/ioc-xcs-gige-lj2/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/bin/rhel7-x86_64/gige"
+        "binary": "/usr/bin/tcsh"
     },
     {
         "host": "ioc-xcs-rec04",
