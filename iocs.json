@@ -4615,7 +4615,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-cvmi-gige02",
         "script": "/reg/g/pcds/epics-dev/armenta1/tmo/gigECam/build/iocBoot/ioc-li3k4-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.1/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.5/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-tmo-cam-02",
