@@ -3066,6 +3066,17 @@
     },
     {
         "host": "ctl-lfe-misc-01",
+        "port": 30003,
+        "dir": "/reg/g/pcds/epics-dev/zlentz/Keithley2700/Keithley2700-git",
+        "alias": "IM3L0 Keithley",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/lfe/iocmanager.cfg",
+        "name": "ioc-im3l0-pm-k2700",
+        "script": "/reg/g/pcds/epics-dev/zlentz/Keithley2700/Keithley2700-git/iocBoot/ioc-im3l0-pm-k2700/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/zlentz/Keithley2700/Keithley2700-git/bin/linux-x86_64/k2700"
+    },
+    {
+        "host": "ctl-lfe-misc-01",
         "port": 30016,
         "dir": "ioc/lfe/lcls-plc-lfe-arbiter/v3.1.1/iocBoot/ioc-ArbiterPLC",
         "alias": "LFE Arbiter",
@@ -15469,17 +15480,6 @@
         "name": "ioc-dosfet-01",
         "script": "/reg/g/pcds/epics-dev/nrw/iocs/dosfet/current/children/build/iocBoot/ioc-dosfet-01/st.cmd",
         "binary": null
-    },
-    {
-        "host": "ioc-tst-13",
-        "port": 30006,
-        "dir": "/reg/g/pcds/epics-dev/zlentz/Keithley2700/Keithley2700-git",
-        "alias": "IM3L0 Keithley Test",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-im3l0-pm-k2700",
-        "script": "/reg/g/pcds/epics-dev/zlentz/Keithley2700/Keithley2700-git/iocBoot/ioc-im3l0-pm-k2700/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/zlentz/Keithley2700/Keithley2700-git/bin/linux-x86_64/k2700"
     },
     {
         "host": "ioc-tst-13",
