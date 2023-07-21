@@ -18513,7 +18513,6 @@
         "host": "ioc-xpp-gige01",
         "port": 30001,
         "dir": "ioc/xpp/gigECam/R2.0.1",
-        "disable": true,
         "alias": "Gige 12 - USR",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
