@@ -5099,6 +5099,7 @@
         "host": "ctl-tmo-misc-01",
         "port": 30300,
         "dir": "/reg/g/pcds/epics-dev/lorelli/tmo/tmo-usr-ek9000",
+        "disable": true,
         "alias": "USER EK9000",
         "history": [
             "ioc/tmo/ek9000-usr-ioc/v1.0.0"
