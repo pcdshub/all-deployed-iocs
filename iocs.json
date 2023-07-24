@@ -79,7 +79,7 @@
     {
         "host": "ctl-kfe-cam-01",
         "port": 39009,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/pgpCamlink",
+        "dir": "/cds/home/d/dnajjar/areaDetectores/pgpCamlink-tests",
         "history": [
             "ioc/common/pgpRogue/R0.5.0",
             "ioc/common/pgpRogue/R0.3.0",
@@ -88,7 +88,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-rogue1",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/pgpCamlink/children/build/iocBoot/ioc-kfe-rogue1/st.cmd",
+        "script": "/cds/home/d/dnajjar/areaDetectores/pgpCamlink-tests/children/build/iocBoot/ioc-kfe-rogue1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pgpCamlink/R1.6.0/bin/rhel7-x86_64/pgpRogue"
     },
     {
