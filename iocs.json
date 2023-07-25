@@ -4739,6 +4739,7 @@
         "host": "ctl-tmo-fim-01",
         "port": 30001,
         "dir": "ioc/common/pgpWave8/R1.7.5",
+        "disable": true,
         "history": [
             "ioc/common/pgpWave8/R1.5.0",
             "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git"
@@ -4753,6 +4754,7 @@
         "host": "ctl-tmo-fim-01",
         "port": 30002,
         "dir": "ioc/common/pgpWave8/R1.7.5",
+        "disable": true,
         "history": [
             "ioc/common/pgpWave8/R1.5.0",
             "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git"
