@@ -73,8 +73,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-pgp03",
-        "script": "/cds/home/d/dnajjar/areaDetectores/pgpCamlink-tests/st.cmd",
-        "binary": null
+        "script": "/cds/home/d/dnajjar/areaDetectores/pgpCamlink-tests/children/build/iocBoot/ioc-kfe-pgp03/st.cmd",
+        "binary": "/cds/home/d/dnajjar/areaDetectores/pgpCamlink-tests/bin/rhel7-x86_64/pgpCl"
     },
     {
         "host": "ctl-kfe-cam-01",
@@ -88,8 +88,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-rogue1",
-        "script": "/cds/home/d/dnajjar/areaDetectores/pgpCamlink-tests/st.cmd",
-        "binary": null
+        "script": "/cds/home/d/dnajjar/areaDetectores/pgpCamlink-tests/children/build/iocBoot/ioc-kfe-rogue1/st.cmd",
+        "binary": "/cds/home/d/dnajjar/areaDetectores/pgpCamlink-tests/bin/rhel7-x86_64/pgpRogue"
     },
     {
         "host": "ctl-kfe-cam-01",
