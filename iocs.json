@@ -7676,21 +7676,21 @@
     {
         "host": "ioc-cxi-qadc",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/cxi/qmini",
+        "dir": "ioc/cxi/qmini/R1.0.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-spec-01",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/cxi/qmini/build/iocBoot/ioc-cxi-spec-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/cxi/qmini/R1.0.0/build/iocBoot/ioc-cxi-spec-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/qmini/R1.0.2/bin/rhel7-x86_64/qmini"
     },
     {
         "host": "ioc-cxi-qadc",
         "port": 39101,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/cxi/qmini",
+        "dir": "ioc/cxi/qmini/R1.0.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-spec-02",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/cxi/qmini/build/iocBoot/ioc-cxi-spec-02/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/cxi/qmini/R1.0.0/build/iocBoot/ioc-cxi-spec-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/qmini/R1.0.2/bin/rhel7-x86_64/qmini"
     },
     {
