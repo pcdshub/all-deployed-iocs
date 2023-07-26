@@ -2918,6 +2918,26 @@
         "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.10/bin/rhel7-x86_64/smaract"
     },
     {
+        "host": "ctl-las-lln-02",
+        "port": 30007,
+        "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/hrm/gigECam",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm2k2-hrm-gige-ff-01",
+        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/hrm/gigECam/build/iocBoot/ioc-lm2k2-hrm-gige-ff-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/mcbrowne/ioc/common/gigECam/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-lln-02",
+        "port": 30012,
+        "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/hrm/gigECam",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm2k2-hrm-gige-ff-02",
+        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/hrm/gigECam/build/iocBoot/ioc-lm2k2-hrm-gige-ff-02/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/mcbrowne/ioc/common/gigECam/bin/rhel7-x86_64/gige"
+    },
+    {
         "host": "ctl-las-lln-03",
         "port": 30001,
         "dir": "ioc/las/evr/R1.0.6",
