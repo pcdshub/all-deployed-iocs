@@ -5208,7 +5208,7 @@
     {
         "host": "ctl-tmo-mot-01",
         "port": 34244,
-        "dir": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/lcls-plc-lamp-mbes-motion",
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/tmo/lcls-plc-lamp-motion",
         "alias": "ioc-lamp-motion",
         "history": [
             "ioc/tmo/lamp/lcls-plc-lamp-motion/v1.0.2"
@@ -5216,8 +5216,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-lamp-motion",
-        "script": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/lcls-plc-lamp-mbes-motion/iocBoot/ioc-lamp-motion/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics-dev/jozamudi/tmo/lcls-plc-lamp-motion/iocBoot/ioc-lamp-motion/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-tmo-mot-01",
