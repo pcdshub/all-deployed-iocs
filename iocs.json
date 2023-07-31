@@ -17817,6 +17817,16 @@
     },
     {
         "host": "ioc-xcs-user1",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/lcls-plc-polycapillary/lcls-plc-polycapillary",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-plc-polycap-01",
+        "script": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/lcls-plc-polycapillary/lcls-plc-polycapillary/iocBoot/ioc-plc-polycap-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ioc-xcs-user1",
         "port": 30200,
         "dir": "/reg/g/pcds/epics-dev/spencera/xcs.svn/BK-Precision/current",
         "disable": true,
