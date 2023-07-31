@@ -14593,7 +14593,6 @@
         "host": "ioc-mfx-wave8",
         "port": 30071,
         "dir": "ioc/mfx/gigECam/R0.5.5",
-        "disable": true,
         "alias": "CAM - GigE LBL 01 Inline",
         "history": [
             "ioc/mfx/gigECam/R0.5.3"
@@ -14638,6 +14637,7 @@
         "host": "ioc-mfx-wave8",
         "port": 30101,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam",
+        "disable": true,
         "alias": "CAM - GigE Liquid Jet 1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
