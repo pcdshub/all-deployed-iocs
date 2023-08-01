@@ -18645,13 +18645,13 @@
     {
         "host": "ioc-xpp-gige02",
         "port": 30004,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam",
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/xpp/gigECam",
         "alias": "Gige 11 - USR",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-11",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-xpp-gige-11/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.4/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/xpp/gigECam/build/iocBoot/ioc-xpp-gige-11/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.5/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-gige02",
