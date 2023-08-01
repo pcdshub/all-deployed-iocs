@@ -270,14 +270,14 @@
     {
         "host": "ctl-kfe-misc-01",
         "port": 30022,
-        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/thermocon/current",
+        "dir": "/reg/g/pcds/epics-dev/janezg/kfe/thermocon",
         "history": [
             "/reg/g/pcds/epics-dev/nrw/iocs/thermocon/current"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-fee-thermocon",
-        "script": "/reg/g/pcds/epics-dev/nrw/iocs/thermocon/current/build/iocBoot/ioc-fee-thermocon/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/janezg/kfe/thermocon/build/iocBoot/ioc-fee-thermocon/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-thermocon/bin/rhel7-x86_64/thermocon"
     },
     {
