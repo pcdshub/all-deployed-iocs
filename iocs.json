@@ -482,26 +482,6 @@
     },
     {
         "host": "ctl-kfe-misc-01",
-        "port": 30026,
-        "dir": "/reg/g/pcds/epics-dev/janezg/kfe/thermocon",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
-        "name": "ioc-mr1l0-thermocon",
-        "script": "/reg/g/pcds/epics-dev/janezg/kfe/thermocon/build/iocBoot/ioc-mr1l0-thermocon/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-thermocon/bin/rhel7-x86_64/thermocon"
-    },
-    {
-        "host": "ctl-kfe-misc-01",
-        "port": 30025,
-        "dir": "/reg/g/pcds/epics-dev/janezg/kfe/thermocon",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
-        "name": "ioc-mr1l1-thermocon",
-        "script": "/reg/g/pcds/epics-dev/janezg/kfe/thermocon/build/iocBoot/ioc-mr1l1-thermocon/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-thermocon/bin/rhel7-x86_64/thermocon"
-    },
-    {
-        "host": "ctl-kfe-misc-01",
         "port": 30023,
         "dir": "/reg/g/pcds/epics-dev/janezg/kfe/thermocon",
         "base_version": "3.15",
