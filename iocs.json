@@ -1427,8 +1427,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-gige-mcb-01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/st.cmd",
-        "binary": null
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/children/build/iocBoot/ioc-las-gige-mcb-01/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-las-ip1-srv01",
@@ -2305,12 +2305,11 @@
         "host": "ctl-las-lhn-03",
         "port": 30002,
         "dir": "/cds/home/t/tjohnson/trunk/workarea/tprStandaloneTesting",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-tpr-01",
         "script": "/cds/home/t/tjohnson/trunk/workarea/tprStandaloneTesting/build/iocBoot/ioc-las-lhn-tpr-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/tprStandalone/R1.1.4/bin/rhel7-x86_64/tpr"
+        "binary": "/cds/group/pcds/epics/ioc/common/tprStandalone/R1.1.5/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "ctl-las-lhn-03",
@@ -15668,8 +15667,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-g125c",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/st.cmd",
-        "binary": null
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/children/build/iocBoot/ioc-tst-g125c/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-tst-13",
@@ -17598,8 +17597,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-lj2",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/st.cmd",
-        "binary": null
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/children/build/iocBoot/ioc-xcs-gige-lj2/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xcs-rec04",
