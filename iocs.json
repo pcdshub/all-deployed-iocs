@@ -2309,7 +2309,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-tpr-01",
         "script": "/cds/home/t/tjohnson/trunk/workarea/tprStandaloneTesting/build/iocBoot/ioc-las-lhn-tpr-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/tprStandalone/R1.1.0/bin/rhel7-x86_64/tpr"
+        "binary": "/cds/group/pcds/epics/ioc/common/tprStandalone/R1.1.5/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "ctl-las-lhn-03",
