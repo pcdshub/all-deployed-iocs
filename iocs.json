@@ -19051,7 +19051,7 @@
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-ensemble-02",
         "script": "/reg/g/pcds/epics-dev/kaushikm/common/aerotech/children/build/iocBoot/ioc-xpp-ensemble-02/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/espov/ioc/common/aerotech/bin/rhel7-x86_64/aerotech"
+        "binary": "/reg/g/pcds/epics/ioc/common/aerotech/R1.2.0/bin/rhel7-x86_64/aerotech"
     },
     {
         "host": "ioc-xpp-misc01",
