@@ -1540,8 +1540,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-mcs2-01",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/build/iocBoot/ioc-lm1k4-mcs2-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.13/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ip1-srv01",
@@ -1551,8 +1551,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-mcs2-02",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/build/iocBoot/ioc-lm1k4-mcs2-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.13/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ip1-srv01",
@@ -1561,8 +1561,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-mcs2-03",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/build/iocBoot/ioc-lm1k4-mcs2-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.13/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ip1-srv01",
@@ -1572,8 +1572,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-mcs2-04",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/build/iocBoot/ioc-lm1k4-mcs2-04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.13/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ip1-srv02",
@@ -6654,6 +6654,16 @@
         "name": "ioc-cxi-mpod-d50",
         "script": "/reg/g/pcds/epics/ioc/common/mpod/R2.0.9/iocBoot/ioc-cxi-mpod-d50/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/mpod/R2.0.9/bin/linux-x86_64/mpod"
+    },
+    {
+        "host": "ioc-cxi-dg1",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/R1.0.11",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-usr-pico",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/R1.0.11/iocBoot/ioc-cxi-usr-pico/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/divya/ioc/cxi/R1.0.11/bin/linux-x86/motion"
     },
     {
         "host": "ioc-cxi-jungfrau01",
