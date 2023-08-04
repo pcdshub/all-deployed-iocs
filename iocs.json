@@ -2596,12 +2596,12 @@
     {
         "host": "ctl-las-lhn-sp01",
         "port": 30004,
-        "dir": "ioc/common/locker_manager/R0.1.1",
+        "dir": "/cds/home/t/tjohnson/trunk/common/locker_manager",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lhn-llman-01",
-        "script": "/reg/g/pcds/epics/ioc/common/locker_manager/R0.1.1/children/build/iocBoot/ioc-lhn-llman-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/locker_manager/R0.1.1/bin/rhel7-x86_64/lockerman"
+        "script": "/cds/home/t/tjohnson/trunk/common/locker_manager/children/build/iocBoot/ioc-lhn-llman-01/st.cmd",
+        "binary": "/cds/home/t/tjohnson/trunk/common/locker_manager/bin/rhel7-x86_64/lockerman"
     },
     {
         "host": "ctl-las-lhn-sp01",
