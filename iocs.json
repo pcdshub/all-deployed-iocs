@@ -7286,12 +7286,12 @@
     {
         "host": "ioc-cxi-mot2",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi_picomotion/picoMotion",
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/picoMotion",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-usr-pico",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi_picomotion/picoMotion/build/iocBoot/ioc-cxi-usr-pico/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/picoMotion/R4.0.1/bin/rhel7-x86_64/motion"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/picoMotion/children/build/iocBoot/ioc-cxi-usr-pico/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/picoMotion/bin/rhel7-x86_64/motion"
     },
     {
         "host": "ioc-cxi-mot2",
