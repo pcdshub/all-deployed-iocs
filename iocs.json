@@ -13529,7 +13529,7 @@
     {
         "host": "ioc-mec-wave8",
         "port": 30002,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8.e2",
         "alias": "IPM3 (wave8)",
         "history": [
             "ioc/mec/wave8/R2.0.0",
@@ -13540,8 +13540,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-xt2-2-bmmon",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-mec-xt2-2-bmmon/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8.e2/children/build/iocBoot/ioc-mec-xt2-2-bmmon/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8.e2/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-mfx-cam01",
