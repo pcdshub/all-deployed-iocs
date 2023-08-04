@@ -1133,16 +1133,6 @@
     },
     {
         "host": "ctl-las-crix-srv06",
-        "port": 30010,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/hrm/thorlabs-ell/",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-hrm-ell-01",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/hrm/thorlabs-ell/build/iocBoot/ioc-lm1k4-hrm-ell-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
-    },
-    {
-        "host": "ctl-las-crix-srv06",
         "port": 30011,
         "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/hrm/thorlabs-ell/",
         "disable": true,
@@ -1673,6 +1663,16 @@
         "name": "ioc-lm1k4-com-spec-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/com/qmini/build/iocBoot/ioc-lm1k4-com-spec-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/qmini/R1.0.2/bin/rhel7-x86_64/qmini"
+    },
+    {
+        "host": "ctl-las-ip1-srv03",
+        "port": 30010,
+        "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/hrm/thorlabs-ell/",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-hrm-ell-01",
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/hrm/thorlabs-ell/build/iocBoot/ioc-lm1k4-hrm-ell-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-ip1-srv03",
