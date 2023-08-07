@@ -6067,6 +6067,7 @@
         "host": "daq-mfx-pgp01",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/mfx/epix",
+        "disable": true,
         "alias": "DET - ePix10k-2M IOC",
         "history": [
             "ioc/mfx/epix/R1.0.1"
