@@ -6066,8 +6066,7 @@
     {
         "host": "daq-mfx-pgp01",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/mfx/epix",
-        "disable": true,
+        "dir": "ioc/mfx/epix/R1.0.1",
         "alias": "DET - ePix10k-2M IOC",
         "history": [
             "ioc/mfx/epix/R1.0.1"
@@ -6075,30 +6074,30 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-epix10ka2m",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/mfx/epix/build/iocBoot/ioc-mfx-epix10ka2m/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.5.0/bin/rhel7-x86_64/epixMonIoc"
+        "script": "/reg/g/pcds/epics/ioc/mfx/epix/R1.0.1/build/iocBoot/ioc-mfx-epix10ka2m/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.0.3/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-mfx-pgp02",
         "port": 38001,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/mfx/epix",
+        "dir": "ioc/mfx/epix/R1.0.3",
         "alias": "DET - ePix100.1 IOC",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-epix100",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/mfx/epix/build/iocBoot/ioc-mfx-epix100/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.5.0/bin/rhel7-x86_64/epixMonIoc"
+        "script": "/reg/g/pcds/epics/ioc/mfx/epix/R1.0.3/build/iocBoot/ioc-mfx-epix100/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.4.6/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-mfx-pgp02",
         "port": 38002,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/mfx/epix",
+        "dir": "ioc/mfx/epix/R1.0.3",
         "alias": "DET - ePix100.2 IOC",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-epix100-2",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/mfx/epix/build/iocBoot/ioc-mfx-epix100-2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.5.0/bin/rhel7-x86_64/epixMonIoc"
+        "script": "/reg/g/pcds/epics/ioc/mfx/epix/R1.0.3/build/iocBoot/ioc-mfx-epix100-2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.4.6/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-rix-andor-01",
