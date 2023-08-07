@@ -6091,13 +6091,13 @@
     {
         "host": "daq-mfx-pgp02",
         "port": 38002,
-        "dir": "ioc/mfx/epix/R1.0.3",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/mfx/epix",
         "alias": "DET - ePix100.2 IOC",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-epix100-2",
-        "script": "/reg/g/pcds/epics/ioc/mfx/epix/R1.0.3/build/iocBoot/ioc-mfx-epix100-2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.4.6/bin/rhel7-x86_64/epixMonIoc"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/mfx/epix/build/iocBoot/ioc-mfx-epix100-2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.5.0/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-rix-andor-01",
