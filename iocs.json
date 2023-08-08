@@ -18948,13 +18948,13 @@
     {
         "host": "ioc-xpp-las01",
         "port": 30011,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/gigECam",
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/xpp/gigECam",
         "alias": "LAS -Output Basler",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-las01",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/gigECam/build/iocBoot/ioc-xpp-gige-las01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/xpp/gigECam/build/iocBoot/ioc-xpp-gige-las01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.5/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-las01",
