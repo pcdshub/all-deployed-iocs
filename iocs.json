@@ -1734,6 +1734,16 @@
     },
     {
         "host": "ctl-las-ip1-srv04",
+        "port": 30013,
+        "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/atm/qmini/",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-atm-spec-01",
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/atm/qmini/build/iocBoot/ioc-lm1k4-atm-spec-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/qmini/R1.0.2/bin/rhel7-x86_64/qmini"
+    },
+    {
+        "host": "ctl-las-ip1-srv04",
         "port": 30030,
         "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/hrm/ek9000/",
         "base_version": "3.15",
@@ -1846,16 +1856,6 @@
         "name": "ioc-lm1k4-atm-gige-nf-02",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/atm/gigECam/build/iocBoot/ioc-lm1k4-atm-gige-nf-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.6/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-ip1-srv05",
-        "port": 30013,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/atm/qmini/",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-atm-spec-01",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/atm/qmini/build/iocBoot/ioc-lm1k4-atm-spec-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/qmini/R1.0.2/bin/rhel7-x86_64/qmini"
     },
     {
         "host": "ctl-las-ip1-srv05",
