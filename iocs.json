@@ -6066,7 +6066,7 @@
     {
         "host": "daq-mfx-pgp01",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/mfx/epix",
+        "dir": "ioc/mfx/epix/R1.5.0",
         "alias": "DET - ePix10k-2M IOC",
         "history": [
             "ioc/mfx/epix/R1.0.1"
@@ -6074,18 +6074,18 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-epix10ka2m",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/mfx/epix/build/iocBoot/ioc-mfx-epix10ka2m/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/mfx/epix/R1.5.0/build/iocBoot/ioc-mfx-epix10ka2m/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.0.3/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-mfx-pgp02",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/mfx/epix",
+        "dir": "ioc/mfx/epix/R1.5.0",
         "alias": "DET - ePix IOC",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-epix",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/mfx/epix/build/iocBoot/ioc-mfx-epix/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/mfx/epix/R1.5.0/build/iocBoot/ioc-mfx-epix/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.5.0/bin/rhel7-x86_64/epixMonIoc"
     },
     {
