@@ -2821,7 +2821,6 @@
         "host": "ctl-las-lln-01",
         "port": 43501,
         "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "py-fstiming-cast-hxr",
