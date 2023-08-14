@@ -13558,8 +13558,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-gige-06",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam/build/iocBoot/ioc-mfx-gige-06/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R3.5.7/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-mfx-cam01",
@@ -13578,7 +13578,7 @@
     {
         "host": "ioc-mfx-cam01",
         "port": 30083,
-        "dir": "ioc/mfx/gigECam/R0.5.5",
+        "dir": "/cds/group/pcds/epics-dev/espov/ioc/mfx/gigECam",
         "alias": "CAM - GigE LBL 02 Side",
         "history": [
             "ioc/mfx/gigECam/R0.5.3"
@@ -13586,13 +13586,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-gige-lbl-02",
-        "script": "/reg/g/pcds/epics/ioc/mfx/gigECam/R0.5.5/build/iocBoot/ioc-mfx-gige-lbl-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.3/bin/linux-x86_64/gige"
+        "script": "/cds/group/pcds/epics-dev/espov/ioc/mfx/gigECam/build/iocBoot/ioc-mfx-gige-lbl-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-mfx-cam01",
         "port": 30085,
-        "dir": "ioc/mfx/gigECam/R0.5.5",
+        "dir": "/cds/group/pcds/epics-dev/espov/ioc/mfx/gigECam",
         "alias": "CAM - GigE LBL 03 Meniscus",
         "history": [
             "ioc/mfx/gigECam/R0.5.3"
@@ -13600,8 +13600,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-gige-lbl-03",
-        "script": "/reg/g/pcds/epics/ioc/mfx/gigECam/R0.5.5/build/iocBoot/ioc-mfx-gige-lbl-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.3/bin/linux-x86_64/gige"
+        "script": "/cds/group/pcds/epics-dev/espov/ioc/mfx/gigECam/build/iocBoot/ioc-mfx-gige-lbl-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-mfx-cam01",
@@ -14661,8 +14661,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-gige-lj1",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam/build/iocBoot/ioc-mfx-gige-lj1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-mfx-wave8",
@@ -14673,8 +14673,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-gige-lj2",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam/build/iocBoot/ioc-mfx-gige-lj2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-mfx-wave8",
@@ -14685,8 +14685,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-gige-lj3",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam/build/iocBoot/ioc-mfx-gige-lj3/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-mfx-wave8",
