@@ -13563,20 +13563,6 @@
     },
     {
         "host": "ioc-mfx-cam01",
-        "port": 30071,
-        "dir": "ioc/mfx/gigECam/R0.5.5",
-        "alias": "CAM - GigE LBL 01 Inline",
-        "history": [
-            "ioc/mfx/gigECam/R0.5.3"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-gige-lbl-01",
-        "script": "/reg/g/pcds/epics/ioc/mfx/gigECam/R0.5.5/build/iocBoot/ioc-mfx-gige-lbl-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.3/bin/linux-x86_64/gige"
-    },
-    {
-        "host": "ioc-mfx-cam01",
         "port": 30083,
         "dir": "ioc/mfx/gigECam/R0.5.5",
         "alias": "CAM - GigE LBL 02 Side",
@@ -14651,6 +14637,20 @@
         "name": "ioc-mfx-dg2-bmmon",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-mfx-dg2-bmmon/st.cmd",
         "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
+    },
+    {
+        "host": "ioc-mfx-wave8",
+        "port": 30071,
+        "dir": "ioc/mfx/gigECam/R0.5.5",
+        "alias": "CAM - GigE LBL 01 Inline",
+        "history": [
+            "ioc/mfx/gigECam/R0.5.3"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-gige-lbl-01",
+        "script": "/reg/g/pcds/epics/ioc/mfx/gigECam/R0.5.5/build/iocBoot/ioc-mfx-gige-lbl-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mfx-wave8",
