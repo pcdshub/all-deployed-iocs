@@ -1511,7 +1511,6 @@
         "host": "ctl-las-ip1-srv01",
         "port": 30021,
         "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-mcs2-02",
