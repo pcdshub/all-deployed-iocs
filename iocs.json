@@ -1419,16 +1419,6 @@
     },
     {
         "host": "ctl-las-ip1-srv01",
-        "port": 30040,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/evr/",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-lm1k4-evr-01",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/evr/build/iocBoot/ioc-las-lm1k4-evr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/rhel7-x86_64/evr"
-    },
-    {
-        "host": "ctl-las-ip1-srv01",
         "port": 30030,
         "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/inj/ek9000/",
         "base_version": "3.15",
