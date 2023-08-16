@@ -16626,12 +16626,12 @@
     {
         "host": "ioc-xcs-mot1",
         "port": 30439,
-        "dir": "/cds/group/pcds/epics/ioc/xcs/NewportXPS8/R2.0.0",
+        "dir": "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-ladm01",
-        "script": "/cds/group/pcds/epics/ioc/xcs/NewportXPS8/R2.0.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current/build/iocBoot/ioc-xcs-ladm01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
     },
     {
         "host": "ioc-xcs-mot1",
@@ -18311,7 +18311,7 @@
     {
         "host": "ioc-xcs-user2",
         "port": 31002,
-        "dir": "ioc/xcs/NewportXPS8/R2.0.2",
+        "dir": "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current",
         "alias": "USR - R41 PPL Newport",
         "history": [
             "ioc/xcs/NewportXPS8/R2.0.0"
@@ -18319,19 +18319,19 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-usr-xps2",
-        "script": "/reg/g/pcds/epics/ioc/xcs/NewportXPS8/R2.0.2/build/iocBoot/ioc-xcs-usr-xps2/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/linux-x86_64/xps8"
+        "script": "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current/build/iocBoot/ioc-xcs-usr-xps2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
     },
     {
         "host": "ioc-xcs-user2",
         "port": 31004,
-        "dir": "/cds/group/pcds/epics/ioc/xcs/NewportXPS8/R2.0.0",
+        "dir": "/cds/home/r/rajan-01/checkouts/epics/xcs/NewportXPS8/current",
         "alias": "USR - Aux Newport",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-usr-xps3",
-        "script": "/cds/group/pcds/epics/ioc/xcs/NewportXPS8/R2.0.0/st.cmd",
-        "binary": null
+        "script": "/cds/home/r/rajan-01/checkouts/epics/xcs/NewportXPS8/current/build/iocBoot/ioc-xcs-usr-xps3/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
     },
     {
         "host": "ioc-xcs-user2",
