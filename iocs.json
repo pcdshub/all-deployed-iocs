@@ -1812,6 +1812,16 @@
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
     },
     {
+        "host": "ctl-las-ip1-srv04",
+        "port": 30010,
+        "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/thorlabs-ell",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-ejx-ell-04",
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/thorlabs-ell/build/iocBoot/ioc-lm1k4-ejx-ell-04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
+    },
+    {
         "host": "ctl-las-ip1-srv05",
         "port": 30100,
         "dir": "ioc/las/pgpWave8/R1.0.0",
@@ -1881,22 +1891,10 @@
         "host": "ctl-las-ip1-srv05",
         "port": 30012,
         "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/thorlabs-ell",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-ejx-ell-03",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/thorlabs-ell/build/iocBoot/ioc-lm1k4-ejx-ell-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
-    },
-    {
-        "host": "ctl-las-ip1-srv05",
-        "port": 30010,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/thorlabs-ell",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-ejx-ell-04",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/thorlabs-ell/build/iocBoot/ioc-lm1k4-ejx-ell-04/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
     },
     {
