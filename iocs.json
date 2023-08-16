@@ -13486,7 +13486,7 @@
     {
         "host": "ioc-mfx-cam01",
         "port": 30071,
-        "dir": "/cds/group/pcds/epics-dev/espov/ioc/mfx/gigECam",
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam",
         "alias": "CAM - GigE LBL 01 Inline",
         "history": [
             "ioc/mfx/gigECam/R0.5.3"
@@ -13494,8 +13494,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-gige-lbl-01",
-        "script": "/cds/group/pcds/epics-dev/espov/ioc/mfx/gigECam/build/iocBoot/ioc-mfx-gige-lbl-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/children/build/iocBoot/ioc-mfx-gige-lbl-01/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-mfx-cam01",
