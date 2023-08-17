@@ -916,6 +916,16 @@
     },
     {
         "host": "ctl-las-crix-srv03",
+        "port": 30012,
+        "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/hrm/qmini/",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-hrm-spec-01",
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/hrm/qmini/build/iocBoot/ioc-lm1k4-hrm-spec-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/qmini/R1.0.2/bin/rhel7-x86_64/qmini"
+    },
+    {
+        "host": "ctl-las-crix-srv03",
         "port": 30050,
         "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/atm/ek9000",
         "disable": true,
@@ -1141,16 +1151,6 @@
         "name": "ioc-lm1k4-hrm-ell-02",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/hrm/thorlabs-ell/st.cmd",
         "binary": null
-    },
-    {
-        "host": "ctl-las-crix-srv06",
-        "port": 30012,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/hrm/qmini/",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-hrm-spec-01",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/hrm/qmini/build/iocBoot/ioc-lm1k4-hrm-spec-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/qmini/R1.0.2/bin/rhel7-x86_64/qmini"
     },
     {
         "host": "ctl-las-crix-srv07",
