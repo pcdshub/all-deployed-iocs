@@ -6159,13 +6159,13 @@
     {
         "host": "daq-xcs-pgp02",
         "port": 35267,
-        "dir": "/reg/g/pcds/epics-dev/spencera/det/RohdeSchwarzHMP/current",
+        "dir": "ioc/xcs/RohdeSchwarzHMP/R1.0.3",
         "alias": "DET - MBL02 HMP02",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-det-mbl02-hmp02",
-        "script": "/reg/g/pcds/epics-dev/spencera/det/RohdeSchwarzHMP/current/build/iocBoot/ioc-det-mbl02-hmp02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.1/bin/rhel7-x86_64/rshmp"
+        "script": "/reg/g/pcds/epics/ioc/xcs/RohdeSchwarzHMP/R1.0.3/build/iocBoot/ioc-det-mbl02-hmp02/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.1/bin/rhel7-x86_64/rshmp"
     },
     {
         "host": "daq-xcs-pgp02",
@@ -18035,7 +18035,7 @@
     {
         "host": "ioc-xcs-user1",
         "port": 31001,
-        "dir": "/cds/group/pcds/epics/ioc/xcs/NewportXPS8/R2.0.2",
+        "dir": "ioc/xcs/NewportXPS8/R2.0.2",
         "alias": "USR - Gon Newport",
         "history": [
             "ioc/xcs/NewportXPS8/R2.0.0"
@@ -18044,7 +18044,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-usr-xps1",
-        "script": "/cds/group/pcds/epics/ioc/xcs/NewportXPS8/R2.0.2/build/iocBoot/ioc-xcs-usr-xps1/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xcs/NewportXPS8/R2.0.2/build/iocBoot/ioc-xcs-usr-xps1/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
     },
     {
