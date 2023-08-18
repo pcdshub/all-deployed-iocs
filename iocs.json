@@ -16961,11 +16961,11 @@
     {
         "host": "ioc-xcs-mot2",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs/picoMotion",
+        "dir": "ioc/xcs/picoMotion/R0.0.1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-pico-las01",
-        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs/picoMotion/build/iocBoot/ioc-xcs-pico-las01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xcs/picoMotion/R0.0.1/build/iocBoot/ioc-xcs-pico-las01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/picoMotion/R4.0.1/bin/rhel7-x86_64/motion"
     },
     {
