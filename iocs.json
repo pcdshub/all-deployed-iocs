@@ -14683,7 +14683,6 @@
         "host": "ioc-mfx-wave8",
         "port": 32503,
         "dir": "ioc/mfx/NewportXPS8/R2.1.0",
-        "disable": true,
         "alias": "USR - Motion Newport LBL",
         "history": [
             "/reg/neh/home/sheppard/ioc/mfx/NewportXPS8/current"
