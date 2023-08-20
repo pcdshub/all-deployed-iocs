@@ -14205,6 +14205,20 @@
         "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1/bin/linux-x86_64/pvNotepad"
     },
     {
+        "host": "ioc-mfx-misc01",
+        "port": 32503,
+        "dir": "/cds/group/pcds/epics-dev/espov/ioc/mfx/NewportXPS8",
+        "alias": "USR - Motion Newport LBL",
+        "history": [
+            "/reg/neh/home/sheppard/ioc/mfx/NewportXPS8/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-xps-lbl",
+        "script": "/cds/group/pcds/epics-dev/espov/ioc/mfx/NewportXPS8/build/iocBoot/ioc-mfx-xps-lbl/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/linux-x86_64/xps8"
+    },
+    {
         "host": "ioc-mfx-mot1",
         "port": 31522,
         "dir": "ioc/mfx/picoMotion/R2.1.1",
@@ -21472,20 +21486,6 @@
         "name": "ioc-mec-lecroy-01",
         "script": "/reg/g/pcds/epics/ioc/common/lecroy/R1.0.2/iocBoot/ioc-mec-lecroy-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/lecroy/R1.0.2/bin/linux-x86_64/lecroy"
-    },
-    {
-        "host": "mfx-control",
-        "port": 32503,
-        "dir": "ioc/mfx/NewportXPS8/R2.1.0",
-        "alias": "USR - Motion Newport LBL",
-        "history": [
-            "/reg/neh/home/sheppard/ioc/mfx/NewportXPS8/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-xps-lbl",
-        "script": "/reg/g/pcds/epics/ioc/mfx/NewportXPS8/R2.1.0/build/iocBoot/ioc-mfx-xps-lbl/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
     },
     {
         "host": "tmo-control",
