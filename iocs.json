@@ -21474,7 +21474,7 @@
         "binary": "/reg/g/pcds/epics/ioc/common/lecroy/R1.0.2/bin/linux-x86_64/lecroy"
     },
     {
-        "host": "mfx-daq",
+        "host": "mfx-control",
         "port": 32503,
         "dir": "ioc/mfx/NewportXPS8/R2.1.0",
         "alias": "USR - Motion Newport LBL",
