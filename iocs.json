@@ -3326,13 +3326,13 @@
     {
         "host": "ctl-rix-cam-01",
         "port": 30001,
-        "dir": "ioc/rix/tprStandalone/R1.0.0",
+        "dir": "ioc/rix/tprStandalone/R1.0.4",
         "alias": "RIX TPR 1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-tpr1",
-        "script": "/reg/g/pcds/epics/ioc/rix/tprStandalone/R1.0.0/build/iocBoot/ioc-rix-tpr1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.2/bin/rhel7-x86_64/tpr"
+        "script": "/reg/g/pcds/epics/ioc/rix/tprStandalone/R1.0.4/build/iocBoot/ioc-rix-tpr1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.5/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "ctl-rix-cam-01",
@@ -3351,7 +3351,7 @@
     {
         "host": "ctl-rix-cam-01",
         "port": 30112,
-        "dir": "ioc/rix/gigECam/R2.2.1",
+        "dir": "ioc/rix/gigECam/R2.2.3",
         "alias": "SL1K2 GIGE",
         "history": [
             "/reg/g/pcds/epics-dev/bhill/epics/ioc/rix/gigECam/gigECam-git",
@@ -3360,8 +3360,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-sl1k2-gige",
-        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.2.1/build/iocBoot/ioc-sl1k2-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.3/bin/rhel7-x86_64/gigeTpr"
+        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.2.3/build/iocBoot/ioc-sl1k2-gige/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.6/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-rix-cam-02",
