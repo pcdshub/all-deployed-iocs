@@ -13974,7 +13974,7 @@
     {
         "host": "ioc-mfx-cam02",
         "port": 32503,
-        "dir": "/cds/group/pcds/epics-dev/espov/ioc/mfx/NewportXPS8",
+        "dir": "ioc/mfx/NewportXPS8/R2.1.0",
         "alias": "USR - Motion Newport LBL",
         "history": [
             "/reg/neh/home/sheppard/ioc/mfx/NewportXPS8/current"
@@ -13982,8 +13982,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-xps-lbl",
-        "script": "/cds/group/pcds/epics-dev/espov/ioc/mfx/NewportXPS8/build/iocBoot/ioc-mfx-xps-lbl/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/linux-x86_64/xps8"
+        "script": "/reg/g/pcds/epics/ioc/mfx/NewportXPS8/R2.1.0/build/iocBoot/ioc-mfx-xps-lbl/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
     },
     {
         "host": "ioc-mfx-cam02",
