@@ -1701,13 +1701,12 @@
     {
         "host": "ctl-las-ip1-srv03",
         "port": 30100,
-        "dir": "ioc/las/qadc/R1.0.2",
-        "disable": true,
+        "dir": "/cds/home/t/tjohnson/trunk/las/qadc",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-qadc134-01",
-        "script": "/reg/g/pcds/epics/ioc/las/qadc/R1.0.2/build/iocBoot/ioc-lm1k4-qadc134-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/qadc/R2.0.7/bin/rhel7-x86_64/qadc134Ioc"
+        "script": "/cds/home/t/tjohnson/trunk/las/qadc/build/iocBoot/ioc-lm1k4-qadc134-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/qadc/R2.0.9/bin/rhel7-x86_64/qadc134Ioc"
     },
     {
         "host": "ctl-las-ip1-srv04",
