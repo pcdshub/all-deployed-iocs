@@ -714,6 +714,7 @@
         "host": "ctl-las-crix-srv01",
         "port": 30002,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/qadc",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-qadc134-mcb",
@@ -994,6 +995,7 @@
         "host": "ctl-las-crix-srv04",
         "port": 30033,
         "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/ejx/ek9000/",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-ejx-ek9000-01",
@@ -1100,7 +1102,7 @@
     {
         "host": "ctl-las-crix-srv05",
         "port": 30100,
-        "dir": "/cds/home/t/tjohnson/trunk/las/qadc",
+        "dir": "ioc/las/qadc/R1.1.0",
         "history": [
             "/cds/home/m/mcbrowne/trunk2/ioc/common/qadc",
             "ioc/las/qadc/R1.0.1"
@@ -1108,7 +1110,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-qadc134-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/qadc/build/iocBoot/ioc-lm2k2-qadc134-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/qadc/R1.1.0/build/iocBoot/ioc-lm2k2-qadc134-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/qadc/R2.0.9/bin/rhel7-x86_64/qadc134Ioc"
     },
     {
@@ -1701,11 +1703,11 @@
     {
         "host": "ctl-las-ip1-srv03",
         "port": 30100,
-        "dir": "/cds/home/t/tjohnson/trunk/las/qadc",
+        "dir": "ioc/las/qadc/R1.1.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-qadc134-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/qadc/build/iocBoot/ioc-lm1k4-qadc134-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/qadc/R1.1.0/build/iocBoot/ioc-lm1k4-qadc134-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/qadc/R2.0.9/bin/rhel7-x86_64/qadc134Ioc"
     },
     {
