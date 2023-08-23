@@ -5121,35 +5121,35 @@
     {
         "host": "ctl-tmo-misc-01",
         "port": 35702,
-        "dir": "/reg/g/pcds/epics-dev/tongju/BK-Precision/BK-Precision",
+        "dir": "/cds/group/pcds/epics/ioc/tmo/BK-Precision/R1.1.3",
         "alias": "USR BK Precision 02",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-usr-BK-02",
-        "script": "/reg/g/pcds/epics-dev/tongju/BK-Precision/BK-Precision/build/iocBoot/ioc-tmo-usr-BK-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/BK-Precision/R1.1.1/bin/rhel7-x86_64/BK-Precision"
+        "script": "/cds/group/pcds/epics/ioc/tmo/BK-Precision/R1.1.3/build/iocBoot/ioc-tmo-usr-BK-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/BK-Precision/R1.1.3/bin/rhel7-x86_64/BK-Precision"
     },
     {
         "host": "ctl-tmo-misc-01",
         "port": 35703,
-        "dir": "/reg/g/pcds/epics-dev/tongju/BK-Precision/BK-Precision",
+        "dir": "/cds/group/pcds/epics/ioc/tmo/BK-Precision/R1.1.3",
         "alias": "USR BK Precision 03",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-usr-BK-03",
-        "script": "/reg/g/pcds/epics-dev/tongju/BK-Precision/BK-Precision/build/iocBoot/ioc-tmo-usr-BK-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/BK-Precision/R1.1.1/bin/rhel7-x86_64/BK-Precision"
+        "script": "/cds/group/pcds/epics/ioc/tmo/BK-Precision/R1.1.3/build/iocBoot/ioc-tmo-usr-BK-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/BK-Precision/R1.1.3/bin/rhel7-x86_64/BK-Precision"
     },
     {
         "host": "ctl-tmo-misc-01",
         "port": 35704,
-        "dir": "/reg/g/pcds/epics-dev/tongju/BK-Precision/BK-Precision",
+        "dir": "/cds/group/pcds/epics/ioc/tmo/BK-Precision/R1.1.3",
         "alias": "USR BK Precision 04",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-usr-BK-04",
-        "script": "/reg/g/pcds/epics-dev/tongju/BK-Precision/BK-Precision/build/iocBoot/ioc-tmo-usr-BK-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/BK-Precision/R1.1.1/bin/rhel7-x86_64/BK-Precision"
+        "script": "/cds/group/pcds/epics/ioc/tmo/BK-Precision/R1.1.3/build/iocBoot/ioc-tmo-usr-BK-04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/BK-Precision/R1.1.3/bin/rhel7-x86_64/BK-Precision"
     },
     {
         "host": "ctl-tmo-misc-01",
