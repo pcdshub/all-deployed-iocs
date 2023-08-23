@@ -5745,7 +5745,6 @@
         "host": "daq-det-jungfrau",
         "port": 30004,
         "dir": "ioc/det/epix/R1.5.0",
-        "disable": true,
         "history": [
             "ioc/det/epix/R1.0.2",
             "ioc/det/epix/R1.0.0",
