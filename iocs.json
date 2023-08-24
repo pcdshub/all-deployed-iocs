@@ -3369,7 +3369,6 @@
         "host": "ctl-rix-cam-02",
         "port": 30011,
         "dir": "ioc/rix/gigECam/R2.2.1",
-        "disable": true,
         "alias": "IM2K2 GIGE",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
@@ -3385,7 +3384,6 @@
         "host": "ctl-rix-cam-02",
         "port": 30055,
         "dir": "ioc/rix/gigECam/R2.2.1",
-        "disable": true,
         "alias": "IM3K2 GIGE",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
@@ -3401,7 +3399,6 @@
         "host": "ctl-rix-cam-02",
         "port": 30031,
         "dir": "ioc/rix/gigECam/R2.2.1",
-        "disable": true,
         "alias": "IM4K2 GIGE",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
@@ -3417,7 +3414,6 @@
         "host": "ctl-rix-cam-02",
         "port": 30099,
         "dir": "ioc/rix/evr/R1.1.0",
-        "disable": true,
         "alias": "RIX EVR 2",
         "history": [
             "ioc/rix/evr/R1.1.0"
@@ -18773,6 +18769,17 @@
         "name": "pyioc-xpp-lom-calc",
         "script": "/reg/neh/home/zlentz/python/pyIOC/servers/lodcm/st.cmd",
         "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ioc-xpp-ipimb",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/xpp/RohdeSchwarzHMP",
+        "alias": "DET - HMP Jungfrau 02 (ALC)",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-det-hmp-02",
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xpp/RohdeSchwarzHMP/build/iocBoot/ioc-xpp-det-hmp-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.1/bin/rhel7-x86_64/rshmp"
     },
     {
         "host": "ioc-xpp-ipimb",
