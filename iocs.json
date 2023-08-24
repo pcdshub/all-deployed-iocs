@@ -5145,7 +5145,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-tricam-01",
         "script": "/cds/group/pcds/epics/ioc/common/tricam/R1.0.0/children/build/iocBoot/ioc-tmo-tricam-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/tricam/R1.0.0/bin/rhel7-x86_64/gsd"
+        "binary": "/cds/group/pcds/epics/ioc/common/tricam/R1.0.0/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ctl-tmo-misc-01",
