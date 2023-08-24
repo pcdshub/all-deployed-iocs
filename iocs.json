@@ -5138,6 +5138,17 @@
     },
     {
         "host": "ctl-tmo-misc-01",
+        "port": 39104,
+        "dir": "/cds/group/pcds/epics/ioc/common/tricam/R1.0.0",
+        "alias": "ioc-tmo-tricam-01",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-tmo-tricam-01",
+        "script": "/cds/group/pcds/epics/ioc/common/tricam/R1.0.0/children/build/iocBoot/ioc-tmo-tricam-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/tricam/R1.0.0/bin/rhel7-x86_64/gsd"
+    },
+    {
+        "host": "ctl-tmo-misc-01",
         "port": 30305,
         "dir": "ioc/tmo/pvNotepad/R1.1.5",
         "alias": "User PVs",
