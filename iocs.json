@@ -4547,7 +4547,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-inficon-test",
         "script": "/reg/g/pcds/epics-dev/janezg/tmo/inficon/build/iocBoot/ioc-inficon-test/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-inficonMPH/current/bin/rhel7-x86_64/inficon"
+        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-inficonMPH/bin/rhel7-x86_64/inficon"
     },
     {
         "host": "ctl-tmo-cam-02",
@@ -4557,7 +4557,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-inficonMPH",
         "script": "/reg/g/pcds/epics-dev/janezg/tmo/inficon/build/iocBoot/ioc-inficonMPH/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-inficonMPH/current/bin/rhel7-x86_64/inficon"
+        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-inficonMPH/bin/rhel7-x86_64/inficon"
     },
     {
         "host": "ctl-tmo-cam-02",
