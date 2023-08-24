@@ -4523,6 +4523,7 @@
         "host": "ctl-tmo-cam-02",
         "port": 38400,
         "dir": "/reg/g/pcds/epics-dev/janezg/tmo/im540/current",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-im540-tst",
