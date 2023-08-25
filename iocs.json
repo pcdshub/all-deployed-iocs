@@ -7262,13 +7262,13 @@
     {
         "host": "ioc-cxi-mot2",
         "port": 31122,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/cxi/NewportXPS8",
+        "dir": "ioc/cxi/NewportXPS8/R2.1.0",
         "alias": "Newport XPS User 2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-usr-xps2",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/cxi/NewportXPS8/build/iocBoot/ioc-cxi-usr-xps2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.1.0/bin/rhel7-x86_64/xps8"
+        "script": "/reg/g/pcds/epics/ioc/cxi/NewportXPS8/R2.1.0/build/iocBoot/ioc-cxi-usr-xps2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
     },
     {
         "host": "ioc-cxi-mot2",
