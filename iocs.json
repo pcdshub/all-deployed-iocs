@@ -6055,7 +6055,7 @@
     {
         "host": "daq-rix-andor-01",
         "port": 30011,
-        "dir": "ioc/common/andorCam/R1.0.6",
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam",
         "alias": "VLS Andor Cam",
         "history": [
             "ioc/common/andorCam/R1.0.1",
@@ -6065,8 +6065,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-vls-andor",
-        "script": "/reg/g/pcds/epics/ioc/common/andorCam/R1.0.6/children/build/iocBoot/ioc-rix-vls-andor/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/andorCam/R1.0.6/bin/rhel7-x86_64/andorTpr"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam/children/build/iocBoot/ioc-rix-vls-andor/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam/bin/rhel7-x86_64/andorTpr"
     },
     {
         "host": "daq-rix-ccd-01",
@@ -16403,6 +16403,17 @@
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-06",
         "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R3.0.5/build/iocBoot/ioc-xcs-gige-06/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-xcs-gige01",
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/xcs/gigECam",
+        "alias": "CAM - Gige 12",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-gige-12",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-12/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
     },
     {
