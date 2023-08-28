@@ -4444,12 +4444,12 @@
     {
         "host": "ctl-tmo-cam-01",
         "port": 30002,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/tmo/tprStandalone",
+        "dir": "ioc/tmo/tprStandalone/R1.0.3",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-tpr1",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/tmo/tprStandalone/build/iocBoot/ioc-tmo-tpr1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.4/bin/rhel7-x86_64/tpr"
+        "script": "/reg/g/pcds/epics/ioc/tmo/tprStandalone/R1.0.3/build/iocBoot/ioc-tmo-tpr1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.5/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "ctl-tmo-cam-02",
@@ -5011,12 +5011,12 @@
     {
         "host": "ctl-tmo-misc-01",
         "port": 38000,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/tprStandalone",
+        "dir": "ioc/tmo/tprStandalone/R1.0.3",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-misc-tpr1",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/tprStandalone/children/build/iocBoot/ioc-tmo-misc-tpr1/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/tprStandalone/bin/rhel7-x86_64/tpr"
+        "script": "/reg/g/pcds/epics/ioc/tmo/tprStandalone/R1.0.3/build/iocBoot/ioc-tmo-misc-tpr1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.5/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "ctl-tmo-misc-01",
@@ -6001,13 +6001,13 @@
     {
         "host": "daq-rix-andor-01",
         "port": 30001,
-        "dir": "ioc/rix/tprStandalone/R1.0.2",
+        "dir": "ioc/rix/tprStandalone/R1.0.5",
         "alias": "RIX ANDOR TPR 1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-andor-tpr1",
-        "script": "/reg/g/pcds/epics/ioc/rix/tprStandalone/R1.0.2/build/iocBoot/ioc-rix-andor-tpr1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.4/bin/rhel7-x86_64/tpr"
+        "script": "/reg/g/pcds/epics/ioc/rix/tprStandalone/R1.0.5/build/iocBoot/ioc-rix-andor-tpr1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.5/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "daq-rix-andor-01",
