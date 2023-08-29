@@ -3369,6 +3369,7 @@
         "host": "ctl-rix-cam-02",
         "port": 30011,
         "dir": "ioc/rix/gigECam/R2.2.1",
+        "disable": true,
         "alias": "IM2K2 GIGE",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
@@ -3384,6 +3385,7 @@
         "host": "ctl-rix-cam-02",
         "port": 30055,
         "dir": "ioc/rix/gigECam/R2.2.1",
+        "disable": true,
         "alias": "IM3K2 GIGE",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
@@ -3399,6 +3401,7 @@
         "host": "ctl-rix-cam-02",
         "port": 30031,
         "dir": "ioc/rix/gigECam/R2.2.1",
+        "disable": true,
         "alias": "IM4K2 GIGE",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
@@ -3414,6 +3417,7 @@
         "host": "ctl-rix-cam-02",
         "port": 30099,
         "dir": "ioc/rix/evr/R1.1.0",
+        "disable": true,
         "alias": "RIX EVR 2",
         "history": [
             "ioc/rix/evr/R1.1.0"
@@ -3428,6 +3432,7 @@
         "host": "ctl-rix-cam-02",
         "port": 30001,
         "dir": "ioc/rix/tprStandalone/R1.0.0",
+        "disable": true,
         "alias": "RIX TPR 2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
@@ -3439,6 +3444,7 @@
         "host": "ctl-rix-cam-02",
         "port": 30066,
         "dir": "ioc/rix/gigECam/R2.2.1",
+        "disable": true,
         "alias": "TM2K2 GIGE",
         "history": [
             "ioc/rix/gigECam/R2.0.1",
