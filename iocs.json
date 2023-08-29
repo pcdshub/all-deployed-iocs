@@ -4037,7 +4037,6 @@
         "host": "ctl-rix-qrix-cam-01",
         "port": 30001,
         "dir": "ioc/rix/tprStandalone/R1.0.0",
-        "disable": true,
         "alias": "QRIX TPR 1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
