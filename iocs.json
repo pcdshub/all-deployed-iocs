@@ -1125,16 +1125,6 @@
     },
     {
         "host": "ctl-las-crix-srv06",
-        "port": 30002,
-        "dir": "ioc/las/dso4000/R1.0.0",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-dso4000-01",
-        "script": "/reg/g/pcds/epics/ioc/las/dso4000/R1.0.0/build/iocBoot/ioc-las-dso4000-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/dso4000/R1.0.1/bin/rhel7-x86_64/dso4000"
-    },
-    {
-        "host": "ctl-las-crix-srv06",
         "port": 30011,
         "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/hrm/thorlabs-ell/",
         "disable": true,
@@ -2235,16 +2225,6 @@
     },
     {
         "host": "ctl-las-lhn-03",
-        "port": 30005,
-        "dir": "/cds/home/t/tjohnson/trunk/las/qmini",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-opcpa-spec-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/qmini/build/iocBoot/ioc-las-opcpa-spec-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/qmini/R1.0.2/bin/rhel7-x86_64/qmini"
-    },
-    {
-        "host": "ctl-las-lhn-03",
         "port": 30004,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/qmini",
         "disable": true,
@@ -2306,13 +2286,23 @@
     },
     {
         "host": "ctl-las-lhn-04",
+        "port": 30012,
+        "dir": "ioc/las/dso4000/R1.0.0",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-dso4000-01",
+        "script": "/reg/g/pcds/epics/ioc/las/dso4000/R1.0.0/build/iocBoot/ioc-las-dso4000-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/dso4000/R1.0.1/bin/rhel7-x86_64/dso4000"
+    },
+    {
+        "host": "ctl-las-lhn-04",
         "port": 30006,
-        "dir": "/cds/home/t/tjohnson/trunk/workarea/fiberOven/fiberOven-git",
+        "dir": "ioc/las/fiberOven/R3.2.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-fiberOven",
-        "script": "/cds/home/t/tjohnson/trunk/workarea/fiberOven/fiberOven-git/iocBoot/ioc-las-fiberOven/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/workarea/fiberOven/fiberOven-git/bin/rhel7-x86_64/fiberOven"
+        "script": "/reg/g/pcds/epics/ioc/las/fiberOven/R3.2.0/iocBoot/ioc-las-fiberOven/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/las/fiberOven/R3.2.0/bin/rhel7-x86_64/fiberOven"
     },
     {
         "host": "ctl-las-lhn-04",
@@ -2535,6 +2525,16 @@
         "name": "ioc-las-lhn-slice-01",
         "script": "/reg/g/pcds/epics/ioc/las/slice-dhv/R1.0.1/build/iocBoot/ioc-las-lhn-slice-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/slice-dhv/R1.0.1/bin/rhel7-x86_64/slice"
+    },
+    {
+        "host": "ctl-las-lhn-sp01",
+        "port": 30008,
+        "dir": "/cds/home/t/tjohnson/trunk/las/qmini",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-opcpa-spec-01",
+        "script": "/cds/home/t/tjohnson/trunk/las/qmini/build/iocBoot/ioc-las-opcpa-spec-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/qmini/R1.0.2/bin/rhel7-x86_64/qmini"
     },
     {
         "host": "ctl-las-lhn-sp01",
