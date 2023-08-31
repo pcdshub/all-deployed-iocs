@@ -4075,6 +4075,50 @@
     },
     {
         "host": "ctl-rix-qrix-cam-02",
+        "port": 30003,
+        "dir": "/reg/g/pcds/epics-dev/nagar123/ioc/rix/gigECam",
+        "alias": "QRIX GIGE 03",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-qrix-gige-03",
+        "script": "/reg/g/pcds/epics-dev/nagar123/ioc/rix/gigECam/build/iocBoot/ioc-qrix-gige-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gigeTpr"
+    },
+    {
+        "host": "ctl-rix-qrix-cam-02",
+        "port": 30004,
+        "dir": "/reg/g/pcds/epics-dev/nagar123/ioc/rix/gigECam",
+        "alias": "QRIX GIGE 04",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-qrix-gige-04",
+        "script": "/reg/g/pcds/epics-dev/nagar123/ioc/rix/gigECam/build/iocBoot/ioc-qrix-gige-04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gigeTpr"
+    },
+    {
+        "host": "ctl-rix-qrix-cam-02",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/gigECam",
+        "alias": "QRIXS GIGE 05",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-qrix-gige-05",
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/gigECam/build/iocBoot/ioc-qrix-gige-05/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gigeTpr"
+    },
+    {
+        "host": "ctl-rix-qrix-cam-02",
+        "port": 30005,
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/gigECam",
+        "alias": "QRIXS GIGE 06",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-qrix-gige-06",
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/gigECam/build/iocBoot/ioc-qrix-gige-06/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gigeTpr"
+    },
+    {
+        "host": "ctl-rix-qrix-cam-02",
         "port": 30001,
         "dir": "ioc/rix/tprStandalone/R1.0.6",
         "alias": "QRIX TPR 2",
