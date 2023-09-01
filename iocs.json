@@ -740,7 +740,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-inj-ell-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/inj/thorlabs-ell/build/iocBoot/ioc-lm2k2-inj-ell-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-crix-srv01",
