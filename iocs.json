@@ -761,7 +761,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-inj-spec-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/inj/qmini/build/iocBoot/ioc-lm2k2-inj-spec-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/qmini/R0.2.1/bin/rhel7-x86_64/qmini"
+        "binary": "/reg/g/pcds/epics/ioc/common/qmini/R1.0.3/bin/rhel7-x86_64/qmini"
     },
     {
         "host": "ctl-las-crix-srv01",
