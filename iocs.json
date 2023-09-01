@@ -736,7 +736,6 @@
         "host": "ctl-las-crix-srv01",
         "port": 30031,
         "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/inj/thorlabs-ell/",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-inj-ell-01",
@@ -5168,7 +5167,7 @@
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-tricam-01",
         "script": "/cds/group/pcds/epics/ioc/common/tricam/R1.0.0/children/build/iocBoot/ioc-tmo-tricam-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/tricam/R1.0.0/bin/rhel7-x86_64/gsd"
+        "binary": "/reg/g/pcds/epics/ioc/common/tricam/R1.0.0/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ctl-tmo-misc-01",
