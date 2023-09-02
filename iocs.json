@@ -8239,7 +8239,7 @@
     {
         "host": "ioc-cxi-sc1",
         "port": 34500,
-        "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/pmc100",
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/arcus/pmc100",
         "alias": "Piezo SC1 PP-30 Motors",
         "history": [
             "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/pmc100"
@@ -8247,8 +8247,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc1-PMC100",
-        "script": "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/pmc100/build/iocBoot/ioc-cxi-sc1-PMC100/st.cmd",
-        "binary": "/cds/home/d/dhzhang/Epics/arcus_test/current/bin/linux-x86/arcus"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/arcus/pmc100/build/iocBoot/ioc-cxi-sc1-PMC100/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/kaushikm/arcus/working_arcus_test/bin/rhel7-x86_64/arcus"
     },
     {
         "host": "ioc-cxi-sc1",
