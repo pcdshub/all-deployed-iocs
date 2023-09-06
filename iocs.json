@@ -8070,22 +8070,6 @@
     },
     {
         "host": "ioc-cxi-rec04",
-        "port": 30102,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam",
-        "disable": true,
-        "alias": "Old? \"DT\": CAM - SC3 Inline Questar Opal4000m",
-        "history": [
-            "/reg/g/pcds/epics-dev/aegger/edtCam/current",
-            "ioc/cxi/edtCam/R1.2.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-sc3-inline",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ioc-cxi-rec04",
         "port": 34503,
         "dir": "ioc/cxi/ims/R6.3.0",
         "alias": "IMS DSB User Dumb Motors",
