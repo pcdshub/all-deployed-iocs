@@ -18992,8 +18992,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-ensemble-02",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/aerotech/children/build/iocBoot/ioc-xpp-ensemble-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/aerotech/R1.2.0/bin/rhel7-x86_64/aerotech"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/aerotech/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xpp-misc01",
