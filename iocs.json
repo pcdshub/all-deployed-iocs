@@ -2764,8 +2764,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-com-gige-nf-04",
-        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/gigECam/build/iocBoot/ioc-lm2k2-com-gige-nf-04/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/mcbrowne/ioc/common/gigECam/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-las-lln-01",
