@@ -6435,13 +6435,13 @@
     {
         "host": "ioc-cxi-cam4",
         "port": 39100,
-        "dir": "ioc/cxi/gigECam/R1.0.1",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "\"Camera\": Laser Enclosure Near Field Tutti Frutti",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-las-gige-01",
-        "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R1.0.1/build/iocBoot/ioc-cxi-las-gige-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam/build/iocBoot/ioc-cxi-las-gige-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-cxi-cam4",
