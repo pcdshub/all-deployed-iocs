@@ -850,7 +850,6 @@
         "host": "ctl-las-crix-srv02",
         "port": 30110,
         "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/com/thorlabs-ell/",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-com-ell-01",
@@ -861,7 +860,6 @@
         "host": "ctl-las-crix-srv02",
         "port": 30111,
         "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/com/thorlabs-ell/",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-com-ell-02",
@@ -5990,13 +5988,13 @@
     {
         "host": "daq-mec-pgp02",
         "port": 30001,
-        "dir": "ioc/mec/epix/R1.0.4",
+        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/mec/epix/current",
         "alias": "Epix Quad",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-epix10ka2m",
-        "script": "/reg/g/pcds/epics/ioc/mec/epix/R1.0.4/build/iocBoot/ioc-mec-epix10ka2m/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.4.10/bin/rhel7-x86_64/epixMonIoc"
+        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/mec/epix/current/build/iocBoot/ioc-mec-epix10ka2m/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.5.0/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-mfx-pgp01",
