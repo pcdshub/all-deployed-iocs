@@ -4581,13 +4581,12 @@
     },
     {
         "host": "ctl-tmo-cam-02",
-        "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/armenta1/tmo/gigECam",
-        "alias": "ioc-sp1k4-gige-perm",
+        "port": 30215,
+        "dir": "ioc/tmo/gigEcam/R5.0.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-sp1k4-gige-perm",
-        "script": "/reg/g/pcds/epics-dev/armenta1/tmo/gigECam/build/iocBoot/ioc-sp1k4-gige-perm/st.cmd",
+        "name": "ioc-sp1k4-gige",
+        "script": "/reg/g/pcds/epics/ioc/tmo/gigEcam/R5.0.0/build/iocBoot/ioc-sp1k4-gige/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gigeTpr"
     },
     {
@@ -4845,16 +4844,6 @@
         "name": "ioc-cam-tmo-lamp-02",
         "script": "/reg/g/pcds/epics/ioc/tmo/gigEcam/R4.3.0/build/iocBoot/ioc-cam-tmo-lamp-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.3.0/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-tmo-misc-01",
-        "port": 30215,
-        "dir": "ioc/tmo/gigEcam/R5.0.0",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-sp1k4-gige",
-        "script": "/reg/g/pcds/epics/ioc/tmo/gigEcam/R5.0.0/build/iocBoot/ioc-sp1k4-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-tmo-misc-01",
@@ -5884,45 +5873,45 @@
     {
         "host": "daq-mec-cam01",
         "port": 30010,
-        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/mec/epix/current",
+        "dir": "ioc/mec/epix/R1.5.0",
         "alias": "Epix Det 0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-epix-00",
-        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/mec/epix/current/build/iocBoot/ioc-mec-epix-00/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/mec/epix/R1.5.0/build/iocBoot/ioc-mec-epix-00/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.5.0/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-mec-cam01",
         "port": 30011,
-        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/mec/epix/current",
+        "dir": "ioc/mec/epix/R1.5.0",
         "alias": "Epix Det 1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-epix-01",
-        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/mec/epix/current/build/iocBoot/ioc-mec-epix-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/mec/epix/R1.5.0/build/iocBoot/ioc-mec-epix-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.5.0/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-mec-cam01",
         "port": 30012,
-        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/mec/epix/current",
+        "dir": "ioc/mec/epix/R1.5.0",
         "alias": "Epix Det 2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-epix-02",
-        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/mec/epix/current/build/iocBoot/ioc-mec-epix-02/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/mec/epix/R1.5.0/build/iocBoot/ioc-mec-epix-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.5.0/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-mec-cam01",
         "port": 30013,
-        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/mec/epix/current",
+        "dir": "ioc/mec/epix/R1.5.0",
         "alias": "Epix Det 3",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-epix-03",
-        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/mec/epix/current/build/iocBoot/ioc-mec-epix-03/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/mec/epix/R1.5.0/build/iocBoot/ioc-mec-epix-03/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.5.0/bin/rhel7-x86_64/epixMonIoc"
     },
     {
@@ -5986,12 +5975,12 @@
     {
         "host": "daq-mec-pgp02",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/mec/epix/current",
+        "dir": "ioc/mec/epix/R1.5.0",
         "alias": "Epix Quad",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-epix10ka2m",
-        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/mec/epix/current/build/iocBoot/ioc-mec-epix10ka2m/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/mec/epix/R1.5.0/build/iocBoot/ioc-mec-epix10ka2m/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.5.0/bin/rhel7-x86_64/epixMonIoc"
     },
     {
