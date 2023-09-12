@@ -1409,7 +1409,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-inj-ek9000-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/inj/ek9000/build/iocBoot/ioc-lm1k4-inj-ek9000-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.3.1/bin/rhel7-x86_64/ek9000IOC"
+        "binary": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.1/bin/rhel7-x86_64/ek9000IOC"
     },
     {
         "host": "ctl-las-ip1-srv01",
@@ -1519,7 +1519,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-com-ek9000-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/com/ek9000/build/iocBoot/ioc-lm1k4-com-ek9000-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.3.1/bin/rhel7-x86_64/ek9000IOC"
+        "binary": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.1/bin/rhel7-x86_64/ek9000IOC"
     },
     {
         "host": "ctl-las-ip1-srv02",
@@ -1630,7 +1630,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-hrm-ek9000-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/hrm/ek9000/build/iocBoot/ioc-lm1k4-hrm-ek9000-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/ek9000/R1.3.1/bin/rhel7-x86_64/ek9000IOC"
+        "binary": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.1/bin/rhel7-x86_64/ek9000IOC"
     },
     {
         "host": "ctl-las-ip1-srv03",
@@ -1710,7 +1710,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-atm-ek9000-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/atm/ek9000/build/iocBoot/ioc-lm1k4-atm-ek9000-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.3.1/bin/rhel7-x86_64/ek9000IOC"
+        "binary": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.1/bin/rhel7-x86_64/ek9000IOC"
     },
     {
         "host": "ctl-las-ip1-srv04",
@@ -1866,7 +1866,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-ejx-ek9000-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/ek9000/build/iocBoot/ioc-lm1k4-ejx-ek9000-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.3.2/bin/rhel7-x86_64/ek9000IOC"
+        "binary": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.1/bin/rhel7-x86_64/ek9000IOC"
     },
     {
         "host": "ctl-las-ip1-srv05",
