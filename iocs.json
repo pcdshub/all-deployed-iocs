@@ -5584,11 +5584,11 @@
     {
         "host": "ctl-txi-cam-01",
         "port": 39101,
-        "dir": "/reg/g/pcds/epics-dev/jozamudi/txi/gigECam/build/iocBoot/ioc-im2l1-gige",
+        "dir": "ioc/txi/gigECam/R1.0.0/build/iocBoot/ioc-im2l1-gige",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-im2l1-gigE",
-        "script": "/reg/g/pcds/epics-dev/jozamudi/txi/gigECam/build/iocBoot/ioc-im2l1-gige/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/txi/gigECam/R1.0.0/build/iocBoot/ioc-im2l1-gige/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gigeTpr"
     },
     {
