@@ -800,8 +800,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-mcs2-01",
-        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/smaract/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/smaract/build/iocBoot/ioc-lm2k2-mcs2-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.13/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-crix-srv01",
@@ -818,7 +818,6 @@
         "host": "ctl-las-crix-srv01",
         "port": 30024,
         "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/Smaract/",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-mcs2-03",
@@ -892,7 +891,6 @@
         "host": "ctl-las-crix-srv02",
         "port": 30050,
         "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/com/qmini/",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-com-spec-01",
