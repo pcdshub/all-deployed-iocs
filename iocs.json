@@ -753,6 +753,16 @@
     },
     {
         "host": "ctl-las-crix-srv01",
+        "port": 30206,
+        "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/com/gigECam/",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm2k2-com-gige-nf-02",
+        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/gigECam/build/iocBoot/ioc-lm2k2-com-gige-nf-02/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-crix-srv01",
         "port": 30104,
         "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/com/gigECam/",
         "base_version": "3.15",
@@ -926,6 +936,16 @@
         "name": "ioc-lm2k2-com-ell-04",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/thorlabs-ell/st.cmd",
         "binary": null
+    },
+    {
+        "host": "ctl-las-crix-srv02",
+        "port": 30201,
+        "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/com/gigECam",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm2k2-com-gige-ff-03",
+        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/gigECam/build/iocBoot/ioc-lm2k2-com-gige-ff-03/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-crix-srv02",
@@ -2755,26 +2775,6 @@
     },
     {
         "host": "ctl-las-lln-01",
-        "port": 30100,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/com/gigECam/",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm2k2-com-gige-nf-02",
-        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/gigECam/build/iocBoot/ioc-lm2k2-com-gige-nf-02/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-lln-01",
-        "port": 30114,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/com/gigECam",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm2k2-com-gige-nf-04",
-        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/gigECam/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ctl-las-lln-01",
         "port": 43501,
         "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
         "base_version": "3.15",
@@ -2858,6 +2858,7 @@
         "host": "ctl-las-lln-02",
         "port": 30011,
         "dir": "/reg/g/pcds/epics-dev/mods/lm1k2/com/thorlabs-ell",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-com-ell-01",
@@ -11100,7 +11101,7 @@
     {
         "host": "ioc-lfe-gasdet-daq",
         "port": 39873,
-        "dir": "ioc/fee/GasDetDAQ/R4.0.22-NOTS",
+        "dir": "ioc/fee/GasDetDAQ/R4.0.22",
         "alias": "GasDetDAQ",
         "history": [
             "ioc/fee/GasDetDAQ/R4.0.22",
@@ -11110,8 +11111,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-lfe-gasdet-daq",
-        "script": "/reg/g/pcds/epics/ioc/fee/GasDetDAQ/R4.0.22-NOTS/children/build/iocBoot/ioc-lfe-gasdet-daq/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/fee/GasDetDAQ/R4.0.22-NOTS/bin/linux-x86/GasDetDAQ"
+        "script": "/reg/g/pcds/epics/ioc/fee/GasDetDAQ/R4.0.22/children/build/iocBoot/ioc-lfe-gasdet-daq/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/fee/GasDetDAQ/R4.0.22/bin/linux-x86/GasDetDAQ"
     },
     {
         "host": "ioc-lfe-kmono-daq",
