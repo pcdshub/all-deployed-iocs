@@ -11616,7 +11616,6 @@
         "host": "ioc-mec-ipimb01",
         "port": 32504,
         "dir": "ioc/mec/gigECam/R1.1.1",
-        "disable": true,
         "alias": "Gige 4 Target Chamber",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
