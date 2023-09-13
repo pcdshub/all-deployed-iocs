@@ -2721,7 +2721,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-com-gige-ff-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/gigECam/build/iocBoot/ioc-lm2k2-com-gige-ff-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/mcbrowne/ioc/common/gigECam/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lln-01",
@@ -2731,7 +2731,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-com-gige-ff-02",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/gigECam/build/iocBoot/ioc-lm2k2-com-gige-ff-02/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/mcbrowne/ioc/common/gigECam/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lln-01",
@@ -2741,7 +2741,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-com-gige-nf-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/gigECam/build/iocBoot/ioc-lm2k2-com-gige-nf-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/mcbrowne/ioc/common/gigECam/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lln-01",
@@ -2751,7 +2751,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-com-gige-nf-02",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/gigECam/build/iocBoot/ioc-lm2k2-com-gige-nf-02/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/mcbrowne/ioc/common/gigECam/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lln-01",
@@ -2761,7 +2761,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-com-gige-nf-03",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/gigECam/build/iocBoot/ioc-lm2k2-com-gige-nf-03/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/mcbrowne/ioc/common/gigECam/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lln-01",
