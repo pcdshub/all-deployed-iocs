@@ -8223,6 +8223,7 @@
         "host": "ioc-cxi-sc1",
         "port": 34505,
         "dir": "ioc/cxi/ims/R6.3.1",
+        "disable": true,
         "alias": "IMS SC1 User Dumb Motors",
         "history": [
             "ioc/cxi/ims/R2.0.0",
