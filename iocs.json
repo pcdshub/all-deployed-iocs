@@ -8201,7 +8201,7 @@
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc1-PMC100",
         "script": "/reg/g/pcds/epics-dev/kaushikm/arcus/pmc100/build/iocBoot/ioc-cxi-sc1-PMC100/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/kaushikm/arcus/working_arcus_test/bin/rhel7-x86_64/arcus"
+        "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/arcus/bin/rhel7-x86_64/arcus"
     },
     {
         "host": "ioc-cxi-sc1",
