@@ -850,8 +850,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-com-ell-01",
-        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/thorlabs-ell/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/thorlabs-ell/build/iocBoot/ioc-lm2k2-com-ell-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-crix-srv02",
@@ -860,8 +860,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-com-ell-02",
-        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/thorlabs-ell/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/thorlabs-ell/build/iocBoot/ioc-lm2k2-com-ell-02/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-crix-srv02",
