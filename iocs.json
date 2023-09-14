@@ -13638,6 +13638,17 @@
     },
     {
         "host": "ioc-mfx-cam02",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/mfx/RohdeSchwarzHMP",
+        "alias": "DET - HMP Power Supply",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-det-hmp-03",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/mfx/RohdeSchwarzHMP/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ioc-mfx-cam02",
         "port": 32005,
         "dir": "ioc/mfx/ims/R2.1.0",
         "alias": "DET - Stand Motors",
