@@ -5582,8 +5582,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-hxr-motion",
-        "script": "/reg/g/pcds/epics-dev/jozamudi/txi/lcls-plc-txi-hxr-motion/iocBoot/ioc-txi-hxr-motion/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics-dev/jozamudi/txi/lcls-plc-txi-hxr-motion/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-txi-misc-01",
@@ -8200,8 +8200,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc1-PMC100",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/arcus/pmc100/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/kaushikm/arcus/pmc100/build/iocBoot/ioc-cxi-sc1-PMC100/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/arcus/bin/rhel7-x86_64/arcus"
     },
     {
         "host": "ioc-cxi-sc1",
