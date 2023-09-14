@@ -8196,6 +8196,7 @@
         "history": [
             "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/pmc100"
         ],
+        "cmd": "./st.cmd",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc1-PMC100",
