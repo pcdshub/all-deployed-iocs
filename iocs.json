@@ -6413,21 +6413,6 @@
         "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/pciAcromag/bin/rhel7-x86_64/pciAcromag"
     },
     {
-        "host": "ioc-cxi-cam1",
-        "port": 30001,
-        "dir": "ioc/cxi/unixCam/R3.4.25",
-        "disable": true,
-        "alias": "zz- DT- Camera1 KB1",
-        "history": [
-            "ioc/cxi/unixCam/R3.4.25"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-cam1",
-        "script": "/reg/g/pcds/epics/ioc/cxi/unixCam/R3.4.25/build/iocBoot/ioc-cxi-cam1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/unixCam/R3.4.25/bin/linux-x86_64/unixCam"
-    },
-    {
         "host": "ioc-cxi-cam2",
         "port": 32106,
         "dir": "ioc/cxi/gigECam/R1.0.1",
@@ -7721,22 +7706,6 @@
         "name": "ioc-cxi-dg1-gige",
         "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R1.0.1/build/iocBoot/ioc-cxi-dg1-gige/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ioc-cxi-rec01",
-        "port": 30040,
-        "dir": "ioc/cxi/edtCam/R1.3.0",
-        "disable": true,
-        "alias": "zz- DT? -CAM - DG1 PIM Pulnix",
-        "history": [
-            "ioc/cxi/edtCam/R1.1.0",
-            "ioc/cxi/edtCam/R1.0.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-dg1-p6740",
-        "script": "/reg/g/pcds/epics/ioc/cxi/edtCam/R1.3.0/build/iocBoot/ioc-cxi-dg1-p6740/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.0/bin/linux-x86_64/edt"
     },
     {
         "host": "ioc-cxi-rec01",
@@ -10683,7 +10652,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-cxi-bhc-01",
         "script": "/reg/g/pcds/epics-dev/nagar123/ek9000/build/iocBoot/ioc-las-cxi-bhc-01/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/ek9000/bin/rhel7-x86_64/ek9000IOC"
+        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.3.2/bin/rhel7-x86_64/ek9000IOC"
     },
     {
         "host": "ioc-las-mfx-srv45",
