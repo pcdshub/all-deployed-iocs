@@ -1062,13 +1062,13 @@
     {
         "host": "ctl-las-crix-srv04",
         "port": 30001,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/las/tprStandalone",
+        "dir": "/reg/g/pcds/epics-dev/nagar123/ioc/las/tprStandalone",
         "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-crix-las-tpr4",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/las/tprStandalone/build/iocBoot/ioc-crix-las-tpr4/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.0/bin/rhel7-x86_64/tpr"
+        "script": "/reg/g/pcds/epics-dev/nagar123/ioc/las/tprStandalone/build/iocBoot/ioc-crix-las-tpr4/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.5/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "ctl-las-crix-srv04",
