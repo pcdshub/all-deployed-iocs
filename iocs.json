@@ -1194,13 +1194,12 @@
     {
         "host": "ctl-las-crix-srv06",
         "port": 30001,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/las/tprStandalone",
-        "disable": true,
+        "dir": "/reg/g/pcds/epics-dev/nagar123/ioc/las/tprStandalone",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-crix-las-tpr6",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/las/tprStandalone/build/iocBoot/ioc-crix-las-tpr6/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.0/bin/rhel7-x86_64/tpr"
+        "script": "/reg/g/pcds/epics-dev/nagar123/ioc/las/tprStandalone/build/iocBoot/ioc-crix-las-tpr6/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.5/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "ctl-las-crix-srv06",
@@ -1217,6 +1216,7 @@
         "host": "ctl-las-crix-srv07",
         "port": 30001,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/las/tprStandalone",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-crix-las-tpr7",
@@ -1227,6 +1227,7 @@
         "host": "ctl-las-crix-srv07",
         "port": 30100,
         "dir": "/cds/home/t/tjohnson/trunk/las/gigECam",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-gige-sxr-01",
@@ -1237,6 +1238,7 @@
         "host": "ctl-las-crix-srv07",
         "port": 30101,
         "dir": "/cds/home/t/tjohnson/trunk/las/gigECam",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-gige-tst-01",
