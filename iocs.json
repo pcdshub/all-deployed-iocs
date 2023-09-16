@@ -18031,7 +18031,6 @@
         "host": "ioc-xcs-user1",
         "port": 30582,
         "dir": "ioc/xcs/ims/R6.0.4",
-        "disable": true,
         "alias": "USR - Patch Smart Motion",
         "history": [
             "ioc/xcs/ims/R6.0.2"
