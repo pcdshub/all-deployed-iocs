@@ -5852,6 +5852,7 @@
         "host": "daq-det-standalone",
         "port": 30070,
         "dir": "ioc/det/RohdeSchwarzHMP/R1.2.3",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-mbl02-hmp05",
