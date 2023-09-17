@@ -17198,6 +17198,7 @@
         "host": "ioc-xcs-rec01",
         "port": 39150,
         "dir": "/reg/g/pcds/epics-dev/adamwh/deltaTauMotion/current",
+        "disable": true,
         "alias": "MON - CCM Alio",
         "history": [
             "/reg/g/pcds/epics-dev/snelson/xcs/ccm/deltaTauMotion/current",
@@ -18706,7 +18707,7 @@
         "host": "ioc-xpp-gon",
         "port": 30012,
         "dir": "ioc/xpp/ccm/piMotion/R1.0.1",
-        "alias": "MON CCM PI Dev",
+        "alias": "MON - CCM PI Dev",
         "history": [
             "/reg/g/pcds/package/epics/3.14-dev/ioc/xpp/ccm/piMotion/current"
         ],
