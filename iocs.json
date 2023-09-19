@@ -5590,11 +5590,11 @@
     {
         "host": "ctl-txi-misc-01",
         "port": 39205,
-        "dir": "/reg/g/pcds/epics-dev/jozamudi/txi/lcls-plc-txi-hxr-motion",
+        "dir": "ioc/txi/lcls-plc-txi-hxr-motion/v1.0.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-hxr-motion",
-        "script": "/reg/g/pcds/epics-dev/jozamudi/txi/lcls-plc-txi-hxr-motion/iocBoot/ioc-txi-hxr-motion/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/txi/lcls-plc-txi-hxr-motion/v1.0.0/iocBoot/ioc-txi-hxr-motion/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
