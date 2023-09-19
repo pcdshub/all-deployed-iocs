@@ -7913,14 +7913,25 @@
     {
         "host": "ioc-cxi-rec04",
         "port": 30003,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/BK-Precision/build/iocBoot/ioc-cxi-BK",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/bk-1697",
+        "disable": true,
         "delay": 5,
         "cmd": "./st.cmd",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-BK1",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/BK-Precision/build/iocBoot/ioc-cxi-BK/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/BK-Precision/R1.1.1/bin/rhel7-x86_64/BK-Precision"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/bk-1697/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ioc-cxi-rec04",
+        "port": 30004,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/bk-1697",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-bk-01",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/bk-1697/children/build/iocBoot/ioc-cxi-bk-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/divya/ioc/cxi/bk-1697/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ioc-cxi-rec04",
