@@ -2017,6 +2017,9 @@
         "host": "ctl-las-lhn-01",
         "port": 30302,
         "dir": "/reg/g/pcds/epics-dev/klauer/lcls-plc-las-bts",
+        "history": [
+            "/reg/g/pcds/epics-dev/klauer/lcls-plc-las-bts"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-bts",
@@ -2338,6 +2341,16 @@
         "name": "ioc-lhn-bay3-nf-02",
         "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.3.0/build/iocBoot/ioc-lhn-bay3-nf-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-lhn-04",
+        "port": 30190,
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/pvNotepad",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-cast-ntp",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/pvNotepad/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-las-lhn-04",
@@ -3261,6 +3274,16 @@
         "name": "ioc-lfe-optics",
         "script": "/reg/g/pcds/epics/ioc/lfe/lcls-plc-lfe-optics/v2.1.0/iocBoot/ioc-lfe-optics/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ctl-lfe-mot-01",
+        "port": 30001,
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/pvNotepad",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/lfe/iocmanager.cfg",
+        "name": "ioc-mcb-pvtst",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/pvNotepad/children/build/iocBoot/ioc-mcb-pvtst/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/pvNotepad/bin/rhel7-x86_64/pvNotepad"
     },
     {
         "host": "ctl-lfe-mot-01",
