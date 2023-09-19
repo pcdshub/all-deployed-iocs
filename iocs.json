@@ -7913,12 +7913,12 @@
     {
         "host": "ioc-cxi-rec04",
         "port": 30003,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/BK-Precision",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/BK-Precision",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-BK1",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/BK-Precision/children/build/iocBoot/ioc-cxi-BK1/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/BK-Precision/bin/rhel7-x86_64/BK-Precision"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/BK-Precision/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-cxi-rec04",
