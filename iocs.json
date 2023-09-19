@@ -16268,7 +16268,7 @@
         "config_file": "/reg/g/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-gige-01",
         "script": "/reg/g/pcds/epics-dev/agilardi/iocs/ued/gigECam/build/iocBoot/ioc-ued-gige-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-ued-ccd01",
