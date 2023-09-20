@@ -534,9 +534,10 @@
     {
         "host": "ctl-kfe-mot-01",
         "port": 34242,
-        "dir": "ioc/kfe/lcls-plc-kfe-motion/v4.0.0",
+        "dir": "ioc/kfe/lcls-plc-kfe-motion/v4.0.1",
         "alias": "KFE CC Motion",
         "history": [
+            "ioc/kfe/lcls-plc-kfe-motion/v4.0.1",
             "ioc/kfe/lcls-plc-kfe-motion/v4.0.0",
             "ioc/kfe/lcls-plc-kfe-motion/v3.0.1",
             "/reg/g/pcds/epics-dev/zlentz/lcls-plc-kfe-motion"
@@ -544,7 +545,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-motion",
-        "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-motion/v4.0.0/iocBoot/ioc-kfe-motion/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-motion/v4.0.1/iocBoot/ioc-kfe-motion/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
