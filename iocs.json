@@ -5762,7 +5762,7 @@
     {
         "host": "daq-det-jungfrau",
         "port": 30004,
-        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/epix/current",
+        "dir": "ioc/det/epix/R1.5.1",
         "history": [
             "ioc/det/epix/R1.0.2",
             "ioc/det/epix/R1.0.0",
@@ -5772,7 +5772,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-epix2",
-        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/epix/current/build/iocBoot/ioc-det-epix2/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/det/epix/R1.5.1/build/iocBoot/ioc-det-epix2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.5.0/bin/rhel7-x86_64/epixMonIoc"
     },
     {
@@ -5793,7 +5793,7 @@
     {
         "host": "daq-det-pgp01",
         "port": 30100,
-        "dir": "ioc/det/epix/R1.5.0",
+        "dir": "ioc/det/epix/R1.5.1",
         "history": [
             "ioc/det/epix/R1.0.2",
             "/reg/neh/home/ddamiani/Workarea/epics/ioc/common/epix/current",
@@ -5802,7 +5802,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-epix10ka2m",
-        "script": "/reg/g/pcds/epics/ioc/det/epix/R1.5.0/build/iocBoot/ioc-det-epix10ka2m/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/det/epix/R1.5.1/build/iocBoot/ioc-det-epix10ka2m/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.5.0/bin/rhel7-x86_64/epixMonIoc"
     },
     {
