@@ -7936,6 +7936,7 @@
         "host": "ioc-cxi-rec04",
         "port": 30004,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/bk-1697",
+        "disable": true,
         "delay": 1,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
