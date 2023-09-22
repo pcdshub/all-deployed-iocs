@@ -16356,6 +16356,24 @@
     },
     {
         "host": "ioc-xcs-gige01",
+        "port": 32502,
+        "dir": "ioc/xcs/gigECam/R3.0.5",
+        "alias": "CAM - Gige 02",
+        "history": [
+            "/reg/neh/home/snelson/work/xcs/gigECam/current",
+            "ioc/xcs/gigECam/R1.1.0",
+            "ioc/xcs/gigECam/R0.2.0",
+            "ioc/xcs/gigECam/R0.3.0",
+            "ioc/xcs/gigECam/R0.1.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-gige-02",
+        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R3.0.5/build/iocBoot/ioc-xcs-gige-02/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-xcs-gige01",
         "port": 32503,
         "dir": "ioc/xcs/gigECam/R3.0.5",
         "alias": "CAM - Gige 03",
@@ -16771,24 +16789,6 @@
         "name": "ioc-xcs-dg3-slit02-ims",
         "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-dg3-slit02-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xcs-mot2",
-        "port": 32502,
-        "dir": "ioc/xcs/gigECam/R3.0.5",
-        "alias": "CAM - Gige 02",
-        "history": [
-            "/reg/neh/home/snelson/work/xcs/gigECam/current",
-            "ioc/xcs/gigECam/R1.1.0",
-            "ioc/xcs/gigECam/R0.2.0",
-            "ioc/xcs/gigECam/R0.3.0",
-            "ioc/xcs/gigECam/R0.1.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-gige-02",
-        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R3.0.5/build/iocBoot/ioc-xcs-gige-02/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xcs-mot2",
