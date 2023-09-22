@@ -960,11 +960,11 @@
     {
         "host": "ctl-las-crix-srv03",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/nagar123/ioc/las/tprStandalone",
+        "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/tprStandalone",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-crix-las-tpr3",
-        "script": "/reg/g/pcds/epics-dev/nagar123/ioc/las/tprStandalone/build/iocBoot/ioc-crix-las-tpr3/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/tprStandalone/build/iocBoot/ioc-crix-las-tpr3/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.5/bin/rhel7-x86_64/tpr"
     },
     {
@@ -990,11 +990,11 @@
     {
         "host": "ctl-las-crix-srv04",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/nagar123/ioc/las/tprStandalone",
+        "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/tprStandalone",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-crix-las-tpr4",
-        "script": "/reg/g/pcds/epics-dev/nagar123/ioc/las/tprStandalone/build/iocBoot/ioc-crix-las-tpr4/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/tprStandalone/build/iocBoot/ioc-crix-las-tpr4/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.5/bin/rhel7-x86_64/tpr"
     },
     {
@@ -1193,11 +1193,11 @@
     {
         "host": "ctl-las-crix-srv06",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/nagar123/ioc/las/tprStandalone",
+        "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/tprStandalone",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-crix-las-tpr6",
-        "script": "/reg/g/pcds/epics-dev/nagar123/ioc/las/tprStandalone/build/iocBoot/ioc-crix-las-tpr6/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/tprStandalone/build/iocBoot/ioc-crix-las-tpr6/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.5/bin/rhel7-x86_64/tpr"
     },
     {
@@ -1214,11 +1214,11 @@
     {
         "host": "ctl-las-crix-srv07",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/nagar123/ioc/las/tprStandalone",
+        "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/tprStandalone",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-crix-las-tpr7",
-        "script": "/reg/g/pcds/epics-dev/nagar123/ioc/las/tprStandalone/build/iocBoot/ioc-crix-las-tpr7/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/tprStandalone/build/iocBoot/ioc-crix-las-tpr7/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.5/bin/rhel7-x86_64/tpr"
     },
     {
@@ -2197,8 +2197,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-tst-gsd-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/SDG_Elite/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/SDG_Elite/children/build/iocBoot/ioc-tst-gsd-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/SDG_Elite/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ctl-las-lhn-01",
