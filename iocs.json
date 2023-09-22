@@ -1224,12 +1224,12 @@
     {
         "host": "ctl-las-crix-srv07",
         "port": 30100,
-        "dir": "/cds/home/t/tjohnson/trunk/las/gigECam",
+        "dir": "/reg/g/pcds/epics-dev/nagar123/ioc/las/gige",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-gige-sxr-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/gigECam/build/iocBoot/ioc-las-gige-sxr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.3/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/nagar123/ioc/las/gige/build/iocBoot/ioc-las-gige-sxr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-crix-srv07",
