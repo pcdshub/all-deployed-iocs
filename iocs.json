@@ -18462,6 +18462,7 @@
         "host": "ioc-xcs-wave8-01",
         "port": 32520,
         "dir": "ioc/det/thermotek/R1.0.0",
+        "cmd": "./st.cmd",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-det-thermotek-01",
@@ -18479,6 +18480,7 @@
             "ioc/xcs/wave8/R1.0.0",
             "/reg/neh/home/snelson/work/xcs/wave8/current"
         ],
+        "cmd": "./st.cmd",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-sb2-bmmon",
