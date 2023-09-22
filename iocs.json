@@ -7741,21 +7741,6 @@
     },
     {
         "host": "ioc-cxi-rec01",
-        "port": 30404,
-        "dir": "ioc/cxi/edtCam/R1.3.0",
-        "alias": "CAM - DG2 PIM",
-        "history": [
-            "ioc/cxi/edtCam/R1.1.0",
-            "ioc/cxi/edtCam/R1.0.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-dg2-p6740",
-        "script": "/reg/g/pcds/epics/ioc/cxi/edtCam/R1.3.0/build/iocBoot/ioc-cxi-dg2-p6740/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.0/bin/linux-x86_64/edt"
-    },
-    {
-        "host": "ioc-cxi-rec01",
         "port": 39099,
         "dir": "ioc/cxi/ims/R6.3.1",
         "disable": true,
