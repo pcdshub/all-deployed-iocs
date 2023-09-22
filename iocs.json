@@ -18543,24 +18543,24 @@
     {
         "host": "ioc-xpp-gige01",
         "port": 30004,
-        "dir": "ioc/xpp/gigECam/R2.0.1",
+        "dir": "ioc/xpp/gigECam/R2.0.4",
         "alias": "Gige 07 - USR",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-07",
-        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.1/build/iocBoot/ioc-xpp-gige-07/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.4/build/iocBoot/ioc-xpp-gige-07/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-gige01",
         "port": 30001,
-        "dir": "ioc/xpp/gigECam/R2.0.1",
+        "dir": "ioc/xpp/gigECam/R2.0.4",
         "alias": "Gige 12 - USR",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-12",
-        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.1/build/iocBoot/ioc-xpp-gige-12/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.1/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.4/build/iocBoot/ioc-xpp-gige-12/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.5/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-gige01",
@@ -18642,7 +18642,7 @@
     {
         "host": "ioc-xpp-gige02",
         "port": 37045,
-        "dir": "ioc/xpp/gigECam/R2.0.1",
+        "dir": "ioc/xpp/gigECam/R2.0.4",
         "disable": true,
         "alias": "Gige 15 - USR",
         "history": [
@@ -18651,8 +18651,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-15",
-        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.1/build/iocBoot/ioc-xpp-gige-15/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.0/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.4/build/iocBoot/ioc-xpp-gige-15/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.5/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-gige02",
@@ -18668,23 +18668,23 @@
     {
         "host": "ioc-xpp-gige02",
         "port": 30009,
-        "dir": "ioc/xpp/gigECam/R2.0.2",
+        "dir": "ioc/xpp/gigECam/R2.0.4",
         "alias": "Gige 20 - USR",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-20",
-        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.2/build/iocBoot/ioc-xpp-gige-20/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.4/build/iocBoot/ioc-xpp-gige-20/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-gige02",
         "port": 30010,
-        "dir": "ioc/xpp/gigECam/R2.0.2",
+        "dir": "ioc/xpp/gigECam/R2.0.4",
         "alias": "Gige 21 - USR",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-21",
-        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.2/build/iocBoot/ioc-xpp-gige-21/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.4/build/iocBoot/ioc-xpp-gige-21/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.1/bin/rhel7-x86_64/gige"
     },
     {
@@ -19005,6 +19005,7 @@
         "host": "ioc-xpp-misc01",
         "port": 30005,
         "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/aerotech",
+        "disable": true,
         "alias": "aerotech-controller-gon-01",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -19026,24 +19027,24 @@
     {
         "host": "ioc-xpp-misc01",
         "port": 38770,
-        "dir": "ioc/xpp/gigECam/R2.0.2",
+        "dir": "ioc/xpp/gigECam/R2.0.4",
         "alias": "Gige 18 - USR",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-18",
-        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.2/build/iocBoot/ioc-xpp-gige-18/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.4/bin/linux-x86_64/gige"
+        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.4/build/iocBoot/ioc-xpp-gige-18/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-misc01",
         "port": 38771,
-        "dir": "ioc/xpp/gigECam/R2.0.2",
+        "dir": "ioc/xpp/gigECam/R2.0.4",
         "alias": "Gige 19 - USR",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-19",
-        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.2/build/iocBoot/ioc-xpp-gige-19/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.4/bin/linux-x86_64/gige"
+        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.4/build/iocBoot/ioc-xpp-gige-19/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-misc01",
@@ -19599,13 +19600,13 @@
     {
         "host": "ioc-xpp-rec02",
         "port": 30006,
-        "dir": "ioc/xpp/gigECam/R2.0.3",
+        "dir": "ioc/xpp/gigECam/R2.0.4",
         "alias": "Gige 17 - USR",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-17",
-        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.3/build/iocBoot/ioc-xpp-gige-17/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.4/build/iocBoot/ioc-xpp-gige-17/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.5/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-rec02",
