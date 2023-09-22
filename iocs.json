@@ -1222,26 +1222,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.5/bin/rhel7-x86_64/tpr"
     },
     {
-        "host": "ctl-las-crix-srv07",
-        "port": 30100,
-        "dir": "/reg/g/pcds/epics-dev/nagar123/ioc/las/gige",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-gige-sxr-01",
-        "script": "/reg/g/pcds/epics-dev/nagar123/ioc/las/gige/build/iocBoot/ioc-las-gige-sxr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-crix-srv07",
-        "port": 30101,
-        "dir": "/reg/g/pcds/epics-dev/nagar123/ioc/las/gige",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-gige-tst-01",
-        "script": "/reg/g/pcds/epics-dev/nagar123/ioc/las/gige/build/iocBoot/ioc-las-gige-tst-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gige"
-    },
-    {
         "host": "ctl-las-ftl-sp01",
         "port": 30010,
         "dir": "/cds/home/t/tjohnson/trunk/common/locker_manager",
@@ -8871,7 +8851,6 @@
         "host": "ioc-cxi-wave8",
         "port": 30303,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/wave8",
-        "disable": true,
         "alias": "Wave8 DG2",
         "history": [
             "ioc/cxi/wave8/R2.1.1",
@@ -8951,7 +8930,7 @@
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-usr-dio",
         "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/wave8/build/iocBoot/ioc-cxi-usr-dio/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/wave8/R1.0.14/bin/rhel7-x86_64/wave8Ioc"
+        "binary": "/reg/g/pcds/epics/ioc/common/wave8/R1.0.18/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-cxi-wave8b",
