@@ -8903,7 +8903,7 @@
     {
         "host": "ioc-cxi-wave8",
         "port": 30001,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/wave8",
         "alias": "Wave8 DG3",
         "history": [
             "ioc/cxi/wave8/R2.1.2"
@@ -8911,8 +8911,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg3-bmmon",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-cxi-dg3-bmmon/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/wave8/build/iocBoot/ioc-cxi-dg3-bmmon/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/wave8/R1.0.14/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-cxi-wave8",
