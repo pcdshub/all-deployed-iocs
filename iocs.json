@@ -8885,7 +8885,7 @@
     {
         "host": "ioc-cxi-wave8",
         "port": 30303,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/wave8",
         "alias": "Wave8 DG2",
         "history": [
             "ioc/cxi/wave8/R2.1.1",
@@ -8897,8 +8897,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg2-bmmon",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-cxi-dg2-bmmon/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/wave8/build/iocBoot/ioc-cxi-dg2-bmmon/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/wave8/R1.0.18/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-cxi-wave8",
@@ -19027,7 +19027,7 @@
         "host": "ioc-xpp-misc01",
         "port": 38770,
         "dir": "ioc/xpp/gigECam/R2.0.2",
-        "alias": "User GigE 18",
+        "alias": "Gige 18 - USR",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-18",
@@ -19038,7 +19038,7 @@
         "host": "ioc-xpp-misc01",
         "port": 38771,
         "dir": "ioc/xpp/gigECam/R2.0.2",
-        "alias": "User GigE 19",
+        "alias": "Gige 19 - USR",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-19",
