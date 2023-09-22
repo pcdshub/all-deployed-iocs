@@ -8961,6 +8961,7 @@
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/wave8",
         "alias": "Wave8 USR DIO",
+        "delay": 2,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-usr-dio",
