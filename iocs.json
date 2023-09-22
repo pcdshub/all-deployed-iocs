@@ -17374,6 +17374,17 @@
     },
     {
         "host": "ioc-xcs-rec02",
+        "port": 39101,
+        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam",
+        "alias": "ioc-xcs-gige-lj2",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-gige-lj2",
+        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam/build/iocBoot/ioc-xcs-gige-lj2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/rhel5-x86_64/gige"
+    },
+    {
+        "host": "ioc-xcs-rec02",
         "port": 32563,
         "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam",
         "history": [
@@ -17526,6 +17537,7 @@
         "host": "ioc-xcs-rec04",
         "port": 32561,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam",
+        "disable": true,
         "history": [
             "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam",
             "/cds/home/j/jjoshi/xcs"
@@ -18462,6 +18474,7 @@
         "host": "ioc-xcs-wave8-01",
         "port": 32520,
         "dir": "ioc/det/thermotek/R1.0.0",
+        "disable": true,
         "cmd": "./st.cmd",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
@@ -18473,6 +18486,7 @@
         "host": "ioc-xcs-wave8-01",
         "port": 30111,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
+        "disable": true,
         "alias": "SB2 - Wave8",
         "history": [
             "ioc/xcs/wave8/R2.0.1",
