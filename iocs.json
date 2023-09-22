@@ -8875,6 +8875,7 @@
         "host": "ioc-cxi-wave8",
         "port": 33018,
         "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/cxi/door_watcher",
+        "disable": true,
         "alias": "ioc-door-watcher",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -8886,6 +8887,7 @@
         "host": "ioc-cxi-wave8",
         "port": 30303,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/wave8",
+        "disable": true,
         "alias": "Wave8 DG2",
         "history": [
             "ioc/cxi/wave8/R2.1.1",
@@ -8894,6 +8896,7 @@
             "ioc/cxi/wave8/R1.1.0",
             "/reg/neh/home/rajan-01/checkouts/epics/cxi/wave8/current"
         ],
+        "cmd": "./st.cmd",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg2-bmmon",
@@ -8904,6 +8907,7 @@
         "host": "ioc-cxi-wave8",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/wave8",
+        "disable": true,
         "alias": "Wave8 DG3",
         "history": [
             "ioc/cxi/wave8/R2.1.2"
@@ -8918,6 +8922,7 @@
         "host": "ioc-cxi-wave8",
         "port": 30011,
         "dir": "/reg/g/pcds/epics-dev/cymel123/git_ioc/cxi/mps",
+        "disable": true,
         "alias": "MPS PLC",
         "history": [
             "ioc/cxi/mps/R0.1.0"
@@ -8932,6 +8937,7 @@
         "host": "ioc-cxi-wave8",
         "port": 30032,
         "dir": "ioc/common/sample-delivery-system/v1.1.1",
+        "disable": true,
         "alias": "SDS M3",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -8943,6 +8949,7 @@
         "host": "ioc-cxi-wave8",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/cymel123/cxi/setra/current",
+        "disable": true,
         "alias": "SetraAir5000",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -8959,7 +8966,7 @@
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-usr-dio",
         "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/wave8/build/iocBoot/ioc-cxi-usr-dio/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/wave8/R1.0.18/bin/rhel7-x86_64/wave8Ioc"
+        "binary": "/reg/g/pcds/epics/ioc/common/wave8/R1.0.14/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-cxi-wave8b",
@@ -17535,21 +17542,6 @@
     },
     {
         "host": "ioc-xcs-rec04",
-        "port": 32561,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam",
-        "disable": true,
-        "history": [
-            "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam",
-            "/cds/home/j/jjoshi/xcs"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-gige-lj2",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/children/build/iocBoot/ioc-xcs-gige-lj2/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ioc-xcs-rec04",
         "port": 40000,
         "dir": "/reg/g/pcds/controls/camrecord",
         "alias": "REC - rec04 Recorder",
@@ -18474,7 +18466,6 @@
         "host": "ioc-xcs-wave8-01",
         "port": 32520,
         "dir": "ioc/det/thermotek/R1.0.0",
-        "disable": true,
         "cmd": "./st.cmd",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
@@ -18486,7 +18477,6 @@
         "host": "ioc-xcs-wave8-01",
         "port": 30111,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
-        "disable": true,
         "alias": "SB2 - Wave8",
         "history": [
             "ioc/xcs/wave8/R2.0.1",
