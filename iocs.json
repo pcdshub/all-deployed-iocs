@@ -2270,6 +2270,16 @@
     },
     {
         "host": "ctl-las-lhn-03",
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/agilent5322/agilent5322-git",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-opcpa-ctr-01",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/agilent5322/agilent5322-git/build/iocBoot/ioc-las-opcpa-ctr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/common/agilent5322/agilent5322-git/bin/rhel7-x86_64/agilent5322"
+    },
+    {
+        "host": "ctl-las-lhn-03",
         "port": 30003,
         "dir": "/cds/home/t/tjohnson/trunk/common/smaract",
         "base_version": "3.15",
@@ -16124,20 +16134,6 @@
         "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-icl-felSim",
         "script": "/reg/neh/home/awallace/workspace/icl/edtCam/current/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ioc-tst-rec10",
-        "port": 34032,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/agilent5322/agilent5322-git",
-        "disable": true,
-        "history": [
-            "/reg/g/pcds/epics-dev/cpino/ioc/las/agilent5322/agilent5322-git"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-las-tst-ctr-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/agilent5322/agilent5322-git/st.cmd",
         "binary": null
     },
     {
