@@ -7485,6 +7485,7 @@
         "host": "ioc-cxi-qadc",
         "port": 30004,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam",
+        "disable": true,
         "alias": "\"CAM\": Alvium",
         "cmd": "./st.cmd",
         "base_version": "3.15",
