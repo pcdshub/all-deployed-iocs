@@ -5747,7 +5747,7 @@
         "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-bmmon",
         "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/wave8/current/build/iocBoot/ioc-det-bmmon/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/ddamiani/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
+        "binary": "/cds/group/pcds/epics/ioc/common/wave8/R1.1.0/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "daq-det-jungfrau",
