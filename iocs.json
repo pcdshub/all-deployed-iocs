@@ -5739,14 +5739,14 @@
     {
         "host": "daq-det-jungfrau",
         "port": 30800,
-        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/wave8/current",
+        "dir": "ioc/det/wave8/R2.1.0",
         "history": [
             "ioc/det/wave8/R1.0.0"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-bmmon",
-        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/wave8/current/build/iocBoot/ioc-det-bmmon/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/det/wave8/R2.1.0/build/iocBoot/ioc-det-bmmon/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/wave8/R1.1.0/bin/rhel7-x86_64/wave8Ioc"
     },
     {
