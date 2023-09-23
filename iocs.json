@@ -7483,6 +7483,18 @@
     },
     {
         "host": "ioc-cxi-qadc",
+        "port": 30004,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam",
+        "alias": "\"CAM\": Alvium",
+        "cmd": "./st.cmd",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-alv-01",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam/build/iocBoot/ioc-cxi-alv-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.6/bin/rhel7-x86_64/vimba"
+    },
+    {
+        "host": "ioc-cxi-qadc",
         "port": 34121,
         "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/pvNotepad",
         "alias": "MISC - CSPAD PVs",
