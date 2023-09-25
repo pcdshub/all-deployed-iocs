@@ -8943,6 +8943,7 @@
         "host": "ioc-cxi-wave8",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/wave8",
+        "disable": true,
         "alias": "Wave8 USR DIO",
         "delay": 2,
         "base_version": "3.15",
