@@ -6123,6 +6123,7 @@
         "port": 35001,
         "dir": "ioc/xcs/epix/R1.5.1",
         "history": [
+            "ioc/xcs/epix/R1.5.1",
             "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/epix",
             "/reg/g/pcds/epics-dev/jjoshi/xcs_dir/epix/current"
         ],
@@ -6136,6 +6137,9 @@
         "host": "daq-xcs-pgp01",
         "port": 35002,
         "dir": "ioc/xcs/epix/R1.5.1",
+        "history": [
+            "ioc/xcs/epix/R1.5.1"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-epix2",
@@ -6147,6 +6151,9 @@
         "port": 35003,
         "dir": "ioc/xcs/epix/R1.5.1",
         "disable": true,
+        "history": [
+            "ioc/xcs/epix/R1.5.1"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-epix3",
@@ -6158,6 +6165,9 @@
         "port": 35004,
         "dir": "ioc/xcs/epix/R1.5.1",
         "disable": true,
+        "history": [
+            "ioc/xcs/epix/R1.5.1"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-epix4",
@@ -6169,6 +6179,9 @@
         "port": 35267,
         "dir": "ioc/xcs/RohdeSchwarzHMP/R1.0.3",
         "alias": "DET - MBL02 HMP02",
+        "history": [
+            "ioc/xcs/RohdeSchwarzHMP/R1.0.3"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-det-mbl02-hmp02",
@@ -6180,6 +6193,7 @@
         "port": 31000,
         "dir": "ioc/xcs/epix/R1.5.1",
         "history": [
+            "ioc/xcs/epix/R1.5.1",
             "/reg/g/pcds/epics-dev/jjoshi/xcs_dir/epix/current",
             "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/epix",
             "ioc/xcs/epix/R1.0.1"
@@ -16315,6 +16329,9 @@
         "port": 36001,
         "dir": "/reg/g/pcds/epics-dev/pennebak/xcs/cryocon/current",
         "alias": "Cryocon Temperature Readback",
+        "history": [
+            "/reg/g/pcds/epics-dev/pennebak/xcs/cryocon/current"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-cryocon",
@@ -16328,6 +16345,7 @@
         "disable": true,
         "alias": "CAM - Gige 01",
         "history": [
+            "ioc/xcs/gigECam/R3.0.5",
             "ioc/xcs/gigECam/R0.5.3",
             "ioc/xcs/gigECam/R0.2.0",
             "ioc/xcs/gigECam/R0.3.0",
@@ -16345,11 +16363,11 @@
         "dir": "ioc/xcs/gigECam/R3.0.5",
         "alias": "CAM - Gige 02",
         "history": [
+            "ioc/xcs/gigECam/R3.0.5",
             "/reg/neh/home/snelson/work/xcs/gigECam/current",
             "ioc/xcs/gigECam/R1.1.0",
             "ioc/xcs/gigECam/R0.2.0",
-            "ioc/xcs/gigECam/R0.3.0",
-            "ioc/xcs/gigECam/R0.1.0"
+            "ioc/xcs/gigECam/R0.3.0"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
@@ -16363,6 +16381,7 @@
         "dir": "ioc/xcs/gigECam/R3.0.5",
         "alias": "CAM - Gige 03",
         "history": [
+            "ioc/xcs/gigECam/R3.0.5",
             "ioc/xcs/gigECam/R0.4.0",
             "ioc/xcs/gigECam/R0.2.0",
             "ioc/xcs/gigECam/R0.3.0"
@@ -16379,6 +16398,7 @@
         "dir": "ioc/xcs/gigECam/R3.0.5",
         "alias": "CAM - Gige 05",
         "history": [
+            "ioc/xcs/gigECam/R3.0.5",
             "ioc/xcs/gigECam/R0.5.3"
         ],
         "base_version": "3.15",
@@ -16393,6 +16413,7 @@
         "dir": "ioc/xcs/gigECam/R3.0.5",
         "alias": "CAM - Gige 06",
         "history": [
+            "ioc/xcs/gigECam/R3.0.5",
             "ioc/xcs/gigECam/R0.5.3"
         ],
         "base_version": "3.15",
@@ -16406,6 +16427,9 @@
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/xcs/gigECam",
         "alias": "CAM - Gige 12",
+        "history": [
+            "/reg/g/pcds/epics-dev/ctsoi/ioc/xcs/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-12",
@@ -16417,6 +16441,9 @@
         "port": 32513,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/xcs/gigECam",
         "alias": "CAM - Gige SND 02",
+        "history": [
+            "/reg/g/pcds/epics-dev/ctsoi/ioc/xcs/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-13",
@@ -16428,6 +16455,9 @@
         "port": 32514,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/xcs/gigECam",
         "alias": "CAM - Gige SND 03",
+        "history": [
+            "/reg/g/pcds/epics-dev/ctsoi/ioc/xcs/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-14",
@@ -16440,6 +16470,7 @@
         "dir": "ioc/xcs/gigECam/R3.0.5",
         "alias": "CAM - Gige 16 - Yag 4",
         "history": [
+            "ioc/xcs/gigECam/R3.0.5",
             "/reg/neh/home4/rajan-01/checkouts/epics/xcs/gigECam/current"
         ],
         "base_version": "3.15",
@@ -16455,6 +16486,7 @@
         "disable": true,
         "alias": "CAM - Gige LJC inline",
         "history": [
+            "ioc/xcs/gigECam/R3.0.5",
             "/reg/neh/home4/snelson/work/xcs/gigECam/current"
         ],
         "base_version": "3.15",
@@ -16467,6 +16499,9 @@
         "host": "ioc-xcs-gige01",
         "port": 32518,
         "dir": "ioc/xcs/gigECam/R1.2.4",
+        "history": [
+            "ioc/xcs/gigECam/R1.2.4"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-18",
@@ -16478,6 +16513,9 @@
         "port": 36037,
         "dir": "ioc/xcs/gigECam/R3.0.3",
         "disable": true,
+        "history": [
+            "ioc/xcs/gigECam/R3.0.3"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-19",
@@ -16490,6 +16528,7 @@
         "dir": "ioc/xcs/gigECam/R3.0.5",
         "alias": "CAM - Gige 20",
         "history": [
+            "ioc/xcs/gigECam/R3.0.5",
             "ioc/xcs/gigECam/R1.2.6"
         ],
         "base_version": "3.15",
@@ -16504,6 +16543,9 @@
         "dir": "/reg/g/pcds/epics-dev/pennebak/xcs/Leviton/current",
         "disable": true,
         "alias": "PWR - Spare StarTech",
+        "history": [
+            "/reg/g/pcds/epics-dev/pennebak/xcs/Leviton/current"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-mfx-pwr-spare",
@@ -16514,6 +16556,9 @@
         "host": "ioc-xcs-misc1",
         "port": 30303,
         "dir": "/cds/home/z/zlentz/epics/ioc/common/Leviton/current",
+        "history": [
+            "/cds/home/z/zlentz/epics/ioc/common/Leviton/current"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-tst-ebara-pwr01",
@@ -16540,6 +16585,9 @@
         "host": "ioc-xcs-misc1",
         "port": 39100,
         "dir": "ioc/common/expstate/R1.0.6",
+        "history": [
+            "ioc/common/expstate/R1.0.6"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-expstate",
@@ -16599,6 +16647,9 @@
         "port": 32567,
         "dir": "ioc/xcs/userBhc/R0.4.0",
         "alias": "User thermocouples",
+        "history": [
+            "ioc/xcs/userBhc/R0.4.0"
+        ],
         "cmd": "../../bin/linux-x86_64/userBhc st.cmd",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
@@ -16611,6 +16662,9 @@
         "port": 34600,
         "dir": "/reg/g/pcds/pyps/config/xcs/lightpath",
         "alias": "XCS Lightpath pyIOC",
+        "history": [
+            "/reg/g/pcds/pyps/config/xcs/lightpath"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "pyioc-xcs-lightpath",
@@ -16622,6 +16676,9 @@
         "port": 35123,
         "dir": "/reg/neh/home/zlentz/python/pyIOC/servers/test",
         "disable": true,
+        "history": [
+            "/reg/neh/home/zlentz/python/pyIOC/servers/test"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "xcs-pyioc-test",
@@ -16634,6 +16691,9 @@
         "dir": "/reg/neh/home/zlentz/epics/ioc/xcs/ims/current",
         "disable": true,
         "alias": "DET - Rowland IMS Motion",
+        "history": [
+            "/reg/neh/home/zlentz/epics/ioc/xcs/ims/current"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-row-ims",
@@ -16646,6 +16706,9 @@
         "dir": "/reg/neh/home/zlentz/epics/ioc/xcs/arcus_dmx/current",
         "disable": true,
         "alias": "DET - Rowland Arcus Motion",
+        "history": [
+            "/reg/neh/home/zlentz/epics/ioc/xcs/arcus_dmx/current"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-rowland-01",
@@ -16656,6 +16719,9 @@
         "host": "ioc-xcs-mot1",
         "port": 30439,
         "dir": "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current",
+        "history": [
+            "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-ladm01",
@@ -16668,6 +16734,7 @@
         "dir": "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current",
         "alias": "LAS - Newport 1",
         "history": [
+            "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current",
             "/reg/g/pcds/epics-dev/spencera/xcs/NewportXPS8/build"
         ],
         "base_version": "3.15",
@@ -16681,6 +16748,9 @@
         "port": 32054,
         "dir": "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current",
         "alias": "LAS - Newport 2",
+        "history": [
+            "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-las02",
@@ -16693,6 +16763,7 @@
         "dir": "/reg/g/pcds/epics-dev/pennebak/xcs/ccm/piMotion/current",
         "alias": "MON - CCM Pi Motion",
         "history": [
+            "/reg/g/pcds/epics-dev/pennebak/xcs/ccm/piMotion/current",
             "/reg/g/pcds/package/epics/3.14-dev/ioc/xcs/ccm/piMotion/current"
         ],
         "cmd": "../../bin/linux-x86_64/piMotion st.cmd",
@@ -16708,6 +16779,7 @@
         "dir": "ioc/common/pulsepicker/R1.1.3",
         "alias": "SB2 - Pulse Picker",
         "history": [
+            "ioc/common/pulsepicker/R1.1.3",
             "ioc/common/pulsepicker/R1.0.0"
         ],
         "delay": 20,
@@ -16723,6 +16795,7 @@
         "dir": "ioc/common/picoMotion/R1.0.16",
         "alias": "SB1 - Ref Laser Pico",
         "history": [
+            "ioc/common/picoMotion/R1.0.16",
             "ioc/common/picoMotion/R0.9.1"
         ],
         "delay": 20,
@@ -16738,6 +16811,9 @@
         "port": 32500,
         "dir": "/reg/g/pcds/epics-dev/spencera/plcs/vonhamos-motion/epics/cfg",
         "alias": "Vonhamos PLC",
+        "history": [
+            "/reg/g/pcds/epics-dev/spencera/plcs/vonhamos-motion/epics/cfg"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-mfx-vhs-01",
@@ -16913,6 +16989,9 @@
         "port": 35327,
         "dir": "ioc/xcs/shimadzu-lc20/R1.0.0",
         "alias": "HPLC",
+        "history": [
+            "ioc/xcs/shimadzu-lc20/R1.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-lc20",
@@ -16924,6 +17003,9 @@
         "port": 30485,
         "dir": "/reg/g/pcds/epics-dev/spencera/plcs/lcls-plc-xcs-liquid-jet/ioc-xcs-ljh",
         "alias": "Liquid Jet PLC",
+        "history": [
+            "/reg/g/pcds/epics-dev/spencera/plcs/lcls-plc-xcs-liquid-jet/ioc-xcs-ljh"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-ljh",
@@ -16981,6 +17063,9 @@
         "host": "ioc-xcs-mot2",
         "port": 30001,
         "dir": "ioc/xcs/picoMotion/R0.0.1",
+        "history": [
+            "ioc/xcs/picoMotion/R0.0.1"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-pico-las01",
@@ -17071,6 +17156,9 @@
         "host": "ioc-xcs-mot2",
         "port": 30002,
         "dir": "ioc/xcs/ims/R6.0.4",
+        "history": [
+            "ioc/xcs/ims/R6.0.4"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-sb2-lib-ims",
@@ -17171,6 +17259,7 @@
         "disable": true,
         "alias": "Quad ADC",
         "history": [
+            "ioc/common/qadc/R2.0.5",
             "/reg/g/pcds/epics-dev/jjoshi/qadc"
         ],
         "base_version": "3.15",
@@ -17185,6 +17274,9 @@
         "dir": "ioc/xcs/gigECam/R3.0.3",
         "disable": true,
         "alias": "CAM - Liquid Jet Vert. Inline",
+        "history": [
+            "ioc/xcs/gigECam/R3.0.3"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-gige-ljv-inline",
@@ -17198,6 +17290,7 @@
         "disable": true,
         "alias": "MON - CCM Alio",
         "history": [
+            "/reg/g/pcds/epics-dev/adamwh/deltaTauMotion/current",
             "/reg/g/pcds/epics-dev/snelson/xcs/ccm/deltaTauMotion/current",
             "/reg/g/pcds/package/epics/3.14-dev/ioc/xcs/ccm/deltaTauMotion/current"
         ],
@@ -17214,6 +17307,7 @@
         "dir": "ioc/xcs/gigECam/R1.2.6",
         "alias": "CAM - Gige 04 - Yag5",
         "history": [
+            "ioc/xcs/gigECam/R1.2.6",
             "ioc/xcs/gigECam/R0.5.3",
             "ioc/xcs/gigECam/R0.3.1",
             "ioc/xcs/gigECam/R0.3.0"
@@ -17229,6 +17323,9 @@
         "port": 32515,
         "dir": "ioc/xcs/gigECam/R1.1.0",
         "alias": "CAM - Gige SND 04",
+        "history": [
+            "ioc/xcs/gigECam/R1.1.0"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-15",
@@ -17240,6 +17337,9 @@
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/ccm/deltaTauMotion",
         "alias": "MON - CCM Alio, EVR",
+        "history": [
+            "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/ccm/deltaTauMotion"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-mon-ccm-alio",
@@ -17266,6 +17366,7 @@
         "dir": "ioc/xcs/ipimb/R4.1.5",
         "alias": "DET - IPM User & Gon",
         "history": [
+            "ioc/xcs/ipimb/R4.1.5",
             "ioc/xcs/ipimb/R4.0.9"
         ],
         "base_version": "3.15",
@@ -17280,6 +17381,7 @@
         "dir": "ioc/xcs/edtCam/R1.0.0",
         "alias": "CAM - User Opal 1",
         "history": [
+            "ioc/xcs/edtCam/R1.0.0",
             "ioc/xcs/edtCam/R0.1.3"
         ],
         "base_version": "3.15",
@@ -17295,6 +17397,7 @@
         "disable": true,
         "alias": "CAM - User Opal 2",
         "history": [
+            "ioc/xcs/edtCam/R1.0.0",
             "ioc/xcs/edtCam/R0.1.3"
         ],
         "base_version": "3.15",
@@ -17309,6 +17412,9 @@
         "dir": "/reg/g/pcds/epics-dev/spencera/xcs.svn/gigECam/current",
         "disable": true,
         "alias": "CAM - Liquid Jet Vert. Offaxis",
+        "history": [
+            "/reg/g/pcds/epics-dev/spencera/xcs.svn/gigECam/current"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-gige-ljv-offaxis",
@@ -17321,6 +17427,9 @@
         "dir": "/reg/neh/home/eshelman/epics/ioc/xcs/evr/current",
         "disable": true,
         "alias": "EVR - REC02",
+        "history": [
+            "/reg/neh/home/eshelman/epics/ioc/xcs/evr/current"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-evr2",
@@ -17332,6 +17441,9 @@
         "port": 32509,
         "dir": "ioc/xcs/gigECam/R1.1.0",
         "alias": "CAM - Gige Periscope 01",
+        "history": [
+            "ioc/xcs/gigECam/R1.1.0"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-09",
@@ -17343,6 +17455,9 @@
         "port": 32560,
         "dir": "/cds/home/j/jjoshi/xcs",
         "disable": true,
+        "history": [
+            "/cds/home/j/jjoshi/xcs"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-lj1",
@@ -17354,6 +17469,9 @@
         "port": 39101,
         "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam",
         "alias": "ioc-xcs-gige-lj2",
+        "history": [
+            "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-lj2",
@@ -17365,6 +17483,7 @@
         "port": 32563,
         "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam",
         "history": [
+            "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam",
             "/cds/home/j/jjoshi/xcs"
         ],
         "base_version": "3.15",
@@ -17378,6 +17497,9 @@
         "port": 32564,
         "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam",
         "disable": true,
+        "history": [
+            "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-lj4",
@@ -17406,6 +17528,7 @@
         "disable": true,
         "alias": "CAM - Lam Opal",
         "history": [
+            "ioc/xcs/edtCam/R1.0.0",
             "ioc/xcs/edtCam/R0.1.3"
         ],
         "base_version": "3.15",
@@ -17432,6 +17555,9 @@
         "host": "ioc-xcs-rec02",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/timetool",
+        "history": [
+            "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/timetool"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-tt",
@@ -17444,6 +17570,7 @@
         "dir": "ioc/xcs/gigECam/R1.1.0",
         "alias": "CAM - Gige 08",
         "history": [
+            "ioc/xcs/gigECam/R1.1.0",
             "ioc/xcs/gigECam/R0.5.3"
         ],
         "base_version": "3.15",
@@ -17458,6 +17585,7 @@
         "dir": "ioc/xcs/gigECam/R1.2.5",
         "alias": "CAM - Gige Periscope 02",
         "history": [
+            "ioc/xcs/gigECam/R1.2.5",
             "ioc/xcs/gigECam/R1.1.0"
         ],
         "base_version": "3.15",
@@ -17487,6 +17615,7 @@
         "disable": true,
         "alias": "CAM - Gon Opal",
         "history": [
+            "ioc/xcs/edtCam/R1.0.0",
             "ioc/xcs/edtCam/R0.1.3"
         ],
         "base_version": "3.15",
@@ -17515,6 +17644,9 @@
         "port": 40000,
         "dir": "/reg/g/pcds/controls/camrecord",
         "alias": "REC - rec04 Recorder",
+        "history": [
+            "/reg/g/pcds/controls/camrecord"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-rec04",
@@ -17527,6 +17659,7 @@
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
         "alias": "SB1 - Wave8",
         "history": [
+            "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
             "ioc/xcs/wave8/R2.0.0",
             "ioc/xcs/wave8/R1.0.0"
         ],
@@ -17542,6 +17675,7 @@
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
         "alias": "SND - Wave8",
         "history": [
+            "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
             "ioc/xcs/wave8/R2.0.0",
             "ioc/xcs/wave8/R1.0.0",
             "ioc/xcs/wave8/R0.1.0",
@@ -17558,6 +17692,9 @@
         "port": 30001,
         "dir": "ioc/common/ecc100/R1.0.6",
         "alias": "SND - Attocube Motors A",
+        "history": [
+            "ioc/common/ecc100/R1.0.6"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-ecc-snd-a",
@@ -17569,6 +17706,9 @@
         "port": 30011,
         "dir": "ioc/common/ecc100/R1.0.6",
         "alias": "SND - Attocube Motors B",
+        "history": [
+            "ioc/common/ecc100/R1.0.6"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-ecc-snd-b",
@@ -17580,6 +17720,9 @@
         "port": 30012,
         "dir": "ioc/common/ecc100/R1.0.6",
         "alias": "SND - Attocube Motors C",
+        "history": [
+            "ioc/common/ecc100/R1.0.6"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-ecc-snd-c",
@@ -17591,6 +17734,9 @@
         "port": 30004,
         "dir": "ioc/common/ecc100/R1.0.6",
         "alias": "SND - Attocube Motors D",
+        "history": [
+            "ioc/common/ecc100/R1.0.6"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-ecc-snd-d",
@@ -17602,6 +17748,9 @@
         "port": 30005,
         "dir": "ioc/common/aerotech/R1.0.6",
         "alias": "SND - Ensemble Motors A",
+        "history": [
+            "ioc/common/aerotech/R1.0.6"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-ensemble-a",
@@ -17613,6 +17762,9 @@
         "port": 30002,
         "dir": "ioc/common/aerotech/R1.0.6",
         "alias": "SND - Ensemble Motors B",
+        "history": [
+            "ioc/common/aerotech/R1.0.6"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-ensemble-b",
@@ -17624,6 +17776,9 @@
         "port": 30003,
         "dir": "ioc/common/aerotech/R1.0.6",
         "alias": "SND - Ensemble Motors C",
+        "history": [
+            "ioc/common/aerotech/R1.0.6"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-ensemble-c",
@@ -17636,6 +17791,7 @@
         "dir": "ioc/xcs/sndBhc/R1.0.0",
         "alias": "SND - Beckhoff IO",
         "history": [
+            "ioc/xcs/sndBhc/R1.0.0",
             "/reg/neh/home/klg/epics/ioc/xcs/sndBhc/current"
         ],
         "base_version": "3.15",
@@ -17648,6 +17804,9 @@
         "host": "ioc-xcs-srv01",
         "port": 30001,
         "dir": "/cds/home/t/tjohnson/trunk/las/qmini",
+        "history": [
+            "/cds/home/t/tjohnson/trunk/las/qmini"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-las-xcs-spec-01",
@@ -17660,6 +17819,7 @@
         "dir": "ioc/xcs/gigECam/R3.0.5",
         "alias": "CAM - Gige 07",
         "history": [
+            "ioc/xcs/gigECam/R3.0.5",
             "ioc/xcs/gigECam/R0.5.3"
         ],
         "base_version": "3.15",
@@ -17692,6 +17852,9 @@
         "port": 30116,
         "dir": "ioc/xcs/thermotek/R1.0.0",
         "alias": "DET - GON Chiller",
+        "history": [
+            "ioc/xcs/thermotek/R1.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-thermotek-01",
@@ -17703,6 +17866,9 @@
         "port": 30222,
         "dir": "/reg/g/pcds/epics-dev/jjoshi/ioc/xcs/mmc/current/build/iocBoot/ioc-xcs-usr-2axis-mmc-01",
         "disable": true,
+        "history": [
+            "/reg/g/pcds/epics-dev/jjoshi/ioc/xcs/mmc/current/build/iocBoot/ioc-xcs-usr-2axis-mmc-01"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-user-2axis-mmc-01",
@@ -17713,6 +17879,9 @@
         "host": "ioc-xcs-srv01",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/lodcmcalc/lodcmcalc",
+        "history": [
+            "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/lodcmcalc/lodcmcalc"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "lodcmcalc",
@@ -17723,6 +17892,9 @@
         "host": "ioc-xcs-srv01",
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/sndcalc/sndcalc",
+        "history": [
+            "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/sndcalc/sndcalc"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "sndcalc",
@@ -17735,6 +17907,9 @@
         "dir": "/reg/g/pcds/epics-dev/spencera/common/cryojet",
         "disable": true,
         "alias": "Mobile Cryojet 2",
+        "history": [
+            "/reg/g/pcds/epics-dev/spencera/common/cryojet"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-mob-cryojet-02",
@@ -17745,6 +17920,9 @@
         "host": "ioc-xcs-user1",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/lcls-plc-polycapillary/lcls-plc-polycapillary",
+        "history": [
+            "/reg/g/pcds/epics-dev/opperman/xcs/ioc/lcls-plc-polycapillary/lcls-plc-polycapillary"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-plc-polycap-01",
@@ -17758,6 +17936,7 @@
         "disable": true,
         "alias": "USR - BK Precision",
         "history": [
+            "/reg/g/pcds/epics-dev/spencera/xcs.svn/BK-Precision/current",
             "ioc/common/BK-Precision/R1.0.1"
         ],
         "base_version": "3.15",
@@ -17787,6 +17966,7 @@
         "dir": "ioc/xcs/thermocube/R1.0.6",
         "alias": "DET - Chiller",
         "history": [
+            "ioc/xcs/thermocube/R1.0.6",
             "ioc/xcs/thermocube/R1.0.3"
         ],
         "base_version": "3.15",
@@ -17800,6 +17980,9 @@
         "port": 31003,
         "dir": "/reg/g/pcds/epics-dev/spencera/common/cryojet",
         "alias": "XCS Cryojet",
+        "history": [
+            "/reg/g/pcds/epics-dev/spencera/common/cryojet"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-cryojet-01",
@@ -17812,6 +17995,9 @@
         "dir": "/reg/g/pcds/epics-dev/spencera/common/cryojet",
         "disable": true,
         "alias": "XCS Cryojet 02",
+        "history": [
+            "/reg/g/pcds/epics-dev/spencera/common/cryojet"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-cryojet-02",
@@ -17824,6 +18010,9 @@
         "dir": "ioc/xcs/dg/R1.0.0",
         "disable": true,
         "alias": "USR - Delaygen (DG645)",
+        "history": [
+            "ioc/xcs/dg/R1.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-delaygen1",
@@ -17836,6 +18025,9 @@
         "dir": "/reg/g/pcds/epics-dev/oluwade/xcs/RohdeSchwarzHMP",
         "disable": true,
         "alias": "DET - GON HMP Jungfrau",
+        "history": [
+            "/reg/g/pcds/epics-dev/oluwade/xcs/RohdeSchwarzHMP"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-det-hmp01",
@@ -17847,6 +18039,9 @@
         "port": 39101,
         "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/detectorprotection",
         "alias": "EPIX Tripper",
+        "history": [
+            "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/detectorprotection"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-epix10ka2m-tripper",
@@ -17859,6 +18054,9 @@
         "dir": "/reg/neh/home/zlentz/epics/ioc/xcs/Keithley6514/current",
         "disable": true,
         "alias": "Keithley 6514",
+        "history": [
+            "/reg/neh/home/zlentz/epics/ioc/xcs/Keithley6514/current"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-keithley6514",
@@ -17871,6 +18069,9 @@
         "dir": "ioc/common/detector-ctrl/R2.6.6",
         "disable": true,
         "alias": "DET - Ladm CsPad 140k",
+        "history": [
+            "ioc/common/detector-ctrl/R2.6.6"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-lam-140k",
@@ -17883,6 +18084,7 @@
         "dir": "ioc/common/mpod/R2.1.5",
         "alias": "DET - Ladm Mpod",
         "history": [
+            "ioc/common/mpod/R2.1.5",
             "ioc/common/mpod/R2.0.6",
             "ioc/common/mpod/R1.15.0"
         ],
@@ -17915,6 +18117,7 @@
         "dir": "ioc/xcs/ims/R6.0.3",
         "alias": "USR - Ladm Patch Smart Motion",
         "history": [
+            "ioc/xcs/ims/R6.0.3",
             "ioc/xcs/ims/R6.0.2",
             "ioc/xcs/ims/R2.0.0",
             "ioc/xcs/ims/R1.0.1"
@@ -17977,6 +18180,9 @@
         "dir": "ioc/xcs/grcs/R1.0.0",
         "disable": true,
         "alias": "USR - Gas Reactor Control",
+        "history": [
+            "ioc/xcs/grcs/R1.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-usr-grcs",
@@ -17989,6 +18195,9 @@
         "dir": "ioc/xcs/lakeshore335/R1.1.0",
         "disable": true,
         "alias": "USR - Lakeshore 335",
+        "history": [
+            "ioc/xcs/lakeshore335/R1.1.0"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-usr-ls335",
@@ -18015,6 +18224,9 @@
         "dir": "/reg/g/pcds/epics-dev/spencera/xcs.svn/AgilentE3648A/current",
         "disable": true,
         "alias": "USR - Agilent Power Supply",
+        "history": [
+            "/reg/g/pcds/epics-dev/spencera/xcs.svn/AgilentE3648A/current"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-usr-pwr",
@@ -18027,6 +18239,7 @@
         "dir": "ioc/xcs/ims/R6.0.4",
         "alias": "USR - Patch Smart Motion",
         "history": [
+            "ioc/xcs/ims/R6.0.4",
             "ioc/xcs/ims/R6.0.2"
         ],
         "base_version": "3.15",
@@ -18040,6 +18253,9 @@
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/ims",
         "alias": "User Stage Testing",
+        "history": [
+            "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/ims"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-usr-stg-tst",
@@ -18052,6 +18268,7 @@
         "dir": "ioc/xcs/NewportXPS8/R2.0.2",
         "alias": "USR - Gon Newport",
         "history": [
+            "ioc/xcs/NewportXPS8/R2.0.2",
             "ioc/xcs/NewportXPS8/R2.0.0"
         ],
         "delay": 15,
@@ -18065,6 +18282,9 @@
         "host": "ioc-xcs-user1",
         "port": 30302,
         "dir": "ioc/common/mpod/R2.1.6",
+        "history": [
+            "ioc/common/mpod/R2.1.6"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-usr1-mpod",
@@ -18077,6 +18297,9 @@
         "dir": "/reg/g/pcds/epics-dev/spencera/plcs/lcls-plc-xpp-jjslit-motion",
         "disable": true,
         "alias": "XPP JJ Slits",
+        "history": [
+            "/reg/g/pcds/epics-dev/spencera/plcs/lcls-plc-xpp-jjslit-motion"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xpp-portable-jjslit-motion",
@@ -18089,6 +18312,7 @@
         "dir": "ioc/xcs/analogScaleOffset/R1.0.1",
         "alias": "USR - Analog ScaleOffset",
         "history": [
+            "ioc/xcs/analogScaleOffset/R1.0.1",
             "ioc/common/analogScaleOffset/R0.5.0"
         ],
         "base_version": "3.15",
@@ -18103,6 +18327,7 @@
         "dir": "ioc/xcs/device_states/R1.0.1",
         "alias": "MISC - Device States",
         "history": [
+            "ioc/xcs/device_states/R1.0.1",
             "ioc/common/device_states/R1.2.0"
         ],
         "base_version": "3.15",
@@ -18116,6 +18341,9 @@
         "port": 32237,
         "dir": "ioc/xcs/ims/R6.0.1",
         "alias": "DG3 - Prefocus",
+        "history": [
+            "ioc/xcs/ims/R6.0.1"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-dg3-pfls-ims",
@@ -18128,6 +18356,7 @@
         "dir": "ioc/xcs/ims/R2.3.6",
         "alias": "DG3 - YAG3 Motion",
         "history": [
+            "ioc/xcs/ims/R2.3.6",
             "/reg/neh/home/snelson/work/xcs/ims/current",
             "ioc/xcs/ims/R1.0.1"
         ],
@@ -18173,6 +18402,9 @@
         "dir": "ioc/common/lecroy/R1.0.2",
         "disable": true,
         "alias": "MISC - LeCroy Scope R42",
+        "history": [
+            "ioc/common/lecroy/R1.0.2"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-lecroy-01",
@@ -18185,6 +18417,7 @@
         "dir": "/reg/neh/home/snelson/work/xcs/leds/current",
         "alias": "MISC - LEDs",
         "history": [
+            "/reg/neh/home/snelson/work/xcs/leds/current",
             "ioc/xcs/leds/R1.0.2"
         ],
         "cmd": "../../bin/linux-x86_64/leds st.cmd",
@@ -18199,6 +18432,9 @@
         "port": 34444,
         "dir": "ioc/xcs/lodcm/R1.0.0",
         "alias": "MON - LODCM PVs",
+        "history": [
+            "ioc/xcs/lodcm/R1.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-lodcm",
@@ -18211,11 +18447,11 @@
         "dir": "ioc/xcs/lusiAtt/R1.5.0",
         "alias": "SB2 - Attenuators",
         "history": [
+            "ioc/xcs/lusiAtt/R1.5.0",
             "ioc/xcs/lusiAtt/R0.4.5",
             "ioc/xcs/lusiAtt/R0.4.4",
             "ioc/xcs/lusiAtt/R0.3.3",
-            "ioc/xcs/lusiAtt/R0.3.2",
-            "ioc/xcs/lusiAtt/R0.3.1"
+            "ioc/xcs/lusiAtt/R0.3.2"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
@@ -18228,6 +18464,9 @@
         "port": 36001,
         "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/pvNotepad",
         "alias": "Python Devices Notepad",
+        "history": [
+            "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/pvNotepad"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-pcdsdevices",
@@ -18239,6 +18478,9 @@
         "port": 30101,
         "dir": "ioc/common/usdusb4/R1.0.4",
         "alias": "GON - USB Encoder Box",
+        "history": [
+            "ioc/common/usdusb4/R1.0.4"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-usdusb4",
@@ -18250,6 +18492,9 @@
         "port": 30004,
         "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/pvNotepad",
         "alias": "USR - PVs",
+        "history": [
+            "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/pvNotepad"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-userPV",
@@ -18262,6 +18507,7 @@
         "dir": "ioc/common/pciAcromag/R0.0.1-0.1.15",
         "alias": "USR - Analog I/O",
         "history": [
+            "ioc/common/pciAcromag/R0.0.1-0.1.15",
             "ioc/common/pciAcromag/R0.0.1-0.1.1"
         ],
         "base_version": "3.15",
@@ -18292,6 +18538,7 @@
         "disable": true,
         "alias": "USR - Lakeshore 340 Patch",
         "history": [
+            "/reg/g/pcds/epics-dev/spencera/xcs.svn/lakeshore340/current",
             "ioc/xcs/lakeshore340/R1.0.2.FAST",
             "ioc/xcs/lakeshore340/R1.0.1.FAST"
         ],
@@ -18321,6 +18568,7 @@
         "dir": "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current",
         "alias": "USR - R41 PPL Newport",
         "history": [
+            "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current",
             "ioc/xcs/NewportXPS8/R2.0.0"
         ],
         "base_version": "3.15",
@@ -18334,6 +18582,9 @@
         "port": 31004,
         "dir": "/cds/home/r/rajan-01/checkouts/epics/xcs/NewportXPS8/current",
         "alias": "USR - Aux Newport",
+        "history": [
+            "/cds/home/r/rajan-01/checkouts/epics/xcs/NewportXPS8/current"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-usr-xps3",
@@ -18362,6 +18613,9 @@
         "port": 32023,
         "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/xcs/vacuum/current",
         "alias": "Vacuum XRT PBT",
+        "history": [
+            "/reg/g/pcds/package/epics/3.14-dev/ioc/xcs/vacuum/current"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xrt-xcs-pbt-vacuum",
@@ -18373,6 +18627,9 @@
         "port": 30015,
         "dir": "ioc/xcs/qpc/R1.0.0",
         "alias": "Vacuum QPC",
+        "history": [
+            "ioc/xcs/qpc/R1.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-qpc",
@@ -18399,6 +18656,7 @@
         "dir": "/reg/g/pcds/epics-dev/pennebak/xcs/vacuum/current",
         "alias": "Vacuum",
         "history": [
+            "/reg/g/pcds/epics-dev/pennebak/xcs/vacuum/current",
             "ioc/xcs/vacuum/R0.1.4"
         ],
         "base_version": "3.15",
@@ -18426,6 +18684,9 @@
         "port": 30014,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/qmini/current",
         "disable": true,
+        "history": [
+            "/reg/g/pcds/epics-dev/cpino/ioc/las/qmini/current"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-spec-01",
@@ -18436,6 +18697,9 @@
         "host": "ioc-xcs-wave8-01",
         "port": 32520,
         "dir": "ioc/det/thermotek/R1.0.0",
+        "history": [
+            "ioc/det/thermotek/R1.0.0"
+        ],
         "cmd": "./st.cmd",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
@@ -18449,6 +18713,7 @@
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
         "alias": "SB2 - Wave8",
         "history": [
+            "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
             "ioc/xcs/wave8/R2.0.1",
             "ioc/common/wave8/R1.0.10",
             "ioc/xcs/wave8/R1.0.0",
@@ -21319,6 +21584,7 @@
         "dir": "ioc/common/picoMotion/R1.0.16",
         "alias": "DG2 - Ref Laser Pico",
         "history": [
+            "ioc/common/picoMotion/R1.0.16",
             "ioc/common/picoMotion/R0.9.8"
         ],
         "delay": 10,
@@ -21365,6 +21631,7 @@
         "disable": true,
         "alias": "MON - Lakeshore",
         "history": [
+            "ioc/xcs/lakeshore335/R1.1.0",
             "ioc/common/lakeshore335/R0.7.1"
         ],
         "base_version": "3.15",
@@ -21461,6 +21728,7 @@
         "dir": "ioc/xrt/ims/R2.2.7",
         "alias": "MON - LODCM Motion",
         "history": [
+            "ioc/xrt/ims/R2.2.7",
             "ioc/xcs/ims/R2.0.0"
         ],
         "delay": 10,
@@ -21475,6 +21743,9 @@
         "port": 39102,
         "dir": "ioc/xrt/ims/R2.2.6",
         "alias": "MON - Navitar Motion",
+        "history": [
+            "ioc/xrt/ims/R2.2.6"
+        ],
         "delay": 10,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
@@ -21565,6 +21836,9 @@
         "port": 30010,
         "dir": "/cds/home/opr/xcsopr/live_data/epics/xcs_ebeam_ipm_fixed",
         "alias": "Monitoring EPICS  EBeam Ipm",
+        "history": [
+            "/cds/home/opr/xcsopr/live_data/epics/xcs_ebeam_ipm_fixed"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "xcs_ebeam_ipm_fixed",
@@ -21576,6 +21850,9 @@
         "port": 30001,
         "dir": "/cds/home/opr/xcsopr/live_data/epics/xcs_epics_master",
         "alias": "Monitoring EPICS master",
+        "history": [
+            "/cds/home/opr/xcsopr/live_data/epics/xcs_epics_master"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "xcs_epics_master",
@@ -21587,6 +21864,9 @@
         "port": 30011,
         "dir": "/cds/home/opr/xcsopr/live_data/epics/xcs_ttfltpos",
         "alias": "Monitoring EPICS Timetool",
+        "history": [
+            "/cds/home/opr/xcsopr/live_data/epics/xcs_ttfltpos"
+        ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "xcs_ttfltpos",
