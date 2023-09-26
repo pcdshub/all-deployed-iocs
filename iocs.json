@@ -7937,7 +7937,6 @@
         "host": "ioc-cxi-rec04",
         "port": 30004,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/bk-1697",
-        "disable": true,
         "delay": 1,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -21581,16 +21580,9 @@
         "host": "ioc-xrt-xcsmisc1",
         "port": 39100,
         "dir": "ioc/common/picoMotion/R1.0.16",
-        "disable": true,
-        "alias": "DG2 - Ref Laser Pico",
-        "history": [
-            "ioc/common/picoMotion/R1.0.16",
-            "ioc/common/picoMotion/R0.9.8"
-        ],
-        "delay": 10,
-        "cmd": "../../bin/linux-x86/motion ./st.cmd",
+        "alias": "DG2  - Ref Laser Pico",
         "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-hfx-dg2-pico",
         "script": "/reg/g/pcds/epics/ioc/common/picoMotion/R1.0.16/iocBoot/ioc-xrt-hfx-dg2-pico/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/picoMotion/R1.0.16/bin/linux-x86/motion"
