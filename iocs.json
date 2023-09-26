@@ -7499,7 +7499,7 @@
         "host": "ioc-cxi-qadc",
         "port": 30004,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam",
-        "alias": "\"CAM\": Alvium",
+        "alias": "\"CAM\": SC1 Inline Alvium",
         "cmd": "./st.cmd",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -7885,6 +7885,17 @@
     },
     {
         "host": "ioc-cxi-rec03",
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
+        "alias": "\"CAM\": SC1 Offaxis Gige 08",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-gige-08",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam/build/iocBoot/ioc-cxi-gige-08/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-cxi-rec03",
         "port": 40000,
         "dir": "/reg/g/pcds/controls/camrecord",
         "alias": "CAM - Recorder03",
@@ -7909,7 +7920,8 @@
         "host": "ioc-cxi-rec03",
         "port": 30101,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam",
-        "alias": "CAM - SC1 Inline Questar Opal1000m",
+        "disable": true,
+        "alias": "zz- \"DT\": CAM - SC1 Inline Questar Opal1000m",
         "history": [
             "ioc/cxi/edtCam/R2.0.2",
             "ioc/cxi/edtCam/R1.2.1"
@@ -7937,6 +7949,7 @@
         "host": "ioc-cxi-rec04",
         "port": 30004,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/bk-1697",
+        "alias": "BK- Precision",
         "delay": 1,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -8035,7 +8048,7 @@
         "port": 30402,
         "dir": "ioc/cxi/edtCam/R2.0.2",
         "disable": true,
-        "alias": "CAM - SC1 Offaxis Questar Opal 1000m",
+        "alias": "\"zz\": \"DT\": CAM - SC1 Offaxis Questar Opal 1000m",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc1-offaxis",
