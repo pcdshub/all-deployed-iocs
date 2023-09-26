@@ -7499,7 +7499,7 @@
         "host": "ioc-cxi-qadc",
         "port": 30004,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam",
-        "alias": "\"CAM\": SC1 Inline Alvium",
+        "alias": "CAM - SC1 Inline Alvium",
         "cmd": "./st.cmd",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -7887,7 +7887,7 @@
         "host": "ioc-cxi-rec03",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
-        "alias": "\"CAM\": SC1 Offaxis Gige 08",
+        "alias": "CAM - SC1 Offaxis Gige 08",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-gige-08",
@@ -7989,6 +7989,17 @@
         "name": "ioc-cxi-gige-05",
         "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R1.0.1/build/iocBoot/ioc-cxi-gige-05/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-cxi-rec04",
+        "port": 30005,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/RohdeSchwarzHMP/current",
+        "alias": "Rohde Schwarz Jungfrau",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-hmp01",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/RohdeSchwarzHMP/current/build/iocBoot/ioc-cxi-hmp01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.1/bin/rhel7-x86_64/rshmp"
     },
     {
         "host": "ioc-cxi-rec04",
