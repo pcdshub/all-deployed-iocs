@@ -21581,6 +21581,7 @@
         "host": "ioc-xrt-xcsmisc1",
         "port": 39100,
         "dir": "ioc/common/picoMotion/R1.0.16",
+        "disable": true,
         "alias": "DG2 - Ref Laser Pico",
         "history": [
             "ioc/common/picoMotion/R1.0.16",
