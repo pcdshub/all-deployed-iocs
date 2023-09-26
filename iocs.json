@@ -4075,23 +4075,23 @@
     {
         "host": "ctl-rix-qrix-cam-02",
         "port": 30003,
-        "dir": "/reg/g/pcds/epics-dev/nagar123/ioc/rix/gigECam",
+        "dir": "ioc/rix/gigECam/R2.2.6",
         "alias": "QRIX GIGE 03",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-gige-03",
-        "script": "/reg/g/pcds/epics-dev/nagar123/ioc/rix/gigECam/build/iocBoot/ioc-qrix-gige-03/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.2.6/build/iocBoot/ioc-qrix-gige-03/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-rix-qrix-cam-02",
         "port": 30004,
-        "dir": "/reg/g/pcds/epics-dev/nagar123/ioc/rix/gigECam",
+        "dir": "ioc/rix/gigECam/R2.2.6",
         "alias": "QRIX GIGE 04",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-gige-04",
-        "script": "/reg/g/pcds/epics-dev/nagar123/ioc/rix/gigECam/build/iocBoot/ioc-qrix-gige-04/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.2.6/build/iocBoot/ioc-qrix-gige-04/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gigeTpr"
     },
     {
