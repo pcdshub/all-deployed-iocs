@@ -199,7 +199,7 @@
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-tpr2",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/kfe/tprStandalone/build/iocBoot/ioc-kfe-tpr2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.0/bin/rhel7-x86_64/tpr"
+        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.6/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "ctl-kfe-cam-03",
@@ -252,7 +252,7 @@
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-tpr3",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/kfe/tprStandalone/build/iocBoot/ioc-kfe-tpr3/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.0/bin/rhel7-x86_64/tpr"
+        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.3/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "ctl-kfe-misc-01",
