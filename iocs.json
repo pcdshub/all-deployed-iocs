@@ -191,14 +191,14 @@
     {
         "host": "ctl-kfe-cam-02",
         "port": 30001,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/kfe/tprStandalone",
+        "dir": "ioc/kfe/tprStandalone/R1.0.2",
         "history": [
             "/cds/home/m/mcbrowne/trunk2/ioc/kfe/tprStandalone"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-tpr2",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/kfe/tprStandalone/build/iocBoot/ioc-kfe-tpr2/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/kfe/tprStandalone/R1.0.2/build/iocBoot/ioc-kfe-tpr2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.6/bin/rhel7-x86_64/tpr"
     },
     {
@@ -5169,8 +5169,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-userPV",
-        "script": "/reg/g/pcds/epics/ioc/tmo/pvNotepad/R1.1.5/build/iocBoot/ioc-tmo-userPV/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
+        "script": "/reg/g/pcds/epics/ioc/tmo/pvNotepad/R1.1.5/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tmo-mot-01",
