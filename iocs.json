@@ -7404,17 +7404,6 @@
         "binary": "/reg/g/pcds/epics-dev/divya/ioc/common/protura/bin/rhel7-x86_64/protura"
     },
     {
-        "host": "ioc-cxi-protura1",
-        "port": 30123,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/cxi/RohdeSchwarzHMP/current",
-        "alias": "USR - Rohde-Schwarz",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-usr-hmp-01",
-        "script": "/reg/g/pcds/epics-dev/pennebak/cxi/RohdeSchwarzHMP/current/build/iocBoot/ioc-cxi-usr-hmp-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.0.0/bin/linux-x86_64/rshmp"
-    },
-    {
         "host": "ioc-cxi-protura2",
         "port": 30141,
         "dir": "ioc/common/detector-ctrl/R3.2.5",
