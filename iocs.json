@@ -6600,7 +6600,6 @@
         "host": "ioc-cxi-lassrv2",
         "port": 30702,
         "dir": "ioc/cxi/picoMotion/R2.1.0",
-        "disable": true,
         "alias": "Pico Laser",
         "history": [
             "ioc/cxi/picoMotion/R2.1.0",
