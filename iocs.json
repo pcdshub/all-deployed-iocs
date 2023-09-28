@@ -7583,7 +7583,6 @@
         "host": "ioc-cxi-qadc",
         "port": 30513,
         "dir": "ioc/cxi/ims/R6.3.1",
-        "disable": true,
         "alias": "IMS DG2 IPM",
         "history": [
             "ioc/cxi/ims/R2.0.0",
