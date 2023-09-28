@@ -4573,6 +4573,17 @@
     },
     {
         "host": "ctl-tmo-cam-02",
+        "port": 39103,
+        "dir": "/reg/g/pcds/epics-dev/armenta1/tmo/gigECam",
+        "alias": "TMO MRCO GigE 03",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-mrco-tmo-gige-03",
+        "script": "/reg/g/pcds/epics-dev/armenta1/tmo/gigECam/build/iocBoot/ioc-mrco-tmo-gige-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-tmo-cam-02",
         "port": 39102,
         "dir": "/reg/g/pcds/epics-dev/armenta1/tmo/gigECam",
         "alias": "TMO MRCO GigE 04",
@@ -6570,7 +6581,7 @@
     {
         "host": "ioc-cxi-jungfrau01",
         "port": 39547,
-        "dir": "ioc/common/jungfrau4m/R1.1.8",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/common/jungfrau4m",
         "alias": "JF4M - Det Control",
         "history": [
             "ioc/common/jungfrau4m/R1.1.2",
@@ -6579,8 +6590,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-jf4m",
-        "script": "/reg/g/pcds/epics/ioc/common/jungfrau4m/R1.1.8/children/build/iocBoot/ioc-cxi-jf4m/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/jungfrau4m/R1.1.8/bin/rhel7-x86_64/jungfrau4m"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/common/jungfrau4m/children/build/iocBoot/ioc-cxi-jf4m/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/divya/ioc/common/jungfrau4m/bin/rhel7-x86_64/jungfrau4m"
     },
     {
         "host": "ioc-cxi-jungfrau01",
@@ -8252,8 +8263,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc1-PMC100",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/arcus/pmc100/build/iocBoot/ioc-cxi-sc1-PMC100/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/arcus/bin/rhel7-x86_64/arcus"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/arcus/pmc100/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-cxi-sc1",
