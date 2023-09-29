@@ -11442,7 +11442,7 @@
     {
         "host": "ioc-mec-evr01",
         "port": 30001,
-        "dir": "ioc/mec/usrevr/R1.13.0",
+        "dir": "/cds/home/p/peregrin/modules/mec/usrevr/usrevr-git",
         "alias": "EVR -- SLAC EVR ns laser inhibit",
         "history": [
             "ioc/mec/usrevr/R1.13.0"
@@ -11450,8 +11450,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-usr-evr01",
-        "script": "/reg/g/pcds/epics/ioc/mec/usrevr/R1.13.0/iocBoot/ioc-mec-usr-evr01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/mec/usrevr/R1.13.0/bin/linux-x86_64/evr"
+        "script": "/cds/home/p/peregrin/modules/mec/usrevr/usrevr-git/iocBoot/ioc-mec-usr-evr01/st.cmd",
+        "binary": "/cds/home/p/peregrin/modules/mec/usrevr/usrevr-git/bin/linux-x86_64/evr"
     },
     {
         "host": "ioc-mec-gige01",
