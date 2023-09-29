@@ -8059,7 +8059,7 @@
         "host": "ioc-cxi-rec04",
         "port": 30005,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/RohdeSchwarzHMP/current",
-        "alias": "Rohde Schwarz Jungfrau",
+        "alias": "Rohde Schwarz Jungfrau 01",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-hmp01",
