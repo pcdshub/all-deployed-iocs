@@ -8350,6 +8350,16 @@
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.3.0/bin/rhel7-x86_64/ims"
     },
     {
+        "host": "ioc-cxi-sc1",
+        "port": 30006,
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/cxi/pmc100",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-ksc1-PMC100",
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/cxi/pmc100/build/iocBoot/ioc-ksc1-PMC100/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/arcus/bin/rhel7-x86_64/arcus"
+    },
+    {
         "host": "ioc-cxi-sc2",
         "port": 30061,
         "dir": "ioc/cxi/pr36/R1.2.1",
