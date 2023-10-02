@@ -8289,7 +8289,6 @@
         "host": "ioc-cxi-sc1",
         "port": 34500,
         "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/cxi/pmc100",
-        "disable": true,
         "alias": "Piezo SC1 PP-30 Motors",
         "history": [
             "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/pmc100"
