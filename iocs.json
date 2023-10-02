@@ -7329,6 +7329,7 @@
         "host": "ioc-cxi-mot2",
         "port": 34502,
         "dir": "ioc/cxi/ims/R6.3.1",
+        "disable": true,
         "alias": "IMS SC2 User Smart Motors",
         "history": [
             "ioc/cxi/ims/R2.0.1",
@@ -8288,6 +8289,7 @@
         "host": "ioc-cxi-sc1",
         "port": 34500,
         "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/cxi/pmc100",
+        "disable": true,
         "alias": "Piezo SC1 PP-30 Motors",
         "history": [
             "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/pmc100"
