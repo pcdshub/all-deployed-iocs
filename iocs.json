@@ -8883,7 +8883,6 @@
         "host": "ioc-cxi-usrmot2",
         "port": 34505,
         "dir": "/reg/neh/home/trendahl/Workarea/cxi/pmc100/current",
-        "disable": true,
         "alias": "Piezo User PP-30 Motor",
         "history": [
             "/reg/neh/home/trendahl/Workarea/cxi/pmc100/current",
