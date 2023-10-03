@@ -16394,11 +16394,11 @@
     {
         "host": "ioc-ued-ccd01",
         "port": 30004,
-        "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/ued/liquid_chamber/XPS",
+        "dir": "/reg/g/pcds/epics-dev/nagar123/ioc/ued/Newport",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-xps",
-        "script": "/reg/g/pcds/epics-dev/agilardi/iocs/ued/liquid_chamber/XPS/build/iocBoot/ioc-ued-xps/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/nagar123/ioc/ued/Newport/build/iocBoot/ioc-ued-xps/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
     },
     {
