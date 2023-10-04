@@ -6623,7 +6623,7 @@
     {
         "host": "ioc-cxi-jungfrau01",
         "port": 39547,
-        "dir": "ioc/common/jungfrau4m/R1.1.8",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/common/jungfrau4m",
         "alias": "JF4M - Det Control",
         "history": [
             "ioc/common/jungfrau4m/R1.1.2",
@@ -6632,8 +6632,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-jf4m",
-        "script": "/reg/g/pcds/epics/ioc/common/jungfrau4m/R1.1.8/children/build/iocBoot/ioc-cxi-jf4m/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/jungfrau4m/R1.1.8/bin/rhel7-x86_64/jungfrau4m"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/common/jungfrau4m/children/build/iocBoot/ioc-cxi-jf4m/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/divya/ioc/common/jungfrau4m/bin/rhel7-x86_64/jungfrau4m"
     },
     {
         "host": "ioc-cxi-jungfrau01",
