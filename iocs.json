@@ -7111,7 +7111,7 @@
     {
         "host": "ioc-cxi-mot2",
         "port": 34506,
-        "dir": "ioc/cxi/ims/R6.3.1",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims",
         "alias": "IMS DSB Motors",
         "history": [
             "ioc/cxi/ims/R4.0.39",
@@ -7121,7 +7121,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dsb-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.3.1/build/iocBoot/ioc-cxi-dsb-ims/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-dsb-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.3.0/bin/rhel7-x86_64/ims"
     },
     {
