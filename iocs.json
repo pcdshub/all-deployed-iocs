@@ -3078,12 +3078,12 @@
     {
         "host": "ctl-lfe-misc-01",
         "port": 30016,
-        "dir": "ioc/lfe/lcls-plc-lfe-arbiter/v3.1.1/iocBoot/ioc-ArbiterPLC",
+        "dir": "ioc/lfe/lcls-plc-lfe-arbiter/v3.2.0/iocBoot/ioc-ArbiterPLC",
         "alias": "LFE Arbiter",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-lfe-arbiter",
-        "script": "/reg/g/pcds/epics/ioc/lfe/lcls-plc-lfe-arbiter/v3.1.1/iocBoot/ioc-ArbiterPLC/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/lfe/lcls-plc-lfe-arbiter/v3.2.0/iocBoot/ioc-ArbiterPLC/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
@@ -5675,11 +5675,11 @@
     {
         "host": "ctl-txi-misc-01",
         "port": 39200,
-        "dir": "/reg/g/pcds/epics-dev/jjoshi/txi/test/lcls-plc-txi-hxr-vac",
+        "dir": "ioc/txi/lcls-plc-txi-hxr-vac/v1.0.2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-hxr-vac",
-        "script": "/reg/g/pcds/epics-dev/jjoshi/txi/test/lcls-plc-txi-hxr-vac/iocBoot/ioc-txi-hxr-vac/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/txi/lcls-plc-txi-hxr-vac/v1.0.2/iocBoot/ioc-txi-hxr-vac/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
