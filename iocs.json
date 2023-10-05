@@ -8321,6 +8321,17 @@
     },
     {
         "host": "ioc-cxi-sc1",
+        "port": 30006,
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/cxi/mmc",
+        "alias": "MMC - SC1 14",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-sc1-mmc",
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/cxi/mmc/build/iocBoot/ioc-cxi-sc1-mmc/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
+    },
+    {
+        "host": "ioc-cxi-sc1",
         "port": 30702,
         "dir": "ioc/common/picoMotion/R4.0.2",
         "alias": "Pico SC1 Questar Optics",
