@@ -16645,7 +16645,7 @@
     {
         "host": "ioc-xcs-gige01",
         "port": 32522,
-        "dir": "ioc/xcs/gigECam/R3.0.5",
+        "dir": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/gigECam",
         "alias": "CAM - Gige 20",
         "history": [
             "ioc/xcs/gigECam/R3.0.5",
@@ -16654,7 +16654,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-20",
-        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R3.0.5/build/iocBoot/ioc-xcs-gige-20/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-20/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
     },
     {
