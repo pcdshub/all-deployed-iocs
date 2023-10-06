@@ -21651,7 +21651,6 @@
         "host": "ioc-xrt-wave8",
         "port": 39003,
         "dir": "/reg/g/pcds/epics-dev/sheppard/lcls-plc-hxx-vonhamos",
-        "disable": true,
         "alias": "Von Hamos Y Motion",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
