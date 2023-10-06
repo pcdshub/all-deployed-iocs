@@ -17953,6 +17953,16 @@
     },
     {
         "host": "ioc-xcs-srv01",
+        "port": 30004,
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/xcs/dg",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-delaygen2",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/xcs/dg/build/iocBoot/ioc-xcs-delaygen2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/dg/R3.0.0/bin/rhel7-x86_64/delaygenApp"
+    },
+    {
+        "host": "ioc-xcs-srv01",
         "port": 32507,
         "dir": "ioc/xcs/gigECam/R3.0.5",
         "alias": "CAM - Gige 07",
