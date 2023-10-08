@@ -7766,12 +7766,12 @@
     {
         "host": "ioc-cxi-qadc",
         "port": 30003,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/pvNotepad",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/pvNotepad",
         "alias": "MISC - pcdsdevices Notepad PVs",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-pcdsdevices",
-        "script": "/reg/g/pcds/epics-dev/pennebak/git/cxi/pvNotepad/build/iocBoot/ioc-cxi-pcdsdevices/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/pvNotepad/build/iocBoot/ioc-cxi-pcdsdevices/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
     },
     {
