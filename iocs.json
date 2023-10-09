@@ -8343,6 +8343,7 @@
         "host": "ioc-cxi-sc1",
         "port": 30006,
         "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/cxi/mmc",
+        "disable": true,
         "alias": "MMC - SC1 14",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
