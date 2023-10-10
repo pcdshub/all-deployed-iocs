@@ -16459,7 +16459,7 @@
         "config_file": "/reg/g/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-xps",
         "script": "/reg/g/pcds/epics-dev/nagar123/ioc/ued/Newport/build/iocBoot/ioc-ued-xps/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.1.0/bin/rhel7-x86_64/xps8"
     },
     {
         "host": "ioc-und-rec01",
