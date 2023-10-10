@@ -5632,16 +5632,6 @@
         "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git/bin/rhel7-x86_64/pgpWave8"
     },
     {
-        "host": "ctl-tst-pgp02",
-        "port": 30001,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/raritan",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-src800-01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/raritan/children/build/iocBoot/ioc-tst-src800-01/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/raritan/bin/rhel7-x86_64/snmp"
-    },
-    {
         "host": "ctl-txi-cam-01",
         "port": 39101,
         "dir": "ioc/txi/gigECam/R1.0.0/build/iocBoot/ioc-im2l1-gige",
@@ -11008,6 +10998,16 @@
         "name": "ioc-las-sim900-01",
         "script": "/reg/g/pcds/epics/ioc/common/sim900/R0.1.0/iocBoot/ioc-las-sim900-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/sim900/R0.1.0/bin/linux-x86/sim900"
+    },
+    {
+        "host": "ioc-las-srv01",
+        "port": 30001,
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/raritan",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-tst-src800-01",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/raritan/children/build/iocBoot/ioc-tst-src800-01/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/raritan/bin/rhel7-x86_64/snmp"
     },
     {
         "host": "ioc-las-srv02",
