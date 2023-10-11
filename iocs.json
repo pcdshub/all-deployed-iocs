@@ -5386,6 +5386,7 @@
         "host": "ctl-tmo-mot-01",
         "port": 35000,
         "dir": "/reg/g/pcds/epics-dev/vanxiong/lcls-plc-vls-motion",
+        "disable": true,
         "history": [
             "/reg/g/pcds/epics-dev/vanxiong/lcls-plc-vls-motion"
         ],
