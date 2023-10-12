@@ -3822,6 +3822,7 @@
         "host": "ctl-rix-fim-01",
         "port": 30001,
         "dir": "ioc/rix/pgpWave8/R1.7.5",
+        "disable": true,
         "alias": "Beamline Wave8 01",
         "history": [
             "/reg/g/pcds/epics-dev/jozamudi/rix/pgpWave8",
@@ -3840,6 +3841,7 @@
         "host": "ctl-rix-fim-01",
         "port": 30002,
         "dir": "ioc/rix/pgpWave8/R1.7.5",
+        "disable": true,
         "alias": "Beamline Wave8 02",
         "history": [
             "ioc/rix/pgpWave8/R1.6.0",
@@ -3857,6 +3859,7 @@
         "host": "ctl-rix-fim-01",
         "port": 30003,
         "dir": "ioc/rix/pgpWave8/R1.7.5",
+        "disable": true,
         "alias": "ChemRIXS Wave8",
         "history": [
             "ioc/rix/pgpWave8/R1.6.0",
