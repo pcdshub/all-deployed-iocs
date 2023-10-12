@@ -6154,6 +6154,7 @@
         "host": "daq-xcs-pgp01",
         "port": 35001,
         "dir": "ioc/xcs/epix/R1.5.1",
+        "alias": "DET - epix1",
         "history": [
             "ioc/xcs/epix/R1.5.1",
             "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/epix",
@@ -6224,6 +6225,7 @@
         "host": "daq-xcs-pgp02",
         "port": 31000,
         "dir": "ioc/xcs/epix/R1.5.1",
+        "alias": "DET- epix10k2M",
         "history": [
             "ioc/xcs/epix/R1.5.1",
             "/reg/g/pcds/epics-dev/jjoshi/xcs_dir/epix/current",
@@ -6240,6 +6242,7 @@
         "host": "daq-xcs-pgp02",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/uxi/current",
+        "alias": "DET - UXI blob",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-uxi-pink",
