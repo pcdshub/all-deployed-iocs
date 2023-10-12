@@ -8156,6 +8156,17 @@
     },
     {
         "host": "ioc-cxi-rec04",
+        "port": 30008,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/timetool",
+        "alias": "Timetool PV",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-tt",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/timetool/build/iocBoot/ioc-cxi-tt/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/timetool/R1.0.3/bin/rhel7-x86_64/gsd"
+    },
+    {
+        "host": "ioc-cxi-rec04",
         "port": 34503,
         "dir": "ioc/cxi/ims/R6.3.1",
         "alias": "IMS DSB User Dumb Motors",
