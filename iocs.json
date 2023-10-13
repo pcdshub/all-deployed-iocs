@@ -14806,7 +14806,7 @@
     {
         "host": "ioc-mfx-wave8",
         "port": 32010,
-        "dir": "/reg/neh/home/zlentz/github/vonhamos-motion/epics/cfg",
+        "dir": "/reg/g/pcds/epics-dev/spencera/plcs/vonhamos-motion/epics/cfg",
         "alias": "DET - Von Hamos Beckhoff Motion",
         "history": [
             "/reg/neh/home/zlentz/github/vonhamos-motion/epics/cfg"
@@ -14814,8 +14814,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-vhs-01",
-        "script": "/reg/neh/home/zlentz/github/vonhamos-motion/epics/cfg/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/spencera/plcs/vonhamos-motion/epics/cfg/build/iocBoot/ioc-mfx-vhs-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/spencera/plcs/vonhamos-motion/epics/ioc/bin/rhel7-x86_64/ads"
     },
     {
         "host": "ioc-rix-mpod-01",
