@@ -14807,7 +14807,6 @@
         "host": "ioc-mfx-wave8",
         "port": 32010,
         "dir": "/reg/neh/home/zlentz/github/vonhamos-motion/epics/cfg",
-        "disable": true,
         "alias": "DET - Von Hamos Beckhoff Motion",
         "history": [
             "/reg/neh/home/zlentz/github/vonhamos-motion/epics/cfg"
@@ -16902,6 +16901,7 @@
         "host": "ioc-xcs-mot2",
         "port": 32500,
         "dir": "/reg/g/pcds/epics-dev/spencera/plcs/vonhamos-motion/epics/cfg",
+        "disable": true,
         "alias": "Vonhamos PLC",
         "history": [
             "/reg/g/pcds/epics-dev/spencera/plcs/vonhamos-motion/epics/cfg"
