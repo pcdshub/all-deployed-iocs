@@ -356,7 +356,7 @@
     {
         "host": "ctl-kfe-misc-01",
         "port": 30301,
-        "dir": "ioc/kfe/ict/R1.0.0",
+        "dir": "/reg/g/pcds/epics-dev/armenta1/kfe/ict/",
         "history": [
             "ioc/kfe/ict/R1.0.0",
             "/reg/neh/home/sfsyunus/workarea/ict"
@@ -364,13 +364,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-plv-pdu-02",
-        "script": "/reg/g/pcds/epics/ioc/kfe/ict/R1.0.0/build/iocBoot/ioc-kfe-plv-pdu-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.3/bin/rhel7-x86_64/ict"
+        "script": "/reg/g/pcds/epics-dev/armenta1/kfe/ict/build/iocBoot/ioc-kfe-plv-pdu-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.7/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-kfe-misc-01",
         "port": 30302,
-        "dir": "ioc/kfe/ict/R1.0.0",
+        "dir": "/reg/g/pcds/epics-dev/armenta1/kfe/ict/",
         "history": [
             "ioc/kfe/ict/R1.0.0",
             "/reg/neh/home/sfsyunus/workarea/ict"
@@ -378,13 +378,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-plv-pdu-03",
-        "script": "/reg/g/pcds/epics/ioc/kfe/ict/R1.0.0/build/iocBoot/ioc-kfe-plv-pdu-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.3/bin/rhel7-x86_64/ict"
+        "script": "/reg/g/pcds/epics-dev/armenta1/kfe/ict/build/iocBoot/ioc-kfe-plv-pdu-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.7/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-kfe-misc-01",
         "port": 30303,
-        "dir": "ioc/kfe/ict/R1.0.0",
+        "dir": "/reg/g/pcds/epics-dev/armenta1/kfe/ict/",
         "history": [
             "ioc/kfe/ict/R1.0.0",
             "/reg/neh/home/sfsyunus/workarea/ict"
@@ -392,8 +392,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-plv-pdu-04",
-        "script": "/reg/g/pcds/epics/ioc/kfe/ict/R1.0.0/build/iocBoot/ioc-kfe-plv-pdu-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.3/bin/rhel7-x86_64/ict"
+        "script": "/reg/g/pcds/epics-dev/armenta1/kfe/ict/build/iocBoot/ioc-kfe-plv-pdu-04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.7/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-kfe-misc-01",
