@@ -13683,7 +13683,7 @@
     },
     {
         "host": "ioc-mfx-cam01",
-        "port": 30007,
+        "port": 39102,
         "dir": "/reg/g/pcds/epics-dev/dorlhiac/ioc/mfx/timetool",
         "alias": "mfx timetool",
         "base_version": "3.15",
