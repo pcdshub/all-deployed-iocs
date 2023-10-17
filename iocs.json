@@ -6225,6 +6225,7 @@
         "host": "daq-xcs-pgp02",
         "port": 31000,
         "dir": "ioc/xcs/epix/R1.5.1",
+        "disable": true,
         "alias": "DET- epix10k2M",
         "history": [
             "ioc/xcs/epix/R1.5.1",
@@ -13694,17 +13695,6 @@
     },
     {
         "host": "ioc-mfx-cam01",
-        "port": 39102,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/timetool",
-        "alias": "mfx timetool",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-tt",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/timetool/build/iocBoot/ioc-mfx-tt/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/timetool/R1.0.3/bin/rhel7-x86_64/gsd"
-    },
-    {
-        "host": "ioc-mfx-cam01",
         "port": 30005,
         "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/mmc",
         "disable": true,
@@ -14073,6 +14063,17 @@
         "name": "ioc-mfx-tfs-ims",
         "script": "/reg/g/pcds/epics/ioc/mfx/ims/R2.1.0/build/iocBoot/ioc-mfx-tfs-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.9/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-mfx-cam02",
+        "port": 30004,
+        "dir": "/reg/g/pcds/epics-dev/dorlhiac/ioc/mfx/timetool",
+        "alias": "mfx timetool",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-tt",
+        "script": "/reg/g/pcds/epics-dev/dorlhiac/ioc/mfx/timetool/build/iocBoot/ioc-mfx-tt/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/timetool/R1.0.3/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ioc-mfx-cam02",
