@@ -9390,6 +9390,7 @@
         "host": "ioc-det-portable1",
         "port": 30001,
         "dir": "ioc/common/mpod/R2.1.8",
+        "disable": true,
         "history": [
             "ioc/common/mpod/R2.1.8",
             "ioc/common/mpod/R2.1.4",
@@ -9400,6 +9401,16 @@
         "name": "ioc-det-mobile-mpod",
         "script": "/reg/g/pcds/epics/ioc/common/mpod/R2.1.8/iocBoot/ioc-det-mobile-mpod/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/mpod/R2.1.8/bin/linux-x86_64/mpod"
+    },
+    {
+        "host": "ioc-det-portable1",
+        "port": 30003,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/common/mpod",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
+        "name": "ioc-det-mobile-xpp-mpod",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/mpod/iocBoot/ioc-det-mobile-xpp-mpod/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/espov/ioc/common/mpod/bin/linux-x86_64/mpod"
     },
     {
         "host": "ioc-det-portable1",
