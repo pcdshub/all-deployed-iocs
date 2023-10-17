@@ -458,7 +458,7 @@
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-rtd01",
         "script": "/reg/g/pcds/epics-dev/nrw/iocs/ek9000/build/iocBoot/ioc-kfe-rtd01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.3.1/bin/rhel7-x86_64/ek9000IOC"
+        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.7.1/bin/rhel7-x86_64/ek9000IOC"
     },
     {
         "host": "ctl-kfe-misc-01",
