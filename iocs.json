@@ -651,7 +651,7 @@
     {
         "host": "ctl-kfe-vac-01",
         "port": 30101,
-        "dir": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.5/",
+        "dir": "/reg/g/pcds/epics-dev/ioc/kfe/ioc-kfe-gmd-vac-serial/current",
         "history": [
             "ioc/common/vacuum/R1.0.5",
             "/reg/g/pcds/epics-dev/nwbrown/vacuum_IOCs/current"
@@ -659,8 +659,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-xgmd-vac-support",
-        "script": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.5/children/build/iocBoot/ioc-kfe-xgmd-vac-support/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.5/bin/rhel7-x86_64/vacuum"
+        "script": "/reg/g/pcds/epics-dev/ioc/kfe/ioc-kfe-gmd-vac-serial/current/children/build/iocBoot/ioc-kfe-xgmd-vac-support/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/ioc/kfe/ioc-kfe-gmd-vac-serial/current/bin/rhel7-x86_64/vacuum"
     },
     {
         "host": "ctl-kfe-vac-01",
@@ -21686,11 +21686,11 @@
     {
         "host": "ioc-xrt-wave8",
         "port": 39007,
-        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-xrt-optics/iocBoot/ioc-xrt-optics/",
+        "dir": "/reg/g/pcds/epics/ioc/xrt/lcls-plc-xrt-optics/v5.4.0/iocBoot/ioc-xrt-optics/",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-optics",
-        "script": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-xrt-optics/iocBoot/ioc-xrt-optics/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xrt/lcls-plc-xrt-optics/v5.4.0/iocBoot/ioc-xrt-optics/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
