@@ -19600,7 +19600,6 @@
         "host": "ioc-xpp-misc01",
         "port": 30343,
         "dir": "ioc/xpp/lakeshore336/R2.2.1",
-        "disable": true,
         "alias": "USR Lakeshore 336",
         "history": [
             "ioc/xpp/lakeshore336/R1.0.0"
