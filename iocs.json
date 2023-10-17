@@ -6280,13 +6280,13 @@
     {
         "host": "daq-xpp-pgp01",
         "port": 30202,
-        "dir": "ioc/xpp/epix/R1.5.0",
+        "dir": "/cds/group/pcds/epics-dev/espov/ioc/xpp/epix",
         "alias": "DET - MBL EPIX 2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-detmbl-epix2",
-        "script": "/reg/g/pcds/epics/ioc/xpp/epix/R1.5.0/build/iocBoot/ioc-xpp-detmbl-epix2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.5.0/bin/rhel7-x86_64/epixMonIoc"
+        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/epix/build/iocBoot/ioc-xpp-detmbl-epix2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.4.5/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-xpp-pgp01",
