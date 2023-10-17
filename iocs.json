@@ -6281,7 +6281,6 @@
         "host": "daq-xpp-pgp01",
         "port": 30202,
         "dir": "ioc/xpp/epix/R1.5.0",
-        "disable": true,
         "alias": "DET - MBL EPIX 2",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
