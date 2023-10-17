@@ -19646,6 +19646,7 @@
         "host": "ioc-xpp-misc01",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/lakeshore336",
+        "disable": true,
         "alias": "USR Lakeshore 336 XCS",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
