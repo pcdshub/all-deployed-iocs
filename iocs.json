@@ -8106,7 +8106,6 @@
         "host": "ioc-cxi-rec04",
         "port": 30007,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/mmc",
-        "disable": true,
         "alias": "\"TEST\": SC1 MMC",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
