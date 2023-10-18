@@ -449,7 +449,7 @@
     {
         "host": "ctl-kfe-misc-01",
         "port": 30150,
-        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/ek9000/build/iocBoot/ioc-kfe-rtd01/",
+        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/ek9000",
         "history": [
             "/reg/g/pcds/epics-dev/nrw/iocs/ek9000/build/iocBoot/ioc-kfe-rtd01/",
             "/reg/g/pcds/epics-dev/lorelli/ioc-fee-rtd"
