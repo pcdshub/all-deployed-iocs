@@ -4821,15 +4821,15 @@
     {
         "host": "ctl-tmo-misc-01",
         "port": 30214,
-        "dir": "ioc/tmo/gigEcam/R4.3.0",
+        "dir": "ioc/tmo/gigECam/R5.0.0",
         "history": [
             "ioc/tmo/gigECam/R1.0.1"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-cam-tmo-14",
-        "script": "/reg/g/pcds/epics/ioc/tmo/gigEcam/R4.3.0/build/iocBoot/ioc-cam-tmo-14/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.3.0/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics/ioc/tmo/gigECam/R5.0.0/build/iocBoot/ioc-cam-tmo-14/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-tmo-misc-01",
