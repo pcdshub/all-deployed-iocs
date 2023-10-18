@@ -14065,17 +14065,6 @@
     },
     {
         "host": "ioc-mfx-cam02",
-        "port": 30004,
-        "dir": "/reg/g/pcds/epics-dev/dorlhiac/ioc/mfx/timetool",
-        "alias": "mfx timetool",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-tt",
-        "script": "/reg/g/pcds/epics-dev/dorlhiac/ioc/mfx/timetool/build/iocBoot/ioc-mfx-tt/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/timetool/R1.0.3/bin/rhel7-x86_64/gsd"
-    },
-    {
-        "host": "ioc-mfx-cam02",
         "port": 30950,
         "dir": "ioc/mfx/ims/R2.1.0",
         "alias": "USR - Motion Dumb",
