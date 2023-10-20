@@ -2177,8 +2177,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-tst-gsd-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/SDG_Elite/children/build/iocBoot/ioc-tst-gsd-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/SDG_Elite/bin/rhel7-x86_64/gsd"
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/SDG_Elite/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-las-lhn-01",
