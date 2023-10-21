@@ -13657,6 +13657,16 @@
     },
     {
         "host": "ioc-mfx-cam01",
+        "port": 30007,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/pvNotepad",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-pcdsdevices",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/mfx/pvNotepad/build/iocBoot/ioc-mfx-pcdsdevices/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
+    },
+    {
+        "host": "ioc-mfx-cam01",
         "port": 32023,
         "dir": "ioc/common/picoMotion/R4.0.0",
         "alias": "LAS - PICO",
