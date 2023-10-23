@@ -19336,8 +19336,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-midir-gige-ff",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-xpp-midir-gige-ff/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/gigECam/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xpp-las01",
