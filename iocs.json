@@ -18908,8 +18908,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-04",
-        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-xpp-gige-04/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/gigECam/bin/rhel7-x86_64/gige"
+        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xpp-gige01",
