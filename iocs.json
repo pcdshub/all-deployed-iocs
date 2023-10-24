@@ -15094,7 +15094,6 @@
         "host": "ioc-tmo-mpod-fim-01",
         "port": 30001,
         "dir": "ioc/common/isegPower/R1.3.1",
-        "disable": true,
         "history": [
             "ioc/common/isegPower/R1.3.0"
         ],
