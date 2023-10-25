@@ -6258,7 +6258,6 @@
         "host": "daq-xcs-pgp02",
         "port": 31000,
         "dir": "ioc/xcs/epix/R1.5.1",
-        "disable": true,
         "alias": "DET- epix10k2M",
         "history": [
             "ioc/xcs/epix/R1.5.1",
