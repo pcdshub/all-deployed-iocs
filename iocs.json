@@ -4849,34 +4849,34 @@
     {
         "host": "ctl-tmo-misc-01",
         "port": 39105,
-        "dir": "/reg/g/pcds/epics-dev/armenta1/tmo/pdu_snmp",
+        "dir": "ioc/tmo/pdu_snmp/R2.4.6",
         "alias": "ioc-fee-pwr-r18",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-fee-pwr-r18",
-        "script": "/reg/g/pcds/epics-dev/armenta1/tmo/pdu_snmp/build/iocBoot/ioc-fee-pwr-r18/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/tmo/pdu_snmp/R2.4.6/build/iocBoot/ioc-fee-pwr-r18/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ctl-tmo-misc-01",
         "port": 39106,
-        "dir": "/reg/g/pcds/epics-dev/armenta1/tmo/pdu_snmp",
+        "dir": "ioc/tmo/pdu_snmp/R2.4.6",
         "alias": "ioc-fee-pwr-r19",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-fee-pwr-r19",
-        "script": "/reg/g/pcds/epics-dev/armenta1/tmo/pdu_snmp/build/iocBoot/ioc-fee-pwr-r19/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/tmo/pdu_snmp/R2.4.6/build/iocBoot/ioc-fee-pwr-r19/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ctl-tmo-misc-01",
         "port": 39107,
-        "dir": "/reg/g/pcds/epics-dev/armenta1/tmo/pdu_snmp",
+        "dir": "ioc/tmo/pdu_snmp/R2.4.6",
         "alias": "ioc-fee-pwr-r20",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-fee-pwr-r20",
-        "script": "/reg/g/pcds/epics-dev/armenta1/tmo/pdu_snmp/build/iocBoot/ioc-fee-pwr-r20/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/tmo/pdu_snmp/R2.4.6/build/iocBoot/ioc-fee-pwr-r20/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
     },
     {
@@ -5183,12 +5183,12 @@
     {
         "host": "ctl-tmo-misc-01",
         "port": 39108,
-        "dir": "/reg/g/pcds/epics-dev/armenta1/tmo/pdu_snmp",
+        "dir": "ioc/tmo/pdu_snmp/R2.4.6",
         "alias": "ioc-tmo-pwr-r04",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-pwr-r04",
-        "script": "/reg/g/pcds/epics-dev/armenta1/tmo/pdu_snmp/build/iocBoot/ioc-tmo-pwr-r04/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/tmo/pdu_snmp/R2.4.6/build/iocBoot/ioc-tmo-pwr-r04/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
     },
     {
@@ -18940,8 +18940,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-04",
-        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/st.cmd",
-        "binary": null
+        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-xpp-gige-04/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/gigECam/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-gige01",
