@@ -2171,17 +2171,6 @@
     },
     {
         "host": "ctl-las-lhn-01",
-        "port": 30004,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/SDG_Elite",
-        "alias": "TEST SDG",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-tst-gsd-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/SDG_Elite/children/build/iocBoot/ioc-tst-gsd-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/SDG_Elite/bin/rhel7-x86_64/sdg"
-    },
-    {
-        "host": "ctl-las-lhn-01",
         "port": 43500,
         "dir": "/reg/g/pcds/epics-dev/sfsyunus/las/fstiming-py",
         "disable": true,
@@ -17988,6 +17977,17 @@
     },
     {
         "host": "ioc-xcs-srv01",
+        "port": 39100,
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/xcs/dg",
+        "alias": "ioc-xcs-delaygen1",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-delaygen1",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/xcs/dg/build/iocBoot/ioc-xcs-delaygen1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/dg/R3.0.0/bin/rhel7-x86_64/delaygenApp"
+    },
+    {
+        "host": "ioc-xcs-srv01",
         "port": 30004,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/xcs/dg",
         "base_version": "3.15",
@@ -18186,21 +18186,6 @@
         "name": "ioc-xcs-cryojet-02",
         "script": "/reg/g/pcds/epics-dev/spencera/common/cryojet/iocBoot/ioc-xcs-cryojet-02/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/spencera/common/cryojet/bin/rhel7-x86_64/cryojet"
-    },
-    {
-        "host": "ioc-xcs-user1",
-        "port": 30104,
-        "dir": "ioc/xcs/dg/R1.0.0",
-        "disable": true,
-        "alias": "USR - Delaygen (DG645)",
-        "history": [
-            "ioc/xcs/dg/R1.0.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-delaygen1",
-        "script": "/reg/g/pcds/epics/ioc/xcs/dg/R1.0.0/build/iocBoot/ioc-xcs-delaygen1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/dg/R2.0.2/bin/linux-x86_64/delaygenApp"
     },
     {
         "host": "ioc-xcs-user1",
