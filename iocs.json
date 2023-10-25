@@ -4969,8 +4969,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-cvmi-plv-pdu-01",
-        "script": "/reg/g/pcds/epics/ioc/tmo/ict/R1.0.0/build/iocBoot/ioc-tmo-cvmi-plv-pdu-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.7/bin/rhel7-x86_64/ict"
+        "script": "/reg/g/pcds/epics/ioc/tmo/ict/R1.0.0/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tmo-misc-01",
@@ -5038,8 +5038,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-lamp-plv-pdu-01",
-        "script": "/reg/g/pcds/epics/ioc/tmo/ict/R1.0.0/build/iocBoot/ioc-tmo-lamp-plv-pdu-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.7/bin/rhel7-x86_64/ict"
+        "script": "/reg/g/pcds/epics/ioc/tmo/ict/R1.0.0/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tmo-misc-01",
@@ -5072,8 +5072,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-mrco-plv-pdu-01",
-        "script": "/reg/g/pcds/epics/ioc/tmo/ict/R1.0.0/build/iocBoot/ioc-tmo-mrco-plv-pdu-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.7/bin/rhel7-x86_64/ict"
+        "script": "/reg/g/pcds/epics/ioc/tmo/ict/R1.0.0/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tmo-misc-01",
@@ -5098,8 +5098,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-plv-pdu-01",
-        "script": "/reg/g/pcds/epics/ioc/tmo/ict/R1.0.0/build/iocBoot/ioc-tmo-plv-pdu-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.7/bin/rhel7-x86_64/ict"
+        "script": "/reg/g/pcds/epics/ioc/tmo/ict/R1.0.0/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tmo-misc-01",
@@ -5111,8 +5111,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-plv-pdu-02",
-        "script": "/reg/g/pcds/epics/ioc/tmo/ict/R1.0.0/build/iocBoot/ioc-tmo-plv-pdu-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.7/bin/rhel7-x86_64/ict"
+        "script": "/reg/g/pcds/epics/ioc/tmo/ict/R1.0.0/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tmo-misc-01",
@@ -5124,8 +5124,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-plv-pdu-03",
-        "script": "/reg/g/pcds/epics/ioc/tmo/ict/R1.0.0/build/iocBoot/ioc-tmo-plv-pdu-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.7/bin/rhel7-x86_64/ict"
+        "script": "/reg/g/pcds/epics/ioc/tmo/ict/R1.0.0/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tmo-misc-01",
@@ -5137,8 +5137,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-plv-pdu-04",
-        "script": "/reg/g/pcds/epics/ioc/tmo/ict/R1.0.0/build/iocBoot/ioc-tmo-plv-pdu-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.7/bin/rhel7-x86_64/ict"
+        "script": "/reg/g/pcds/epics/ioc/tmo/ict/R1.0.0/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tmo-misc-01",
@@ -5150,8 +5150,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-plv-pdu-05",
-        "script": "/reg/g/pcds/epics/ioc/tmo/ict/R1.0.0/build/iocBoot/ioc-tmo-plv-pdu-05/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.7/bin/rhel7-x86_64/ict"
+        "script": "/reg/g/pcds/epics/ioc/tmo/ict/R1.0.0/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tmo-misc-01",
@@ -5163,8 +5163,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-plv-pdu-06",
-        "script": "/reg/g/pcds/epics/ioc/tmo/ict/R1.0.0/build/iocBoot/ioc-tmo-plv-pdu-06/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.7/bin/rhel7-x86_64/ict"
+        "script": "/reg/g/pcds/epics/ioc/tmo/ict/R1.0.0/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tmo-misc-01",
@@ -18940,8 +18940,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-04",
-        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-xpp-gige-04/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/gigECam/bin/rhel7-x86_64/gige"
+        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xpp-gige01",
