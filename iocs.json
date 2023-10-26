@@ -5286,12 +5286,12 @@
     {
         "host": "ctl-tmo-mot-01",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/tmo/mmc",
+        "dir": "ioc/tmo/mmc/R1.1.0",
         "alias": "ioc-tmo-cvmi-2axis-mmc-01",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-cvmi-2axis-mmc-01",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/tmo/mmc/build/iocBoot/ioc-tmo-cvmi-2axis-mmc-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/tmo/mmc/R1.1.0/build/iocBoot/ioc-tmo-cvmi-2axis-mmc-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
     },
     {
@@ -8062,17 +8062,6 @@
         "name": "ioc-cxi-bk-01",
         "script": "/reg/g/pcds/epics/ioc/common/bk-1697/R1.0.1/children/build/iocBoot/ioc-cxi-bk-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/bk-1697/R1.0.1/bin/rhel7-x86_64/gsd"
-    },
-    {
-        "host": "ioc-cxi-rec04",
-        "port": 30006,
-        "dir": "ioc/cxi/ims/R6.3.1",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-dg1-pim-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.3.1/st.cmd",
-        "binary": null
     },
     {
         "host": "ioc-cxi-rec04",
