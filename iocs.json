@@ -6519,12 +6519,12 @@
     {
         "host": "ioc-cxi-cam2",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
+        "dir": "ioc/cxi/gigECam/R5.0.1",
         "alias": "CAM - SC1 Navitar Gige",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-navitar1-gige",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam/build/iocBoot/ioc-cxi-navitar1-gige/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R5.0.1/build/iocBoot/ioc-cxi-navitar1-gige/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
@@ -7981,12 +7981,12 @@
     {
         "host": "ioc-cxi-rec03",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
+        "dir": "ioc/cxi/gigECam/R5.0.1",
         "alias": "CAM - SC1 Offaxis Gige 08",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-gige-08",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam/build/iocBoot/ioc-cxi-gige-08/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R5.0.1/build/iocBoot/ioc-cxi-gige-08/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
@@ -8021,22 +8021,6 @@
         "name": "ioc-cxi-rec03-evr",
         "script": "/reg/g/pcds/epics/ioc/cxi/evr/R0.1.3/build/iocBoot/ioc-cxi-rec03-evr/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.2.2/bin/rhel7-x86_64/evr"
-    },
-    {
-        "host": "ioc-cxi-rec03",
-        "port": 30101,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam",
-        "disable": true,
-        "alias": "zz- \"DT\": CAM - SC1 Inline Questar Opal1000m",
-        "history": [
-            "ioc/cxi/edtCam/R2.0.2",
-            "ioc/cxi/edtCam/R1.2.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-sc1-inline",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/edtCam/build/iocBoot/ioc-cxi-sc1-inline/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.5/bin/rhel7-x86_64/edt"
     },
     {
         "host": "ioc-cxi-rec04",
