@@ -7992,12 +7992,12 @@
     {
         "host": "ioc-cxi-rec03",
         "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/RohdeSchwarzHMP/current",
+        "dir": "ioc/cxi/RohdeSchwarzHMP/R1.2.0",
         "alias": "Rohde Schwarz Jungfrau 02",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-hmp02",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/RohdeSchwarzHMP/current/build/iocBoot/ioc-cxi-hmp02/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/cxi/RohdeSchwarzHMP/R1.2.0/build/iocBoot/ioc-cxi-hmp02/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.1/bin/rhel7-x86_64/rshmp"
     },
     {
@@ -8072,12 +8072,12 @@
     {
         "host": "ioc-cxi-rec04",
         "port": 30005,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/RohdeSchwarzHMP/current",
+        "dir": "ioc/cxi/RohdeSchwarzHMP/R1.2.0",
         "alias": "Rohde Schwarz Jungfrau 01",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-hmp01",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/RohdeSchwarzHMP/current/build/iocBoot/ioc-cxi-hmp01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/cxi/RohdeSchwarzHMP/R1.2.0/build/iocBoot/ioc-cxi-hmp01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.1/bin/rhel7-x86_64/rshmp"
     },
     {
