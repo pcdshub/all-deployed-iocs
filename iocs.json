@@ -18935,8 +18935,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-04",
-        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/st.cmd",
-        "binary": null
+        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-xpp-gige-04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-gige01",
@@ -19240,8 +19240,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-lmxpp-inj-gige-ff-01",
-        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/st.cmd",
-        "binary": null
+        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-lmxpp-inj-gige-ff-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-las01",
@@ -19250,8 +19250,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-lmxpp-inj-gige-ff-02",
-        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/st.cmd",
-        "binary": null
+        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-lmxpp-inj-gige-ff-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-las01",
@@ -19260,8 +19260,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-lmxpp-inj-gige-ff-03",
-        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/st.cmd",
-        "binary": null
+        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-lmxpp-inj-gige-ff-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-las01",
@@ -19270,8 +19270,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-lmxpp-inj-gige-nf-01",
-        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/st.cmd",
-        "binary": null
+        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-lmxpp-inj-gige-nf-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-las01",
@@ -19280,8 +19280,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-lmxpp-inj-gige-nf-02",
-        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/st.cmd",
-        "binary": null
+        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-lmxpp-inj-gige-nf-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-las01",
@@ -19290,8 +19290,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-lmxpp-inj-gige-nf-03",
-        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/st.cmd",
-        "binary": null
+        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-lmxpp-inj-gige-nf-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-las01",
