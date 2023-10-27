@@ -7512,7 +7512,7 @@
     {
         "host": "ioc-cxi-protura1",
         "port": 30060,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/protura",
+        "dir": "ioc/cxi/protura/R2.0.0",
         "alias": "IMS DS1 Stand Encoders",
         "history": [
             "ioc/cxi/protura/R2.0.0",
@@ -7521,8 +7521,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-protura",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/protura/build/iocBoot/ioc-cxi-protura/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/divya/ioc/common/protura/bin/rhel7-x86_64/protura"
+        "script": "/reg/g/pcds/epics/ioc/cxi/protura/R2.0.0/build/iocBoot/ioc-cxi-protura/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/protura/R1.0.0/bin/linux-x86_64/protura"
     },
     {
         "host": "ioc-cxi-protura2",
@@ -7582,7 +7582,7 @@
     {
         "host": "ioc-cxi-protura2",
         "port": 30058,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/protura",
+        "dir": "ioc/cxi/protura/R2.0.0",
         "alias": "IMS DS2 Stand Encoders",
         "history": [
             "ioc/cxi/protura/R2.0.0",
@@ -7591,7 +7591,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-protura2",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/protura/build/iocBoot/ioc-cxi-protura2/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/cxi/protura/R2.0.0/build/iocBoot/ioc-cxi-protura2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/protura/R1.0.0/bin/linux-x86_64/protura"
     },
     {
