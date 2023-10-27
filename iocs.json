@@ -2171,17 +2171,6 @@
     },
     {
         "host": "ctl-las-lhn-01",
-        "port": 30004,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/SDG_Elite",
-        "alias": "TEST SDG",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-tst-sdg-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/SDG_Elite/children/build/iocBoot/ioc-tst-sdg-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/SDG_Elite/bin/rhel7-x86_64/sdg"
-    },
-    {
-        "host": "ctl-las-lhn-01",
         "port": 43500,
         "dir": "/reg/g/pcds/epics-dev/sfsyunus/las/fstiming-py",
         "disable": true,
@@ -21928,6 +21917,17 @@
         "name": "ioc-mec-lecroy-01",
         "script": "/reg/g/pcds/epics/ioc/common/lecroy/R1.0.2/iocBoot/ioc-mec-lecroy-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/lecroy/R1.0.2/bin/linux-x86_64/lecroy"
+    },
+    {
+        "host": "stl-las-lhn-01",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/SDG_Elite",
+        "alias": "BAY 1 SDG IOC",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-lhn-sdg-01",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/SDG_Elite/children/build/iocBoot/ioc-las-lhn-sdg-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/SDG_Elite/bin/rhel7-x86_64/sdg"
     },
     {
         "host": "tmo-control",
