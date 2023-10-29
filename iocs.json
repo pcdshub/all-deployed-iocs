@@ -8023,17 +8023,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.2.2/bin/rhel7-x86_64/evr"
     },
     {
-        "host": "ioc-cxi-rec03",
-        "port": 30008,
-        "dir": "ioc/cxi/timetool/R1.0.0",
-        "alias": "Timetool PV",
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-tt",
-        "script": "/reg/g/pcds/epics/ioc/cxi/timetool/R1.0.0/build/iocBoot/ioc-cxi-tt/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/timetool/R1.0.6/bin/rhel7-x86_64/gsd"
-    },
-    {
         "host": "ioc-cxi-rec04",
         "port": 30004,
         "dir": "ioc/common/bk-1697/R1.0.1",
@@ -8153,6 +8142,17 @@
         "name": "ioc-cxi-sc1-offaxis",
         "script": "/reg/g/pcds/epics/ioc/cxi/edtCam/R2.0.2/build/iocBoot/ioc-cxi-sc1-offaxis/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.2/bin/rhel7-x86_64/edt"
+    },
+    {
+        "host": "ioc-cxi-rec04",
+        "port": 30008,
+        "dir": "ioc/cxi/timetool/R1.0.0",
+        "alias": "Timetool PV",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-tt",
+        "script": "/reg/g/pcds/epics/ioc/cxi/timetool/R1.0.0/build/iocBoot/ioc-cxi-tt/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/timetool/R1.0.6/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ioc-cxi-rec04",
