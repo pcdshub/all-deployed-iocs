@@ -5016,6 +5016,17 @@
     },
     {
         "host": "ctl-tmo-misc-01",
+        "port": 39109,
+        "dir": "/reg/g/pcds/epics-dev/baljamal/ioc/common/isegFPS",
+        "alias": "ioc-tmo-fps-02",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-tmo-fps-02",
+        "script": "/reg/g/pcds/epics-dev/baljamal/ioc/common/isegFPS/children/build/iocBoot/ioc-tmo-fps-02/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/baljamal/ioc/common/isegFPS/bin/rhel7-x86_64/gsd"
+    },
+    {
+        "host": "ctl-tmo-misc-01",
         "port": 36555,
         "dir": "ioc/tmo/lakeshore335/R1.0.0",
         "history": [
