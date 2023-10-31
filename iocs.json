@@ -8884,7 +8884,7 @@
     {
         "host": "ioc-cxi-usrmot2",
         "port": 30200,
-        "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/pmc100",
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/cxi/arcus",
         "alias": "Piezo SC3 PP-30 Motors",
         "history": [
             "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/pmc100"
@@ -8892,13 +8892,13 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc3-PMC100",
-        "script": "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/pmc100/build/iocBoot/ioc-cxi-sc3-PMC100/st.cmd",
-        "binary": "/reg/neh/home/dhzhang/Epics/arcus_test/current/bin/linux-x86/arcus"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/cxi/arcus/build/iocBoot/ioc-cxi-sc3-PMC100/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/arcus/R4.2.0/bin/linux-x86_64/arcus"
     },
     {
         "host": "ioc-cxi-usrmot2",
         "port": 34505,
-        "dir": "/reg/neh/home/trendahl/Workarea/cxi/pmc100/current",
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/cxi/arcus",
         "alias": "Piezo User PP-30 Motor",
         "history": [
             "/reg/neh/home/trendahl/Workarea/cxi/pmc100/current",
@@ -8907,8 +8907,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-usr-pmc100",
-        "script": "/reg/neh/home/trendahl/Workarea/cxi/pmc100/current/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/cxi/arcus/build/iocBoot/ioc-cxi-usr-pmc100/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/arcus/R4.2.0/bin/linux-x86_64/arcus"
     },
     {
         "host": "ioc-cxi-vacuum",
