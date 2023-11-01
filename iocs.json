@@ -2747,8 +2747,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-inj-gige-ff-01",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k2/inj/gigECam/build/iocBoot/ioc-lm1k2-inj-gige-ff-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k2/inj/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-las-lln-01",
@@ -2757,8 +2757,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-inj-gige-nf-01",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k2/inj/gigECam/build/iocBoot/ioc-lm1k2-inj-gige-nf-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k2/inj/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-las-lln-01",
@@ -16636,7 +16636,6 @@
         "host": "ioc-xcs-gige01",
         "port": 36037,
         "dir": "ioc/xcs/gigECam/R3.0.3",
-        "disable": true,
         "history": [
             "ioc/xcs/gigECam/R3.0.3"
         ],
