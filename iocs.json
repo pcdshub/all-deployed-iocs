@@ -2143,11 +2143,11 @@
     {
         "host": "ctl-las-lhn-01",
         "port": 30021,
-        "dir": "/reg/g/pcds/epics-dev/aberges/ioc/las/gigECam",
+        "dir": "ioc/las/gigECam/R0.3.1",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lhn-bay1-ff-01",
-        "script": "/reg/g/pcds/epics-dev/aberges/ioc/las/gigECam/build/iocBoot/ioc-lhn-bay1-ff-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.3.1/build/iocBoot/ioc-lhn-bay1-ff-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
@@ -14580,8 +14580,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-row-ims",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/mfx/ims/current/build/iocBoot/ioc-row-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.0.0/bin/linux-x86/ims"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/mfx/ims/current/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-mfx-table",
