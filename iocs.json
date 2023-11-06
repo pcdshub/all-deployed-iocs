@@ -19171,8 +19171,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-mcb-ims",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/ims/st.cmd",
-        "binary": null
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/ims/children/build/iocBoot/ioc-mcb-ims/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/ims/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xpp-ipimb",
