@@ -18145,11 +18145,11 @@
     {
         "host": "ioc-xcs-user1",
         "port": 30002,
-        "dir": "/cds/home/c/cagee/dev/xcs/ek9000",
+        "dir": "ioc/xcs/ek9000/R1.0.0",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-bhc-01",
-        "script": "/cds/home/c/cagee/dev/xcs/ek9000/build/iocBoot/ioc-xcs-bhc-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ek9000/R1.0.0/build/iocBoot/ioc-xcs-bhc-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.1/bin/rhel7-x86_64/ek9000IOC"
     },
     {
