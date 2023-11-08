@@ -1036,7 +1036,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-atm-gige-ff-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/atm/gigECam/build/iocBoot/ioc-lm2k2-atm-gige-ff-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-crix-srv04",
@@ -1046,7 +1046,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-atm-gige-ff-02",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/atm/gigECam/build/iocBoot/ioc-lm2k2-atm-gige-ff-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-crix-srv04",
@@ -1056,7 +1056,7 @@
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-atm-gige-nf-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/atm/gigECam/build/iocBoot/ioc-lm2k2-atm-gige-nf-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-crix-srv04",
