@@ -9695,7 +9695,8 @@
     {
         "host": "ioc-det-portable2",
         "port": 30006,
-        "dir": "ioc/det/pvNotepad/R1.0.3",
+        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/pvNotepad/current",
+        "disable": true,
         "history": [
             "ioc/det/pvNotepad/R1.0.3",
             "ioc/det/pvNotepad/R1.0.1"
@@ -9703,8 +9704,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-mbl02-notepad",
-        "script": "/reg/g/pcds/epics/ioc/det/pvNotepad/R1.0.3/build/iocBoot/ioc-det-mbl02-notepad/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R1.2.2/bin/linux-x86_64/pvNotepad"
+        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/pvNotepad/current/build/iocBoot/ioc-det-mbl02-notepad/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
     },
     {
         "host": "ioc-det-portable2",
