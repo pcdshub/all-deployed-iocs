@@ -9519,6 +9519,16 @@
     },
     {
         "host": "ioc-det-portable2",
+        "port": 30009,
+        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/detectorprotection/current",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
+        "name": "ioc-det-blocker",
+        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/detectorprotection/current/build/iocBoot/ioc-det-blocker/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/detectorprotection/current/bin/rhel7-x86_64/detprot"
+    },
+    {
+        "host": "ioc-det-portable2",
         "port": 30005,
         "dir": "ioc/det/thermocube/R1.0.1",
         "disable": true,
