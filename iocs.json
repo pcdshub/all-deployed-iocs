@@ -9696,7 +9696,6 @@
         "host": "ioc-det-portable2",
         "port": 30006,
         "dir": "ioc/det/pvNotepad/R1.0.3",
-        "disable": true,
         "history": [
             "ioc/det/pvNotepad/R1.0.3",
             "ioc/det/pvNotepad/R1.0.1"
