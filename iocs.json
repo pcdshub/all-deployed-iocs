@@ -16784,6 +16784,7 @@
         "host": "ioc-xcs-misc1",
         "port": 32567,
         "dir": "ioc/xcs/userBhc/R0.4.0",
+        "disable": true,
         "alias": "User thermocouples",
         "history": [
             "ioc/xcs/userBhc/R0.4.0"
