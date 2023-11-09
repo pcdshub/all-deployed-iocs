@@ -14735,7 +14735,6 @@
         "host": "ioc-mfx-wave8",
         "port": 33017,
         "dir": "/reg/g/pcds/pyps/apps/hutch-python/mfx/scripts/door_watcher",
-        "disable": true,
         "alias": "MESH Door Watcher",
         "history": [
             "/reg/g/pcds/pyps/apps/hutch-python/mfx/scripts/door_watcher"
