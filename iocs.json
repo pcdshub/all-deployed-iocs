@@ -18467,6 +18467,7 @@
         "host": "ioc-xcs-user1",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/ims",
+        "disable": true,
         "alias": "User Stage Testing",
         "history": [
             "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/ims"
