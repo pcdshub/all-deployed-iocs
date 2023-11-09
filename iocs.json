@@ -11467,14 +11467,14 @@
     {
         "host": "ioc-mec-evg",
         "port": 30001,
-        "dir": "/reg/g/pcds/controls/testEvg/R1.8.0",
+        "dir": "/cds/home/m/mcbrowne/controls/testEvg",
         "history": [
             "/cds/home/m/mcbrowne/controls/testEvg"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-evg",
-        "script": "/reg/g/pcds/controls/testEvg/R1.8.0/st.cmd",
+        "script": "/cds/home/m/mcbrowne/controls/testEvg/st.cmd",
         "binary": "/usr/bin/bash"
     },
     {
