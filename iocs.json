@@ -3923,7 +3923,7 @@
     {
         "host": "ctl-rix-mot-01",
         "port": 30400,
-        "dir": "/reg/g/pcds/epics-dev/jozamudi/rix/lcls-plc-crixs-motion/lcls-plc-crixs-motion",
+        "dir": "ioc/rix/lcls-plc-crixs-motion/v2.1.0/lcls-plc-crixs-motion",
         "alias": "CRIXS Motion PLC IOC",
         "history": [
             "ioc/rix/lcls-plc-crixs-motion/v1.9.0/lcls-plc-crixs-motion",
@@ -3932,7 +3932,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-PLC-CRIX-MOT",
-        "script": "/reg/g/pcds/epics-dev/jozamudi/rix/lcls-plc-crixs-motion/lcls-plc-crixs-motion/iocBoot/ioc-PLC-CRIX-MOT/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/lcls-plc-crixs-motion/v2.1.0/lcls-plc-crixs-motion/iocBoot/ioc-PLC-CRIX-MOT/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
@@ -7918,7 +7918,7 @@
     {
         "host": "ioc-cxi-rec01",
         "port": 32519,
-        "dir": "ioc/cxi/ims/R6.3.1",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims",
         "alias": "IMS DS1 Stand",
         "history": [
             "ioc/cxi/ims/R2.0.0",
@@ -7928,7 +7928,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-ds1-stand-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.3.1/build/iocBoot/ioc-cxi-ds1-stand-ims/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-ds1-stand-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.3.0/bin/rhel7-x86_64/ims"
     },
     {
@@ -18356,15 +18356,15 @@
     {
         "host": "ioc-xcs-user1",
         "port": 30012,
-        "dir": "ioc/xcs/smaract/R1.0.0",
+        "dir": "/cds/home/c/cagee/dev/xcs/smaract",
         "history": [
             "ioc/xcs/smaract/R1.0.0"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-mcs2-01",
-        "script": "/reg/g/pcds/epics/ioc/xcs/smaract/R1.0.0/children/build/iocBoot/ioc-xcs-mcs2-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.5/bin/rhel7-x86_64/smaract"
+        "script": "/cds/home/c/cagee/dev/xcs/smaract/build/iocBoot/ioc-xcs-mcs2-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.13/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ioc-xcs-user1",
