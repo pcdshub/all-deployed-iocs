@@ -2038,6 +2038,16 @@
     },
     {
         "host": "ctl-las-lhn-01",
+        "port": 30005,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/ek9000",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-lhn-bhc-02",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/ek9000/build/iocBoot/ioc-las-lhn-bhc-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.3.2/bin/rhel7-x86_64/ek9000IOC"
+    },
+    {
+        "host": "ctl-las-lhn-01",
         "port": 30301,
         "dir": "ioc/las/ek9000/R1.0.1",
         "disable": true,
@@ -7140,13 +7150,13 @@
     {
         "host": "ioc-cxi-mot2",
         "port": 30004,
-        "dir": "ioc/cxi/ims/R6.3.1",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims",
         "alias": "IMS DS2 Extra Dumb Motors",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-ds2-dumb-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.3.1/build/iocBoot/ioc-cxi-ds2-dumb-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.3.0/bin/rhel7-x86_64/ims"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-ds2-dumb-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.6.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7178,7 +7188,7 @@
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dsb-ims",
         "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-dsb-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.3.0/bin/rhel7-x86_64/ims"
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.6.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7234,7 +7244,7 @@
     {
         "host": "ioc-cxi-mot2",
         "port": 30703,
-        "dir": "ioc/cxi/ims/R6.3.1",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims",
         "alias": "IMS SC1 Motors",
         "history": [
             "ioc/cxi/ims/R2.0.0",
@@ -7244,8 +7254,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc1-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.3.1/build/iocBoot/ioc-cxi-sc1-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.3.0/bin/rhel7-x86_64/ims"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-sc1-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.6.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -8210,7 +8220,7 @@
     {
         "host": "ioc-cxi-rec04",
         "port": 34503,
-        "dir": "ioc/cxi/ims/R6.3.1",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims",
         "alias": "IMS DSB User Dumb Motors",
         "history": [
             "ioc/cxi/ims/R4.0.39",
@@ -8220,8 +8230,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-usr-dsb-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.3.1/build/iocBoot/ioc-cxi-usr-dsb-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.3.0/bin/rhel7-x86_64/ims"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-usr-dsb-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.6.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-rec04",
@@ -8396,7 +8406,7 @@
     {
         "host": "ioc-cxi-sc1",
         "port": 34505,
-        "dir": "ioc/cxi/ims/R6.3.1",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims",
         "alias": "IMS SC1 User Dumb Motors",
         "history": [
             "ioc/cxi/ims/R2.0.0",
@@ -8405,8 +8415,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-usr-dumb-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.3.1/build/iocBoot/ioc-cxi-usr-dumb-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.3.0/bin/rhel7-x86_64/ims"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-usr-dumb-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.6.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-sc2",
@@ -14270,7 +14280,6 @@
         "host": "ioc-mfx-hera",
         "port": 43924,
         "dir": "ioc/mfx/ims/R2.1.0",
-        "disable": true,
         "alias": "HERA - Navitar",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mfx/iocmanager.cfg",
