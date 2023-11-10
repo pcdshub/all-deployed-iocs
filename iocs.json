@@ -9552,12 +9552,13 @@
     {
         "host": "ioc-det-portable2",
         "port": 30009,
-        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/detectorprotection/current",
+        "dir": "ioc/det/detectorprotection/R1.0.0",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-blocker",
-        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/detectorprotection/current/build/iocBoot/ioc-det-blocker/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/detectorprotection/current/bin/rhel7-x86_64/detprot"
+        "script": "/reg/g/pcds/epics/ioc/det/detectorprotection/R1.0.0/build/iocBoot/ioc-det-blocker/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/detectorprotection/R1.0.0/bin/rhel7-x86_64/detprot"
     },
     {
         "host": "ioc-det-portable2",
@@ -9752,11 +9753,12 @@
     {
         "host": "ioc-det-portable2",
         "port": 30008,
-        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/pvNotepad/current",
+        "dir": "ioc/det/pvNotepad/R1.0.4",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-prot-notepad",
-        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/pvNotepad/current/build/iocBoot/ioc-det-prot-notepad/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/det/pvNotepad/R1.0.4/build/iocBoot/ioc-det-prot-notepad/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
     },
     {
