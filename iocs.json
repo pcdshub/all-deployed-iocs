@@ -19494,6 +19494,7 @@
         "host": "ioc-xpp-misc01",
         "port": 30004,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/common/aerotech",
+        "disable": true,
         "alias": "USR - Aerotech 03",
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/xpp/iocmanager.cfg",
