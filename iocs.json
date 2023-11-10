@@ -5955,6 +5955,16 @@
     },
     {
         "host": "daq-det-standalone",
+        "port": 30002,
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/det/evr",
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
+        "name": "ioc-det-archon-evr",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/det/evr/build/iocBoot/ioc-det-archon-evr/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/linux-x86_64/evr"
+    },
+    {
+        "host": "daq-det-standalone",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/archonCam/current",
         "base_version": "3.15",
