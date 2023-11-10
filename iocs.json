@@ -9155,14 +9155,14 @@
     {
         "host": "ioc-det-evg",
         "port": 30001,
-        "dir": "/reg/g/pcds/controls/testEvg/R1.7.0",
+        "dir": "/cds/home/m/mcbrowne/controls/testEvg",
         "history": [
             "/reg/g/pcds/controls/testEvg/R1.3.0"
         ],
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-evg",
-        "script": "/reg/g/pcds/controls/testEvg/R1.7.0/st.cmd",
+        "script": "/cds/home/m/mcbrowne/controls/testEvg/st.cmd",
         "binary": "/usr/bin/bash"
     },
     {
@@ -11484,7 +11484,7 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-evg",
-        "script": "/cds/home/m/mcbrowne/controls/testEvg/st.cmd",
+        "script": "/cds/home/m/mcbrowne/controls/testEvg/iocBoot/ioc-mec-evg/st.cmd",
         "binary": "/usr/bin/bash"
     },
     {
