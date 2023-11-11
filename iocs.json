@@ -1094,7 +1094,6 @@
         "host": "ctl-las-crix-srv05",
         "port": 30010,
         "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/ejx/thorlabs-ell/",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-ejx-ell-01",
@@ -1105,7 +1104,6 @@
         "host": "ctl-las-crix-srv05",
         "port": 30011,
         "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/ejx/thorlabs-ell/",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-ejx-ell-02",
@@ -16751,19 +16749,6 @@
         "name": "ioc-mfx-pwr-spare",
         "script": "/reg/g/pcds/epics-dev/pennebak/xcs/Leviton/current/st.cmd",
         "binary": null
-    },
-    {
-        "host": "ioc-xcs-misc1",
-        "port": 30303,
-        "dir": "/cds/home/z/zlentz/epics/ioc/common/Leviton/current",
-        "history": [
-            "/cds/home/z/zlentz/epics/ioc/common/Leviton/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-tst-ebara-pwr01",
-        "script": "/cds/home/z/zlentz/epics/ioc/common/Leviton/current/iocBoot/ioc-tst-ebara-pwr01/st.cmd",
-        "binary": "/cds/home/z/zlentz/epics/ioc/common/Leviton/current/bin/linux-x86_64/Leviton"
     },
     {
         "host": "ioc-xcs-misc1",
