@@ -17458,6 +17458,23 @@
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
+        "host": "ioc-xcs-mot2",
+        "port": 30483,
+        "dir": "ioc/xcs/ims/R6.0.4",
+        "alias": "USR - Patch Dumb Motion",
+        "history": [
+            "ioc/xcs/ims/R6.0.2",
+            "/reg/neh/home4/rajan-01/checkouts/epics/xcs/ims/current",
+            "ioc/xcs/ims/R1.0.1"
+        ],
+        "delay": 30,
+        "base_version": "3.15",
+        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-usr-dumb-ims",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.4/build/iocBoot/ioc-xcs-usr-dumb-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
         "host": "ioc-xcs-qadc",
         "port": 32000,
         "dir": "ioc/xcs/qadc/R1.0.1",
@@ -18376,23 +18393,6 @@
         "name": "ioc-xcs-mks670b",
         "script": "/reg/g/pcds/epics/ioc/common/mks670b/R0.1.2/iocBoot/ioc-xcs-mks670b/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/mks670b/R0.1.2/bin/linux-x86_64/mks670b"
-    },
-    {
-        "host": "ioc-xcs-user1",
-        "port": 30483,
-        "dir": "ioc/xcs/ims/R6.0.4",
-        "alias": "USR - Patch Dumb Motion",
-        "history": [
-            "ioc/xcs/ims/R6.0.2",
-            "/reg/neh/home4/rajan-01/checkouts/epics/xcs/ims/current",
-            "ioc/xcs/ims/R1.0.1"
-        ],
-        "delay": 30,
-        "base_version": "3.15",
-        "config_file": "/reg/g/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-usr-dumb-ims",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.4/build/iocBoot/ioc-xcs-usr-dumb-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xcs-user1",
