@@ -5978,8 +5978,8 @@
         "base_version": "3.15",
         "config_file": "/reg/g/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-archon1",
-        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/archonCam/current/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/archonCam/current/children/build/iocBoot/ioc-det-archon1/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/archonCam/current/bin/rhel7-x86_64/archon"
     },
     {
         "host": "daq-det-standalone",
