@@ -1467,7 +1467,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-inj-gige-ff-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/inj/gigECam/build/iocBoot/ioc-lm1k4-inj-gige-ff-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-ip1-srv01",
@@ -1477,7 +1477,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-inj-gige-nf-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/inj/gigECam/build/iocBoot/ioc-lm1k4-inj-gige-nf-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-ip1-srv01",
@@ -1598,7 +1598,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-com-gige-ff-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/com/gigECam/build/iocBoot/ioc-lm1k4-com-gige-ff-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-ip1-srv02",
@@ -1608,7 +1608,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-com-gige-ff-02",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/com/gigECam/build/iocBoot/ioc-lm1k4-com-gige-ff-02/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-ip1-srv02",
@@ -1618,7 +1618,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-com-gige-ff-03",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/com/gigECam/build/iocBoot/ioc-lm1k4-com-gige-ff-03/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-ip1-srv02",
@@ -1628,7 +1628,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-com-gige-nf-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/com/gigECam/build/iocBoot/ioc-lm1k4-com-gige-nf-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-ip1-srv02",
@@ -1638,7 +1638,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-com-gige-nf-02",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/com/gigECam/build/iocBoot/ioc-lm1k4-com-gige-nf-02/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-ip1-srv02",
@@ -1648,7 +1648,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-com-gige-nf-03",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/com/gigECam/build/iocBoot/ioc-lm1k4-com-gige-nf-03/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-ip1-srv02",
@@ -1688,7 +1688,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-hrm-gige-ff-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/hrm/gigECam/build/iocBoot/ioc-lm1k4-hrm-gige-ff-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-ip1-srv03",
@@ -1698,7 +1698,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-hrm-gige-ff-02",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/hrm/gigECam/build/iocBoot/ioc-lm1k4-hrm-gige-ff-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-ip1-srv03",
@@ -1708,7 +1708,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-hrm-gige-nf-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/hrm/gigECam/build/iocBoot/ioc-lm1k4-hrm-gige-nf-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-ip1-srv03",
@@ -1718,7 +1718,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-hrm-gige-nf-02",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/hrm/gigECam/build/iocBoot/ioc-lm1k4-hrm-gige-nf-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-ip1-srv03",
@@ -1768,7 +1768,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-atm-gige-ff-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/atm/gigECam/build/iocBoot/ioc-lm1k4-atm-gige-ff-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.6/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-ip1-srv04",
@@ -1778,7 +1778,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-atm-gige-ff-02",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/atm/gigECam/build/iocBoot/ioc-lm1k4-atm-gige-ff-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.6/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-ip1-srv04",
@@ -1788,7 +1788,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-atm-gige-nf-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/atm/gigECam/build/iocBoot/ioc-lm1k4-atm-gige-nf-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.6/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-ip1-srv04",
@@ -1798,7 +1798,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-atm-gige-nf-02",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/atm/gigECam/build/iocBoot/ioc-lm1k4-atm-gige-nf-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.6/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-ip1-srv04",
@@ -1942,7 +1942,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-ejx-gige-ff-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/gigECam/build/iocBoot/ioc-lm1k4-ejx-gige-ff-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-ip1-srv05",
@@ -1952,7 +1952,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-ejx-gige-ff-02",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/gigECam/build/iocBoot/ioc-lm1k4-ejx-gige-ff-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-ip1-srv05",
@@ -1962,7 +1962,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-ejx-gige-nf-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/gigECam/build/iocBoot/ioc-lm1k4-ejx-gige-nf-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-ip1-srv06",
