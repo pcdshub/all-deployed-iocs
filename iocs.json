@@ -16526,6 +16526,16 @@
     },
     {
         "host": "ioc-ued-ccd01",
+        "port": 30007,
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/PI_663",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
+        "name": "ioc-ued-vt50",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/PI_663/children/build/iocBoot/ioc-ued-vt50/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/PI_663/bin/rhel7-x86_64/motion"
+    },
+    {
+        "host": "ioc-ued-ccd01",
         "port": 30004,
         "dir": "/reg/g/pcds/epics-dev/nagar123/ioc/ued/Newport",
         "base_version": "3.15",
