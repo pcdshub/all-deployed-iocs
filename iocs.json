@@ -19858,7 +19858,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb2-dslits-ims",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims/build/iocBoot/ioc-xpp-sb2-dslits-ims/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+        "binary": "/cds/group/pcds/epics/ioc/common/ims/R6.6.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xpp-misc02",
@@ -19885,7 +19885,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb2-ppatt-ims",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims/build/iocBoot/ioc-xpp-sb2-ppatt-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.6.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xpp-misc02",
