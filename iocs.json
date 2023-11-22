@@ -3947,7 +3947,7 @@
     {
         "host": "ctl-rix-mot-01",
         "port": 30400,
-        "dir": "/reg/g/pcds/epics-dev/jozamudi/rix/lcls-plc-crixs-motion/lcls-plc-crixs-motion",
+        "dir": "ioc/rix/lcls-plc-crixs-motion/v2.1.0/lcls-plc-crixs-motion",
         "alias": "CRIXS Motion PLC IOC",
         "history": [
             "ioc/rix/lcls-plc-crixs-motion/v1.9.0/lcls-plc-crixs-motion",
@@ -3956,7 +3956,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-PLC-CRIX-MOT",
-        "script": "/reg/g/pcds/epics-dev/jozamudi/rix/lcls-plc-crixs-motion/lcls-plc-crixs-motion/iocBoot/ioc-PLC-CRIX-MOT/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/lcls-plc-crixs-motion/v2.1.0/lcls-plc-crixs-motion/iocBoot/ioc-PLC-CRIX-MOT/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
