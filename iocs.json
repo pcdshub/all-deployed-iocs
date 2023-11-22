@@ -19275,6 +19275,7 @@
         "host": "ioc-xpp-ipimb",
         "port": 30003,
         "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/ims",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-mcb-ims",
