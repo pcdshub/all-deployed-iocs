@@ -5035,15 +5035,15 @@
     {
         "host": "ctl-tmo-misc-01",
         "port": 31108,
-        "dir": "ioc/tmo/ict/R1.0.0",
+        "dir": "ioc/tmo/dc_power/ict/R1.0.0",
         "history": [
             "ioc/tmo/dc_power/ict"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-cvmi-plv-pdu-01",
-        "script": "/reg/g/pcds/epics/ioc/tmo/ict/R1.0.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/tmo/dc_power/ict/R1.0.0/build/iocBoot/ioc-tmo-cvmi-plv-pdu-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.7/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-tmo-misc-01",
@@ -5115,15 +5115,15 @@
     {
         "host": "ctl-tmo-misc-01",
         "port": 31107,
-        "dir": "ioc/tmo/ict/R1.0.0",
+        "dir": "ioc/tmo/dc_power/ict/R1.0.0",
         "history": [
             "ioc/tmo/dc_power/ict"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-lamp-plv-pdu-01",
-        "script": "/reg/g/pcds/epics/ioc/tmo/ict/R1.0.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/tmo/dc_power/ict/R1.0.0/build/iocBoot/ioc-tmo-lamp-plv-pdu-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.7/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-tmo-misc-01",
@@ -5149,15 +5149,15 @@
     {
         "host": "ctl-tmo-misc-01",
         "port": 31109,
-        "dir": "ioc/tmo/ict/R1.0.0",
+        "dir": "ioc/tmo/dc_power/ict/R1.0.0",
         "history": [
             "ioc/tmo/dc_power/ict"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-mrco-plv-pdu-01",
-        "script": "/reg/g/pcds/epics/ioc/tmo/ict/R1.0.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/tmo/dc_power/ict/R1.0.0/build/iocBoot/ioc-tmo-mrco-plv-pdu-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.7/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-tmo-misc-01",
@@ -5263,6 +5263,17 @@
         "name": "ioc-tmo-ppl-bhc-01",
         "script": "/reg/g/pcds/epics-dev/lorelli/tmo/tmo-usr-ek9000/build/iocBoot/ioc-tmo-ppl-bhc-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.3.2/bin/rhel7-x86_64/ek9000IOC"
+    },
+    {
+        "host": "ctl-tmo-misc-01",
+        "port": 39110,
+        "dir": "ioc/tmo/pdu_snmp/R2.4.6",
+        "alias": "ioc-tmo-pwr-r03",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-tmo-pwr-r03",
+        "script": "/reg/g/pcds/epics/ioc/tmo/pdu_snmp/R2.4.6/build/iocBoot/ioc-tmo-pwr-r03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ctl-tmo-misc-01",
