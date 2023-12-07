@@ -3363,8 +3363,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-txi-optics",
-        "script": "/reg/neh/home/sheppard/HOMS/ioc/lcls-plc-txi-optics/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/sheppard/HOMS/ioc/lcls-plc-txi-optics/iocBoot/ioc-txi-optics/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.2.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-lfe-vac-01",
@@ -5580,8 +5580,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-gige-ppm",
-        "script": "/reg/neh/home/zlentz/epics/ioc/tst/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/zlentz/epics/ioc/tst/gigECam/current/build/iocBoot/ioc-tst-gige-ppm/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.2.2/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-tst-01",
@@ -5595,7 +5595,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-rix-g146b",
         "script": "/cds/home/j/jjoshi/test/gigECam/current/build/iocBoot/ioc-tst-rix-g146b/st.cmd",
-        "binary": "/reg/neh/home5/bhill/wa2/epics/ioc/common/gigECam/current/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-tst-01",
@@ -5608,8 +5608,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-sim1",
-        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current/build/iocBoot/ioc-tst-sim1/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-tst-dev-01",
@@ -5664,8 +5664,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-pgp03",
-        "script": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current/children/build/iocBoot/ioc-tst-pgp03/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/pgpCamlink/pgpCamlink-git/bin/rhel7-x86_64/pgpCl"
     },
     {
         "host": "ctl-tst-pgp01",
@@ -5677,8 +5677,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-pgp04",
-        "script": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current/children/build/iocBoot/ioc-tst-pgp04/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/pgpCamlink/pgpCamlink-git/bin/rhel7-x86_64/pgpCl"
     },
     {
         "host": "ctl-tst-pgp01",
@@ -5955,8 +5955,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-mbl1-epix",
-        "script": "/reg/neh/home/ddamiani/Workarea/epics/ioc/common/epixMon/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/ddamiani/Workarea/epics/ioc/common/epixMon/current/children/build/iocBoot/ioc-det-mbl1-epix/st.cmd",
+        "binary": "/cds/home/d/ddamiani/Workarea/epics/ioc/common/epixMon/current/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-det-pnccd01",
@@ -6727,7 +6727,7 @@
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-pico-usr1",
         "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi_picomotion/pico874x/current/build/iocBoot/ioc-cxi-pico-usr1/st.cmd",
-        "binary": "/reg/neh/home/klg/epics/ioc/common/pico874x/current/bin/linux-x86/motion"
+        "binary": "/cds/home/k/klg/epics/ioc/common/pico874x/current/bin/linux-x86/motion"
     },
     {
         "host": "ioc-cxi-jungfrau01",
@@ -7013,7 +7013,7 @@
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-mandrel-01",
         "script": "/reg/g/pcds/epics-dev/pennebak/cxi/mandrel/current/build/iocBoot/ioc-cxi-mandrel-01/st.cmd",
-        "binary": "/reg/neh/home/mcbrowne/trunk2/ioc/common/ims/current/bin/linux-x86_64/ims"
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/ims/current/bin/linux-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot1",
@@ -8782,8 +8782,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-tripper",
-        "script": "/reg/neh/home/trendahl/Workarea/cxi/cspad-tripper/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/trendahl/Workarea/cxi/cspad-tripper/current/iocBoot/ioc-cxi-tripper/st.cmd",
+        "binary": "/cds/home/t/trendahl/Workarea/cxi/cspad-tripper/current/bin/linux-x86_64/tripper"
     },
     {
         "host": "ioc-cxi-usr1",
@@ -8949,8 +8949,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-pico-usr2",
-        "script": "/reg/neh/home/klg/epics/ioc/cxi/pico874x/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/klg/epics/ioc/cxi/pico874x/current/build/iocBoot/ioc-cxi-pico-usr2/st.cmd",
+        "binary": "/cds/home/k/klg/epics/ioc/common/pico874x/current/bin/linux-x86/motion"
     },
     {
         "host": "ioc-cxi-usrmot2",
@@ -9511,8 +9511,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-prt1-smart",
-        "script": "/reg/neh/home/zlentz/epics/ioc/det/ims/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/zlentz/epics/ioc/det/ims/current/build/iocBoot/ioc-det-prt1-smart/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.1.0/bin/linux-x86/ims"
     },
     {
         "host": "ioc-det-portable1",
@@ -9868,8 +9868,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-amphosdc",
-        "script": "/reg/neh/home/kmecseki/ioc/hpl/Amphos-DC/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/kmecseki/ioc/hpl/Amphos-DC/current/iocBoot/ioc-hpl-amphosdc/st.cmd",
+        "binary": "/cds/home/k/kmecseki/ioc/hpl/Amphos-DC/current/bin/linux-x86_64/amphos"
     },
     {
         "host": "ioc-hpl-01",
@@ -10085,8 +10085,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-beckhoff",
-        "script": "/reg/neh/home/kmecseki/ioc/hpl/attenuator/R0.1.3/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/kmecseki/ioc/hpl/attenuator/R0.1.3/iocBoot/ioc-hpl-beckhoff/st.cmd",
+        "binary": "/cds/home/k/kmecseki/ioc/hpl/attenuator/R0.1.3/bin/linux-x86_64/beckhoff"
     },
     {
         "host": "ioc-hpl-03",
@@ -10099,7 +10099,7 @@
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-cps",
         "script": "/reg/neh/home/kmecseki/ioc/hpl/CPS/st.cmd",
-        "binary": null
+        "binary": "/usr/bin/bash"
     },
     {
         "host": "ioc-hpl-03",
@@ -10151,8 +10151,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-sc10",
-        "script": "/reg/neh/home/kmecseki/ioc/hpl/SC10/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/kmecseki/ioc/hpl/SC10/current/iocBoot/ioc-hpl-sc10/st.cmd",
+        "binary": "/cds/home/k/kmecseki/ioc/hpl/SC10/current/bin/linux-x86_64/sc10"
     },
     {
         "host": "ioc-hpl-03",
@@ -10178,8 +10178,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-ttsim",
-        "script": "/reg/neh/home/kmecseki/ioc/hpl/TTSIM-1A/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/kmecseki/ioc/hpl/TTSIM-1A/iocBoot/ioc-hpl-ttsim/st.cmd",
+        "binary": "/cds/home/k/kmecseki/ioc/hpl/TTSIM-1A/bin/linux-x86_64/ttsim"
     },
     {
         "host": "ioc-hpl-03",
@@ -10206,8 +10206,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-amphos",
-        "script": "/reg/neh/home/kmecseki/ioc/hpl/Amphos/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/kmecseki/ioc/hpl/Amphos/current/iocBoot/ioc-hpl-amphos/st.cmd",
+        "binary": "/cds/home/k/kmecseki/ioc/hpl/Amphos/current/bin/rhel7-x86_64/amphos"
     },
     {
         "host": "ioc-hpl-04",
@@ -10219,8 +10219,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-amphos-basler1",
-        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/build/iocBoot/ioc-hpl-amphos-basler1/st.cmd",
+        "binary": "/cds/home/k/kmecseki/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-hpl-04",
@@ -10232,8 +10232,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-amphos-basler2",
-        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/build/iocBoot/ioc-hpl-amphos-basler2/st.cmd",
+        "binary": "/cds/home/k/kmecseki/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-hpl-04",
@@ -10245,8 +10245,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-amphos-basler3",
-        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/build/iocBoot/ioc-hpl-amphos-basler3/st.cmd",
+        "binary": "/cds/home/k/kmecseki/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-hpl-04",
@@ -10258,8 +10258,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-amphos-basler4",
-        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/build/iocBoot/ioc-hpl-amphos-basler4/st.cmd",
+        "binary": "/cds/home/k/kmecseki/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-hpl-04",
@@ -10271,8 +10271,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-amphos-basler5",
-        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/build/iocBoot/ioc-hpl-amphos-basler5/st.cmd",
+        "binary": "/cds/home/k/kmecseki/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-hpl-04",
@@ -10286,8 +10286,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-basler1",
-        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/build/iocBoot/ioc-hpl-basler1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-hpl-04",
@@ -10301,8 +10301,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-basler2",
-        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/build/iocBoot/ioc-hpl-basler2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-hpl-04",
@@ -10316,8 +10316,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-basler3",
-        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/build/iocBoot/ioc-hpl-basler3/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-hpl-04",
@@ -10331,8 +10331,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-basler4",
-        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/build/iocBoot/ioc-hpl-basler4/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-hpl-04",
@@ -10346,8 +10346,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-basler5",
-        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/build/iocBoot/ioc-hpl-basler5/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-hpl-04",
@@ -10361,8 +10361,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-basler6",
-        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/build/iocBoot/ioc-hpl-basler6/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-hpl-04",
@@ -10376,8 +10376,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-basler7",
-        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/build/iocBoot/ioc-hpl-basler7/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-hpl-04",
@@ -10391,8 +10391,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-basler8",
-        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/build/iocBoot/ioc-hpl-basler8/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-hpl-04",
@@ -10406,8 +10406,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-basler9",
-        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/build/iocBoot/ioc-hpl-basler9/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-hpl-04",
@@ -10420,7 +10420,7 @@
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-pointing",
         "script": "/reg/neh/home/kmecseki/ioc/hpl/beamPosMonitor/st.cmd",
-        "binary": null
+        "binary": "/usr/bin/bash"
     },
     {
         "host": "ioc-hpl-04",
@@ -10437,7 +10437,7 @@
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-xps1",
         "script": "/cds/home/k/kmecseki/ioc/hpl/NewportXPS8/current/build/iocBoot/ioc-hpl-xps1/st.cmd",
-        "binary": "/reg/neh/home/kmecseki/ioc/common/NewportXPS8/R2.0.1/bin/rhel7-x86_64/xps8"
+        "binary": "/cds/home/k/kmecseki/ioc/common/NewportXPS8/R2.0.1/bin/rhel7-x86_64/xps8"
     },
     {
         "host": "ioc-hpl-05",
@@ -10479,8 +10479,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-basler23",
-        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/build/iocBoot/ioc-hpl-basler23/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-hpl-05",
@@ -10492,8 +10492,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-basler24",
-        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/build/iocBoot/ioc-hpl-basler24/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-hpl-05",
@@ -10505,8 +10505,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-basler25",
-        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/build/iocBoot/ioc-hpl-basler25/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-hpl-05",
@@ -10518,8 +10518,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-basler26",
-        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/build/iocBoot/ioc-hpl-basler26/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-hpl-05",
@@ -10531,8 +10531,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-basler27",
-        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/build/iocBoot/ioc-hpl-basler27/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-hpl-05",
@@ -10544,8 +10544,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-basler28",
-        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/kmecseki/ioc/hpl/gigECam/current/build/iocBoot/ioc-hpl-basler28/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-hpl-05",
@@ -10868,8 +10868,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-vcmd1-01",
-        "script": "/reg/neh/home/tjohnson/trunk/mec/UniblitzVCMD1/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/tjohnson/trunk/mec/UniblitzVCMD1/iocBoot/ioc-las-vcmd1-01/st.cmd",
+        "binary": "/cds/home/t/tjohnson/trunk/mec/UniblitzVCMD1/bin/linux-x86_64/UniblitzVCMD1"
     },
     {
         "host": "ioc-las-mec-srv06",
@@ -14458,8 +14458,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-rob-cont",
-        "script": "/reg/neh/home/joaoprod/svnRepo/mfx/staubli/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/joaoprod/svnRepo/mfx/staubli/current/build/iocBoot/ioc-mfx-rob-cont/st.cmd",
+        "binary": "/cds/home/j/joaoprod/svnRepo/common/staubli_mfx/current/bin/linux-x86_64/staubli"
     },
     {
         "host": "ioc-mfx-misc01",
@@ -14691,8 +14691,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-rowland-01",
-        "script": "/reg/neh/home/zlentz/epics/ioc/xcs/arcus_dmx/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/zlentz/epics/ioc/xcs/arcus_dmx/current/build/iocBoot/ioc-rowland-01/st.cmd",
+        "binary": "/cds/home/z/zlentz/epics/ioc/common/arcus_dmx/current/bin/linux-x86/dmx"
     },
     {
         "host": "ioc-mfx-tfs",
@@ -15264,7 +15264,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-rowland-01",
         "script": "/reg/g/pcds/package/epics/3.14-dev/ioc/rowland/arcus_dmx/current/build/iocBoot/ioc-rowland-01/st.cmd",
-        "binary": "/reg/neh/home/eshelman/arcus_dmx/dmx_ioc/bin/linux-x86/dmx"
+        "binary": "/cds/home/e/eshelman/arcus_dmx/dmx_ioc/bin/linux-x86/dmx"
     },
     {
         "host": "ioc-tst-01",
@@ -15277,8 +15277,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-digi",
-        "script": "/reg/neh/home/eshelman/epics/ioc/digitest/ims/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/eshelman/epics/ioc/digitest/ims/build/iocBoot/ioc-tst-digi/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.0.0/bin/linux-x86/ims"
     },
     {
         "host": "ioc-tst-01",
@@ -15441,8 +15441,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "tst-ioc-fee1-gas-vac",
-        "script": "/reg/neh/home5/apra/work/ioc/fee/HXRvacuum/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home5/apra/work/ioc/fee/HXRvacuum/iocBoot/tst-ioc-fee1-gas-vac/st.cmd",
+        "binary": "/cds/home/a/apra/work/ioc/fee/HXRvacuum/bin/linux-x86_64/vacuum"
     },
     {
         "host": "ioc-tst-02",
@@ -15558,8 +15558,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-evr",
-        "script": "/reg/neh/home/klg/epics/workspace/evr2/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/klg/epics/workspace/evr2/current/build/iocBoot/ioc-tst-evr/st.cmd",
+        "binary": "/cds/home/k/klg/epics/workspace/evrcom/current/bin/linux-x86_64/evr"
     },
     {
         "host": "ioc-tst-05",
@@ -15600,8 +15600,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-easetest",
-        "script": "/reg/neh/home/nwbrown/Documents/easetest/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/nwbrown/Documents/easetest/current/iocBoot/ioc-tst-easetest/st.cmd",
+        "binary": "/cds/home/n/nwbrown/Documents/easetest/current/bin/linux-x86_64/easetest"
     },
     {
         "host": "ioc-tst-06",
@@ -15689,7 +15689,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "at2l0-dev",
         "script": "/reg/neh/home/rajan-01/checkouts/hxr_satt/caproto/ioc-satt-dev/iocBoot/st.cmd",
-        "binary": null
+        "binary": "/usr/bin/env bash"
     },
     {
         "host": "ioc-tst-13",
@@ -15768,8 +15768,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tc-at2l0-sim",
-        "script": "/reg/neh/home/rajan-01/checkouts/lcls-twincat-motion-good-example/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/rajan-01/checkouts/lcls-twincat-motion-good-example/iocBoot/ioc-tc-at2l0-sim/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.2.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ioc-tst-13",
@@ -15782,8 +15782,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-b84-opal1",
-        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/edtCam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/edtCam/current/build/iocBoot/ioc-tst-b84-opal1/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/edtCam/current/bin/rhel7-x86_64/edt"
     },
     {
         "host": "ioc-tst-13",
@@ -15796,8 +15796,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-basler1",
-        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current/build/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current/build/iocBoot/ioc-tst-basler1/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-tst-13",
@@ -15851,8 +15851,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-g146c",
-        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current/build/iocBoot/ioc-tst-g146c/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-tst-13",
@@ -15879,7 +15879,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-gige-13",
         "script": "/cds/home/j/jjoshi/test/gigECam/current/build/iocBoot/ioc-tst-gige-13/st.cmd",
-        "binary": "/reg/neh/home5/bhill/wa2/epics/ioc/common/gigECam/current/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-tst-13",
@@ -15891,8 +15891,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-gige-rix-01",
-        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current/build/iocBoot/ioc-tst-gige-rix-01/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-tst-13",
@@ -15905,8 +15905,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-ict01",
-        "script": "/reg/neh/home/sfsyunus/workarea/tst/ict/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/sfsyunus/workarea/tst/ict/current/build/iocBoot/ioc-tst-ict01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.1/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ioc-tst-13",
@@ -15919,8 +15919,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-meanwell01",
-        "script": "/reg/neh/home/sfsyunus/workarea/meanwell/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/sfsyunus/workarea/meanwell/current/children/build/iocBoot/ioc-tst-meanwell01/st.cmd",
+        "binary": "/cds/home/s/sfsyunus/workarea/meanwell/current/bin/rhel7-x86_64/meanwell"
     },
     {
         "host": "ioc-tst-13",
@@ -15946,8 +15946,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-opal1",
-        "script": "/reg/neh/home5/bhill/wa2/epics/ioc/tst/edtCam/current/build/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home5/bhill/wa2/epics/ioc/tst/edtCam/current/build/iocBoot/ioc-tst-opal1/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.1/bin/rhel7-x86_64/edt"
     },
     {
         "host": "ioc-tst-13",
@@ -15988,8 +15988,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-up900",
-        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/edtCam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/edtCam/current/build/iocBoot/ioc-tst-up900/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.1/bin/linux-x86_64/edt"
     },
     {
         "host": "ioc-tst-evg",
@@ -16062,8 +16062,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-las-amo1",
-        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current/build/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current/build/iocBoot/ioc-tst-las-amo1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-tst-rec02",
@@ -16076,8 +16076,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-ads",
-        "script": "/reg/neh/home/mghaly/workspace/ADS/adsModule/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/mghaly/workspace/ADS/adsModule/current/children/build/iocBoot/ioc-tst-ads/st.cmd",
+        "binary": "/cds/home/m/mghaly/workspace/ADS/adsModule/current/bin/rhel7-x86_64/ads"
     },
     {
         "host": "ioc-tst-rec02",
@@ -16090,8 +16090,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-basler2",
-        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current/build/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current/build/iocBoot/ioc-tst-basler2/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-tst-rec02",
@@ -16119,8 +16119,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-goldeye1",
-        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/edtCam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/edtCam/current/build/iocBoot/ioc-tst-goldeye1/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/edtCam/current/bin/rhel7-x86_64/edt"
     },
     {
         "host": "ioc-tst-rec02",
@@ -16149,8 +16149,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-mcf01",
-        "script": "/reg/neh/home/zlentz/epics/ioc/common/picoMotion/current/children/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/zlentz/epics/ioc/common/picoMotion/current/children/build/iocBoot/ioc-tst-mcf01/st.cmd",
+        "binary": "/cds/home/z/zlentz/epics/ioc/common/picoMotion/current/bin/rhel7-x86_64/motion"
     },
     {
         "host": "ioc-tst-rec02",
@@ -16164,8 +16164,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-opal2-rt",
-        "script": "/reg/neh/home5/bhill/wa2/epics/ioc/tst/edtCam/current/build/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home5/bhill/wa2/epics/ioc/tst/edtCam/current/build/iocBoot/ioc-tst-opal2-rt/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/edtCam/current/bin/linuxRT_glibc-x86_64/edt"
     },
     {
         "host": "ioc-tst-rec02",
@@ -16178,8 +16178,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-ptm1",
-        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/edtCam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/edtCam/current/build/iocBoot/ioc-tst-ptm1/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/edtCam/current/bin/rhel7-x86_64/edt"
     },
     {
         "host": "ioc-tst-rec02",
@@ -16192,8 +16192,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-pwr-01",
-        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/Leviton/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/Leviton/current/build/iocBoot/ioc-tst-pwr-01/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/Leviton/current/bin/rhel7-x86_64/Leviton"
     },
     {
         "host": "ioc-tst-rec02",
@@ -16206,8 +16206,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-xpp-gige-06",
-        "script": "/reg/neh/home/bhill/wa2/epics/ioc/xpp/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/bhill/wa2/epics/ioc/xpp/gigECam/current/build/iocBoot/ioc-xpp-gige-06/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R2.7.0/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-tst-rec02",
@@ -16220,8 +16220,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-xpp-gige-15",
-        "script": "/reg/neh/home/bhill/wa2/epics/ioc/xpp/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/bhill/wa2/epics/ioc/xpp/gigECam/current/build/iocBoot/ioc-xpp-gige-15/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R2.7.0/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-tst-rec02",
@@ -16234,8 +16234,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-xrt-ecc1",
-        "script": "/reg/neh/home/mcbrowne/trunk2/ioc/common/ecc100/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/mcbrowne/trunk2/ioc/common/ecc100/current/children/build/iocBoot/ioc-xrt-ecc1/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/ecc100/current/bin/linux-x86/eccTest100"
     },
     {
         "host": "ioc-tst-rec03",
@@ -16263,8 +16263,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-g046b-1",
-        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current/build/iocBoot/ioc-tst-g046b-1/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-tst-rec03",
@@ -16277,8 +16277,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-gc1350c",
-        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current/build/iocBoot/ioc-tst-gc1350c/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-tst-rec03",
@@ -16306,8 +16306,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-orca1",
-        "script": "/reg/neh/home5/bhill/wa2/epics/ioc/tst/edtCam/current/build/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home5/bhill/wa2/epics/ioc/tst/edtCam/current/build/iocBoot/ioc-tst-orca1/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/edtCam/current/bin/linux-x86_64/edt"
     },
     {
         "host": "ioc-tst-rec03",
@@ -16364,8 +16364,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-icl-felSim",
-        "script": "/reg/neh/home/awallace/workspace/icl/edtCam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/awallace/workspace/icl/edtCam/current/build/iocBoot/ioc-icl-felSim/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R1.19.0/bin/rhel7-x86_64/edt"
     },
     {
         "host": "ioc-tst-rec10",
@@ -16912,7 +16912,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "xcs-pyioc-test",
         "script": "/reg/neh/home/zlentz/python/pyIOC/servers/test/st.cmd",
-        "binary": null
+        "binary": "/usr/bin/bash"
     },
     {
         "host": "ioc-xcs-mot1",
@@ -16941,8 +16941,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-rowland-01",
-        "script": "/reg/neh/home/zlentz/epics/ioc/xcs/arcus_dmx/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/zlentz/epics/ioc/xcs/arcus_dmx/current/build/iocBoot/ioc-rowland-01/st.cmd",
+        "binary": "/cds/home/z/zlentz/epics/ioc/common/arcus_dmx/current/bin/linux-x86/dmx"
     },
     {
         "host": "ioc-xcs-mot1",
@@ -17697,8 +17697,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-evr2",
-        "script": "/reg/neh/home/eshelman/epics/ioc/xcs/evr/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/eshelman/epics/ioc/xcs/evr/current/build/iocBoot/ioc-xcs-evr2/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/evr/current/bin/linux-x86_64/evr"
     },
     {
         "host": "ioc-xcs-rec02",
@@ -18340,8 +18340,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-keithley6514",
-        "script": "/reg/neh/home/zlentz/epics/ioc/xcs/Keithley6514/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/zlentz/epics/ioc/xcs/Keithley6514/current/build/iocBoot/ioc-xcs-keithley6514/st.cmd",
+        "binary": "/cds/home/z/zlentz/epics/ioc/common/Keithley6514/current/bin/linux-x86/Keithley6514"
     },
     {
         "host": "ioc-xcs-user1",
@@ -18699,8 +18699,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-led05",
-        "script": "/reg/neh/home/snelson/work/xcs/leds/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/snelson/work/xcs/leds/current/iocBoot/ioc-xcs-led05/st.cmd",
+        "binary": "/cds/home/s/snelson/work/xcs/leds/current/bin/linux-x86_64/leds"
     },
     {
         "host": "ioc-xcs-user2",
@@ -19265,7 +19265,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "pyioc-xpp-ccm-calc",
         "script": "/reg/neh/home/zlentz/python/pyIOC/servers/ccm/st.cmd",
-        "binary": null
+        "binary": "/usr/bin/bash"
     },
     {
         "host": "ioc-xpp-gon",
@@ -19279,7 +19279,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "pyioc-xpp-lom-calc",
         "script": "/reg/neh/home/zlentz/python/pyIOC/servers/lodcm/st.cmd",
-        "binary": null
+        "binary": "/usr/bin/bash"
     },
     {
         "host": "ioc-xpp-ipimb",
@@ -20302,8 +20302,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-mon-yaglom",
-        "script": "/reg/neh/home/mcbrowne/trunk2/ioc/xpp/edtCam/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/mcbrowne/trunk2/ioc/xpp/edtCam/current/build/iocBoot/ioc-xpp-mon-yaglom/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.1/bin/rhel7-x86_64/edt"
     },
     {
         "host": "ioc-xpp-rec02",
@@ -20514,8 +20514,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-keithley6514",
-        "script": "/reg/neh/home/zlentz/epics/ioc/xpp/Keithley6514/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/zlentz/epics/ioc/xpp/Keithley6514/current/build/iocBoot/ioc-xpp-keithley6514/st.cmd",
+        "binary": "/cds/home/z/zlentz/epics/ioc/common/Keithley6514/current/bin/linux-x86/Keithley6514"
     },
     {
         "host": "ioc-xpp-rob01",
@@ -20569,7 +20569,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "pyioc-xpp-offset",
         "script": "/reg/neh/home/zlentz/python/pyIOC/servers/offsetBasic/st.cmd",
-        "binary": null
+        "binary": "/usr/bin/bash"
     },
     {
         "host": "ioc-xpp-rob01",
@@ -20584,7 +20584,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "pyioc-xpp-sb1-ipm-med",
         "script": "/reg/neh/home/zlentz/python/pyIOC/servers/ipmMed/ipm1/st.cmd",
-        "binary": null
+        "binary": "/usr/bin/bash"
     },
     {
         "host": "ioc-xpp-rob01",
@@ -20599,7 +20599,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "pyioc-xpp-sb2-ipm-med",
         "script": "/reg/neh/home/zlentz/python/pyIOC/servers/ipmMed/ipm2/st.cmd",
-        "binary": null
+        "binary": "/usr/bin/bash"
     },
     {
         "host": "ioc-xpp-rob01",
@@ -20614,7 +20614,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "pyioc-xpp-sb3-ipm-med",
         "script": "/reg/neh/home/zlentz/python/pyIOC/servers/ipmMed/ipm3/st.cmd",
-        "binary": null
+        "binary": "/usr/bin/bash"
     },
     {
         "host": "ioc-xpp-rob01",
@@ -20629,7 +20629,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "pyioc-xpp-usr-mpulser",
         "script": "/reg/neh/home/zlentz/python/pyIOC/servers/magPulser/st.cmd",
-        "binary": null
+        "binary": "/usr/bin/bash"
     },
     {
         "host": "ioc-xpp-usr01",
@@ -20671,7 +20671,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-rowland-01",
         "script": "/cds/home/z/zlentz/epics/ioc/xcs/arcus_dmx/current/build/iocBoot/ioc-rowland-01/st.cmd",
-        "binary": "/reg/neh/home/zlentz/epics/ioc/common/arcus_dmx/current/bin/linux-x86/dmx"
+        "binary": "/cds/home/z/zlentz/epics/ioc/common/arcus_dmx/current/bin/linux-x86/dmx"
     },
     {
         "host": "ioc-xpp-usr01",
@@ -20687,8 +20687,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-analogScaleOffset",
-        "script": "/reg/neh/home/zlentz/epics/ioc/xpp/analogScaleOffset/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/zlentz/epics/ioc/xpp/analogScaleOffset/current/build/iocBoot/ioc-xpp-analogScaleOffset/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/analogScaleOffset/R0.9.1/bin/linux-x86_64/analogScaleOffset"
     },
     {
         "host": "ioc-xpp-usr01",
@@ -20728,8 +20728,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-detchiller2",
-        "script": "/reg/neh/home/zlentz/epics/ioc/xpp/thermocube/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/zlentz/epics/ioc/xpp/thermocube/current/build/iocBoot/ioc-xpp-detchiller2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thermocube/R1.0.5/bin/linux-x86_64/chiller"
     },
     {
         "host": "ioc-xpp-usr01",
@@ -20870,8 +20870,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-nanocube",
-        "script": "/reg/neh/home/snelson/work/ioc/xpp/nanocube/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/snelson/work/ioc/xpp/nanocube/current/iocBoot/ioc-xpp-nanocube/st.cmd",
+        "binary": "/cds/home/s/snelson/work/ioc/xpp/nanocube/current/bin/linux-x86_64/piMotion"
     },
     {
         "host": "ioc-xpp-usr01",
@@ -20892,8 +20892,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-portable01-ims",
-        "script": "/reg/neh/home/sheppard/ioc/xpp/ims/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/sheppard/ioc/xpp/ims/current/build/iocBoot/ioc-xpp-portable01-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.7/bin/linux-x86/ims"
     },
     {
         "host": "ioc-xpp-usr01",
@@ -20903,8 +20903,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-portable03-ims",
-        "script": "/reg/neh/home/sheppard/ioc/xpp/ims/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/sheppard/ioc/xpp/ims/current/build/iocBoot/ioc-xpp-portable03-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.7/bin/linux-x86/ims"
     },
     {
         "host": "ioc-xpp-usr01",
@@ -21081,8 +21081,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-usr-pico",
-        "script": "/reg/neh/home/snelson/work/ioc/common/picoMotion/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/snelson/work/ioc/common/picoMotion/current/iocBoot/ioc-xpp-usr-pico/st.cmd",
+        "binary": "/cds/home/s/snelson/work/ioc/common/picoMotion/current/bin/linux-x86/motion"
     },
     {
         "host": "ioc-xpp-usr01",
@@ -21107,8 +21107,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-xps-user-test01",
-        "script": "/reg/neh/home/bosum123/ioc-xpp-xps/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/bosum123/ioc-xpp-xps/build/iocBoot/ioc-xpp-xps-user-test01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
     },
     {
         "host": "ioc-xpp-vacuum",
@@ -21457,8 +21457,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-evr-misc",
-        "script": "/reg/neh/home/trendahl/epics/xrt/evr/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/trendahl/epics/xrt/evr/current/build/iocBoot/ioc-xrt-evr-misc/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.2.2/bin/linux-x86_64/evr"
     },
     {
         "host": "ioc-xrt-misc02",
@@ -21483,8 +21483,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-usdusb4",
-        "script": "/reg/neh/home/trendahl/epics/xrt/usdusb4/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/trendahl/epics/xrt/usdusb4/current/build/iocBoot/ioc-xrt-usdusb4/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/usdusb4/R1.0.4/bin/linux-x86_64/usdusb4"
     },
     {
         "host": "ioc-xrt-rec01",
@@ -21935,8 +21935,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xcs-xfls-temp",
-        "script": "/reg/neh/home/rajan-01/checkouts/epics/xcs/ims/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/rajan-01/checkouts/epics/xcs/ims/current/build/iocBoot/ioc-xcs-xfls-temp/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.2.1/bin/linux-x86/ims"
     },
     {
         "host": "ioc-xrt-xcsmot1",
