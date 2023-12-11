@@ -21151,7 +21151,7 @@
     {
         "host": "ioc-xpp-wave8-01",
         "port": 30100,
-        "dir": "ioc/xpp/wave8/R2.0.2",
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8.clean",
         "alias": "SB2 - WAVE8",
         "history": [
             "ioc/xpp/wave8/R2.0.1",
@@ -21161,8 +21161,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb2-bmmon",
-        "script": "/reg/g/pcds/epics/ioc/xpp/wave8/R2.0.2/build/iocBoot/ioc-xpp-sb2-bmmon/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/wave8/R1.0.16/bin/rhel7-x86_64/wave8Ioc"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8.clean/children/build/iocBoot/ioc-xpp-sb2-bmmon/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8.clean/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-xpp-wave8-01",
