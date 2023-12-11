@@ -1998,6 +1998,7 @@
         "host": "ctl-las-lhn-01",
         "port": 30302,
         "dir": "/reg/g/pcds/epics-dev/klauer/lcls-plc-las-bts",
+        "disable": true,
         "history": [
             "/reg/g/pcds/epics-dev/klauer/lcls-plc-las-bts"
         ],
@@ -2663,6 +2664,16 @@
         "name": "sioc-las-lhn-ls01",
         "script": "/cds/home/t/tjohnson/trunk/workarea/locker_cp/R1.5.0-1.0_rfthresh/iocBoot/sioc-las-lhn-ls01/st.cmd",
         "binary": "/cds/home/t/tjohnson/trunk/workarea/locker_cp/R1.5.0-1.0_rfthresh/bin/rhel7-x86_64/laserLocker"
+    },
+    {
+        "host": "ctl-las-lhn-sp02",
+        "port": 30001,
+        "dir": "/cds/home/t/tjohnson/trunk/workarea/tprStandaloneTesting",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-lhn-tpr-02",
+        "script": "/cds/home/t/tjohnson/trunk/workarea/tprStandaloneTesting/build/iocBoot/ioc-las-lhn-tpr-02/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/tprStandalone/R1.1.6/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "ctl-las-lln-01",
