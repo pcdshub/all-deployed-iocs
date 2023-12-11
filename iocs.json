@@ -1998,7 +1998,6 @@
         "host": "ctl-las-lhn-01",
         "port": 30302,
         "dir": "/reg/g/pcds/epics-dev/klauer/lcls-plc-las-bts",
-        "disable": true,
         "history": [
             "/reg/g/pcds/epics-dev/klauer/lcls-plc-las-bts"
         ],
@@ -19048,12 +19047,12 @@
     {
         "host": "ioc-xpp-gige01",
         "port": 30020,
-        "dir": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam",
+        "dir": "ioc/xpp/gigECam/R2.0.5",
         "alias": "Gige 04 - LIB",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-gige-04",
-        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-xpp-gige-04/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.5/build/iocBoot/ioc-xpp-gige-04/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
@@ -19365,61 +19364,61 @@
     {
         "host": "ioc-xpp-las01",
         "port": 30002,
-        "dir": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam",
+        "dir": "ioc/xpp/gigECam/R2.0.5",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-lmxpp-inj-gige-ff-01",
-        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-lmxpp-inj-gige-ff-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.5/build/iocBoot/ioc-lmxpp-inj-gige-ff-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-las01",
         "port": 30004,
-        "dir": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam",
+        "dir": "ioc/xpp/gigECam/R2.0.5",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-lmxpp-inj-gige-ff-02",
-        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-lmxpp-inj-gige-ff-02/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.5/build/iocBoot/ioc-lmxpp-inj-gige-ff-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-las01",
         "port": 30006,
-        "dir": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam",
+        "dir": "ioc/xpp/gigECam/R2.0.5",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-lmxpp-inj-gige-ff-03",
-        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-lmxpp-inj-gige-ff-03/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.5/build/iocBoot/ioc-lmxpp-inj-gige-ff-03/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-las01",
         "port": 30001,
-        "dir": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam",
+        "dir": "ioc/xpp/gigECam/R2.0.5",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-lmxpp-inj-gige-nf-01",
-        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-lmxpp-inj-gige-nf-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.5/build/iocBoot/ioc-lmxpp-inj-gige-nf-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-las01",
         "port": 30003,
-        "dir": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam",
+        "dir": "ioc/xpp/gigECam/R2.0.5",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-lmxpp-inj-gige-nf-02",
-        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-lmxpp-inj-gige-nf-02/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.5/build/iocBoot/ioc-lmxpp-inj-gige-nf-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xpp-las01",
         "port": 30005,
-        "dir": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam",
+        "dir": "ioc/xpp/gigECam/R2.0.5",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-lmxpp-inj-gige-nf-03",
-        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-lmxpp-inj-gige-nf-03/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.5/build/iocBoot/ioc-lmxpp-inj-gige-nf-03/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
@@ -19521,13 +19520,13 @@
     {
         "host": "ioc-xpp-misc01",
         "port": 3536,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xpp/ims",
+        "dir": "ioc/xpp/ims/R6.6.0",
         "alias": "HXR Dumb Motor Portable",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-hxr-dumb-portable01-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xpp/ims/build/iocBoot/ioc-hxr-dumb-portable01-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.6.0/build/iocBoot/ioc-hxr-dumb-portable01-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.6.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xpp-misc01",
@@ -19881,8 +19880,30 @@
     },
     {
         "host": "ioc-xpp-misc02",
+        "port": 30172,
+        "dir": "ioc/xpp/ims/R6.6.0",
+        "alias": "USR Motion SMART Portable Rack",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-portable01-ims",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.6.0/build/iocBoot/ioc-xpp-portable01-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.6.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xpp-misc02",
+        "port": 30171,
+        "dir": "ioc/xpp/ims/R6.6.0",
+        "alias": "USR Motion DUMB Mk II Portable Rack",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-portable03-ims",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.6.0/build/iocBoot/ioc-xpp-portable03-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.6.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xpp-misc02",
         "port": 30053,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims",
+        "dir": "ioc/xpp/ims/R6.6.0",
         "alias": "SB2 - Double Slits",
         "history": [
             "ioc/xpp/ims/R2.3.0",
@@ -19892,7 +19913,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb2-dslits-ims",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims/build/iocBoot/ioc-xpp-sb2-dslits-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.6.0/build/iocBoot/ioc-xpp-sb2-dslits-ims/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/ims/R6.6.0/bin/rhel7-x86_64/ims"
     },
     {
@@ -19914,12 +19935,12 @@
     {
         "host": "ioc-xpp-misc02",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims",
+        "dir": "ioc/xpp/ims/R6.6.0",
         "alias": "SB2 - Attenuator Motors",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb2-ppatt-ims",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims/build/iocBoot/ioc-xpp-sb2-ppatt-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.6.0/build/iocBoot/ioc-xpp-sb2-ppatt-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.6.0/bin/rhel7-x86_64/ims"
     },
     {
@@ -20905,28 +20926,6 @@
         "name": "ioc-xpp-portable-xps",
         "script": "/reg/g/pcds/epics/ioc/xpp/NewportXPS8/R2.0.4/build/iocBoot/ioc-xpp-portable-xps/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
-    },
-    {
-        "host": "ioc-xpp-usr01",
-        "port": 30172,
-        "dir": "/reg/neh/home/sheppard/ioc/xpp/ims/current",
-        "alias": "USR Motion SMART Portable Rack",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-portable01-ims",
-        "script": "/reg/neh/home/sheppard/ioc/xpp/ims/current/build/iocBoot/ioc-xpp-portable01-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.7/bin/linux-x86/ims"
-    },
-    {
-        "host": "ioc-xpp-usr01",
-        "port": 30171,
-        "dir": "/reg/neh/home/sheppard/ioc/xpp/ims/current",
-        "alias": "USR Motion DUMB Mk II Portable Rack",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-portable03-ims",
-        "script": "/reg/neh/home/sheppard/ioc/xpp/ims/current/build/iocBoot/ioc-xpp-portable03-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.7/bin/linux-x86/ims"
     },
     {
         "host": "ioc-xpp-usr01",
