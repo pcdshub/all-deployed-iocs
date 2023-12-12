@@ -4148,6 +4148,17 @@
         "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.5/bin/rhel7-x86_64/tpr"
     },
     {
+        "host": "ctl-rix-qrix-cam-01",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/thermotek",
+        "alias": "ioc-rix-thermotek-01",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-thermotek-01",
+        "script": "/reg/g/pcds/epics-dev/opperman/rix/ioc/thermotek/build/iocBoot/ioc-rix-thermotek-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.7/bin/rhel7-x86_64/thermotek"
+    },
+    {
         "host": "ctl-rix-qrix-cam-02",
         "port": 34000,
         "dir": "ioc/rix/gigECam/R2.2.4",
