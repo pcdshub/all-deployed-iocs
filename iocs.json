@@ -5492,7 +5492,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-PLC-TMO-VAC",
         "script": "/reg/g/pcds/epics-dev/tongju/PLC/lcls-plc-tmo-vac/iocBoot/ioc-PLC-TMO-VAC/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-tmo-vac-01",
