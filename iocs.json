@@ -10707,6 +10707,26 @@
     },
     {
         "host": "ioc-las-cxi-srv05",
+        "port": 35830,
+        "dir": "ioc/las/pdu_snmp/R1.0.1",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-mec-pwr-01",
+        "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.0.1/build/iocBoot/ioc-las-mec-pwr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
+    },
+    {
+        "host": "ioc-las-cxi-srv05",
+        "port": 35820,
+        "dir": "ioc/las/pdu_snmp/R1.0.1",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-xcs-pwr-01",
+        "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.0.1/build/iocBoot/ioc-las-xcs-pwr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
+    },
+    {
+        "host": "ioc-las-cxi-srv05",
         "port": 43405,
         "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
         "alias": "CXI - FSTiming Python",
@@ -10914,16 +10934,6 @@
     },
     {
         "host": "ioc-las-mfx-srv45",
-        "port": 35830,
-        "dir": "ioc/las/pdu_snmp/R1.0.1",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-mec-pwr-01",
-        "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.0.1/build/iocBoot/ioc-las-mec-pwr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
-    },
-    {
-        "host": "ioc-las-mfx-srv45",
         "port": 30560,
         "dir": "ioc/las/ek9000/R1.0.3",
         "base_version": "3.15",
@@ -11016,16 +11026,6 @@
         "name": "ioc-las-tst-sr620-01",
         "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/sr620/current/st.cmd",
         "binary": null
-    },
-    {
-        "host": "ioc-las-mfx-srv45",
-        "port": 35820,
-        "dir": "ioc/las/pdu_snmp/R1.0.1",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-xcs-pwr-01",
-        "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.0.1/build/iocBoot/ioc-las-xcs-pwr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ioc-las-mfx-srv45",
