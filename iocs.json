@@ -9203,18 +9203,6 @@
         "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
     },
     {
-        "host": "ioc-cxi-wave8b",
-        "port": 32937,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/xpp/chiller/current",
-        "disable": true,
-        "alias": "Thermotek Chiller Temporary 01",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-thermotek-temp-01",
-        "script": "/reg/g/pcds/epics-dev/pennebak/xpp/chiller/current/build/iocBoot/ioc-xpp-thermotek-temp-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.6/bin/rhel7-x86_64/thermotek"
-    },
-    {
         "host": "ioc-det-evg",
         "port": 30001,
         "dir": "/reg/g/pcds/controls/testEvg/R1.8.1",
@@ -19320,12 +19308,12 @@
     {
         "host": "ioc-xpp-ipimb",
         "port": 30115,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/pvNotepad",
+        "dir": "ioc/xpp/pvNotepad/R1.1.9",
         "alias": "pcdsdevices pvNotepad",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-pcdsdevices",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/pvNotepad/build/iocBoot/ioc-xpp-pcdsdevices/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/pvNotepad/R1.1.9/build/iocBoot/ioc-xpp-pcdsdevices/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
     },
     {
@@ -20869,22 +20857,6 @@
     },
     {
         "host": "ioc-xpp-usr01",
-        "port": 30106,
-        "dir": "/reg/neh/home/snelson/work/ioc/xpp/nanocube/current",
-        "disable": true,
-        "alias": "USR nanocube",
-        "history": [
-            "/reg/neh/home/snelson/work/ioc/xpp/nanocube/current",
-            "ioc/xpp/nanocube/R1.0.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-nanocube",
-        "script": "/reg/neh/home/snelson/work/ioc/xpp/nanocube/current/iocBoot/ioc-xpp-nanocube/st.cmd",
-        "binary": "/cds/home/s/snelson/work/ioc/xpp/nanocube/current/bin/linux-x86_64/piMotion"
-    },
-    {
-        "host": "ioc-xpp-usr01",
         "port": 31012,
         "dir": "ioc/xpp/NewportXPS8/R2.0.4",
         "alias": "USR Motion Newport Portable Rack",
@@ -21056,21 +21028,6 @@
         "name": "ioc-xpp-usr-lakeshore331",
         "script": "/reg/g/pcds/epics/ioc/common/tempControl/R0.8.0/iocBoot/ioc-xpp-usr-lakeshore331/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/tempControl/R0.8.0/bin/linux-x86_64/lakeshore331"
-    },
-    {
-        "host": "ioc-xpp-usr01",
-        "port": 30056,
-        "dir": "/reg/neh/home/snelson/work/ioc/common/picoMotion/current",
-        "disable": true,
-        "alias": "SB2 - Timetool Pico",
-        "history": [
-            "/reg/neh/home/snelson/work/ioc/common/picoMotion/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-usr-pico",
-        "script": "/reg/neh/home/snelson/work/ioc/common/picoMotion/current/iocBoot/ioc-xpp-usr-pico/st.cmd",
-        "binary": "/cds/home/s/snelson/work/ioc/common/picoMotion/current/bin/linux-x86/motion"
     },
     {
         "host": "ioc-xpp-usr01",
