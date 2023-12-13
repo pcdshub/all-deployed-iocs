@@ -10847,53 +10847,13 @@
     },
     {
         "host": "ioc-las-mec-srv06",
-        "port": 30103,
-        "dir": "ioc/las/agilent5322/R1.0.4",
-        "history": [
-            "ioc/common/agilent5322/R0.4.0"
-        ],
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/agilent5322",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-mec-ctr-01",
-        "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R1.0.4/build/iocBoot/ioc-las-mec-ctr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R2.0.3/bin/linux-x86/agilent5322"
-    },
-    {
-        "host": "ioc-las-mec-srv06",
-        "port": 30107,
-        "dir": "ioc/las/smc100/R0.3.4",
-        "history": [
-            "ioc/las/smc100/R0.2.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-mec-smc100-01",
-        "script": "/reg/g/pcds/epics/ioc/las/smc100/R0.3.4/build/iocBoot/ioc-las-mec-smc100-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smc100/R1.0.1/bin/linux-x86_64/smc100"
-    },
-    {
-        "host": "ioc-las-mec-srv06",
-        "port": 30105,
-        "dir": "ioc/las/sr620/R1.1.2",
-        "history": [
-            "ioc/las/sr620/R1.0.1",
-            "ioc/las/sr620/R1.0.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-mec-sr620-01",
-        "script": "/reg/g/pcds/epics/ioc/las/sr620/R1.1.2/build/iocBoot/ioc-las-mec-sr620-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/sr620/R0.9.2/bin/linux-x86/sr620"
-    },
-    {
-        "host": "ioc-las-mec-srv06",
-        "port": 30206,
-        "dir": "ioc/las/vitara/R3.0.0",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-mec-vitara",
-        "script": "/reg/g/pcds/epics/ioc/las/vitara/R3.0.0/iocBoot/ioc-las-mec-vitara/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/las/vitara/R3.0.0/bin/linux-x86_64/vitara"
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/agilent5322/build/iocBoot/ioc-las-mec-ctr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R2.0.3/bin/rhel7-x86_64/agilent5322"
     },
     {
         "host": "ioc-las-mec-srv06",
