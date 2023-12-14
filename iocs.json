@@ -2280,7 +2280,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-tpr-01",
         "script": "/cds/home/t/tjohnson/trunk/workarea/tprStandaloneTesting/build/iocBoot/ioc-las-lhn-tpr-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/tprStandalone/R1.1.5/bin/rhel7-x86_64/tpr"
+        "binary": "/cds/group/pcds/epics/ioc/common/tprStandalone/R1.1.7/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "ctl-las-lhn-03",
@@ -2692,7 +2692,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-tpr-02",
         "script": "/cds/home/t/tjohnson/trunk/workarea/tprStandaloneTesting/build/iocBoot/ioc-las-lhn-tpr-02/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/tprStandalone/tprStandalone-git/bin/rhel7-x86_64/tpr"
+        "binary": "/cds/group/pcds/epics/ioc/common/tprStandalone/R1.1.7/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "ctl-las-lln-01",
