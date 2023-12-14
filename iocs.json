@@ -19379,11 +19379,11 @@
     {
         "host": "ioc-xpp-las01",
         "port": 30010,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/smaract",
+        "dir": "ioc/xpp/smaract/R1.0.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-lmxpp-mcs2-01",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/smaract/build/iocBoot/ioc-lmxpp-mcs2-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/smaract/R1.0.0/build/iocBoot/ioc-lmxpp-mcs2-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.10/bin/rhel7-x86_64/smaract"
     },
     {
@@ -19442,23 +19442,23 @@
     {
         "host": "ioc-xpp-las01",
         "port": 30008,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam",
+        "dir": "ioc/xpp/gigECam/R2.0.5",
         "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-midir-gige-ff",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.5/st.cmd",
         "binary": null
     },
     {
         "host": "ioc-xpp-las01",
         "port": 30009,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam",
+        "dir": "ioc/xpp/gigECam/R2.0.5",
         "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-midir-gige-nf",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.5/st.cmd",
         "binary": null
     },
     {
@@ -20249,12 +20249,12 @@
     {
         "host": "ioc-xpp-rec02",
         "port": 30031,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/smaract",
+        "dir": "ioc/xpp/smaract/R1.0.0",
         "alias": "USR - SmarAct",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-mcs2-01",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/smaract/build/iocBoot/ioc-xpp-mcs2-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/smaract/R1.0.0/build/iocBoot/ioc-xpp-mcs2-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.10/bin/rhel7-x86_64/smaract"
     },
     {
