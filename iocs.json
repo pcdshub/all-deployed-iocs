@@ -1976,6 +1976,26 @@
     },
     {
         "host": "ctl-las-ip1-srv06",
+        "port": 30016,
+        "dir": "/reg/g/pcds/epics-dev/mods/lln/gigEcam",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-opa-gige-ff-01",
+        "script": "/reg/g/pcds/epics-dev/mods/lln/gigEcam/build/iocBoot/ioc-lm1k4-opa-gige-ff-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-ip1-srv06",
+        "port": 30015,
+        "dir": "/reg/g/pcds/epics-dev/mods/lln/gigEcam",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-opa-gige-nf-01",
+        "script": "/reg/g/pcds/epics-dev/mods/lln/gigEcam/build/iocBoot/ioc-lm1k4-opa-gige-nf-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-ip1-srv06",
         "port": 34000,
         "dir": "/cds/home/t/tjohnson/trunk/fakeGmd",
         "base_version": "3.15",
@@ -2957,26 +2977,6 @@
         "name": "ioc-lm1k4-opa-ell-01",
         "script": "/reg/g/pcds/epics-dev/mods/lln/thorlabs-ell/build/iocBoot/ioc-lm1k4-opa-ell-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
-    },
-    {
-        "host": "ctl-las-lln-02",
-        "port": 30016,
-        "dir": "/reg/g/pcds/epics-dev/mods/lln/gigEcam",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-opa-gige-ff-01",
-        "script": "/reg/g/pcds/epics-dev/mods/lln/gigEcam/build/iocBoot/ioc-lm1k4-opa-gige-ff-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-lln-02",
-        "port": 30015,
-        "dir": "/reg/g/pcds/epics-dev/mods/lln/gigEcam",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-opa-gige-nf-01",
-        "script": "/reg/g/pcds/epics-dev/mods/lln/gigEcam/build/iocBoot/ioc-lm1k4-opa-gige-nf-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lln-02",
