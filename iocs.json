@@ -15989,6 +15989,19 @@
     },
     {
         "host": "ioc-tst-13",
+        "port": 35000,
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool",
+        "history": [
+            "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-tst-tt-01",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool/children/build/iocBoot/ioc-tst-tt-01/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool/bin/rhel7-x86_64/gsd"
+    },
+    {
+        "host": "ioc-tst-13",
         "port": 39101,
         "dir": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/mr3k3-mr4k3-mr2l1-mr3l1-sat",
         "history": [
@@ -16428,19 +16441,6 @@
         "name": "ioc-tst-sim",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/PI_663/iocBoot/ioc-tst-sim/st.cmd",
         "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/PI_663/bin/rhel7-x86_64/motion"
-    },
-    {
-        "host": "ioc-tst-rec10",
-        "port": 30010,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool",
-        "history": [
-            "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-tt-01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool/children/build/iocBoot/ioc-tst-tt-01/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ioc-tst-rec10",
