@@ -16498,15 +16498,15 @@
     {
         "host": "ioc-ued-ccd01",
         "port": 30001,
-        "dir": "ioc/common/mpod/R2.2.7",
+        "dir": "ioc/common/mpod/R2.2.12",
         "history": [
             "/cds/home/m/mcbrowne/trunk2/ioc/common/mpod/current"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-mpod-01",
-        "script": "/reg/g/pcds/epics/ioc/common/mpod/R2.2.7/iocBoot/ioc-ued-mpod-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/mpod/R2.2.7/bin/rhel7-x86_64/mpod"
+        "script": "/reg/g/pcds/epics/ioc/common/mpod/R2.2.12/iocBoot/ioc-ued-mpod-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/mpod/R2.2.12/bin/rhel7-x86_64/mpod"
     },
     {
         "host": "ioc-ued-ccd01",
