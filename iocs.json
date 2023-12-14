@@ -5985,7 +5985,7 @@
         "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-epix10ka2m",
         "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/epix/current/build/iocBoot/ioc-det-epix10ka2m/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.5.0/bin/rhel7-x86_64/epixMonIoc"
+        "binary": "/cds/group/pcds/epics/ioc/common/epix/R1.5.0/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-det-pgp01",
