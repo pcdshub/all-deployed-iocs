@@ -20396,11 +20396,11 @@
     {
         "host": "ioc-xpp-rec02",
         "port": 30007,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/timetool",
+        "dir": "ioc/xpp/timetool/R1.0.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-tt",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/timetool/build/iocBoot/ioc-xpp-tt/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xpp/timetool/R1.0.0/build/iocBoot/ioc-xpp-tt/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/timetool/R1.0.3/bin/rhel7-x86_64/gsd"
     },
     {
