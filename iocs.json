@@ -2692,7 +2692,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-tpr-02",
         "script": "/cds/home/t/tjohnson/trunk/workarea/tprStandaloneTesting/build/iocBoot/ioc-las-lhn-tpr-02/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/tprStandalone/R1.1.6/bin/rhel7-x86_64/tpr"
+        "binary": "/cds/home/t/tjohnson/trunk/common/tprStandalone/tprStandalone-git/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "ctl-las-lln-01",
@@ -3368,13 +3368,13 @@
     {
         "host": "ctl-lfe-mot-01",
         "port": 30015,
-        "dir": "/reg/neh/home/sheppard/HOMS/ioc/lcls-plc-txi-optics",
+        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-txi-optics/iocBoot/ioc-txi-optics/",
         "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-txi-optics",
-        "script": "/reg/neh/home/sheppard/HOMS/ioc/lcls-plc-txi-optics/iocBoot/ioc-txi-optics/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.2.1/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-txi-optics/iocBoot/ioc-txi-optics/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-lfe-vac-01",
