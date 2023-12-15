@@ -1287,17 +1287,6 @@
     },
     {
         "host": "ctl-las-ftl-srv01",
-        "port": 30006,
-        "dir": "/cds/home/t/tjohnson/trunk/las/evr",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-ftl-evr-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/evr/build/iocBoot/ioc-las-ftl-evr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/rhel7-x86_64/evr"
-    },
-    {
-        "host": "ctl-las-ftl-srv01",
         "port": 30004,
         "dir": "ioc/las/smaract/R1.0.2",
         "base_version": "3.15",
@@ -1355,6 +1344,16 @@
         "name": "ioc-las-ftl-rfoftx-gw-01",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/local_gateway/children/build/iocBoot/ioc-las-ftl-rfoftx-gw-01/st.cmd",
         "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ctl-las-ftl-srv01",
+        "port": 30006,
+        "dir": "/cds/home/t/tjohnson/trunk/workarea/tprStandaloneTesting",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-ftl-tpr-01",
+        "script": "/cds/home/t/tjohnson/trunk/workarea/tprStandaloneTesting/build/iocBoot/ioc-las-ftl-tpr-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/tprStandalone/R1.1.7/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "ctl-las-ftl-srv01",
