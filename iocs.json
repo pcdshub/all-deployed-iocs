@@ -5681,6 +5681,19 @@
         "binary": "/cds/home/z/zlentz/github/ads-ioc/bin/rhel7-x86_64/adsIoc"
     },
     {
+        "host": "ctl-tst-dev-01",
+        "port": 35000,
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool",
+        "history": [
+            "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-tst-tt-01",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool/children/build/iocBoot/ioc-tst-tt-01/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool/bin/rhel7-x86_64/gsd"
+    },
+    {
         "host": "ctl-tst-pgp01",
         "port": 30001,
         "dir": "/cds/home/d/dnajjar/areaDetectores/pgpCamlink",
@@ -15986,19 +15999,6 @@
         "name": "ioc-tst-ppm",
         "script": "/reg/neh/home/zlentz/pytmc_tests/plc-tst-ppm/ioc-tst-ppm/st.cmd",
         "binary": null
-    },
-    {
-        "host": "ioc-tst-13",
-        "port": 35000,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool",
-        "history": [
-            "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-tt-01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool/children/build/iocBoot/ioc-tst-tt-01/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ioc-tst-13",
