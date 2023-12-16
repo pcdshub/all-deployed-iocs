@@ -10891,7 +10891,7 @@
     },
     {
         "host": "ioc-las-mec-srv06",
-        "port": 39101,
+        "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/smc100",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
@@ -10908,6 +10908,16 @@
         "name": "ioc-las-mec-sr620-01",
         "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/sr620/build/iocBoot/ioc-las-mec-sr620-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/sr620/R0.9.2/bin/rhel7-x86_64/sr620"
+    },
+    {
+        "host": "ioc-las-mec-srv06",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/vitara",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-mec-vitara",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/vitara/iocBoot/ioc-las-mec-vitara/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/vitara/bin/rhel7-x86_64/vitara"
     },
     {
         "host": "ioc-las-mec-srv06",
