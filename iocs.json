@@ -10891,17 +10891,6 @@
     },
     {
         "host": "ioc-las-mec-srv06",
-        "port": 39101,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ims",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-mec-phase-ims",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ims/iocBoot/ioc-las-mec-phase-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ims/bin/linux-x86/motion"
-    },
-    {
-        "host": "ioc-las-mec-srv06",
         "port": 39104,
         "dir": "/reg/neh/home/tjohnson/trunk/mec/UniblitzVCMD1",
         "history": [
