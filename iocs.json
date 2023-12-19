@@ -10857,16 +10857,6 @@
     },
     {
         "host": "ioc-las-mec-srv06",
-        "port": 30004,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/epm2000",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-epm2000-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/epm2000/iocBoot/ioc-las-epm2000-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/epm2000/bin/rhel7-x86_64/epm2000"
-    },
-    {
-        "host": "ioc-las-mec-srv06",
         "port": 39103,
         "dir": "ioc/mec/xpwSpec/R1.1.0",
         "disable": true,
@@ -11085,6 +11075,16 @@
         "name": "py-fstiming-tt-MFX",
         "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
         "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ioc-las-srv01",
+        "port": 30002,
+        "dir": "ioc/las/epm2000/R2.0.0",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-epm2000-01",
+        "script": "/reg/g/pcds/epics/ioc/las/epm2000/R2.0.0/iocBoot/ioc-las-epm2000-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/las/epm2000/R2.0.0/bin/linux-x86/epm2000"
     },
     {
         "host": "ioc-las-srv01",
