@@ -18070,6 +18070,7 @@
         "host": "ioc-xcs-snd",
         "port": 30005,
         "dir": "ioc/common/aerotech/R1.0.6",
+        "disable": true,
         "alias": "SND - Ensemble Motors A",
         "history": [
             "ioc/common/aerotech/R1.0.6"
@@ -18084,6 +18085,7 @@
         "host": "ioc-xcs-snd",
         "port": 30002,
         "dir": "ioc/common/aerotech/R1.0.6",
+        "disable": true,
         "alias": "SND - Ensemble Motors B",
         "history": [
             "ioc/common/aerotech/R1.0.6"
@@ -18098,6 +18100,7 @@
         "host": "ioc-xcs-snd",
         "port": 30003,
         "dir": "ioc/common/aerotech/R1.0.6",
+        "disable": true,
         "alias": "SND - Ensemble Motors C",
         "history": [
             "ioc/common/aerotech/R1.0.6"
