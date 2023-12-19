@@ -11078,16 +11078,6 @@
     },
     {
         "host": "ioc-las-srv01",
-        "port": 30002,
-        "dir": "ioc/las/epm2000/R2.0.0",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-epm2000-01",
-        "script": "/reg/g/pcds/epics/ioc/las/epm2000/R2.0.0/iocBoot/ioc-las-epm2000-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/las/epm2000/R2.0.0/bin/linux-x86/epm2000"
-    },
-    {
-        "host": "ioc-las-srv01",
         "port": 30501,
         "dir": "ioc/las/ims/R0.4.0",
         "base_version": "3.15",
@@ -11165,6 +11155,16 @@
         "name": "ioc-las-cxi-phase-ims",
         "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0/iocBoot/ioc-las-cxi-phase-ims/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0/bin/linux-x86/motion"
+    },
+    {
+        "host": "ioc-las-srv04",
+        "port": 30002,
+        "dir": "ioc/las/epm2000/R2.0.0",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-epm2000-01",
+        "script": "/reg/g/pcds/epics/ioc/las/epm2000/R2.0.0/iocBoot/ioc-las-epm2000-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/las/epm2000/R2.0.0/bin/linux-x86/epm2000"
     },
     {
         "host": "ioc-las-srv04",
@@ -18070,7 +18070,6 @@
         "host": "ioc-xcs-snd",
         "port": 30005,
         "dir": "ioc/common/aerotech/R1.0.6",
-        "disable": true,
         "alias": "SND - Ensemble Motors A",
         "history": [
             "ioc/common/aerotech/R1.0.6"
@@ -18085,7 +18084,6 @@
         "host": "ioc-xcs-snd",
         "port": 30002,
         "dir": "ioc/common/aerotech/R1.0.6",
-        "disable": true,
         "alias": "SND - Ensemble Motors B",
         "history": [
             "ioc/common/aerotech/R1.0.6"
@@ -18100,7 +18098,6 @@
         "host": "ioc-xcs-snd",
         "port": 30003,
         "dir": "ioc/common/aerotech/R1.0.6",
-        "disable": true,
         "alias": "SND - Ensemble Motors C",
         "history": [
             "ioc/common/aerotech/R1.0.6"
