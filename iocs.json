@@ -10898,7 +10898,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-mec-smc100-01",
         "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/smc100/build/iocBoot/ioc-las-mec-smc100-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smc100/R1.0.1/bin/rhel7-x86_64/smc100"
+        "binary": "/reg/g/pcds/epics/ioc/common/smc100/R1.1.2/bin/rhel7-x86_64/smc100"
     },
     {
         "host": "ioc-las-mec-srv06",
