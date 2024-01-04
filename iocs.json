@@ -3482,7 +3482,6 @@
         "host": "ctl-rix-cam-02",
         "port": 30011,
         "dir": "ioc/rix/gigECam/R2.2.4",
-        "disable": true,
         "alias": "IM2K2 GIGE",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
@@ -3498,7 +3497,6 @@
         "host": "ctl-rix-cam-02",
         "port": 30055,
         "dir": "ioc/rix/gigECam/R2.2.4",
-        "disable": true,
         "alias": "IM3K2 GIGE",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
@@ -3514,7 +3512,6 @@
         "host": "ctl-rix-cam-02",
         "port": 30031,
         "dir": "ioc/rix/gigECam/R2.2.4",
-        "disable": true,
         "alias": "IM4K2 GIGE",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
@@ -3530,7 +3527,6 @@
         "host": "ctl-rix-cam-02",
         "port": 30001,
         "dir": "ioc/rix/tprStandalone/R1.0.6",
-        "disable": true,
         "alias": "RIX TPR 2",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
@@ -3542,7 +3538,6 @@
         "host": "ctl-rix-cam-02",
         "port": 30066,
         "dir": "ioc/rix/gigECam/R2.2.4",
-        "disable": true,
         "alias": "TM2K2 GIGE",
         "history": [
             "ioc/rix/gigECam/R2.0.1",
@@ -7073,7 +7068,7 @@
     {
         "host": "ioc-cxi-mot1",
         "port": 30101,
-        "dir": "ioc/common/Leviton/R1.28.8",
+        "dir": "ioc/common/Leviton/R2.4.2",
         "alias": "Power Leviton Racks",
         "history": [
             "ioc/common/Leviton/R1.28.8"
@@ -7082,8 +7077,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-lev",
-        "script": "/reg/g/pcds/epics/ioc/common/Leviton/R1.28.8/iocBoot/ioc-cxi-lev/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R1.28.8/bin/linux-x86_64/Leviton"
+        "script": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.2/iocBoot/ioc-cxi-lev/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.2/bin/linux-x86_64/Leviton"
     },
     {
         "host": "ioc-cxi-mot1",
