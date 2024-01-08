@@ -974,7 +974,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-crix-pgpw8-01",
         "script": "/cds/home/t/tjohnson/trunk/las/pgpWave8/build/iocBoot/ioc-las-crix-pgpw8-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R1.8.0/bin/rhel7-x86_64/pgpWave8"
+        "binary": "/cds/home/t/tjohnson/trunk/common/pgpWave8/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-las-crix-srv03",
