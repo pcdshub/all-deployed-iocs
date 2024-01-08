@@ -6353,20 +6353,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.5/bin/rhel7-x86_64/tpr"
     },
     {
-        "host": "daq-tst-dev03",
-        "port": 33001,
-        "dir": "/reg/neh/home/mcbrowne/trunk2/ioc/common/tprStandalone/current",
-        "disable": true,
-        "history": [
-            "/reg/neh/home/mcbrowne/trunk2/ioc/common/tprStandalone/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-tpr1",
-        "script": "/reg/neh/home/mcbrowne/trunk2/ioc/common/tprStandalone/current/st.cmd",
-        "binary": null
-    },
-    {
         "host": "daq-xcs-pgp01",
         "port": 35001,
         "dir": "ioc/xcs/epix/R1.5.1",
@@ -15901,20 +15887,6 @@
     },
     {
         "host": "ioc-tst-13",
-        "port": 30125,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam",
-        "disable": true,
-        "history": [
-            "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-g125c",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/children/build/iocBoot/ioc-tst-g125c/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/gigECam/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ioc-tst-13",
         "port": 30146,
         "dir": "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current",
         "history": [
@@ -16304,20 +16276,6 @@
         "name": "ioc-xpp-gige-15",
         "script": "/reg/neh/home/bhill/wa2/epics/ioc/xpp/gigECam/current/build/iocBoot/ioc-xpp-gige-15/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R2.7.0/bin/linux-x86_64/gige"
-    },
-    {
-        "host": "ioc-tst-rec02",
-        "port": 35000,
-        "dir": "/reg/neh/home/mcbrowne/trunk2/ioc/common/ecc100/current",
-        "disable": true,
-        "history": [
-            "/reg/neh/home/mcbrowne/trunk2/ioc/common/ecc100/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-xrt-ecc1",
-        "script": "/reg/neh/home/mcbrowne/trunk2/ioc/common/ecc100/current/children/build/iocBoot/ioc-xrt-ecc1/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/ecc100/current/bin/linux-x86/eccTest100"
     },
     {
         "host": "ioc-tst-rec03",
