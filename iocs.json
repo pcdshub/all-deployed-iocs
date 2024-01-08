@@ -9221,7 +9221,7 @@
     {
         "host": "ioc-cxi-wave8b",
         "port": 30101,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
+        "dir": "ioc/xpp/wave8/R3.0.0",
         "disable": true,
         "alias": "SB3 - WAVE8",
         "history": [
@@ -9233,8 +9233,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb3-bmmon",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-xpp-sb3-bmmon/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
+        "script": "/reg/g/pcds/epics/ioc/xpp/wave8/R3.0.0/build/iocBoot/ioc-xpp-sb3-bmmon/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/wave8/R3.0.0/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-det-evg",
