@@ -5691,19 +5691,6 @@
         "binary": "/cds/home/z/zlentz/github/ads-ioc/bin/rhel7-x86_64/adsIoc"
     },
     {
-        "host": "ctl-tst-dev-01",
-        "port": 35000,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool",
-        "history": [
-            "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-tt-01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool/children/build/iocBoot/ioc-tst-tt-01/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/timetool/bin/rhel7-x86_64/gsd"
-    },
-    {
         "host": "ctl-tst-pgp01",
         "port": 30001,
         "dir": "/cds/home/d/dnajjar/areaDetectores/pgpCamlink",
@@ -16394,19 +16381,6 @@
     },
     {
         "host": "ioc-tst-rec10",
-        "port": 30001,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/xrt/vacuum",
-        "history": [
-            "/cds/home/m/mcbrowne/trunk2/ioc/xrt/vacuum"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-mcb-vacuum",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/xrt/vacuum/iocBoot/ioc-tst-mcb-vacuum/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/xrt/vacuum/bin/rhel7-x86_64/vacuum"
-    },
-    {
-        "host": "ioc-tst-rec10",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/icldev/iocBoot",
         "disable": true,
@@ -16432,19 +16406,6 @@
         "name": "ioc-tst-setra",
         "script": "/reg/g/pcds/epics-dev/mlandrum/setra/current/iocBoot/ioc-tst-setra/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/mlandrum/setra/current/bin/linux-x86_64/setra"
-    },
-    {
-        "host": "ioc-tst-rec10",
-        "port": 30003,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/PI_663",
-        "history": [
-            "/cds/home/m/mcbrowne/trunk2/ioc/common/PI_663"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-sim",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/PI_663/iocBoot/ioc-tst-sim/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/PI_663/bin/rhel7-x86_64/motion"
     },
     {
         "host": "ioc-tst-rec10",
@@ -19303,17 +19264,6 @@
         "name": "pyioc-xpp-lom-calc",
         "script": "/reg/neh/home/zlentz/python/pyIOC/servers/lodcm/st.cmd",
         "binary": "/usr/bin/bash"
-    },
-    {
-        "host": "ioc-xpp-ipimb",
-        "port": 30003,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/ims",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-mcb-ims",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/ims/children/build/iocBoot/ioc-mcb-ims/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/ims/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xpp-ipimb",
