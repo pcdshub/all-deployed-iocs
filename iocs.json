@@ -3441,12 +3441,12 @@
     {
         "host": "ctl-rix-cam-01",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/tprStandalone",
+        "dir": "ioc/rix/tprStandalone/R1.0.7",
         "alias": "RIX TPR 1",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-tpr1",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/tprStandalone/build/iocBoot/ioc-rix-tpr1/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/tprStandalone/R1.0.7/build/iocBoot/ioc-rix-tpr1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.7/bin/rhel7-x86_64/tpr"
     },
     {
@@ -3526,12 +3526,12 @@
     {
         "host": "ctl-rix-cam-02",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/tprStandalone",
+        "dir": "ioc/rix/tprStandalone/R1.0.7",
         "alias": "RIX TPR 2",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-tpr2",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/tprStandalone/build/iocBoot/ioc-rix-tpr2/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/tprStandalone/R1.0.7/build/iocBoot/ioc-rix-tpr2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.7/bin/rhel7-x86_64/tpr"
     },
     {
@@ -3597,12 +3597,12 @@
     {
         "host": "ctl-rix-cam-03",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/tprStandalone",
+        "dir": "ioc/rix/tprStandalone/R1.0.7",
         "alias": "RIX TPR 3",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-tpr3",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/tprStandalone/build/iocBoot/ioc-rix-tpr3/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/tprStandalone/R1.0.7/build/iocBoot/ioc-rix-tpr3/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.7/bin/rhel7-x86_64/tpr"
     },
     {
@@ -3715,12 +3715,12 @@
     {
         "host": "ctl-rix-crix-cam-01",
         "port": 30007,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/tprStandalone",
+        "dir": "ioc/rix/tprStandalone/R1.0.7",
         "alias": "CRIX TPR 1",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-tpr1",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/tprStandalone/build/iocBoot/ioc-crix-tpr1/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/tprStandalone/R1.0.7/build/iocBoot/ioc-crix-tpr1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.7/bin/rhel7-x86_64/tpr"
     },
     {
@@ -4144,12 +4144,12 @@
     {
         "host": "ctl-rix-qrix-cam-01",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/tprStandalone",
+        "dir": "ioc/rix/tprStandalone/R1.0.7",
         "alias": "QRIX TPR 1",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-tpr1",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/tprStandalone/build/iocBoot/ioc-qrix-tpr1/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/tprStandalone/R1.0.7/build/iocBoot/ioc-qrix-tpr1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.7/bin/rhel7-x86_64/tpr"
     },
     {
@@ -4238,12 +4238,12 @@
     {
         "host": "ctl-rix-qrix-cam-02",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/tprStandalone",
+        "dir": "ioc/rix/tprStandalone/R1.0.7",
         "alias": "QRIX TPR 2",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-tpr2",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/tprStandalone/build/iocBoot/ioc-qrix-tpr2/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/tprStandalone/R1.0.7/build/iocBoot/ioc-qrix-tpr2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.7/bin/rhel7-x86_64/tpr"
     },
     {
@@ -6247,12 +6247,12 @@
     {
         "host": "daq-rix-andor-01",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/tprStandalone",
+        "dir": "ioc/rix/tprStandalone/R1.0.7",
         "alias": "RIX ANDOR TPR 1",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-andor-tpr1",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/tprStandalone/build/iocBoot/ioc-rix-andor-tpr1/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/tprStandalone/R1.0.7/build/iocBoot/ioc-rix-andor-tpr1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.7/bin/rhel7-x86_64/tpr"
     },
     {
@@ -6306,12 +6306,12 @@
     {
         "host": "daq-rix-ccd-01",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/tprStandalone",
+        "dir": "ioc/rix/tprStandalone/R1.0.7",
         "alias": "RIX CCD TPR 1",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-ccd-tpr1",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/tprStandalone/build/iocBoot/ioc-rix-ccd-tpr1/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/tprStandalone/R1.0.7/build/iocBoot/ioc-rix-ccd-tpr1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.7/bin/rhel7-x86_64/tpr"
     },
     {
