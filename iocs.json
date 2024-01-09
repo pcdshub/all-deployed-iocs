@@ -6248,6 +6248,7 @@
         "host": "daq-rix-andor-01",
         "port": 30001,
         "dir": "ioc/rix/tprStandalone/R1.0.6",
+        "disable": true,
         "alias": "RIX ANDOR TPR 1",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
@@ -6259,6 +6260,7 @@
         "host": "daq-rix-andor-01",
         "port": 30010,
         "dir": "ioc/common/andorCam/R1.0.7",
+        "disable": true,
         "alias": "Dir Andor Cam",
         "history": [
             "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam",
@@ -6277,6 +6279,7 @@
         "host": "daq-rix-andor-01",
         "port": 30012,
         "dir": "ioc/common/andorCam/R1.0.7",
+        "disable": true,
         "alias": "Norm Andor Cam",
         "history": [
             "ioc/common/andorCam/R1.0.1"
@@ -6291,6 +6294,7 @@
         "host": "daq-rix-andor-01",
         "port": 30011,
         "dir": "ioc/common/andorCam/R1.0.7",
+        "disable": true,
         "alias": "VLS Andor Cam",
         "history": [
             "ioc/common/andorCam/R1.0.1",
