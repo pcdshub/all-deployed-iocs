@@ -2344,17 +2344,6 @@
     },
     {
         "host": "ctl-las-lhn-03",
-        "port": 30004,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/qmini",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-opcpa-tst",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/qmini/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ctl-las-lhn-03",
         "port": 30010,
         "dir": "ioc/las/gigECam/R0.3.1",
         "base_version": "3.15",
@@ -2899,12 +2888,12 @@
     {
         "host": "ctl-las-lln-02",
         "port": 30006,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/qmini.dev",
+        "dir": "ioc/las/qmini/R1.0.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lln-spec-01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/qmini.dev/children/build/iocBoot/ioc-las-lln-spec-01/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/qmini/bin/rhel7-x86_64/qminiTpr"
+        "script": "/reg/g/pcds/epics/ioc/las/qmini/R1.0.0/build/iocBoot/ioc-las-lln-spec-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/qmini/R1.0.3/bin/rhel7-x86_64/qminiTpr"
     },
     {
         "host": "ctl-las-lln-02",
