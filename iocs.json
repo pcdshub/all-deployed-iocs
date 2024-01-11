@@ -15972,6 +15972,7 @@
         "host": "ioc-tst-13",
         "port": 32100,
         "dir": "/reg/neh/home5/bhill/wa2/epics/ioc/tst/edtCam/current/build",
+        "disable": true,
         "history": [
             "/reg/neh/home5/bhill/wa2/epics/ioc/tst/edtCam/current/build",
             "/reg/neh/home5/bhill/wa2/epics/ioc/common/edtCam/current"
@@ -15985,11 +15986,11 @@
     {
         "host": "ioc-tst-13",
         "port": 30004,
-        "dir": "/cds/home/s/skoufis/edtCam",
+        "dir": "/cds/home/s/skoufis/edt",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-orca1",
-        "script": "/cds/home/s/skoufis/edtCam/build/iocBoot/ioc-tst-orca1/st.cmd",
+        "script": "/cds/home/s/skoufis/edt/build/iocBoot/ioc-tst-orca1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.6/bin/linux-x86_64/edt"
     },
     {
@@ -16024,6 +16025,7 @@
         "host": "ioc-tst-13",
         "port": 30012,
         "dir": "/reg/neh/home/bhill/wa2/epics/ioc/tst/edtCam/current",
+        "disable": true,
         "history": [
             "/reg/neh/home/bhill/wa2/epics/ioc/tst/edtCam/current",
             "/reg/neh/home5/bhill/wa2/epics/ioc/common/edtCam/current"
