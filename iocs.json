@@ -6798,6 +6798,16 @@
     },
     {
         "host": "ioc-cxi-jungfrau01",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-mcs2-02",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract/build/iocBoot/ioc-cxi-mcs2-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.4/bin/rhel7-x86_64/smaract"
+    },
+    {
+        "host": "ioc-cxi-jungfrau01",
         "port": 39545,
         "dir": "ioc/cxi/thermotek/R1.0.0",
         "alias": "JF4M - Chiller",
