@@ -7293,8 +7293,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-las-xps2",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/NewportXPS8/build/iocBoot/ioc-cxi-las-xps2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/NewportXPS8/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-cxi-mot2",
