@@ -2029,12 +2029,12 @@
     {
         "host": "ctl-las-lhn-01",
         "port": 30010,
-        "dir": "ioc/las/smaract/R1.0.2",
+        "dir": "/reg/g/pcds/epics-dev/aberges/ioc/common/smaract/smaract-git",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-bts-mcs1",
-        "script": "/reg/g/pcds/epics/ioc/las/smaract/R1.0.2/build/iocBoot/ioc-las-bts-mcs1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.13/bin/rhel7-x86_64/smaract"
+        "script": "/reg/g/pcds/epics-dev/aberges/ioc/common/smaract/smaract-git/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-las-lhn-01",
@@ -16001,7 +16001,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-orca1",
         "script": "/cds/home/s/skoufis/edt/build/iocBoot/ioc-tst-orca1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.6/bin/linux-x86_64/edt"
+        "binary": "/cds/home/s/skoufis/edtCam/edtCam-git/bin/linux-x86_64/edt"
     },
     {
         "host": "ioc-tst-13",
