@@ -5361,6 +5361,16 @@
     },
     {
         "host": "ctl-tmo-mot-01",
+        "port": 39101,
+        "dir": "/reg/g/pcds/epics-dev/jyin/gitProjects/lcls-plc-dream-motion",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-lcls-dream-motion",
+        "script": "/reg/g/pcds/epics-dev/jyin/gitProjects/lcls-plc-dream-motion/iocBoot/ioc-lcls-dream-motion/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ctl-tmo-mot-01",
         "port": 35001,
         "dir": "ioc/tmo/mrco/lcls-plc-mrco-motion/v1.0.0",
         "history": [
@@ -6214,12 +6224,12 @@
     {
         "host": "daq-mfx-pgp02",
         "port": 39100,
-        "dir": "ioc/mfx/epix/R1.5.0",
+        "dir": "ioc/mfx/epix/R1.5.1",
         "alias": "DET - ePix IOC",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-epix",
-        "script": "/reg/g/pcds/epics/ioc/mfx/epix/R1.5.0/build/iocBoot/ioc-mfx-epix/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/mfx/epix/R1.5.1/build/iocBoot/ioc-mfx-epix/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.5.0/bin/rhel7-x86_64/epixMonIoc"
     },
     {
