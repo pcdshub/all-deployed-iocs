@@ -2308,8 +2308,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-opcpa-ctr-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/agilent5322/agilent5322-git/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/agilent5322/agilent5322-git/build/iocBoot/ioc-las-opcpa-ctr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/common/agilent5322/agilent5322-git/bin/rhel7-x86_64/agilent5322"
     },
     {
         "host": "ctl-las-lhn-03",
