@@ -4568,7 +4568,6 @@
         "host": "ctl-tmo-cam-02",
         "port": 35981,
         "dir": "ioc/tmo/gigEcam/R4.3.0",
-        "disable": true,
         "alias": "PEPPEX GIGE 01",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
