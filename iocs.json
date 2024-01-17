@@ -16011,7 +16011,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-orca1",
         "script": "/cds/home/s/skoufis/edt/build/iocBoot/ioc-tst-orca1/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/skoufis/edtCam/edtCam-git/bin/linux-x86_64/edt"
+        "binary": "/reg/g/pcds/epics-dev/skoufis/edtCam/edtCam-git/bin/rhel7-x86_64/edt"
     },
     {
         "host": "ioc-tst-13",
