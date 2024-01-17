@@ -1171,6 +1171,16 @@
     },
     {
         "host": "ctl-las-crix-srv05",
+        "port": 30007,
+        "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/smaract",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm2k2-mcs2-04",
+        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/smaract/build/iocBoot/ioc-lm2k2-mcs2-04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.13/bin/rhel7-x86_64/smaract"
+    },
+    {
+        "host": "ctl-las-crix-srv05",
         "port": 30100,
         "dir": "ioc/las/qadc/R1.2.0",
         "history": [
@@ -10962,7 +10972,6 @@
         "host": "ioc-las-mfx-srv45",
         "port": 35030,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-git",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-mfx-phase-ims-01",
