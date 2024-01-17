@@ -15988,6 +15988,7 @@
         "host": "ioc-tst-13",
         "port": 30004,
         "dir": "/cds/home/s/skoufis/edt",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-orca1",
