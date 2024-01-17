@@ -1246,6 +1246,16 @@
     },
     {
         "host": "ctl-las-ftl-sp01",
+        "port": 30009,
+        "dir": "/cds/home/t/tjohnson/trunk/las/raritan",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-src800-01",
+        "script": "/cds/home/t/tjohnson/trunk/las/raritan/build/iocBoot/ioc-las-src800-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/raritan/R1.0.1/bin/rhel7-x86_64/snmp"
+    },
+    {
+        "host": "ctl-las-ftl-sp01",
         "port": 30003,
         "dir": "/cds/home/t/tjohnson/trunk/workarea/locker_cp/R1.5.0-1.0_rfthresh",
         "base_version": "3.15",
@@ -1317,31 +1327,34 @@
     {
         "host": "ctl-las-ftl-srv01",
         "port": 30003,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/local_gateway",
+        "dir": "ioc/common/local_gateway/R1.0.1",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-ftl-pfts-gw-01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/local_gateway/children/build/iocBoot/ioc-las-ftl-pfts-gw-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/common/local_gateway/R1.0.1/children/build/iocBoot/ioc-las-ftl-pfts-gw-01/st.cmd",
         "binary": "/usr/bin/bash"
     },
     {
         "host": "ctl-las-ftl-srv01",
         "port": 30008,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/local_gateway",
+        "dir": "ioc/common/local_gateway/R1.0.1",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-ftl-rfofrx-gw-01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/local_gateway/children/build/iocBoot/ioc-las-ftl-rfofrx-gw-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/common/local_gateway/R1.0.1/children/build/iocBoot/ioc-las-ftl-rfofrx-gw-01/st.cmd",
         "binary": "/usr/bin/bash"
     },
     {
         "host": "ctl-las-ftl-srv01",
         "port": 30007,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/local_gateway",
+        "dir": "ioc/common/local_gateway/R1.0.1",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-ftl-rfoftx-gw-01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/local_gateway/children/build/iocBoot/ioc-las-ftl-rfoftx-gw-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/common/local_gateway/R1.0.1/children/build/iocBoot/ioc-las-ftl-rfoftx-gw-01/st.cmd",
         "binary": "/usr/bin/bash"
     },
     {
@@ -2913,16 +2926,6 @@
         "name": "ioc-las-lln-tst-01",
         "script": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-las-lln-tst-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
-    },
-    {
-        "host": "ctl-las-lln-02",
-        "port": 30010,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/Thorlabs-WFS",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-lln-wfs-01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/Thorlabs-WFS/children/build/iocBoot/ioc-las-lln-wfs-01/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/Thorlabs-WFS/bin/rhel7-gcc494-x86_64/wfsTpr"
     },
     {
         "host": "ctl-las-lln-02",
@@ -10851,6 +10854,16 @@
     },
     {
         "host": "ioc-las-mec-srv06",
+        "port": 30004,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/SDG_Elite",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-mec-sdg-01",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/SDG_Elite/children/build/iocBoot/ioc-las-mec-sdg-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/SDG_Elite/bin/rhel7-x86_64/sdg"
+    },
+    {
+        "host": "ioc-las-mec-srv06",
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/smc100",
         "base_version": "3.15",
@@ -11065,16 +11078,6 @@
         "name": "ioc-las-sim900-01",
         "script": "/reg/g/pcds/epics/ioc/common/sim900/R0.1.0/iocBoot/ioc-las-sim900-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/sim900/R0.1.0/bin/linux-x86/sim900"
-    },
-    {
-        "host": "ioc-las-srv01",
-        "port": 30001,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/raritan",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-src800-01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/raritan/children/build/iocBoot/ioc-las-src800-01/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/raritan/bin/rhel7-x86_64/snmp"
     },
     {
         "host": "ioc-las-srv01",
@@ -14726,18 +14729,6 @@
         "name": "ioc-mfx-table-protura",
         "script": "/reg/g/pcds/epics/ioc/mfx/protura/R0.0.3/build/iocBoot/ioc-mfx-table-protura/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/protura/R1.0.0/bin/linux-x86_64/protura"
-    },
-    {
-        "host": "ioc-mfx-table",
-        "port": 32287,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/mfx/ims/current",
-        "disable": true,
-        "alias": "DET - Rowland IMS Motion",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-row-ims",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/mfx/ims/current/st.cmd",
-        "binary": null
     },
     {
         "host": "ioc-mfx-table",
