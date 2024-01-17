@@ -1172,7 +1172,7 @@
     {
         "host": "ctl-las-crix-srv05",
         "port": 30100,
-        "dir": "/cds/home/t/tjohnson/trunk/common/qadc-git",
+        "dir": "ioc/las/qadc/R1.2.0",
         "history": [
             "/cds/home/m/mcbrowne/trunk2/ioc/common/qadc",
             "ioc/las/qadc/R1.0.1"
@@ -1180,8 +1180,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-qadc134-01",
-        "script": "/cds/home/t/tjohnson/trunk/common/qadc-git/children/build/iocBoot/ioc-lm2k2-qadc134-01/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/qadc-git/bin/rhel7-x86_64/qadc134Ioc"
+        "script": "/reg/g/pcds/epics/ioc/las/qadc/R1.2.0/build/iocBoot/ioc-lm2k2-qadc134-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/qadc/R2.1.0/bin/rhel7-x86_64/qadc134Ioc"
     },
     {
         "host": "ctl-las-crix-srv06",
@@ -1731,12 +1731,12 @@
     {
         "host": "ctl-las-ip1-srv03",
         "port": 30100,
-        "dir": "ioc/las/qadc/R1.1.0",
+        "dir": "ioc/las/qadc/R1.2.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-qadc134-01",
-        "script": "/reg/g/pcds/epics/ioc/las/qadc/R1.1.0/build/iocBoot/ioc-lm1k4-qadc134-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/qadc/R2.0.9/bin/rhel7-x86_64/qadc134Ioc"
+        "script": "/reg/g/pcds/epics/ioc/las/qadc/R1.2.0/build/iocBoot/ioc-lm1k4-qadc134-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/qadc/R2.1.0/bin/rhel7-x86_64/qadc134Ioc"
     },
     {
         "host": "ctl-las-ip1-srv04",
