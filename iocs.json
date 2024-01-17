@@ -2488,6 +2488,7 @@
         "host": "ctl-las-lhn-04",
         "port": 30501,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-git",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-phase-ims-04",
@@ -15996,7 +15997,6 @@
         "host": "ioc-tst-13",
         "port": 30004,
         "dir": "/cds/home/s/skoufis/edt",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-orca1",
@@ -18008,7 +18008,6 @@
         "host": "ioc-xcs-snd",
         "port": 30005,
         "dir": "ioc/common/aerotech/R1.0.6",
-        "disable": true,
         "alias": "SND - Ensemble Motors A",
         "history": [
             "ioc/common/aerotech/R1.0.6"
@@ -18023,7 +18022,6 @@
         "host": "ioc-xcs-snd",
         "port": 30002,
         "dir": "ioc/common/aerotech/R1.0.6",
-        "disable": true,
         "alias": "SND - Ensemble Motors B",
         "history": [
             "ioc/common/aerotech/R1.0.6"
@@ -18038,7 +18036,6 @@
         "host": "ioc-xcs-snd",
         "port": 30003,
         "dir": "ioc/common/aerotech/R1.0.6",
-        "disable": true,
         "alias": "SND - Ensemble Motors C",
         "history": [
             "ioc/common/aerotech/R1.0.6"
