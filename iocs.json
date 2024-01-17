@@ -22,14 +22,14 @@
     {
         "host": "ctl-hpl-srv01",
         "port": 30001,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/hpl/smaract/current",
+        "dir": "/reg/g/pcds/epics/ioc/hpl/smaract/R1.0.0",
         "history": [
             "/cds/home/m/mcbrowne/trunk2/ioc/hpl/smaract/current"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/hpl/iocmanager.cfg",
         "name": "ioc-hpl-mcs1",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/hpl/smaract/current/build/iocBoot/ioc-hpl-mcs1/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/hpl/smaract/R1.0.0/build/iocBoot/ioc-hpl-mcs1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.5/bin/rhel7-x86_64/smaract"
     },
     {
@@ -3353,16 +3353,6 @@
         "name": "ioc-lfe-optics",
         "script": "/reg/g/pcds/epics/ioc/lfe/lcls-plc-lfe-optics/v2.1.0/iocBoot/ioc-lfe-optics/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ctl-lfe-mot-01",
-        "port": 30001,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/pvNotepad",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/lfe/iocmanager.cfg",
-        "name": "ioc-mcb-pvtst",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/pvNotepad/children/build/iocBoot/ioc-mcb-pvtst/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/pvNotepad/bin/rhel7-x86_64/pvNotepad"
     },
     {
         "host": "ctl-lfe-vac-01",
@@ -20241,7 +20231,7 @@
     {
         "host": "ioc-xpp-rec02",
         "port": 30234,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/usdusb4/current",
+        "dir": "/reg/g/pcds/epics/ioc/common/usdusb4/R1.0.7",
         "disable": true,
         "alias": "USB Encoder - LOM",
         "history": [
@@ -20250,19 +20240,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-lom-usdusb4",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/usdusb4/current/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ioc-xpp-rec02",
-        "port": 30008,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/usdusb4",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-mcb-usdusb4",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/usdusb4/children/build/iocBoot/ioc-xpp-mcb-usdusb4/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/usdusb4/bin/rhel7-x86_64/usdusb4"
+        "script": "/reg/g/pcds/epics/ioc/common/usdusb4/R1.0.7/children/build/iocBoot/ioc-xpp-lom-usdusb4/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/usdusb4/R1.0.7/bin/rhel7-x86_64/usdusb4"
     },
     {
         "host": "ioc-xpp-rec02",
