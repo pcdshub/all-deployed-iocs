@@ -11561,17 +11561,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/evg/R1.0.5/bin/linux-x86/evg"
     },
     {
-        "host": "ioc-mec-evg",
-        "port": 30003,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/evr/current",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-mcb-evr",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/evr/current/st.cmd",
-        "binary": null
-    },
-    {
         "host": "ioc-mec-evr01",
         "port": 30002,
         "dir": "ioc/las/epm2000/R2.0.0",
@@ -16324,21 +16313,6 @@
         "name": "ioc-tst-ipimb",
         "script": "/reg/g/pcds/epics/ioc/tst/ipimb/R4.1.0/build/iocBoot/ioc-tst-ipimb/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ipimb/R3.1.0/bin/linux-x86/ipimbIoc"
-    },
-    {
-        "host": "ioc-tst-rec03",
-        "port": 40000,
-        "dir": "/reg/neh/home/mcbrowne/controls/camrecord.new",
-        "disable": true,
-        "history": [
-            "/reg/neh/home/mcbrowne/controls/camrecord.new",
-            "/reg/g/pcds/controls/camrecord"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-rec03",
-        "script": "/reg/neh/home/mcbrowne/controls/camrecord.new/st.cmd",
-        "binary": null
     },
     {
         "host": "ioc-tst-rec03",
