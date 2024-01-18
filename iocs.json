@@ -14332,6 +14332,7 @@
         "host": "ioc-mfx-hera",
         "port": 30086,
         "dir": "ioc/mfx/gigECam/R0.5.5",
+        "disable": true,
         "alias": "HERA - GigE off-axis",
         "history": [
             "ioc/mfx/gigECam/R0.5.4",
@@ -14347,6 +14348,7 @@
         "host": "ioc-mfx-hera",
         "port": 30090,
         "dir": "ioc/mfx/gigECam/R0.5.5",
+        "disable": true,
         "alias": "HERA - GigE on-axis",
         "history": [
             "ioc/mfx/gigECam/R0.5.4"
@@ -14361,6 +14363,7 @@
         "host": "ioc-mfx-hera",
         "port": 43924,
         "dir": "ioc/mfx/ims/R2.1.0",
+        "disable": true,
         "alias": "HERA - Navitar",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
@@ -14396,6 +14399,7 @@
         "host": "ioc-mfx-hera",
         "port": 43921,
         "dir": "ioc/mfx/piMotion/R1.0.0",
+        "disable": true,
         "alias": "HERA - Motion PI E-861 Piezo 01",
         "history": [
             "ioc/common/piMotion/R1.2.2",
@@ -14411,6 +14415,7 @@
         "host": "ioc-mfx-hera",
         "port": 43922,
         "dir": "ioc/mfx/piMotion/R1.0.0",
+        "disable": true,
         "alias": "HERA - Motion PI E-861 Piezo 02",
         "history": [
             "ioc/common/piMotion/R1.2.2",
@@ -14426,6 +14431,7 @@
         "host": "ioc-mfx-hera",
         "port": 43925,
         "dir": "ioc/mfx/NewportXPS8/R2.1.0",
+        "disable": true,
         "alias": "HERA - Motion - XPS",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
@@ -14959,6 +14965,16 @@
         "name": "ioc-mfx-thermotek-01",
         "script": "/reg/g/pcds/epics/ioc/mfx/thermotek/R1.0.0/build/iocBoot/ioc-mfx-thermotek-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.6/bin/rhel7-x86_64/thermotek"
+    },
+    {
+        "host": "ioc-mfx-wave8",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/common/usdusb4",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-usdusb4",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/usdusb4/children/build/iocBoot/ioc-mfx-usdusb4/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/usdusb4/bin/rhel7-x86_64/usdusb4"
     },
     {
         "host": "ioc-mfx-wave8",
