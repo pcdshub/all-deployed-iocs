@@ -14928,6 +14928,17 @@
     },
     {
         "host": "ioc-mfx-wave8",
+        "port": 30003,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract",
+        "alias": "\"Smaract\": DOD",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-mcs2-01",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract/build/iocBoot/ioc-mfx-mcs2-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.4/bin/rhel7-x86_64/smaract"
+    },
+    {
+        "host": "ioc-mfx-wave8",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/Leviton",
         "alias": "Leviton (PDU) Racks",
