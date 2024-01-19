@@ -14835,7 +14835,6 @@
         "host": "ioc-mfx-wave8",
         "port": 30090,
         "dir": "ioc/mfx/delaygen/R1.0.0",
-        "disable": true,
         "alias": "DELAYGEN - MFX",
         "history": [
             "/reg/neh/home/sheppard/ioc/mfx/dg/current"
