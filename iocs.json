@@ -2611,6 +2611,26 @@
     },
     {
         "host": "ctl-las-lhn-04",
+        "port": 43501,
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "py-fstiming-cast-hxr",
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
+        "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ctl-las-lhn-04",
+        "port": 43502,
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "py-fstiming-cast-sxr",
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
+        "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ctl-las-lhn-04",
         "port": 43424,
         "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
         "disable": true,
@@ -11079,26 +11099,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/sim900/R0.1.0/bin/linux-x86/sim900"
     },
     {
-        "host": "ioc-las-srv01",
-        "port": 43501,
-        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "py-fstiming-cast-hxr",
-        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
-        "binary": "/usr/bin/bash"
-    },
-    {
-        "host": "ioc-las-srv01",
-        "port": 43502,
-        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "py-fstiming-cast-sxr",
-        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
-        "binary": "/usr/bin/bash"
-    },
-    {
         "host": "ioc-las-srv02",
         "port": 32101,
         "dir": "ioc/common/history/R1.5.0",
@@ -16002,6 +16002,7 @@
         "host": "ioc-tst-13",
         "port": 30004,
         "dir": "/cds/home/s/skoufis/edt",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-orca1",
