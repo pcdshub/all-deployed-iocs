@@ -6128,12 +6128,11 @@
     {
         "host": "daq-det-standalone",
         "port": 30020,
-        "dir": "ioc/common/uxi/R1.0.1",
-        "disable": true,
+        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/uxi/current",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-uxi-yellow",
-        "script": "/reg/g/pcds/epics/ioc/common/uxi/R1.0.1/iocBoot/ioc-det-uxi-yellow/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/uxi/current/iocBoot/ioc-det-uxi-yellow/st.cmd",
         "binary": "/usr/bin/tcsh"
     },
     {
