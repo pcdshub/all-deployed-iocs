@@ -16563,12 +16563,12 @@
     {
         "host": "ioc-ued-ccd01",
         "port": 30007,
-        "dir": "/reg/g/pcds/epics-dev/nagar123/ioc/ued/PI_663/PI_663",
+        "dir": "/reg/g/pcds/epics-dev/nagar123/ioc/ued/PI_663",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-vt50",
-        "script": "/reg/g/pcds/epics-dev/nagar123/ioc/ued/PI_663/PI_663/children/build/iocBoot/ioc-ued-vt50/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/nagar123/ioc/ued/PI_663/PI_663/bin/rhel7-x86_64/motion"
+        "script": "/reg/g/pcds/epics-dev/nagar123/ioc/ued/PI_663/children/build/iocBoot/ioc-ued-vt50/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/nagar123/ioc/ued/PI_663/bin/rhel7-x86_64/motion"
     },
     {
         "host": "ioc-ued-ccd01",
