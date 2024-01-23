@@ -6391,8 +6391,20 @@
     },
     {
         "host": "daq-xcs-pgp01",
-        "port": 35001,
+        "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/epix",
+        "alias": "DET ioc-xcs-epix-quad",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-epix-quad",
+        "script": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/epix/build/iocBoot/ioc-xcs-epix-quad/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.5.0/bin/rhel7-x86_64/epixMonIoc"
+    },
+    {
+        "host": "daq-xcs-pgp01",
+        "port": 35001,
+        "dir": "ioc/xcs/epix/R1.5.1",
+        "disable": true,
         "alias": "DET - epix1",
         "history": [
             "ioc/xcs/epix/R1.5.1",
@@ -6402,46 +6414,49 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-epix1",
-        "script": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/epix/build/iocBoot/ioc-xcs-epix1/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xcs/epix/R1.5.1/build/iocBoot/ioc-xcs-epix1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.5.0/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-xcs-pgp01",
         "port": 35002,
-        "dir": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/epix",
+        "dir": "ioc/xcs/epix/R1.5.1",
+        "disable": true,
         "history": [
             "ioc/xcs/epix/R1.5.1"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-epix2",
-        "script": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/epix/build/iocBoot/ioc-xcs-epix2/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xcs/epix/R1.5.1/build/iocBoot/ioc-xcs-epix2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.5.0/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-xcs-pgp01",
         "port": 35003,
-        "dir": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/epix",
+        "dir": "ioc/xcs/epix/R1.5.1",
+        "disable": true,
         "history": [
             "ioc/xcs/epix/R1.5.1"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-epix3",
-        "script": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/epix/build/iocBoot/ioc-xcs-epix3/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xcs/epix/R1.5.1/build/iocBoot/ioc-xcs-epix3/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.5.0/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "daq-xcs-pgp01",
         "port": 35004,
-        "dir": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/epix",
+        "dir": "ioc/xcs/epix/R1.5.1",
+        "disable": true,
         "history": [
             "ioc/xcs/epix/R1.5.1"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-epix4",
-        "script": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/epix/build/iocBoot/ioc-xcs-epix4/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xcs/epix/R1.5.1/build/iocBoot/ioc-xcs-epix4/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.5.0/bin/rhel7-x86_64/epixMonIoc"
     },
     {
