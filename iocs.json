@@ -14900,7 +14900,7 @@
     {
         "host": "ioc-mfx-wave8",
         "port": 32237,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
+        "dir": "ioc/mfx/wave8/R3.0.0",
         "alias": "WAVE8 - DG1",
         "history": [
             "ioc/mfx/wave8/R2.0.1",
@@ -14910,13 +14910,13 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-dg1-bmmon",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-mfx-dg1-bmmon/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
+        "script": "/reg/g/pcds/epics/ioc/mfx/wave8/R3.0.0/build/iocBoot/ioc-mfx-dg1-bmmon/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/wave8/R3.0.0/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-mfx-wave8",
         "port": 32232,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
+        "dir": "ioc/mfx/wave8/R3.0.0",
         "alias": "WAVE8 - DG2 ",
         "history": [
             "ioc/mfx/wave8/R2.0.1",
@@ -14926,8 +14926,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-dg2-bmmon",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-mfx-dg2-bmmon/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
+        "script": "/reg/g/pcds/epics/ioc/mfx/wave8/R3.0.0/build/iocBoot/ioc-mfx-dg2-bmmon/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/wave8/R3.0.0/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-mfx-wave8",
