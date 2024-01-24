@@ -5620,7 +5620,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-plc-lamp-vac",
         "script": "/reg/g/pcds/epics-dev/tongju/PLC/lcls-plc-lamp-vac/plc-lamp-vac/iocBoot/ioc-plc-lamp-vac/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-tmo-vac-01",
@@ -6605,23 +6605,22 @@
     {
         "host": "drp-det-cmp001",
         "port": 30001,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/det/epixMon",
-        "disable": true,
+        "dir": "ioc/det/epixMon/R1.0.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-epixHR-02",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/det/epixMon/build/iocBoot/ioc-det-epixHR-02/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/det/epixMon/R1.0.0/build/iocBoot/ioc-det-epixHR-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/epixMon/R1.4.2/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "drp-srcf-cmp014",
         "port": 30100,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/epixMon",
+        "dir": "ioc/det/epixMon/R1.0.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-epixHR-01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/epixMon/children/build/iocBoot/ioc-det-epixHR-01/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/epixMon/bin/rhel7-x86_64/epixMonIoc"
+        "script": "/reg/g/pcds/epics/ioc/det/epixMon/R1.0.0/build/iocBoot/ioc-det-epixHR-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/epixMon/R1.4.2/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "drp-ued-cmp001",
