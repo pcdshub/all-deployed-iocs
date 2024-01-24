@@ -14118,20 +14118,6 @@
     },
     {
         "host": "ioc-mfx-cam02",
-        "port": 30088,
-        "dir": "ioc/mfx/gigECam/R0.5.5",
-        "alias": "CAM - GigE 04 - Timetool",
-        "history": [
-            "ioc/mfx/gigECam/R0.5.4"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-gige-04",
-        "script": "/reg/g/pcds/epics/ioc/mfx/gigECam/R0.5.5/build/iocBoot/ioc-mfx-gige-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.3/bin/linux-x86_64/gige"
-    },
-    {
-        "host": "ioc-mfx-cam02",
         "port": 30204,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/ims/current",
         "disable": true,
@@ -14367,6 +14353,20 @@
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-gige-02",
         "script": "/reg/g/pcds/epics/ioc/mfx/gigECam/R0.5.5/build/iocBoot/ioc-mfx-gige-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.3/bin/linux-x86_64/gige"
+    },
+    {
+        "host": "ioc-mfx-cam03",
+        "port": 30088,
+        "dir": "ioc/mfx/gigECam/R0.5.5",
+        "alias": "CAM - GigE 04 - Timetool",
+        "history": [
+            "ioc/mfx/gigECam/R0.5.4"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-gige-04",
+        "script": "/reg/g/pcds/epics/ioc/mfx/gigECam/R0.5.5/build/iocBoot/ioc-mfx-gige-04/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.3/bin/linux-x86_64/gige"
     },
     {
