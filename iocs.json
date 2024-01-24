@@ -11237,6 +11237,20 @@
     },
     {
         "host": "ioc-las-srv04",
+        "port": 42032,
+        "dir": "/reg/g/pcds/epics-dev/sfsyunus/las/ims/current",
+        "alias": "ioc-las-und-phase-ims",
+        "history": [
+            "ioc/las/ims/R0.2.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-und-phase-ims",
+        "script": "/reg/g/pcds/epics-dev/sfsyunus/las/ims/current/iocBoot/ioc-las-und-phase-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/sfsyunus/las/ims/current/bin/linux-x86/motion"
+    },
+    {
+        "host": "ioc-las-srv04",
         "port": 42004,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0",
         "base_version": "3.15",
@@ -11295,20 +11309,6 @@
         "name": "ioc-las-scope-tds3000-01",
         "script": "/cds/home/t/tjohnson/trunk/las/TDS3000/build/iocBoot/ioc-las-scope-tds3000-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/TDS3000/R1.0.0/bin/linux-x86_64/TDS3000"
-    },
-    {
-        "host": "ioc-las-xcs-srv04",
-        "port": 42032,
-        "dir": "/reg/g/pcds/epics-dev/sfsyunus/las/ims/current",
-        "alias": "ioc-las-und-phase-ims",
-        "history": [
-            "ioc/las/ims/R0.2.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-und-phase-ims",
-        "script": "/reg/g/pcds/epics-dev/sfsyunus/las/ims/current/iocBoot/ioc-las-und-phase-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/sfsyunus/las/ims/current/bin/linux-x86/motion"
     },
     {
         "host": "ioc-las-xcs-srv04",
