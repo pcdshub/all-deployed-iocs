@@ -10723,16 +10723,6 @@
     },
     {
         "host": "ioc-las-cxi-srv05",
-        "port": 30009,
-        "dir": "/reg/g/pcds/epics-dev/nagar123/ek9000",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-cxi-bhc-01",
-        "script": "/reg/g/pcds/epics-dev/nagar123/ek9000/build/iocBoot/ioc-las-cxi-bhc-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.3.2/bin/rhel7-x86_64/ek9000IOC"
-    },
-    {
-        "host": "ioc-las-cxi-srv05",
         "port": 30001,
         "dir": "ioc/las/agilent5322/R1.0.5",
         "base_version": "3.15",
