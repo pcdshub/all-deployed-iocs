@@ -11237,6 +11237,16 @@
     },
     {
         "host": "ioc-las-srv04",
+        "port": 42004,
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-xcs-phase-ims",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0/iocBoot/ioc-las-xcs-phase-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0/bin/linux-x86/motion"
+    },
+    {
+        "host": "ioc-las-srv04",
         "port": 42034,
         "dir": "/reg/g/pcds/epics-dev/sfsyunus/las/NewportXPS8/current",
         "disable": true,
@@ -11335,16 +11345,6 @@
         "name": "ioc-las-xcs-evr-01",
         "script": "/reg/g/pcds/epics/ioc/las/evr/R1.0.6/build/iocBoot/ioc-las-xcs-evr-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/rhel7-x86_64/evr"
-    },
-    {
-        "host": "ioc-las-xcs-srv04",
-        "port": 42004,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-xcs-phase-ims",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0/iocBoot/ioc-las-xcs-phase-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0/bin/linux-x86/motion"
     },
     {
         "host": "ioc-las-xcs-srv04",
