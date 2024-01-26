@@ -4199,6 +4199,18 @@
     },
     {
         "host": "ctl-rix-qrix-cam-01",
+        "port": 39101,
+        "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/cryotel",
+        "disable": true,
+        "alias": "QRIX Cryotelioc-qrix-cryo-01",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-qrix-cryo-01",
+        "script": "/reg/g/pcds/epics-dev/opperman/rix/ioc/cryotel/build/iocBoot/ioc-qrix-cryo-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/wwright8/ioc/common/cryotel/bin/rhel7-x86_64/cryotel"
+    },
+    {
+        "host": "ctl-rix-qrix-cam-01",
         "port": 30001,
         "dir": "ioc/rix/tprStandalone/R1.0.7",
         "alias": "QRIX TPR 1",
