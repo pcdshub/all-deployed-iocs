@@ -4200,14 +4200,13 @@
     {
         "host": "ctl-rix-qrix-cam-01",
         "port": 39101,
-        "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/cryotel",
-        "disable": true,
+        "dir": "/reg/g/pcds/epics-dev/opperman/iocs/rix/cryotel",
         "alias": "QRIX Cryotelioc-qrix-cryo-01",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-cryo-01",
-        "script": "/reg/g/pcds/epics-dev/opperman/rix/ioc/cryotel/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/opperman/iocs/rix/cryotel/children/build/iocBoot/ioc-qrix-cryo-01/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/opperman/iocs/rix/cryotel/bin/rhel7-x86_64/cryotel"
     },
     {
         "host": "ctl-rix-qrix-cam-01",
