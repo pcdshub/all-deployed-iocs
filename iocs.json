@@ -13762,6 +13762,17 @@
     },
     {
         "host": "ioc-mfx-cam01",
+        "port": 30008,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam",
+        "alias": "CAM - Inline Alvium",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-alvium02",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam/build/iocBoot/ioc-mfx-alvium02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.6/bin/rhel7-x86_64/vimba"
+    },
+    {
+        "host": "ioc-mfx-cam01",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam",
         "alias": "CAM - GigE 06",
@@ -14390,22 +14401,6 @@
     },
     {
         "host": "ioc-mfx-hera",
-        "port": 30086,
-        "dir": "ioc/mfx/gigECam/R0.5.5",
-        "disable": true,
-        "alias": "HERA - GigE off-axis",
-        "history": [
-            "ioc/mfx/gigECam/R0.5.4",
-            "/reg/g/pcds/package/epics/3.14/ioc/mfx/gigECam/R0.4.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-gige-01",
-        "script": "/reg/g/pcds/epics/ioc/mfx/gigECam/R0.5.5/build/iocBoot/ioc-mfx-gige-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.3/bin/linux-x86_64/gige"
-    },
-    {
-        "host": "ioc-mfx-hera",
         "port": 30090,
         "dir": "ioc/mfx/gigECam/R0.5.5",
         "disable": true,
@@ -14550,6 +14545,21 @@
         "name": "ioc-mfx-expstate",
         "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.6/children/build/iocBoot/ioc-mfx-expstate/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.6/bin/rhel7-x86_64/expState"
+    },
+    {
+        "host": "ioc-mfx-misc01",
+        "port": 30086,
+        "dir": "ioc/mfx/gigECam/R0.5.5",
+        "alias": "HERA - GigE off-axis",
+        "history": [
+            "ioc/mfx/gigECam/R0.5.4",
+            "/reg/g/pcds/package/epics/3.14/ioc/mfx/gigECam/R0.4.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-gige-01",
+        "script": "/reg/g/pcds/epics/ioc/mfx/gigECam/R0.5.5/build/iocBoot/ioc-mfx-gige-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mfx-misc01",
