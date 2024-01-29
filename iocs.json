@@ -5945,12 +5945,12 @@
     {
         "host": "ctl-txi-wave8-01",
         "port": 39100,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/pgpWave8",
+        "dir": "ioc/txi/pgpWave8/R1.0.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-pgpw8-01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/pgpWave8/children/build/iocBoot/ioc-txi-pgpw8-01/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/pgpWave8/bin/rhel7-x86_64/pgpWave8"
+        "script": "/reg/g/pcds/epics/ioc/txi/pgpWave8/R1.0.0/build/iocBoot/ioc-txi-pgpw8-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.7.5/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-ued-pgp-01",
@@ -9697,8 +9697,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-ued-mpod-01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/mpod/current/iocBoot/ioc-ued-mpod-01/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/mpod/bin/rhel7-x86_64/mpod"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/mpod/current/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-det-portable2",
