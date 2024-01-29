@@ -20331,24 +20331,6 @@
     },
     {
         "host": "ioc-xpp-rec02",
-        "port": 30077,
-        "dir": "/reg/neh/home/mcbrowne/trunk2/ioc/xpp/edtCam/current",
-        "alias": "MON YAG LOM",
-        "history": [
-            "ioc/xpp/edtCam/R1.12.0",
-            "/reg/neh/home/bhill/wa2/epics/ioc/xpp/edtCam/current",
-            "/reg/neh/home/snelson/work/xpp/edtCam/current",
-            "ioc/xpp/edtCam/R1.10.0",
-            "ioc/xpp/edtCam/R1.11.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-mon-yaglom",
-        "script": "/reg/neh/home/mcbrowne/trunk2/ioc/xpp/edtCam/current/build/iocBoot/ioc-xpp-mon-yaglom/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.1/bin/rhel7-x86_64/edt"
-    },
-    {
-        "host": "ioc-xpp-rec02",
         "port": 30020,
         "dir": "ioc/xpp/motor_monitors/R0.5.0",
         "alias": "MON - Motor Temps, Pico lims.",
