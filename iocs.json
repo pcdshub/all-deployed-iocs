@@ -6114,11 +6114,11 @@
     {
         "host": "daq-det-standalone",
         "port": 30002,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/det/evr",
+        "dir": "ioc/det/evr/R1.0.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-archon-evr",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/det/evr/build/iocBoot/ioc-det-archon-evr/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/det/evr/R1.0.0/build/iocBoot/ioc-det-archon-evr/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/linux-x86_64/evr"
     },
     {
@@ -9693,12 +9693,12 @@
     {
         "host": "ioc-det-portable1",
         "port": 37890,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/mpod/current",
+        "dir": "ioc/common/mpod/R2.2.12",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-ued-mpod-01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/mpod/current/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/common/mpod/R2.2.12/iocBoot/ioc-ued-mpod-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/mpod/R2.2.12/bin/rhel7-x86_64/mpod"
     },
     {
         "host": "ioc-det-portable2",
