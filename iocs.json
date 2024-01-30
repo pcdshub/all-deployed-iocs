@@ -20399,7 +20399,6 @@
         "host": "ioc-xpp-rec02",
         "port": 30078,
         "dir": "ioc/xpp/edtCam/R1.12.0",
-        "disable": true,
         "alias": "SB3 - YAG2",
         "history": [
             "/reg/neh/home/snelson/work/xpp/edtCam/current"
