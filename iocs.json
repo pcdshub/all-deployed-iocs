@@ -18510,8 +18510,7 @@
     {
         "host": "ioc-xcs-user1",
         "port": 30344,
-        "dir": "ioc/xcs/lakeshore335/R1.1.0",
-        "disable": true,
+        "dir": "/cds/home/c/cagee/dev/xcs/lakeshore335",
         "alias": "USR - Lakeshore 335",
         "history": [
             "ioc/xcs/lakeshore335/R1.1.0"
@@ -18519,8 +18518,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-usr-ls335",
-        "script": "/reg/g/pcds/epics/ioc/xcs/lakeshore335/R1.1.0/build/iocBoot/ioc-xcs-usr-ls335/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/lakeshore335/R1.1.0/bin/linux-x86_64/lakeshore335"
+        "script": "/cds/home/c/cagee/dev/xcs/lakeshore335/children/build/iocBoot/ioc-xcs-usr-ls335/st.cmd",
+        "binary": "/cds/home/c/cagee/dev/xcs/lakeshore335/bin/rhel7-x86_64/lakeshore335"
     },
     {
         "host": "ioc-xcs-user1",
