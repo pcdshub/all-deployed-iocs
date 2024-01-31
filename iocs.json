@@ -18511,6 +18511,7 @@
         "host": "ioc-xcs-user1",
         "port": 30344,
         "dir": "ioc/xcs/lakeshore335/R1.1.0",
+        "disable": true,
         "alias": "USR - Lakeshore 335",
         "history": [
             "ioc/xcs/lakeshore335/R1.1.0"
