@@ -6904,23 +6904,24 @@
     {
         "host": "ioc-cxi-jungfrau01",
         "port": 30100,
-        "dir": "ioc/cxi/smaract/R1.0.0",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract",
         "alias": "Smaract DS1 Controllers",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-mcs2-01",
-        "script": "/reg/g/pcds/epics/ioc/cxi/smaract/R1.0.0/build/iocBoot/ioc-cxi-mcs2-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.4/bin/rhel7-x86_64/smaract"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-cxi-jungfrau01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-mcs2-02",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract/build/iocBoot/ioc-cxi-mcs2-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.4/bin/rhel7-x86_64/smaract"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-cxi-jungfrau01",
@@ -8351,8 +8352,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-mcs2-usr01",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract/build/iocBoot/ioc-cxi-mcs2-usr01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.4/bin/rhel7-x86_64/smaract"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-cxi-rec04",
@@ -10823,12 +10824,12 @@
     {
         "host": "ioc-las-cxi-srv05",
         "port": 33001,
-        "dir": "ioc/las/vitara/R3.0.1",
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/vitara",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-cxi-vitara",
-        "script": "/reg/g/pcds/epics/ioc/las/vitara/R3.0.1/iocBoot/ioc-las-cxi-vitara/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/las/vitara/R3.0.1/bin/rhel7-x86_64/vitara"
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/vitara/iocBoot/ioc-las-cxi-vitara/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/vitara/bin/rhel7-x86_64/vitara"
     },
     {
         "host": "ioc-las-cxi-srv05",
@@ -14423,8 +14424,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-mcs2-01",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract/build/iocBoot/ioc-mfx-mcs2-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.12/bin/rhel7-x86_64/smaract"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-mfx-cam03",
@@ -22200,6 +22201,16 @@
         "host": "xpp-control",
         "port": 30011,
         "dir": "/reg/neh/operator_xppopr/live_data/epics/xpp_ttfltpos",
+        "disable": true,
+        "alias": "Monitoring tt via EPICS",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "xpp_ttfltpos",
+        "script": "/reg/neh/operator_xppopr/live_data/epics/xpp_ttfltpos/st.cmd",
+        "binary": null
+    }
+]
+      "dir": "/reg/neh/operator_xppopr/live_data/epics/xpp_ttfltpos",
         "disable": true,
         "alias": "Monitoring tt via EPICS",
         "base_version": "3.15",
