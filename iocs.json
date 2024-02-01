@@ -18495,6 +18495,16 @@
     },
     {
         "host": "ioc-xcs-user1",
+        "port": 30482,
+        "dir": "/cds/home/c/cagee/dev/xcs/mmc",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-usr-6axis-mmc-01",
+        "script": "/cds/home/c/cagee/dev/xcs/mmc/build/iocBoot/ioc-xcs-usr-6axis-mmc-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
+    },
+    {
+        "host": "ioc-xcs-user1",
         "port": 30003,
         "dir": "ioc/xcs/grcs/R1.0.0",
         "disable": true,
