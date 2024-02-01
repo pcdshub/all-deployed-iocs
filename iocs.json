@@ -18495,7 +18495,7 @@
     },
     {
         "host": "ioc-xcs-user1",
-        "port": 30482,
+        "port": 30483,
         "dir": "/cds/home/c/cagee/dev/xcs/mmc",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
