@@ -18205,7 +18205,6 @@
         "host": "ioc-xcs-srv01",
         "port": 30222,
         "dir": "/reg/g/pcds/epics-dev/jjoshi/ioc/xcs/mmc/current/build/iocBoot/ioc-xcs-usr-2axis-mmc-01",
-        "disable": true,
         "history": [
             "/reg/g/pcds/epics-dev/jjoshi/ioc/xcs/mmc/current/build/iocBoot/ioc-xcs-usr-2axis-mmc-01"
         ],
