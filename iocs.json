@@ -5955,11 +5955,11 @@
     {
         "host": "ctl-txi-wave8-01",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/jozamudi/txi/pgpWave8",
+        "dir": "ioc/txi/pgpWave8/R2.0.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-pgpw8-01",
-        "script": "/reg/g/pcds/epics-dev/jozamudi/txi/pgpWave8/build/iocBoot/ioc-txi-pgpw8-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/txi/pgpWave8/R2.0.0/build/iocBoot/ioc-txi-pgpw8-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R2.0.0/bin/rhel7-x86_64/pgpWave8"
     },
     {
