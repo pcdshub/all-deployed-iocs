@@ -4222,7 +4222,6 @@
         "host": "ctl-rix-qrix-cam-01",
         "port": 39101,
         "dir": "/reg/g/pcds/epics-dev/opperman/iocs/rix/cryotel",
-        "disable": true,
         "alias": "QRIX Cryotelioc-qrix-cryo-01",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
