@@ -9348,21 +9348,6 @@
     },
     {
         "host": "ioc-cxi-wave8b",
-        "port": 33000,
-        "dir": "/reg/g/pcds/epics-dev/spencera/common/cryojet",
-        "disable": true,
-        "alias": "USR Cryojet",
-        "history": [
-            "ioc/common/cryojet/R0.2.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-cryojet-01",
-        "script": "/reg/g/pcds/epics-dev/spencera/common/cryojet/iocBoot/ioc-xpp-cryojet-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/spencera/common/cryojet/bin/rhel7-x86_64/cryojet"
-    },
-    {
-        "host": "ioc-cxi-wave8b",
         "port": 30101,
         "dir": "ioc/xpp/wave8/R3.0.0",
         "disable": true,
@@ -19395,6 +19380,20 @@
         "name": "pyioc-xpp-lom-calc",
         "script": "/reg/neh/home/zlentz/python/pyIOC/servers/lodcm/st.cmd",
         "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ioc-xpp-ipimb",
+        "port": 33000,
+        "dir": "/reg/g/pcds/epics-dev/spencera/common/cryojet",
+        "alias": "USR Cryojet",
+        "history": [
+            "ioc/common/cryojet/R0.2.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-cryojet-01",
+        "script": "/reg/g/pcds/epics-dev/spencera/common/cryojet/iocBoot/ioc-xpp-cryojet-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/spencera/common/cryojet/bin/rhel7-x86_64/cryojet"
     },
     {
         "host": "ioc-xpp-ipimb",
