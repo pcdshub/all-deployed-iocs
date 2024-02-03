@@ -10832,6 +10832,16 @@
     },
     {
         "host": "ioc-las-cxi-srv05",
+        "port": 30003,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/SDG_Elite",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-cxi-sdg-01",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/SDG_Elite/children/build/iocBoot/ioc-las-cxi-sdg-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/SDG_Elite/bin/rhel7-x86_64/sdg"
+    },
+    {
+        "host": "ioc-las-cxi-srv05",
         "port": 30100,
         "dir": "ioc/las/smc100/R0.3.5",
         "history": [
