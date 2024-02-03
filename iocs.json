@@ -19058,7 +19058,7 @@
     {
         "host": "ioc-xcs-vacuum",
         "port": 30010,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/xcs/vacuum/current",
+        "dir": "/cds/group/pcds/epics-dev/cagee/ioc/xcs/vacuum/R1.2.3",
         "alias": "Vacuum",
         "history": [
             "/reg/g/pcds/epics-dev/pennebak/xcs/vacuum/current",
@@ -19067,8 +19067,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-vacuum",
-        "script": "/reg/g/pcds/epics-dev/pennebak/xcs/vacuum/current/iocBoot/ioc-xcs-vacuum/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/pennebak/xcs/vacuum/current/bin/linux-x86_64/vacuum"
+        "script": "/cds/group/pcds/epics-dev/cagee/ioc/xcs/vacuum/R1.2.3/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-vacuum",
