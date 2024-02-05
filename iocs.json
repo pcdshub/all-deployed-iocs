@@ -2125,17 +2125,6 @@
     },
     {
         "host": "ctl-las-lhn-01",
-        "port": 30500,
-        "dir": "/reg/g/pcds/epics-dev/sfsyunus/las/ek9000",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-lhn-bhc-tst",
-        "script": "/reg/g/pcds/epics-dev/sfsyunus/las/ek9000/build/iocBoot/ioc-las-lhn-bhc-tst/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/sfsyunus/tmo/ek9000_hack/bin/rhel7-x86_64/ek9000IOC"
-    },
-    {
-        "host": "ctl-las-lhn-01",
         "port": 30502,
         "dir": "ioc/las/agilent5322/R1.0.4",
         "base_version": "3.15",
@@ -2503,17 +2492,6 @@
         "name": "ioc-las-lhn-evr-04",
         "script": "/reg/g/pcds/epics/ioc/las/evr/R1.0.6/build/iocBoot/ioc-las-lhn-evr-04/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/rhel7-x86_64/evr"
-    },
-    {
-        "host": "ctl-las-lhn-04",
-        "port": 30501,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-git",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-lhn-phase-ims-04",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/ims-git/build/iocBoot/ioc-las-lhn-phase-ims-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ctl-las-lhn-04",
@@ -11175,17 +11153,6 @@
     },
     {
         "host": "ioc-las-mfx-srv45",
-        "port": 35021,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/sr620/current",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-tst-sr620-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/sr620/current/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ioc-las-mfx-srv45",
         "port": 35110,
         "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
         "alias": "MFX - FSTiming Python",
@@ -11304,17 +11271,6 @@
     },
     {
         "host": "ioc-las-srv04",
-        "port": 30005,
-        "dir": "/reg/g/pcds/epics-dev/sfsyunus/las/smc100_tst",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-tst-smc100-01",
-        "script": "/reg/g/pcds/epics-dev/sfsyunus/las/smc100_tst/build/iocBoot/ioc-las-tst-smc100-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/common/smc100/current/bin/linux-x86_64/smc100"
-    },
-    {
-        "host": "ioc-las-srv04",
         "port": 42032,
         "dir": "/reg/g/pcds/epics-dev/sfsyunus/las/ims/current",
         "alias": "ioc-las-und-phase-ims",
@@ -11336,17 +11292,6 @@
         "name": "ioc-las-xcs-phase-ims",
         "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0/iocBoot/ioc-las-xcs-phase-ims/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0/bin/linux-x86/motion"
-    },
-    {
-        "host": "ioc-las-srv04",
-        "port": 42034,
-        "dir": "/reg/g/pcds/epics-dev/sfsyunus/las/NewportXPS8/current",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-xps4",
-        "script": "/reg/g/pcds/epics-dev/sfsyunus/las/NewportXPS8/current/build/iocBoot/ioc-las-xps4/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/sfsyunus/common/NewportXPS8/current/bin/linux-x86_64/xps8"
     },
     {
         "host": "ioc-las-xcs-srv04",
