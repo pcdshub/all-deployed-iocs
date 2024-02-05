@@ -4055,6 +4055,21 @@
     },
     {
         "host": "ctl-rix-mot-01",
+        "port": 30112,
+        "dir": "ioc/kfe/lcls-plc-kfe-rix-vac/v2.0.0",
+        "alias": "Beamline Vacuum PLC IOC",
+        "history": [
+            "ioc/kfe/lcls-plc-kfe-rix-vac/v1.3.0",
+            "ioc/kfe/lcls-plc-kfe-rix-vac/v1.2.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-plc-kfe-rix-vac",
+        "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-rix-vac/v2.0.0/iocBoot/ioc-plc-kfe-rix-vac/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ctl-rix-mot-01",
         "port": 30310,
         "dir": "/reg/g/pcds/epics-dev/klauer/ioc-rix-at2k2-calc",
         "alias": "AT2K2 Calculator IOC",
@@ -4548,21 +4563,6 @@
         "name": "ioc-mr3k2-thermocon",
         "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/thermocon/children/build/iocBoot/ioc-mr3k2-thermocon/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/thermocon/bin/rhel7-x86_64/thermocon"
-    },
-    {
-        "host": "ctl-rix-vac-01",
-        "port": 30112,
-        "dir": "ioc/kfe/lcls-plc-kfe-rix-vac/v2.0.0",
-        "alias": "Beamline Vacuum PLC IOC",
-        "history": [
-            "ioc/kfe/lcls-plc-kfe-rix-vac/v1.3.0",
-            "ioc/kfe/lcls-plc-kfe-rix-vac/v1.2.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-plc-kfe-rix-vac",
-        "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-rix-vac/v2.0.0/iocBoot/ioc-plc-kfe-rix-vac/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-rix-vac-01",
@@ -13311,13 +13311,13 @@
     {
         "host": "ioc-mec-opal01",
         "port": 30005,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/mec/RohdeSchwarzHMP",
+        "dir": "ioc/mec/RohdeSchwartzHMP/R1.0.0",
         "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-hmp-01",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/mec/RohdeSchwarzHMP/build/iocBoot/ioc-mec-hmp-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.1/bin/linux-x86_64/rshmp"
+        "script": "/reg/g/pcds/epics/ioc/mec/RohdeSchwartzHMP/R1.0.0/build/iocBoot/ioc-mec-hmp-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.2/bin/linux-x86_64/rshmp"
     },
     {
         "host": "ioc-mec-opal01",
