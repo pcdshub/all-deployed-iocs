@@ -2427,6 +2427,7 @@
         "host": "ctl-las-lhn-03",
         "port": 30009,
         "dir": "ioc/las/lcls-plc-las-lps-01/v1.0.0",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-opcpa-lps-plc-01",
