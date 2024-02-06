@@ -4172,7 +4172,7 @@
     {
         "host": "ctl-rix-mot-01",
         "port": 30107,
-        "dir": "/reg/g/pcds/epics/ioc/rix/lcls-plc-rixs-optics/v3.1.0/iocBoot/ioc-rixs-optics/",
+        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-rixs-optics/iocBoot/ioc-rixs-optics/",
         "alias": "RIXS Optics PLC IOC",
         "history": [
             "/reg/g/pcds/epics/ioc/rix/lcls-plc-rixs-optics/v1.7.0/iocBoot/ioc-rixs-optics/",
@@ -4182,7 +4182,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rixs-optics",
-        "script": "/reg/g/pcds/epics/ioc/rix/lcls-plc-rixs-optics/v3.1.0/iocBoot/ioc-rixs-optics/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-rixs-optics/iocBoot/ioc-rixs-optics/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
@@ -8360,7 +8360,7 @@
     {
         "host": "ioc-cxi-rec04",
         "port": 30509,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims",
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/cxi/ims",
         "alias": "IMS KB2 Optics",
         "history": [
             "ioc/cxi/ims"
@@ -8369,7 +8369,17 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-kb2-fmr-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-kb2-fmr-ims/st.cmd",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/cxi/ims/build/iocBoot/ioc-cxi-kb2-fmr-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.6.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-cxi-rec04",
+        "port": 30003,
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/cxi/ims",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-mcb-ims",
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/cxi/ims/build/iocBoot/ioc-cxi-mcb-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.6.0/bin/rhel7-x86_64/ims"
     },
     {
@@ -11153,6 +11163,16 @@
     },
     {
         "host": "ioc-las-mfx-srv45",
+        "port": 30003,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/SDG_Elite",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-xcs-sdg-01",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/SDG_Elite/children/build/iocBoot/ioc-las-xcs-sdg-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/SDG_Elite/bin/rhel7-x86_64/sdg"
+    },
+    {
+        "host": "ioc-las-mfx-srv45",
         "port": 35110,
         "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
         "alias": "MFX - FSTiming Python",
@@ -11343,16 +11363,6 @@
         "name": "ioc-las-xcs-evr-01",
         "script": "/reg/g/pcds/epics/ioc/las/evr/R1.0.6/build/iocBoot/ioc-las-xcs-evr-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/rhel7-x86_64/evr"
-    },
-    {
-        "host": "ioc-las-xcs-srv04",
-        "port": 30003,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/SDG_Elite",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-xcs-sdg-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/SDG_Elite/children/build/iocBoot/ioc-las-xcs-sdg-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/SDG_Elite/bin/rhel7-x86_64/sdg"
     },
     {
         "host": "ioc-las-xcs-srv04",
@@ -13727,7 +13737,7 @@
     {
         "host": "ioc-mec-wave8",
         "port": 30001,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
+        "dir": "ioc/mec/wave8/R3.0.0",
         "alias": "IPM2 (wave8)",
         "history": [
             "ioc/mec/wave8/R2.0.0",
@@ -13737,13 +13747,13 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-xt2-1-bmmon",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-mec-xt2-1-bmmon/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
+        "script": "/reg/g/pcds/epics/ioc/mec/wave8/R3.0.0/build/iocBoot/ioc-mec-xt2-1-bmmon/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/wave8/R3.0.0/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-mec-wave8",
         "port": 30002,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
+        "dir": "ioc/mec/wave8/R3.0.0",
         "alias": "IPM3 (wave8)",
         "history": [
             "ioc/mec/wave8/R2.0.0",
@@ -13754,8 +13764,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-xt2-2-bmmon",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-mec-xt2-2-bmmon/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
+        "script": "/reg/g/pcds/epics/ioc/mec/wave8/R3.0.0/build/iocBoot/ioc-mec-xt2-2-bmmon/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/wave8/R3.0.0/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-mfx-cam01",
@@ -21145,7 +21155,7 @@
     {
         "host": "ioc-xpp-wave8-01",
         "port": 30100,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
+        "dir": "ioc/xpp/wave8/R3.0.0",
         "alias": "SB2 - WAVE8",
         "history": [
             "ioc/xpp/wave8/R2.0.1",
@@ -21155,8 +21165,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb2-bmmon",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-xpp-sb2-bmmon/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
+        "script": "/reg/g/pcds/epics/ioc/xpp/wave8/R3.0.0/build/iocBoot/ioc-xpp-sb2-bmmon/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/wave8/R3.0.0/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-xpp-wave8-01",
@@ -21808,7 +21818,7 @@
     {
         "host": "ioc-xrt-wave8",
         "port": 39001,
-        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8",
+        "dir": "ioc/xrt/wave8/R3.0.0",
         "alias": "DG2 HFX IPM (WAVE8) ",
         "history": [
             "ioc/xrt/wave8/R2.0.0",
@@ -21817,8 +21827,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-hfx-dg2-bmmon",
-        "script": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/children/build/iocBoot/ioc-hfx-dg2-bmmon/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/wave8/bin/rhel7-x86_64/wave8Ioc"
+        "script": "/reg/g/pcds/epics/ioc/xrt/wave8/R3.0.0/build/iocBoot/ioc-hfx-dg2-bmmon/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/wave8/R3.0.0/bin/rhel7-x86_64/wave8Ioc"
     },
     {
         "host": "ioc-xrt-wave8",
