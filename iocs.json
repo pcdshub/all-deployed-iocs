@@ -3985,7 +3985,7 @@
     {
         "host": "ctl-rix-fim-01",
         "port": 30003,
-        "dir": "ioc/rix/pgpWave8/R2.0.0",
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/pgpWave8",
         "alias": "ChemRIXS Wave8",
         "history": [
             "ioc/rix/pgpWave8/R1.6.0",
@@ -3996,8 +3996,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pgpw8-03",
-        "script": "/reg/g/pcds/epics/ioc/rix/pgpWave8/R2.0.0/build/iocBoot/ioc-rix-pgpw8-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R2.0.0/bin/rhel7-x86_64/pgpWave8"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/pgpWave8/build/iocBoot/ioc-rix-pgpw8-03/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/pgpWave8/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-rix-mot-01",
@@ -11628,6 +11628,7 @@
         "host": "ioc-mec-evg",
         "port": 30002,
         "dir": "ioc/common/evg/R1.0.5",
+        "disable": true,
         "history": [
             "ioc/common/evg/R1.0.3"
         ],
