@@ -6402,6 +6402,17 @@
     },
     {
         "host": "daq-rix-ccd-01",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/archonCam/current",
+        "alias": "QRIX STA CCD",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-qrix-archon1",
+        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/archonCam/current/children/build/iocBoot/ioc-qrix-archon1/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/ddamiani/ioc/common/archonCam/current/bin/rhel7-x86_64/archonTpr"
+    },
+    {
+        "host": "daq-rix-ccd-01",
         "port": 30001,
         "dir": "ioc/rix/tprStandalone/R1.0.7",
         "alias": "RIX CCD TPR 1",
@@ -18082,6 +18093,7 @@
         "host": "ioc-xcs-snd",
         "port": 30005,
         "dir": "ioc/common/aerotech/R1.0.6",
+        "disable": true,
         "alias": "SND - Ensemble Motors A",
         "history": [
             "ioc/common/aerotech/R1.0.6"
