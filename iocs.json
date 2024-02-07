@@ -12021,20 +12021,6 @@
     },
     {
         "host": "ioc-mec-ipimb01",
-        "port": 35001,
-        "dir": "ioc/common/labMax-TOP/R1.8.1",
-        "alias": "MEC LabMax",
-        "history": [
-            "ioc/common/labMax-TOP/R1.8.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-labMax",
-        "script": "/reg/g/pcds/epics/ioc/common/labMax-TOP/R1.8.1/children/build/iocBoot/ioc-mec-labMax/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/labMax-TOP/R1.8.1/bin/linux-x86_64/labMax"
-    },
-    {
-        "host": "ioc-mec-ipimb01",
         "port": 34101,
         "dir": "ioc/mec/iXblueMBC/R0.1.0",
         "alias": "iXblue Bias Controller 1",
