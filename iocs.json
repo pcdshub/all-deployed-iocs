@@ -11422,15 +11422,15 @@
     {
         "host": "ioc-las-xcs-srv04",
         "port": 42010,
-        "dir": "ioc/las/vitara/R3.0.0",
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/vitara",
         "history": [
             "ioc/las/vitara/R2.10.1"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-xcs-vitara",
-        "script": "/reg/g/pcds/epics/ioc/las/vitara/R3.0.0/iocBoot/ioc-las-xcs-vitara/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/las/vitara/R3.0.0/bin/linux-x86_64/vitara"
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/vitara/iocBoot/ioc-las-xcs-vitara/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/vitara/bin/rhel7-x86_64/vitara"
     },
     {
         "host": "ioc-las-xcs-srv04",
