@@ -12295,6 +12295,28 @@
     },
     {
         "host": "ioc-mec-las-gige03",
+        "port": 32505,
+        "dir": "ioc/mec/gigECam/R1.3.0",
+        "alias": "Gige VISAR 1",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-gige18",
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.3.0/build/iocBoot/ioc-mec-gige18/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/linux-x86_64/gige"
+    },
+    {
+        "host": "ioc-mec-las-gige03",
+        "port": 32506,
+        "dir": "ioc/mec/gigECam/R1.3.0",
+        "alias": "Gige VISAR 2",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-gige19",
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.3.0/build/iocBoot/ioc-mec-gige19/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/linux-x86_64/gige"
+    },
+    {
+        "host": "ioc-mec-las-gige03",
         "port": 33006,
         "dir": "ioc/mec/gigECam/R1.3.0",
         "disable": true,
@@ -12407,28 +12429,6 @@
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige17",
         "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.3.0/build/iocBoot/ioc-mec-gige17/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/linux-x86_64/gige"
-    },
-    {
-        "host": "ioc-mec-las-gige04",
-        "port": 32505,
-        "dir": "ioc/mec/gigECam/R1.3.0",
-        "alias": "Gige VISAR 1",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-gige18",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.3.0/build/iocBoot/ioc-mec-gige18/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/linux-x86_64/gige"
-    },
-    {
-        "host": "ioc-mec-las-gige04",
-        "port": 32506,
-        "dir": "ioc/mec/gigECam/R1.3.0",
-        "alias": "Gige VISAR 2",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-gige19",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.3.0/build/iocBoot/ioc-mec-gige19/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.7.0/bin/linux-x86_64/gige"
     },
     {
