@@ -4528,7 +4528,7 @@
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-mr2k2-thermocon",
         "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/thermocon/build/iocBoot/ioc-mr2k2-thermocon/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thermocon/R2.0.0/bin/rhel7-x86_64/thermocon"
+        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-thermocon/bin/rhel7-x86_64/thermocon"
     },
     {
         "host": "ctl-rix-vac-01",
