@@ -5789,6 +5789,16 @@
         "binary": "/cds/home/z/zlentz/github/ads-ioc/bin/rhel7-x86_64/adsIoc"
     },
     {
+        "host": "ctl-tst-mecu-llnl",
+        "port": 34151,
+        "dir": "/cds/home/j/jvamosi/workspace/ioc-pulser",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-pulser",
+        "script": "/cds/home/j/jvamosi/workspace/ioc-pulser/children/build/iocBoot/ioc-pulser/st.cmd",
+        "binary": "/cds/home/j/jvamosi/workspace/ioc-pulser/bin/rhel7-x86_64/pulser"
+    },
+    {
         "host": "ctl-tst-pgp01",
         "port": 30001,
         "dir": "/cds/home/d/dnajjar/areaDetectores/pgpCamlink",
