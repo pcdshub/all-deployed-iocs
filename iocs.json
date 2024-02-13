@@ -14606,7 +14606,7 @@
     {
         "host": "ioc-mfx-misc01",
         "port": 30185,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/mfx/staubli_mfx/current",
+        "dir": "/reg/neh/home/joaoprod/svnRepo/mfx/staubli/current",
         "alias": "ROB - Controller",
         "history": [
             "/reg/neh/home/joaoprod/svnRepo/mfx/staubli/current"
@@ -14614,8 +14614,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-rob-cont",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/mfx/staubli_mfx/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/joaoprod/svnRepo/mfx/staubli/current/build/iocBoot/ioc-mfx-rob-cont/st.cmd",
+        "binary": "/cds/home/j/joaoprod/svnRepo/common/staubli_mfx/current/bin/linux-x86_64/staubli"
     },
     {
         "host": "ioc-mfx-misc01",
