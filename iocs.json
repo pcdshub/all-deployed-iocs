@@ -14203,28 +14203,6 @@
     },
     {
         "host": "ioc-mfx-cam02",
-        "port": 30009,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam",
-        "alias": "CAM - GigE 07",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-gige-07",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam/build/iocBoot/ioc-mfx-gige-07/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ioc-mfx-cam02",
-        "port": 30010,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam",
-        "alias": "CAM - GigE 08",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-gige-08",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam/build/iocBoot/ioc-mfx-gige-08/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ioc-mfx-cam02",
         "port": 30204,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/ims/current",
         "disable": true,
@@ -14476,6 +14454,28 @@
         "name": "ioc-mfx-gige-04",
         "script": "/reg/g/pcds/epics/ioc/mfx/gigECam/R0.5.5/build/iocBoot/ioc-mfx-gige-04/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.5.3/bin/linux-x86_64/gige"
+    },
+    {
+        "host": "ioc-mfx-cam03",
+        "port": 30009,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam",
+        "alias": "CAM - GigE 07",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-gige-07",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam/build/iocBoot/ioc-mfx-gige-07/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-mfx-cam03",
+        "port": 30010,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam",
+        "alias": "CAM - GigE 08",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-gige-08",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam/build/iocBoot/ioc-mfx-gige-08/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-mfx-cam03",
