@@ -11381,19 +11381,6 @@
     },
     {
         "host": "ioc-las-xcs-srv04",
-        "port": 42003,
-        "dir": "ioc/las/beckhoff/R0.3.2",
-        "history": [
-            "ioc/las/beckhoff/R0.3.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-xcs-beck1",
-        "script": "/reg/g/pcds/epics/ioc/las/beckhoff/R0.3.2/iocBoot/ioc-las-xcs-beck1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/las/beckhoff/R0.3.2/bin/linux-x86_64/beckhoff"
-    },
-    {
-        "host": "ioc-las-xcs-srv04",
         "port": 42006,
         "dir": "ioc/las/agilent5322/R1.0.4",
         "history": [
