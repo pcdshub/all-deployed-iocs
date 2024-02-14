@@ -2389,7 +2389,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lhn-bay3-ff-03",
         "script": "/reg/g/pcds/epics-dev/aberges/ioc/las/gigECam/build/iocBoot/ioc-lhn-bay3-ff-03/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/aberges/ioc/common/gigECam/gigECam-git/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lhn-03",
@@ -15107,6 +15107,7 @@
         "host": "ioc-mfx-wave8",
         "port": 32231,
         "dir": "ioc/mfx/wave8/R3.0.0",
+        "disable": true,
         "alias": "WAVE8 - USER DIODE",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
