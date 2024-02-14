@@ -3986,7 +3986,7 @@
     {
         "host": "ctl-rix-fim-01",
         "port": 30003,
-        "dir": "ioc/rix/pgpWave8/R2.1.0",
+        "dir": "ioc/rix/pgpWave8/R2.0.0",
         "alias": "ChemRIXS Wave8",
         "history": [
             "ioc/rix/pgpWave8/R1.6.0",
@@ -3997,8 +3997,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pgpw8-03",
-        "script": "/reg/g/pcds/epics/ioc/rix/pgpWave8/R2.1.0/build/iocBoot/ioc-rix-pgpw8-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R2.1.0/bin/rhel7-x86_64/pgpWave8"
+        "script": "/reg/g/pcds/epics/ioc/rix/pgpWave8/R2.0.0/build/iocBoot/ioc-rix-pgpw8-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R2.0.0/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-rix-mot-01",
@@ -5992,11 +5992,11 @@
     {
         "host": "ctl-txi-misc-01",
         "port": 30101,
-        "dir": "ioc/txi/vacuum/R1.0.0",
+        "dir": "/reg/g/pcds/epics-dev/janezg/txi/vacuum",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-vac-support",
-        "script": "/reg/g/pcds/epics/ioc/txi/vacuum/R1.0.0/build/iocBoot/ioc-txi-vac-support/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/janezg/txi/vacuum/build/iocBoot/ioc-txi-vac-support/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.5/bin/rhel7-x86_64/vacuum"
     },
     {
