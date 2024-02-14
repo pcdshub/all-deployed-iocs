@@ -11383,6 +11383,7 @@
         "host": "ioc-las-xcs-srv04",
         "port": 42006,
         "dir": "ioc/las/agilent5322/R1.0.4",
+        "disable": true,
         "history": [
             "ioc/common/agilent5322/R0.4.2"
         ],
