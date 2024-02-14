@@ -5790,6 +5790,16 @@
     },
     {
         "host": "ctl-tst-mecu-llnl",
+        "port": 35789,
+        "dir": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-mecu-gentec1",
+        "script": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/build/iocBoot/ioc-mecu-gentec1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gentec/R1.1.1/bin/linux-x86_64/gentec"
+    },
+    {
+        "host": "ctl-tst-mecu-llnl",
         "port": 35675,
         "dir": "/cds/home/j/jvamosi/workspace/ioc-pulser",
         "base_version": "3.15",
@@ -15056,8 +15066,7 @@
         "host": "ioc-mfx-wave8",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/vimbaCam",
-        "disable": true,
-        "alias": "ioc-mfx-goldeye",
+        "alias": "CAM - GoldEye",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-goldeye1",
