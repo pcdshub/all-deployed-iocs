@@ -11397,6 +11397,7 @@
         "host": "ioc-las-xcs-srv04",
         "port": 42005,
         "dir": "ioc/las/evr/R1.0.6",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-xcs-evr-01",
@@ -11421,6 +11422,7 @@
         "host": "ioc-las-xcs-srv04",
         "port": 42015,
         "dir": "ioc/las/smc100/R0.3.4",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-xcs-smc100-01",
@@ -11431,6 +11433,7 @@
         "host": "ioc-las-xcs-srv04",
         "port": 42001,
         "dir": "ioc/las/sr620/R1.1.2",
+        "disable": true,
         "history": [
             "ioc/las/sr620/R1.0.2"
         ],
@@ -11444,6 +11447,7 @@
         "host": "ioc-las-xcs-srv04",
         "port": 43404,
         "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
+        "disable": true,
         "alias": "XCS - FSTiming Python",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
@@ -13791,32 +13795,9 @@
     },
     {
         "host": "ioc-mfx-cam01",
-        "port": 39100,
-        "dir": "/cds/home/b/batyuk/epics/ioc/mfx/vimbaCam/build",
-        "disable": true,
-        "alias": "CAM - Alvium 01",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-alv-01",
-        "script": "/cds/home/b/batyuk/epics/ioc/mfx/vimbaCam/build/iocBoot/ioc-mfx-alv-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.3/bin/rhel7-x86_64/usb"
-    },
-    {
-        "host": "ioc-mfx-cam01",
-        "port": 39101,
-        "dir": "/cds/home/b/batyuk/epics/ioc/mfx/vimbaCam",
-        "disable": true,
-        "alias": "CAM - Alvium 02",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-alv-02",
-        "script": "/cds/home/b/batyuk/epics/ioc/mfx/vimbaCam/build/iocBoot/ioc-mfx-alv-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.3/bin/rhel7-x86_64/usb"
-    },
-    {
-        "host": "ioc-mfx-cam01",
         "port": 30008,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam",
+        "disable": true,
         "alias": "CAM - Inline Alvium",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
@@ -13828,7 +13809,7 @@
         "host": "ioc-mfx-cam01",
         "port": 30086,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/mfx/gigECam",
-        "alias": "HERA - GigE off-axis",
+        "alias": "CAM - GigE 01 - LIB",
         "history": [
             "ioc/mfx/gigECam/R0.5.4",
             "/reg/g/pcds/package/epics/3.14/ioc/mfx/gigECam/R0.4.0"
@@ -13843,7 +13824,8 @@
         "host": "ioc-mfx-cam01",
         "port": 30090,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/mfx/gigECam",
-        "alias": "HERA - GigE on-axis",
+        "disable": true,
+        "alias": "CAM - GigE 05",
         "history": [
             "ioc/mfx/gigECam/R0.5.4"
         ],
@@ -14438,7 +14420,7 @@
         "host": "ioc-mfx-cam03",
         "port": 30087,
         "dir": "ioc/mfx/gigECam/R0.5.5",
-        "alias": "CAM - DG3 YAG",
+        "alias": "CAM - GigE 02",
         "history": [
             "ioc/mfx/gigECam/R0.5.4",
             "/reg/g/pcds/package/epics/3.14/ioc/mfx/gigECam/R0.4.0"
@@ -14467,7 +14449,7 @@
         "host": "ioc-mfx-cam03",
         "port": 30009,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam",
-        "alias": "CAM - GigE 07",
+        "alias": "CAM - GigE 07 - HERA on-axis",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-gige-07",
@@ -14478,7 +14460,7 @@
         "host": "ioc-mfx-cam03",
         "port": 30010,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam",
-        "alias": "CAM - GigE 08",
+        "alias": "CAM - GigE 08 - HERA off-axis",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-gige-08",
@@ -14941,6 +14923,7 @@
         "host": "ioc-mfx-vacuum",
         "port": 30804,
         "dir": "ioc/mfx/userIO/R0.2.1",
+        "disable": true,
         "alias": "USR - I/O",
         "history": [
             "ioc/mfx/userIO/R0.2.1",
