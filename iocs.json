@@ -12871,6 +12871,22 @@
     },
     {
         "host": "ioc-mec-misc01",
+        "port": 39106,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/xrt/ims",
+        "alias": "Beamline PIM1 (YAG1)",
+        "history": [
+            "ioc/xrt/ims/R2.1.0",
+            "ioc/xrt/ims"
+        ],
+        "delay": 10,
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-xrt-mecpim1-ims",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/xrt/ims/build/iocBoot/ioc-xrt-mecpim1-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
+    },
+    {
+        "host": "ioc-mec-misc01",
         "port": 39107,
         "dir": "ioc/xrt/ims/R2.2.9",
         "alias": "Beamline Attenuator",
@@ -21315,22 +21331,6 @@
         "name": "ioc-xrt-mecipm1-ims",
         "script": "/reg/g/pcds/epics/ioc/xrt/ims/R2.2.2/build/iocBoot/ioc-xrt-mecipm1-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.0/bin/linux-x86/ims"
-    },
-    {
-        "host": "ioc-xrt-mec-mot1",
-        "port": 39106,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/xrt/ims",
-        "alias": "Beamline PIM1 (YAG1)",
-        "history": [
-            "ioc/xrt/ims/R2.1.0",
-            "ioc/xrt/ims"
-        ],
-        "delay": 10,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-xrt-mecpim1-ims",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/xrt/ims/build/iocBoot/ioc-xrt-mecpim1-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
     },
     {
         "host": "ioc-xrt-mec-mot2",
