@@ -3986,7 +3986,7 @@
     {
         "host": "ctl-rix-fim-01",
         "port": 30003,
-        "dir": "ioc/rix/pgpWave8/R2.1.0",
+        "dir": "/reg/g/pcds/epics-dev/jjoshi/rix/pgpWave8",
         "alias": "ChemRIXS Wave8",
         "history": [
             "ioc/rix/pgpWave8/R1.6.0",
@@ -3997,8 +3997,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pgpw8-03",
-        "script": "/reg/g/pcds/epics/ioc/rix/pgpWave8/R2.1.0/build/iocBoot/ioc-rix-pgpw8-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R2.1.0/bin/rhel7-x86_64/pgpWave8"
+        "script": "/reg/g/pcds/epics-dev/jjoshi/rix/pgpWave8/build/iocBoot/ioc-rix-pgpw8-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R2.0.0/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-rix-mot-01",
@@ -12870,6 +12870,22 @@
         "binary": "/cds/home/p/peregrin/modules/mec/xrts/current/bin/rhel7-x86_64/xrts"
     },
     {
+        "host": "ioc-mec-misc01",
+        "port": 39107,
+        "dir": "ioc/xrt/ims/R2.2.9",
+        "alias": "Beamline Attenuator",
+        "history": [
+            "ioc/xrt/ims/R2.1.0",
+            "ioc/xrt/ims"
+        ],
+        "delay": 10,
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-xrt-mecppatt-ims",
+        "script": "/reg/g/pcds/epics/ioc/xrt/ims/R2.2.9/build/iocBoot/ioc-xrt-mecppatt-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.7/bin/linux-x86/ims"
+    },
+    {
         "host": "ioc-mec-mot3",
         "port": 30632,
         "dir": "ioc/mec/ims/R4.0.19",
@@ -21315,22 +21331,6 @@
         "name": "ioc-xrt-mecpim1-ims",
         "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/xrt/ims/build/iocBoot/ioc-xrt-mecpim1-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
-    },
-    {
-        "host": "ioc-xrt-mec-mot1",
-        "port": 39107,
-        "dir": "ioc/xrt/ims/R2.2.9",
-        "alias": "Beamline Attenuator",
-        "history": [
-            "ioc/xrt/ims/R2.1.0",
-            "ioc/xrt/ims"
-        ],
-        "delay": 10,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-xrt-mecppatt-ims",
-        "script": "/reg/g/pcds/epics/ioc/xrt/ims/R2.2.9/build/iocBoot/ioc-xrt-mecppatt-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.7/bin/linux-x86/ims"
     },
     {
         "host": "ioc-xrt-mec-mot2",
