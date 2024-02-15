@@ -12788,6 +12788,20 @@
     },
     {
         "host": "ioc-mec-misc01",
+        "port": 39101,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/common/pulsepicker",
+        "alias": "Beamline Pulse Picker",
+        "history": [
+            "ioc/common/pulsepicker/R1.0.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-pulsepicker-ims",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/common/pulsepicker/iocBoot/ioc-mec-pulsepicker-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/ctsoi/ioc/common/pulsepicker/bin/linux-x86/motion"
+    },
+    {
+        "host": "ioc-mec-misc01",
         "port": 30666,
         "dir": "ioc/mec/ris/R1.2.0",
         "history": [
@@ -21285,20 +21299,6 @@
         "name": "ioc-xrt-dia-xfls-motion",
         "script": "/reg/g/pcds/epics/ioc/cxi/ims/R4.0.13/iocBoot/ioc-xrt-dia-xfls-motion/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/cxi/ims/R4.0.13/bin/linux-x86/motion"
-    },
-    {
-        "host": "ioc-xrt-mec-mot1",
-        "port": 39101,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/common/pulsepicker",
-        "alias": "Beamline Pulse Picker",
-        "history": [
-            "ioc/common/pulsepicker/R1.0.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-pulsepicker-ims",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/common/pulsepicker/iocBoot/ioc-mec-pulsepicker-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/ctsoi/ioc/common/pulsepicker/bin/linux-x86/motion"
     },
     {
         "host": "ioc-xrt-mec-mot1",
