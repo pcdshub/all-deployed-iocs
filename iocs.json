@@ -14938,8 +14938,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-acromag",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/pciAcromag/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/pciAcromag/children/build/iocBoot/ioc-mfx-acromag/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/pciAcromag/bin/rhel7-x86_64/pciAcromag"
     },
     {
         "host": "ioc-mfx-usr01",
