@@ -14548,17 +14548,6 @@
     },
     {
         "host": "ioc-mfx-hera",
-        "port": 43924,
-        "dir": "ioc/mfx/ims/R2.1.0",
-        "alias": "HERA - Navitar",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-hera-ims",
-        "script": "/reg/g/pcds/epics/ioc/mfx/ims/R2.1.0/build/iocBoot/ioc-mfx-hera-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.9/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-mfx-hera",
         "port": 43923,
         "dir": "ioc/mfx/smc100/R1.0.1",
         "disable": true,
@@ -14612,17 +14601,6 @@
         "name": "ioc-mfx-pi-motion-02",
         "script": "/reg/g/pcds/epics/ioc/mfx/piMotion/R1.0.0/build/iocBoot/ioc-mfx-pi-motion-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/piMotion/R1.2.3/bin/rhel7-x86_64/piMotion"
-    },
-    {
-        "host": "ioc-mfx-hera",
-        "port": 43925,
-        "dir": "ioc/mfx/NewportXPS8/R2.1.0",
-        "alias": "HERA - Motion - XPS",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-xps-hera",
-        "script": "/reg/g/pcds/epics/ioc/mfx/NewportXPS8/R2.1.0/build/iocBoot/ioc-mfx-xps-hera/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
     },
     {
         "host": "ioc-mfx-misc01",
@@ -14953,7 +14931,7 @@
     {
         "host": "ioc-mfx-usr01",
         "port": 30043,
-        "dir": "ioc/common/pciAcromag/R0.0.1-0.1.17",
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/common/pciAcromag",
         "alias": "MISC - Acromag IO",
         "history": [
             "ioc/common/pciAcromag/R0.0.1-0.1.17"
@@ -14961,8 +14939,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-acromag",
-        "script": "/reg/g/pcds/epics/ioc/common/pciAcromag/R0.0.1-0.1.17/children/build/iocBoot/ioc-mfx-acromag/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pciAcromag/R0.0.1-0.1.17/bin/linux-x86_64/pciAcromag"
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/pciAcromag/children/build/iocBoot/ioc-mfx-acromag/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/pciAcromag/bin/rhel7-x86_64/pciAcromag"
     },
     {
         "host": "ioc-mfx-usr01",
@@ -14975,6 +14953,28 @@
         "name": "ioc-mfx-cryojet-01",
         "script": "/reg/g/pcds/epics-dev/espov/ioc/mfx/cryojet/iocBoot/ioc-mfx-cryojet-01/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/espov/ioc/mfx/cryojet/bin/linux-x86_64/cryojet"
+    },
+    {
+        "host": "ioc-mfx-usr01",
+        "port": 43924,
+        "dir": "ioc/mfx/ims/R2.1.0",
+        "alias": "HERA - Navitar",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-hera-ims",
+        "script": "/reg/g/pcds/epics/ioc/mfx/ims/R2.1.0/build/iocBoot/ioc-mfx-hera-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.9/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-mfx-usr01",
+        "port": 43925,
+        "dir": "ioc/mfx/NewportXPS8/R2.1.0",
+        "alias": "HERA - Motion - XPS",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-xps-hera",
+        "script": "/reg/g/pcds/epics/ioc/mfx/NewportXPS8/R2.1.0/build/iocBoot/ioc-mfx-xps-hera/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
     },
     {
         "host": "ioc-mfx-vacuum",
