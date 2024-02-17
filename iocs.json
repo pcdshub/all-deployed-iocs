@@ -21308,6 +21308,7 @@
             "ioc/mec/m3h_switch/R1.0.0"
         ],
         "delay": 10,
+        "cmd": "./st.cmd",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-xrt-m3h-switch",
