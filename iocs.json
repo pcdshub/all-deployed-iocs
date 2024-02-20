@@ -16716,7 +16716,7 @@
     },
     {
         "host": "ioc-ued-ccd01",
-        "port": 39100,
+        "port": 30009,
         "dir": "/reg/g/pcds/epics-dev/jozamudi/ued/lcls-plc-ued-sample-delivery/iocBoot/ioc-Sample-Delivery",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
