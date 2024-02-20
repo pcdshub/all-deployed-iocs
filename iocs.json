@@ -2503,6 +2503,16 @@
     },
     {
         "host": "ctl-las-lhn-04",
+        "port": 30005,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/SDG_Elite",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-lhn-sdg-04",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/SDG_Elite/children/build/iocBoot/ioc-las-lhn-sdg-04/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/SDG_Elite/bin/rhel7-x86_64/sdg"
+    },
+    {
+        "host": "ctl-las-lhn-04",
         "port": 30503,
         "dir": "ioc/las/smc100/R0.3.4",
         "base_version": "3.15",
@@ -5453,6 +5463,27 @@
         "name": "ioc-cvmi-motion",
         "script": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/lcls-plc-cvmi-motion/iocBoot/ioc-cvmi-motion/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ctl-tmo-mot-01",
+        "port": 39102,
+        "dir": "ioc/tmo/smaract/R1.0.0-FAILED",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-dream-smaract-01",
+        "script": "/reg/g/pcds/epics/ioc/tmo/smaract/R1.0.0-FAILED/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ctl-tmo-mot-01",
+        "port": 39103,
+        "dir": "ioc/tmo/smarpod/R1.0.0",
+        "alias": "ioc-tmo-smarpod-01",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-dream-smarpod-01",
+        "script": "/reg/g/pcds/epics/ioc/tmo/smarpod/R1.0.0/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tmo-mot-01",
