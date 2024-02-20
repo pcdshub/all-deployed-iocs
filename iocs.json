@@ -4742,16 +4742,6 @@
     },
     {
         "host": "ctl-tmo-cam-02",
-        "port": 38600,
-        "dir": "/reg/g/pcds/epics-dev/janezg/tmo/inficon",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-inficon-test",
-        "script": "/reg/g/pcds/epics-dev/janezg/tmo/inficon/build/iocBoot/ioc-inficon-test/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-inficonMPH/bin/rhel7-x86_64/inficon"
-    },
-    {
-        "host": "ctl-tmo-cam-02",
         "port": 39104,
         "dir": "ioc/tmo/gigECam/R5.0.0",
         "alias": "TMO MRCO GigE 01",
@@ -5713,6 +5703,16 @@
         "name": "ioc-plc-mrco-vac",
         "script": "/reg/g/pcds/epics/ioc/tmo/mrco/lcls-plc-mrco-vac/v1.0.0/plc-mrco-vac/iocBoot/ioc-plc-mrco-vac/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.4.1/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ctl-tmo-vac-01",
+        "port": 33006,
+        "dir": "/reg/g/pcds/epics-dev/janezg/plc_iocs/vat590-test",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-plc-vat-test",
+        "script": "/reg/g/pcds/epics-dev/janezg/plc_iocs/vat590-test/iocBoot/ioc-plc-vat-test/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-tmo-vac-01",
