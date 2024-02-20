@@ -5466,27 +5466,6 @@
     },
     {
         "host": "ctl-tmo-mot-01",
-        "port": 39102,
-        "dir": "ioc/tmo/smaract/R1.0.0-FAILED",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-dream-smaract-01",
-        "script": "/reg/g/pcds/epics/ioc/tmo/smaract/R1.0.0-FAILED/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ctl-tmo-mot-01",
-        "port": 39103,
-        "dir": "ioc/tmo/smarpod/R1.0.0",
-        "alias": "ioc-tmo-smarpod-01",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-dream-smarpod-01",
-        "script": "/reg/g/pcds/epics/ioc/tmo/smarpod/R1.0.0/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ctl-tmo-mot-01",
         "port": 34244,
         "dir": "ioc/tmo/lamp/lcls-plc-lamp-motion/v1.0.4",
         "alias": "ioc-lamp-motion",
@@ -5601,6 +5580,17 @@
     },
     {
         "host": "ctl-tmo-mot-01",
+        "port": 39103,
+        "dir": "ioc/tmo/smaract/R1.0.0-FAILED",
+        "alias": "ioc-tmo-mcs2-01",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-tmo-mcs2-01",
+        "script": "/reg/g/pcds/epics/ioc/tmo/smaract/R1.0.0-FAILED/build/iocBoot/ioc-tmo-mcs2-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.8/bin/rhel7-x86_64/smaract"
+    },
+    {
+        "host": "ctl-tmo-mot-01",
         "port": 34242,
         "dir": "/reg/g/pcds/epics-dev/tongju/PLC/lcls-plc-tmo-motion",
         "alias": "TMO CC Motion",
@@ -5612,6 +5602,17 @@
         "name": "ioc-tmo-motion",
         "script": "/reg/g/pcds/epics-dev/tongju/PLC/lcls-plc-tmo-motion/iocBoot/ioc-tmo-motion/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ctl-tmo-mot-01",
+        "port": 39102,
+        "dir": "ioc/tmo/smarpod/R1.0.0",
+        "alias": "ioc-tmo-smarpod-01",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-tmo-smarpod-01",
+        "script": "/reg/g/pcds/epics/ioc/tmo/smarpod/R1.0.0/build/iocBoot/ioc-tmo-smarpod-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/SmarPod/R1.1.2/bin/rhel7-x86_64/SmarPod"
     },
     {
         "host": "ctl-tmo-mot-01",
