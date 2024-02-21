@@ -5836,8 +5836,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-mecu-gentec1",
-        "script": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/build/iocBoot/ioc-mecu-gentec1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gentec/R1.1.1/bin/linux-x86_64/gentec"
+        "script": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tst-mecu-llnl",
