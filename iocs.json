@@ -11266,12 +11266,74 @@
     },
     {
         "host": "ioc-las-mfx-srv45",
+        "port": 42006,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/agilent5322",
+        "disable": true,
+        "history": [
+            "ioc/common/agilent5322/R0.4.2"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-xcs-ctr-01",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/agilent5322/build/iocBoot/ioc-las-xcs-ctr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R2.0.3/bin/rhel7-x86_64/agilent5322"
+    },
+    {
+        "host": "ioc-las-mfx-srv45",
+        "port": 42005,
+        "dir": "ioc/las/evr/R1.0.6",
+        "disable": true,
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-xcs-evr-01",
+        "script": "/reg/g/pcds/epics/ioc/las/evr/R1.0.6/build/iocBoot/ioc-las-xcs-evr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/rhel7-x86_64/evr"
+    },
+    {
+        "host": "ioc-las-mfx-srv45",
+        "port": 42015,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/smc100",
+        "disable": true,
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-xcs-smc100-01",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/smc100/build/iocBoot/ioc-las-xcs-smc100-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smc100/R1.1.2/bin/rhel7-x86_64/smc100"
+    },
+    {
+        "host": "ioc-las-mfx-srv45",
+        "port": 42001,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/sr620",
+        "disable": true,
+        "history": [
+            "ioc/las/sr620/R1.0.2"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-xcs-sr620-01",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/sr620/build/iocBoot/ioc-las-xcs-sr620-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/sr620/R0.9.2/bin/rhel7-x86_64/sr620"
+    },
+    {
+        "host": "ioc-las-mfx-srv45",
         "port": 35110,
         "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
         "alias": "MFX - FSTiming Python",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "py-fstiming-MFX",
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
+        "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ioc-las-mfx-srv45",
+        "port": 43404,
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
+        "disable": true,
+        "alias": "XCS - FSTiming Python",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "py-fstiming-XCS",
         "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
         "binary": "/usr/bin/bash"
     },
@@ -11289,12 +11351,36 @@
     },
     {
         "host": "ioc-las-mfx-srv45",
+        "port": 43424,
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
+        "disable": true,
+        "alias": "XCS - PCAV Drift Python",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "py-fstiming-pcav-XCS",
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
+        "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ioc-las-mfx-srv45",
         "port": 35130,
         "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
         "alias": "MFX - Timetool Python",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "py-fstiming-tt-MFX",
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
+        "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ioc-las-mfx-srv45",
+        "port": 43414,
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
+        "disable": true,
+        "alias": "XCS - Timetool Python ",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "py-fstiming-tt-XCS",
         "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
         "binary": "/usr/bin/bash"
     },
@@ -11347,6 +11433,21 @@
         "name": "ioc-las-cxi-phase-ims",
         "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0/iocBoot/ioc-las-cxi-phase-ims/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0/bin/linux-x86/motion"
+    },
+    {
+        "host": "ioc-las-srv04",
+        "port": 33002,
+        "dir": "ioc/common/history/R2.0.0",
+        "alias": "zz - ioc-las-hist2",
+        "history": [
+            "ioc/common/history/R1.2.0",
+            "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/history/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-hist2",
+        "script": "/reg/g/pcds/epics/ioc/common/history/R2.0.0/iocBoot/ioc-las-hist2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/history/R2.0.0/bin/rhel7-x86_64/hist"
     },
     {
         "host": "ioc-las-srv04",
@@ -11405,107 +11506,6 @@
         "name": "ioc-las-xcs-phase-ims",
         "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0/iocBoot/ioc-las-xcs-phase-ims/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0/bin/linux-x86/motion"
-    },
-    {
-        "host": "ioc-las-xcs-srv04",
-        "port": 33002,
-        "dir": "ioc/common/history/R2.0.0",
-        "alias": "zz - ioc-las-hist2",
-        "history": [
-            "ioc/common/history/R1.2.0",
-            "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/history/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-hist2",
-        "script": "/reg/g/pcds/epics/ioc/common/history/R2.0.0/iocBoot/ioc-las-hist2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/history/R2.0.0/bin/rhel7-x86_64/hist"
-    },
-    {
-        "host": "ioc-las-xcs-srv04",
-        "port": 42006,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/agilent5322",
-        "disable": true,
-        "history": [
-            "ioc/common/agilent5322/R0.4.2"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-xcs-ctr-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/agilent5322/build/iocBoot/ioc-las-xcs-ctr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R2.0.3/bin/rhel7-x86_64/agilent5322"
-    },
-    {
-        "host": "ioc-las-xcs-srv04",
-        "port": 42005,
-        "dir": "ioc/las/evr/R1.0.6",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-xcs-evr-01",
-        "script": "/reg/g/pcds/epics/ioc/las/evr/R1.0.6/build/iocBoot/ioc-las-xcs-evr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/rhel7-x86_64/evr"
-    },
-    {
-        "host": "ioc-las-xcs-srv04",
-        "port": 42015,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/smc100",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-xcs-smc100-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/smc100/build/iocBoot/ioc-las-xcs-smc100-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smc100/R1.1.2/bin/rhel7-x86_64/smc100"
-    },
-    {
-        "host": "ioc-las-xcs-srv04",
-        "port": 42001,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/sr620",
-        "disable": true,
-        "history": [
-            "ioc/las/sr620/R1.0.2"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-xcs-sr620-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/sr620/build/iocBoot/ioc-las-xcs-sr620-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/sr620/R0.9.2/bin/rhel7-x86_64/sr620"
-    },
-    {
-        "host": "ioc-las-xcs-srv04",
-        "port": 43404,
-        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
-        "disable": true,
-        "alias": "XCS - FSTiming Python",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "py-fstiming-XCS",
-        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
-        "binary": "/usr/bin/bash"
-    },
-    {
-        "host": "ioc-las-xcs-srv04",
-        "port": 43424,
-        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
-        "disable": true,
-        "alias": "XCS - PCAV Drift Python",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "py-fstiming-pcav-XCS",
-        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
-        "binary": "/usr/bin/bash"
-    },
-    {
-        "host": "ioc-las-xcs-srv04",
-        "port": 43414,
-        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
-        "disable": true,
-        "alias": "XCS - Timetool Python ",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "py-fstiming-tt-XCS",
-        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
-        "binary": "/usr/bin/bash"
     },
     {
         "host": "ioc-lfe-gasdet-daq",
