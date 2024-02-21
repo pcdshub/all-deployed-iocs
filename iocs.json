@@ -8440,7 +8440,7 @@
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-kb2-fmr-ims",
         "script": "/cds/home/m/mcbrowne/trunk2/ioc/cxi/ims/build/iocBoot/ioc-cxi-kb2-fmr-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.6.0/bin/rhel7-x86_64/ims"
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-rec04",
