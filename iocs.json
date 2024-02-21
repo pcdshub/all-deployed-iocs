@@ -5837,7 +5837,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-mecu-tst-gentec",
         "script": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/children/build/iocBoot/ioc-mecu-tst-gentec/st.cmd",
-        "binary": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/bin/linux-x86_64/gentec"
+        "binary": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/bin/rhel7-x86_64/gentec"
     },
     {
         "host": "ctl-tst-mecu-llnl",
