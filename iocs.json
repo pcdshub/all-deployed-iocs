@@ -11448,28 +11448,14 @@
     },
     {
         "host": "ioc-las-xcs-srv04",
-        "port": 42002,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/smc100/R0.2.3",
-        "disable": true,
-        "history": [
-            "ioc/las/smc100/R0.2.2"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-xcs-smc100",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/smc100/R0.2.3/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ioc-las-xcs-srv04",
         "port": 42015,
-        "dir": "ioc/las/smc100/R0.3.4",
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/smc100",
         "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-xcs-smc100-01",
-        "script": "/reg/g/pcds/epics/ioc/las/smc100/R0.3.4/build/iocBoot/ioc-las-xcs-smc100-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smc100/R1.0.1/bin/linux-x86_64/smc100"
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/smc100/build/iocBoot/ioc-las-xcs-smc100-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smc100/R1.1.2/bin/rhel7-x86_64/smc100"
     },
     {
         "host": "ioc-las-xcs-srv04",
