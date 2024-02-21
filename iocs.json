@@ -11268,7 +11268,6 @@
         "host": "ioc-las-mfx-srv45",
         "port": 42006,
         "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/agilent5322",
-        "disable": true,
         "history": [
             "ioc/common/agilent5322/R0.4.2"
         ],
@@ -11282,7 +11281,6 @@
         "host": "ioc-las-mfx-srv45",
         "port": 42005,
         "dir": "ioc/las/evr/R1.0.6",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-xcs-evr-01",
@@ -11293,7 +11291,6 @@
         "host": "ioc-las-mfx-srv45",
         "port": 42015,
         "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/smc100",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-xcs-smc100-01",
@@ -11304,7 +11301,6 @@
         "host": "ioc-las-mfx-srv45",
         "port": 42001,
         "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/sr620",
-        "disable": true,
         "history": [
             "ioc/las/sr620/R1.0.2"
         ],
@@ -11329,7 +11325,6 @@
         "host": "ioc-las-mfx-srv45",
         "port": 43404,
         "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
-        "disable": true,
         "alias": "XCS - FSTiming Python",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
@@ -11353,7 +11348,6 @@
         "host": "ioc-las-mfx-srv45",
         "port": 43424,
         "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
-        "disable": true,
         "alias": "XCS - PCAV Drift Python",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
@@ -11376,7 +11370,6 @@
         "host": "ioc-las-mfx-srv45",
         "port": 43414,
         "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
-        "disable": true,
         "alias": "XCS - Timetool Python ",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
