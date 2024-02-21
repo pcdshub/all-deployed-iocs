@@ -5831,7 +5831,7 @@
     },
     {
         "host": "ctl-tst-mecu-llnl",
-        "port": 35963,
+        "port": 35621,
         "dir": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
@@ -5843,7 +5843,6 @@
         "host": "ctl-tst-mecu-llnl",
         "port": 35675,
         "dir": "/cds/home/j/jvamosi/workspace/ioc-pulser",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-pulser",
