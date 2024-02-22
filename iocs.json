@@ -4050,21 +4050,6 @@
     },
     {
         "host": "ctl-rix-mot-01",
-        "port": 30112,
-        "dir": "ioc/kfe/lcls-plc-kfe-rix-vac/v2.0.0",
-        "alias": "Beamline Vacuum PLC IOC",
-        "history": [
-            "ioc/kfe/lcls-plc-kfe-rix-vac/v1.3.0",
-            "ioc/kfe/lcls-plc-kfe-rix-vac/v1.2.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-plc-kfe-rix-vac",
-        "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-rix-vac/v2.0.0/iocBoot/ioc-plc-kfe-rix-vac/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ctl-rix-mot-01",
         "port": 30310,
         "dir": "/reg/g/pcds/epics-dev/klauer/ioc-rix-at2k2-calc",
         "alias": "AT2K2 Calculator IOC",
@@ -4558,6 +4543,21 @@
         "name": "ioc-mr3k2-thermocon",
         "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/thermocon/build/iocBoot/ioc-mr3k2-thermocon/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/thermocon/R2.0.0/bin/rhel7-x86_64/thermocon"
+    },
+    {
+        "host": "ctl-rix-vac-01",
+        "port": 30112,
+        "dir": "ioc/kfe/lcls-plc-kfe-rix-vac/v2.0.0",
+        "alias": "Beamline Vacuum PLC IOC",
+        "history": [
+            "ioc/kfe/lcls-plc-kfe-rix-vac/v1.3.0",
+            "ioc/kfe/lcls-plc-kfe-rix-vac/v1.2.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-plc-kfe-rix-vac",
+        "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-rix-vac/v2.0.0/iocBoot/ioc-plc-kfe-rix-vac/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-rix-vac-01",
