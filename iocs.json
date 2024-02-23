@@ -2383,6 +2383,56 @@
     },
     {
         "host": "ctl-las-lhn-03",
+        "port": 30015,
+        "dir": "/reg/g/pcds/epics-dev/aberges/ioc/las/gigECam",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lhn-bay2-ff-02",
+        "script": "/reg/g/pcds/epics-dev/aberges/ioc/las/gigECam/build/iocBoot/ioc-lhn-bay2-ff-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-lhn-03",
+        "port": 30016,
+        "dir": "/reg/g/pcds/epics-dev/aberges/ioc/las/gigECam",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lhn-bay2-ff-03",
+        "script": "/reg/g/pcds/epics-dev/aberges/ioc/las/gigECam/build/iocBoot/ioc-lhn-bay2-ff-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-lhn-03",
+        "port": 30017,
+        "dir": "/reg/g/pcds/epics-dev/aberges/ioc/las/gigECam",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lhn-bay2-nf-01",
+        "script": "/reg/g/pcds/epics-dev/aberges/ioc/las/gigECam/build/iocBoot/ioc-lhn-bay2-nf-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-lhn-03",
+        "port": 30018,
+        "dir": "/reg/g/pcds/epics-dev/aberges/ioc/las/gigECam",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lhn-bay2-nf-02",
+        "script": "/reg/g/pcds/epics-dev/aberges/ioc/las/gigECam/build/iocBoot/ioc-lhn-bay2-nf-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-lhn-03",
+        "port": 30019,
+        "dir": "/reg/g/pcds/epics-dev/aberges/ioc/las/gigECam",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lhn-bay2-nf-03",
+        "script": "/reg/g/pcds/epics-dev/aberges/ioc/las/gigECam/build/iocBoot/ioc-lhn-bay2-nf-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-lhn-03",
         "port": 30010,
         "dir": "ioc/las/gigECam/R0.3.1",
         "base_version": "3.15",
@@ -5841,16 +5891,6 @@
     },
     {
         "host": "ctl-tst-mecu-llnl",
-        "port": 35895,
-        "dir": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-dso4000-tst",
-        "script": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1/children/build/iocBoot/ioc-dso4000-tst/st.cmd",
-        "binary": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1/bin/rhel7-x86_64/dso4000"
-    },
-    {
-        "host": "ctl-tst-mecu-llnl",
         "port": 35956,
         "dir": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1",
         "base_version": "3.15",
@@ -5861,13 +5901,13 @@
     },
     {
         "host": "ctl-tst-mecu-llnl",
-        "port": 35621,
-        "dir": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec",
+        "port": 35895,
+        "dir": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-mecu-tst-gentec",
-        "script": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/children/build/iocBoot/ioc-mecu-tst-gentec/st.cmd",
-        "binary": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/bin/rhel7-x86_64/gentec"
+        "name": "ioc-dso4000-tst",
+        "script": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1/children/build/iocBoot/ioc-dso4000-tst/st.cmd",
+        "binary": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1/bin/rhel7-x86_64/dso4000"
     },
     {
         "host": "ctl-tst-mecu-llnl",
@@ -5881,13 +5921,13 @@
     },
     {
         "host": "ctl-tst-mecu-llnl",
-        "port": 35675,
-        "dir": "/cds/home/j/jvamosi/workspace/ioc-pulser",
+        "port": 35621,
+        "dir": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-pulser",
-        "script": "/cds/home/j/jvamosi/workspace/ioc-pulser/children/build/iocBoot/ioc-pulser/st.cmd",
-        "binary": "/cds/home/j/jvamosi/workspace/ioc-pulser/bin/rhel7-x86_64/pulser"
+        "name": "ioc-mecu-tst-gentec",
+        "script": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/children/build/iocBoot/ioc-mecu-tst-gentec/st.cmd",
+        "binary": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/bin/rhel7-x86_64/gentec"
     },
     {
         "host": "ctl-tst-mecu-llnl",
@@ -5895,6 +5935,16 @@
         "dir": "/cds/home/j/jvamosi/workspace/ioc-pulser",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
+        "name": "ioc-pulser",
+        "script": "/cds/home/j/jvamosi/workspace/ioc-pulser/children/build/iocBoot/ioc-pulser/st.cmd",
+        "binary": "/cds/home/j/jvamosi/workspace/ioc-pulser/bin/rhel7-x86_64/pulser"
+    },
+    {
+        "host": "ctl-tst-mecu-llnl",
+        "port": 35675,
+        "dir": "/cds/home/j/jvamosi/workspace/ioc-pulser",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-pulser",
         "script": "/cds/home/j/jvamosi/workspace/ioc-pulser/children/build/iocBoot/ioc-pulser/st.cmd",
         "binary": "/cds/home/j/jvamosi/workspace/ioc-pulser/bin/rhel7-x86_64/pulser"
