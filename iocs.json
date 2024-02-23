@@ -11282,33 +11282,12 @@
     },
     {
         "host": "ioc-las-mfx-srv45",
-        "port": 42015,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/smc100",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-xcs-smc100-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/smc100/build/iocBoot/ioc-las-xcs-smc100-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smc100/R1.1.2/bin/rhel7-x86_64/smc100"
-    },
-    {
-        "host": "ioc-las-mfx-srv45",
         "port": 35110,
         "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
         "alias": "MFX - FSTiming Python",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "py-fstiming-MFX",
-        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
-        "binary": "/usr/bin/bash"
-    },
-    {
-        "host": "ioc-las-mfx-srv45",
-        "port": 43404,
-        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
-        "alias": "XCS - FSTiming Python",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "py-fstiming-XCS",
         "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
         "binary": "/usr/bin/bash"
     },
@@ -11326,34 +11305,12 @@
     },
     {
         "host": "ioc-las-mfx-srv45",
-        "port": 43424,
-        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
-        "alias": "XCS - PCAV Drift Python",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "py-fstiming-pcav-XCS",
-        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
-        "binary": "/usr/bin/bash"
-    },
-    {
-        "host": "ioc-las-mfx-srv45",
         "port": 35130,
         "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
         "alias": "MFX - Timetool Python",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "py-fstiming-tt-MFX",
-        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
-        "binary": "/usr/bin/bash"
-    },
-    {
-        "host": "ioc-las-mfx-srv45",
-        "port": 43414,
-        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
-        "alias": "XCS - Timetool Python ",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "py-fstiming-tt-XCS",
         "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
         "binary": "/usr/bin/bash"
     },
@@ -11525,6 +11482,16 @@
     },
     {
         "host": "ioc-las-xcs-srv04",
+        "port": 42015,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/smc100",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-xcs-smc100-01",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/smc100/build/iocBoot/ioc-las-xcs-smc100-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smc100/R1.1.2/bin/rhel7-x86_64/smc100"
+    },
+    {
+        "host": "ioc-las-xcs-srv04",
         "port": 42001,
         "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/sr620",
         "history": [
@@ -11548,6 +11515,41 @@
         "name": "ioc-las-xcs-vitara",
         "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/vitara/iocBoot/ioc-las-xcs-vitara/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/vitara/bin/rhel7-x86_64/vitara"
+    },
+    {
+        "host": "ioc-las-xcs-srv04",
+        "port": 43404,
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
+        "alias": "XCS - FSTiming Python",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "py-fstiming-XCS",
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
+        "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ioc-las-xcs-srv04",
+        "port": 43424,
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
+        "disable": true,
+        "alias": "XCS - PCAV Drift Python",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "py-fstiming-pcav-XCS",
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
+        "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ioc-las-xcs-srv04",
+        "port": 43414,
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
+        "disable": true,
+        "alias": "XCS - Timetool Python ",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "py-fstiming-tt-XCS",
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
+        "binary": "/usr/bin/bash"
     },
     {
         "host": "ioc-lfe-gasdet-daq",
