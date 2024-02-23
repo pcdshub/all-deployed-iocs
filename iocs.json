@@ -1,5 +1,16 @@
 [
     {
+        "host": "30009",
+        "port": 43404,
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
+        "alias": "XCS - FSTiming Python",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "py-fstiming-XCS",
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
+        "binary": "/usr/bin/bash"
+    },
+    {
         "host": "ctl-det-drp01",
         "port": 30100,
         "dir": "ioc/common/pgpWave8/R1.6.0",
@@ -11362,6 +11373,19 @@
     },
     {
         "host": "ioc-las-mfx-srv45",
+        "port": 42010,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/vitara/",
+        "history": [
+            "ioc/las/vitara/R2.10.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-xcs-vitara",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/vitara/iocBoot/ioc-las-xcs-vitara/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/vitara/bin/rhel7-x86_64/vitara"
+    },
+    {
+        "host": "ioc-las-mfx-srv45",
         "port": 35110,
         "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
         "alias": "MFX - FSTiming Python",
@@ -11509,7 +11533,7 @@
     },
     {
         "host": "ioc-las-srv04",
-        "port": 42004,
+        "port": 30012,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
@@ -11562,30 +11586,6 @@
         "name": "ioc-las-xcs-sr620-01",
         "script": "/reg/g/pcds/epics/ioc/las/sr620/R1.1.2/build/iocBoot/ioc-las-xcs-sr620-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/sr620/R0.9.2/bin/linux-x86/sr620"
-    },
-    {
-        "host": "ioc-las-xcs-srv04",
-        "port": 42010,
-        "dir": "ioc/las/vitara/R3.0.0",
-        "history": [
-            "ioc/las/vitara/R2.10.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-xcs-vitara",
-        "script": "/reg/g/pcds/epics/ioc/las/vitara/R3.0.0/iocBoot/ioc-las-xcs-vitara/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/las/vitara/R3.0.0/bin/linux-x86_64/vitara"
-    },
-    {
-        "host": "ioc-las-xcs-srv04",
-        "port": 43404,
-        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
-        "alias": "XCS - FSTiming Python",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "py-fstiming-XCS",
-        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
-        "binary": "/usr/bin/bash"
     },
     {
         "host": "ioc-las-xcs-srv04",
