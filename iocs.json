@@ -11332,6 +11332,36 @@
     },
     {
         "host": "ioc-las-mfx-srv45",
+        "port": 30004,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ek9000",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-xcs-bhc-01",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ek9000/build/iocBoot/ioc-las-xcs-bhc-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.3.2/bin/rhel7-x86_64/ek9000IOC"
+    },
+    {
+        "host": "ioc-las-mfx-srv45",
+        "port": 35820,
+        "dir": "ioc/las/pdu_snmp/R1.0.1",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-xcs-pwr-01",
+        "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.0.1/build/iocBoot/ioc-las-xcs-pwr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
+    },
+    {
+        "host": "ioc-las-mfx-srv45",
+        "port": 30005,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/SDG_Elite",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-xcs-sdg-01",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/SDG_Elite/children/build/iocBoot/ioc-las-xcs-sdg-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/SDG_Elite/bin/rhel7-x86_64/sdg"
+    },
+    {
+        "host": "ioc-las-mfx-srv45",
         "port": 35110,
         "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
         "alias": "MFX - FSTiming Python",
@@ -11489,26 +11519,16 @@
     },
     {
         "host": "ioc-las-xcs-srv04",
-        "port": 30004,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ek9000",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-xcs-bhc-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ek9000/build/iocBoot/ioc-las-xcs-bhc-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.3.2/bin/rhel7-x86_64/ek9000IOC"
-    },
-    {
-        "host": "ioc-las-xcs-srv04",
         "port": 42006,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/agilent5322",
+        "dir": "ioc/las/agilent5322/R1.0.5",
         "history": [
             "ioc/common/agilent5322/R0.4.2"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-xcs-ctr-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/agilent5322/build/iocBoot/ioc-las-xcs-ctr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R2.0.3/bin/rhel7-x86_64/agilent5322"
+        "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R1.0.5/build/iocBoot/ioc-las-xcs-ctr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R2.0.3/bin/linux-x86/agilent5322"
     },
     {
         "host": "ioc-las-xcs-srv04",
@@ -11519,36 +11539,6 @@
         "name": "ioc-las-xcs-evr-01",
         "script": "/reg/g/pcds/epics/ioc/las/evr/R1.0.6/build/iocBoot/ioc-las-xcs-evr-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/rhel7-x86_64/evr"
-    },
-    {
-        "host": "ioc-las-xcs-srv04",
-        "port": 35820,
-        "dir": "ioc/las/pdu_snmp/R1.0.1",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-xcs-pwr-01",
-        "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.0.1/build/iocBoot/ioc-las-xcs-pwr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
-    },
-    {
-        "host": "ioc-las-xcs-srv04",
-        "port": 30005,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/SDG_Elite",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-xcs-sdg-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/SDG_Elite/children/build/iocBoot/ioc-las-xcs-sdg-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/SDG_Elite/bin/rhel7-x86_64/sdg"
-    },
-    {
-        "host": "ioc-las-xcs-srv04",
-        "port": 42015,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/smc100",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-xcs-smc100-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/smc100/build/iocBoot/ioc-las-xcs-smc100-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smc100/R1.1.2/bin/rhel7-x86_64/smc100"
     },
     {
         "host": "ioc-las-xcs-srv04",
@@ -22234,6 +22224,16 @@
         "name": "ioc-xrt-hfx-mon-lodcm-nav-ims",
         "script": "/reg/g/pcds/epics/ioc/xrt/ims/R2.2.6/build/iocBoot/ioc-xrt-hfx-mon-lodcm-nav-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.0/bin/linux-x86/ims"
+    },
+    {
+        "host": "ioc/las/smc100/R0.3.5",
+        "port": 42015,
+        "dir": "ioc/las/smc100/R0.3.5",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-xcs-smc100-01",
+        "script": "/reg/g/pcds/epics/ioc/las/smc100/R0.3.5/build/iocBoot/ioc-las-xcs-smc100-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smc100/R1.0.1/bin/linux-x86_64/smc100"
     },
     {
         "host": "las-neh-monitor",
