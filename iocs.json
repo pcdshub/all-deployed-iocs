@@ -11542,29 +11542,39 @@
     },
     {
         "host": "ioc-las-xcs-srv04",
+        "port": 42015,
+        "dir": "ioc/las/smc100/R0.3.5",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-xcs-smc100-01",
+        "script": "/reg/g/pcds/epics/ioc/las/smc100/R0.3.5/build/iocBoot/ioc-las-xcs-smc100-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smc100/R1.0.1/bin/linux-x86_64/smc100"
+    },
+    {
+        "host": "ioc-las-xcs-srv04",
         "port": 42001,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/sr620",
+        "dir": "ioc/las/sr620/R1.1.3",
         "history": [
             "ioc/las/sr620/R1.0.2"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-xcs-sr620-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/sr620/build/iocBoot/ioc-las-xcs-sr620-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/sr620/R0.9.2/bin/rhel7-x86_64/sr620"
+        "script": "/reg/g/pcds/epics/ioc/las/sr620/R1.1.3/build/iocBoot/ioc-las-xcs-sr620-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/sr620/R0.9.2/bin/linux-x86/sr620"
     },
     {
         "host": "ioc-las-xcs-srv04",
         "port": 42010,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/vitara",
+        "dir": "ioc/las/vitara/R3.0.0",
         "history": [
             "ioc/las/vitara/R2.10.1"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-xcs-vitara",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/vitara/iocBoot/ioc-las-xcs-vitara/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/vitara/bin/rhel7-x86_64/vitara"
+        "script": "/reg/g/pcds/epics/ioc/las/vitara/R3.0.0/iocBoot/ioc-las-xcs-vitara/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/las/vitara/R3.0.0/bin/linux-x86_64/vitara"
     },
     {
         "host": "ioc-las-xcs-srv04",
@@ -22224,16 +22234,6 @@
         "name": "ioc-xrt-hfx-mon-lodcm-nav-ims",
         "script": "/reg/g/pcds/epics/ioc/xrt/ims/R2.2.6/build/iocBoot/ioc-xrt-hfx-mon-lodcm-nav-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.0/bin/linux-x86/ims"
-    },
-    {
-        "host": "ioc/las/smc100/R0.3.5",
-        "port": 42015,
-        "dir": "ioc/las/smc100/R0.3.5",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-xcs-smc100-01",
-        "script": "/reg/g/pcds/epics/ioc/las/smc100/R0.3.5/build/iocBoot/ioc-las-xcs-smc100-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smc100/R1.0.1/bin/linux-x86_64/smc100"
     },
     {
         "host": "las-neh-monitor",
