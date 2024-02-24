@@ -2454,12 +2454,13 @@
     {
         "host": "ctl-las-lhn-03",
         "port": 30005,
-        "dir": "/reg/g/pcds/epics-dev/aberges/ioc/las/gigECam/",
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lhn-bay3-ff-03",
-        "script": "/reg/g/pcds/epics-dev/aberges/ioc/las/gigECam/build/iocBoot/ioc-lhn-bay3-ff-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/build/iocBoot/ioc-lhn-bay3-ff-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-las-lhn-03",
@@ -2469,7 +2470,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lhn-bay3-ff-04",
         "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/build/iocBoot/ioc-lhn-bay3-ff-04/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/common/gigECam/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-las-lhn-03",
@@ -5891,16 +5892,6 @@
     },
     {
         "host": "ctl-tst-mecu-llnl",
-        "port": 35956,
-        "dir": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
-        "name": "ioc-dso4000-tst",
-        "script": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1/children/build/iocBoot/ioc-dso4000-tst/st.cmd",
-        "binary": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1/bin/rhel7-x86_64/dso4000"
-    },
-    {
-        "host": "ctl-tst-mecu-llnl",
         "port": 35895,
         "dir": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1",
         "base_version": "3.15",
@@ -5911,13 +5902,13 @@
     },
     {
         "host": "ctl-tst-mecu-llnl",
-        "port": 35659,
-        "dir": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec",
+        "port": 35956,
+        "dir": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
-        "name": "ioc-mecu-tst-gentec",
-        "script": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/children/build/iocBoot/ioc-mecu-tst-gentec/st.cmd",
-        "binary": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/bin/rhel7-x86_64/gentec"
+        "name": "ioc-dso4000-tst",
+        "script": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1/children/build/iocBoot/ioc-dso4000-tst/st.cmd",
+        "binary": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1/bin/rhel7-x86_64/dso4000"
     },
     {
         "host": "ctl-tst-mecu-llnl",
@@ -5931,13 +5922,13 @@
     },
     {
         "host": "ctl-tst-mecu-llnl",
-        "port": 35210,
-        "dir": "/cds/home/j/jvamosi/workspace/ioc-pulser",
+        "port": 35659,
+        "dir": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
-        "name": "ioc-pulser",
-        "script": "/cds/home/j/jvamosi/workspace/ioc-pulser/children/build/iocBoot/ioc-pulser/st.cmd",
-        "binary": "/cds/home/j/jvamosi/workspace/ioc-pulser/bin/rhel7-x86_64/pulser"
+        "name": "ioc-mecu-tst-gentec",
+        "script": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/children/build/iocBoot/ioc-mecu-tst-gentec/st.cmd",
+        "binary": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/bin/rhel7-x86_64/gentec"
     },
     {
         "host": "ctl-tst-mecu-llnl",
@@ -5945,6 +5936,16 @@
         "dir": "/cds/home/j/jvamosi/workspace/ioc-pulser",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-pulser",
+        "script": "/cds/home/j/jvamosi/workspace/ioc-pulser/children/build/iocBoot/ioc-pulser/st.cmd",
+        "binary": "/cds/home/j/jvamosi/workspace/ioc-pulser/bin/rhel7-x86_64/pulser"
+    },
+    {
+        "host": "ctl-tst-mecu-llnl",
+        "port": 35210,
+        "dir": "/cds/home/j/jvamosi/workspace/ioc-pulser",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
         "name": "ioc-pulser",
         "script": "/cds/home/j/jvamosi/workspace/ioc-pulser/children/build/iocBoot/ioc-pulser/st.cmd",
         "binary": "/cds/home/j/jvamosi/workspace/ioc-pulser/bin/rhel7-x86_64/pulser"
