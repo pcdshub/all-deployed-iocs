@@ -1,16 +1,5 @@
 [
     {
-        "host": "30009",
-        "port": 43404,
-        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
-        "alias": "XCS - FSTiming Python",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "py-fstiming-XCS",
-        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
-        "binary": "/usr/bin/bash"
-    },
-    {
         "host": "ctl-det-drp01",
         "port": 30100,
         "dir": "ioc/common/pgpWave8/R1.6.0",
@@ -5902,16 +5891,6 @@
     },
     {
         "host": "ctl-tst-mecu-llnl",
-        "port": 35956,
-        "dir": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
-        "name": "ioc-dso4000-tst",
-        "script": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1/children/build/iocBoot/ioc-dso4000-tst/st.cmd",
-        "binary": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1/bin/rhel7-x86_64/dso4000"
-    },
-    {
-        "host": "ctl-tst-mecu-llnl",
         "port": 35895,
         "dir": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1",
         "base_version": "3.15",
@@ -5922,13 +5901,13 @@
     },
     {
         "host": "ctl-tst-mecu-llnl",
-        "port": 35659,
-        "dir": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec",
+        "port": 35956,
+        "dir": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
-        "name": "ioc-mecu-tst-gentec",
-        "script": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/children/build/iocBoot/ioc-mecu-tst-gentec/st.cmd",
-        "binary": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/bin/rhel7-x86_64/gentec"
+        "name": "ioc-dso4000-tst",
+        "script": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1/children/build/iocBoot/ioc-dso4000-tst/st.cmd",
+        "binary": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1/bin/rhel7-x86_64/dso4000"
     },
     {
         "host": "ctl-tst-mecu-llnl",
@@ -5942,13 +5921,13 @@
     },
     {
         "host": "ctl-tst-mecu-llnl",
-        "port": 35210,
-        "dir": "/cds/home/j/jvamosi/workspace/ioc-pulser",
+        "port": 35659,
+        "dir": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
-        "name": "ioc-pulser",
-        "script": "/cds/home/j/jvamosi/workspace/ioc-pulser/children/build/iocBoot/ioc-pulser/st.cmd",
-        "binary": "/cds/home/j/jvamosi/workspace/ioc-pulser/bin/rhel7-x86_64/pulser"
+        "name": "ioc-mecu-tst-gentec",
+        "script": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/children/build/iocBoot/ioc-mecu-tst-gentec/st.cmd",
+        "binary": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/bin/rhel7-x86_64/gentec"
     },
     {
         "host": "ctl-tst-mecu-llnl",
@@ -5956,6 +5935,16 @@
         "dir": "/cds/home/j/jvamosi/workspace/ioc-pulser",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-pulser",
+        "script": "/cds/home/j/jvamosi/workspace/ioc-pulser/children/build/iocBoot/ioc-pulser/st.cmd",
+        "binary": "/cds/home/j/jvamosi/workspace/ioc-pulser/bin/rhel7-x86_64/pulser"
+    },
+    {
+        "host": "ctl-tst-mecu-llnl",
+        "port": 35210,
+        "dir": "/cds/home/j/jvamosi/workspace/ioc-pulser",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
         "name": "ioc-pulser",
         "script": "/cds/home/j/jvamosi/workspace/ioc-pulser/children/build/iocBoot/ioc-pulser/st.cmd",
         "binary": "/cds/home/j/jvamosi/workspace/ioc-pulser/bin/rhel7-x86_64/pulser"
@@ -11353,7 +11342,7 @@
     },
     {
         "host": "ioc-las-mfx-srv45",
-        "port": 35820,
+        "port": 30011,
         "dir": "ioc/las/pdu_snmp/R1.0.1",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
@@ -11373,7 +11362,7 @@
     },
     {
         "host": "ioc-las-mfx-srv45",
-        "port": 42010,
+        "port": 30010,
         "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/vitara/",
         "history": [
             "ioc/las/vitara/R2.10.1"
@@ -11542,6 +11531,41 @@
         "binary": "/reg/g/pcds/epics-dev/cpino/ioc/las/ims/R0.4.0/bin/linux-x86/motion"
     },
     {
+        "host": "ioc-las-srv04",
+        "port": 30021,
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
+        "alias": "XCS - FSTiming Python",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "py-fstiming-XCS",
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
+        "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ioc-las-srv04",
+        "port": 30022,
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
+        "disable": true,
+        "alias": "XCS - PCAV Drift Python",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "py-fstiming-pcav-XCS",
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
+        "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ioc-las-srv04",
+        "port": 30023,
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
+        "disable": true,
+        "alias": "XCS - Timetool Python ",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "py-fstiming-tt-XCS",
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
+        "binary": "/usr/bin/bash"
+    },
+    {
         "host": "ioc-las-xcs-srv04",
         "port": 30005,
         "dir": "ioc/las/agilent5322/R1.0.4",
@@ -11586,30 +11610,6 @@
         "name": "ioc-las-xcs-sr620-01",
         "script": "/reg/g/pcds/epics/ioc/las/sr620/R1.1.2/build/iocBoot/ioc-las-xcs-sr620-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/sr620/R0.9.2/bin/linux-x86/sr620"
-    },
-    {
-        "host": "ioc-las-xcs-srv04",
-        "port": 43424,
-        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
-        "disable": true,
-        "alias": "XCS - PCAV Drift Python",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "py-fstiming-pcav-XCS",
-        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
-        "binary": "/usr/bin/bash"
-    },
-    {
-        "host": "ioc-las-xcs-srv04",
-        "port": 43414,
-        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
-        "disable": true,
-        "alias": "XCS - Timetool Python ",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "py-fstiming-tt-XCS",
-        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
-        "binary": "/usr/bin/bash"
     },
     {
         "host": "ioc-lfe-gasdet-daq",
