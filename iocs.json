@@ -5525,6 +5525,7 @@
         "host": "ctl-tmo-mot-01",
         "port": 34345,
         "dir": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/lcls-plc-cvmi-motion",
+        "disable": true,
         "alias": "ioc-cvmi-motion",
         "history": [
             "ioc/tmo/cvmi/lcls-plc-cvmi-motion/v1.0.0"
@@ -5613,6 +5614,7 @@
         "host": "ctl-tmo-mot-01",
         "port": 39100,
         "dir": "ioc/tmo/mmc/R1.1.0",
+        "disable": true,
         "alias": "ioc-tmo-cvmi-2axis-mmc-01",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
@@ -5622,22 +5624,9 @@
     },
     {
         "host": "ctl-tmo-mot-01",
-        "port": 34765,
-        "dir": "/reg/g/pcds/epics-dev/rsmm97/ioc/tmo/RohdeSchwarzHMP/current",
-        "alias": "Rohde Schwarz Supply",
-        "history": [
-            "/reg/g/pcds/epics-dev/rsmm97/ioc/tmo/RohdeSchwarzHMP/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-tmo-hmp-test",
-        "script": "/reg/g/pcds/epics-dev/rsmm97/ioc/tmo/RohdeSchwarzHMP/current/build/iocBoot/ioc-tmo-hmp-test/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.1/bin/rhel7-x86_64/rshmp"
-    },
-    {
-        "host": "ctl-tmo-mot-01",
         "port": 34555,
         "dir": "ioc/tmo/mmc/R1.0.0",
+        "disable": true,
         "history": [
             "ioc/tmo/mmc/R1.0.0"
         ],
@@ -5651,6 +5640,7 @@
         "host": "ctl-tmo-mot-01",
         "port": 34245,
         "dir": "ioc/tmo/mmc/R1.0.0",
+        "disable": true,
         "history": [
             "ioc/tmo/mmc/R1.0.0"
         ],
@@ -6630,6 +6620,20 @@
         "name": "ioc-tmo-andor1",
         "script": "/reg/g/pcds/epics/ioc/common/andorCam/R1.0.5/children/build/iocBoot/ioc-tmo-andor1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/andorCam/R1.0.5/bin/rhel7-x86_64/andorTpr"
+    },
+    {
+        "host": "daq-tmo-andor-01",
+        "port": 34765,
+        "dir": "/reg/g/pcds/epics-dev/rsmm97/ioc/tmo/RohdeSchwarzHMP/current",
+        "alias": "Rohde Schwarz Supply",
+        "history": [
+            "/reg/g/pcds/epics-dev/rsmm97/ioc/tmo/RohdeSchwarzHMP/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-tmo-hmp-test",
+        "script": "/reg/g/pcds/epics-dev/rsmm97/ioc/tmo/RohdeSchwarzHMP/current/build/iocBoot/ioc-tmo-hmp-test/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.1/bin/rhel7-x86_64/rshmp"
     },
     {
         "host": "daq-tmo-andor-01",
