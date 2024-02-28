@@ -7461,8 +7461,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg2-ipm-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-dg2-ipm-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7478,8 +7478,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg2-pim-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-dg2-pim-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7493,8 +7493,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg2-stand-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-dg2-stand-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7506,8 +7506,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg3-det-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-dg3-det-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7521,8 +7521,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg3-ipm-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-dg3-ipm-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7537,8 +7537,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg3-stand-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-dg3-stand-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7553,8 +7553,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg3-xfls-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-dg3-xfls-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7568,8 +7568,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg4-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-dg4-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7584,8 +7584,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg4-stand-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-dg4-stand-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7595,8 +7595,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-ds1-dumb-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-ds1-dumb-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7610,8 +7610,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-ds1-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-ds1-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7621,8 +7621,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-ds2-dumb-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-ds2-dumb-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7637,8 +7637,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-ds2-stand-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-ds2-stand-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7653,8 +7653,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dsb-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-dsb-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7705,8 +7705,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-pi3-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-pi3-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7721,8 +7721,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc1-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-sc1-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7738,8 +7738,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc1-navitar-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-sc1-navitar-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7754,8 +7754,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc1-pi1-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-sc1-pi1-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7769,8 +7769,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc2-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-sc2-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7785,8 +7785,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc2-navitar-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-sc2-navitar-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7801,8 +7801,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc2-pi2-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-sc2-pi2-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7816,8 +7816,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc3-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-sc3-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7833,8 +7833,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-slits-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-slits-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7858,8 +7858,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-usr-sc1-smart-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-usr-sc1-smart-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7874,8 +7874,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-usr-sc2-dumb-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-usr-sc2-dumb-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -7891,8 +7891,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-usr-sc2-smart-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-usr-sc2-smart-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -8158,8 +8158,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dia-att-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-dia-att-ims/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-qadc",
@@ -8169,8 +8169,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dia-pfls-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-dia-pfls-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-qadc",
@@ -8354,8 +8354,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-ds1-ppenc-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-ds1-ppenc-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-rec01",
@@ -8370,8 +8370,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-ds1-stand-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-ds1-stand-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-rec01",
@@ -8401,8 +8401,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-kb1-fmr-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-kb1-fmr-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-rec01",
@@ -8682,8 +8682,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-usr-dsb-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-usr-dsb-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-rec04",
@@ -8709,8 +8709,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-1ms-stand-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-1ms-stand-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-sc1",
@@ -8725,8 +8725,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg1-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-dg1-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-sc1",
@@ -8737,8 +8737,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg2-pfls-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-dg2-pfls-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-sc1",
@@ -8753,8 +8753,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg3-dumb-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-dg3-dumb-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-sc1",
@@ -8868,8 +8868,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-usr-dumb-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-usr-dumb-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-sc2",
