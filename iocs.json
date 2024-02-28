@@ -13082,7 +13082,7 @@
     {
         "host": "ioc-mec-misc01",
         "port": 39107,
-        "dir": "ioc/xrt/ims/R2.2.9",
+        "dir": "/cds/home/m/mcbrowne/trunk2/ioc/xrt/ims",
         "alias": "Beamline Attenuator",
         "history": [
             "ioc/xrt/ims/R2.1.0",
@@ -13092,8 +13092,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-xrt-mecppatt-ims",
-        "script": "/reg/g/pcds/epics/ioc/xrt/ims/R2.2.9/build/iocBoot/ioc-xrt-mecppatt-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.7/bin/linux-x86/ims"
+        "script": "/cds/home/m/mcbrowne/trunk2/ioc/xrt/ims/build/iocBoot/ioc-xrt-mecppatt-ims/st.cmd",
+        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/ims/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-mec-mot3",
