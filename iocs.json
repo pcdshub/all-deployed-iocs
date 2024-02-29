@@ -4664,7 +4664,7 @@
     {
         "host": "ctl-rix-vac-01",
         "port": 37001,
-        "dir": "ioc/common/sample-delivery-system/v1.1.1",
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/rix/lcls-plc-rix-sample-delivery/iocBoot/ioc-sample-delivery",
         "alias": "SDS IOC",
         "history": [
             "/reg/g/pcds/epics-dev/pennebak/sample-delivery/rixdev",
@@ -4673,8 +4673,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-sds",
-        "script": "/reg/g/pcds/epics/ioc/common/sample-delivery-system/v1.1.1/iocBoot/ioc-rix-sds/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics-dev/jozamudi/rix/lcls-plc-rix-sample-delivery/iocBoot/ioc-sample-delivery/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-rix-vac-01",
@@ -5898,16 +5898,6 @@
     },
     {
         "host": "ctl-tst-mecu-llnl",
-        "port": 35895,
-        "dir": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-dso4000-tst",
-        "script": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1/children/build/iocBoot/ioc-dso4000-tst/st.cmd",
-        "binary": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1/bin/rhel7-x86_64/dso4000"
-    },
-    {
-        "host": "ctl-tst-mecu-llnl",
         "port": 35956,
         "dir": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1",
         "base_version": "3.15",
@@ -5918,13 +5908,13 @@
     },
     {
         "host": "ctl-tst-mecu-llnl",
-        "port": 35621,
-        "dir": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec",
+        "port": 35895,
+        "dir": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-mecu-tst-gentec",
-        "script": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/children/build/iocBoot/ioc-mecu-tst-gentec/st.cmd",
-        "binary": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/bin/rhel7-x86_64/gentec"
+        "name": "ioc-dso4000-tst",
+        "script": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1/children/build/iocBoot/ioc-dso4000-tst/st.cmd",
+        "binary": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1/bin/rhel7-x86_64/dso4000"
     },
     {
         "host": "ctl-tst-mecu-llnl",
@@ -5938,13 +5928,13 @@
     },
     {
         "host": "ctl-tst-mecu-llnl",
-        "port": 35675,
-        "dir": "/cds/home/j/jvamosi/workspace/ioc-pulser",
+        "port": 35621,
+        "dir": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-pulser",
-        "script": "/cds/home/j/jvamosi/workspace/ioc-pulser/children/build/iocBoot/ioc-pulser/st.cmd",
-        "binary": "/cds/home/j/jvamosi/workspace/ioc-pulser/bin/rhel7-x86_64/pulser"
+        "name": "ioc-mecu-tst-gentec",
+        "script": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/children/build/iocBoot/ioc-mecu-tst-gentec/st.cmd",
+        "binary": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/bin/rhel7-x86_64/gentec"
     },
     {
         "host": "ctl-tst-mecu-llnl",
@@ -5952,6 +5942,16 @@
         "dir": "/cds/home/j/jvamosi/workspace/ioc-pulser",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
+        "name": "ioc-pulser",
+        "script": "/cds/home/j/jvamosi/workspace/ioc-pulser/children/build/iocBoot/ioc-pulser/st.cmd",
+        "binary": "/cds/home/j/jvamosi/workspace/ioc-pulser/bin/rhel7-x86_64/pulser"
+    },
+    {
+        "host": "ctl-tst-mecu-llnl",
+        "port": 35675,
+        "dir": "/cds/home/j/jvamosi/workspace/ioc-pulser",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-pulser",
         "script": "/cds/home/j/jvamosi/workspace/ioc-pulser/children/build/iocBoot/ioc-pulser/st.cmd",
         "binary": "/cds/home/j/jvamosi/workspace/ioc-pulser/bin/rhel7-x86_64/pulser"
