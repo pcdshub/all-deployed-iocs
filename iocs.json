@@ -16885,11 +16885,11 @@
     {
         "host": "ioc-ued-ccd01",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/ued/lcls-plc-ued-sample-delivery/iocBoot/ioc-Sample-Delivery",
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/ued/lcls-plc-ued-sample-delivery/iocBoot/ioc-PLC-UED-SDS",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-sds",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/ued/lcls-plc-ued-sample-delivery/iocBoot/ioc-Sample-Delivery/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/jozamudi/ued/lcls-plc-ued-sample-delivery/iocBoot/ioc-PLC-UED-SDS/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
