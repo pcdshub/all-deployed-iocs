@@ -10950,10 +10950,13 @@
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
     },
     {
-        "host": "ioc-icl-fels01",
+        "host": "ioc-icl-rec10",
         "port": 39101,
         "dir": "/reg/g/pcds/epics-dev/jozamudi/icl/shimaduz-lc20",
         "alias": "ICL LC20",
+        "history": [
+            "/reg/g/pcds/epics-dev/jozamudi/icl/shimaduz-lc20"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/icl/iocmanager.cfg",
         "name": "ioc-icl-lc20",
@@ -10961,7 +10964,7 @@
         "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.3.5/bin/rhel7-x86_64/lc20"
     },
     {
-        "host": "ioc-icl-fels01",
+        "host": "ioc-icl-rec10",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/jozamudi/icl/lcls-plc-icl-sample-delivery/iocBoot/ioc-Sample-Delivery",
         "alias": "ICL PLC",
