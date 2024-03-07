@@ -16906,8 +16906,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-xps",
-        "script": "/reg/g/pcds/epics-dev/nagar123/ioc/ued/Newport/build/iocBoot/ioc-ued-xps/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.1.0/bin/rhel7-x86_64/xps8"
+        "script": "/reg/g/pcds/epics-dev/nagar123/ioc/ued/Newport/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-und-rec01",
