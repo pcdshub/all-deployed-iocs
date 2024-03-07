@@ -5608,19 +5608,19 @@
     {
         "host": "ctl-tmo-mot-01",
         "port": 39100,
-        "dir": "ioc/tmo/mmc/R1.1.0",
+        "dir": "ioc/tmo/mmc/R1.1.1",
         "disable": true,
         "alias": "ioc-tmo-cvmi-2axis-mmc-01",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-cvmi-2axis-mmc-01",
-        "script": "/reg/g/pcds/epics/ioc/tmo/mmc/R1.1.0/build/iocBoot/ioc-tmo-cvmi-2axis-mmc-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/tmo/mmc/R1.1.1/build/iocBoot/ioc-tmo-cvmi-2axis-mmc-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
     },
     {
         "host": "ctl-tmo-mot-01",
         "port": 34555,
-        "dir": "ioc/tmo/mmc/R1.0.0",
+        "dir": "ioc/tmo/mmc/R1.1.1",
         "disable": true,
         "history": [
             "ioc/tmo/mmc/R1.0.0"
@@ -5628,13 +5628,13 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-lamp-3axis-mmc-02",
-        "script": "/reg/g/pcds/epics/ioc/tmo/mmc/R1.0.0/build/iocBoot/ioc-tmo-lamp-3axis-mmc-02/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/tmo/mmc/R1.1.1/build/iocBoot/ioc-tmo-lamp-3axis-mmc-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
     },
     {
         "host": "ctl-tmo-mot-01",
         "port": 34245,
-        "dir": "ioc/tmo/mmc/R1.0.0",
+        "dir": "ioc/tmo/mmc/R1.1.1",
         "disable": true,
         "history": [
             "ioc/tmo/mmc/R1.0.0"
@@ -5642,7 +5642,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-lamp-4axis-mmc-01",
-        "script": "/reg/g/pcds/epics/ioc/tmo/mmc/R1.0.0/build/iocBoot/ioc-tmo-lamp-4axis-mmc-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/tmo/mmc/R1.1.1/build/iocBoot/ioc-tmo-lamp-4axis-mmc-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
     },
     {
