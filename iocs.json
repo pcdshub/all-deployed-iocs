@@ -5938,16 +5938,6 @@
         "binary": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/bin/rhel7-x86_64/gentec"
     },
     {
-        "host": "ctl-tst-mecu-llnl",
-        "port": 36520,
-        "dir": "/cds/home/j/jvamosi/workspace/tprStandalone/R1.1.5",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
-        "name": "ioc-tst-mecu-tpr1",
-        "script": "/cds/home/j/jvamosi/workspace/tprStandalone/R1.1.5/build/iocBoot/ioc-tst-mecu-tpr1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.5/bin/rhel7-x86_64/tpr"
-    },
-    {
         "host": "ctl-tst-pgp01",
         "port": 30001,
         "dir": "/cds/home/d/dnajjar/areaDetectores/pgpCamlink",
