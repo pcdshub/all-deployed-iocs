@@ -4693,16 +4693,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.0/bin/rhel7-x86_64/vacuum"
     },
     {
-        "host": "ctl-test-mecu-llnl",
-        "port": 35625,
-        "dir": "/cds/home/j/jvamosi/workspace/ioc-pulser",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
-        "name": "ioc-pulser",
-        "script": "/cds/home/j/jvamosi/workspace/ioc-pulser/children/build/iocBoot/ioc-pulser/st.cmd",
-        "binary": "/cds/home/j/jvamosi/workspace/ioc-pulser/bin/rhel7-x86_64/pulser"
-    },
-    {
         "host": "ctl-tmo-cam-01",
         "port": 30134,
         "dir": "ioc/tmo/gigEcam/R5.0.0",
@@ -5936,6 +5926,26 @@
         "name": "ioc-mecu-tst-gentec",
         "script": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/children/build/iocBoot/ioc-mecu-tst-gentec/st.cmd",
         "binary": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/bin/rhel7-x86_64/gentec"
+    },
+    {
+        "host": "ctl-tst-mecu-llnl",
+        "port": 35625,
+        "dir": "/cds/home/j/jvamosi/workspace/ioc-pulser",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
+        "name": "ioc-pulser",
+        "script": "/cds/home/j/jvamosi/workspace/ioc-pulser/children/build/iocBoot/ioc-pulser/st.cmd",
+        "binary": "/cds/home/j/jvamosi/workspace/ioc-pulser/bin/rhel7-x86_64/pulser"
+    },
+    {
+        "host": "ctl-tst-mecu-llnl",
+        "port": 35700,
+        "dir": "/cds/home/j/jvamosi/workspace/tprStandalone/R1.1.5",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
+        "name": "ioc-tst-mecu-tpr1",
+        "script": "/cds/home/j/jvamosi/workspace/tprStandalone/R1.1.5/build/iocBoot/ioc-tst-mecu-tpr1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.5/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "ctl-tst-pgp01",
