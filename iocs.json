@@ -4639,7 +4639,7 @@
     {
         "host": "ctl-rix-vac-01",
         "port": 30112,
-        "dir": "/reg/g/pcds/epics-dev/jjoshi/vac_fork/lcls-plc-kfe-rix-vac-1",
+        "dir": "ioc/kfe/lcls-plc-kfe-rix-vac/v2.0.0",
         "alias": "Beamline Vacuum PLC IOC",
         "history": [
             "ioc/kfe/lcls-plc-kfe-rix-vac/v1.3.0",
@@ -4648,8 +4648,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-plc-kfe-rix-vac",
-        "script": "/reg/g/pcds/epics-dev/jjoshi/vac_fork/lcls-plc-kfe-rix-vac-1/iocBoot/ioc-plc-kfe-rix-vac/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-rix-vac/v2.0.0/iocBoot/ioc-plc-kfe-rix-vac/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-rix-vac-01",
@@ -16902,12 +16902,12 @@
     {
         "host": "ioc-ued-ccd01",
         "port": 30004,
-        "dir": "/reg/g/pcds/epics-dev/nagar123/ioc/ued/Newport",
+        "dir": "ioc/ued/NewportXPS8/R1.0.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-xps",
-        "script": "/reg/g/pcds/epics-dev/nagar123/ioc/ued/Newport/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/ued/NewportXPS8/R1.0.0/build/iocBoot/ioc-ued-xps/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.1.0/bin/rhel7-x86_64/xps8"
     },
     {
         "host": "ioc-und-rec01",
