@@ -5933,7 +5933,6 @@
         "host": "ctl-tst-mecu-llnl",
         "port": 35625,
         "dir": "/cds/home/j/jvamosi/workspace/ioc-pulser",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
         "name": "ioc-pulser",
