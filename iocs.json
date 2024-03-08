@@ -10225,6 +10225,17 @@
         "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.0/bin/rhel7-x86_64/ls336"
     },
     {
+        "host": "ioc-det-portable2",
+        "port": 39100,
+        "dir": "/cds/home/b/batyuk/epics/ioc/sbl/thermotek/R1.0.0",
+        "alias": "ioc-sbl-thermotek-01",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
+        "name": "ioc-sbl-thermotek-01",
+        "script": "/cds/home/b/batyuk/epics/ioc/sbl/thermotek/R1.0.0/build/iocBoot/ioc-sbl-thermotek-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.7/bin/rhel7-x86_64/thermotek"
+    },
+    {
         "host": "ioc-hpl-01",
         "port": 30030,
         "dir": "ioc/common/pciAcromag/R0.0.1-0.1.13",
