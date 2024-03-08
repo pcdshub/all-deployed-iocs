@@ -4095,7 +4095,7 @@
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pgpw8-03",
         "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/pgpWave8/build/iocBoot/ioc-rix-pgpw8-03/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/pgpWave8/bin/rhel7-x86_64/pgpWave8"
+        "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R2.2.0/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-rix-mot-01",
