@@ -5901,7 +5901,6 @@
         "host": "ctl-tst-mecu-llnl",
         "port": 35956,
         "dir": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
         "name": "ioc-dso4000-tst",
@@ -5912,7 +5911,6 @@
         "host": "ctl-tst-mecu-llnl",
         "port": 35150,
         "dir": "/cds/home/j/jvamosi/workspace/ioc-mecu-basler",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
         "name": "ioc-mecu-tst-cam-01",
@@ -5923,7 +5921,6 @@
         "host": "ctl-tst-mecu-llnl",
         "port": 35659,
         "dir": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
         "name": "ioc-mecu-tst-gentec",
@@ -5939,6 +5936,16 @@
         "name": "ioc-pulser",
         "script": "/cds/home/j/jvamosi/workspace/ioc-pulser/children/build/iocBoot/ioc-pulser/st.cmd",
         "binary": "/cds/home/j/jvamosi/workspace/ioc-pulser/bin/rhel7-x86_64/pulser"
+    },
+    {
+        "host": "ctl-tst-mecu-llnl",
+        "port": 35700,
+        "dir": "/cds/home/j/jvamosi/workspace/tprStandalone/R1.1.5",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
+        "name": "ioc-tst-mecu-tpr1",
+        "script": "/cds/home/j/jvamosi/workspace/tprStandalone/R1.1.5/build/iocBoot/ioc-tst-mecu-tpr1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.5/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "ctl-tst-pgp01",
