@@ -19781,6 +19781,26 @@
     },
     {
         "host": "ioc-xpp-las01",
+        "port": 30009,
+        "dir": "ioc/xpp/gigECam/R2.0.5",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-gige-midir-ff",
+        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.5/build/iocBoot/ioc-xpp-gige-midir-ff/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-xpp-las01",
+        "port": 30008,
+        "dir": "ioc/xpp/gigECam/R2.0.5",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-gige-midir-nf",
+        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.5/build/iocBoot/ioc-xpp-gige-midir-nf/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-xpp-las01",
         "port": 31001,
         "dir": "ioc/xpp/NewportXPS8/R2.0.6",
         "alias": "LAS - Newport Motion 1",
@@ -19820,28 +19840,6 @@
         "name": "ioc-xpp-las-xps3",
         "script": "/reg/g/pcds/epics/ioc/xpp/NewportXPS8/R2.0.6/build/iocBoot/ioc-xpp-las-xps3/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
-    },
-    {
-        "host": "ioc-xpp-las01",
-        "port": 30008,
-        "dir": "ioc/xpp/gigECam/R2.0.5",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-midir-gige-ff",
-        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.5/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ioc-xpp-las01",
-        "port": 30009,
-        "dir": "ioc/xpp/gigECam/R2.0.5",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-midir-gige-nf",
-        "script": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.5/st.cmd",
-        "binary": null
     },
     {
         "host": "ioc-xpp-las01",
