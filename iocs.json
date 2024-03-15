@@ -4295,7 +4295,7 @@
         "host": "ctl-rix-qrix-cam-01",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/nagar123/ioc/rix/gigECam",
-        "alias": "CRIX PAX GIGE 01",
+        "alias": "PAX GIGE 01",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-cam-pax-gige-01",
