@@ -11258,6 +11258,7 @@
         "host": "ioc-las-mec-srv06",
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/smc100",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-mec-smc100-01",
