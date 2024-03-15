@@ -3699,17 +3699,6 @@
     },
     {
         "host": "ctl-rix-cam-03",
-        "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/nagar123/ioc/rix/gigECam",
-        "alias": "CRIX PAX GIGE 01",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-cam-pax-gige-01",
-        "script": "/reg/g/pcds/epics-dev/nagar123/ioc/rix/gigECam/build/iocBoot/ioc-cam-pax-gige-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
-    },
-    {
-        "host": "ctl-rix-cam-03",
         "port": 30012,
         "dir": "ioc/rix/gigECam/R2.2.4",
         "alias": "IM1K2 GIGE",
@@ -4301,6 +4290,17 @@
         "name": "ioc-rix-mpod-fim-01",
         "script": "/reg/g/pcds/epics/ioc/common/isegPower/R1.3.1/children/build/iocBoot/ioc-rix-mpod-fim-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/isegPower/R1.3.1/bin/linux-arm-apalis/isegPower"
+    },
+    {
+        "host": "ctl-rix-qrix-cam-01",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/nagar123/ioc/rix/gigECam",
+        "alias": "CRIX PAX GIGE 01",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-cam-pax-gige-01",
+        "script": "/reg/g/pcds/epics-dev/nagar123/ioc/rix/gigECam/build/iocBoot/ioc-cam-pax-gige-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-rix-qrix-cam-01",
