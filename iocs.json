@@ -4294,12 +4294,12 @@
     {
         "host": "ctl-rix-qrix-cam-01",
         "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/nagar123/ioc/rix/gigECam",
+        "dir": "ioc/rix/gigECam/R2.2.7",
         "alias": "PAX GIGE 01",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-cam-pax-gige-01",
-        "script": "/reg/g/pcds/epics-dev/nagar123/ioc/rix/gigECam/build/iocBoot/ioc-cam-pax-gige-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.2.7/build/iocBoot/ioc-cam-pax-gige-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
