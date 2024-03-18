@@ -11916,6 +11916,17 @@
     },
     {
         "host": "ioc-mec-evr01",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/epm2k",
+        "alias": "XRay Power Meter",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-las-epm2k",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/epm2k/iocBoot/ioc-mec-las-epm2k/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/epm2k/bin/linux-x86_64/epm2k"
+    },
+    {
+        "host": "ioc-mec-evr01",
         "port": 30400,
         "dir": "ioc/mec/highland/R0.3.0",
         "disable": true,
