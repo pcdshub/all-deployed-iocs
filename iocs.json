@@ -4442,7 +4442,7 @@
     {
         "host": "ctl-rix-qrix-mot-01",
         "port": 32000,
-        "dir": "ioc/rix/smaract/R1.0.0/build/iocBoot/ioc-rix-qrix-mcs2-01",
+        "dir": "/cds/group/pcds/epics-dev/nlentz/smaract/build/iocBoot/ioc-rix-qrix-mcs2-01",
         "alias": "QRIXS Smaract Controller 1",
         "history": [
             "/reg/g/pcds/epics-dev/wwright/ioc/rix/smaract/build/iocBoot/ioc-rix-crix-mcs2-01"
@@ -4450,13 +4450,13 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-mcp-qrix-01",
-        "script": "/reg/g/pcds/epics/ioc/rix/smaract/R1.0.0/build/iocBoot/ioc-rix-qrix-mcs2-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.8/bin/rhel7-x86_64/smaract"
+        "script": "/cds/group/pcds/epics-dev/nlentz/smaract/build/iocBoot/ioc-rix-qrix-mcs2-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.19/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-rix-qrix-mot-01",
         "port": 32001,
-        "dir": "ioc/rix/smaract/R1.0.0/build/iocBoot/ioc-rix-qrix-mcs2-02",
+        "dir": "/cds/group/pcds/epics-dev/nlentz/smaract/build/iocBoot/ioc-rix-qrix-mcs2-02",
         "alias": "QRIXS Smaract Controller 2",
         "history": [
             "/reg/g/pcds/epics-dev/wwright/ioc/rix/smaract/build/iocBoot/ioc-rix-crix-mcs2-02"
@@ -4464,8 +4464,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-mcp-qrix-02",
-        "script": "/reg/g/pcds/epics/ioc/rix/smaract/R1.0.0/build/iocBoot/ioc-rix-qrix-mcs2-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.8/bin/rhel7-x86_64/smaract"
+        "script": "/cds/group/pcds/epics-dev/nlentz/smaract/build/iocBoot/ioc-rix-qrix-mcs2-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.19/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-rix-qrix-mot-01",
