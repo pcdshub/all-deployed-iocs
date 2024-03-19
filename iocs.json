@@ -2851,7 +2851,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-tpr-02",
         "script": "/cds/home/t/tjohnson/trunk/las/tprStandalone/build/iocBoot/ioc-las-lhn-tpr-02/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/tprStandalone/tprStandalone-git/bin/rhel7-x86_64/tpr"
+        "binary": "/cds/group/pcds/epics/ioc/common/tprStandalone/R1.2.0/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "ctl-las-lhn-sp02",
