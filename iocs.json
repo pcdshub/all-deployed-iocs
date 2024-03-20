@@ -11892,7 +11892,6 @@
         "host": "ioc-mec-evr01",
         "port": 30002,
         "dir": "ioc/las/epm2000/R2.0.0",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-epm2000-01",
