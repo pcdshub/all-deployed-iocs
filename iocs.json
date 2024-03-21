@@ -5058,11 +5058,11 @@
     {
         "host": "ctl-tmo-cam-03",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/baljamal/ioc/tmo/gigecam",
+        "dir": "ioc/tmo/gigECam/R5.0.2",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-cam-tmo-16",
-        "script": "/reg/g/pcds/epics-dev/baljamal/ioc/tmo/gigecam/build/iocBoot/ioc-cam-tmo-16/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/tmo/gigECam/R5.0.2/build/iocBoot/ioc-cam-tmo-16/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.2/bin/rhel7-x86_64/gige"
     },
     {
