@@ -8177,7 +8177,6 @@
         "host": "ioc-cxi-qadc",
         "port": 30016,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims",
-        "disable": true,
         "alias": "IMS DIA Attenuators",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
