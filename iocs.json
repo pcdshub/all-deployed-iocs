@@ -5358,8 +5358,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-fps-01",
-        "script": "/reg/g/pcds/epics/ioc/common/isegFPS/R1.0.1/children/build/iocBoot/ioc-tmo-fps-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/isegFPS/R1.0.1/bin/rhel7-x86_64/gsd"
+        "script": "/reg/g/pcds/epics/ioc/common/isegFPS/R1.0.1/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tmo-misc-01",
@@ -5369,8 +5369,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-fps-02",
-        "script": "/reg/g/pcds/epics/ioc/common/isegFPS/R1.0.1/children/build/iocBoot/ioc-tmo-fps-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/isegFPS/R1.0.1/bin/rhel7-x86_64/gsd"
+        "script": "/reg/g/pcds/epics/ioc/common/isegFPS/R1.0.1/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tmo-misc-01",
@@ -5379,8 +5379,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-fps-03",
-        "script": "/reg/g/pcds/epics/ioc/common/isegFPS/R1.0.1/children/build/iocBoot/ioc-tmo-fps-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/isegFPS/R1.0.1/bin/rhel7-x86_64/gsd"
+        "script": "/reg/g/pcds/epics/ioc/common/isegFPS/R1.0.1/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tmo-misc-01",
@@ -11902,6 +11902,7 @@
         "host": "ioc-mec-evr01",
         "port": 30002,
         "dir": "ioc/las/epm2000/R2.0.0",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-epm2000-01",
