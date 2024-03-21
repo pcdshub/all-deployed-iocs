@@ -5825,15 +5825,15 @@
     {
         "host": "ctl-tmo-vac-01",
         "port": 30113,
-        "dir": "ioc/tmo/mrco/lcls-plc-mrco-vac/v1.0.0/plc-mrco-vac",
+        "dir": "/reg/g/pcds/epics-dev/tongju/PLC/lcls-plc-mrco-vac/plc-mrco-vac",
         "history": [
             "ioc/tmo/mrco/lcls-plc-mrco-vac/v1.0.0/plc-mrco-vac"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-plc-mrco-vac",
-        "script": "/reg/g/pcds/epics/ioc/tmo/mrco/lcls-plc-mrco-vac/v1.0.0/plc-mrco-vac/iocBoot/ioc-plc-mrco-vac/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.4.1/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics-dev/tongju/PLC/lcls-plc-mrco-vac/plc-mrco-vac/iocBoot/ioc-plc-mrco-vac/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-tmo-vac-01",
