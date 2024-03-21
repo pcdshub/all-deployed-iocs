@@ -5285,19 +5285,6 @@
     },
     {
         "host": "ctl-tmo-misc-01",
-        "port": 19833,
-        "dir": "/cds/home/a/adpai/Documents/ioc/xcs/BK-Precision/current",
-        "history": [
-            "/cds/home/a/adpai/Documents/ioc/xcs/BK-Precision/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-tmo-cvmi-BK",
-        "script": "/cds/home/a/adpai/Documents/ioc/xcs/BK-Precision/current/build/iocBoot/ioc-tmo-cvmi-BK/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/BK-Precision/R1.1.1/bin/rhel7-x86_64/BK-Precision"
-    },
-    {
-        "host": "ctl-tmo-misc-01",
         "port": 31108,
         "dir": "ioc/tmo/dc_power/ict/R1.0.0",
         "history": [
@@ -5727,12 +5714,12 @@
     {
         "host": "ctl-tmo-mot-01",
         "port": 39102,
-        "dir": "/reg/g/pcds/epics-dev/baljamal/ioc/tmo/smarpod",
+        "dir": "ioc/tmo/smarpod/R1.0.0",
         "alias": "ioc-tmo-smarpod-01",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-smarpod-01",
-        "script": "/reg/g/pcds/epics-dev/baljamal/ioc/tmo/smarpod/build/iocBoot/ioc-tmo-smarpod-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/tmo/smarpod/R1.0.0/build/iocBoot/ioc-tmo-smarpod-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/SmarPod/R1.1.2/bin/rhel7-x86_64/SmarPod"
     },
     {
