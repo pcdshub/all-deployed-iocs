@@ -5354,33 +5354,33 @@
     {
         "host": "ctl-tmo-misc-01",
         "port": 39111,
-        "dir": "ioc/common/isegFPS/R1.0.1",
+        "dir": "ioc/tmo/isegfps/R1.0.1",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-fps-01",
-        "script": "/reg/g/pcds/epics/ioc/common/isegFPS/R1.0.1/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/tmo/isegfps/R1.0.1/build/iocBoot/ioc-tmo-fps-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/isegFPS/R1.0.1/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ctl-tmo-misc-01",
         "port": 39109,
-        "dir": "ioc/common/isegFPS/R1.0.1",
+        "dir": "ioc/tmo/isegfps/R1.0.1",
         "alias": "ioc-tmo-fps-02",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-fps-02",
-        "script": "/reg/g/pcds/epics/ioc/common/isegFPS/R1.0.1/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/tmo/isegfps/R1.0.1/build/iocBoot/ioc-tmo-fps-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/isegFPS/R1.0.1/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ctl-tmo-misc-01",
         "port": 39112,
-        "dir": "ioc/common/isegFPS/R1.0.1",
+        "dir": "ioc/tmo/isegfps/R1.0.1",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-fps-03",
-        "script": "/reg/g/pcds/epics/ioc/common/isegFPS/R1.0.1/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/tmo/isegfps/R1.0.1/build/iocBoot/ioc-tmo-fps-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/isegFPS/R1.0.1/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ctl-tmo-misc-01",
