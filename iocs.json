@@ -2835,12 +2835,12 @@
     {
         "host": "ctl-las-lhn-sp01",
         "port": 30004,
-        "dir": "/cds/home/t/tjohnson/trunk/common/locker_manager",
+        "dir": "ioc/common/locker_manager/R0.9.1",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lhn-llman-01",
-        "script": "/cds/home/t/tjohnson/trunk/common/locker_manager/children/build/iocBoot/ioc-lhn-llman-01/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/locker_manager/bin/rhel7-x86_64/lockerman"
+        "script": "/reg/g/pcds/epics/ioc/common/locker_manager/R0.9.1/children/build/iocBoot/ioc-lhn-llman-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/locker_manager/R0.9.1/bin/rhel7-x86_64/lockerman"
     },
     {
         "host": "ctl-las-lhn-sp01",
@@ -6665,7 +6665,7 @@
     {
         "host": "daq-tmo-andor-01",
         "port": 34765,
-        "dir": "/reg/g/pcds/epics-dev/rsmm97/ioc/tmo/RohdeSchwarzHMP/current",
+        "dir": "ioc/tmo/RohdeSchwarzHMP/R1.2.2",
         "alias": "Rohde Schwarz Supply",
         "history": [
             "/reg/g/pcds/epics-dev/rsmm97/ioc/tmo/RohdeSchwarzHMP/current"
@@ -6673,8 +6673,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-hmp-test",
-        "script": "/reg/g/pcds/epics-dev/rsmm97/ioc/tmo/RohdeSchwarzHMP/current/build/iocBoot/ioc-tmo-hmp-test/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.1/bin/rhel7-x86_64/rshmp"
+        "script": "/reg/g/pcds/epics/ioc/tmo/RohdeSchwarzHMP/R1.2.2/build/iocBoot/ioc-tmo-hmp-test/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.2/bin/rhel7-x86_64/rshmp"
     },
     {
         "host": "daq-tmo-andor-01",
