@@ -1367,22 +1367,22 @@
     {
         "host": "ctl-las-ftl-srv01",
         "port": 30004,
-        "dir": "/cds/home/t/tjohnson/trunk/las/smaract",
+        "dir": "/reg/g/pcds/epics/ioc/las/smaract/R1.0.4",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-ftl-mcs2-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/smaract/build/iocBoot/ioc-las-ftl-mcs2-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.13/bin/rhel7-x86_64/smaract"
+        "script": "/reg/g/pcds/epics/ioc/las/smaract/R1.0.4/build/iocBoot/ioc-las-ftl-mcs2-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.19/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ftl-srv01",
         "port": 30012,
-        "dir": "ioc/las/smaract/R1.0.2",
+        "dir": "/reg/g/pcds/epics/ioc/las/smaract/R1.0.4",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-ftl-mcs2-02",
-        "script": "/reg/g/pcds/epics/ioc/las/smaract/R1.0.2/build/iocBoot/ioc-las-ftl-mcs2-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.13/bin/rhel7-x86_64/smaract"
+        "script": "/reg/g/pcds/epics/ioc/las/smaract/R1.0.4/build/iocBoot/ioc-las-ftl-mcs2-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.19/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ftl-srv01",
