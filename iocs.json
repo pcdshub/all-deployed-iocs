@@ -19069,7 +19069,6 @@
         "host": "ioc-xcs-user2",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/labMax-TOP",
-        "disable": true,
         "alias": "ioc-xcs-labMax",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
