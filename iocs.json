@@ -4690,8 +4690,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-vac-support",
-        "script": "/reg/g/pcds/epics-dev/jkn/rix/vacuum/build/iocBoot/ioc-qrix-vac-support/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.5/bin/rhel7-x86_64/vacuum"
+        "script": "/reg/g/pcds/epics-dev/jkn/rix/vacuum/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-rix-vac-01",
