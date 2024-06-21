@@ -13369,7 +13369,7 @@
     {
         "host": "ioc-mec-misc01",
         "port": 30999,
-        "dir": "ioc/mec/notepad/R1.2.1",
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/notepad",
         "history": [
             "/reg/g/pcds/package/epics/3.14-dev/ioc/mec/notepad/from_svn"
         ],
@@ -13377,8 +13377,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-notepad",
-        "script": "/reg/g/pcds/epics/ioc/mec/notepad/R1.2.1/iocBoot/ioc-mec-notepad/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/mec/notepad/R1.2.1/bin/linux-x86_64/notepad"
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/notepad/iocBoot/ioc-mec-notepad/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/notepad/bin/linux-x86_64/notepad"
     },
     {
         "host": "ioc-mec-misc01",
