@@ -6318,7 +6318,7 @@
         "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-lcls-plc-txi-sxr-motion",
         "script": "/reg/g/pcds/epics-dev/mghaly/lcls-plc-txi-sxr-motion/lcls-plc-txi-sxr-motion/iocBoot/ioc-lcls-plc-txi-sxr-motion/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-txi-misc-01",
