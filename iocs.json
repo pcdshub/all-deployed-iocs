@@ -6403,7 +6403,7 @@
         "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-sxr-vac",
         "script": "/reg/g/pcds/epics-dev/mghaly/lcls-plc-txi-sxr-vac/iocBoot/ioc-txi-sxr-vac/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-txi-misc-01",
