@@ -16736,6 +16736,7 @@
         "host": "ioc-tst-13",
         "port": 32100,
         "dir": "/cds/home/s/skoufis/edt",
+        "disable": true,
         "history": [
             "/reg/neh/home5/bhill/wa2/epics/ioc/tst/edtCam/current/build",
             "/reg/neh/home5/bhill/wa2/epics/ioc/common/edtCam/current"
