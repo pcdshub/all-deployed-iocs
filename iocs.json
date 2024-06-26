@@ -13330,7 +13330,7 @@
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-labMax",
         "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/labMax-TOP/build/iocBoot/ioc-mec-labMax/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/labMax-TOP/R1.8.1/bin/linux-x86_64/labMax"
+        "binary": "/reg/g/pcds/epics-dev/ctsoi/ioc/common/labMax-TOP/bin/linux-x86_64/labMax"
     },
     {
         "host": "ioc-mec-misc01",
