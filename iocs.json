@@ -1280,7 +1280,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-mcs2-02",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/smaract/build/iocBoot/ioc-lm2k2-mcs2-02/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.21/bin/rhel7-x86_64/smaract"
+        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.22/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-crix-srv05",
@@ -4047,7 +4047,7 @@
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-spc-01",
         "script": "/reg/g/pcds/epics-dev/baljamal/ioc/common/OceanOpticsSpectrometer/children/build/iocBoot/ioc-crix-spc-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/baljamal/ioc/common/OceanOpticsSpectrometer/bin/rhel7-x86_64/qepro"
+        "binary": "/cds/group/pcds/epics-dev/baljamal/ioc/common/OceanOpticsSpectrometer/bin/rhel7-x86_64/qepro"
     },
     {
         "host": "ctl-rix-crix-cam-02",
@@ -4058,7 +4058,7 @@
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-spc-03",
         "script": "/cds/group/pcds/epics-dev/baljamal/ioc/common/OceanOpticsSpectrometer/children/build/iocBoot/ioc-crix-spc-03/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/baljamal/ioc/common/OceanOpticsSpectrometer/bin/rhel7-x86_64/qepro"
+        "binary": "/cds/group/pcds/epics-dev/baljamal/ioc/common/OceanOpticsSpectrometer/bin/rhel7-x86_64/qepro"
     },
     {
         "host": "ctl-rix-crix-mot-01",
