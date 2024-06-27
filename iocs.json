@@ -13357,17 +13357,6 @@
     },
     {
         "host": "ioc-mec-misc01",
-        "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/labMax-TOP",
-        "alias": "Lab Max MEC",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-labMax",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/labMax-TOP/build/iocBoot/ioc-mec-labMax/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/labMax-TOP/R1.8.2/bin/linux-x86_64/labMax"
-    },
-    {
-        "host": "ioc-mec-misc01",
         "port": 32222,
         "dir": "ioc/mec/lusiAtt/R1.0.0",
         "alias": "Beamline Attenuator Transmission",
@@ -14229,6 +14218,17 @@
         "name": "ioc-mec-jf512k",
         "script": "/reg/g/pcds/epics-dev/nrw/iocs/roving_jf/children/build/iocBoot/ioc-mec-jf512k/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/nrw/iocs/roving_jf/bin/rhel7-x86_64/roving"
+    },
+    {
+        "host": "ioc-mec-rec01",
+        "port": 30001,
+        "dir": "ioc/mec/labMax-TOP/R1.0.1",
+        "alias": "Lab Max MEC",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-labMax",
+        "script": "/reg/g/pcds/epics/ioc/mec/labMax-TOP/R1.0.1/build/iocBoot/ioc-mec-labMax/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/labMax-TOP/R1.8.2/bin/linux-x86_64/labMax"
     },
     {
         "host": "ioc-mec-rec01",
