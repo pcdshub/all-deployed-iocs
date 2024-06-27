@@ -6641,6 +6641,16 @@
     },
     {
         "host": "daq-det-standalone",
+        "port": 30003,
+        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/tprStandalone/current",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
+        "name": "ioc-det-asc-tpr1",
+        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/tprStandalone/current/build/iocBoot/ioc-det-asc-tpr1/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/tprStandalone/R1.2.0/bin/rhel7-x86_64/tpr"
+    },
+    {
+        "host": "daq-det-standalone",
         "port": 30070,
         "dir": "ioc/det/RohdeSchwarzHMP/R1.2.3",
         "disable": true,
