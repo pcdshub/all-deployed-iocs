@@ -472,6 +472,17 @@
     },
     {
         "host": "ctl-kfe-misc-01",
+        "port": 39103,
+        "dir": "/cds/home/k/kaushikm/tpcalc",
+        "alias": "TPCALC",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/kfe/iocmanager.cfg",
+        "name": "ioc-kfe-tpcalc",
+        "script": "/cds/home/k/kaushikm/tpcalc/iocBoot/ioc-kfe-tpcalc/st.cmd",
+        "binary": "/cds/home/k/kaushikm/tpcalc/bin/rhel7-x86_64/tpcalc"
+    },
+    {
+        "host": "ctl-kfe-misc-01",
         "port": 30306,
         "dir": "ioc/common/Keithley6514/R1.9.4",
         "history": [
@@ -6140,6 +6151,7 @@
         "host": "ctl-tst-dev-01",
         "port": 39100,
         "dir": "/cds/home/k/kaushikm/tpcalc",
+        "disable": true,
         "alias": "TPCALC",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
