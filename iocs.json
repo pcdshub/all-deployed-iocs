@@ -3189,7 +3189,7 @@
     },
     {
         "host": "ctl-las-lln-01",
-        "port": 30011,
+        "port": 30013,
         "dir": "/cds/group/pcds/epics-dev/aberges/mods/mods-LRL/lm1k2/smaract",
         "disable": true,
         "base_version": "3.15",
@@ -22766,6 +22766,17 @@
         "name": "ioc-mec-lecroy-01",
         "script": "/reg/g/pcds/epics/ioc/common/lecroy/R1.0.2/iocBoot/ioc-mec-lecroy-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/lecroy/R1.0.2/bin/linux-x86_64/lecroy"
+    },
+    {
+        "host": "pscag-txi",
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/zlentz/ioc/common/local_gateway",
+        "alias": "Mini Gateway for ICS Requests",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
+        "name": "ioc-txi-ics-gw",
+        "script": "/reg/g/pcds/epics-dev/zlentz/ioc/common/local_gateway/children/build/iocBoot/ioc-txi-ics-gw/st.cmd",
+        "binary": "/usr/bin/bash"
     },
     {
         "host": "tmo-control",
