@@ -22768,17 +22768,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/lecroy/R1.0.2/bin/linux-x86_64/lecroy"
     },
     {
-        "host": "pscag-txi",
-        "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/zlentz/ioc/common/local_gateway",
-        "alias": "Mini Gateway for ICS Requests",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
-        "name": "ioc-txi-ics-gw",
-        "script": "/reg/g/pcds/epics-dev/zlentz/ioc/common/local_gateway/children/build/iocBoot/ioc-txi-ics-gw/st.cmd",
-        "binary": "/usr/bin/bash"
-    },
-    {
         "host": "tmo-control",
         "port": 34004,
         "dir": "/cds/home/opr/tmoopr/bin/autocaller",
