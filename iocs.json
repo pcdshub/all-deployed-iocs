@@ -17762,6 +17762,7 @@
         "host": "ioc-xcs-mot1",
         "port": 32286,
         "dir": "/reg/neh/home/zlentz/epics/ioc/xcs/arcus_dmx/current",
+        "disable": true,
         "alias": "DET - Rowland Arcus Motion",
         "history": [
             "/reg/neh/home/zlentz/epics/ioc/xcs/arcus_dmx/current"
