@@ -10376,11 +10376,11 @@
     {
         "host": "ioc-det-portable2",
         "port": 30071,
-        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/RohdeSchwarzHMP/current",
+        "dir": "ioc/det/RohdeSchwarzHMP/R1.2.4",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-hmp01",
-        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/RohdeSchwarzHMP/current/build/iocBoot/ioc-det-hmp01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/det/RohdeSchwarzHMP/R1.2.4/build/iocBoot/ioc-det-hmp01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.1/bin/rhel7-x86_64/rshmp"
     },
     {
