@@ -10575,6 +10575,16 @@
     },
     {
         "host": "ioc-det-portable2",
+        "port": 30011,
+        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/thermotek/current",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
+        "name": "ioc-det-thermotek-04",
+        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/thermotek/current/build/iocBoot/ioc-det-thermotek-04/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/thermotek/R1.0.7/bin/rhel7-x86_64/thermotek"
+    },
+    {
+        "host": "ioc-det-portable2",
         "port": 30010,
         "dir": "ioc/det/lakeshore336/R1.1.0",
         "history": [
