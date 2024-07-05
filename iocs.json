@@ -986,7 +986,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-com-spec-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/qmini/build/iocBoot/ioc-lm2k2-com-spec-01/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/aberges/ioc/common/qmini/qmini-git/bin/rhel7-x86_64/qmini"
+        "binary": "/cds/group/pcds/epics/ioc/common/qmini/R1.0.3/bin/rhel7-x86_64/qmini"
     },
     {
         "host": "ctl-las-crix-srv03",
@@ -1304,7 +1304,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-qadc134-01",
         "script": "/reg/g/pcds/epics/ioc/las/qadc/R1.2.0/build/iocBoot/ioc-lm2k2-qadc134-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/qadc/R2.1.0/bin/rhel7-x86_64/qadc134Ioc"
+        "binary": "/cds/group/pcds/epics-dev/aberges/ioc/common/qadc/qadc-git/bin/rhel7-x86_64/qadc134Ioc"
     },
     {
         "host": "ctl-las-crix-srv06",
