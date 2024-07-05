@@ -1658,7 +1658,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-mcs2-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/build/iocBoot/ioc-lm1k4-mcs2-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.22/bin/rhel7-x86_64/smaract"
+        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.23/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ip1-srv01",
@@ -1668,7 +1668,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-mcs2-02",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/build/iocBoot/ioc-lm1k4-mcs2-02/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.22/bin/rhel7-x86_64/smaract"
+        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.23/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ip1-srv01",
@@ -1678,7 +1678,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-mcs2-03",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/build/iocBoot/ioc-lm1k4-mcs2-03/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.22/bin/rhel7-x86_64/smaract"
+        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.23/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ip1-srv01",
@@ -1688,7 +1688,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-mcs2-04",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/build/iocBoot/ioc-lm1k4-mcs2-04/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.22/bin/rhel7-x86_64/smaract"
+        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.23/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ip1-srv01",
@@ -1698,7 +1698,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-mcs2-05",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/build/iocBoot/ioc-lm1k4-mcs2-05/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.22/bin/rhel7-x86_64/smaract"
+        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.23/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ip1-srv02",
