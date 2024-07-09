@@ -4573,7 +4573,7 @@
         "host": "ctl-rix-qrix-cam-02",
         "port": 34000,
         "dir": "/reg/g/pcds/epics/ioc/rix/gigECam/R5.0.3",
-        "alias": "QRIXS GIGE 01",
+        "alias": "QRIX GIGE 01",
         "history": [
             "ioc/rix/gigECam/R2.0.0"
         ],
@@ -4587,7 +4587,7 @@
         "host": "ctl-rix-qrix-cam-02",
         "port": 34001,
         "dir": "/reg/g/pcds/epics/ioc/rix/gigECam/R5.0.3",
-        "alias": "QRIXS GIGE 02",
+        "alias": "QRIX GIGE 02",
         "history": [
             "ioc/rix/gigECam/R2.0.0"
         ],
@@ -4623,7 +4623,7 @@
         "host": "ctl-rix-qrix-cam-02",
         "port": 30002,
         "dir": "/reg/g/pcds/epics/ioc/rix/gigECam/R5.0.3",
-        "alias": "QRIXS GIGE 05",
+        "alias": "QRIX GIGE 05",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-gige-05",
@@ -4634,7 +4634,7 @@
         "host": "ctl-rix-qrix-cam-02",
         "port": 30005,
         "dir": "/reg/g/pcds/epics/ioc/rix/gigECam/R5.0.3",
-        "alias": "QRIXS GIGE 06",
+        "alias": "QRIX GIGE 06",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-gige-06",
