@@ -22474,7 +22474,6 @@
         "host": "ioc-xrt-rec07",
         "port": 39199,
         "dir": "/reg/g/pcds/controls/camrecord",
-        "disable": true,
         "history": [
             "/reg/g/pcds/controls/camrecord"
         ],
