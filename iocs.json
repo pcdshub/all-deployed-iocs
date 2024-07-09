@@ -3367,6 +3367,7 @@
         "host": "ctl-las-xcs-srv01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/evr",
+        "disable": true,
         "alias": "ioc-las-xcs-evr-02",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
