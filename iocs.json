@@ -3365,6 +3365,16 @@
     },
     {
         "host": "ctl-las-xcs-srv01",
+        "port": 30006,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/evr",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-xcs-evr-01",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/evr/build/iocBoot/ioc-las-xcs-evr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/rhel7-x86_64/evr"
+    },
+    {
+        "host": "ctl-las-xcs-srv01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/evr",
         "disable": true,
@@ -12027,16 +12037,6 @@
         "name": "ioc-las-xcs-ctr-01",
         "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R1.0.4/build/iocBoot/ioc-las-xcs-ctr-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R2.0.3/bin/linux-x86/agilent5322"
-    },
-    {
-        "host": "ioc-las-xcs-srv04",
-        "port": 30006,
-        "dir": "ioc/las/evr/R1.0.6",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-xcs-evr-01",
-        "script": "/reg/g/pcds/epics/ioc/las/evr/R1.0.6/build/iocBoot/ioc-las-xcs-evr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/rhel7-x86_64/evr"
     },
     {
         "host": "ioc-las-xcs-srv04",
