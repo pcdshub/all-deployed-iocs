@@ -22372,21 +22372,6 @@
     },
     {
         "host": "ioc-xrt-rec05",
-        "port": 30001,
-        "dir": "ioc/common/ecc100/R1.0.0",
-        "disable": true,
-        "alias": "Attocube Test",
-        "history": [
-            "ioc/common/ecc100/R1.0.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
-        "name": "ioc-xrt-ecc1",
-        "script": "/reg/g/pcds/epics/ioc/common/ecc100/R1.0.0/children/build/iocBoot/ioc-xrt-ecc1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ecc100/R1.0.0/bin/linux-x86/eccTest100"
-    },
-    {
-        "host": "ioc-xrt-rec05",
         "port": 39111,
         "dir": "ioc/xrt/ipimb/R4.0.5",
         "alias": "MEC HXM Ipimb",
