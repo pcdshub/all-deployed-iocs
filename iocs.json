@@ -1280,7 +1280,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-mcs2-02",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/smaract/build/iocBoot/ioc-lm2k2-mcs2-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.23/bin/rhel7-x86_64/smaract"
+        "binary": "/cds/group/pcds/epics-dev/aberges/ioc/common/smaract/smaract-git/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-crix-srv05",
@@ -3045,7 +3045,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lln-mcs2-01",
         "script": "/cds/group/pcds/epics-dev/aberges/mods/mods-LRL/lln/smaract/build/iocBoot/ioc-lln-mcs2-01/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/aberges/ioc/common/smaract/smaract-git/bin/rhel7-x86_64/smaract"
+        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.23/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-lln-01",
@@ -22427,6 +22427,7 @@
         "host": "ioc-xrt-rec07",
         "port": 39303,
         "dir": "/reg/g/pcds/epics-dev/spencera/lfe/edtCam",
+        "disable": true,
         "alias": "HXS ORCA",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
@@ -22438,6 +22439,7 @@
         "host": "ioc-xrt-rec07",
         "port": 37525,
         "dir": "/reg/g/pcds/epics-dev/spencera/xrt/HXS",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-hxs",
@@ -22448,6 +22450,7 @@
         "host": "ioc-xrt-rec07",
         "port": 32539,
         "dir": "/reg/g/pcds/epics-dev/spencera/xrt.svn/protura/HXSencoders/current",
+        "disable": true,
         "alias": "HXS Encoders",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
@@ -22459,6 +22462,7 @@
         "host": "ioc-xrt-rec07",
         "port": 37523,
         "dir": "/reg/g/pcds/epics-dev/spencera/xrt/ims",
+        "disable": true,
         "alias": "HXS Motors",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
@@ -22470,6 +22474,7 @@
         "host": "ioc-xrt-rec07",
         "port": 39199,
         "dir": "/reg/g/pcds/controls/camrecord",
+        "disable": true,
         "history": [
             "/reg/g/pcds/controls/camrecord"
         ],
