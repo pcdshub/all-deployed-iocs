@@ -6291,7 +6291,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-vac-pci-01",
         "script": "/reg/g/pcds/epics-dev/baljamal/ioc/dev/qpc/children/build/iocBoot/ioc-tst-vac-pci-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/baljamal/ioc/dev/qpc/bin/rhel7-x86_64/gsd"
+        "binary": "/cds/group/pcds/epics-dev/baljamal/ioc/dev/qpc/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ctl-tst-mecu-llnl",
