@@ -3365,6 +3365,16 @@
     },
     {
         "host": "ctl-las-xcs-srv01",
+        "port": 30004,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ek9000",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-xcs-bhc-01",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ek9000/build/iocBoot/ioc-las-xcs-bhc-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.3.2/bin/rhel7-x86_64/ek9000IOC"
+    },
+    {
+        "host": "ctl-las-xcs-srv01",
         "port": 30006,
         "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/evr",
         "base_version": "3.15",
@@ -3387,6 +3397,16 @@
     },
     {
         "host": "ctl-las-xcs-srv01",
+        "port": 30005,
+        "dir": "ioc/common/SDG_Elite/R1.1.1",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-xcs-sdg-01",
+        "script": "/reg/g/pcds/epics/ioc/common/SDG_Elite/R1.1.1/children/build/iocBoot/ioc-las-xcs-sdg-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/SDG_Elite/R1.1.1/bin/rhel7-x86_64/sdg"
+    },
+    {
+        "host": "ctl-las-xcs-srv01",
         "port": 30008,
         "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/sr620",
         "history": [
@@ -3397,6 +3417,19 @@
         "name": "ioc-las-xcs-sr620-01",
         "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/sr620/build/iocBoot/ioc-las-xcs-sr620-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/sr620/R0.9.2/bin/rhel7-x86_64/sr620"
+    },
+    {
+        "host": "ctl-las-xcs-srv01",
+        "port": 30010,
+        "dir": "/reg/g/pcds/epics/ioc/las/vitara/R3.0.3",
+        "history": [
+            "ioc/las/vitara/R2.10.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-xcs-vitara",
+        "script": "/reg/g/pcds/epics/ioc/las/vitara/R3.0.3/iocBoot/ioc-las-xcs-vitara/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/las/vitara/R3.0.3/bin/rhel7-x86_64/vitara"
     },
     {
         "host": "ctl-lfe-cam-01",
@@ -11838,16 +11871,6 @@
     },
     {
         "host": "ioc-las-mfx-srv45",
-        "port": 30004,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ek9000",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-xcs-bhc-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ek9000/build/iocBoot/ioc-las-xcs-bhc-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.3.2/bin/rhel7-x86_64/ek9000IOC"
-    },
-    {
-        "host": "ioc-las-mfx-srv45",
         "port": 30011,
         "dir": "ioc/las/pdu_snmp/R1.0.1",
         "base_version": "3.15",
@@ -11855,29 +11878,6 @@
         "name": "ioc-las-xcs-pwr-01",
         "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.0.1/build/iocBoot/ioc-las-xcs-pwr-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
-    },
-    {
-        "host": "ioc-las-mfx-srv45",
-        "port": 30005,
-        "dir": "ioc/common/SDG_Elite/R1.1.1",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-xcs-sdg-01",
-        "script": "/reg/g/pcds/epics/ioc/common/SDG_Elite/R1.1.1/children/build/iocBoot/ioc-las-xcs-sdg-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/SDG_Elite/R1.1.1/bin/rhel7-x86_64/sdg"
-    },
-    {
-        "host": "ioc-las-mfx-srv45",
-        "port": 30010,
-        "dir": "/reg/g/pcds/epics/ioc/las/vitara/R3.0.3",
-        "history": [
-            "ioc/las/vitara/R2.10.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-xcs-vitara",
-        "script": "/reg/g/pcds/epics/ioc/las/vitara/R3.0.3/iocBoot/ioc-las-xcs-vitara/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/las/vitara/R3.0.3/bin/rhel7-x86_64/vitara"
     },
     {
         "host": "ioc-las-mfx-srv45",
