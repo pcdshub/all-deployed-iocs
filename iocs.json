@@ -16840,6 +16840,7 @@
         "host": "ioc-tst-13",
         "port": 30006,
         "dir": "/cds/home/s/skoufis/pgpCam",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-pgp05",
