@@ -5872,6 +5872,16 @@
     },
     {
         "host": "ctl-tmo-misc-01",
+        "port": 39113,
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/tmo/thermocon",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-tmo-thermocon-02",
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/tmo/thermocon/build/iocBoot/ioc-tmo-thermocon-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thermocon/R2.0.0/bin/rhel7-x86_64/thermocon"
+    },
+    {
+        "host": "ctl-tmo-misc-01",
         "port": 39104,
         "dir": "ioc/common/tricatt/R1.0.0",
         "alias": "ioc-tmo-tricatt-01",
@@ -6175,7 +6185,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-vac-pci-02",
         "script": "/reg/g/pcds/epics-dev/baljamal/ioc/dev/qpc/children/build/iocBoot/ioc-tmo-vac-pci-02/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/baljamal/ioc/dev/qpc/bin/rhel7-x86_64/gsd"
+        "binary": "/cds/group/pcds/epics-dev/baljamal/ioc/dev/qpc/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ctl-tmo-vac-01",
