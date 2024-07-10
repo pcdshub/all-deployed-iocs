@@ -3376,15 +3376,15 @@
     {
         "host": "ctl-las-xcs-srv01",
         "port": 30009,
-        "dir": "ioc/las/agilent5322/R1.0.4",
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/agilent5322",
         "history": [
             "ioc/common/agilent5322/R0.4.2"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-xcs-ctr-01",
-        "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R1.0.4/build/iocBoot/ioc-las-xcs-ctr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R2.0.3/bin/linux-x86/agilent5322"
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/agilent5322/build/iocBoot/ioc-las-xcs-ctr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R2.0.3/bin/rhel7-x86_64/agilent5322"
     },
     {
         "host": "ctl-las-xcs-srv01",
