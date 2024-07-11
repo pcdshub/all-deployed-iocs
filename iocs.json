@@ -12073,12 +12073,12 @@
     {
         "host": "ioc-las-srv04",
         "port": 30021,
-        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
+        "dir": "/cds/group/laser/timing/femto-timing/dev",
         "alias": "XCS - FSTiming Python",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "py-fstiming-XCS",
-        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
+        "script": "/cds/group/laser/timing/femto-timing/dev/st.cmd",
         "binary": "/usr/bin/bash"
     },
     {
