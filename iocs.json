@@ -7964,7 +7964,6 @@
         "host": "ioc-cxi-mot2",
         "port": 30514,
         "dir": "ioc/cxi/ims/R6.7.1",
-        "disable": true,
         "alias": "IMS DG2 PIM",
         "history": [
             "ioc/cxi/ims/R4.0.39",
