@@ -6174,7 +6174,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-vac-pci-01",
         "script": "/reg/g/pcds/epics-dev/baljamal/ioc/dev/qpc/children/build/iocBoot/ioc-tmo-vac-pci-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/baljamal/ioc/dev/qpc/bin/rhel7-x86_64/gsd"
+        "binary": "/cds/group/pcds/epics-dev/baljamal/ioc/dev/qpc/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ctl-tmo-vac-01",
@@ -6196,7 +6196,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-vac-pci-03",
         "script": "/reg/g/pcds/epics-dev/baljamal/ioc/dev/qpc/children/build/iocBoot/ioc-tmo-vac-pci-03/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/baljamal/ioc/dev/qpc/bin/rhel7-x86_64/gsd"
+        "binary": "/cds/group/pcds/epics-dev/baljamal/ioc/dev/qpc/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ctl-tmo-vac-01",
