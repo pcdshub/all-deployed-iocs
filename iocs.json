@@ -17862,6 +17862,20 @@
         "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
     },
     {
+        "host": "ioc-xcs-misc3",
+        "port": 32515,
+        "dir": "ioc/xcs/gigECam/R3.0.5",
+        "alias": "CAM - Gige SND 04",
+        "history": [
+            "ioc/xcs/gigECam/R1.1.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-gige-15",
+        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R3.0.5/build/iocBoot/ioc-xcs-gige-15/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
+    },
+    {
         "host": "ioc-xcs-mot1",
         "port": 32287,
         "dir": "/reg/neh/home/zlentz/epics/ioc/xcs/ims/current",
@@ -18503,20 +18517,6 @@
         "name": "ioc-xcs-deltaTauMotion",
         "script": "/reg/g/pcds/epics-dev/adamwh/deltaTauMotion/current/iocBoot/ioc-xcs-deltaTauMotion/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/adamwh/deltaTauMotion/current/bin/linux-x86_64/deltaTauMotion"
-    },
-    {
-        "host": "ioc-xcs-rec01",
-        "port": 32515,
-        "dir": "ioc/xcs/gigECam/R1.1.0",
-        "alias": "CAM - Gige SND 04",
-        "history": [
-            "ioc/xcs/gigECam/R1.1.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-gige-15",
-        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R1.1.0/build/iocBoot/ioc-xcs-gige-15/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R2.7.1/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-xcs-rec01",
