@@ -13503,8 +13503,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-pulsepicker-ims",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/common/pulsepicker/iocBoot/ioc-mec-pulsepicker-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/ctsoi/ioc/common/pulsepicker/bin/linux-x86/motion"
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/common/pulsepicker/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-mec-misc01",
