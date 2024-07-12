@@ -6278,7 +6278,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tc-mot-example",
         "script": "/cds/home/j/janeliu/git/lcls-plc-example-motion/iocBoot/ioc-tc-mot-example/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+        "binary": "/cds/home/j/janeliu/git/ads-ioc/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-tst-dev-01",
@@ -17456,6 +17456,7 @@
         "host": "ioc-xcs-gige01",
         "port": 36001,
         "dir": "/reg/g/pcds/epics-dev/pennebak/xcs/cryocon/current",
+        "disable": true,
         "alias": "Cryocon Temperature Readback",
         "history": [
             "/reg/g/pcds/epics-dev/pennebak/xcs/cryocon/current"
@@ -17489,6 +17490,7 @@
         "host": "ioc-xcs-gige01",
         "port": 32503,
         "dir": "ioc/xcs/gigECam/R3.0.5",
+        "disable": true,
         "alias": "CAM - Gige 03",
         "history": [
             "ioc/xcs/gigECam/R3.0.5",
@@ -17506,6 +17508,7 @@
         "host": "ioc-xcs-gige01",
         "port": 32505,
         "dir": "ioc/xcs/gigECam/R3.0.5",
+        "disable": true,
         "alias": "CAM - Gige 05",
         "history": [
             "ioc/xcs/gigECam/R3.0.5",
@@ -17521,6 +17524,7 @@
         "host": "ioc-xcs-gige01",
         "port": 32506,
         "dir": "ioc/xcs/gigECam/R3.0.5",
+        "disable": true,
         "alias": "CAM - Gige 06",
         "history": [
             "ioc/xcs/gigECam/R3.0.5",
@@ -17536,6 +17540,7 @@
         "host": "ioc-xcs-gige01",
         "port": 30001,
         "dir": "ioc/xcs/gigECam/R3.0.5",
+        "disable": true,
         "alias": "CAM - Gige 12",
         "history": [
             "/reg/g/pcds/epics-dev/ctsoi/ioc/xcs/gigECam"
@@ -17550,6 +17555,7 @@
         "host": "ioc-xcs-gige01",
         "port": 32516,
         "dir": "ioc/xcs/gigECam/R3.0.5",
+        "disable": true,
         "alias": "CAM - Gige 16 - Yag 4",
         "history": [
             "ioc/xcs/gigECam/R3.0.5",
@@ -17581,6 +17587,7 @@
         "host": "ioc-xcs-gige01",
         "port": 32518,
         "dir": "ioc/xcs/gigECam/R1.2.4",
+        "disable": true,
         "history": [
             "ioc/xcs/gigECam/R1.2.4"
         ],
@@ -17594,6 +17601,7 @@
         "host": "ioc-xcs-gige01",
         "port": 36037,
         "dir": "ioc/xcs/gigECam/R3.0.5",
+        "disable": true,
         "history": [
             "ioc/xcs/gigECam/R3.0.3"
         ],
@@ -17607,6 +17615,7 @@
         "host": "ioc-xcs-gige01",
         "port": 32522,
         "dir": "ioc/xcs/gigECam/R3.0.5",
+        "disable": true,
         "alias": "CAM - Gige 20",
         "history": [
             "ioc/xcs/gigECam/R3.0.5",
