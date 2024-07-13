@@ -2213,14 +2213,14 @@
     {
         "host": "ctl-las-lhn-01",
         "port": 30600,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/pvNotepad",
+        "dir": "/reg/g/pcds/epics/ioc/las/pvNotepad/R1.0.2",
         "history": [
             "/reg/g/pcds/epics-dev/snelson/las/pvNotepad/current"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-fstiming-gluePV",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/pvNotepad/build/iocBoot/ioc-las-fstiming-gluePV/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/pvNotepad/R1.0.2/build/iocBoot/ioc-las-fstiming-gluePV/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
     },
     {
@@ -3350,7 +3350,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-mcs2-01",
         "script": "/cds/group/pcds/epics-dev/mods/lm1k2/smaract/build/iocBoot/ioc-lm1k2-mcs2-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.22/bin/rhel7-x86_64/smaract"
+        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.24/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-srv01",
@@ -6271,6 +6271,7 @@
         "port": 34242,
         "dir": "/cds/home/j/janeliu/git/lcls-plc-example-motion",
         "history": [
+            "/cds/home/j/janeliu/git/lcls-plc-example-motion",
             "/reg/g/pcds/epics-dev/zlentz/lcls-twincat-motion-example",
             "/reg/g/pcds/epics-dev/nrw/lcls-twincat-motion-example"
         ],
