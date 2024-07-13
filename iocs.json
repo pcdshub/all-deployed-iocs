@@ -3099,7 +3099,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-com-gige-nf-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k2/com/gigECam/build/iocBoot/ioc-lm1k2-com-gige-nf-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lln-01",
@@ -3175,7 +3175,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-inj-gige-ff-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k2/inj/gigECam/build/iocBoot/ioc-lm1k2-inj-gige-ff-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lln-01",
@@ -3185,7 +3185,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-inj-gige-nf-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k2/inj/gigECam/build/iocBoot/ioc-lm1k2-inj-gige-nf-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lln-01",
