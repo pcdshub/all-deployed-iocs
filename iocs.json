@@ -9732,20 +9732,6 @@
         "binary": "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/userIO_PV/current/bin/linux-x86_64/usrPV"
     },
     {
-        "host": "ioc-cxi-usr1",
-        "port": 30300,
-        "dir": "/reg/g/pcds/pyps/config/cxi/lightpath",
-        "alias": "CXI Lightpath",
-        "history": [
-            "/reg/g/pcds/pyps/config/cxi/lightpath"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "pyioc-cxi-lightpath",
-        "script": "/reg/g/pcds/pyps/config/cxi/lightpath/st.cmd",
-        "binary": "/usr/bin/bash"
-    },
-    {
         "host": "ioc-cxi-usrmot2",
         "port": 39103,
         "dir": "ioc/cxi/newall-le/R0.0.1",
@@ -17738,20 +17724,6 @@
     },
     {
         "host": "ioc-xcs-misc1",
-        "port": 34600,
-        "dir": "/reg/g/pcds/pyps/config/xcs/lightpath",
-        "alias": "XCS Lightpath pyIOC",
-        "history": [
-            "/reg/g/pcds/pyps/config/xcs/lightpath"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "pyioc-xcs-lightpath",
-        "script": "/reg/g/pcds/pyps/config/xcs/lightpath/st.cmd",
-        "binary": "/usr/bin/bash"
-    },
-    {
-        "host": "ioc-xcs-misc1",
         "port": 35123,
         "dir": "/reg/neh/home/zlentz/python/pyIOC/servers/test",
         "disable": true,
@@ -22185,20 +22157,6 @@
         "name": "ioc-xrt-lev",
         "script": "/reg/g/pcds/epics/ioc/common/Leviton/R1.28.8/iocBoot/ioc-xrt-lev/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R1.28.8/bin/linux-x86_64/Leviton"
-    },
-    {
-        "host": "ioc-xrt-misc01",
-        "port": 39100,
-        "dir": "/reg/g/pcds/pyps/config/xrt/lightpath",
-        "alias": "XRT Lightpath",
-        "history": [
-            "/reg/g/pcds/pyps/config/xrt/lightpath"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
-        "name": "pyioc-xrt-lightpath",
-        "script": "/reg/g/pcds/pyps/config/xrt/lightpath/st.cmd",
-        "binary": "/usr/bin/bash"
     },
     {
         "host": "ioc-xrt-misc02",
