@@ -1688,7 +1688,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-mcs2-04",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/build/iocBoot/ioc-lm1k4-mcs2-04/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.23/bin/rhel7-x86_64/smaract"
+        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.24/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ip1-srv01",
@@ -6278,8 +6278,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tc-mot-example",
-        "script": "/cds/home/j/janeliu/git/lcls-plc-example-motion/st.cmd",
-        "binary": null
+        "script": "/cds/home/j/janeliu/git/lcls-plc-example-motion/iocBoot/ioc-tc-mot-example/st.cmd",
+        "binary": "/cds/home/j/janeliu/git/ads-ioc/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-tst-dev-01",
