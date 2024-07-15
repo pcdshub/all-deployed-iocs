@@ -1667,8 +1667,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-mcs2-02",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/build/iocBoot/ioc-lm1k4-mcs2-02/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.23/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ip1-srv01",
@@ -1677,8 +1677,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-mcs2-03",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/build/iocBoot/ioc-lm1k4-mcs2-03/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.24/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ip1-srv01",
@@ -1687,8 +1687,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-mcs2-04",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/smaract/build/iocBoot/ioc-lm1k4-mcs2-04/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.23/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ip1-srv01",
@@ -3268,7 +3268,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-com-ell-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k2/com/thorlabs-ell/build/iocBoot/ioc-lm1k2-com-ell-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
+        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.7/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-lln-02",
