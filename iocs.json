@@ -6023,7 +6023,7 @@
     {
         "host": "ctl-tmo-mot-01",
         "port": 34242,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/tmo/lcls-plc-tmo-motion",
+        "dir": "/reg/g/pcds/epics-dev/tongju/PLC/TMO-MOTION/lcls-plc-tmo-motion",
         "alias": "TMO CC Motion",
         "history": [
             "ioc/tmo/lcls-plc-tmo-motion/v1.2.0"
@@ -6031,8 +6031,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-motion",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/tmo/lcls-plc-tmo-motion/iocBoot/ioc-tmo-motion/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/tmo/lcls-plc-tmo-motion/iocBoot/ioc-tmo-motion/c:/Repos/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics-dev/tongju/PLC/TMO-MOTION/lcls-plc-tmo-motion/iocBoot/ioc-tmo-motion/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-tmo-mot-01",
@@ -19634,8 +19634,8 @@
     },
     {
         "host": "ioc-xcs-user2",
-        "port": 30030,
-        "dir": "ioc/common/pciAcromag/R0.0.1-0.1.15",
+        "port": 30031,
+        "dir": "/reg/g/pcds/epics-dev/cagee/ioc/common-dev/pciAcromag/R0.0.1-0.1.15dev",
         "alias": "USR - Analog I/O",
         "history": [
             "ioc/common/pciAcromag/R0.0.1-0.1.15",
@@ -19644,8 +19644,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-usr-acromag",
-        "script": "/reg/g/pcds/epics/ioc/common/pciAcromag/R0.0.1-0.1.15/children/build/iocBoot/ioc-xcs-usr-acromag/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pciAcromag/R0.0.1-0.1.15/bin/linux-x86_64/pciAcromag"
+        "script": "/reg/g/pcds/epics-dev/cagee/ioc/common-dev/pciAcromag/R0.0.1-0.1.15dev/children/build/iocBoot/ioc-xcs-usr-acromag/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/cagee/ioc/common-dev/pciAcromag/R0.0.1-0.1.15dev/bin/linux-x86_64/pciAcromag"
     },
     {
         "host": "ioc-xcs-user2",
