@@ -2190,15 +2190,15 @@
     {
         "host": "ctl-las-lhn-01",
         "port": 30302,
-        "dir": "/reg/g/pcds/epics-dev/klauer/lcls-plc-las-bts",
+        "dir": "/reg/g/pcds/epics-dev/divyak/gitproject/lcls-plc-las-bts-dev/lcls-plc-las-bts",
         "history": [
             "/reg/g/pcds/epics-dev/klauer/lcls-plc-las-bts"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-bts",
-        "script": "/reg/g/pcds/epics-dev/klauer/lcls-plc-las-bts/iocBoot/ioc-las-bts/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics-dev/divyak/gitproject/lcls-plc-las-bts-dev/lcls-plc-las-bts/iocBoot/ioc-las-bts/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-las-lhn-01",
