@@ -17749,6 +17749,23 @@
     },
     {
         "host": "ioc-xcs-misc2",
+        "port": 30414,
+        "dir": "ioc/xcs/ims/R2.3.6",
+        "alias": "DG3 - YAG3 Motion",
+        "history": [
+            "ioc/xcs/ims/R2.3.6",
+            "/reg/neh/home/snelson/work/xcs/ims/current",
+            "ioc/xcs/ims/R1.0.1"
+        ],
+        "delay": 30,
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-dg3-pim-ims",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R2.3.6/build/iocBoot/ioc-xcs-dg3-pim-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.6/bin/linux-x86/ims"
+    },
+    {
+        "host": "ioc-xcs-misc2",
         "port": 32502,
         "dir": "ioc/xcs/gigECam/R3.0.5",
         "alias": "CAM - Gige 02",
@@ -19490,23 +19507,6 @@
         "name": "ioc-xcs-dg3-pfls-ims",
         "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.1/build/iocBoot/ioc-xcs-dg3-pfls-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
-    },
-    {
-        "host": "ioc-xcs-user2",
-        "port": 30414,
-        "dir": "ioc/xcs/ims/R2.3.6",
-        "alias": "DG3 - YAG3 Motion",
-        "history": [
-            "ioc/xcs/ims/R2.3.6",
-            "/reg/neh/home/snelson/work/xcs/ims/current",
-            "ioc/xcs/ims/R1.0.1"
-        ],
-        "delay": 30,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-dg3-pim-ims",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R2.3.6/build/iocBoot/ioc-xcs-dg3-pim-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.6/bin/linux-x86/ims"
     },
     {
         "host": "ioc-xcs-user2",
