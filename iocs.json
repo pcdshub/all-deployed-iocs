@@ -19636,6 +19636,7 @@
         "host": "ioc-xcs-user2",
         "port": 30031,
         "dir": "/reg/g/pcds/epics-dev/cagee/ioc/common-dev/pciAcromag/R0.0.1-0.1.15dev",
+        "disable": true,
         "alias": "USR - Analog I/O",
         "history": [
             "ioc/common/pciAcromag/R0.0.1-0.1.15",
