@@ -19645,8 +19645,7 @@
     {
         "host": "ioc-xcs-user2",
         "port": 30030,
-        "dir": "/reg/g/pcds/epics-dev/cagee/ioc/common-dev/pciAcromag/R0.0.1-0.1.15dev",
-        "disable": true,
+        "dir": "ioc/common/pciAcromag/R0.0.1-0.1.15",
         "alias": "USR - Analog I/O",
         "history": [
             "ioc/common/pciAcromag/R0.0.1-0.1.15",
@@ -19655,8 +19654,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-usr-acromag",
-        "script": "/reg/g/pcds/epics-dev/cagee/ioc/common-dev/pciAcromag/R0.0.1-0.1.15dev/children/build/iocBoot/ioc-xcs-usr-acromag/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cagee/ioc/common-dev/pciAcromag/R0.0.1-0.1.15dev/bin/linux-x86_64/pciAcromag"
+        "script": "/reg/g/pcds/epics/ioc/common/pciAcromag/R0.0.1-0.1.15/children/build/iocBoot/ioc-xcs-usr-acromag/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pciAcromag/R0.0.1-0.1.15/bin/linux-x86_64/pciAcromag"
     },
     {
         "host": "ioc-xcs-user2",
