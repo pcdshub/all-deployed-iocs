@@ -18632,7 +18632,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-usr-acromag",
         "script": "/reg/g/pcds/epics-dev/cagee/ioc/common-dev/pciAcromag/devR0.0.1-0.1.1/children/build/iocBoot/ioc-xcs-usr-acromag/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cagee/ioc/common-dev/pciAcromag/R0.0.1-0.1.1/bin/linux-x86_64/pciAcromag"
+        "binary": "/reg/g/pcds/epics-dev/cagee/ioc/common-dev/pciAcromag/devR0.0.1-0.1.1/bin/linux-x86_64/pciAcromag"
     },
     {
         "host": "ioc-xcs-user2",
