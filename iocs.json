@@ -17243,21 +17243,6 @@
     },
     {
         "host": "ioc-tst-rec10",
-        "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/icldev/iocBoot",
-        "disable": true,
-        "alias": "ICL SDS",
-        "history": [
-            "/reg/g/pcds/epics-dev/pennebak/sample-delivery/icldev/iocBoot"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-sds",
-        "script": "/reg/g/pcds/epics-dev/pennebak/sample-delivery/icldev/iocBoot/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ioc-tst-rec10",
         "port": 30456,
         "dir": "/reg/g/pcds/epics-dev/mlandrum/setra/current",
         "history": [
