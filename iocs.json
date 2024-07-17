@@ -17658,16 +17658,20 @@
     },
     {
         "host": "ioc-xcs-misc1",
-        "port": 39100,
-        "dir": "ioc/common/expstate/R1.0.6",
+        "port": 30201,
+        "dir": "ioc/common/Leviton/R2.4.2",
+        "alias": "MISC - AC Power",
         "history": [
-            "ioc/common/expstate/R1.0.6"
+            "ioc/common/Leviton/R1.26.5",
+            "/reg/g/pcds/epics-dev/spencera/common/Leviton",
+            "ioc/common/Leviton/R2.3.6"
         ],
+        "cmd": "../../bin/linux-x86_64/Leviton st.cmd",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-expstate",
-        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.6/children/build/iocBoot/ioc-xcs-expstate/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.6/bin/rhel7-x86_64/expState"
+        "name": "ioc-xcs-lev",
+        "script": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.2/iocBoot/ioc-xcs-lev/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.2/bin/linux-x86_64/Leviton"
     },
     {
         "host": "ioc-xcs-misc1",
@@ -17763,6 +17767,19 @@
     },
     {
         "host": "ioc-xcs-misc2",
+        "port": 39100,
+        "dir": "ioc/common/expstate/R1.0.9",
+        "history": [
+            "ioc/common/expstate/R1.0.6"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-expstate",
+        "script": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.9/children/build/iocBoot/ioc-xcs-expstate/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/expstate/R1.0.9/bin/rhel7-x86_64/expState"
+    },
+    {
+        "host": "ioc-xcs-misc2",
         "port": 32502,
         "dir": "ioc/xcs/gigECam/R3.0.5",
         "alias": "CAM - Gige 02",
@@ -17812,21 +17829,18 @@
         "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
     },
     {
-        "host": "ioc-xcs-misc2",
-        "port": 30201,
-        "dir": "ioc/common/Leviton/R2.3.6",
-        "alias": "MISC - AC Power",
+        "host": "ioc-xcs-misc3",
+        "port": 32509,
+        "dir": "ioc/xcs/gigECam/R3.0.5",
+        "alias": "CAM - Gige Periscope 01",
         "history": [
-            "ioc/common/Leviton/R1.26.5",
-            "/reg/g/pcds/epics-dev/spencera/common/Leviton",
-            "ioc/common/Leviton/R2.3.6"
+            "ioc/xcs/gigECam/R1.1.0"
         ],
-        "cmd": "../../bin/linux-x86_64/Leviton st.cmd",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-lev",
-        "script": "/reg/g/pcds/epics/ioc/common/Leviton/R2.3.6/iocBoot/ioc-xcs-lev/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.3.6/bin/linux-x86_64/Leviton"
+        "name": "ioc-xcs-gige-09",
+        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R3.0.5/build/iocBoot/ioc-xcs-gige-09/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xcs-misc3",
@@ -18646,20 +18660,6 @@
         "name": "ioc-xcs-evr2",
         "script": "/reg/neh/home/eshelman/epics/ioc/xcs/evr/current/build/iocBoot/ioc-xcs-evr2/st.cmd",
         "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/evr/current/bin/linux-x86_64/evr"
-    },
-    {
-        "host": "ioc-xcs-rec02",
-        "port": 32509,
-        "dir": "ioc/xcs/gigECam/R1.1.0",
-        "alias": "CAM - Gige Periscope 01",
-        "history": [
-            "ioc/xcs/gigECam/R1.1.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-gige-09",
-        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R1.1.0/build/iocBoot/ioc-xcs-gige-09/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R2.7.1/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-xcs-rec02",
