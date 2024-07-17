@@ -17829,6 +17829,20 @@
         "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
     },
     {
+        "host": "ioc-xcs-misc2",
+        "port": 31003,
+        "dir": "ioc/common/picoMotion/R4.0.2",
+        "alias": "USR - Pico Motion",
+        "history": [
+            "ioc/common/picoMotion/R1.0.4"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-usr-pico",
+        "script": "/reg/g/pcds/epics/ioc/common/picoMotion/R4.0.2/st.cmd",
+        "binary": null
+    },
+    {
         "host": "ioc-xcs-misc3",
         "port": 32509,
         "dir": "ioc/xcs/gigECam/R3.0.5",
@@ -19688,20 +19702,6 @@
         "name": "ioc-xcs-usr-ls340_1",
         "script": "/reg/g/pcds/epics-dev/spencera/xcs.svn/lakeshore340/current/build/iocBoot/ioc-xcs-usr-ls340_1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/lakeshore340/R4.0.1/bin/linux-x86_64/lakeshore340"
-    },
-    {
-        "host": "ioc-xcs-user2",
-        "port": 31003,
-        "dir": "ioc/common/picoMotion/R1.0.4",
-        "alias": "USR - Pico Motion",
-        "history": [
-            "ioc/common/picoMotion/R1.0.4"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-usr-pico",
-        "script": "/reg/g/pcds/epics/ioc/common/picoMotion/R1.0.4/iocBoot/ioc-xcs-usr-pico/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/picoMotion/R1.0.4/bin/linux-x86/motion"
     },
     {
         "host": "ioc-xcs-user2",
