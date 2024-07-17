@@ -4142,7 +4142,6 @@
         "host": "ctl-rix-crix-cam-02",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/baljamal/ioc/common/OceanOpticsSpectrometer",
-        "disable": true,
         "alias": "QEPRO spectrometer",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
