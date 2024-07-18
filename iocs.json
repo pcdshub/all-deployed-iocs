@@ -6563,7 +6563,7 @@
         "host": "ctl-ued-cam-01",
         "port": 39101,
         "dir": "ioc/ued/tprStandalone/R1.2.0",
-        "alias": "ioc-ued-tpr-01",
+        "alias": "TPR - cam-01",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-tpr-01",
@@ -6577,6 +6577,7 @@
         "history": [
             "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git"
         ],
+        "alias": "Wave8 - USR DIO",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-pgpw8-01",
@@ -16281,6 +16282,7 @@
         "history": [
             "/reg/g/pcds/pyps/apps/hutch-python/ued/queueserver/ioc-ued-bsgui-qs"
         ],
+        "alias": "QueueServer - GUI",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-bsgui-qs",
@@ -16358,6 +16360,7 @@
         "host": "ioc-ued-ccd01",
         "port": 30101,
         "dir": "/reg/g/pcds/pyps/apps/hutch-python/ued/queueserver/ioc-ued-redis",
+        "alias": "QueueServer - Redis",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-redis",
