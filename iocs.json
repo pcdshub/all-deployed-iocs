@@ -18626,6 +18626,7 @@
         "host": "ioc-xcs-user2",
         "port": 30030,
         "dir": "ioc/common/pciAcromag/R0.0.1-0.1.1",
+        "disable": true,
         "alias": "USR - Analog I/O",
         "history": [
             "ioc/common/pciAcromag/R0.0.1-0.1.15",
