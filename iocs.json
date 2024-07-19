@@ -18648,6 +18648,7 @@
         "host": "ioc-xcs-user2",
         "port": 31004,
         "dir": "/cds/home/r/rajan-01/checkouts/epics/xcs/NewportXPS8/current",
+        "disable": true,
         "alias": "USR - Aux Newport",
         "history": [
             "/cds/home/r/rajan-01/checkouts/epics/xcs/NewportXPS8/current"
