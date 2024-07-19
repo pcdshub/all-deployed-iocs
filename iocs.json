@@ -16088,19 +16088,6 @@
     },
     {
         "host": "ioc-tst-13",
-        "port": 39103,
-        "dir": "/reg/g/pcds/epics-dev/klauer/simdet-R2.8-0.0.4/iocs/simDetectorIOC/iocBoot/iocSimDetector",
-        "history": [
-            "/reg/g/pcds/epics-dev/klauer/simdet-R2.8-0.0.4/iocs/simDetectorIOC/iocBoot/iocSimDetector"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-adsim-detector",
-        "script": "/reg/g/pcds/epics-dev/klauer/simdet-R2.8-0.0.4/iocs/simDetectorIOC/iocBoot/iocSimDetector/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/klauer/simdet-R2.8-0.0.4/iocs/simDetectorIOC/bin/rhel7-x86_64/simDetectorApp"
-    },
-    {
-        "host": "ioc-tst-13",
         "port": 39801,
         "dir": "/reg/g/pcds/epics-dev/nrw/iocs/dosfet/current/children/build/iocBoot/ioc-dosfet-01/",
         "history": [
@@ -16111,20 +16098,6 @@
         "name": "ioc-dosfet-01",
         "script": "/reg/g/pcds/epics-dev/nrw/iocs/dosfet/current/children/build/iocBoot/ioc-dosfet-01/st.cmd",
         "binary": null
-    },
-    {
-        "host": "ioc-tst-13",
-        "port": 36799,
-        "dir": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/LED_test",
-        "alias": "LED test IOC",
-        "history": [
-            "/reg/g/pcds/epics-dev/bosum123/plc_iocs/LED_test"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-led-test",
-        "script": "/reg/g/pcds/epics-dev/bosum123/plc_iocs/LED_test/iocBoot/ioc-led-test/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ioc-tst-13",
@@ -16220,34 +16193,6 @@
         "name": "ioc-tst-gige-rix-01",
         "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current/build/iocBoot/ioc-tst-gige-rix-01/st.cmd",
         "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ioc-tst-13",
-        "port": 30002,
-        "dir": "/reg/neh/home/sfsyunus/workarea/tst/ict/current",
-        "alias": "ICT TEST",
-        "history": [
-            "/reg/neh/home/sfsyunus/workarea/tst/ict/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-ict01",
-        "script": "/reg/neh/home/sfsyunus/workarea/tst/ict/current/build/iocBoot/ioc-tst-ict01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.1/bin/rhel7-x86_64/ict"
-    },
-    {
-        "host": "ioc-tst-13",
-        "port": 30003,
-        "dir": "/reg/neh/home/sfsyunus/workarea/meanwell/current",
-        "alias": "MEANWELL TST",
-        "history": [
-            "/reg/neh/home/sfsyunus/workarea/meanwell/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-meanwell01",
-        "script": "/reg/neh/home/sfsyunus/workarea/meanwell/current/children/build/iocBoot/ioc-tst-meanwell01/st.cmd",
-        "binary": "/cds/home/s/sfsyunus/workarea/meanwell/current/bin/rhel7-x86_64/meanwell"
     },
     {
         "host": "ioc-tst-13",
