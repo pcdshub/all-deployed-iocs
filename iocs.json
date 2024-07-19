@@ -16639,7 +16639,7 @@
     {
         "host": "ioc-xcs-misc1",
         "port": 30201,
-        "dir": "ioc/common/Leviton/R1.26.5",
+        "dir": "ioc/common/Leviton/R2.4.2",
         "alias": "MISC - AC Power",
         "history": [
             "ioc/common/Leviton/R1.26.5",
@@ -16650,8 +16650,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-lev",
-        "script": "/reg/g/pcds/epics/ioc/common/Leviton/R1.26.5/iocBoot/ioc-xcs-lev/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R1.26.5/bin/linux-x86_64/Leviton"
+        "script": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.2/iocBoot/ioc-xcs-lev/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.2/bin/linux-x86_64/Leviton"
     },
     {
         "host": "ioc-xcs-misc1",
