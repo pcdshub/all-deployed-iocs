@@ -3055,7 +3055,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lln-mcs2-01",
         "script": "/cds/group/pcds/epics-dev/aberges/mods/mods-LRL/lln/smaract/build/iocBoot/ioc-lln-mcs2-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.24/bin/rhel7-x86_64/smaract"
+        "binary": "/cds/group/pcds/epics-dev/aberges/ioc/common/smaract/smaract-test/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-lln-01",
@@ -16639,7 +16639,7 @@
     {
         "host": "ioc-xcs-misc1",
         "port": 30201,
-        "dir": "ioc/common/Leviton/R2.4.2",
+        "dir": "ioc/common/Leviton/R1.26.5",
         "alias": "MISC - AC Power",
         "history": [
             "ioc/common/Leviton/R1.26.5",
@@ -16650,8 +16650,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-lev",
-        "script": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.2/iocBoot/ioc-xcs-lev/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.2/bin/linux-x86_64/Leviton"
+        "script": "/reg/g/pcds/epics/ioc/common/Leviton/R1.26.5/iocBoot/ioc-xcs-lev/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R1.26.5/bin/linux-x86_64/Leviton"
     },
     {
         "host": "ioc-xcs-misc1",
