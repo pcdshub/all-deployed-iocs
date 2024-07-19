@@ -18731,20 +18731,6 @@
         "binary": "/reg/g/pcds/epics/ioc/xcs/vars/R0.6.1/bin/linux-x86_64/vars"
     },
     {
-        "host": "ioc-xcs-user2",
-        "port": 32023,
-        "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/xcs/vacuum/current",
-        "alias": "Vacuum XRT PBT",
-        "history": [
-            "/reg/g/pcds/package/epics/3.14-dev/ioc/xcs/vacuum/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xrt-xcs-pbt-vacuum",
-        "script": "/reg/g/pcds/package/epics/3.14-dev/ioc/xcs/vacuum/current/iocBoot/ioc-xrt-xcs-pbt-vacuum/st.cmd",
-        "binary": "/reg/g/pcds/package/epics/3.14-dev/ioc/xcs/vacuum/current/bin/linux-x86_64/vacuum"
-    },
-    {
         "host": "ioc-xcs-vacuum",
         "port": 30015,
         "dir": "ioc/xcs/qpc/R1.0.0",
@@ -21640,6 +21626,20 @@
         "name": "ioc-xrt-tempTemp",
         "script": "/reg/g/pcds/epics/ioc/xcs/lakeshore335/R1.1.0/build/iocBoot/ioc-xrt-tempTemp/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/lakeshore335/R1.1.0/bin/linux-x86_64/lakeshore335"
+    },
+    {
+        "host": "ioc-xrt-xcsmisc1",
+        "port": 32023,
+        "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/xcs/vacuum/current",
+        "alias": "Vacuum XRT PBT",
+        "history": [
+            "/reg/g/pcds/package/epics/3.14-dev/ioc/xcs/vacuum/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xrt-xcs-pbt-vacuum",
+        "script": "/reg/g/pcds/package/epics/3.14-dev/ioc/xcs/vacuum/current/iocBoot/ioc-xrt-xcs-pbt-vacuum/st.cmd",
+        "binary": "/reg/g/pcds/package/epics/3.14-dev/ioc/xcs/vacuum/current/bin/linux-x86_64/vacuum"
     },
     {
         "host": "ioc-xrt-xcsmot1",
