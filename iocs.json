@@ -2968,6 +2968,16 @@
     },
     {
         "host": "ctl-las-lhn-sp02",
+        "port": 30005,
+        "dir": "/cds/home/t/tjohnson/trunk/las/slice-dhv",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-lhn-slice-02",
+        "script": "/cds/home/t/tjohnson/trunk/las/slice-dhv/build/iocBoot/ioc-las-lhn-slice-02/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/slice-dhv/R1.0.1/bin/rhel7-x86_64/slice"
+    },
+    {
+        "host": "ctl-las-lhn-sp02",
         "port": 30001,
         "dir": "/cds/home/t/tjohnson/trunk/las/tprStandalone",
         "base_version": "3.15",
@@ -16780,6 +16790,21 @@
         "binary": "/cds/group/pcds/epics/ioc/common/NewportXPS8/R2.1.0/bin/rhel7-x86_64/xps8"
     },
     {
+        "host": "ioc-xcs-misc2",
+        "port": 31002,
+        "dir": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/NewportXPS8",
+        "alias": "USR - R41 PPL Newport",
+        "history": [
+            "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current",
+            "ioc/xcs/NewportXPS8/R2.0.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-usr-xps2",
+        "script": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/NewportXPS8/build/iocBoot/ioc-xcs-usr-xps2/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/NewportXPS8/R2.1.0/bin/rhel7-x86_64/xps8"
+    },
+    {
         "host": "ioc-xcs-misc3",
         "port": 32509,
         "dir": "ioc/xcs/gigECam/R3.0.5",
@@ -16898,6 +16923,7 @@
         "host": "ioc-xcs-mot1",
         "port": 30439,
         "dir": "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current",
+        "disable": true,
         "history": [
             "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current"
         ],
@@ -18628,21 +18654,6 @@
         "name": "ioc-xcs-usr-pico",
         "script": "/reg/g/pcds/epics/ioc/common/picoMotion/R1.0.11/iocBoot/ioc-xcs-usr-pico/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/picoMotion/R1.0.11/bin/linux-x86/motion"
-    },
-    {
-        "host": "ioc-xcs-user2",
-        "port": 31002,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current",
-        "alias": "USR - R41 PPL Newport",
-        "history": [
-            "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current",
-            "ioc/xcs/NewportXPS8/R2.0.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-usr-xps2",
-        "script": "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current/build/iocBoot/ioc-xcs-usr-xps2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
     },
     {
         "host": "ioc-xcs-user2",
