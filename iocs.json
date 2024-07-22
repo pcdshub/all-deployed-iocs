@@ -16754,6 +16754,17 @@
         "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
     },
     {
+        "host": "ioc-xcs-misc2",
+        "port": 39101,
+        "dir": "/reg/g/pcds/epics-dev/cagee/ioc/common-dev/labMax-TOP",
+        "alias": "ioc-xcs-labMax",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-labMax",
+        "script": "/reg/g/pcds/epics-dev/cagee/ioc/common-dev/labMax-TOP/build/iocBoot/ioc-xcs-labMax/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/labMax-TOP/R1.8.2/bin/linux-x86_64/labMax"
+    },
+    {
         "host": "ioc-xcs-misc3",
         "port": 32509,
         "dir": "ioc/xcs/gigECam/R3.0.5",
@@ -16870,17 +16881,6 @@
     },
     {
         "host": "ioc-xcs-mot1",
-        "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/labMax-TOP",
-        "alias": "ioc-xcs-labMax",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-labMax",
-        "script": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/labMax-TOP/build/iocBoot/ioc-xcs-labMax/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/labMax-TOP/R1.8.1/bin/linux-x86_64/labMax"
-    },
-    {
-        "host": "ioc-xcs-mot1",
         "port": 30439,
         "dir": "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current",
         "history": [
@@ -16911,6 +16911,7 @@
         "host": "ioc-xcs-mot1",
         "port": 32054,
         "dir": "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current",
+        "disable": true,
         "alias": "LAS - Newport 2",
         "history": [
             "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current"
