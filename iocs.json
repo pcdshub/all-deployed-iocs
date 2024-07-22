@@ -16765,6 +16765,21 @@
         "binary": "/cds/group/pcds/epics/ioc/common/labMax-TOP/R1.8.2/bin/linux-x86_64/labMax"
     },
     {
+        "host": "ioc-xcs-misc2",
+        "port": 32053,
+        "dir": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/NewportXPS8",
+        "alias": "LAS - Newport 1",
+        "history": [
+            "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current",
+            "/reg/g/pcds/epics-dev/spencera/xcs/NewportXPS8/build"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-las01",
+        "script": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/NewportXPS8/build/iocBoot/ioc-xcs-las01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/NewportXPS8/R2.1.0/bin/rhel7-x86_64/xps8"
+    },
+    {
         "host": "ioc-xcs-misc3",
         "port": 32509,
         "dir": "ioc/xcs/gigECam/R3.0.5",
@@ -16890,21 +16905,6 @@
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-ladm01",
         "script": "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current/build/iocBoot/ioc-xcs-ladm01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
-    },
-    {
-        "host": "ioc-xcs-mot1",
-        "port": 32053,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current",
-        "alias": "LAS - Newport 1",
-        "history": [
-            "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current",
-            "/reg/g/pcds/epics-dev/spencera/xcs/NewportXPS8/build"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-las01",
-        "script": "/reg/g/pcds/epics-dev/spencera/xcs.svn/NewportXPS8/current/build/iocBoot/ioc-xcs-las01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
     },
     {
