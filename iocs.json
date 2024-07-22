@@ -6260,6 +6260,17 @@
     },
     {
         "host": "ctl-tst-dev-01",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/tst/generic_streamdevice/children",
+        "alias": "ASG",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-tst-asg",
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/tst/generic_streamdevice/children/build/iocBoot/ioc-tst-asg/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/tst/generic_streamdevice/bin/rhel7-x86_64/gsd"
+    },
+    {
+        "host": "ctl-tst-dev-01",
         "port": 39101,
         "dir": "/reg/g/pcds/epics-dev/baljamal/ioc/dev/qpc",
         "alias": "ioc-tst-vac-pci-01",
@@ -14510,9 +14521,8 @@
     },
     {
         "host": "ioc-mfx-cam01",
-        "port": 30010,
+        "port": 30092,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam",
-        "disable": true,
         "alias": "CAM - GigE 08 - HERA off-axis",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
@@ -21734,6 +21744,7 @@
         "host": "tmo-control",
         "port": 34004,
         "dir": "/cds/home/opr/tmoopr/bin/autocaller",
+        "disable": true,
         "alias": "TMO Vacuum Watchdog",
         "history": [
             "/cds/home/opr/tmoopr/bin/autocaller"
