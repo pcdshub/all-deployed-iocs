@@ -2287,11 +2287,11 @@
     {
         "host": "ctl-las-lhn-01",
         "port": 30004,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/pdu_snmp",
+        "dir": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.2.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-pwr-02",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/pdu_snmp/build/iocBoot/ioc-las-lhn-pwr-02/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.2.0/build/iocBoot/ioc-las-lhn-pwr-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
     },
     {
@@ -2468,11 +2468,11 @@
     {
         "host": "ctl-las-lhn-03",
         "port": 30007,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/pdu_snmp",
+        "dir": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.2.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-pwr-03",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/pdu_snmp/build/iocBoot/ioc-las-lhn-pwr-03/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.2.0/build/iocBoot/ioc-las-lhn-pwr-03/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
     },
     {
