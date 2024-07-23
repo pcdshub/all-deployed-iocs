@@ -2978,6 +2978,16 @@
     },
     {
         "host": "ctl-las-lhn-sp02",
+        "port": 30007,
+        "dir": "/cds/home/t/tjohnson/trunk/las/sr620-git",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-lhn-sr620-02",
+        "script": "/cds/home/t/tjohnson/trunk/las/sr620-git/build/iocBoot/ioc-las-lhn-sr620-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/sr620/R0.9.2/bin/rhel7-x86_64/sr620"
+    },
+    {
+        "host": "ctl-las-lhn-sp02",
         "port": 30001,
         "dir": "/cds/home/t/tjohnson/trunk/las/tprStandalone",
         "base_version": "3.15",
