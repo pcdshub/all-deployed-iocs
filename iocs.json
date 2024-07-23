@@ -16577,6 +16577,20 @@
         "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
     },
     {
+        "host": "ioc-xcs-gige01",
+        "port": 30101,
+        "dir": "/reg/g/pcds/epics-dev/cagee/ioc/common/usdusb4/R1.0.7",
+        "alias": "GON - USB Encoder Box",
+        "history": [
+            "ioc/common/usdusb4/R1.0.4"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-usdusb4",
+        "script": "/reg/g/pcds/epics-dev/cagee/ioc/common/usdusb4/R1.0.7/children/build/iocBoot/ioc-xcs-usdusb4/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/cagee/ioc/common/usdusb4/R1.0.7/bin/linux-x86_64/usdusb4"
+    },
+    {
         "host": "ioc-xcs-misc1",
         "port": 30700,
         "dir": "/reg/g/pcds/epics-dev/pennebak/xcs/Leviton/current",
@@ -18581,20 +18595,6 @@
         "name": "ioc-xcs-pcdsdevices",
         "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/pvNotepad/build/iocBoot/ioc-xcs-pcdsdevices/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1/bin/linux-x86_64/pvNotepad"
-    },
-    {
-        "host": "ioc-xcs-user2",
-        "port": 30101,
-        "dir": "ioc/common/usdusb4/R1.0.4",
-        "alias": "GON - USB Encoder Box",
-        "history": [
-            "ioc/common/usdusb4/R1.0.4"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-usdusb4",
-        "script": "/reg/g/pcds/epics/ioc/common/usdusb4/R1.0.4/children/build/iocBoot/ioc-xcs-usdusb4/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/usdusb4/R1.0.4/bin/linux-x86_64/usdusb4"
     },
     {
         "host": "ioc-xcs-user2",
