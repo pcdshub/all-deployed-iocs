@@ -19585,22 +19585,6 @@
     },
     {
         "host": "ioc-xpp-misc01",
-        "port": 32493,
-        "dir": "ioc/xpp/vacuum/R1.3.0",
-        "alias": "Vacuum",
-        "history": [
-            "/reg/neh/home/snelson/work/ioc/xpp/vacuum/current",
-            "ioc/xpp/vacuum/R1.2.1",
-            "ioc/xpp/vacuum/R1.2.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-vacuum",
-        "script": "/reg/g/pcds/epics/ioc/xpp/vacuum/R1.3.0/iocBoot/ioc-xpp-vacuum/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/xpp/vacuum/R1.3.0/bin/rhel7-x86_64/vacuum"
-    },
-    {
-        "host": "ioc-xpp-misc01",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/lakeshore336",
         "disable": true,
@@ -19859,6 +19843,22 @@
         "name": "ioc-xpp-timetool-ims",
         "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.7.0/build/iocBoot/ioc-xpp-timetool-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xpp-misc02",
+        "port": 32493,
+        "dir": "ioc/xpp/vacuum/R1.3.0",
+        "alias": "Vacuum",
+        "history": [
+            "/reg/neh/home/snelson/work/ioc/xpp/vacuum/current",
+            "ioc/xpp/vacuum/R1.2.1",
+            "ioc/xpp/vacuum/R1.2.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-vacuum",
+        "script": "/reg/g/pcds/epics/ioc/xpp/vacuum/R1.3.0/iocBoot/ioc-xpp-vacuum/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/xpp/vacuum/R1.3.0/bin/rhel7-x86_64/vacuum"
     },
     {
         "host": "ioc-xpp-misc02",
