@@ -6051,7 +6051,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-motion",
         "script": "/reg/g/pcds/epics-dev/tongju/PLC/TMO-MOTION/lcls-plc-tmo-motion/iocBoot/ioc-tmo-motion/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-tmo-mot-01",
