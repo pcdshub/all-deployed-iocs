@@ -16542,7 +16542,6 @@
         "host": "ioc-xcs-gige01",
         "port": 36037,
         "dir": "ioc/xcs/gigECam/R3.0.5",
-        "disable": true,
         "history": [
             "ioc/xcs/gigECam/R3.0.3"
         ],
@@ -16556,7 +16555,6 @@
         "host": "ioc-xcs-gige01",
         "port": 32522,
         "dir": "ioc/xcs/gigECam/R3.0.5",
-        "disable": true,
         "alias": "CAM - Gige 20",
         "history": [
             "ioc/xcs/gigECam/R3.0.5",
