@@ -14521,7 +14521,7 @@
     },
     {
         "host": "ioc-mfx-cam01",
-        "port": 30092,
+        "port": 30010,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam",
         "alias": "CAM - GigE 08 - HERA off-axis",
         "base_version": "3.15",
@@ -15367,7 +15367,6 @@
         "host": "ioc-mfx-misc02",
         "port": 32010,
         "dir": "/reg/g/pcds/epics-dev/spencera/plcs/vonhamos-motion/epics/cfg",
-        "disable": true,
         "alias": "DET - Von Hamos Beckhoff Motion",
         "history": [
             "/reg/neh/home/zlentz/github/vonhamos-motion/epics/cfg"
