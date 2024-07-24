@@ -6307,7 +6307,7 @@
         "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
         "name": "ioc-mecu-tst-cam-01",
         "script": "/cds/home/j/jvamosi/workspace/ioc-mecu-basler/build/iocBoot/ioc-mecu-tst-cam-01/st.cmd",
-        "binary": "/cds/home/j/jvamosi/workspace/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-tst-mecu-llnl",
