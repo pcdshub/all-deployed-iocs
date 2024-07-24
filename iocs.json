@@ -16813,22 +16813,6 @@
     },
     {
         "host": "ioc-xcs-misc2",
-        "port": 30443,
-        "dir": "ioc/common/pulsepicker/R1.2.0",
-        "alias": "SB2 - Pulse Picker",
-        "history": [
-            "ioc/common/pulsepicker/R1.1.3",
-            "ioc/common/pulsepicker/R1.0.0"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-pulsepicker-ims",
-        "script": "/reg/g/pcds/epics/ioc/common/pulsepicker/R1.2.0/children/build/iocBoot/ioc-xcs-pulsepicker-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pulsepicker/R1.2.0/linux-x86/motion"
-    },
-    {
-        "host": "ioc-xcs-misc2",
         "port": 31002,
         "dir": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/NewportXPS8",
         "alias": "USR - R41 PPL Newport",
@@ -17001,6 +16985,22 @@
         "name": "ioc-xcs-piMotion",
         "script": "/reg/g/pcds/epics-dev/pennebak/xcs/ccm/piMotion/current/iocBoot/ioc-xcs-piMotion/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/pennebak/xcs/ccm/piMotion/current/bin/linux-x86_64/piMotion"
+    },
+    {
+        "host": "ioc-xcs-mot1",
+        "port": 30443,
+        "dir": "ioc/common/pulsepicker/R1.1.3",
+        "alias": "SB2 - Pulse Picker",
+        "history": [
+            "ioc/common/pulsepicker/R1.1.3",
+            "ioc/common/pulsepicker/R1.0.0"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-pulsepicker-ims",
+        "script": "/reg/g/pcds/epics/ioc/common/pulsepicker/R1.1.3/iocBoot/ioc-xcs-pulsepicker-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pulsepicker/R1.1.3/bin/linux-x86/motion"
     },
     {
         "host": "ioc-xcs-mot1",
