@@ -16936,6 +16936,34 @@
         "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
     },
     {
+        "host": "ioc-xcs-misc3",
+        "port": 36001,
+        "dir": "/reg/g/pcds/epics-dev/cagee/ioc/common-dev/pvNotepad",
+        "alias": "Python Devices Notepad",
+        "history": [
+            "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/pvNotepad"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-pcdsdevices",
+        "script": "/reg/g/pcds/epics-dev/cagee/ioc/common-dev/pvNotepad/build/iocBoot/ioc-xcs-pcdsdevices/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
+    },
+    {
+        "host": "ioc-xcs-misc3",
+        "port": 30004,
+        "dir": "/reg/g/pcds/epics-dev/cagee/ioc/common-dev/pvNotepad",
+        "alias": "USR - PVs",
+        "history": [
+            "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/pvNotepad"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-userPV",
+        "script": "/reg/g/pcds/epics-dev/cagee/ioc/common-dev/pvNotepad/build/iocBoot/ioc-xcs-userPV/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
+    },
+    {
         "host": "ioc-xcs-mot1",
         "port": 32287,
         "dir": "/reg/neh/home/zlentz/epics/ioc/xcs/ims/current",
@@ -18597,34 +18625,6 @@
         "name": "ioc-xcs-lusiAtt",
         "script": "/reg/g/pcds/epics/ioc/xcs/lusiAtt/R1.5.0/build/iocBoot/ioc-xcs-lusiAtt/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/lusiAtt/R1.5.0/bin/linux-x86_64/lusiAtt"
-    },
-    {
-        "host": "ioc-xcs-user2",
-        "port": 36001,
-        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/pvNotepad",
-        "alias": "Python Devices Notepad",
-        "history": [
-            "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/pvNotepad"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-pcdsdevices",
-        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/pvNotepad/build/iocBoot/ioc-xcs-pcdsdevices/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1/bin/linux-x86_64/pvNotepad"
-    },
-    {
-        "host": "ioc-xcs-user2",
-        "port": 30004,
-        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/pvNotepad",
-        "alias": "USR - PVs",
-        "history": [
-            "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/pvNotepad"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-userPV",
-        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/pvNotepad/build/iocBoot/ioc-xcs-userPV/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.3/bin/linux-x86_64/pvNotepad"
     },
     {
         "host": "ioc-xcs-user2",
