@@ -14478,6 +14478,16 @@
     },
     {
         "host": "ioc-mfx-cam01",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "CAM - GigE RoadRunner 1",
+        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ioc-mfx-cam01",
         "port": 30008,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam",
         "disable": true,
