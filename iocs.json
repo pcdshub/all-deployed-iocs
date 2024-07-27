@@ -3198,26 +3198,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
     },
     {
-        "host": "ctl-las-lln-01",
-        "port": 33841,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm1k2/inj/gigECam",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k2-inj-gige-ff-01",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k2/inj/gigECam/build/iocBoot/ioc-lm1k2-inj-gige-ff-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-lln-01",
-        "port": 33840,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm1k2/inj/gigECam",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k2-inj-gige-nf-01",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k2/inj/gigECam/build/iocBoot/ioc-lm1k2-inj-gige-nf-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
-    },
-    {
         "host": "ctl-las-lln-02",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/mods/LLN/evr/evr-git",
@@ -3360,6 +3340,26 @@
         "name": "ioc-las-usbip-tst-01",
         "script": "/cds/home/t/tjohnson/trunk/common/thorlabs-ell/children/build/iocBoot/ioc-las-usbip-tst-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
+    },
+    {
+        "host": "ctl-las-qrixs-srv01",
+        "port": 30005,
+        "dir": "/reg/g/pcds/epics-dev/mods/lm1k2/inj/gigECam",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k2-inj-gige-ff-01",
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k2/inj/gigECam/build/iocBoot/ioc-lm1k2-inj-gige-ff-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-qrixs-srv01",
+        "port": 30004,
+        "dir": "/reg/g/pcds/epics-dev/mods/lm1k2/inj/gigECam",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k2-inj-gige-nf-01",
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k2/inj/gigECam/build/iocBoot/ioc-lm1k2-inj-gige-nf-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-qrixs-srv01",
