@@ -3249,17 +3249,6 @@
     },
     {
         "host": "ctl-las-lln-02",
-        "port": 30011,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm1k2/com/thorlabs-ell",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k2-com-ell-01",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k2/com/thorlabs-ell/build/iocBoot/ioc-lm1k2-com-ell-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.7/bin/rhel7-x86_64/ell"
-    },
-    {
-        "host": "ctl-las-lln-02",
         "port": 30004,
         "dir": "/reg/g/pcds/epics-dev/aberges/mods/lm1k2/smaract",
         "disable": true,
@@ -3359,6 +3348,16 @@
         "name": "ioc-lm1k2-mcs2-01",
         "script": "/cds/group/pcds/epics-dev/mods/lm1k2/smaract/build/iocBoot/ioc-lm1k2-mcs2-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.24/bin/rhel7-x86_64/smaract"
+    },
+    {
+        "host": "ctl-las-qrixs-srv02",
+        "port": 30004,
+        "dir": "/reg/g/pcds/epics-dev/mods/lm1k2/com/thorlabs-ell",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k2-com-ell-01",
+        "script": "/reg/g/pcds/epics-dev/mods/lm1k2/com/thorlabs-ell/build/iocBoot/ioc-lm1k2-com-ell-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.7/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-qrixs-srv02",
@@ -18629,7 +18628,7 @@
     {
         "host": "ioc-xcs-user2",
         "port": 30030,
-        "dir": "/reg/g/pcds/package/epics/3.14/ioc/common/pciAcromag/R0.0.1-0.1.1",
+        "dir": "ioc/common/pciAcromag/R0.0.1-0.1.15",
         "alias": "USR - Analog I/O",
         "history": [
             "ioc/common/pciAcromag/R0.0.1-0.1.15",
@@ -18638,8 +18637,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-usr-acromag",
-        "script": "/reg/g/pcds/package/epics/3.14/ioc/common/pciAcromag/R0.0.1-0.1.1/children/build/iocBoot/ioc-xcs-usr-acromag/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pciAcromag/R0.0.1-0.1.1/bin/linux-x86_64/pciAcromag"
+        "script": "/reg/g/pcds/epics/ioc/common/pciAcromag/R0.0.1-0.1.15/children/build/iocBoot/ioc-xcs-usr-acromag/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pciAcromag/R0.0.1-0.1.15/bin/linux-x86_64/pciAcromag"
     },
     {
         "host": "ioc-xcs-user2",
