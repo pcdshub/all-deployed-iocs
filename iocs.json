@@ -9269,6 +9269,7 @@
         "host": "ioc-cxi-sc1",
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/mmc",
+        "disable": true,
         "alias": "MMC - SC2 1 Axis 1",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
