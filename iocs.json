@@ -6615,7 +6615,7 @@
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-andor-01",
         "script": "/reg/g/pcds/epics-dev/baljamal/ioc/common/andorCam/children/build/iocBoot/ioc-ued-andor-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/baljamal/ioc/common/andorCam/bin/rhel7-x86_64/andorTpr"
+        "binary": "/cds/group/pcds/epics-dev/baljamal/ioc/common/andorCam/bin/rhel7-x86_64/andorTpr"
     },
     {
         "host": "ctl-ued-cam-01",
