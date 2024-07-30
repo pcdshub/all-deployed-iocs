@@ -4462,7 +4462,7 @@
     {
         "host": "ctl-rix-mot-01",
         "port": 30108,
-        "dir": "ioc/kfe/lcls-plc-kfe-rix-motion/v2.5.0",
+        "dir": "/reg/g/pcds/epics-dev/jjoshi/bsd_rix_motion/lcls-plc-kfe-rix-motion",
         "alias": "Beamline Motion PLC IOC",
         "history": [
             "ioc/kfe/lcls-plc-kfe-rix-motion/v1.13.0"
@@ -4470,7 +4470,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-kfe-rix-motion",
-        "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-rix-motion/v2.5.0/iocBoot/ioc-kfe-rix-motion/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/jjoshi/bsd_rix_motion/lcls-plc-kfe-rix-motion/iocBoot/ioc-kfe-rix-motion/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
@@ -14659,8 +14659,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-gige-rr1",
-        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam/build/iocBoot/ioc-mfx-gige-rr1/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/rcjwoods/ioc/common/gigECam/gigECam/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-mfx-cam01",
