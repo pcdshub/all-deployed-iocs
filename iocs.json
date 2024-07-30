@@ -14654,6 +14654,7 @@
         "host": "ioc-mfx-cam01",
         "port": 30007,
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam",
+        "disable": true,
         "alias": "CAM - Gige RoadRunner",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
