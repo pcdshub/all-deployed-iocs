@@ -14563,6 +14563,7 @@
         "host": "ioc-mfx-cam01",
         "port": 30010,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam",
+        "disable": true,
         "alias": "CAM - GigE 08 - HERA off-axis",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
