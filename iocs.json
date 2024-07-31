@@ -3380,6 +3380,16 @@
         "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.24/bin/rhel7-x86_64/smaract"
     },
     {
+        "host": "ctl-las-qrixs-srv04",
+        "port": 30002,
+        "dir": "/cds/group/pcds/epics-dev/mods/lm1k2/atm/thorlabs-ell",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k2-atm-ell-01",
+        "script": "/cds/group/pcds/epics-dev/mods/lm1k2/atm/thorlabs-ell/build/iocBoot/ioc-lm1k2-atm-ell-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.7/bin/rhel7-x86_64/ell"
+    },
+    {
         "host": "ctl-las-qrixs-srv05",
         "port": 30002,
         "dir": "/cds/group/pcds/epics-dev/mods/lm1k2/ejx/gigECam",
