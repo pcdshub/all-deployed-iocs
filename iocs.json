@@ -4481,7 +4481,7 @@
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-kfe-rix-motion",
         "script": "/reg/g/pcds/epics-dev/jjoshi/bsd_rix_motion/lcls-plc-kfe-rix-motion/iocBoot/ioc-kfe-rix-motion/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-rix-mot-01",
