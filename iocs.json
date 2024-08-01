@@ -17680,7 +17680,6 @@
         "host": "ioc-xcs-rec01",
         "port": 34501,
         "dir": "ioc/xcs/ipimb/R4.1.5",
-        "disable": true,
         "alias": "DET - IPM User & Gon",
         "history": [
             "ioc/xcs/ipimb/R4.1.5",
