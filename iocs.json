@@ -13533,6 +13533,7 @@
         "host": "ioc-mec-misc01",
         "port": 39101,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/common/pulsepicker/children",
+        "disable": true,
         "alias": "Beamline Pulse Picker",
         "history": [
             "ioc/common/pulsepicker/R1.0.0"
