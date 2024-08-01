@@ -17664,20 +17664,6 @@
     },
     {
         "host": "ioc-xcs-rec01",
-        "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/ccm/deltaTauMotion",
-        "alias": "MON - CCM Alio, EVR",
-        "history": [
-            "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/ccm/deltaTauMotion"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-mon-ccm-alio",
-        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/ccm/deltaTauMotion/iocBoot/ioc-xcs-mon-ccm-alio/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/ccm/deltaTauMotion/bin/linux-x86_64/deltaTauMotion"
-    },
-    {
-        "host": "ioc-xcs-rec01",
         "port": 38000,
         "dir": "/reg/g/pcds/controls/camrecord",
         "alias": "REC - rec01 Recorder",
@@ -18687,6 +18673,20 @@
         "name": "ioc-xcs-lodcm",
         "script": "/reg/g/pcds/epics/ioc/xcs/lodcm/R1.0.0/build/iocBoot/ioc-xcs-lodcm/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/lodcm/R1.0.0/bin/linux-x86_64/lodcm"
+    },
+    {
+        "host": "ioc-xcs-user2",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/ccm/deltaTauMotion",
+        "alias": "MON - CCM Alio, EVR",
+        "history": [
+            "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/ccm/deltaTauMotion"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-mon-ccm-alio",
+        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/ccm/deltaTauMotion/iocBoot/ioc-xcs-mon-ccm-alio/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/ccm/deltaTauMotion/bin/linux-x86_64/deltaTauMotion"
     },
     {
         "host": "ioc-xcs-user2",
