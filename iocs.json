@@ -5061,7 +5061,7 @@
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-plc-kfe-rix-vac",
         "script": "/reg/g/pcds/epics-dev/jjoshi/vac_fork/lcls-plc-kfe-rix-vac-1/iocBoot/ioc-plc-kfe-rix-vac/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-rix-vac-01",
@@ -16666,7 +16666,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-usdusb4",
         "script": "/reg/g/pcds/epics-dev/cagee/ioc/common/usdusb4/R1.0.7/children/build/iocBoot/ioc-xcs-usdusb4/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cagee/ioc/common/usdusb4/R1.0.7/bin/linux-x86_64/usdusb4"
+        "binary": "/reg/g/pcds/epics-dev/cagee/ioc/common/usdusb4/R1.0.7/bin/rhel7-x86_64/usdusb4"
     },
     {
         "host": "ioc-xcs-misc1",
