@@ -4069,13 +4069,13 @@
     {
         "host": "ctl-rix-cam-04",
         "port": 30002,
-        "dir": "ioc/rix/gigECam/R2.3.0",
+        "dir": "ioc/rix/gigECam/R2.3.0/build/iocBoot/ioc-pax-gige-01",
         "alias": "PAX GIGE 01",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-cam-pax-gige-01",
-        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.3.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.3.0/build/iocBoot/ioc-pax-gige-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-rix-crix-cam-01",
@@ -6700,6 +6700,7 @@
         "host": "daq-det-evr01",
         "port": 30002,
         "dir": "ioc/det/tprStandalone/R1.2.0",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-asc-tpr2",
