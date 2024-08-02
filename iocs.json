@@ -19775,6 +19775,7 @@
         "host": "ioc-xpp-misc02",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/ims",
+        "disable": true,
         "alias": "SB2 - PP XY Temp",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
