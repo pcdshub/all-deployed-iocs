@@ -5913,7 +5913,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-ppl-bhc-01",
         "script": "/reg/g/pcds/epics-dev/lorelli/tmo/tmo-usr-ek9000/build/iocBoot/ioc-tmo-ppl-bhc-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/lorelli/mods-testing/ek9000-ioc/bin/rhel7-x86_64/ek9000IOC"
+        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.7.3/bin/rhel7-x86_64/ek9000IOC"
     },
     {
         "host": "ctl-tmo-misc-01",
