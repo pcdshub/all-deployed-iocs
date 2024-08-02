@@ -12876,8 +12876,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige10",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige10/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige01",
@@ -12888,8 +12888,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige11",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige11/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige01",
@@ -12899,8 +12899,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige25",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige25/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige01",
@@ -12910,8 +12910,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige26",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige26/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige01",
@@ -12921,8 +12921,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige36",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige36/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige01",
@@ -12932,8 +12932,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige37",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige37/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige01",
@@ -12943,8 +12943,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige38",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige38/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige01",
@@ -12954,8 +12954,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige39",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige39/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige01",
@@ -12964,8 +12964,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige7",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige7/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige01",
@@ -12974,8 +12974,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige9",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige9/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige02",
@@ -12985,8 +12985,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige12",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige12/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige02",
@@ -12996,8 +12996,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige13",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige13/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige02",
@@ -13007,8 +13007,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige14",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige14/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige02",
@@ -13018,8 +13018,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige15",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige15/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige02",
@@ -13029,8 +13029,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige24",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige24/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige02",
@@ -13040,8 +13040,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige27",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige27/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige02",
@@ -13051,8 +13051,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige34",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige34/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige02",
@@ -13062,8 +13062,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige35",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige35/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige03",
@@ -13073,8 +13073,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige28",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige28/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige03",
@@ -13084,8 +13084,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige29",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige29/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige03",
@@ -13095,8 +13095,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige30",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige30/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige03",
@@ -13106,8 +13106,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige31",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige31/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige03",
@@ -13117,8 +13117,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige32",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige32/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige03",
@@ -13128,8 +13128,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige33",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige33/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige03",
@@ -13139,8 +13139,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige40",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige40/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige03",
@@ -13150,8 +13150,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige8",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige8/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige04",
@@ -13161,8 +13161,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige16",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige16/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige04",
@@ -13171,8 +13171,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige17",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige17/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige04",
@@ -13182,8 +13182,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige18",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige18/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige04",
@@ -13193,8 +13193,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige19",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige19/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige04",
@@ -13204,8 +13204,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige20",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige20/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige04",
@@ -13215,8 +13215,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige21",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige21/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-lasmot1",
