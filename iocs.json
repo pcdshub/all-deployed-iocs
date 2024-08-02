@@ -13541,8 +13541,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-pulsepicker-ims",
-        "script": "/cds/group/pcds/epics-dev/nlentz/ioc-common-pulsepicker/children/build/iocBoot/ioc-mec-pulsepicker-ims/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/nlentz/ioc-common-pulsepicker/linux-x86/motion"
+        "script": "/cds/group/pcds/epics-dev/nlentz/ioc-common-pulsepicker/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-mec-misc01",
