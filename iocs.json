@@ -20805,7 +20805,7 @@
     {
         "host": "ioc-xpp-usr01",
         "port": 30050,
-        "dir": "ioc/common/pulsepicker/R1.1.8",
+        "dir": "/cds/group/pcds/epics-dev/espov/ioc/tests/ioc-common-pulsepicker/",
         "alias": "SB2 - Pulsepicker",
         "history": [
             "ioc/common/pulsepicker/R1.0.0"
@@ -20814,8 +20814,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-pulsepicker-ims",
-        "script": "/reg/g/pcds/epics/ioc/common/pulsepicker/R1.1.8/iocBoot/ioc-xpp-pulsepicker-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pulsepicker/R1.1.8/bin/linux-x86/motion"
+        "script": "/cds/group/pcds/epics-dev/espov/ioc/tests/ioc-common-pulsepicker/children/build/iocBoot/ioc-xpp-pulsepicker-ims/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/espov/ioc/tests/ioc-common-pulsepicker/bin/linux-x86_64/motion"
     },
     {
         "host": "ioc-xpp-usr01",
