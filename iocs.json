@@ -17045,6 +17045,16 @@
         "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
     },
     {
+        "host": "ioc-xcs-misc3",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/nrw/xcs",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-xrt-pem",
+        "script": "/reg/g/pcds/epics-dev/nrw/xcs/build/iocBoot/ioc-xcs-xrt-pem/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.7.1/bin/rhel7-x86_64/ek9000IOC"
+    },
+    {
         "host": "ioc-xcs-mot1",
         "port": 32287,
         "dir": "/reg/neh/home/zlentz/epics/ioc/xcs/ims/current",
