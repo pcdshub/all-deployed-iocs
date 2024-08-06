@@ -16182,29 +16182,6 @@
     },
     {
         "host": "ioc-tst-13",
-        "port": 39102,
-        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/CoeReadExample",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-CoeReadExample",
-        "script": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/CoeReadExample/iocBoot/ioc-CoeReadExample/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ioc-tst-13",
-        "port": 39801,
-        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/dosfet/current/children/build/iocBoot/ioc-dosfet-01/",
-        "history": [
-            "/reg/g/pcds/epics-dev/nrw/iocs/dosfet/current/children/build/iocBoot/ioc-dosfet-01/"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-dosfet-01",
-        "script": "/reg/g/pcds/epics-dev/nrw/iocs/dosfet/current/children/build/iocBoot/ioc-dosfet-01/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ioc-tst-13",
         "port": 32501,
         "dir": "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current/build",
         "history": [
@@ -16310,19 +16287,6 @@
         "name": "ioc-tst-mini-powermeter-calib",
         "script": "/reg/g/pcds/epics-dev/zlentz/lcls-plc-mini-powermeter-calib/iocBoot/ioc-tst-mini-powermeter-calib/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ioc-tst-13",
-        "port": 39101,
-        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/mr3k3-mr4k3-mr2l1-mr3l1-sat",
-        "history": [
-            "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/mr3k3-mr4k3-mr2l1-mr3l1-sat"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-txi-optics",
-        "script": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/mr3k3-mr4k3-mr2l1-mr3l1-sat/iocBoot/ioc-tst-txi-optics/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.5.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ioc-ued-ccd01",
