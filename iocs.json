@@ -20715,6 +20715,7 @@
         "host": "ioc-xpp-usr01",
         "port": 35425,
         "dir": "ioc/common/lecroy/R1.0.3",
+        "disable": true,
         "alias": "MISC- Lecroy Wavemaster",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
