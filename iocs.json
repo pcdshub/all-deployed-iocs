@@ -16981,6 +16981,34 @@
     },
     {
         "host": "ioc-xcs-misc3",
+        "port": 39101,
+        "dir": "ioc/xcs/gigECam/R3.0.5",
+        "alias": "ioc-xcs-gige-lj2",
+        "history": [
+            "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-gige-lj2",
+        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R3.0.5/build/iocBoot/ioc-xcs-gige-lj2/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-xcs-misc3",
+        "port": 32563,
+        "dir": "ioc/xcs/gigECam/R3.0.5",
+        "history": [
+            "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam",
+            "/cds/home/j/jjoshi/xcs"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-gige-lj3",
+        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R3.0.5/build/iocBoot/ioc-xcs-gige-lj3/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-xcs-misc3",
         "port": 36001,
         "dir": "/reg/g/pcds/epics-dev/cagee/ioc/common-dev/pvNotepad",
         "alias": "Python Devices Notepad",
@@ -17740,34 +17768,6 @@
         "name": "ioc-xcs-gige-lj1",
         "script": "/cds/home/j/jjoshi/xcs/build/iocBoot/ioc-xcs-gige-lj1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ioc-xcs-rec02",
-        "port": 39101,
-        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam",
-        "alias": "ioc-xcs-gige-lj2",
-        "history": [
-            "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-gige-lj2",
-        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam/build/iocBoot/ioc-xcs-gige-lj2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/rhel5-x86_64/gige"
-    },
-    {
-        "host": "ioc-xcs-rec02",
-        "port": 32563,
-        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam",
-        "history": [
-            "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam",
-            "/cds/home/j/jjoshi/xcs"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-gige-lj3",
-        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam/build/iocBoot/ioc-xcs-gige-lj3/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.5/bin/rhel5-x86_64/gige"
     },
     {
         "host": "ioc-xcs-rec02",
