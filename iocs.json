@@ -16651,21 +16651,6 @@
     },
     {
         "host": "ioc-xcs-misc1",
-        "port": 30700,
-        "dir": "/reg/g/pcds/epics-dev/pennebak/xcs/Leviton/current",
-        "disable": true,
-        "alias": "PWR - Spare StarTech",
-        "history": [
-            "/reg/g/pcds/epics-dev/pennebak/xcs/Leviton/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-mfx-pwr-spare",
-        "script": "/reg/g/pcds/epics-dev/pennebak/xcs/Leviton/current/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ioc-xcs-misc1",
         "port": 30333,
         "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/xcs/crackMon/current",
         "disable": true,
@@ -18344,6 +18329,7 @@
         "host": "ioc-xcs-user1",
         "port": 30483,
         "dir": "/cds/group/pcds/epics-dev/cagee/ioc/xcs/mmc",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-usr-6axis-mmc-01",
