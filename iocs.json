@@ -16884,6 +16884,19 @@
         "binary": "/cds/group/pcds/epics/ioc/common/NewportXPS8/R2.1.0/bin/rhel7-x86_64/xps8"
     },
     {
+        "host": "ioc-xcs-misc2",
+        "port": 30302,
+        "dir": "ioc/common/mpod/R2.1.6",
+        "history": [
+            "ioc/common/mpod/R2.1.6"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-usr1-mpod",
+        "script": "/reg/g/pcds/epics/ioc/common/mpod/R2.1.6/iocBoot/ioc-xcs-usr1-mpod/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/mpod/R2.1.6/bin/linux-x86_64/mpod"
+    },
+    {
         "host": "ioc-xcs-misc3",
         "port": 39103,
         "dir": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/lcls-plc-polycapillary/lcls-plc-polycapillary",
@@ -16896,6 +16909,20 @@
         "name": "ioc-plc-polycap-01",
         "script": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/lcls-plc-polycapillary/lcls-plc-polycapillary/iocBoot/ioc-plc-polycap-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ioc-xcs-misc3",
+        "port": 31003,
+        "dir": "/reg/g/pcds/epics-dev/spencera/common/cryojet",
+        "alias": "XCS Cryojet",
+        "history": [
+            "/reg/g/pcds/epics-dev/spencera/common/cryojet"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-cryojet-01",
+        "script": "/reg/g/pcds/epics-dev/spencera/common/cryojet/iocBoot/ioc-xcs-cryojet-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/spencera/common/cryojet/bin/rhel7-x86_64/cryojet"
     },
     {
         "host": "ioc-xcs-misc3",
@@ -17009,6 +17036,22 @@
         "name": "ioc-xcs-gige-lj3",
         "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R3.0.5/build/iocBoot/ioc-xcs-gige-lj3/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-xcs-misc3",
+        "port": 30300,
+        "dir": "ioc/common/mpod/R2.1.5",
+        "alias": "DET - Ladm Mpod",
+        "history": [
+            "ioc/common/mpod/R2.1.5",
+            "ioc/common/mpod/R2.0.6",
+            "ioc/common/mpod/R1.15.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-lam-mpod",
+        "script": "/reg/g/pcds/epics/ioc/common/mpod/R2.1.5/iocBoot/ioc-xcs-lam-mpod/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/mpod/R2.1.5/bin/linux-x86_64/mpod"
     },
     {
         "host": "ioc-xcs-misc3",
@@ -18020,6 +18063,16 @@
     },
     {
         "host": "ioc-xcs-srv01",
+        "port": 30005,
+        "dir": "ioc/xcs/ek9000/R1.0.0",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-bhc-01",
+        "script": "/reg/g/pcds/epics/ioc/xcs/ek9000/R1.0.0/build/iocBoot/ioc-xcs-bhc-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.1/bin/rhel7-x86_64/ek9000IOC"
+    },
+    {
+        "host": "ioc-xcs-srv01",
         "port": 39100,
         "dir": "ioc/xcs/dg/R3.0.0",
         "alias": "ioc-xcs-delaygen1",
@@ -18233,30 +18286,6 @@
     },
     {
         "host": "ioc-xcs-user1",
-        "port": 30002,
-        "dir": "ioc/xcs/ek9000/R1.0.0",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-bhc-01",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ek9000/R1.0.0/build/iocBoot/ioc-xcs-bhc-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.1/bin/rhel7-x86_64/ek9000IOC"
-    },
-    {
-        "host": "ioc-xcs-user1",
-        "port": 31003,
-        "dir": "/reg/g/pcds/epics-dev/spencera/common/cryojet",
-        "alias": "XCS Cryojet",
-        "history": [
-            "/reg/g/pcds/epics-dev/spencera/common/cryojet"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-cryojet-01",
-        "script": "/reg/g/pcds/epics-dev/spencera/common/cryojet/iocBoot/ioc-xcs-cryojet-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/spencera/common/cryojet/bin/rhel7-x86_64/cryojet"
-    },
-    {
-        "host": "ioc-xcs-user1",
         "port": 31002,
         "dir": "/reg/g/pcds/epics-dev/spencera/common/cryojet",
         "disable": true,
@@ -18314,22 +18343,6 @@
         "name": "ioc-xcs-lam-140k",
         "script": "/reg/g/pcds/epics/ioc/common/detector-ctrl/R2.6.6/iocBoot/ioc-xcs-lam-140k/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/detector-ctrl/R2.6.6/bin/linux-x86_64/detector"
-    },
-    {
-        "host": "ioc-xcs-user1",
-        "port": 30300,
-        "dir": "ioc/common/mpod/R2.1.5",
-        "alias": "DET - Ladm Mpod",
-        "history": [
-            "ioc/common/mpod/R2.1.5",
-            "ioc/common/mpod/R2.0.6",
-            "ioc/common/mpod/R1.15.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-lam-mpod",
-        "script": "/reg/g/pcds/epics/ioc/common/mpod/R2.1.5/iocBoot/ioc-xcs-lam-mpod/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/mpod/R2.1.5/bin/linux-x86_64/mpod"
     },
     {
         "host": "ioc-xcs-user1",
@@ -18431,19 +18444,6 @@
         "name": "ioc-xcs-usr-stg-tst",
         "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/ims/build/iocBoot/ioc-xcs-usr-stg-tst/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-xcs-user1",
-        "port": 30302,
-        "dir": "ioc/common/mpod/R2.1.6",
-        "history": [
-            "ioc/common/mpod/R2.1.6"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-usr1-mpod",
-        "script": "/reg/g/pcds/epics/ioc/common/mpod/R2.1.6/iocBoot/ioc-xcs-usr1-mpod/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/mpod/R2.1.6/bin/linux-x86_64/mpod"
     },
     {
         "host": "ioc-xcs-user1",
