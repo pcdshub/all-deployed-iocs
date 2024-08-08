@@ -17860,19 +17860,6 @@
         "binary": "/usr/bin/bash"
     },
     {
-        "host": "ioc-xcs-rec02",
-        "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/timetool",
-        "history": [
-            "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/timetool"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-tt",
-        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/timetool/children/build/iocBoot/ioc-xcs-tt/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/timetool/bin/rhel7-x86_64/gsd"
-    },
-    {
         "host": "ioc-xcs-rec03",
         "port": 38000,
         "dir": "/reg/g/pcds/controls/camrecord",
@@ -18198,6 +18185,19 @@
         "name": "ioc-xcs-thermotek-01",
         "script": "/reg/g/pcds/epics/ioc/xcs/thermotek/R1.0.0/build/iocBoot/ioc-xcs-thermotek-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.6/bin/rhel7-x86_64/thermotek"
+    },
+    {
+        "host": "ioc-xcs-srv01",
+        "port": 39108,
+        "dir": "ioc/common/timetool/R1.0.7",
+        "history": [
+            "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/timetool"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-tt",
+        "script": "/reg/g/pcds/epics/ioc/common/timetool/R1.0.7/children/build/iocBoot/ioc-xcs-tt/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/timetool/R1.0.7/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ioc-xcs-srv01",
