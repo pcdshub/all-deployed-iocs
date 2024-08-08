@@ -19312,13 +19312,13 @@
     {
         "host": "ioc-xpp-misc01",
         "port": 30006,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/lcls-plc-hxr-gon",
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/xpp/lcls-plc-hxr-gon",
         "alias": "USR - PLC HXR GON",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-plc-hxr-gon",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/lcls-plc-hxr-gon/iocBoot/ioc-plc-hxr-gon/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/xpp/lcls-plc-hxr-gon/iocBoot/ioc-plc-hxr-gon/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/ctsoi/ioc/xpp/lcls-plc-hxr-gon/iocBoot/ioc-plc-hxr-gon/c:/Repos/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ioc-xpp-misc01",
