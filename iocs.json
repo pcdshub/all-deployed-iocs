@@ -13090,7 +13090,7 @@
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige29",
         "script": "/cds/home/p/peregrin/git-ioc-mec-gigECam/build/iocBoot/ioc-mec-gige29/st.cmd",
-        "binary": "/cds/home/p/peregrin/git-ioc-common-gigECam/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige03",
