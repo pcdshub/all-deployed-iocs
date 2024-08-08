@@ -16810,6 +16810,20 @@
     },
     {
         "host": "ioc-xcs-misc3",
+        "port": 39103,
+        "dir": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/lcls-plc-polycapillary/lcls-plc-polycapillary",
+        "disable": true,
+        "history": [
+            "/reg/g/pcds/epics-dev/opperman/xcs/ioc/lcls-plc-polycapillary/lcls-plc-polycapillary"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-plc-polycap-01",
+        "script": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/lcls-plc-polycapillary/lcls-plc-polycapillary/iocBoot/ioc-plc-polycap-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ioc-xcs-misc3",
         "port": 32509,
         "dir": "ioc/xcs/gigECam/R3.0.5",
         "alias": "CAM - Gige Periscope 01",
@@ -18068,20 +18082,6 @@
     },
     {
         "host": "ioc-xcs-user1",
-        "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/lcls-plc-polycapillary/lcls-plc-polycapillary",
-        "disable": true,
-        "history": [
-            "/reg/g/pcds/epics-dev/opperman/xcs/ioc/lcls-plc-polycapillary/lcls-plc-polycapillary"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-plc-polycap-01",
-        "script": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/lcls-plc-polycapillary/lcls-plc-polycapillary/iocBoot/ioc-plc-polycap-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ioc-xcs-user1",
         "port": 30200,
         "dir": "/reg/g/pcds/epics-dev/spencera/xcs.svn/BK-Precision/current",
         "disable": true,
@@ -18359,6 +18359,7 @@
         "host": "ioc-xcs-user1",
         "port": 30343,
         "dir": "ioc/xcs/lakeshore336/R1.0.2",
+        "disable": true,
         "alias": "USR - Lakeshore 336",
         "history": [
             "ioc/xcs/lakeshore336/R1.0.2"
