@@ -13615,7 +13615,7 @@
     {
         "host": "ioc-mec-misc01",
         "port": 39101,
-        "dir": "/cds/group/pcds/epics-dev/nlentz/ioc-common-pulsepicker",
+        "dir": "ioc/common/pulsepicker/R1.2.1",
         "alias": "Beamline Pulse Picker",
         "history": [
             "ioc/common/pulsepicker/R1.0.0"
@@ -13623,8 +13623,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-pulsepicker-ims",
-        "script": "/cds/group/pcds/epics-dev/nlentz/ioc-common-pulsepicker/children/build/iocBoot/ioc-mec-pulsepicker-ims/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/nlentz/ioc-common-pulsepicker/bin/linux-x86_64/motion"
+        "script": "/reg/g/pcds/epics/ioc/common/pulsepicker/R1.2.1/children/build/iocBoot/ioc-mec-pulsepicker-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pulsepicker/R1.2.1/bin/linux-x86_64/motion"
     },
     {
         "host": "ioc-mec-misc01",
