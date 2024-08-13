@@ -19234,8 +19234,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-lmxpp-inj-gige-ff-01",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-lmxpp-inj-gige-ff-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xpp-las01",
