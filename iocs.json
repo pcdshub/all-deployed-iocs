@@ -21471,6 +21471,7 @@
         "host": "ioc-xrt-rec07",
         "port": 39303,
         "dir": "/reg/g/pcds/epics-dev/skoufis/edt",
+        "disable": true,
         "alias": "HXS ORCA",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
