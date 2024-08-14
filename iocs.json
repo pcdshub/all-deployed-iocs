@@ -4956,7 +4956,7 @@
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-plc-qrix-mot",
         "script": "/reg/g/pcds/epics-dev/nlentz/lcls-plc-qrix-motion/iocBoot/ioc-qrix-motion/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics-dev/nlentz/lcls-plc-qrix-motion/iocBoot/ioc-qrix-motion/c:/Repos/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-rix-qrix-mot-01",
