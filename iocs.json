@@ -8961,6 +8961,7 @@
         "host": "ioc-cxi-rec01",
         "port": 32519,
         "dir": "ioc/cxi/ims/R6.7.1",
+        "disable": true,
         "alias": "IMS DS1 Stand",
         "history": [
             "ioc/cxi/ims/R2.0.0",
