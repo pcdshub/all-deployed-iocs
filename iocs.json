@@ -7620,24 +7620,24 @@
     {
         "host": "ioc-cxi-acromag",
         "port": 39100,
-        "dir": "ioc/cxi/gigECam/R5.0.1",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - Laser Enclosure Near Field Tutti Frutti",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-las-gige-01",
-        "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R5.0.1/build/iocBoot/ioc-cxi-las-gige-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam/build/iocBoot/ioc-cxi-las-gige-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-cxi-acromag",
         "port": 39101,
-        "dir": "ioc/cxi/gigECam/R5.0.1",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - Laser Enclosure Far Field Tutti Frutti",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-las-gige-02",
-        "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R5.0.1/build/iocBoot/ioc-cxi-las-gige-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam/build/iocBoot/ioc-cxi-las-gige-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-cxi-acromag",
@@ -7653,29 +7653,29 @@
     {
         "host": "ioc-cxi-cam2",
         "port": 32106,
-        "dir": "ioc/cxi/gigECam/R5.0.1",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - SC2 Inline Gige 06",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-gige-06",
-        "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R5.0.1/build/iocBoot/ioc-cxi-gige-06/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam/build/iocBoot/ioc-cxi-gige-06/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-cxi-cam2",
         "port": 39100,
-        "dir": "ioc/cxi/gigECam/R5.0.1",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - SC1 Navitar Gige",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-navitar1-gige",
-        "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R5.0.1/build/iocBoot/ioc-cxi-navitar1-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam/build/iocBoot/ioc-cxi-navitar1-gige/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-cxi-cam5",
         "port": 32003,
-        "dir": "ioc/cxi/gigECam/R5.0.1",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - Timetool Gige",
         "history": [
             "ioc/cxi/gigECam/R5.0.1"
@@ -7683,8 +7683,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-timetool-gige",
-        "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R5.0.1/build/iocBoot/ioc-cxi-timetool-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam/build/iocBoot/ioc-cxi-timetool-gige/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-cxi-dg1",
@@ -9073,24 +9073,24 @@
     {
         "host": "ioc-cxi-rec03",
         "port": 32107,
-        "dir": "ioc/cxi/gigECam/R5.0.1",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - SC2 Offaxis Gige 07",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-gige-07",
-        "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R5.0.1/build/iocBoot/ioc-cxi-gige-07/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam/build/iocBoot/ioc-cxi-gige-07/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-cxi-rec03",
         "port": 30001,
-        "dir": "ioc/cxi/gigECam/R5.0.1",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - SC1 Offaxis Gige 08",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-gige-08",
-        "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R5.0.1/build/iocBoot/ioc-cxi-gige-08/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam/build/iocBoot/ioc-cxi-gige-08/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-cxi-rec03",
@@ -9173,24 +9173,24 @@
     {
         "host": "ioc-cxi-rec04",
         "port": 30001,
-        "dir": "ioc/cxi/gigECam/R5.0.1",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - SC3 Offaxis",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-gige-03",
-        "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R5.0.1/build/iocBoot/ioc-cxi-gige-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam/build/iocBoot/ioc-cxi-gige-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-cxi-rec04",
         "port": 30103,
-        "dir": "ioc/cxi/gigECam/R5.0.1",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - SC3 Inline Questar Gige 05",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-gige-05",
-        "script": "/reg/g/pcds/epics/ioc/cxi/gigECam/R5.0.1/build/iocBoot/ioc-cxi-gige-05/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam/build/iocBoot/ioc-cxi-gige-05/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-cxi-rec04",
