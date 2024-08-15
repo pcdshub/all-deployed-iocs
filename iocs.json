@@ -16897,17 +16897,6 @@
     },
     {
         "host": "ioc-xcs-misc2",
-        "port": 39101,
-        "dir": "/reg/g/pcds/epics-dev/cagee/ioc/common-dev/labMax-TOP",
-        "alias": "ioc-xcs-labMax",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-labMax",
-        "script": "/reg/g/pcds/epics-dev/cagee/ioc/common-dev/labMax-TOP/build/iocBoot/ioc-xcs-labMax/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/labMax-TOP/R1.8.2/bin/linux-x86_64/labMax"
-    },
-    {
-        "host": "ioc-xcs-misc2",
         "port": 30481,
         "dir": "ioc/xcs/ims/R6.0.2",
         "alias": "USR - Ladm Patch Dumb Motion",
@@ -18620,6 +18609,17 @@
         "name": "ioc-xcs-kaptonShutter",
         "script": "/reg/g/pcds/epics/ioc/xcs/kaptonShutter/R0.3.0/iocBoot/ioc-xcs-kaptonShutter/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/xcs/kaptonShutter/R0.3.0/bin/linux-x86_64/kaptonShutter"
+    },
+    {
+        "host": "ioc-xcs-user2",
+        "port": 39101,
+        "dir": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/labMax-TOP",
+        "alias": "ioc-xcs-labMax",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-labMax",
+        "script": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/labMax-TOP/build/iocBoot/ioc-xcs-labMax/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/labMax-TOP/R1.8.1/bin/linux-x86_64/labMax"
     },
     {
         "host": "ioc-xcs-user2",
