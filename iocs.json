@@ -15579,6 +15579,7 @@
         "host": "ioc-mfx-misc02",
         "port": 32010,
         "dir": "/reg/g/pcds/epics-dev/spencera/plcs/vonhamos-motion/epics/cfg",
+        "disable": true,
         "alias": "DET - Von Hamos Beckhoff Motion",
         "history": [
             "/reg/neh/home/zlentz/github/vonhamos-motion/epics/cfg"
