@@ -6219,7 +6219,7 @@
     {
         "host": "ctl-tmo-mot-01",
         "port": 34242,
-        "dir": "/reg/g/pcds/epics-dev/zlentz/lcls-plc-tmo-motion",
+        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-tmo-motion/iocBoot/ioc-tmo-motion/",
         "alias": "TMO CC Motion",
         "history": [
             "ioc/tmo/lcls-plc-tmo-motion/v1.2.0"
@@ -6227,7 +6227,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-motion",
-        "script": "/reg/g/pcds/epics-dev/zlentz/lcls-plc-tmo-motion/iocBoot/ioc-tmo-motion/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-tmo-motion/iocBoot/ioc-tmo-motion/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
     },
     {
