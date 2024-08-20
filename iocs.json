@@ -6143,15 +6143,15 @@
     {
         "host": "ctl-tmo-mot-01",
         "port": 35001,
-        "dir": "/reg/g/pcds/epics-dev/tongju/PLC/lcls-plc-mrco-motion",
+        "dir": "/reg/g/pcds/epics-dev/nlentz/lcls-plc-mrco-motion",
         "history": [
             "ioc/tmo/mrco/lcls-plc-mrco-motion/v1.0.0"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-mrco-motion",
-        "script": "/reg/g/pcds/epics-dev/tongju/PLC/lcls-plc-mrco-motion/iocBoot/ioc-mrco-motion/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics-dev/nlentz/lcls-plc-mrco-motion/iocBoot/ioc-mrco-motion/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-tmo-mot-01",
