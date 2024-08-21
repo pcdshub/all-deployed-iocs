@@ -12495,7 +12495,7 @@
     {
         "host": "ioc-mec-evg",
         "port": 30623,
-        "dir": "ioc/mec/ims/R2.3.2",
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/ims",
         "history": [
             "ioc/mec/ims/R2.1.0",
             "ioc/mec/ims/R1.0.1"
@@ -12504,7 +12504,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-tc1-vt50-ims",
-        "script": "/reg/g/pcds/epics/ioc/mec/ims/R2.3.2/build/iocBoot/ioc-mec-tc1-vt50-ims/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/ims/build/iocBoot/ioc-mec-tc1-vt50-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.9/bin/linux-x86/ims"
     },
     {
