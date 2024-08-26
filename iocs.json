@@ -3424,7 +3424,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-xcs-evr-01",
         "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/evr/build/iocBoot/ioc-las-xcs-evr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/rhel7-x86_64/evr"
+        "binary": "/cds/group/pcds/epics/ioc/common/evr/R1.3.0/bin/rhel7-x86_64/evr"
     },
     {
         "host": "ctl-las-xcs-srv01",
