@@ -2671,28 +2671,6 @@
     },
     {
         "host": "ctl-las-lhn-03",
-        "port": 30005,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lhn-bay3-ff-03",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/build/iocBoot/ioc-lhn-bay3-ff-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
-    },
-    {
-        "host": "ctl-las-lhn-03",
-        "port": 30006,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lhn-bay3-ff-04",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/gigECam/build/iocBoot/ioc-lhn-bay3-ff-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
-    },
-    {
-        "host": "ctl-las-lhn-03",
         "port": 30011,
         "dir": "ioc/las/gigECam/R0.3.5",
         "base_version": "3.15",
