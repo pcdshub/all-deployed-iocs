@@ -16508,35 +16508,6 @@
     },
     {
         "host": "ioc-xcs-gige01",
-        "port": 32506,
-        "dir": "ioc/xcs/gigECam/R3.0.5",
-        "alias": "CAM - Gige 06",
-        "history": [
-            "ioc/xcs/gigECam/R3.0.5",
-            "ioc/xcs/gigECam/R0.5.3"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-gige-06",
-        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R3.0.5/build/iocBoot/ioc-xcs-gige-06/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ioc-xcs-gige01",
-        "port": 30001,
-        "dir": "ioc/xcs/gigECam/R3.0.5",
-        "alias": "CAM - Gige 12",
-        "history": [
-            "/reg/g/pcds/epics-dev/ctsoi/ioc/xcs/gigECam"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-gige-12",
-        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R3.0.5/build/iocBoot/ioc-xcs-gige-12/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ioc-xcs-gige01",
         "port": 32516,
         "dir": "ioc/xcs/gigECam/R3.0.5",
         "alias": "CAM - Gige 16 - Yag 4",
@@ -16578,19 +16549,6 @@
         "name": "ioc-xcs-gige-18",
         "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R1.2.4/build/iocBoot/ioc-xcs-gige-18/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.0.3/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ioc-xcs-gige01",
-        "port": 36037,
-        "dir": "ioc/xcs/gigECam/R3.0.5",
-        "history": [
-            "ioc/xcs/gigECam/R3.0.3"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-gige-19",
-        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R3.0.5/build/iocBoot/ioc-xcs-gige-19/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xcs-gige01",
@@ -16763,6 +16721,21 @@
     },
     {
         "host": "ioc-xcs-misc2",
+        "port": 32506,
+        "dir": "ioc/xcs/gigECam/R3.0.5",
+        "alias": "CAM - Gige 06",
+        "history": [
+            "ioc/xcs/gigECam/R3.0.5",
+            "ioc/xcs/gigECam/R0.5.3"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-gige-06",
+        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R3.0.5/build/iocBoot/ioc-xcs-gige-06/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-xcs-misc2",
         "port": 32508,
         "dir": "ioc/xcs/gigECam/R3.0.5",
         "alias": "CAM - Gige 08",
@@ -16774,6 +16747,33 @@
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-08",
         "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R3.0.5/build/iocBoot/ioc-xcs-gige-08/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-xcs-misc2",
+        "port": 30001,
+        "dir": "ioc/xcs/gigECam/R3.0.5",
+        "alias": "CAM - Gige 12",
+        "history": [
+            "/reg/g/pcds/epics-dev/ctsoi/ioc/xcs/gigECam"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-gige-12",
+        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R3.0.5/build/iocBoot/ioc-xcs-gige-12/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-xcs-misc2",
+        "port": 36037,
+        "dir": "ioc/xcs/gigECam/R3.0.5",
+        "history": [
+            "ioc/xcs/gigECam/R3.0.3"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-gige-19",
+        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R3.0.5/build/iocBoot/ioc-xcs-gige-19/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
     },
     {
