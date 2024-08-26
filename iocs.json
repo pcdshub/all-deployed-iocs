@@ -3568,7 +3568,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-xcs-ctr-01",
         "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/agilent5322/build/iocBoot/ioc-las-xcs-ctr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R2.0.3/bin/rhel7-x86_64/agilent5322"
+        "binary": "/cds/group/pcds/epics/ioc/common/agilent5322/R2.0.3/bin/rhel7-x86_64/agilent5322"
     },
     {
         "host": "ctl-las-xcs-srv01",
@@ -11907,7 +11907,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-mec-ctr-01",
         "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/agilent5322/build/iocBoot/ioc-las-mec-ctr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R2.0.3/bin/rhel7-x86_64/agilent5322"
+        "binary": "/cds/group/pcds/epics/ioc/common/agilent5322/R2.0.3/bin/rhel7-x86_64/agilent5322"
     },
     {
         "host": "ioc-las-mec-srv06",
