@@ -2876,26 +2876,6 @@
     },
     {
         "host": "ctl-las-lhn-04",
-        "port": 30202,
-        "dir": "/reg/g/pcds/epics-dev/mods/lln/gigEcam",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-lln-gige-ff-01",
-        "script": "/reg/g/pcds/epics-dev/mods/lln/gigEcam/build/iocBoot/ioc-las-lln-gige-ff-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-lhn-04",
-        "port": 30201,
-        "dir": "/reg/g/pcds/epics-dev/mods/lln/gigEcam",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-lln-gige-nf-01",
-        "script": "/reg/g/pcds/epics-dev/mods/lln/gigEcam/build/iocBoot/ioc-las-lln-gige-nf-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-lhn-04",
         "port": 30007,
         "dir": "ioc/las/pdu_snmp/R1.3.0",
         "base_version": "3.15",
@@ -3196,6 +3176,26 @@
     },
     {
         "host": "ctl-las-lln-01",
+        "port": 30202,
+        "dir": "/reg/g/pcds/epics-dev/mods/lln/gigEcam",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-lln-gige-ff-01",
+        "script": "/reg/g/pcds/epics-dev/mods/lln/gigEcam/build/iocBoot/ioc-las-lln-gige-ff-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-lln-01",
+        "port": 30201,
+        "dir": "/reg/g/pcds/epics-dev/mods/lln/gigEcam",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-lln-gige-nf-01",
+        "script": "/reg/g/pcds/epics-dev/mods/lln/gigEcam/build/iocBoot/ioc-las-lln-gige-nf-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-lln-01",
         "port": 30011,
         "dir": "/cds/group/pcds/epics-dev/aberges/mods/mods-LRL/lln/smaract",
         "base_version": "3.15",
@@ -3213,105 +3213,6 @@
         "name": "ioc-lln-mcs2-02",
         "script": "/cds/group/pcds/epics-dev/aberges/mods/mods-LRL/lln/smaract/build/iocBoot/ioc-lln-mcs2-02/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.22/bin/rhel7-x86_64/smaract"
-    },
-    {
-        "host": "ctl-las-lln-01",
-        "port": 30101,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm1k2/com/gigECam",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k2-com-gige-ff-01",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k2/com/gigECam/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ctl-las-lln-01",
-        "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm1k2/com/gigECam",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k2-com-gige-ff-02",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k2/com/gigECam/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ctl-las-lln-01",
-        "port": 30102,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm1k2/com/gigECam",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k2-com-gige-ff-03",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k2/com/gigECam/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ctl-las-lln-01",
-        "port": 30007,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm1k2/com/gigECam",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k2-com-gige-nf-02",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k2/com/gigECam/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ctl-las-lln-01",
-        "port": 30021,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm1k2/com/gigECam",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k2-com-gige-nf-03",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k2/com/gigECam/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ctl-las-lln-01",
-        "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm1k2/hrm/gigECam",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k2-hrm-gige-ff-01",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k2/hrm/gigECam/build/iocBoot/ioc-lm1k2-hrm-gige-ff-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-lln-01",
-        "port": 30003,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm1k2/hrm/gigECam",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k2-hrm-gige-ff-02",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k2/hrm/gigECam/build/iocBoot/ioc-lm1k2-hrm-gige-ff-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-lln-01",
-        "port": 30004,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm1k2/hrm/gigECam",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k2-hrm-gige-nf-01",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k2/hrm/gigECam/build/iocBoot/ioc-lm1k2-hrm-gige-nf-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-lln-01",
-        "port": 30005,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm1k2/hrm/gigECam",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k2-hrm-gige-nf-02",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k2/hrm/gigECam/build/iocBoot/ioc-lm1k2-hrm-gige-nf-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R4.2.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lln-02",
@@ -16762,20 +16663,6 @@
         "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
     },
     {
-        "host": "ioc-xcs-gige01",
-        "port": 30101,
-        "dir": "/reg/g/pcds/epics-dev/cagee/ioc/common/usdusb4/R1.0.7",
-        "alias": "GON - USB Encoder Box",
-        "history": [
-            "ioc/common/usdusb4/R1.0.4"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-usdusb4",
-        "script": "/reg/g/pcds/epics-dev/cagee/ioc/common/usdusb4/R1.0.7/children/build/iocBoot/ioc-xcs-usdusb4/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cagee/ioc/common/usdusb4/R1.0.7/bin/rhel7-x86_64/usdusb4"
-    },
-    {
         "host": "ioc-xcs-misc1",
         "port": 30333,
         "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/xcs/crackMon/current",
@@ -18731,6 +18618,20 @@
         "name": "ioc-xcs-mon-ccm-alio",
         "script": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/ccm/deltaTauMotion/iocBoot/ioc-xcs-mon-ccm-alio/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/ccm/deltaTauMotion/bin/linux-x86_64/deltaTauMotion"
+    },
+    {
+        "host": "ioc-xcs-user2",
+        "port": 30101,
+        "dir": "ioc/common/usdusb4/R1.0.4",
+        "alias": "GON - USB Encoder Box",
+        "history": [
+            "ioc/common/usdusb4/R1.0.4"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-usdusb4",
+        "script": "/reg/g/pcds/epics/ioc/common/usdusb4/R1.0.4/children/build/iocBoot/ioc-xcs-usdusb4/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/usdusb4/R1.0.4/bin/linux-x86_64/usdusb4"
     },
     {
         "host": "ioc-xcs-user2",
