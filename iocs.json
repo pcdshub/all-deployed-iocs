@@ -787,17 +787,6 @@
     },
     {
         "host": "ctl-las-crix-srv01",
-        "port": 30032,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/inj/thorlabs-ell/",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm2k2-inj-ell-02",
-        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/inj/thorlabs-ell/build/iocBoot/ioc-lm2k2-inj-ell-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
-    },
-    {
-        "host": "ctl-las-crix-srv01",
         "port": 30023,
         "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/inj/gigECam/",
         "base_version": "3.15",
@@ -895,28 +884,6 @@
         "name": "ioc-lm2k2-com-ell-02",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/thorlabs-ell/build/iocBoot/ioc-lm2k2-com-ell-02/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
-    },
-    {
-        "host": "ctl-las-crix-srv02",
-        "port": 30112,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/com/thorlabs-ell/",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm2k2-com-ell-03",
-        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/thorlabs-ell/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ctl-las-crix-srv02",
-        "port": 30113,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/com/thorlabs-ell/",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm2k2-com-ell-04",
-        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/thorlabs-ell/st.cmd",
-        "binary": null
     },
     {
         "host": "ctl-las-crix-srv02",
@@ -1077,17 +1044,6 @@
         "name": "ioc-lm2k2-atm-ell-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/atm/thorlabs-ell/build/iocBoot/ioc-lm2k2-atm-ell-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
-    },
-    {
-        "host": "ctl-las-crix-srv04",
-        "port": 30011,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/atm/thorlabs-ell/",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm2k2-atm-ell-02",
-        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/atm/thorlabs-ell/st.cmd",
-        "binary": null
     },
     {
         "host": "ctl-las-crix-srv04",
@@ -1315,17 +1271,6 @@
         "name": "ioc-crix-las-tpr6",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/tprStandalone/build/iocBoot/ioc-crix-las-tpr6/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.5/bin/rhel7-x86_64/tpr"
-    },
-    {
-        "host": "ctl-las-crix-srv06",
-        "port": 30011,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/hrm/thorlabs-ell/",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-hrm-ell-02",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/hrm/thorlabs-ell/st.cmd",
-        "binary": null
     },
     {
         "host": "ctl-las-crix-srv07",
@@ -1742,17 +1687,6 @@
     },
     {
         "host": "ctl-las-ip1-srv02",
-        "port": 30012,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/com/thorlabs-ell/",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-com-ell-03",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/com/thorlabs-ell/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ctl-las-ip1-srv02",
         "port": 30109,
         "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/com/gigECam/",
         "base_version": "3.15",
@@ -2083,17 +2017,6 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-ejx-ell-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/thorlabs-ell/build/iocBoot/ioc-lm1k4-ejx-ell-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
-    },
-    {
-        "host": "ctl-las-ip1-srv05",
-        "port": 30011,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/thorlabs-ell",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lm1k4-ejx-ell-02",
-        "script": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/thorlabs-ell/build/iocBoot/ioc-lm1k4-ejx-ell-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
     },
     {
@@ -2570,126 +2493,6 @@
         "binary": "/cds/group/pcds/epics/ioc/common/qmini/R1.0.2/bin/rhel7-x86_64/qmini"
     },
     {
-        "host": "ctl-las-lhn-03",
-        "port": 30014,
-        "dir": "ioc/las/gigECam/R0.3.5",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lhn-bay2-ff-01",
-        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.3.5/build/iocBoot/ioc-lhn-bay2-ff-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-lhn-03",
-        "port": 30015,
-        "dir": "ioc/las/gigECam/R0.3.5",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lhn-bay2-ff-02",
-        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.3.5/build/iocBoot/ioc-lhn-bay2-ff-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-lhn-03",
-        "port": 30016,
-        "dir": "ioc/las/gigECam/R0.3.5",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lhn-bay2-ff-03",
-        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.3.5/build/iocBoot/ioc-lhn-bay2-ff-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-lhn-03",
-        "port": 30021,
-        "dir": "/cds/group/pcds/epics/ioc/las/gigECam/R0.3.6",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lhn-bay2-ff-04",
-        "script": "/cds/group/pcds/epics/ioc/las/gigECam/R0.3.6/build/iocBoot/ioc-lhn-bay2-ff-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.4/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-lhn-03",
-        "port": 30017,
-        "dir": "ioc/las/gigECam/R0.3.5",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lhn-bay2-nf-01",
-        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.3.5/build/iocBoot/ioc-lhn-bay2-nf-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-lhn-03",
-        "port": 30018,
-        "dir": "ioc/las/gigECam/R0.3.5",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lhn-bay2-nf-02",
-        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.3.5/build/iocBoot/ioc-lhn-bay2-nf-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-lhn-03",
-        "port": 30019,
-        "dir": "ioc/las/gigECam/R0.3.5",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lhn-bay2-nf-03",
-        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.3.5/build/iocBoot/ioc-lhn-bay2-nf-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-lhn-03",
-        "port": 30020,
-        "dir": "/cds/group/pcds/epics/ioc/las/gigECam/R0.3.6",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lhn-bay2-nf-04",
-        "script": "/cds/group/pcds/epics/ioc/las/gigECam/R0.3.6/build/iocBoot/ioc-lhn-bay2-nf-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.4/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-lhn-03",
-        "port": 30010,
-        "dir": "ioc/las/gigECam/R0.3.5",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lhn-bay3-ff-01",
-        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.3.5/build/iocBoot/ioc-lhn-bay3-ff-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-lhn-03",
-        "port": 30012,
-        "dir": "ioc/las/gigECam/R0.3.5",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lhn-bay3-ff-02",
-        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.3.5/build/iocBoot/ioc-lhn-bay3-ff-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-lhn-03",
-        "port": 30011,
-        "dir": "ioc/las/gigECam/R0.3.5",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lhn-bay3-nf-01",
-        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.3.5/build/iocBoot/ioc-lhn-bay3-nf-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ctl-las-lhn-03",
-        "port": 30013,
-        "dir": "ioc/las/gigECam/R0.3.5",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-lhn-bay3-nf-02",
-        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.3.5/build/iocBoot/ioc-lhn-bay3-nf-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
-    },
-    {
         "host": "ctl-las-lhn-04",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/pvNotepad/pvNotepad-git",
@@ -2970,6 +2773,46 @@
     },
     {
         "host": "ctl-las-lhn-sp01",
+        "port": 30010,
+        "dir": "ioc/las/gigECam/R0.3.5",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lhn-bay3-ff-01",
+        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.3.5/build/iocBoot/ioc-lhn-bay3-ff-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-lhn-sp01",
+        "port": 30012,
+        "dir": "ioc/las/gigECam/R0.3.5",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lhn-bay3-ff-02",
+        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.3.5/build/iocBoot/ioc-lhn-bay3-ff-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-lhn-sp01",
+        "port": 30011,
+        "dir": "ioc/las/gigECam/R0.3.5",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lhn-bay3-nf-01",
+        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.3.5/build/iocBoot/ioc-lhn-bay3-nf-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-lhn-sp01",
+        "port": 30013,
+        "dir": "ioc/las/gigECam/R0.3.5",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lhn-bay3-nf-02",
+        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.3.5/build/iocBoot/ioc-lhn-bay3-nf-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-lhn-sp01",
         "port": 30004,
         "dir": "/cds/home/t/tjohnson/trunk/common/locker_manager",
         "base_version": "3.15",
@@ -3077,6 +2920,86 @@
         "name": "ioc-lcls-plc-lps-02",
         "script": "/reg/g/pcds/epics-dev/divyak/gitproject/lcls-plc-eps-02-dev/lcls-plc-lps-02/lcls-plc-lps-02/iocBoot/ioc-lcls-plc-lps-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ctl-las-lhn-sp02",
+        "port": 30014,
+        "dir": "ioc/las/gigECam/R0.3.5",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lhn-bay2-ff-01",
+        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.3.5/build/iocBoot/ioc-lhn-bay2-ff-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-lhn-sp02",
+        "port": 30015,
+        "dir": "ioc/las/gigECam/R0.3.5",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lhn-bay2-ff-02",
+        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.3.5/build/iocBoot/ioc-lhn-bay2-ff-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-lhn-sp02",
+        "port": 30016,
+        "dir": "ioc/las/gigECam/R0.3.5",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lhn-bay2-ff-03",
+        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.3.5/build/iocBoot/ioc-lhn-bay2-ff-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-lhn-sp02",
+        "port": 30021,
+        "dir": "/cds/group/pcds/epics/ioc/las/gigECam/R0.3.6",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lhn-bay2-ff-04",
+        "script": "/cds/group/pcds/epics/ioc/las/gigECam/R0.3.6/build/iocBoot/ioc-lhn-bay2-ff-04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.4/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-lhn-sp02",
+        "port": 30017,
+        "dir": "ioc/las/gigECam/R0.3.5",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lhn-bay2-nf-01",
+        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.3.5/build/iocBoot/ioc-lhn-bay2-nf-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-lhn-sp02",
+        "port": 30018,
+        "dir": "ioc/las/gigECam/R0.3.5",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lhn-bay2-nf-02",
+        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.3.5/build/iocBoot/ioc-lhn-bay2-nf-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-lhn-sp02",
+        "port": 30019,
+        "dir": "ioc/las/gigECam/R0.3.5",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lhn-bay2-nf-03",
+        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.3.5/build/iocBoot/ioc-lhn-bay2-nf-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-lhn-sp02",
+        "port": 30020,
+        "dir": "/cds/group/pcds/epics/ioc/las/gigECam/R0.3.6",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lhn-bay2-nf-04",
+        "script": "/cds/group/pcds/epics/ioc/las/gigECam/R0.3.6/build/iocBoot/ioc-lhn-bay2-nf-04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.4/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lhn-sp02",
