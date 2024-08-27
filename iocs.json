@@ -4357,7 +4357,6 @@
         "host": "ctl-rix-fim-01",
         "port": 30004,
         "dir": "ioc/rix/pgpWave8/R2.3.0",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pgpw8-04",
@@ -21317,26 +21316,24 @@
     {
         "host": "ioc-xrt-rec07",
         "port": 32539,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xrt.svn/protura/HXSencoders/current",
-        "disable": true,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/xrt/protura/HXSencoders/current",
         "alias": "HXS Encoders",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-hxs-encoders",
-        "script": "/reg/g/pcds/epics-dev/spencera/xrt.svn/protura/HXSencoders/current/build/iocBoot/ioc-xrt-hxs-encoders/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/protura/R1.0.0/bin/linux-x86_64/protura"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/xrt/protura/HXSencoders/current/build/iocBoot/ioc-xrt-hxs-encoders/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/protura/R2.0.0/bin/rhel7-x86_64/protura"
     },
     {
         "host": "ioc-xrt-rec07",
         "port": 37523,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xrt/ims",
-        "disable": true,
+        "dir": "/reg/g/pcds/epics/ioc/xrt/ims/R6.3.0/build/iocBoot/ioc-xrt-hxs-ims/",
         "alias": "HXS Motors",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-hxs-ims",
-        "script": "/reg/g/pcds/epics-dev/spencera/xrt/ims/build/iocBoot/ioc-xrt-hxs-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+        "script": "/reg/g/pcds/epics/ioc/xrt/ims/R6.3.0/build/iocBoot/ioc-xrt-hxs-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.3.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xrt-rec07",
