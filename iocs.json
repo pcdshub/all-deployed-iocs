@@ -6996,6 +6996,17 @@
     },
     {
         "host": "daq-rix-ccd-01",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-vimbaCam",
+        "alias": "QRIX Alvium",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-alv1",
+        "script": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-vimbaCam/build/iocBoot/ioc-rix-alv1/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/vimbaCam/R1.0.6/bin/rhel7-x86_64/vimbaTpr"
+    },
+    {
+        "host": "daq-rix-ccd-01",
         "port": 30001,
         "dir": "ioc/rix/tprStandalone/R1.2.0",
         "alias": "RIX CCD TPR 1",
