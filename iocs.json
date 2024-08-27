@@ -4357,6 +4357,7 @@
         "host": "ctl-rix-fim-01",
         "port": 30004,
         "dir": "ioc/rix/pgpWave8/R2.3.0",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pgpw8-04",
