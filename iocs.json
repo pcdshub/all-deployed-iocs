@@ -12324,7 +12324,7 @@
     {
         "host": "ioc-mec-evg",
         "port": 30631,
-        "dir": "ioc/mec/ims/R2.3.2",
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/ims",
         "alias": "Patch panel dumb motors",
         "history": [
             "ioc/mec/ims/R2.1.0",
@@ -12333,7 +12333,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-usrppl-ims",
-        "script": "/reg/g/pcds/epics/ioc/mec/ims/R2.3.2/build/iocBoot/ioc-mec-usrppl-ims/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/ims/build/iocBoot/ioc-mec-usrppl-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.9/bin/linux-x86/ims"
     },
     {
