@@ -21311,7 +21311,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-hxs",
         "script": "/reg/g/pcds/epics-dev/spencera/xrt/HXS/iocBoot/ioc-xrt-hxs/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/spencera/xrt/HXS/bin/linux-x86_64/hxs"
+        "binary": "/reg/g/pcds/epics-dev/spencera/xrt/HXS/bin/rhel7-x86_64/hxs"
     },
     {
         "host": "ioc-xrt-rec07",
