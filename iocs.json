@@ -4357,6 +4357,7 @@
         "host": "ctl-rix-fim-01",
         "port": 30004,
         "dir": "ioc/rix/pgpWave8/R2.3.0",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pgpw8-04",
@@ -21335,7 +21336,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-hxs-ims",
         "script": "/reg/g/pcds/epics-dev/spencera/xrt/ims/build/iocBoot/ioc-xrt-hxs-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86/ims"
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xrt-rec07",
