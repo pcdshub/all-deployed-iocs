@@ -21302,6 +21302,16 @@
     },
     {
         "host": "ioc-xrt-rec07",
+        "port": 39109,
+        "dir": "/reg/g/pcds/epics-dev/spencera/xrt/HXS/iocBoot/ioc-xrt-hxs",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
+        "name": "ioc-xrt-hxs",
+        "script": "/reg/g/pcds/epics-dev/spencera/xrt/HXS/iocBoot/ioc-xrt-hxs/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/spencera/xrt/HXS/bin/linux-x86_64/hxs"
+    },
+    {
+        "host": "ioc-xrt-rec07",
         "port": 32539,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/xrt/protura/HXSencoders/current",
         "alias": "HXS Encoders",
