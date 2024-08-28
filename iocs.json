@@ -4356,11 +4356,11 @@
     {
         "host": "ctl-rix-fim-01",
         "port": 30004,
-        "dir": "ioc/rix/pgpWave8/R2.3.0",
+        "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-pgpWave8",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pgpw8-04",
-        "script": "/reg/g/pcds/epics/ioc/rix/pgpWave8/R2.3.0/build/iocBoot/ioc-rix-pgpw8-04/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-pgpWave8/build/iocBoot/ioc-rix-pgpw8-04/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R2.3.0/bin/rhel7-x86_64/pgpWave8"
     },
     {
@@ -17313,7 +17313,6 @@
         "host": "ioc-xcs-mot2",
         "port": 35327,
         "dir": "ioc/xcs/shimadzu-lc20/R1.0.0",
-        "disable": true,
         "alias": "HPLC",
         "history": [
             "ioc/xcs/shimadzu-lc20/R1.0.0"
