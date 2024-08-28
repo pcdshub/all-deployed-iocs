@@ -8324,7 +8324,6 @@
         "host": "ioc-cxi-mot2",
         "port": 31121,
         "dir": "ioc/cxi/NewportXPS8/R1.2.1",
-        "disable": true,
         "alias": "Newport XPS User",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
