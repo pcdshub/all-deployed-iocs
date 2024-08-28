@@ -21304,7 +21304,6 @@
         "host": "ioc-xrt-rec07",
         "port": 37525,
         "dir": "/reg/g/pcds/epics-dev/spencera/xrt/HXS",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-hxs",
