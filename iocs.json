@@ -15184,6 +15184,17 @@
     },
     {
         "host": "ioc-mfx-misc02",
+        "port": 39101,
+        "dir": "/reg/g/pcds/epics-dev/zlentz/ioc/mfx/galil",
+        "alias": "ioc-mfx-galil",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-galil",
+        "script": "/reg/g/pcds/epics-dev/zlentz/ioc/mfx/galil/iocBoot/ioc-mfx-galil/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/zlentz/ioc/mfx/galil/bin/rhel7-x86_64/galil"
+    },
+    {
+        "host": "ioc-mfx-misc02",
         "port": 30204,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/ims/current",
         "disable": true,
