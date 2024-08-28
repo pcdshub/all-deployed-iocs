@@ -21293,13 +21293,13 @@
     {
         "host": "ioc-xrt-rec07",
         "port": 39303,
-        "dir": "/reg/g/pcds/epics-dev/skoufis/edt",
+        "dir": "/reg/g/pcds/epics-dev/spencera/lfe/edtCam",
         "alias": "HXS ORCA",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-lfe-orca1",
-        "script": "/reg/g/pcds/epics-dev/skoufis/edt/build/iocBoot/ioc-lfe-orca1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.1-1.0/bin/rhel7-x86_64/edt"
+        "script": "/reg/g/pcds/epics-dev/spencera/lfe/edtCam/build/iocBoot/ioc-lfe-orca1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.0.1/bin/linux-x86_64/edt"
     },
     {
         "host": "ioc-xrt-rec07",
