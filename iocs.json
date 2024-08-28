@@ -6516,12 +6516,12 @@
     {
         "host": "ctl-ued-cam-01",
         "port": 39102,
-        "dir": "/reg/g/pcds/epics-dev/iroque/ioc-ued-vimbacam",
+        "dir": "ioc/ued/vimbacam/R1.0.6",
         "alias": "VimbaCam",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-alv1",
-        "script": "/reg/g/pcds/epics-dev/iroque/ioc-ued-vimbacam/build/iocBoot/ioc-ued-alv1/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/ued/vimbacam/R1.0.6/build/iocBoot/ioc-ued-alv1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.6/bin/rhel7-x86_64/vimbaTpr"
     },
     {
