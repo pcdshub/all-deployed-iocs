@@ -14500,7 +14500,6 @@
         "host": "ioc-mfx-cam01",
         "port": 30090,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/mfx/gigECam",
-        "disable": true,
         "alias": "CAM - GigE 05",
         "history": [
             "ioc/mfx/gigECam/R0.5.4"
