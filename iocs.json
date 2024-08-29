@@ -4080,7 +4080,7 @@
     {
         "host": "ctl-rix-crix-cam-02",
         "port": 30006,
-        "dir": "/reg/g/pcds/epics/ioc/rix/gigECam/R5.0.3",
+        "dir": "ioc/rix/gigECam/R2.3.0",
         "alias": "CRIXS GIGE 07",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
@@ -4089,7 +4089,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-gige-07",
-        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R5.0.3/build/iocBoot/ioc-crix-gige-07/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.3.0/build/iocBoot/ioc-crix-gige-07/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
