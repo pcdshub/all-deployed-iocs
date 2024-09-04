@@ -17682,7 +17682,7 @@
     {
         "host": "ioc-xcs-rec01",
         "port": 34501,
-        "dir": "ioc/xcs/ipimb/R4.1.5",
+        "dir": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/ipimb",
         "alias": "DET - IPM User & Gon",
         "history": [
             "ioc/xcs/ipimb/R4.1.5",
@@ -17691,8 +17691,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-usr-ipimb01",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ipimb/R4.1.5/build/iocBoot/ioc-xcs-usr-ipimb01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ipimb/R3.1.6/bin/linux-x86_64/ipimbIoc"
+        "script": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/ipimb/build/iocBoot/ioc-xcs-usr-ipimb01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ipimb/R3.2.4/bin/rhel7-x86_64/ipimbIoc"
     },
     {
         "host": "ioc-xcs-rec02",
@@ -17755,7 +17755,7 @@
     {
         "host": "ioc-xcs-rec02",
         "port": 34501,
-        "dir": "ioc/xcs/ipimb/R4.1.5",
+        "dir": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/ipimb",
         "alias": "DET - IPM 4, IPM5, & LADM",
         "history": [
             "ioc/xcs/ipimb/R4.1.5",
@@ -17764,8 +17764,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-ipimb01",
-        "script": "/reg/g/pcds/epics/ioc/xcs/ipimb/R4.1.5/build/iocBoot/ioc-xcs-ipimb01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ipimb/R3.1.6/bin/linux-x86_64/ipimbIoc"
+        "script": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/ipimb/build/iocBoot/ioc-xcs-ipimb01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ipimb/R3.2.4/bin/rhel7-x86_64/ipimbIoc"
     },
     {
         "host": "ioc-xcs-rec02",
@@ -17800,15 +17800,15 @@
     {
         "host": "ioc-xcs-rec02",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/timetool",
+        "dir": "ioc/common/timetool/R1.0.7",
         "history": [
             "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/timetool"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-tt",
-        "script": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/timetool/children/build/iocBoot/ioc-xcs-tt/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/timetool/bin/rhel7-x86_64/gsd"
+        "script": "/reg/g/pcds/epics/ioc/common/timetool/R1.0.7/children/build/iocBoot/ioc-xcs-tt/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/timetool/R1.0.7/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ioc-xcs-rec03",
