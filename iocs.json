@@ -13677,7 +13677,7 @@
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "lcls-plc-mec-jjslit-motion",
         "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/lcls-plc-mec-jjslit-motion/iocBoot/ioc-plc-mec-jj-motion/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/lcls-plc-mec-jjslit-motion/iocBoot/ioc-plc-mec-jj-motion/c:/Repos/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ioc-mec-mot3",
