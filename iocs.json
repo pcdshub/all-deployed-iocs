@@ -6231,11 +6231,11 @@
     {
         "host": "ctl-tst-dev-01",
         "port": 30003,
-        "dir": "/cds/home/z/zlentz/github/ioc-tst-pvNotepad",
+        "dir": "ioc/tst/pvNotepad/R0.2.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-try-deploy",
-        "script": "/cds/home/z/zlentz/github/ioc-tst-pvNotepad/build/iocBoot/ioc-tst-try-deploy/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/tst/pvNotepad/R0.2.0/build/iocBoot/ioc-tst-try-deploy/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
     },
     {
