@@ -14815,6 +14815,7 @@
         "host": "ioc-mfx-cam03",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam",
+        "disable": true,
         "alias": "CAM - Alvium",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
