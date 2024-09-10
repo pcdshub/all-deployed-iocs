@@ -16649,20 +16649,6 @@
     },
     {
         "host": "ioc-xcs-misc2",
-        "port": 39104,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/detectorprotection",
-        "alias": "EPIX Tripper",
-        "history": [
-            "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/detectorprotection"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-epix10ka2m-tripper",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/detectorprotection/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ioc-xcs-misc2",
         "port": 39100,
         "dir": "ioc/common/expstate/R1.0.9",
         "history": [
