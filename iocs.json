@@ -6585,6 +6585,16 @@
     },
     {
         "host": "ctl-ued-cam-01",
+        "port": 39103,
+        "dir": "/reg/g/pcds/epics-dev/iroque/ioc-ued-OceanOpticsSpectrometer",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
+        "name": "ioc-ued-spc-01",
+        "script": "/reg/g/pcds/epics-dev/iroque/ioc-ued-OceanOpticsSpectrometer/build/iocBoot/ioc-ued-spc-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/OceanOpticsSpectrometer/R1.0.4/bin/rhel7-x86_64/qepro"
+    },
+    {
+        "host": "ctl-ued-cam-01",
         "port": 39101,
         "dir": "ioc/ued/tprStandalone/R1.2.0",
         "alias": "TPR - cam-01",
@@ -14430,7 +14440,7 @@
     {
         "host": "ioc-mec-wave8",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics/ioc/mec/hpi_6012/R0.0.3/children/build/iocBoot/ioc-mec-hpi-3",
+        "dir": "ioc/mec/hpi_6012/R0.0.3",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-hpi-3",
@@ -14440,7 +14450,7 @@
     {
         "host": "ioc-mec-wave8",
         "port": 39103,
-        "dir": "/reg/g/pcds/epics/ioc/mec/hpi_6012/R0.0.3/children/build/iocBoot/ioc-mec-hpi-4",
+        "dir": "ioc/mec/hpi_6012/R0.0.3",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-hpi-4",
