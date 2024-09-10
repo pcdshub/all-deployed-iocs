@@ -94,7 +94,7 @@
     {
         "host": "ctl-kfe-cam-01",
         "port": 30002,
-        "dir": "/reg/g/pcds/epics/ioc/kfe/gigECam/R5.0.3/build/iocBoot/ioc-kfe-rtdsk0-gige/",
+        "dir": "ioc/kfe/gigECam/R5.0.3",
         "history": [
             "/cds/home/m/mkestra/gigECam"
         ],
@@ -107,7 +107,7 @@
     {
         "host": "ctl-kfe-cam-02",
         "port": 34201,
-        "dir": "/reg/g/pcds/epics/ioc/kfe/gigECam/R5.0.3",
+        "dir": "ioc/kfe/gigECam/R5.0.3",
         "history": [
             "ioc/kfe/gigECam/R1.0.1"
         ],
@@ -121,6 +121,9 @@
         "host": "ctl-kfe-cam-02",
         "port": 39109,
         "dir": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.6/children/build/iocBoot/ioc-kfe-alv1/",
+        "history": [
+            "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.6/children/build/iocBoot/ioc-kfe-alv1/"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-im1k0-alv",
@@ -130,7 +133,7 @@
     {
         "host": "ctl-kfe-cam-02",
         "port": 39101,
-        "dir": "/reg/g/pcds/epics/ioc/kfe/gigECam/R5.0.3",
+        "dir": "ioc/kfe/gigECam/R5.0.3",
         "alias": "IM1K1",
         "history": [
             "ioc/kfe/gigECam/R1.0.0",
@@ -145,7 +148,7 @@
     {
         "host": "ctl-kfe-cam-02",
         "port": 39104,
-        "dir": "/reg/g/pcds/epics/ioc/kfe/gigECam/R5.0.3",
+        "dir": "ioc/kfe/gigECam/R5.0.3",
         "alias": "IM2K0 - GIGE",
         "history": [
             "ioc/kfe/gigECam/R1.1.0"
@@ -159,7 +162,7 @@
     {
         "host": "ctl-kfe-cam-02",
         "port": 39201,
-        "dir": "/reg/g/pcds/epics/ioc/kfe/gigECam/R5.0.3",
+        "dir": "ioc/kfe/gigECam/R5.0.3",
         "alias": "IM2K1",
         "history": [
             "ioc/kfe/gigECam/R1.0.0",
@@ -174,7 +177,7 @@
     {
         "host": "ctl-kfe-cam-02",
         "port": 39105,
-        "dir": "/reg/g/pcds/epics/ioc/kfe/gigECam/R5.0.3",
+        "dir": "ioc/kfe/gigECam/R5.0.3",
         "alias": "IM2K4",
         "history": [
             "ioc/kfe/gigECam/R1.0.0",
@@ -204,7 +207,7 @@
     {
         "host": "ctl-kfe-cam-03",
         "port": 39301,
-        "dir": "/reg/g/pcds/epics/ioc/kfe/gigECam/R5.0.3",
+        "dir": "ioc/kfe/gigECam/R5.0.3",
         "alias": "IM1K3",
         "history": [
             "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git",
@@ -219,7 +222,7 @@
     {
         "host": "ctl-kfe-cam-03",
         "port": 34204,
-        "dir": "/reg/g/pcds/epics/ioc/kfe/gigECam/R5.0.3",
+        "dir": "ioc/kfe/gigECam/R5.0.3",
         "history": [
             "ioc/kfe/gigECam/R1.0.0",
             "/reg/neh/home/zlentz/github/lcls2-fee-cams"
@@ -233,7 +236,7 @@
     {
         "host": "ctl-kfe-cam-03",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics/ioc/kfe/gigECam/R5.0.3",
+        "dir": "ioc/kfe/gigECam/R5.0.3",
         "alias": "ioc-kfe-st1k4-gige",
         "history": [
             "/cds/home/m/mkestra/gigECam"
@@ -270,7 +273,7 @@
     {
         "host": "ctl-kfe-misc-01",
         "port": 39504,
-        "dir": "/reg/g/pcds/epics/ioc/kfe/gigECam/R5.0.3",
+        "dir": "ioc/kfe/gigECam/R5.0.3",
         "alias": "imat1k4",
         "history": [
             "/reg/g/pcds/epics-dev/aegger/R1.0.0"
@@ -541,7 +544,7 @@
     {
         "host": "ctl-kfe-mot-01",
         "port": 34203,
-        "dir": "/reg/g/pcds/epics/ioc/kfe/gigECam/R5.0.3",
+        "dir": "ioc/kfe/gigECam/R5.0.3",
         "disable": true,
         "history": [
             "ioc/kfe/gigECam/R1.0.0",
@@ -587,8 +590,9 @@
     {
         "host": "ctl-kfe-mot-01",
         "port": 30103,
-        "dir": "/reg/g/pcds/epics/ioc/tmo/lcls-plc-tmo-optics/v3.4.0/iocBoot/ioc-tmo-optics/",
+        "dir": "ioc/tmo/lcls-plc-tmo-optics/v3.4.0",
         "history": [
+            "/reg/g/pcds/epics/ioc/tmo/lcls-plc-tmo-optics/v3.4.0/iocBoot/ioc-tmo-optics/",
             "/reg/g/pcds/epics/ioc/tmo/lcls-plc-tmo-optics/v2.2.0/iocBoot/ioc-tmo-optics/",
             "/reg/g/pcds/epics-dev/awallace/lcls-plc-tmo-optics",
             "/reg/g/pcds/epics-dev/sfsyunus/lcls-plc-tmo-optics",
@@ -603,7 +607,10 @@
     {
         "host": "ctl-kfe-mot-01",
         "port": 30015,
-        "dir": "/reg/g/pcds/epics/ioc/txi/lcls-plc-txi-optics/v0.0.0/iocBoot/ioc-txi-optics/",
+        "dir": "ioc/txi/lcls-plc-txi-optics/v0.0.0",
+        "history": [
+            "/reg/g/pcds/epics/ioc/txi/lcls-plc-txi-optics/v0.0.0/iocBoot/ioc-txi-optics/"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-txi-optics",
@@ -6244,17 +6251,6 @@
         "name": "ioc-tst-asg",
         "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/tst/generic_streamdevice/children/build/iocBoot/ioc-tst-asg/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/tst/generic_streamdevice/bin/rhel7-x86_64/gsd"
-    },
-    {
-        "host": "ctl-tst-dev-01",
-        "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/interlock/children",
-        "alias": "Interlock",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-interlock",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/interlock/children/build/iocBoot/ioc-tst-interlock/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/interlock/bin/rhel7-x86_64/interlock"
     },
     {
         "host": "ctl-tst-dev-01",
@@ -16267,6 +16263,17 @@
         "name": "ioc-tst-gige-rix-01",
         "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current/build/iocBoot/ioc-tst-gige-rix-01/st.cmd",
         "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-tst-13",
+        "port": 39101,
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/interlock/children",
+        "alias": "Interlock",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-tst-interlock",
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/interlock/children/build/iocBoot/ioc-tst-interlock/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/interlock/bin/rhel7-x86_64/interlock"
     },
     {
         "host": "ioc-tst-13",
