@@ -5831,11 +5831,11 @@
     {
         "host": "ctl-tmo-misc-01",
         "port": 39114,
-        "dir": "/reg/g/pcds/epics-dev/jozamudi/tmo/ioc-tmo-pdu_snmp",
+        "dir": "ioc/tmo/pdu_snmp/R2.4.7",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-pwr-r02",
-        "script": "/reg/g/pcds/epics-dev/jozamudi/tmo/ioc-tmo-pdu_snmp/build/iocBoot/ioc-tmo-pwr-r02/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/tmo/pdu_snmp/R2.4.7/build/iocBoot/ioc-tmo-pwr-r02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
     },
     {
@@ -16436,7 +16436,7 @@
         "port": 40000,
         "dir": "/reg/g/pcds/controls/camrecord",
         "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "config_file": "/cds/group/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-und-rec01",
         "script": "/reg/g/pcds/controls/camrecord/iocBoot/ioc-und-rec01/st.cmd",
         "binary": "/usr/bin/bash"
