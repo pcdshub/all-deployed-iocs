@@ -4986,8 +4986,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-vac-support",
-        "script": "/reg/g/pcds/epics-dev/jkn/rix/vacuum/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/jkn/rix/vacuum/build/iocBoot/ioc-qrix-vac-support/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/baljamal/ioc/dev/qpc/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ctl-rix-vac-01",
@@ -5027,8 +5027,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-vac-support",
-        "script": "/reg/g/pcds/epics-dev/jkn/rix/vacuum/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/jkn/rix/vacuum/build/iocBoot/ioc-rix-vac-support/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/baljamal/ioc/dev/qpc/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ctl-tmo-cam-01",
