@@ -4983,6 +4983,7 @@
         "host": "ctl-rix-vac-01",
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/jkn/rix/vacuum",
+        "disable": true,
         "alias": "qRIX Vacuum Support",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
@@ -5003,6 +5004,61 @@
     },
     {
         "host": "ctl-rix-vac-01",
+        "port": 39101,
+        "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-qpc",
+        "alias": "QPC B950:233:R02:\"PCI\":01",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-qpc1",
+        "script": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-qpc/build/iocBoot/ioc-rix-qpc1/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/baljamal/ioc/dev/qpc/bin/rhel7-x86_64/gsd"
+    },
+    {
+        "host": "ctl-rix-vac-01",
+        "port": 39102,
+        "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-qpc",
+        "alias": "QPC B950:233:R02:\"PCI\":02",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-qpc2",
+        "script": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-qpc/build/iocBoot/ioc-rix-qpc2/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/baljamal/ioc/dev/qpc/bin/rhel7-x86_64/gsd"
+    },
+    {
+        "host": "ctl-rix-vac-01",
+        "port": 39103,
+        "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-qpc",
+        "alias": "QPC B950:233:R02:\"PCI\":03",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-qpc3",
+        "script": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-qpc/build/iocBoot/ioc-rix-qpc3/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/baljamal/ioc/dev/qpc/bin/rhel7-x86_64/gsd"
+    },
+    {
+        "host": "ctl-rix-vac-01",
+        "port": 39104,
+        "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-qpc",
+        "alias": "QPC B950:233:R03:\"PCI\":02",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-qpc4",
+        "script": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-qpc/build/iocBoot/ioc-rix-qpc4/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/baljamal/ioc/dev/qpc/bin/rhel7-x86_64/gsd"
+    },
+    {
+        "host": "ctl-rix-vac-01",
+        "port": 39105,
+        "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-qpc",
+        "alias": "QPC B950:233:R03:\"PCI\":01",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-qpc5",
+        "script": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-qpc/build/iocBoot/ioc-rix-qpc5/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/baljamal/ioc/dev/qpc/bin/rhel7-x86_64/gsd"
+    },
+    {
+        "host": "ctl-rix-vac-01",
         "port": 37001,
         "dir": "/reg/g/pcds/epics-dev/jozamudi/rix/lcls-plc-rix-sample-delivery/iocBoot/ioc-sample-delivery",
         "alias": "SDS IOC",
@@ -5020,6 +5076,7 @@
         "host": "ctl-rix-vac-01",
         "port": 32103,
         "dir": "/reg/g/pcds/epics-dev/jkn/rix/vacuum",
+        "disable": true,
         "alias": "Vacuum Support",
         "history": [
             "ioc/rix/vacuum/R1.0.4",
