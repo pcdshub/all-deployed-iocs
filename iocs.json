@@ -3405,14 +3405,14 @@
     {
         "host": "ctl-las-xcs-srv01",
         "port": 30008,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/sr620",
+        "dir": "ioc/las/sr620/R1.1.6",
         "history": [
             "ioc/las/sr620/R1.0.2"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-xcs-sr620-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/sr620/build/iocBoot/ioc-las-xcs-sr620-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/sr620/R1.1.6/build/iocBoot/ioc-las-xcs-sr620-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/sr620/R0.9.3/bin/rhel7-x86_64/sr620"
     },
     {
@@ -11780,11 +11780,11 @@
     {
         "host": "ioc-las-mec-srv06",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/sr620",
+        "dir": "ioc/las/sr620/R1.1.6",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-mec-sr620-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/sr620/build/iocBoot/ioc-las-mec-sr620-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/sr620/R1.1.6/build/iocBoot/ioc-las-mec-sr620-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/sr620/R0.9.3/bin/rhel7-x86_64/sr620"
     },
     {
