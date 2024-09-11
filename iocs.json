@@ -20000,8 +20000,30 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-gige-ljv-inline",
-        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/build/iocBoot/ioc-gige-ljv-inline/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.4/bin/rhel7-x86_64/gige"
+        "script": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ioc-xpp-rec02",
+        "port": 30008,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam",
+        "alias": "Gige LJV OffAxis",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-gige-ljv-offaxis",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ioc-xpp-rec02",
+        "port": 30009,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam",
+        "alias": "Gige LJ4",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xcs-gige-lj4",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xpp-rec02",
