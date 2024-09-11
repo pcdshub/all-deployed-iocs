@@ -4981,18 +4981,6 @@
     },
     {
         "host": "ctl-rix-vac-01",
-        "port": 30003,
-        "dir": "/reg/g/pcds/epics-dev/jkn/rix/vacuum",
-        "disable": true,
-        "alias": "qRIX Vacuum Support",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-qrix-vac-support",
-        "script": "/reg/g/pcds/epics-dev/jkn/rix/vacuum/build/iocBoot/ioc-qrix-vac-support/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/baljamal/ioc/dev/qpc/bin/rhel7-x86_64/gsd"
-    },
-    {
-        "host": "ctl-rix-vac-01",
         "port": 39100,
         "dir": "ioc/rix/pdu_snmp/R1.1.1",
         "alias": "Rack 6 PDU (PAXS)",
@@ -5071,22 +5059,6 @@
         "name": "ioc-rix-sds",
         "script": "/reg/g/pcds/epics-dev/jozamudi/rix/lcls-plc-rix-sample-delivery/iocBoot/ioc-sample-delivery/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ctl-rix-vac-01",
-        "port": 32103,
-        "dir": "/reg/g/pcds/epics-dev/jkn/rix/vacuum",
-        "disable": true,
-        "alias": "Vacuum Support",
-        "history": [
-            "ioc/rix/vacuum/R1.0.4",
-            "/reg/g/pcds/epics-dev/wwright/ioc/rix/vacuum"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-rix-vac-support",
-        "script": "/reg/g/pcds/epics-dev/jkn/rix/vacuum/build/iocBoot/ioc-rix-vac-support/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/baljamal/ioc/dev/qpc/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ctl-tmo-cam-01",
