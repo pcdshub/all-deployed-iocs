@@ -846,7 +846,6 @@
         "host": "ctl-las-crix-srv01",
         "port": 30024,
         "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/smaract",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-mcs2-03",
