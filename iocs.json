@@ -6829,7 +6829,6 @@
         "host": "daq-det-standalone",
         "port": 30003,
         "dir": "ioc/det/tprStandalone/R1.2.0",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-asc-tpr1",
