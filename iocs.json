@@ -12503,24 +12503,24 @@
     {
         "host": "ioc-mec-gige01",
         "port": 32501,
-        "dir": "ioc/mec/gigECam/R1.1.1",
+        "dir": "/cds/home/p/peregrin/git-ioc-mec-gigECam",
         "alias": "Gige 1 Target Chamber (Questar1)",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige1",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.1.1/build/iocBoot/ioc-mec-gige1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/linux-x86_64/gige"
+        "script": "/cds/home/p/peregrin/git-ioc-mec-gigECam/build/iocBoot/ioc-mec-gige1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-gige01",
         "port": 32502,
-        "dir": "ioc/mec/gigECam/R1.1.1",
+        "dir": "/cds/home/p/peregrin/git-ioc-mec-gigECam",
         "alias": "Gige 2 Target Chamber (Questar2)",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige2",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.1.1/build/iocBoot/ioc-mec-gige2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.3.0/bin/linux-x86_64/gige"
+        "script": "/cds/home/p/peregrin/git-ioc-mec-gigECam/build/iocBoot/ioc-mec-gige2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-gige01",
