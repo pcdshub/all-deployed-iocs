@@ -21459,7 +21459,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-lfe-orca1",
         "script": "/reg/g/pcds/epics-dev/skoufis/edt/build/iocBoot/ioc-lfe-orca1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.0.1/bin/rhel7-x86_64/edt"
+        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.1-1.0/bin/rhel7-x86_64/edt"
     },
     {
         "host": "ioc-xrt-rec07",
