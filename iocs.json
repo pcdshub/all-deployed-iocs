@@ -2407,12 +2407,12 @@
     {
         "host": "ctl-las-lhn-01",
         "port": 43431,
-        "dir": "/cds/group/laser/timing/femto-timing/dev",
+        "dir": "/cds/group/laser/timing/femto-timing/v2.0.0",
         "alias": "FS11 - FSTiming Python",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "py-fstiming-FS11",
-        "script": "/cds/group/laser/timing/femto-timing/dev/st.cmd",
+        "script": "/cds/group/laser/timing/femto-timing/v2.0.0/st.cmd",
         "binary": "/usr/bin/bash"
     },
     {
