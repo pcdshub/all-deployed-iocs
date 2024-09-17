@@ -21491,7 +21491,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-hxs-encoders",
         "script": "/reg/g/pcds/epics-dev/divya/ioc/xrt/protura/HXSencoders/current/build/iocBoot/ioc-xrt-hxs-encoders/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/protura/R2.0.0/bin/rhel7-x86_64/protura"
+        "binary": "/reg/g/pcds/epics/ioc/common/protura/R1.0.0/bin/linux-x86_64/protura"
     },
     {
         "host": "ioc-xrt-rec07",
