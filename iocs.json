@@ -4301,6 +4301,7 @@
         "host": "ctl-rix-crix-vac-01",
         "port": 31020,
         "dir": "ioc/rix/lakeshore336/R1.0.2",
+        "disable": true,
         "alias": "Cryostat Lakeshore 336",
         "history": [
             "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336",
@@ -4784,6 +4785,16 @@
         "name": "ioc-plc-qrix-mot",
         "script": "/reg/g/pcds/epics-dev/nlentz/lcls-plc-qrix-motion/iocBoot/ioc-qrix-motion/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ctl-rix-qrix-mot-01",
+        "port": 39102,
+        "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-lakeshore336",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-qrix-ls336-01",
+        "script": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-lakeshore336/build/iocBoot/ioc-qrix-ls336-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.3/bin/rhel7-x86_64/ls336"
     },
     {
         "host": "ctl-rix-qrix-mot-01",
