@@ -16825,6 +16825,7 @@
         "host": "ioc-xcs-misc2",
         "port": 36037,
         "dir": "ioc/xcs/gigECam/R3.0.5",
+        "alias": "ioc-xcs-gige-19-las",
         "history": [
             "ioc/xcs/gigECam/R3.0.3"
         ],
@@ -17049,6 +17050,16 @@
         "name": "ioc-xcs-gige-15",
         "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R3.0.5/build/iocBoot/ioc-xcs-gige-15/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-xcs-misc3",
+        "port": 39102,
+        "dir": "ioc/xcs/gigECam/R3.0.5",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-gige-las01",
+        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R3.0.5/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-misc3",
