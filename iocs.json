@@ -7072,8 +7072,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-norm-andor",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/ioc-common-andorCam/children/build/iocBoot/ioc-rix-norm-andor/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/ioc-common-andorCam/bin/rhel7-x86_64/andorTpr"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/ioc-common-andorCam/children/st.cmd",
+        "binary": null
     },
     {
         "host": "daq-rix-andor-01",
