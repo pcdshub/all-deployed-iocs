@@ -7046,7 +7046,7 @@
     {
         "host": "daq-rix-andor-01",
         "port": 30010,
-        "dir": "ioc/common/andorCam/R1.2.0",
+        "dir": "ioc/common/andorCam/R1.3.0",
         "alias": "Dir Andor Cam",
         "history": [
             "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam",
@@ -7058,13 +7058,13 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-dir-andor",
-        "script": "/reg/g/pcds/epics/ioc/common/andorCam/R1.2.0/children/build/iocBoot/ioc-rix-dir-andor/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/andorCam/R1.2.0/bin/rhel7-x86_64/andorTpr"
+        "script": "/reg/g/pcds/epics/ioc/common/andorCam/R1.3.0/children/build/iocBoot/ioc-rix-dir-andor/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/andorCam/R1.3.0/bin/rhel7-x86_64/andorTpr"
     },
     {
         "host": "daq-rix-andor-01",
         "port": 30012,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/ioc-common-andorCam/children",
+        "dir": "ioc/common/andorCam/R1.3.0",
         "alias": "Norm Andor Cam",
         "history": [
             "ioc/common/andorCam/R1.0.1"
@@ -7072,13 +7072,13 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-norm-andor",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/ioc-common-andorCam/children/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/common/andorCam/R1.3.0/children/build/iocBoot/ioc-rix-norm-andor/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/andorCam/R1.3.0/bin/rhel7-x86_64/andorTpr"
     },
     {
         "host": "daq-rix-andor-01",
         "port": 30011,
-        "dir": "ioc/common/andorCam/R1.2.0",
+        "dir": "ioc/common/andorCam/R1.3.0",
         "alias": "VLS Andor Cam",
         "history": [
             "ioc/common/andorCam/R1.0.1",
@@ -7088,8 +7088,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-vls-andor",
-        "script": "/reg/g/pcds/epics/ioc/common/andorCam/R1.2.0/children/build/iocBoot/ioc-rix-vls-andor/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/andorCam/R1.2.0/bin/rhel7-x86_64/andorTpr"
+        "script": "/reg/g/pcds/epics/ioc/common/andorCam/R1.3.0/children/build/iocBoot/ioc-rix-vls-andor/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/andorCam/R1.3.0/bin/rhel7-x86_64/andorTpr"
     },
     {
         "host": "daq-rix-ccd-01",
