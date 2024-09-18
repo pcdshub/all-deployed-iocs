@@ -21828,7 +21828,6 @@
         "host": "mfx-mezz01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/opperman/mfx/ioc/ioc-mfx-tprStandalone",
-        "disable": true,
         "alias": "TPR MEZZ Standalone",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
