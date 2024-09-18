@@ -21825,6 +21825,17 @@
         "binary": "/reg/g/pcds/epics/ioc/common/lecroy/R1.0.2/bin/linux-x86_64/lecroy"
     },
     {
+        "host": "mfx-mezz01",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/opperman/mfx/ioc/ioc-mfx-tprStandalone",
+        "alias": "TPR MEZZ Standalone",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-mezz-tpr",
+        "script": "/reg/g/pcds/epics-dev/opperman/mfx/ioc/ioc-mfx-tprStandalone/build/iocBoot/ioc-mfx-mezz-tpr/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/tprStandalone/R1.2.0/bin/rhel7-x86_64/tpr"
+    },
+    {
         "host": "tmo-control",
         "port": 34004,
         "dir": "/cds/home/opr/tmoopr/bin/autocaller",
