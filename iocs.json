@@ -8759,14 +8759,13 @@
     {
         "host": "ioc-cxi-qadc",
         "port": 30103,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/cxi/detectorprotection",
-        "disable": true,
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/cxi/detectorprotection",
         "alias": "JF4M - Blocker",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-jf4m-blocker",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/cxi/detectorprotection/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/cxi/detectorprotection/build/iocBoot/ioc-cxi-jf4m-blocker/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/detectorprotection/bin/rhel7-x86_64/detprot"
     },
     {
         "host": "ioc-cxi-qadc",
