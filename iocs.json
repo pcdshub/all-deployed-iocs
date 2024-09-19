@@ -8630,6 +8630,7 @@
         "host": "ioc-cxi-qadc",
         "port": 30004,
         "dir": "ioc/cxi/vimbaCam/R1.0.0",
+        "disable": true,
         "alias": "CAM - SC1 Inline Alvium",
         "cmd": "./st.cmd",
         "base_version": "3.15",
