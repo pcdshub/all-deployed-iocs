@@ -6281,7 +6281,7 @@
     {
         "host": "ctl-tst-dev-01",
         "port": 34242,
-        "dir": "/cds/home/j/janeliu/git/lcls-plc-example-motion",
+        "dir": "/cds/home/z/zlentz/github/lcls-plc-example-motion",
         "history": [
             "/cds/home/j/janeliu/git/lcls-plc-example-motion",
             "/reg/g/pcds/epics-dev/zlentz/lcls-twincat-motion-example",
@@ -6290,8 +6290,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tc-mot-example",
-        "script": "/cds/home/j/janeliu/git/lcls-plc-example-motion/iocBoot/ioc-tc-mot-example/st.cmd",
-        "binary": "/cds/home/j/janeliu/git/ioc-common-ads-ioc/bin/rhel7-x86_64/adsIoc"
+        "script": "/cds/home/z/zlentz/github/lcls-plc-example-motion/iocBoot/ioc-tc-mot-example/st.cmd",
+        "binary": "/cds/home/z/zlentz/github/ioc-common-ads-ioc/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-tst-dev-01",
