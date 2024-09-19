@@ -13766,12 +13766,12 @@
     {
         "host": "ioc-mec-mot1",
         "port": 30001,
-        "dir": "ioc/mec/lcls-plc-mec-jjslit-motion/v1.0.0/iocBoot/ioc-plc-mec-jj-motion",
+        "dir": "ioc/mec/lcls-plc-mec-jjslit-motion/v1.0.1/iocBoot/ioc-plc-mec-jj-motion",
         "alias": "MEC JJ Slits",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "lcls-plc-mec-jjslit-motion",
-        "script": "/reg/g/pcds/epics/ioc/mec/lcls-plc-mec-jjslit-motion/v1.0.0/iocBoot/ioc-plc-mec-jj-motion/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/mec/lcls-plc-mec-jjslit-motion/v1.0.1/iocBoot/ioc-plc-mec-jj-motion/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
