@@ -8758,6 +8758,18 @@
     },
     {
         "host": "ioc-cxi-qadc",
+        "port": 30103,
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/cxi/detectorprotection",
+        "disable": true,
+        "alias": "JF4M - Blocker",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-jf4m-blocker",
+        "script": "/reg/g/pcds/epics-dev/kaushikm/cxi/detectorprotection/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ioc-cxi-qadc",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/snelson/cxi/cspad-tripper",
         "alias": "JF4M - Tripper",
