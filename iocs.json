@@ -7114,8 +7114,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-alv1",
-        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/vimbaCam/current/children/build/iocBoot/ioc-rix-alv1/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/ddamiani/ioc/common/vimbaCam/current/bin/rhel7-x86_64/vimbaTpr"
+        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/vimbaCam/current/st.cmd",
+        "binary": null
     },
     {
         "host": "daq-rix-ccd-01",
@@ -18766,6 +18766,20 @@
         "binary": "/reg/g/pcds/epics/ioc/xcs/vars/R0.6.1/bin/linux-x86_64/vars"
     },
     {
+        "host": "ioc-xcs-user2",
+        "port": 39102,
+        "dir": "ioc/common/picoMotion/R0.9.5",
+        "alias": "MON - CCM Pico Motion",
+        "history": [
+            "ioc/common/picoMotion/R0.9.5"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xrt-mon-pico",
+        "script": "/reg/g/pcds/epics/ioc/common/picoMotion/R0.9.5/iocBoot/ioc-xrt-mon-pico/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/picoMotion/R0.9.5/bin/linux-x86/motion"
+    },
+    {
         "host": "ioc-xcs-vacuum",
         "port": 30015,
         "dir": "ioc/xcs/qpc/R1.0.0",
@@ -21688,20 +21702,6 @@
         "name": "ioc-xrt-lod-pico",
         "script": "/reg/g/pcds/epics/ioc/common/picoMotion/R0.9.3/iocBoot/ioc-xrt-lod-pico/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/picoMotion/R0.9.3/bin/linux-x86/motion"
-    },
-    {
-        "host": "ioc-xrt-xcsmisc1",
-        "port": 39102,
-        "dir": "ioc/common/picoMotion/R0.9.5",
-        "alias": "MON - CCM Pico Motion",
-        "history": [
-            "ioc/common/picoMotion/R0.9.5"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xrt-mon-pico",
-        "script": "/reg/g/pcds/epics/ioc/common/picoMotion/R0.9.5/iocBoot/ioc-xrt-mon-pico/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/picoMotion/R0.9.5/bin/linux-x86/motion"
     },
     {
         "host": "ioc-xrt-xcsmisc1",
