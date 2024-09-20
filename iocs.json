@@ -16345,8 +16345,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-interlock",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/interlock/children/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/interlock/children/build/iocBoot/ioc-tst-interlock/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/interlock/bin/rhel7-x86_64/interlock"
     },
     {
         "host": "ioc-tst-13",
