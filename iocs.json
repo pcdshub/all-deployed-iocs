@@ -15439,7 +15439,6 @@
         "host": "ioc-mfx-misc02",
         "port": 39155,
         "dir": "ioc/mfx/ims/R2.1.0",
-        "disable": true,
         "alias": "MISC - Hutch Slits",
         "history": [
             "ioc/mfx/ims/R2.0.0",
