@@ -7112,7 +7112,7 @@
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-alv1",
         "script": "/reg/g/pcds/epics-dev/dorlhiac/ioc/rix/ioc-rix-vimbaCam/build/iocBoot/ioc-rix-alv1/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/vimbaCam/R1.0.6/bin/rhel7-x86_64/vimbaTpr"
+        "binary": "/cds/group/pcds/epics-dev/dorlhiac/ioc/common/ioc-common-vimbaCam/bin/rhel7-x86_64/vimbaTpr"
     },
     {
         "host": "daq-rix-ccd-01",
