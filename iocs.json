@@ -21694,7 +21694,6 @@
         "host": "ioc-xrt-xcsmisc1",
         "port": 39102,
         "dir": "ioc/common/picoMotion/R0.9.5",
-        "disable": true,
         "alias": "MON - CCM Pico Motion",
         "history": [
             "ioc/common/picoMotion/R0.9.5"
