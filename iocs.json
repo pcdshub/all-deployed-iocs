@@ -17285,6 +17285,20 @@
         "binary": "/reg/g/pcds/epics/ioc/common/picoMotion/R1.0.16/bin/linux-x86/motion"
     },
     {
+        "host": "ioc-xcs-mot1",
+        "port": 39102,
+        "dir": "ioc/common/picoMotion/R0.9.5",
+        "alias": "MON - CCM Pico Motion",
+        "history": [
+            "ioc/common/picoMotion/R0.9.5"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xrt-mon-pico",
+        "script": "/reg/g/pcds/epics/ioc/common/picoMotion/R0.9.5/iocBoot/ioc-xrt-mon-pico/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/picoMotion/R0.9.5/bin/linux-x86/motion"
+    },
+    {
         "host": "ioc-xcs-mot2",
         "port": 32500,
         "dir": "/reg/g/pcds/epics-dev/spencera/plcs/vonhamos-motion/epics/cfg",
@@ -21689,20 +21703,6 @@
         "name": "ioc-xrt-lod-pico",
         "script": "/reg/g/pcds/epics/ioc/common/picoMotion/R0.9.3/iocBoot/ioc-xrt-lod-pico/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/picoMotion/R0.9.3/bin/linux-x86/motion"
-    },
-    {
-        "host": "ioc-xrt-xcsmisc1",
-        "port": 39102,
-        "dir": "ioc/common/picoMotion/R0.9.5",
-        "alias": "MON - CCM Pico Motion",
-        "history": [
-            "ioc/common/picoMotion/R0.9.5"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xrt-mon-pico",
-        "script": "/reg/g/pcds/epics/ioc/common/picoMotion/R0.9.5/iocBoot/ioc-xrt-mon-pico/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/picoMotion/R0.9.5/bin/linux-x86/motion"
     },
     {
         "host": "ioc-xrt-xcsmisc1",
