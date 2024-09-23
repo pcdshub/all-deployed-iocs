@@ -17270,7 +17270,6 @@
         "host": "ioc-xcs-mot1",
         "port": 34501,
         "dir": "ioc/common/picoMotion/R1.0.16",
-        "disable": true,
         "alias": "SB1 - Ref Laser Pico",
         "history": [
             "ioc/common/picoMotion/R1.0.16",
