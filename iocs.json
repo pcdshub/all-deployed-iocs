@@ -18951,6 +18951,16 @@
         "binary": "/reg/g/pcds/epics/ioc/common/wave8/R1.1.0/bin/rhel7-x86_64/wave8Ioc"
     },
     {
+        "host": "ioc-xcs-wave8-01",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/wave8",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-usr-dio",
+        "script": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/wave8/build/iocBoot/ioc-xcs-usr-dio/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/wave8/R1.1.0/bin/rhel7-x86_64/wave8Ioc"
+    },
+    {
         "host": "ioc-xpp-gige01",
         "port": 30022,
         "dir": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.7",
