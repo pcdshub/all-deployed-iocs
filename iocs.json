@@ -15372,13 +15372,13 @@
     {
         "host": "ioc-mfx-misc02",
         "port": 39101,
-        "dir": "/reg/g/pcds/epics-dev/zlentz/ioc/mfx/galil",
+        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/galil",
         "alias": "ioc-mfx-galil",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-galil",
-        "script": "/reg/g/pcds/epics-dev/zlentz/ioc/mfx/galil/iocBoot/ioc-mfx-galil/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/zlentz/ioc/mfx/galil/bin/rhel7-x86_64/galil"
+        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/galil/iocBoot/ioc-mfx-galil/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/galil/bin/rhel7-x86_64/galil"
     },
     {
         "host": "ioc-mfx-misc02",
@@ -16401,8 +16401,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-interlock",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/interlock/children/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/interlock/children/build/iocBoot/ioc-tst-interlock/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/interlock/bin/rhel7-x86_64/interlock"
     },
     {
         "host": "ioc-tst-13",
