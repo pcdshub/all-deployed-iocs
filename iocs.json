@@ -7163,12 +7163,12 @@
     {
         "host": "daq-rix-ccd-01",
         "port": 39101,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/interlock",
+        "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-generic-interlock",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-archon-interlock",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/interlock/children/build/iocBoot/ioc-rix-archon-interlock/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/interlock/bin/rhel7-x86_64/interlock"
+        "script": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-generic-interlock/children/build/iocBoot/ioc-rix-archon-interlock/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/opperman/rix/ioc/ioc-rix-generic-interlock/bin/rhel7-x86_64/interlock"
     },
     {
         "host": "daq-rix-ccd-01",
