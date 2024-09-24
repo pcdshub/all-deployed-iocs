@@ -6206,7 +6206,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-lcls-plc-dream-vac",
         "script": "/reg/g/pcds/epics-dev/janezg/plc_iocs/lcls-plc-dream-vac/lcls-plc-dream-vac/iocBoot/ioc-lcls-plc-dream-vac/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.7.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-tmo-vac-01",
