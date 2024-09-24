@@ -4424,6 +4424,7 @@
         "host": "ctl-rix-fim-01",
         "port": 30004,
         "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-pgpWave8",
+        "disable": true,
         "alias": "QRIXS Wave8",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
@@ -4955,6 +4956,7 @@
         "host": "ctl-rix-qrix-mot-01",
         "port": 39101,
         "dir": "ioc/rix/leviton/R1.0.0",
+        "alias": "PDU wall-s r05",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pwr-wall-s-r05-01",
@@ -7155,8 +7157,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-alv1",
-        "script": "/reg/g/pcds/epics-dev/dorlhiac/ioc/rix/ioc-rix-vimbaCam/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/dorlhiac/ioc/rix/ioc-rix-vimbaCam/build/iocBoot/ioc-rix-alv1/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/dorlhiac/ioc/common/ioc-common-vimbaCam/bin/rhel7-x86_64/vimbaTpr"
     },
     {
         "host": "daq-rix-ccd-01",
