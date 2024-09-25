@@ -11830,6 +11830,16 @@
         "binary": "/reg/g/pcds/package/epics/3.14-dev/ioc/mec/spectrometer/R1.1.0/bin/linux-x86_64/spectrometer"
     },
     {
+        "host": "ioc-las-mec-gige04",
+        "port": 7043,
+        "dir": "/cds/home/p/peregrin/git-ioc-mec-gigECam",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-gige43",
+        "script": "/cds/home/p/peregrin/git-ioc-mec-gigECam/build/iocBoot/ioc-mec-gige43/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
+    },
+    {
         "host": "ioc-las-mec-srv06",
         "port": 30004,
         "dir": "/reg/g/pcds/epics/ioc/las/ek9000/R1.0.8",
