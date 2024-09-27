@@ -13322,7 +13322,7 @@
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige43",
         "script": "/cds/home/p/peregrin/git-ioc-mec-gigECam/build/iocBoot/ioc-mec-gige43/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
         "host": "ioc-mec-lasmot1",
