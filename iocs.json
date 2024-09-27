@@ -4449,7 +4449,6 @@
         "host": "ctl-rix-mot-01",
         "port": 30108,
         "dir": "/reg/g/pcds/epics-dev/jjoshi/bsd_rix_motion/lcls-plc-kfe-rix-motion",
-        "disable": true,
         "alias": "Beamline Motion PLC IOC",
         "history": [
             "ioc/kfe/lcls-plc-kfe-rix-motion/v1.13.0"
