@@ -15382,6 +15382,7 @@
         "host": "ioc-mfx-misc02",
         "port": 39101,
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/galil",
+        "disable": true,
         "alias": "ioc-mfx-galil",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
