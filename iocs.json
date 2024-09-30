@@ -545,7 +545,6 @@
         "host": "ctl-kfe-mot-01",
         "port": 34203,
         "dir": "ioc/kfe/gigECam/R5.0.5",
-        "disable": true,
         "history": [
             "ioc/kfe/gigECam/R1.0.0",
             "/reg/neh/home/zlentz/github/lcls2-fee-cams"
@@ -2165,7 +2164,6 @@
         "host": "ctl-las-ip2-srv01",
         "port": 30002,
         "dir": "/cds/group/pcds/epics-dev/mods/lm2k4/smaract",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k4-mcs2-01",
@@ -2176,7 +2174,6 @@
         "host": "ctl-las-ip2-srv01",
         "port": 30003,
         "dir": "/cds/group/pcds/epics-dev/mods/lm2k4/smaract",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k4-mcs2-02",
