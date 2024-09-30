@@ -222,7 +222,7 @@
     {
         "host": "ctl-kfe-cam-03",
         "port": 34204,
-        "dir": "ioc/kfe/gigECam/R5.0.3",
+        "dir": "ioc/kfe/gigECam/R5.0.5",
         "history": [
             "ioc/kfe/gigECam/R1.0.0",
             "/reg/neh/home/zlentz/github/lcls2-fee-cams"
@@ -230,8 +230,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-mono-gige04",
-        "script": "/reg/g/pcds/epics/ioc/kfe/gigECam/R5.0.3/build/iocBoot/ioc-kfe-mono-gige04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
+        "script": "/reg/g/pcds/epics/ioc/kfe/gigECam/R5.0.5/build/iocBoot/ioc-kfe-mono-gige04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-kfe-cam-03",
@@ -544,7 +544,7 @@
     {
         "host": "ctl-kfe-mot-01",
         "port": 34203,
-        "dir": "ioc/kfe/gigECam/R5.0.3",
+        "dir": "ioc/kfe/gigECam/R5.0.5",
         "disable": true,
         "history": [
             "ioc/kfe/gigECam/R1.0.0",
@@ -553,8 +553,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-mono-gige03",
-        "script": "/reg/g/pcds/epics/ioc/kfe/gigECam/R5.0.3/build/iocBoot/ioc-kfe-mono-gige03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
+        "script": "/reg/g/pcds/epics/ioc/kfe/gigECam/R5.0.5/build/iocBoot/ioc-kfe-mono-gige03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-kfe-mot-01",
