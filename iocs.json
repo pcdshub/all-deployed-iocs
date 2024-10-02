@@ -3130,6 +3130,16 @@
     },
     {
         "host": "ctl-las-lln-02",
+        "port": 30016,
+        "dir": "/reg/g/pcds/epics-dev/mods/lln/thorlabs-ell",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-lln-ell-01",
+        "script": "/reg/g/pcds/epics-dev/mods/lln/thorlabs-ell/build/iocBoot/ioc-las-lln-ell-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
+    },
+    {
+        "host": "ctl-las-lln-02",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/mods/LLN/evr/evr-git",
         "disable": true,
@@ -3204,11 +3214,12 @@
         "host": "ctl-las-lln-02",
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/mods/lln/thorlabs-ell",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-opa-ell-01",
-        "script": "/reg/g/pcds/epics-dev/mods/lln/thorlabs-ell/build/iocBoot/ioc-lm1k4-opa-ell-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
+        "script": "/reg/g/pcds/epics-dev/mods/lln/thorlabs-ell/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-las-lln-03",
