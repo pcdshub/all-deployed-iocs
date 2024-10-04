@@ -12351,7 +12351,6 @@
         "host": "ioc-mec-cam04",
         "port": 36012,
         "dir": "ioc/mec/eDrive/R0.1.4",
-        "disable": true,
         "alias": "eDrive 5",
         "history": [
             "ioc/mec/eDrive/R0.1.3"
