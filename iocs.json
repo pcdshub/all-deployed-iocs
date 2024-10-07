@@ -8830,8 +8830,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-jf4m-blocker",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/cxi/detectorprotection/build/iocBoot/ioc-cxi-jf4m-blocker/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/detectorprotection/bin/rhel7-x86_64/detprot"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/cxi/detectorprotection/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-cxi-qadc",
@@ -15945,8 +15945,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-epix10ka2m-blocker",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/mfx/detectorprotection/build/iocBoot/ioc-mfx-epix10ka2m-blocker/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/detectorprotection/bin/rhel7-x86_64/detprot"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/mfx/detectorprotection/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-mfx-usr01",
@@ -17872,8 +17872,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-epix10ka2m-blocker",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/detectorprotection/build/iocBoot/ioc-xcs-epix10ka2m-blocker/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/detectorprotection/bin/rhel7-x86_64/detprot"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/detectorprotection/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-qadc",
