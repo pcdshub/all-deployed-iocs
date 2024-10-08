@@ -2130,12 +2130,34 @@
     },
     {
         "host": "ctl-las-ip2-srv01",
+        "port": 30008,
+        "dir": "/cds/group/pcds/epics-dev/mods/lm2k4/ejx/gigECam",
+        "disable": true,
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm2k4-ejx-gige-ff-01",
+        "script": "/cds/group/pcds/epics-dev/mods/lm2k4/ejx/gigECam/build/iocBoot/ioc-lm2k4-ejx-gige-ff-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-ip2-srv01",
         "port": 30006,
         "dir": "/cds/group/pcds/epics-dev/mods/lm2k4/ejx/gigECam",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k4-ejx-gige-nf-01",
         "script": "/cds/group/pcds/epics-dev/mods/lm2k4/ejx/gigECam/build/iocBoot/ioc-lm2k4-ejx-gige-nf-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-ip2-srv01",
+        "port": 30007,
+        "dir": "/cds/group/pcds/epics-dev/mods/lm2k4/ejx/gigECam",
+        "disable": true,
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm2k4-ejx-gige-nf-02",
+        "script": "/cds/group/pcds/epics-dev/mods/lm2k4/ejx/gigECam/build/iocBoot/ioc-lm2k4-ejx-gige-nf-02/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.1/bin/rhel7-x86_64/gige"
     },
     {
