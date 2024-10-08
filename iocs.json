@@ -2748,6 +2748,7 @@
         "host": "ctl-las-lhn-sp01",
         "port": 30007,
         "dir": "ioc/las/pgpWave8/R2.2.0",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-crix-pgpw8-03",
@@ -7183,8 +7184,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-alv1",
-        "script": "/reg/g/pcds/epics-dev/dorlhiac/ioc/rix/ioc-rix-vimbaCam/build/iocBoot/ioc-rix-alv1/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/dorlhiac/ioc/common/ioc-common-vimbaCam/bin/rhel7-x86_64/vimbaTpr"
+        "script": "/reg/g/pcds/epics-dev/dorlhiac/ioc/rix/ioc-rix-vimbaCam/st.cmd",
+        "binary": null
     },
     {
         "host": "daq-rix-ccd-01",
