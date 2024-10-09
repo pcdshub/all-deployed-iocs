@@ -4077,7 +4077,7 @@
     {
         "host": "ctl-rix-crix-cam-01",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/gigECam",
+        "dir": "ioc/rix/gigECam/R2.3.0",
         "alias": "CRIXS GIGE 01",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
@@ -4086,8 +4086,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-gige-01",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/gigECam/build/iocBoot/ioc-crix-gige-01/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/kaushikm/ioc/common/gigECam/bin/rhel7-x86_64/gigeTpr"
+        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.3.0/build/iocBoot/ioc-crix-gige-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-rix-crix-cam-01",
@@ -6370,17 +6370,6 @@
         "name": "ioc-tc-mot-example",
         "script": "/cds/home/z/zlentz/github/lcls-plc-example-motion/iocBoot/ioc-tc-mot-example/st.cmd",
         "binary": "/cds/home/z/zlentz/github/ioc-common-ads-ioc/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ctl-tst-dev-01",
-        "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/tst/generic_streamdevice/children",
-        "alias": "ASG",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-asg",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/tst/generic_streamdevice/children/build/iocBoot/ioc-tst-asg/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/tst/generic_streamdevice/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ctl-tst-dev-01",
