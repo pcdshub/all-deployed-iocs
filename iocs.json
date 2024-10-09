@@ -2896,11 +2896,11 @@
     {
         "host": "ctl-las-lhn-sp02",
         "port": 30012,
-        "dir": "/cds/home/t/tjohnson/trunk/las/thorlabs-ell",
+        "dir": "ioc/las/thorlabs-ell/R1.0.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-bay2-ell-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/thorlabs-ell/build/iocBoot/ioc-las-lhn-bay2-ell-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/thorlabs-ell/R1.0.0/build/iocBoot/ioc-las-lhn-bay2-ell-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
     },
     {
