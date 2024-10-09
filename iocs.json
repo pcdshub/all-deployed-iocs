@@ -4612,7 +4612,7 @@
     {
         "host": "ctl-rix-mot-01",
         "port": 30107,
-        "dir": "/reg/g/pcds/epics/ioc/rix/lcls-plc-rixs-optics/v3.5.0/iocBoot/ioc-rixs-optics/",
+        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-rixs-optics/iocBoot/ioc-rixs-optics/",
         "alias": "RIXS Optics PLC IOC",
         "history": [
             "/reg/g/pcds/epics/ioc/rix/lcls-plc-rixs-optics/v1.7.0/iocBoot/ioc-rixs-optics/",
@@ -4622,7 +4622,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rixs-optics",
-        "script": "/reg/g/pcds/epics/ioc/rix/lcls-plc-rixs-optics/v3.5.0/iocBoot/ioc-rixs-optics/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-rixs-optics/iocBoot/ioc-rixs-optics/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
@@ -5334,12 +5334,12 @@
     {
         "host": "ctl-tmo-cam-02",
         "port": 39102,
-        "dir": "ioc/tmo/gigECam/R5.0.3",
+        "dir": "/reg/g/pcds/epics-dev/baljamal/ioc/tmo/gigEcam",
         "alias": "TMO MRCO GigE 04",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-mrco-tmo-gige-04",
-        "script": "/reg/g/pcds/epics/ioc/tmo/gigECam/R5.0.3/build/iocBoot/ioc-mrco-tmo-gige-04/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/baljamal/ioc/tmo/gigEcam/build/iocBoot/ioc-mrco-tmo-gige-04/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
     },
     {
@@ -12145,7 +12145,7 @@
     {
         "host": "ioc-las-srv04",
         "port": 32043,
-        "dir": "/reg/g/pcds/epics/ioc/las/ims/R0.4.8",
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ims/",
         "history": [
             "ioc/las/ims/R0.3.0",
             "ioc/las/ims/R0.2.6"
@@ -12153,8 +12153,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-cxi-phase-ims",
-        "script": "/reg/g/pcds/epics/ioc/las/ims/R0.4.8/iocBoot/ioc-las-cxi-phase-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/las/ims/R0.4.8/bin/linux-x86/motion"
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ims/iocBoot/ioc-las-cxi-phase-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ims/bin/linux-x86/motion"
     },
     {
         "host": "ioc-las-srv04",
