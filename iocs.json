@@ -6673,11 +6673,11 @@
     {
         "host": "ctl-txi-misc-01",
         "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/txi/pvNotepad",
+        "dir": "ioc/txi/pvNotepad/R1.0.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-userPV",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/txi/pvNotepad/build/iocBoot/ioc-txi-userPV/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/txi/pvNotepad/R1.0.0/build/iocBoot/ioc-txi-userPV/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
     },
     {
