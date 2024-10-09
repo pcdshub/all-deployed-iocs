@@ -4483,7 +4483,7 @@
     {
         "host": "ctl-rix-mot-01",
         "port": 30108,
-        "dir": "/reg/g/pcds/epics-dev/jjoshi/bsd_rix_motion/lcls-plc-kfe-rix-motion",
+        "dir": "ioc/kfe/lcls-plc-kfe-rix-motion/v2.6.0",
         "alias": "Beamline Motion PLC IOC",
         "history": [
             "ioc/kfe/lcls-plc-kfe-rix-motion/v1.13.0"
@@ -4491,7 +4491,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-kfe-rix-motion",
-        "script": "/reg/g/pcds/epics-dev/jjoshi/bsd_rix_motion/lcls-plc-kfe-rix-motion/iocBoot/ioc-kfe-rix-motion/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-rix-motion/v2.6.0/iocBoot/ioc-kfe-rix-motion/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
     },
     {
