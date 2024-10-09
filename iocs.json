@@ -2895,6 +2895,16 @@
     },
     {
         "host": "ctl-las-lhn-sp02",
+        "port": 30012,
+        "dir": "/cds/home/t/tjohnson/trunk/las/thorlabs-ell",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-lhn-bay2-ell-01",
+        "script": "/cds/home/t/tjohnson/trunk/las/thorlabs-ell/build/iocBoot/ioc-las-lhn-bay2-ell-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
+    },
+    {
+        "host": "ctl-las-lhn-sp02",
         "port": 30006,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/agilent5322/agilent5322-git",
         "base_version": "3.15",
@@ -4348,7 +4358,7 @@
     {
         "host": "ctl-rix-crix-vac-01",
         "port": 31000,
-        "dir": "/reg/g/pcds/epics-dev/jozamudi/rix/lcls-plc-crixs-vac/lcls-plc-crix-vac",
+        "dir": "ioc/rix/lcls-plc-crixs-vac/v2.1.0/lcls-plc-crix-vac",
         "alias": "CRIXS Vacuum PLC IOC",
         "history": [
             "ioc/rix/lcls-plc-crixs-vac/v1.5.1/lcls-plc-crix-vac",
@@ -4358,7 +4368,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-PLC-CRIX-VAC",
-        "script": "/reg/g/pcds/epics-dev/jozamudi/rix/lcls-plc-crixs-vac/lcls-plc-crix-vac/iocBoot/ioc-PLC-CRIX-VAC/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/lcls-plc-crixs-vac/v2.1.0/lcls-plc-crix-vac/iocBoot/ioc-PLC-CRIX-VAC/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
