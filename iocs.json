@@ -12143,7 +12143,7 @@
     {
         "host": "ioc-las-srv04",
         "port": 32043,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ims/",
+        "dir": "/reg/g/pcds/epics/ioc/las/ims/R0.4.8",
         "history": [
             "ioc/las/ims/R0.3.0",
             "ioc/las/ims/R0.2.6"
@@ -12151,8 +12151,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-cxi-phase-ims",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ims/iocBoot/ioc-las-cxi-phase-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ims/bin/linux-x86/motion"
+        "script": "/reg/g/pcds/epics/ioc/las/ims/R0.4.8/iocBoot/ioc-las-cxi-phase-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/las/ims/R0.4.8/bin/linux-x86/motion"
     },
     {
         "host": "ioc-las-srv04",
