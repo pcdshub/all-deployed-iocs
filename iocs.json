@@ -4077,7 +4077,7 @@
     {
         "host": "ctl-rix-crix-cam-01",
         "port": 30001,
-        "dir": "ioc/rix/gigECam/R2.3.0",
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/gigECam",
         "alias": "CRIXS GIGE 01",
         "history": [
             "ioc/rix/gigECam/R2.0.0",
@@ -4086,8 +4086,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-gige-01",
-        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.3.0/build/iocBoot/ioc-crix-gige-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/gigECam/build/iocBoot/ioc-crix-gige-01/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/kaushikm/ioc/common/gigECam/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-rix-crix-cam-01",
@@ -6669,6 +6669,16 @@
         "name": "ioc-txi-sxr-vac",
         "script": "/reg/g/pcds/epics-dev/mghaly/lcls-plc-txi-sxr-vac/iocBoot/ioc-txi-sxr-vac/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ctl-txi-misc-01",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/txi/pvNotepad",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
+        "name": "ioc-txi-userPV",
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/txi/pvNotepad/build/iocBoot/ioc-txi-userPV/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
     },
     {
         "host": "ctl-txi-misc-01",
