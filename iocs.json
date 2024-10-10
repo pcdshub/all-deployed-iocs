@@ -4312,6 +4312,7 @@
         "host": "ctl-rix-crix-mot-01",
         "port": 30100,
         "dir": "ioc/rix/expstate/R1.0.7",
+        "disable": true,
         "alias": "Experiment State Tracker",
         "history": [
             "ioc/rix/expstate/R1.0.7",
