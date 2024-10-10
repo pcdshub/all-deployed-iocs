@@ -16482,13 +16482,13 @@
     {
         "host": "ioc-tst-13",
         "port": 39101,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/interlock/children",
+        "dir": "/cds/home/k/kaushikm/new-interlock",
         "alias": "Interlock",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-interlock",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/interlock/children/st.cmd",
-        "binary": null
+        "script": "/cds/home/k/kaushikm/new-interlock/children/build/iocBoot/ioc-tst-interlock/st.cmd",
+        "binary": "/cds/home/k/kaushikm/new-interlock/bin/rhel7-x86_64/interlock"
     },
     {
         "host": "ioc-tst-13",
