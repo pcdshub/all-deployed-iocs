@@ -10237,12 +10237,12 @@
     {
         "host": "ioc-det-evg",
         "port": 30003,
-        "dir": "ioc/common/evg/R1.0.5",
+        "dir": "ioc/common/evg/R1.0.4",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-evg-fake",
-        "script": "/reg/g/pcds/epics/ioc/common/evg/R1.0.5/children/build/iocBoot/ioc-det-evg-fake/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/evg/R1.0.5/bin/linux-x86/evg"
+        "script": "/reg/g/pcds/epics/ioc/common/evg/R1.0.4/children/build/iocBoot/ioc-det-evg-fake/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/evg/R1.0.4/bin/linux-x86/evg"
     },
     {
         "host": "ioc-det-evg",
