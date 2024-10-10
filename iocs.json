@@ -762,6 +762,17 @@
     },
     {
         "host": "ctl-las-crix-srv01",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/ict",
+        "alias": "ICT Breaker ChemRIXS MODS",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-ict-lm2k2-01",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/ict/build/iocBoot/ioc-las-ict-lm2k2-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/ict/R1.0.7/bin/rhel7-x86_64/ict"
+    },
+    {
+        "host": "ctl-las-crix-srv01",
         "port": 30100,
         "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/evr",
         "disable": true,
@@ -1532,6 +1543,16 @@
         "name": "ioc-tst-sma100b-01",
         "script": "/cds/home/t/tjohnson/trunk/common/rsSMX100X/children/build/iocBoot/ioc-tst-sma100b-01/st.cmd",
         "binary": "/cds/home/t/tjohnson/trunk/common/rsSMX100X/bin/rhel7-x86_64/rssmx100x"
+    },
+    {
+        "host": "ctl-las-ip1-srv01",
+        "port": 30003,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/ict",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-ict-lm1k4-01",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/ict/build/iocBoot/ioc-las-ict-lm1k4-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/ict/R1.0.7/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-las-ip1-srv01",
@@ -6923,8 +6944,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-archon1",
-        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/archonCam/current/children/build/iocBoot/ioc-det-archon1/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/ddamiani/ioc/common/archonCam/current/bin/rhel7-x86_64/archonTpr"
+        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/archonCam/current/st.cmd",
+        "binary": null
     },
     {
         "host": "daq-det-standalone",
