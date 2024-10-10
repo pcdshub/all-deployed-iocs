@@ -10224,14 +10224,14 @@
     {
         "host": "ioc-det-evg",
         "port": 30001,
-        "dir": "/reg/g/pcds/controls/testEvg/R1.8.1",
+        "dir": "/reg/g/pcds/controls/testEvg/R1.8.2",
         "history": [
             "/reg/g/pcds/controls/testEvg/R1.3.0"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-evg",
-        "script": "/reg/g/pcds/controls/testEvg/R1.8.1/st.cmd",
+        "script": "/reg/g/pcds/controls/testEvg/R1.8.2/st.cmd",
         "binary": "/usr/bin/bash"
     },
     {
