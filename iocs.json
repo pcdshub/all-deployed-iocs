@@ -17452,6 +17452,7 @@
         "host": "ioc-xcs-mot2",
         "port": 32500,
         "dir": "/reg/g/pcds/epics-dev/spencera/plcs/vonhamos-motion/epics/cfg",
+        "disable": true,
         "alias": "Vonhamos PLC",
         "history": [
             "/reg/g/pcds/epics-dev/spencera/plcs/vonhamos-motion/epics/cfg"
