@@ -16488,8 +16488,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-interlock",
-        "script": "/cds/home/k/kaushikm/new-interlock/children/build/iocBoot/ioc-tst-interlock/st.cmd",
-        "binary": "/cds/home/k/kaushikm/new-interlock/bin/rhel7-x86_64/interlock"
+        "script": "/cds/home/k/kaushikm/new-interlock/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-tst-13",
