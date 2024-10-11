@@ -22015,16 +22015,6 @@
     },
     {
         "host": "mfx-mezz01",
-        "port": 39101,
-        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/OceanOpticsSpectrometer/ioc-mfx-OceanOpticsSpectrometer",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "MEZZ - Ocean Spec",
-        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/OceanOpticsSpectrometer/ioc-mfx-OceanOpticsSpectrometer/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "mfx-mezz01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/opperman/mfx/ioc/ioc-mfx-tprStandalone",
         "alias": "TPR MEZZ Standalone",
@@ -22033,6 +22023,17 @@
         "name": "ioc-mfx-mezz-tpr",
         "script": "/reg/g/pcds/epics-dev/opperman/mfx/ioc/ioc-mfx-tprStandalone/build/iocBoot/ioc-mfx-mezz-tpr/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/tprStandalone/R1.2.0/bin/rhel7-x86_64/tpr"
+    },
+    {
+        "host": "mfx-mezz01",
+        "port": 39101,
+        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/OceanOpticsSpectrometer/ioc-mfx-OceanOpticsSpectrometer",
+        "alias": "MEZZ - Ocean Spec",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-spc-01",
+        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/OceanOpticsSpectrometer/ioc-mfx-OceanOpticsSpectrometer/build/iocBoot/ioc-mfx-spc-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/OceanOpticsSpectrometer/R1.0.4/bin/rhel7-x86_64/qepro"
     },
     {
         "host": "tmo-control",
