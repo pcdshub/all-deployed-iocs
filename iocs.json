@@ -6588,6 +6588,16 @@
     },
     {
         "host": "ctl-txi-misc-01",
+        "port": 30003,
+        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-test-m3k3-m4k3-m2l1-m3l1-sat",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
+        "name": "ioc-tst-txi-optics",
+        "script": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-test-m3k3-m4k3-m2l1-m3l1-sat/iocBoot/ioc-tst-txi-optics/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.7.0/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ctl-txi-misc-01",
         "port": 39102,
         "dir": "/reg/g/pcds/epics-dev/opperman/txi/gigeCam",
         "base_version": "3.15",
