@@ -13840,7 +13840,7 @@
     {
         "host": "ioc-mec-misc01",
         "port": 39107,
-        "dir": "/cds/home/p/peregrin/git-ioc-xrt-ims",
+        "dir": "ioc/xrt/ims/R2.1.0",
         "alias": "Beamline Attenuator",
         "history": [
             "ioc/xrt/ims/R2.1.0",
@@ -13850,8 +13850,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-xrt-mecppatt-ims",
-        "script": "/cds/home/p/peregrin/git-ioc-xrt-ims/build/iocBoot/ioc-xrt-mecppatt-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.3.0/bin/rhel7-x86_64/ims"
+        "script": "/reg/g/pcds/epics/ioc/xrt/ims/R2.1.0/build/iocBoot/ioc-xrt-mecppatt-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.1.0/bin/linux-x86/ims"
     },
     {
         "host": "ioc-mec-mot1",
