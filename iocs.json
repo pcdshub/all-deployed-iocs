@@ -18568,7 +18568,6 @@
         "host": "ioc-xcs-user1",
         "port": 30106,
         "dir": "/reg/g/pcds/epics-dev/oluwade/xcs/RohdeSchwarzHMP",
-        "disable": true,
         "alias": "DET - GON HMP Jungfrau",
         "history": [
             "/reg/g/pcds/epics-dev/oluwade/xcs/RohdeSchwarzHMP"
