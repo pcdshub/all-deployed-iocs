@@ -1557,11 +1557,11 @@
     {
         "host": "ctl-las-ip1-srv01",
         "port": 30002,
-        "dir": "/cds/group/pcds/epics-dev/aberges/ioc/las/pdu_snmp",
+        "dir": "ioc/las/pdu_snmp/R1.4.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-tmo-pwr-01",
-        "script": "/cds/group/pcds/epics-dev/aberges/ioc/las/pdu_snmp/build/iocBoot/ioc-las-tmo-pwr-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.4.0/build/iocBoot/ioc-las-tmo-pwr-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
     },
     {
