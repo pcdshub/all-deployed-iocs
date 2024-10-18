@@ -1,15 +1,5 @@
 [
     {
-        "host": "ctl-det-drp01",
-        "port": 30100,
-        "dir": "ioc/common/pgpWave8/R1.6.0",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
-        "name": "ioc-det-pgpw8-01",
-        "script": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.6.0/children/build/iocBoot/ioc-det-pgpw8-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R1.6.0/bin/rhel7-x86_64/pgpWave8"
-    },
-    {
         "host": "ctl-hpl-srv01",
         "port": 30015,
         "dir": "/cds/home/t/tjohnson/trunk/common/agilent5322",
@@ -7555,6 +7545,16 @@
         "name": "ioc-det-epixHR-02",
         "script": "/reg/g/pcds/epics/ioc/det/epixMon/R1.0.0/build/iocBoot/ioc-det-epixHR-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/epixMon/R1.4.2/bin/rhel7-x86_64/epixMonIoc"
+    },
+    {
+        "host": "drp-det-cmp003",
+        "port": 30100,
+        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/pgpWave8/current",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
+        "name": "ioc-det-pgpw8-01",
+        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/det/pgpWave8/current/build/iocBoot/ioc-det-pgpw8-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R2.3.0/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "drp-neh-cmp007",
