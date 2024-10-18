@@ -6367,6 +6367,16 @@
     },
     {
         "host": "ctl-tst-dev-01",
+        "port": 30002,
+        "dir": "/cds/group/pcds/epics-dev/mcabral/lcls-plc-txi-dccm",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-TXI-DCCM",
+        "script": "/cds/group/pcds/epics-dev/mcabral/lcls-plc-txi-dccm/iocBoot/ioc-TXI-DCCM/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ctl-tst-dev-01",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/joshc/lcls-plc-neh-tst/lcls-plc-neh-tst",
         "alias": "PowerMeter Tester",
@@ -7540,6 +7550,7 @@
         "host": "drp-det-cmp001",
         "port": 30001,
         "dir": "ioc/det/epixMon/R1.0.0",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-epixHR-02",
@@ -7561,6 +7572,7 @@
         "host": "drp-srcf-cmp014",
         "port": 30100,
         "dir": "ioc/det/epixMon/R1.0.0",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-epixHR-01",
