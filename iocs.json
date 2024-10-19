@@ -22080,7 +22080,6 @@
         "host": "tmo-control",
         "port": 34004,
         "dir": "/cds/home/opr/tmoopr/bin/autocaller",
-        "disable": true,
         "alias": "TMO Vacuum Watchdog",
         "history": [
             "/cds/home/opr/tmoopr/bin/autocaller"
