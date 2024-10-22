@@ -277,7 +277,7 @@
     {
         "host": "ctl-kfe-misc-01",
         "port": 30016,
-        "dir": "ioc/kfe/lcls-plc-kfe-arbiter/v2.4.1/iocBoot/ioc-ArbiterPLC",
+        "dir": "ioc/kfe/lcls-plc-kfe-arbiter/v2.4.2/iocBoot/ioc-ArbiterPLC",
         "alias": "KFE Arbiter",
         "history": [
             "ioc/kfe/lcls-plc-kfe-arbiter/v2.0.1/iocBoot/ioc-ArbiterPLC",
@@ -287,7 +287,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-arbiter",
-        "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-arbiter/v2.4.1/iocBoot/ioc-ArbiterPLC/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-arbiter/v2.4.2/iocBoot/ioc-ArbiterPLC/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
     },
     {
@@ -2566,12 +2566,12 @@
     {
         "host": "ctl-las-lhn-04",
         "port": 30300,
-        "dir": "ioc/las/ek9000/R1.0.6",
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ek9000",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-bhc-04",
-        "script": "/reg/g/pcds/epics/ioc/las/ek9000/R1.0.6/build/iocBoot/ioc-las-lhn-bhc-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.3.2/bin/rhel7-x86_64/ek9000IOC"
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ek9000/build/iocBoot/ioc-las-lhn-bhc-04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.7.3/bin/rhel7-x86_64/ek9000IOC"
     },
     {
         "host": "ctl-las-lhn-04",
