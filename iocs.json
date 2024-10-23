@@ -3936,6 +3936,17 @@
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
+        "host": "ctl-rix-cam-01",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/ued/Levitons/ioc-ued-leviton/build/iocBoot/ioc-ued-pwr-01",
+        "alias": "TEST_PDU",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-ued-leviton",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/ued/Levitons/ioc-ued-leviton/build/iocBoot/ioc-ued-pwr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.2/bin/rhel7-x86_64/Leviton"
+    },
+    {
         "host": "ctl-rix-cam-02",
         "port": 30011,
         "dir": "ioc/rix/gigECam/R5.0.3",
@@ -16580,17 +16591,6 @@
         "name": "ioc-ued-lc20",
         "script": "/reg/g/pcds/epics-dev/jozamudi/ued/shimadzu-lc20/build/iocBoot/ioc-ued-lc20/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.3.7/bin/rhel7-x86_64/lc20"
-    },
-    {
-        "host": "ioc-ued-ccd01",
-        "port": 30009,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/ued/Levitons/ioc-ued-leviton",
-        "alias": "SUED Leviton",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
-        "name": "ioc-ued-leviton",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/ued/Levitons/ioc-ued-leviton/st.cmd",
-        "binary": null
     },
     {
         "host": "ioc-ued-ccd01",
