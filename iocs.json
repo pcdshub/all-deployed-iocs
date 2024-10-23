@@ -1158,6 +1158,7 @@
         "host": "ctl-las-crix-srv05",
         "port": 30010,
         "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/ejx/thorlabs-ell/",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-ejx-ell-01",
