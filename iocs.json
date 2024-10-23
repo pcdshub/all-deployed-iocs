@@ -2273,7 +2273,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-bhc-01",
         "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ek9000/build/iocBoot/ioc-las-lhn-bhc-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.7.3/bin/rhel7-x86_64/ek9000IOC"
+        "binary": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.3/bin/rhel7-x86_64/ek9000IOC"
     },
     {
         "host": "ctl-las-lhn-01",
@@ -2572,7 +2572,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-bhc-04",
         "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ek9000/build/iocBoot/ioc-las-lhn-bhc-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.7.3/bin/rhel7-x86_64/ek9000IOC"
+        "binary": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.3/bin/rhel7-x86_64/ek9000IOC"
     },
     {
         "host": "ctl-las-lhn-04",
@@ -3428,7 +3428,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-xcs-bhc-01",
         "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ek9000/build/iocBoot/ioc-las-xcs-bhc-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.7.3/bin/rhel7-x86_64/ek9000IOC"
+        "binary": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.3/bin/rhel7-x86_64/ek9000IOC"
     },
     {
         "host": "ctl-las-xcs-srv01",
@@ -11747,7 +11747,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-cxi-bhc-01",
         "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ek9000/build/iocBoot/ioc-las-cxi-bhc-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.7.3/bin/rhel7-x86_64/ek9000IOC"
+        "binary": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.3/bin/rhel7-x86_64/ek9000IOC"
     },
     {
         "host": "ioc-las-cxi-srv05",
@@ -11935,7 +11935,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-mec-bhc-01",
         "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ek9000/build/iocBoot/ioc-las-mec-bhc-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.7.3/bin/rhel7-x86_64/ek9000IOC"
+        "binary": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.3/bin/rhel7-x86_64/ek9000IOC"
     },
     {
         "host": "ioc-las-mec-srv06",
@@ -12069,7 +12069,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-mfx-bhc-01",
         "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ek9000/build/iocBoot/ioc-las-mfx-bhc-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.7.3/bin/rhel7-x86_64/ek9000IOC"
+        "binary": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.3/bin/rhel7-x86_64/ek9000IOC"
     },
     {
         "host": "ioc-las-mfx-srv45",
