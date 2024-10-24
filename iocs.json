@@ -11762,11 +11762,11 @@
     {
         "host": "ioc-las-cxi-srv05",
         "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ek9000",
+        "dir": "/reg/g/pcds/epics/ioc/las/ek9000/R2.0.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-cxi-bhc-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ek9000/build/iocBoot/ioc-las-cxi-bhc-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/ek9000/R2.0.0/build/iocBoot/ioc-las-cxi-bhc-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.3/bin/rhel7-x86_64/ek9000IOC"
     },
     {
@@ -11950,11 +11950,11 @@
     {
         "host": "ioc-las-mec-srv06",
         "port": 30004,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ek9000",
+        "dir": "/reg/g/pcds/epics/ioc/las/ek9000/R2.0.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-mec-bhc-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ek9000/build/iocBoot/ioc-las-mec-bhc-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/ek9000/R2.0.0/build/iocBoot/ioc-las-mec-bhc-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.3/bin/rhel7-x86_64/ek9000IOC"
     },
     {
@@ -12084,11 +12084,11 @@
     {
         "host": "ioc-las-mfx-srv45",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ek9000",
+        "dir": "/reg/g/pcds/epics/ioc/las/ek9000/R2.0.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-mfx-bhc-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ek9000/build/iocBoot/ioc-las-mfx-bhc-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/ek9000/R2.0.0/build/iocBoot/ioc-las-mfx-bhc-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.3/bin/rhel7-x86_64/ek9000IOC"
     },
     {
