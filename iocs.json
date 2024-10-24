@@ -16713,27 +16713,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/PI_C663/R1.0.0/bin/rhel7-x86_64/motion"
     },
     {
-        "host": "ioc-ued-ccd01",
-        "port": 30004,
-        "dir": "/reg/g/pcds/epics-dev/iroque/ioc-ued-NewportXPS8",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
-        "name": "ioc-ued-xps",
-        "script": "/reg/g/pcds/epics-dev/iroque/ioc-ued-NewportXPS8/build/iocBoot/ioc-ued-xps/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.1.0/bin/rhel7-x86_64/xps8"
-    },
-    {
-        "host": "ioc-ued-ccd01",
-        "port": 30006,
-        "dir": "/reg/g/pcds/epics-dev/iroque/ioc-ued-NewportXPS8",
-        "alias": "ASTA Newport",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
-        "name": "mcn-ued-03",
-        "script": "/reg/g/pcds/epics-dev/iroque/ioc-ued-NewportXPS8/st.cmd",
-        "binary": null
-    },
-    {
         "host": "ioc-und-rec01",
         "port": 40000,
         "dir": "/reg/g/pcds/controls/camrecord",
