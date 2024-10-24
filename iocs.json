@@ -6777,6 +6777,26 @@
         "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.2.0/bin/rhel7-x86_64/tpr"
     },
     {
+        "host": "ctl-ued-misc-01",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/iroque/ioc-ued-lakeshore336",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
+        "name": "ioc-ued-ls336-01",
+        "script": "/reg/g/pcds/epics-dev/iroque/ioc-ued-lakeshore336/build/iocBoot/ioc-ued-ls336-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.3/bin/rhel7-x86_64/ls336"
+    },
+    {
+        "host": "ctl-ued-misc-01",
+        "port": 39101,
+        "dir": "/reg/g/pcds/epics-dev/iroque/ioc-ued-lakeshore336",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
+        "name": "ioc-ued-ls336-02",
+        "script": "/reg/g/pcds/epics-dev/iroque/ioc-ued-lakeshore336/build/iocBoot/ioc-ued-ls336-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.3/bin/rhel7-x86_64/ls336"
+    },
+    {
         "host": "ctl-ued-pgp-01",
         "port": 30001,
         "dir": "ioc/common/pgpWave8/R1.6.0",
