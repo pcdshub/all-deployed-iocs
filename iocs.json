@@ -8620,12 +8620,24 @@
         "host": "ioc-cxi-mot2",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/divya/lcls-plc-bergmann-kohzu",
+        "disable": true,
         "alias": "Bergmann Experiment Kohzu Setup",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-lcls-plc-bergmann-kohzu",
         "script": "/reg/g/pcds/epics-dev/divya/lcls-plc-bergmann-kohzu/iocBoot/ioc-lcls-plc-bergmann-kohzu/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics-dev/divya/lcls-plc-bergmann-kohzu/iocBoot/ioc-lcls-plc-bergmann-kohzu/c:/Repos/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ioc-cxi-mot2",
+        "port": 39101,
+        "dir": "/reg/g/pcds/epics-dev/divya/lcls-plc-bergmann-kohzu/iocBoot",
+        "alias": "Bergmann Kohzu new",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-plc-berg-kohzu",
+        "script": "/reg/g/pcds/epics-dev/divya/lcls-plc-bergmann-kohzu/iocBoot/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-cxi-protura1",
