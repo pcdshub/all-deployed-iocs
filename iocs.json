@@ -3933,8 +3933,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-ued-pwr-01",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/ued/pdu_snmp/ioc-ued-pdu_snmp/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/ued/pdu_snmp/ioc-ued-pdu_snmp/build/iocBoot/ioc-ued-pwr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ctl-rix-cam-02",
