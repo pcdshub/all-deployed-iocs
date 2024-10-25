@@ -10570,7 +10570,6 @@
         "host": "ioc-det-portable1",
         "port": 30001,
         "dir": "ioc/common/mpod/R2.1.8",
-        "disable": true,
         "history": [
             "ioc/common/mpod/R2.1.8",
             "ioc/common/mpod/R2.1.4",
@@ -10586,6 +10585,7 @@
         "host": "ioc-det-portable1",
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/common/mpod",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-mobile-xpp-mpod",
