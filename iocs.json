@@ -8607,6 +8607,17 @@
     },
     {
         "host": "ioc-cxi-mot2",
+        "port": 39102,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi_picomotion/picoMotion",
+        "alias": "Bergmann Pico",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-usr4-pico",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi_picomotion/picoMotion/build/iocBoot/ioc-cxi-usr4-pico/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/picoMotion/R4.0.1/bin/rhel7-x86_64/motion"
+    },
+    {
+        "host": "ioc-cxi-mot2",
         "port": 30003,
         "dir": "ioc/cxi/lcls-plc-cxi-fms/v1.0.0",
         "alias": "Facility Monitoring System - CXI",
@@ -8618,26 +8629,15 @@
     },
     {
         "host": "ioc-cxi-mot2",
-        "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/divya/lcls-plc-bergmann-kohzu",
-        "disable": true,
-        "alias": "Bergmann Experiment Kohzu Setup",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-lcls-plc-bergmann-kohzu",
-        "script": "/reg/g/pcds/epics-dev/divya/lcls-plc-bergmann-kohzu/iocBoot/ioc-lcls-plc-bergmann-kohzu/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/divya/lcls-plc-bergmann-kohzu/iocBoot/ioc-lcls-plc-bergmann-kohzu/c:/Repos/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ioc-cxi-mot2",
         "port": 39101,
-        "dir": "/reg/g/pcds/epics-dev/divya/lcls-plc-bergmann-kohzu/iocBoot",
+        "dir": "/reg/g/pcds/epics-dev/divya/lcls-plc-bergmann-kohzu",
         "alias": "Bergmann Kohzu new",
+        "cmd": "./st.cmd",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-plc-berg-kohzu",
-        "script": "/reg/g/pcds/epics-dev/divya/lcls-plc-bergmann-kohzu/iocBoot/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/lcls-plc-bergmann-kohzu/iocBoot/ioc-plc-berg-kohzu/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ioc-cxi-protura1",
