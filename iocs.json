@@ -1394,12 +1394,12 @@
     {
         "host": "ctl-las-ftl-srv01",
         "port": 30012,
-        "dir": "/reg/g/pcds/epics/ioc/las/smaract/R1.0.5",
+        "dir": "/cds/group/pcds/epics-dev/aberges/ioc/las/ioc-las-smaract",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-ftl-mcs2-02",
-        "script": "/reg/g/pcds/epics/ioc/las/smaract/R1.0.5/build/iocBoot/ioc-las-ftl-mcs2-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.21/bin/rhel7-x86_64/smaract"
+        "script": "/cds/group/pcds/epics-dev/aberges/ioc/las/ioc-las-smaract/build/iocBoot/ioc-las-ftl-mcs2-02/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/aberges/ioc/common/smaract/ioc-common-smaract/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ftl-srv01",
