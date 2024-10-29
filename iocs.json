@@ -7363,7 +7363,6 @@
         "host": "daq-xcs-pgp01",
         "port": 35002,
         "dir": "ioc/xcs/epix/R1.5.1",
-        "disable": true,
         "history": [
             "ioc/xcs/epix/R1.5.1"
         ],
