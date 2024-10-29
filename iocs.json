@@ -1965,7 +1965,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-ejx-ell-04",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/thorlabs-ell/build/iocBoot/ioc-lm1k4-ejx-ell-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-ip1-srv04",
@@ -2036,7 +2036,17 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-ejx-ell-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/thorlabs-ell/build/iocBoot/ioc-lm1k4-ejx-ell-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
+    },
+    {
+        "host": "ctl-las-ip1-srv05",
+        "port": 30015,
+        "dir": "/cds/group/pcds/epics-dev/mods/lm1k4/ejx/thorlabs-ell",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-ejx-ell-02",
+        "script": "/cds/group/pcds/epics-dev/mods/lm1k4/ejx/thorlabs-ell/build/iocBoot/ioc-lm1k4-ejx-ell-02/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-ip1-srv05",
@@ -2046,7 +2056,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-ejx-ell-03",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/thorlabs-ell/build/iocBoot/ioc-lm1k4-ejx-ell-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-ip1-srv05",
