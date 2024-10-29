@@ -3926,17 +3926,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
-        "host": "ctl-rix-cam-01",
-        "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/ued/pdu_snmp/ioc-ued-pdu_snmp",
-        "alias": "TEST UED PDU",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-ued-pwr-01",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/ued/pdu_snmp/ioc-ued-pdu_snmp/build/iocBoot/ioc-ued-pwr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
-    },
-    {
         "host": "ctl-rix-cam-02",
         "port": 30011,
         "dir": "ioc/rix/gigECam/R5.0.3",
@@ -16660,6 +16649,17 @@
         "name": "ioc-ued-mpod-01",
         "script": "/reg/g/pcds/epics/ioc/common/mpod/R2.2.12/iocBoot/ioc-ued-mpod-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/mpod/R2.2.12/bin/rhel7-x86_64/mpod"
+    },
+    {
+        "host": "ioc-ued-ccd01",
+        "port": 30004,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/ued/pdu_snmp/ioc-ued-pdu_snmp",
+        "alias": "PDU UED Bunker",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
+        "name": "ioc-ued-pwr-01",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/ued/pdu_snmp/ioc-ued-pdu_snmp/build/iocBoot/ioc-ued-pwr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ioc-ued-ccd01",
