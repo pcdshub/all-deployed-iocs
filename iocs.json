@@ -17402,6 +17402,16 @@
     },
     {
         "host": "ioc-xcs-misc3",
+        "port": 39104,
+        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/xcs/xcs-pem",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-pem",
+        "script": "/reg/g/pcds/epics-dev/nrw/iocs/xcs/xcs-pem/build/iocBoot/ioc-xcs-pem/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.7.3/bin/rhel7-x86_64/ek9000IOC"
+    },
+    {
+        "host": "ioc-xcs-misc3",
         "port": 30004,
         "dir": "/reg/g/pcds/epics-dev/cagee/ioc/common-dev/pvNotepad",
         "alias": "USR - PVs",
