@@ -579,7 +579,7 @@
     {
         "host": "ctl-kfe-mot-01",
         "port": 30103,
-        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-tmo-optics/iocBoot/ioc-tmo-optics/",
+        "dir": "/reg/g/pcds/epics/ioc/tmo/lcls-plc-tmo-optics/v3.6.0/iocBoot/ioc-tmo-optics/",
         "history": [
             "/reg/g/pcds/epics/ioc/tmo/lcls-plc-tmo-optics/v3.4.0/iocBoot/ioc-tmo-optics/",
             "/reg/g/pcds/epics/ioc/tmo/lcls-plc-tmo-optics/v2.2.0/iocBoot/ioc-tmo-optics/",
@@ -590,7 +590,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-tmo-optics",
-        "script": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-tmo-optics/iocBoot/ioc-tmo-optics/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/tmo/lcls-plc-tmo-optics/v3.6.0/iocBoot/ioc-tmo-optics/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
