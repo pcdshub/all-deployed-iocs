@@ -4507,6 +4507,17 @@
     },
     {
         "host": "ctl-rix-mot-01",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/arlyn-upscale",
+        "alias": "QRIX UPSCALE",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-qrix-arlyn-upscale",
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/arlyn-upscale/children/build/iocBoot/ioc-qrix-arlyn-upscale/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/arlyn-upscale/bin/rhel7-x86_64/gmb"
+    },
+    {
+        "host": "ctl-rix-mot-01",
         "port": 30310,
         "dir": "/reg/g/pcds/epics-dev/klauer/ioc-rix-at2k2-calc",
         "alias": "AT2K2 Calculator IOC",
