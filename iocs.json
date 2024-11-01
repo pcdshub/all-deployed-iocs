@@ -1981,6 +1981,7 @@
         "host": "ctl-las-ip1-srv05",
         "port": 30100,
         "dir": "ioc/las/pgpWave8/R2.1.0",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-ip1-pgpw8-01",
