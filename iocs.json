@@ -16176,6 +16176,7 @@
         "host": "ioc-mfx-wave8",
         "port": 30011,
         "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/vimbaCam",
+        "disable": true,
         "alias": "CAM - GoldEye",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
