@@ -16890,6 +16890,7 @@
         "host": "ioc-xcs-gige01",
         "port": 32518,
         "dir": "ioc/xcs/gigECam/R1.2.4",
+        "alias": "CAM - Gige 18",
         "history": [
             "ioc/xcs/gigECam/R1.2.4"
         ],
@@ -17357,12 +17358,13 @@
     {
         "host": "ioc-xcs-misc3",
         "port": 39105,
-        "dir": "ioc/xcs/gigECam/R3.0.5",
+        "dir": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/gigECam",
+        "alias": "CAM - GIGE 21",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-21",
-        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R3.0.5/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-21/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R4.2.7/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-xcs-misc3",
@@ -17378,6 +17380,7 @@
         "host": "ioc-xcs-misc3",
         "port": 39101,
         "dir": "ioc/xcs/gigECam/R3.0.5",
+        "disable": true,
         "alias": "ioc-xcs-gige-lj2",
         "history": [
             "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam"
@@ -17392,6 +17395,7 @@
         "host": "ioc-xcs-misc3",
         "port": 32563,
         "dir": "ioc/xcs/gigECam/R3.0.5",
+        "disable": true,
         "history": [
             "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam",
             "/cds/home/j/jjoshi/xcs"
