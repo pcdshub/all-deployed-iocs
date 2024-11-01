@@ -17356,6 +17356,16 @@
     },
     {
         "host": "ioc-xcs-misc3",
+        "port": 39105,
+        "dir": "ioc/xcs/gigECam/R3.0.5",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-gige-21",
+        "script": "/reg/g/pcds/epics/ioc/xcs/gigECam/R3.0.5/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ioc-xcs-misc3",
         "port": 39102,
         "dir": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/gigECam",
         "base_version": "3.15",
