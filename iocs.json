@@ -15856,7 +15856,7 @@
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-qadc",
         "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/qadc/build/iocBoot/ioc-mfx-qadc/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/qadc/R2.0.10/bin/rhel7-x86_64/qadc134Ioc"
+        "binary": "/reg/g/pcds/epics/ioc/common/qadc/R2.2.2/bin/rhel7-x86_64/qadc134Ioc"
     },
     {
         "host": "ioc-mfx-rec01",
