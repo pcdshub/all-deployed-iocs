@@ -18088,7 +18088,7 @@
     {
         "host": "ioc-xcs-qadc",
         "port": 32000,
-        "dir": "ioc/xcs/qadc/R1.0.1",
+        "dir": "ioc/common/qadc/R2.3.0",
         "alias": "Quad ADC",
         "history": [
             "ioc/common/qadc/R2.0.5",
@@ -18097,8 +18097,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-qadc",
-        "script": "/reg/g/pcds/epics/ioc/xcs/qadc/R1.0.1/build/iocBoot/ioc-xcs-qadc/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/qadc/R2.0.10/bin/rhel7-x86_64/qadc134Ioc"
+        "script": "/reg/g/pcds/epics/ioc/common/qadc/R2.3.0/children/build/iocBoot/ioc-xcs-qadc/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/qadc/R2.3.0/bin/rhel7-x86_64/qadc134Ioc"
     },
     {
         "host": "ioc-xcs-rec01",
