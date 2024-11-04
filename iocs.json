@@ -15853,7 +15853,6 @@
         "host": "ioc-mfx-qadc",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/qadc",
-        "disable": true,
         "alias": "DG2 - QuadADC",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
