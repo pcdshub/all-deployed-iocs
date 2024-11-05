@@ -15850,12 +15850,12 @@
     {
         "host": "ioc-mfx-qadc",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/qadc",
+        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/qadc",
         "alias": "DG2 - QuadADC",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-qadc",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/qadc/build/iocBoot/ioc-mfx-qadc/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/qadc/build/iocBoot/ioc-mfx-qadc/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/qadc/R2.2.2/bin/rhel7-x86_64/qadc134Ioc"
     },
     {
