@@ -3337,7 +3337,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-mcs2-01",
         "script": "/cds/group/pcds/epics-dev/mods/lm1k2/smaract/build/iocBoot/ioc-lm1k2-mcs2-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.24/bin/rhel7-x86_64/smaract"
+        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.25/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-qrixs-srv02",
@@ -3377,7 +3377,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-mcs2-02",
         "script": "/cds/group/pcds/epics-dev/mods/lm1k2/smaract/build/iocBoot/ioc-lm1k2-mcs2-02/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.24/bin/rhel7-x86_64/smaract"
+        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.25/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-qrixs-srv04",
@@ -6827,6 +6827,9 @@
         "dir": "/reg/g/pcds/pyps/cxi/dev/cxi/scripts/elogpost",
         "disable": true,
         "alias": "Elog post python watcher",
+        "history": [
+            "/reg/g/pcds/pyps/cxi/dev/cxi/scripts/elogpost"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "elogpost",
@@ -6838,6 +6841,9 @@
         "port": 30001,
         "dir": "ioc/cxi/epix/R1.5.0",
         "alias": "DS1 Epixes",
+        "history": [
+            "ioc/cxi/epix/R1.5.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-d51-epix",
@@ -7719,6 +7725,9 @@
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - Laser Enclosure Near Field Tutti Frutti",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-las-gige-01",
@@ -7730,6 +7739,9 @@
         "port": 39101,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - Laser Enclosure Far Field Tutti Frutti",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-las-gige-02",
@@ -7741,6 +7753,9 @@
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/common/pciAcromag",
         "alias": "USR - Acromag",
+        "history": [
+            "/reg/g/pcds/epics-dev/espov/ioc/common/pciAcromag"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-usr-acromag",
@@ -7752,6 +7767,9 @@
         "port": 32106,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - SC2 Inline Gige 06",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-gige-06",
@@ -7763,6 +7781,9 @@
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - SC1 Navitar Gige",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-navitar1-gige",
@@ -7774,6 +7795,9 @@
         "port": 30004,
         "dir": "ioc/cxi/vimbaCam/R1.0.0",
         "alias": "CAM - SC1 Inline Alvium",
+        "history": [
+            "ioc/cxi/vimbaCam/R1.0.0"
+        ],
         "cmd": "./st.cmd",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -7787,6 +7811,7 @@
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - Timetool Gige",
         "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
             "ioc/cxi/gigECam/R5.0.1"
         ],
         "base_version": "3.15",
@@ -7801,6 +7826,7 @@
         "dir": "ioc/common/detector-ctrl/R3.2.3",
         "alias": "DS2 CSPAD Control",
         "history": [
+            "ioc/common/detector-ctrl/R3.2.3",
             "ioc/common/detector-ctrl/R3.1.0",
             "ioc/common/detector-ctrl/R2.6.0"
         ],
@@ -7831,6 +7857,9 @@
         "port": 30103,
         "dir": "ioc/cxi/concentrator/R1.0.0",
         "alias": "DS2 CSPAD Concentrator",
+        "history": [
+            "ioc/cxi/concentrator/R1.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-ds2-ctr",
@@ -7874,6 +7903,9 @@
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi_picomotion/pico874x/current",
         "disable": true,
         "alias": "PICO USR1",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi_picomotion/pico874x/current"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-pico-usr1",
@@ -7886,6 +7918,7 @@
         "dir": "ioc/common/jungfrau4m/R2.0.0",
         "alias": "JF4M - Det Control",
         "history": [
+            "ioc/common/jungfrau4m/R2.0.0",
             "ioc/common/jungfrau4m/R1.1.2",
             "/reg/g/pcds/epics-dev/rajan-01/jungfrau4m/current"
         ],
@@ -7900,6 +7933,9 @@
         "port": 30100,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract",
         "alias": "Smaract DS1 Controllers",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-mcs2-01",
@@ -7911,6 +7947,9 @@
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract",
         "disable": true,
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-mcs2-02",
@@ -7922,6 +7961,9 @@
         "port": 39545,
         "dir": "ioc/cxi/thermotek/R1.0.0",
         "alias": "JF4M - Chiller",
+        "history": [
+            "ioc/cxi/thermotek/R1.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-thermotek-01",
@@ -7980,6 +8022,7 @@
         "disable": true,
         "alias": "zz - Laser DG645 Delay Generator 1",
         "history": [
+            "ioc/cxi/dg/R1.0.0",
             "ioc/cxi/dg",
             "/reg/neh/home/trendahl/repo/dg/trial_child"
         ],
@@ -7996,6 +8039,7 @@
         "disable": true,
         "alias": "zz - Laser DG645 Delay Generator 2",
         "history": [
+            "ioc/cxi/dg/R1.0.0",
             "ioc/cxi/dg"
         ],
         "base_version": "3.15",
@@ -8009,6 +8053,9 @@
         "port": 30500,
         "dir": "ioc/common/expstate/R1.0.6",
         "alias": "Experiment State Tracker",
+        "history": [
+            "ioc/common/expstate/R1.0.6"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-expstate",
@@ -8036,6 +8083,7 @@
         "disable": true,
         "alias": "zz - Oscilloscope TDS3000 Portable 01",
         "history": [
+            "ioc/cxi/TDS3000/R1.0.0",
             "ioc/cxi/TDS3000",
             "/reg/neh/home/trendahl/repo/TDS3000/trial_child"
         ],
@@ -8052,6 +8100,7 @@
         "disable": true,
         "alias": "zz - Oscilloscope TDS3000 Portable 02",
         "history": [
+            "ioc/cxi/TDS3000/R1.0.0",
             "ioc/cxi/TDS3000",
             "/reg/neh/home/trendahl/repo/TDS3000/trial_child"
         ],
@@ -8127,6 +8176,7 @@
         "dir": "/reg/g/pcds/epics-dev/pennebak/pulsepicker/current",
         "alias": "DS1 Pulse Picker",
         "history": [
+            "/reg/g/pcds/epics-dev/pennebak/pulsepicker/current",
             "ioc/common/pulsepicker/R1.1.1"
         ],
         "base_version": "3.15",
@@ -8141,6 +8191,7 @@
         "dir": "ioc/cxi/picoMotion/R2.1.3",
         "alias": "Pico DSB laser",
         "history": [
+            "ioc/cxi/picoMotion/R2.1.3",
             "/reg/neh/home/trendahl/Workarea/cxi/picoMotion",
             "ioc/common/picoMotion/R1.0.13"
         ],
@@ -8156,6 +8207,7 @@
         "dir": "ioc/common/Leviton/R2.4.2",
         "alias": "Power Leviton Racks",
         "history": [
+            "ioc/common/Leviton/R2.4.2",
             "ioc/common/Leviton/R1.28.8"
         ],
         "cmd": "../../bin/linux-x86_64/Leviton st.cmd",
@@ -8171,6 +8223,9 @@
         "dir": "/reg/g/pcds/epics-dev/pennebak/cxi/mandrel/current",
         "disable": true,
         "alias": "Mandrel",
+        "history": [
+            "/reg/g/pcds/epics-dev/pennebak/cxi/mandrel/current"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-mandrel-01",
@@ -8182,6 +8237,9 @@
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/pennebak/git/common/pulsepicker",
         "alias": "DIA Pulse Picker",
+        "history": [
+            "/reg/g/pcds/epics-dev/pennebak/git/common/pulsepicker"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-pulsepicker-ims",
@@ -8194,6 +8252,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS DG2 IPM",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims/R2.0.0",
             "ioc/cxi/ims"
         ],
@@ -8209,6 +8268,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS DG2 PIM",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims/R4.0.39",
             "ioc/cxi/ims/R2.0.0",
             "ioc/cxi/ims"
@@ -8226,6 +8286,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS DG2 Stand",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims"
         ],
         "delay": 10,
@@ -8240,6 +8301,7 @@
         "port": 30550,
         "dir": "ioc/cxi/ims/R6.7.1",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims/build"
         ],
         "base_version": "3.15",
@@ -8254,6 +8316,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS DG3 IPM",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims/R2.0.0",
             "ioc/cxi/ims"
         ],
@@ -8269,6 +8332,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS DG3 Stand",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims/R2.0.0",
             "ioc/cxi/ims"
         ],
@@ -8285,6 +8349,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS DG3 XFLS",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims/R2.0.0",
             "ioc/cxi/ims"
         ],
@@ -8301,6 +8366,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS DG4 Smart Motors",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/ims",
             "ioc/cxi/ims"
         ],
@@ -8316,6 +8382,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS DG4 Stand",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims/R2.0.0",
             "ioc/cxi/ims"
         ],
@@ -8331,6 +8398,9 @@
         "port": 30001,
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS DS1 Extra Dumb Motors",
+        "history": [
+            "ioc/cxi/ims/R6.7.1"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-ds1-dumb-ims",
@@ -8343,6 +8413,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS DS1 XFLS",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims/R2.0.0",
             "ioc/cxi/ims"
         ],
@@ -8357,6 +8428,9 @@
         "port": 30004,
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS DS2 Extra Dumb Motors",
+        "history": [
+            "ioc/cxi/ims/R6.7.1"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-ds2-dumb-ims",
@@ -8369,6 +8443,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS DS2 stand",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims/R2.0.0",
             "ioc/cxi/ims"
         ],
@@ -8385,6 +8460,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS DSB Motors",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims/R4.0.39",
             "ioc/cxi/ims/R2.0.0",
             "ioc/cxi/ims"
@@ -8400,6 +8476,9 @@
         "port": 30005,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/NewportXPS8",
         "alias": "Newport XPS Laser",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/NewportXPS8"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-las-xps1",
@@ -8411,6 +8490,9 @@
         "port": 30006,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/NewportXPS8",
         "alias": "Newport XPS Laser 2",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/NewportXPS8"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-las-xps2",
@@ -8423,6 +8505,7 @@
         "dir": "ioc/cxi/shimadzu-lc20/R1.0.2",
         "alias": "SDS Shimadzu HPLC",
         "history": [
+            "ioc/cxi/shimadzu-lc20/R1.0.2",
             "/reg/g/pcds/package/epics/3.14-dev/ioc/common/shimadzu-lc20/current",
             "ioc/common/shimadzu/lc20/R0.3.1"
         ],
@@ -8438,6 +8521,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS PI3",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims/R2.0.0",
             "ioc/cxi/ims"
         ],
@@ -8453,6 +8537,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS SC1 Motors",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims/R2.0.0",
             "ioc/cxi/ims"
         ],
@@ -8469,6 +8554,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS SC1 Navitar",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims/R4.0.39",
             "ioc/cxi/ims/R2.0.0",
             "ioc/cxi/ims"
@@ -8486,6 +8572,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS PI1",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims/R2.0.0",
             "ioc/cxi/ims"
         ],
@@ -8502,6 +8589,7 @@
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims",
         "alias": "IMS SC2 Motors",
         "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims",
             "ioc/cxi/ims/R2.0.0",
             "ioc/cxi/ims"
         ],
@@ -8517,6 +8605,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS SC2 Navitar",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims/R2.0.0",
             "ioc/cxi/ims"
         ],
@@ -8533,6 +8622,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS PI2",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims/R2.0.0",
             "ioc/cxi/ims"
         ],
@@ -8549,6 +8639,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS SC3 Motors",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims/R2.0.0",
             "ioc/cxi/ims"
         ],
@@ -8564,6 +8655,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS Slit Control",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims/R4.0.39",
             "/reg/neh/home/koglin/ioc/cxi/ims/current/R2.0.0",
             "ioc/cxi/ims"
@@ -8579,6 +8671,9 @@
         "host": "ioc-cxi-mot2",
         "port": 39100,
         "dir": "ioc/common/picoMotion/R4.0.2",
+        "history": [
+            "ioc/common/picoMotion/R4.0.2"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-usr-pico",
@@ -8591,6 +8686,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS SC1 User Smart Motors",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims/R2.0.0",
             "ioc/cxi/ims"
         ],
@@ -8606,6 +8702,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS SC2 User Dumb Motors",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "/reg/neh/home/rajan-01/checkouts/epics/cxi/ims/current",
             "ioc/cxi/ims/R2.0.0",
             "ioc/cxi/ims"
@@ -8621,6 +8718,9 @@
         "port": 31121,
         "dir": "ioc/cxi/NewportXPS8/R1.2.1",
         "alias": "Newport XPS User",
+        "history": [
+            "ioc/cxi/NewportXPS8/R1.2.1"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-usr-xps1",
@@ -8632,6 +8732,9 @@
         "port": 31122,
         "dir": "ioc/cxi/NewportXPS8/R2.1.0",
         "alias": "Newport XPS User 2",
+        "history": [
+            "ioc/cxi/NewportXPS8/R2.1.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-usr-xps2",
@@ -8643,6 +8746,9 @@
         "port": 39102,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi_picomotion/picoMotion",
         "alias": "Bergmann Pico",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi_picomotion/picoMotion"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-usr4-pico",
@@ -8654,6 +8760,9 @@
         "port": 30003,
         "dir": "ioc/cxi/lcls-plc-cxi-fms/v1.0.0",
         "alias": "Facility Monitoring System - CXI",
+        "history": [
+            "ioc/cxi/lcls-plc-cxi-fms/v1.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-fms-cxi-plc-01",
@@ -8665,6 +8774,9 @@
         "port": 39101,
         "dir": "/reg/g/pcds/epics-dev/divya/lcls-plc-bergmann-kohzu",
         "alias": "Bergmann Kohzu new",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/lcls-plc-bergmann-kohzu"
+        ],
         "cmd": "./st.cmd",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -8694,6 +8806,7 @@
         "disable": true,
         "alias": "DS1 Cspad",
         "history": [
+            "ioc/common/detector-ctrl/R3.2.3",
             "ioc/common/detector-ctrl/R3.1.0",
             "ioc/common/detector-ctrl/R2.6.0"
         ],
@@ -8709,6 +8822,9 @@
         "port": 39546,
         "dir": "ioc/cxi/lakeshore336/R1.0.0",
         "alias": "JF4M - Temp Control",
+        "history": [
+            "ioc/cxi/lakeshore336/R1.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-jf4m-ls336",
@@ -8752,6 +8868,7 @@
         "disable": true,
         "alias": "zz - DS2 csArc",
         "history": [
+            "ioc/common/detector-ctrl/R3.2.5",
             "/reg/neh/home/koglin/ioc/common/detector-ctrl/current"
         ],
         "base_version": "3.15",
@@ -8782,6 +8899,9 @@
         "dir": "ioc/common/detector-ctrl/R3.1.6",
         "disable": true,
         "alias": "zz - D50 Epix",
+        "history": [
+            "ioc/common/detector-ctrl/R3.1.6"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-d50-epix",
@@ -8794,6 +8914,9 @@
         "dir": "ioc/common/detector-ctrl/R3.2.3",
         "disable": true,
         "alias": "zz - D50 Epix02",
+        "history": [
+            "ioc/common/detector-ctrl/R3.2.3"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-d50-epix02",
@@ -8820,6 +8943,9 @@
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/pvNotepad",
         "alias": "MISC - ACR Feedback",
+        "history": [
+            "/reg/g/pcds/epics-dev/pennebak/git/cxi/pvNotepad"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-acr",
@@ -8832,6 +8958,7 @@
         "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/pvNotepad",
         "alias": "MISC - CSPAD PVs",
         "history": [
+            "/reg/g/pcds/epics-dev/pennebak/git/cxi/pvNotepad",
             "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/pvNotepad"
         ],
         "base_version": "3.15",
@@ -8846,6 +8973,7 @@
         "dir": "ioc/cxi/thermocube/R2.0.0",
         "alias": "Chiller DSB",
         "history": [
+            "ioc/cxi/thermocube/R2.0.0",
             "ioc/cxi/thermocube/R1.0.0"
         ],
         "base_version": "3.15",
@@ -8859,6 +8987,9 @@
         "port": 30016,
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS DIA Attenuators",
+        "history": [
+            "ioc/cxi/ims/R6.7.1"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dia-att-ims",
@@ -8870,6 +9001,9 @@
         "port": 30015,
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS DIA Prefocus Lens",
+        "history": [
+            "ioc/cxi/ims/R6.7.1"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dia-pfls-ims",
@@ -8882,6 +9016,7 @@
         "dir": "ioc/cxi/thermocube/R2.0.0",
         "alias": "Chiller DSA",
         "history": [
+            "ioc/cxi/thermocube/R2.0.0",
             "ioc/cxi/thermocube/R1.0.0"
         ],
         "base_version": "3.15",
@@ -8896,6 +9031,7 @@
         "dir": "ioc/cxi/thermocube/R2.0.0",
         "alias": "Chiller DSC",
         "history": [
+            "ioc/cxi/thermocube/R2.0.0",
             "ioc/cxi/thermocube/R1.0.0"
         ],
         "base_version": "3.15",
@@ -8910,6 +9046,7 @@
         "dir": "ioc/cxi/thermocube/R2.0.0",
         "alias": "Chiller DSD",
         "history": [
+            "ioc/cxi/thermocube/R2.0.0",
             "ioc/cxi/thermocube/R1.0.0"
         ],
         "base_version": "3.15",
@@ -8925,6 +9062,7 @@
         "disable": true,
         "alias": "MISC - Elog post pvs",
         "history": [
+            "/reg/g/pcds/epics-dev/pennebak/git/cxi/pvNotepad",
             "/reg/neh/home/koglin/ioc/cxi/pvNotepad/current"
         ],
         "base_version": "3.15",
@@ -8938,6 +9076,9 @@
         "port": 34112,
         "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/pvNotepad",
         "alias": "MISC - PVs for Jet Tracking",
+        "history": [
+            "/reg/g/pcds/epics-dev/pennebak/git/cxi/pvNotepad"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-jettrack",
@@ -8947,12 +9088,15 @@
     {
         "host": "ioc-cxi-qadc",
         "port": 30103,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/cxi/detectorprotection",
+        "dir": "ioc/cxi/detectorprotection/R3.0.0",
         "alias": "JF4M - Blocker",
+        "history": [
+            "/reg/g/pcds/epics-dev/kaushikm/ioc/cxi/detectorprotection"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-jf4m-blocker",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/cxi/detectorprotection/build/iocBoot/ioc-cxi-jf4m-blocker/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/cxi/detectorprotection/R3.0.0/build/iocBoot/ioc-cxi-jf4m-blocker/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/detectorprotection/bin/rhel7-x86_64/detprot"
     },
     {
@@ -8961,6 +9105,7 @@
         "dir": "/reg/g/pcds/epics-dev/snelson/cxi/cspad-tripper",
         "alias": "JF4M - Tripper",
         "history": [
+            "/reg/g/pcds/epics-dev/snelson/cxi/cspad-tripper",
             "/reg/g/pcds/epics-dev/pennebak/git/cxi/cspad-tripper"
         ],
         "base_version": "3.15",
@@ -8974,6 +9119,9 @@
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/pvNotepad",
         "alias": "MISC - pcdsdevices Notepad PVs",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/pvNotepad"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-pcdsdevices",
@@ -8985,6 +9133,9 @@
         "port": 35000,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/qadc",
         "alias": "Quad ADC",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/qadc"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-qadc",
@@ -8998,6 +9149,7 @@
         "disable": true,
         "alias": "MISC - RowRunner",
         "history": [
+            "/reg/g/pcds/epics-dev/pennebak/git/cxi/pvNotepad",
             "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/pvNotepad"
         ],
         "base_version": "3.15",
@@ -9010,6 +9162,9 @@
         "host": "ioc-cxi-qadc",
         "port": 39100,
         "dir": "ioc/cxi/qmini/R1.0.0",
+        "history": [
+            "ioc/cxi/qmini/R1.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-spec-01",
@@ -9020,6 +9175,9 @@
         "host": "ioc-cxi-qadc",
         "port": 39101,
         "dir": "ioc/cxi/qmini/R1.0.0",
+        "history": [
+            "ioc/cxi/qmini/R1.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-spec-02",
@@ -9032,6 +9190,7 @@
         "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/pvNotepad",
         "alias": "MISC - USER PVs",
         "history": [
+            "/reg/g/pcds/epics-dev/pennebak/git/cxi/pvNotepad",
             "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/pvNotepad"
         ],
         "base_version": "3.15",
@@ -9045,6 +9204,9 @@
         "port": 30041,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - DG1 PIM Gige 01",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg1-gige",
@@ -9056,6 +9218,9 @@
         "port": 30405,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - DG2 PIM Gige 02",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg2-gige",
@@ -9068,6 +9233,9 @@
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims",
         "disable": true,
         "alias": "DS1 PP",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-ds1-ppenc-ims",
@@ -9081,6 +9249,7 @@
         "disable": true,
         "alias": "IMS DS1 Stand",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims/R2.0.0",
             "ioc/cxi/ims"
         ],
@@ -9097,6 +9266,7 @@
         "dir": "ioc/cxi/ipimb/R1.1.1",
         "alias": "IPIMB CXI",
         "history": [
+            "ioc/cxi/ipimb/R1.1.1",
             "ioc/cxi/ipimb/R1.1.0",
             "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/ipimb/current"
         ],
@@ -9112,6 +9282,7 @@
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims",
         "alias": "IMS KB1 Optics",
         "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims",
             "ioc/cxi/ims/R2.0.0",
             "ioc/cxi/ims"
         ],
@@ -9127,6 +9298,9 @@
         "port": 34640,
         "dir": "ioc/cxi/evr/R0.1.3",
         "alias": "\"MISC\": REC01 EVR",
+        "history": [
+            "ioc/cxi/evr/R0.1.3"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-rec01-evr",
@@ -9152,6 +9326,9 @@
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi_picomotion/picoMotion",
         "alias": "User3 pico motor",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi_picomotion/picoMotion"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-usr3-pico",
@@ -9192,6 +9369,9 @@
         "port": 32107,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - SC2 Offaxis Gige 07",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-gige-07",
@@ -9204,6 +9384,9 @@
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "disable": true,
         "alias": "CAM - SC1 Offaxis Gige 08",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-gige-08",
@@ -9215,6 +9398,9 @@
         "port": 30005,
         "dir": "ioc/cxi/RohdeSchwarzHMP/R1.2.0",
         "alias": "Rohde Schwarz Jungfrau 01",
+        "history": [
+            "ioc/cxi/RohdeSchwarzHMP/R1.2.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-hmp01",
@@ -9226,6 +9412,9 @@
         "port": 30002,
         "dir": "ioc/cxi/RohdeSchwarzHMP/R1.2.0",
         "alias": "Rohde Schwarz Jungfrau 02",
+        "history": [
+            "ioc/cxi/RohdeSchwarzHMP/R1.2.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-hmp02",
@@ -9237,6 +9426,9 @@
         "port": 40000,
         "dir": "/reg/g/pcds/controls/camrecord",
         "alias": "CAM - Recorder03",
+        "history": [
+            "/reg/g/pcds/controls/camrecord"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-rec03",
@@ -9248,6 +9440,9 @@
         "port": 34641,
         "dir": "ioc/cxi/evr/R0.1.3",
         "alias": "\"MISC\": REC03 EVR",
+        "history": [
+            "ioc/cxi/evr/R0.1.3"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-rec03-evr",
@@ -9259,6 +9454,9 @@
         "port": 30008,
         "dir": "ioc/cxi/timetool/R1.0.0",
         "alias": "Timetool PV",
+        "history": [
+            "ioc/cxi/timetool/R1.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-tt",
@@ -9270,6 +9468,9 @@
         "port": 30004,
         "dir": "ioc/common/bk-1697/R1.0.1",
         "alias": "BK- Precision",
+        "history": [
+            "ioc/common/bk-1697/R1.0.1"
+        ],
         "delay": 1,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -9282,6 +9483,9 @@
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - DG3 PIM Gige",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg3-gige",
@@ -9293,6 +9497,9 @@
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - SC3 Offaxis",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-gige-03",
@@ -9304,6 +9511,9 @@
         "port": 30103,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - SC3 Inline Questar Gige 05",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-gige-05",
@@ -9316,6 +9526,7 @@
         "dir": "ioc/cxi/ims/R6.7.0",
         "alias": "IMS KB2 Optics",
         "history": [
+            "ioc/cxi/ims/R6.7.0",
             "ioc/cxi/ims"
         ],
         "delay": 20,
@@ -9331,6 +9542,9 @@
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract",
         "disable": true,
         "alias": "USR - Handheld MCS2 Controller",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-mcs2-usr01",
@@ -9343,6 +9557,9 @@
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/mmc",
         "disable": true,
         "alias": "\"TEST\": SC1 MMC",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/mmc"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-pp30-1axis-sc1",
@@ -9355,6 +9572,9 @@
         "dir": "/reg/g/pcds/controls/camrecord",
         "disable": true,
         "alias": "CAM - Recorder04",
+        "history": [
+            "/reg/g/pcds/controls/camrecord"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-rec04",
@@ -9367,6 +9587,7 @@
         "dir": "ioc/cxi/evr/R0.1.3",
         "alias": "\"MISC\": REC04 EVR",
         "history": [
+            "ioc/cxi/evr/R0.1.3",
             "/reg/neh/home/sheppard/ioc/cxi/evr"
         ],
         "base_version": "3.15",
@@ -9381,6 +9602,9 @@
         "dir": "ioc/cxi/edtCam/R2.0.2",
         "disable": true,
         "alias": "\"zz\": \"DT\": CAM - SC1 Offaxis Questar Opal 1000m",
+        "history": [
+            "ioc/cxi/edtCam/R2.0.2"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc1-offaxis",
@@ -9393,6 +9617,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS DSB User Dumb Motors",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims/R4.0.39",
             "ioc/cxi/ims/R2.0.0",
             "ioc/cxi/ims"
@@ -9409,6 +9634,9 @@
         "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/loadlock/current",
         "disable": true,
         "alias": "zz - SC2 Loadlock",
+        "history": [
+            "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/loadlock/current"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-tst-ads",
@@ -9421,6 +9649,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS 1MS Stand",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims"
         ],
         "delay": 10,
@@ -9436,6 +9665,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS DG1",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims/R2.0.0",
             "ioc/cxi/ims"
         ],
@@ -9451,6 +9681,9 @@
         "port": 30512,
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS DG2 PFLS",
+        "history": [
+            "ioc/cxi/ims/R6.7.1"
+        ],
         "cmd": "st.cmd",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -9464,6 +9697,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS DG3 user",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims/R4.0.39",
             "ioc/cxi/ims/R2.0.0",
             "ioc/cxi/ims"
@@ -9479,6 +9713,9 @@
         "port": 30005,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/mmc",
         "alias": "MMC - SC2 1 Axis PR32",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/mmc"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-mmc-pr32-01",
@@ -9491,6 +9728,7 @@
         "dir": "ioc/common/mpod/R2.2.10",
         "alias": "DS1 Mpod",
         "history": [
+            "ioc/common/mpod/R2.2.10",
             "ioc/common/mpod/R2.0.9",
             "ioc/common/mpod/R1.11.1"
         ],
@@ -9506,6 +9744,9 @@
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/mmc",
         "alias": "MMC - SC2 1 Axis 1",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/mmc"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-pp30-1axis-03",
@@ -9518,6 +9759,9 @@
         "dir": "ioc/cxi/mmc/R2.0.2",
         "disable": true,
         "alias": "MMC - SC2 1 Axis 2",
+        "history": [
+            "ioc/cxi/mmc/R2.0.2"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-pp30-1axis-04",
@@ -9530,6 +9774,7 @@
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/arcus",
         "alias": "Piezo SC1 PP-30 Motors",
         "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/arcus",
             "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/pmc100"
         ],
         "cmd": "./st.cmd",
@@ -9545,6 +9790,7 @@
         "dir": "ioc/common/picoMotion/R4.0.2",
         "alias": "Pico SC1 Questar Optics",
         "history": [
+            "ioc/common/picoMotion/R4.0.2",
             "ioc/common/picoMotion/R1.0.11"
         ],
         "base_version": "3.15",
@@ -9559,6 +9805,9 @@
         "dir": "ioc/cxi/mmc/R2.0.2",
         "disable": true,
         "alias": "MMC - SC2 4 Axis 1",
+        "history": [
+            "ioc/cxi/mmc/R2.0.2"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc2-pp30-4axis-01",
@@ -9571,6 +9820,9 @@
         "dir": "ioc/cxi/mmc/R2.0.2",
         "disable": true,
         "alias": "MMC - SC2 4 Axis 2",
+        "history": [
+            "ioc/cxi/mmc/R2.0.2"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc2-pp30-4axis-02",
@@ -9583,6 +9835,7 @@
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS SC1 User Dumb Motors",
         "history": [
+            "ioc/cxi/ims/R6.7.1",
             "ioc/cxi/ims/R2.0.0",
             "ioc/cxi/ims"
         ],
@@ -9645,6 +9898,9 @@
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/arcus",
         "alias": "\"TST\": SC2 PMC",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/arcus"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc2-PMC100",
@@ -9671,6 +9927,9 @@
         "port": 31111,
         "dir": "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/device_states",
         "alias": "Device States",
+        "history": [
+            "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/device_states"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-device-states",
@@ -9746,6 +10005,7 @@
         "dir": "ioc/cxi/KBMotorTemps/R2.1.0",
         "alias": "KB1 Thermocouples",
         "history": [
+            "ioc/cxi/KBMotorTemps/R2.1.0",
             "/reg/neh/home/koglin/ioc/cxi/KBMotorTemps/current",
             "ioc/cxi/KBMotorTemps/R1.0.3"
         ],
@@ -9762,6 +10022,7 @@
         "dir": "/reg/g/pcds/epics-dev/pennebak/git/cxi/mks670b",
         "alias": "SDS Cap Mano Baratron",
         "history": [
+            "/reg/g/pcds/epics-dev/pennebak/git/cxi/mks670b",
             "/reg/g/pcds/package/epics/3.14-dev/ioc/common/mks670b/current"
         ],
         "base_version": "3.15",
@@ -9837,6 +10098,7 @@
         "dir": "ioc/common/questar/R0.2.0-0.3.0",
         "alias": "Questar Fine Readback",
         "history": [
+            "ioc/common/questar/R0.2.0-0.3.0",
             "ioc/common/questar/R0.1.0-0.3.0"
         ],
         "cmd": "../../bin/linux-x86_64/qstar st.cmd",
@@ -9852,6 +10114,7 @@
         "dir": "ioc/common/rvc300/R1.5.0",
         "alias": "SDS Needle Valve",
         "history": [
+            "ioc/common/rvc300/R1.5.0",
             "/reg/g/pcds/package/epics/3.14-dev/ioc/common/rvc300/current"
         ],
         "base_version": "3.15",
@@ -10003,6 +10266,9 @@
         "port": 39103,
         "dir": "ioc/cxi/newall-le/R0.0.1",
         "alias": "Beamline 1MS Newall Stand LE",
+        "history": [
+            "ioc/cxi/newall-le/R0.0.1"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-1ms-newall-le",
@@ -10031,6 +10297,9 @@
         "port": 39102,
         "dir": "ioc/cxi/newall-le/R0.0.1",
         "alias": "Beamline DG2 Newall Stand LE",
+        "history": [
+            "ioc/cxi/newall-le/R0.0.1"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg2-newall-le",
@@ -10057,6 +10326,9 @@
         "port": 39101,
         "dir": "ioc/cxi/newall-le/R0.0.1",
         "alias": "Beamline DG3 Newall Stand LE",
+        "history": [
+            "ioc/cxi/newall-le/R0.0.1"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg3-newall-le",
@@ -10068,6 +10340,9 @@
         "port": 39100,
         "dir": "ioc/cxi/newall-le/R0.0.1",
         "alias": "Beamline DG4 Newall Stand LE",
+        "history": [
+            "ioc/cxi/newall-le/R0.0.1"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg4-newall-le",
@@ -10110,6 +10385,7 @@
         "dir": "ioc/cxi/arcus/R4.2.0",
         "alias": "Piezo SC3 PP-30 Motors",
         "history": [
+            "ioc/cxi/arcus/R4.2.0",
             "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/pmc100"
         ],
         "base_version": "3.15",
@@ -10124,6 +10400,7 @@
         "dir": "ioc/cxi/arcus/R4.2.0",
         "alias": "Piezo User PP-30 Motor",
         "history": [
+            "ioc/cxi/arcus/R4.2.0",
             "/reg/neh/home/trendahl/Workarea/cxi/pmc100/current",
             "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/pmc100"
         ],
@@ -10138,6 +10415,9 @@
         "port": 30016,
         "dir": "ioc/cxi/lusiAtt/R1.5.0",
         "alias": "DIA Attenuator Calculator",
+        "history": [
+            "ioc/cxi/lusiAtt/R1.5.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dia-lusiAtt",
@@ -10150,6 +10430,7 @@
         "dir": "ioc/cxi/lusiAtt/R1.5.0",
         "alias": "DSB Attenuator Calculator",
         "history": [
+            "ioc/cxi/lusiAtt/R1.5.0",
             "ioc/cxi/lusiAtt/R0.2.7",
             "ioc/cxi/lusiAtt/R0.2.2"
         ],
@@ -10165,6 +10446,7 @@
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vacuum",
         "alias": "Vacuum",
         "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/vacuum",
             "ioc/cxi/vacuum/R1.5.0",
             "ioc/cxi/vacuum/R1.3.1"
         ],
@@ -10194,6 +10476,9 @@
         "port": 33018,
         "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/cxi/door_watcher",
         "alias": "ioc-door-watcher",
+        "history": [
+            "/reg/g/pcds/epics-dev/wwright8/ioc/cxi/door_watcher"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "door_watcher",
@@ -10206,11 +10491,11 @@
         "dir": "ioc/cxi/wave8/R2.2.0",
         "alias": "Wave8 DG2",
         "history": [
+            "ioc/cxi/wave8/R2.2.0",
             "ioc/cxi/wave8/R2.1.1",
             "/reg/g/pcds/epics-dev/snelson/cxi/wave8/current",
             "ioc/cxi/wave8/R1.2.0",
-            "ioc/cxi/wave8/R1.1.0",
-            "/reg/neh/home/rajan-01/checkouts/epics/cxi/wave8/current"
+            "ioc/cxi/wave8/R1.1.0"
         ],
         "cmd": "./st.cmd",
         "base_version": "3.15",
@@ -10224,6 +10509,9 @@
         "port": 30001,
         "dir": "ioc/cxi/wave8/R2.2.0",
         "alias": "Wave8 DG3",
+        "history": [
+            "ioc/cxi/wave8/R2.2.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg3-bmmon",
@@ -10236,6 +10524,7 @@
         "dir": "/reg/g/pcds/epics-dev/cymel123/git_ioc/cxi/mps",
         "alias": "MPS PLC",
         "history": [
+            "/reg/g/pcds/epics-dev/cymel123/git_ioc/cxi/mps",
             "ioc/cxi/mps/R0.1.0"
         ],
         "base_version": "3.15",
@@ -10249,6 +10538,9 @@
         "port": 30032,
         "dir": "/reg/g/pcds/epics-dev/jozamudi/cxi/lcls-plc-cxi-sample-delivery/iocBoot/ioc-sample-delivery",
         "alias": "SDS M3",
+        "history": [
+            "/reg/g/pcds/epics-dev/jozamudi/cxi/lcls-plc-cxi-sample-delivery/iocBoot/ioc-sample-delivery"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sds",
@@ -10260,6 +10552,9 @@
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/cymel123/cxi/setra/current",
         "alias": "SetraAir5000",
+        "history": [
+            "/reg/g/pcds/epics-dev/cymel123/cxi/setra/current"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-setra",
@@ -10271,6 +10566,9 @@
         "port": 30002,
         "dir": "ioc/cxi/wave8/R2.2.0",
         "alias": "Wave8 USR DIO",
+        "history": [
+            "ioc/cxi/wave8/R2.2.0"
+        ],
         "delay": 2,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
