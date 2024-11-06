@@ -16099,7 +16099,7 @@
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-epix10ka2m-blocker",
         "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/mfx/detectorprotection/build/iocBoot/ioc-mfx-epix10ka2m-blocker/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/detectorprotection/bin/rhel7-x86_64/detprot"
+        "binary": "/reg/g/pcds/epics/ioc/common/detectorprotection/R3.0.0/bin/rhel7-x86_64/detprot"
     },
     {
         "host": "ioc-mfx-usr01",
@@ -18081,7 +18081,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-epix10ka2m-blocker",
         "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/detectorprotection/build/iocBoot/ioc-xcs-epix10ka2m-blocker/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/detectorprotection/bin/rhel7-x86_64/detprot"
+        "binary": "/reg/g/pcds/epics/ioc/common/detectorprotection/R3.0.0/bin/rhel7-x86_64/detprot"
     },
     {
         "host": "ioc-xcs-qadc",
