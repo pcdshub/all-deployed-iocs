@@ -7771,6 +7771,18 @@
     },
     {
         "host": "ioc-cxi-cam5",
+        "port": 30004,
+        "dir": "ioc/cxi/vimbaCam/R1.0.0",
+        "alias": "CAM - SC1 Inline Alvium",
+        "cmd": "./st.cmd",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-alv-01",
+        "script": "/reg/g/pcds/epics/ioc/cxi/vimbaCam/R1.0.0/build/iocBoot/ioc-cxi-alv-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.6/bin/rhel7-x86_64/vimba"
+    },
+    {
+        "host": "ioc-cxi-cam5",
         "port": 32003,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - Timetool Gige",
@@ -8813,19 +8825,6 @@
         "name": "ioc-cxi-acr",
         "script": "/reg/g/pcds/epics-dev/pennebak/git/cxi/pvNotepad/build/iocBoot/ioc-cxi-acr/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
-    },
-    {
-        "host": "ioc-cxi-qadc",
-        "port": 30004,
-        "dir": "ioc/cxi/vimbaCam/R1.0.0",
-        "disable": true,
-        "alias": "CAM - SC1 Inline Alvium",
-        "cmd": "./st.cmd",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-alv-01",
-        "script": "/reg/g/pcds/epics/ioc/cxi/vimbaCam/R1.0.0/build/iocBoot/ioc-cxi-alv-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.6/bin/rhel7-x86_64/vimba"
     },
     {
         "host": "ioc-cxi-qadc",
