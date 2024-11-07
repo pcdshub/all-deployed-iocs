@@ -9371,7 +9371,6 @@
         "host": "ioc-cxi-rec03",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
-        "disable": true,
         "alias": "CAM - SC1 Offaxis Gige 08",
         "history": [
             "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam"
