@@ -18394,12 +18394,12 @@
     {
         "host": "ioc-xcs-qadc",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/detectorprotection",
+        "dir": "ioc/xcs/detectorprotection/R3.0.0",
         "alias": "epix10k2M Protection",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-epix10ka2m-blocker",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/detectorprotection/build/iocBoot/ioc-xcs-epix10ka2m-blocker/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xcs/detectorprotection/R3.0.0/build/iocBoot/ioc-xcs-epix10ka2m-blocker/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/detectorprotection/R3.0.0/bin/rhel7-x86_64/detprot"
     },
     {
