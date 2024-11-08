@@ -7634,12 +7634,12 @@
     {
         "host": "drp-ued-cmp001",
         "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/ued/interlock",
+        "dir": "ioc/ued/interlock/R3.0.0",
         "alias": "EPIX INTERLOCK",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-epix-interlock",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/ued/interlock/build/iocBoot/ioc-ued-epix-interlock/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/ued/interlock/R3.0.0/build/iocBoot/ioc-ued-epix-interlock/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/interlock/R1.0.0/bin/rhel7-x86_64/interlock"
     },
     {
