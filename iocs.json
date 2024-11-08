@@ -7791,6 +7791,111 @@
     },
     {
         "host": "ioc-cxi-cam4",
+        "port": 30600,
+        "dir": "ioc/cxi/ims/R6.7.1",
+        "alias": "IMS DG4 Smart Motors",
+        "history": [
+            "ioc/cxi/ims/R6.7.1",
+            "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/ims",
+            "ioc/cxi/ims"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-dg4-ims",
+        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.7.1/build/iocBoot/ioc-cxi-dg4-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-cxi-cam4",
+        "port": 30530,
+        "dir": "ioc/cxi/ims/R6.7.1",
+        "alias": "IMS DG4 Stand",
+        "history": [
+            "ioc/cxi/ims/R6.7.1",
+            "ioc/cxi/ims/R2.0.0",
+            "ioc/cxi/ims"
+        ],
+        "delay": 10,
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-dg4-stand-ims",
+        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.7.1/build/iocBoot/ioc-cxi-dg4-stand-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-cxi-cam4",
+        "port": 30005,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/NewportXPS8",
+        "alias": "Newport XPS Laser",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/NewportXPS8"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-las-xps1",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/NewportXPS8/build/iocBoot/ioc-cxi-las-xps1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
+    },
+    {
+        "host": "ioc-cxi-cam4",
+        "port": 30006,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/NewportXPS8",
+        "alias": "Newport XPS Laser 2",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/NewportXPS8"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-las-xps2",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/NewportXPS8/build/iocBoot/ioc-cxi-las-xps2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
+    },
+    {
+        "host": "ioc-cxi-cam4",
+        "port": 30024,
+        "dir": "ioc/cxi/shimadzu-lc20/R1.0.2",
+        "alias": "SDS Shimadzu HPLC",
+        "history": [
+            "ioc/cxi/shimadzu-lc20/R1.0.2",
+            "/reg/g/pcds/package/epics/3.14-dev/ioc/common/shimadzu-lc20/current",
+            "ioc/common/shimadzu/lc20/R0.3.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-lc20",
+        "script": "/reg/g/pcds/epics/ioc/cxi/shimadzu-lc20/R1.0.2/build/iocBoot/ioc-cxi-lc20/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.3.6/bin/rhel7-x86_64/lc20"
+    },
+    {
+        "host": "ioc-cxi-cam4",
+        "port": 31121,
+        "dir": "ioc/cxi/NewportXPS8/R1.2.1",
+        "alias": "Newport XPS User",
+        "history": [
+            "ioc/cxi/NewportXPS8/R1.2.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-usr-xps1",
+        "script": "/reg/g/pcds/epics/ioc/cxi/NewportXPS8/R1.2.1/build/iocBoot/ioc-cxi-usr-xps1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
+    },
+    {
+        "host": "ioc-cxi-cam4",
+        "port": 31122,
+        "dir": "ioc/cxi/NewportXPS8/R2.1.0",
+        "alias": "Newport XPS User 2",
+        "history": [
+            "ioc/cxi/NewportXPS8/R2.1.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-usr-xps2",
+        "script": "/reg/g/pcds/epics/ioc/cxi/NewportXPS8/R2.1.0/build/iocBoot/ioc-cxi-usr-xps2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
+    },
+    {
+        "host": "ioc-cxi-cam4",
         "port": 39102,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi_picomotion/picoMotion",
         "alias": "Bergmann Pico",
@@ -7834,7 +7939,7 @@
     },
     {
         "host": "ioc-cxi-cam5",
-        "port": 39,
+        "port": 39001,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - Timetool Gige",
         "history": [
@@ -8404,39 +8509,6 @@
     },
     {
         "host": "ioc-cxi-mot2",
-        "port": 30600,
-        "dir": "ioc/cxi/ims/R6.7.1",
-        "alias": "IMS DG4 Smart Motors",
-        "history": [
-            "ioc/cxi/ims/R6.7.1",
-            "/reg/g/pcds/package/epics/3.14-dev/ioc/cxi/ims",
-            "ioc/cxi/ims"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-dg4-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.7.1/build/iocBoot/ioc-cxi-dg4-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-cxi-mot2",
-        "port": 30530,
-        "dir": "ioc/cxi/ims/R6.7.1",
-        "alias": "IMS DG4 Stand",
-        "history": [
-            "ioc/cxi/ims/R6.7.1",
-            "ioc/cxi/ims/R2.0.0",
-            "ioc/cxi/ims"
-        ],
-        "delay": 10,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-dg4-stand-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.7.1/build/iocBoot/ioc-cxi-dg4-stand-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-cxi-mot2",
         "port": 30001,
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS DS1 Extra Dumb Motors",
@@ -8513,50 +8585,6 @@
         "name": "ioc-cxi-dsb-ims",
         "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.7.1/build/iocBoot/ioc-cxi-dsb-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-cxi-mot2",
-        "port": 30005,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/NewportXPS8",
-        "alias": "Newport XPS Laser",
-        "history": [
-            "/reg/g/pcds/epics-dev/divya/ioc/cxi/NewportXPS8"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-las-xps1",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/NewportXPS8/build/iocBoot/ioc-cxi-las-xps1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
-    },
-    {
-        "host": "ioc-cxi-mot2",
-        "port": 30006,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/NewportXPS8",
-        "alias": "Newport XPS Laser 2",
-        "history": [
-            "/reg/g/pcds/epics-dev/divya/ioc/cxi/NewportXPS8"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-las-xps2",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/NewportXPS8/build/iocBoot/ioc-cxi-las-xps2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
-    },
-    {
-        "host": "ioc-cxi-mot2",
-        "port": 30024,
-        "dir": "ioc/cxi/shimadzu-lc20/R1.0.2",
-        "alias": "SDS Shimadzu HPLC",
-        "history": [
-            "ioc/cxi/shimadzu-lc20/R1.0.2",
-            "/reg/g/pcds/package/epics/3.14-dev/ioc/common/shimadzu-lc20/current",
-            "ioc/common/shimadzu/lc20/R0.3.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-lc20",
-        "script": "/reg/g/pcds/epics/ioc/cxi/shimadzu-lc20/R1.0.2/build/iocBoot/ioc-cxi-lc20/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.3.6/bin/rhel7-x86_64/lc20"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -8755,34 +8783,6 @@
         "name": "ioc-cxi-usr-sc2-dumb-ims",
         "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.7.1/build/iocBoot/ioc-cxi-usr-sc2-dumb-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-cxi-mot2",
-        "port": 31121,
-        "dir": "ioc/cxi/NewportXPS8/R1.2.1",
-        "alias": "Newport XPS User",
-        "history": [
-            "ioc/cxi/NewportXPS8/R1.2.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-usr-xps1",
-        "script": "/reg/g/pcds/epics/ioc/cxi/NewportXPS8/R1.2.1/build/iocBoot/ioc-cxi-usr-xps1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
-    },
-    {
-        "host": "ioc-cxi-mot2",
-        "port": 31122,
-        "dir": "ioc/cxi/NewportXPS8/R2.1.0",
-        "alias": "Newport XPS User 2",
-        "history": [
-            "ioc/cxi/NewportXPS8/R2.1.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-usr-xps2",
-        "script": "/reg/g/pcds/epics/ioc/cxi/NewportXPS8/R2.1.0/build/iocBoot/ioc-cxi-usr-xps2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
     },
     {
         "host": "ioc-cxi-protura1",
