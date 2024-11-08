@@ -18582,15 +18582,15 @@
     {
         "host": "ioc-xcs-rec02",
         "port": 39100,
-        "dir": "ioc/common/timetool/R1.0.7",
+        "dir": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/timetool/tt",
         "history": [
             "/reg/g/pcds/epics-dev/jortiz/ioc/common-dev/timetool"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-tt",
-        "script": "/reg/g/pcds/epics/ioc/common/timetool/R1.0.7/children/build/iocBoot/ioc-xcs-tt/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/timetool/R1.0.7/bin/rhel7-x86_64/gsd"
+        "script": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/timetool/tt/build/iocBoot/ioc-xcs-tt/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/timetool/R1.0.7/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ioc-xcs-rec03",
