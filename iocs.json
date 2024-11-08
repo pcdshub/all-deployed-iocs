@@ -6162,12 +6162,12 @@
     {
         "host": "ctl-tmo-mot-01",
         "port": 39103,
-        "dir": "ioc/tmo/smaract/R1.0.24",
+        "dir": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-smaract",
         "alias": "ioc-tmo-mcs2-01",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-mcs2-01",
-        "script": "/reg/g/pcds/epics/ioc/tmo/smaract/R1.0.24/build/iocBoot/ioc-tmo-mcs2-01/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-smaract/build/iocBoot/ioc-tmo-mcs2-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.24/bin/rhel7-x86_64/smaract"
     },
     {
