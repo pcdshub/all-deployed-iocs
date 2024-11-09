@@ -15333,12 +15333,12 @@
     {
         "host": "ioc-mfx-cam02",
         "port": 30009,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/mfx/gigECam",
-        "alias": "CAM - GigE 07 - HERA on-axis",
+        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam",
+        "alias": "CAM - GigE 07",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-gige-07",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/mfx/gigECam/build/iocBoot/ioc-mfx-gige-07/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam/build/iocBoot/ioc-mfx-gige-07/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
     },
     {
