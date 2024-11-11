@@ -17138,8 +17138,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-01",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-gige01",
@@ -17155,8 +17155,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-03",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-03/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-gige01",
@@ -17170,8 +17170,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-16",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-16/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-gige01",
@@ -17186,8 +17186,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-17",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-17/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-gige01",
@@ -17200,8 +17200,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-18",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-18/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-gige01",
@@ -17215,8 +17215,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-20",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-20/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-gige01",
@@ -17349,8 +17349,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-02",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-02/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-misc2",
@@ -17366,8 +17366,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-04",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-04/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-misc2",
@@ -17381,8 +17381,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-05",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-05/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-misc2",
@@ -17396,8 +17396,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-06",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-06/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-misc2",
@@ -17411,8 +17411,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-08",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-08/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-misc2",
@@ -17425,8 +17425,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-12",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-12/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-misc2",
@@ -17439,8 +17439,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-19",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-19/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-misc2",
@@ -17595,8 +17595,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-09",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-09/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-misc3",
@@ -17610,8 +17610,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-10",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-10/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-misc3",
@@ -17624,8 +17624,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-11",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-11/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-misc3",
@@ -17638,8 +17638,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-13",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-13/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-misc3",
@@ -17652,8 +17652,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-14",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-14/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-misc3",
@@ -17666,8 +17666,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-15",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-15/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-misc3",
@@ -17677,8 +17677,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-21",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-21/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-misc3",
@@ -17687,8 +17687,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-las01",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-las01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-misc3",
@@ -17702,8 +17702,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-lj2",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-lj2/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-misc3",
@@ -17717,8 +17717,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-lj3",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-lj3/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-misc3",
@@ -18424,8 +18424,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-gige-ljv-inline",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-gige-ljv-inline/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-rec01",
@@ -18486,8 +18486,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-gige-ljv-offaxis",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-gige-ljv-offaxis/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-rec02",
@@ -18515,8 +18515,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-lj1",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-lj1/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-rec02",
@@ -18529,8 +18529,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-lj4",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-lj4/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-rec02",
@@ -18853,8 +18853,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-07",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/build/iocBoot/ioc-xcs-gige-07/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/xcs/gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-srv01",
