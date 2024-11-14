@@ -17130,6 +17130,17 @@
         "binary": "/usr/bin/bash"
     },
     {
+        "host": "ioc-xcs-gige-01",
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/xcs/ioc-xcs-gigECam",
+        "alias": "USER-GIGE-XCS-22",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-gige-22",
+        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/xcs/ioc-xcs-gigECam/st.cmd",
+        "binary": null
+    },
+    {
         "host": "ioc-xcs-gige01",
         "port": 36001,
         "dir": "/reg/g/pcds/epics-dev/pennebak/xcs/cryocon/current",
