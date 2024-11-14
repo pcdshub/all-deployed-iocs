@@ -17149,11 +17149,11 @@
         "dir": "ioc/xcs/gigECam/R5.0.5",
         "alias": "CAM - Gige 01",
         "history": [
+            "ioc/xcs/gigECam/R5.0.5",
             "ioc/xcs/gigECam/R3.0.5",
             "ioc/xcs/gigECam/R0.5.3",
             "ioc/xcs/gigECam/R0.2.0",
-            "ioc/xcs/gigECam/R0.3.0",
-            "ioc/xcs/gigECam/R0.1.0"
+            "ioc/xcs/gigECam/R0.3.0"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
