@@ -6408,7 +6408,6 @@
         "host": "ctl-tst-dev-01",
         "port": 34242,
         "dir": "/cds/home/z/zlentz/github/lcls-plc-example-motion",
-        "disable": true,
         "history": [
             "/cds/home/j/janeliu/git/lcls-plc-example-motion",
             "/reg/g/pcds/epics-dev/zlentz/lcls-twincat-motion-example",
