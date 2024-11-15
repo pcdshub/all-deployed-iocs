@@ -17130,20 +17130,6 @@
         "binary": "/usr/bin/bash"
     },
     {
-        "host": "ioc-xcs-gige-01",
-        "port": 32513,
-        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/xcs/ioc-xcs-gigECam",
-        "alias": "CAM - Gige 13",
-        "history": [
-            "/reg/g/pcds/epics-dev/ctsoi/ioc/xcs/gigECam"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-gige-13",
-        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/xcs/ioc-xcs-gigECam/build/iocBoot/ioc-xcs-gige-13/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
-    },
-    {
         "host": "ioc-xcs-gige01",
         "port": 36001,
         "dir": "/reg/g/pcds/epics-dev/pennebak/xcs/cryocon/current",
@@ -17183,6 +17169,20 @@
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-03",
         "script": "/reg/g/pcds/epics-dev/rnazir/ioc/xcs/ioc-xcs-gigECam/build/iocBoot/ioc-xcs-gige-03/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-xcs-gige01",
+        "port": 32513,
+        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/xcs/ioc-xcs-gigECam",
+        "alias": "CAM - Gige 13",
+        "history": [
+            "/reg/g/pcds/epics-dev/ctsoi/ioc/xcs/gigECam"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-gige-13",
+        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/xcs/ioc-xcs-gigECam/build/iocBoot/ioc-xcs-gige-13/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
     },
     {
