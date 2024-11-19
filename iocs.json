@@ -419,12 +419,12 @@
     {
         "host": "ctl-kfe-misc-01",
         "port": 39102,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/kfe/Leviton",
+        "dir": "ioc/kfe/Leviton/R1.0.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-pwr-r07",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/kfe/Leviton/build/iocBoot/ioc-kfe-pwr-r07/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
+        "script": "/reg/g/pcds/epics/ioc/kfe/Leviton/R1.0.0/build/iocBoot/ioc-kfe-pwr-r07/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.2/bin/rhel7-x86_64/Leviton"
     },
     {
         "host": "ctl-kfe-misc-01",
