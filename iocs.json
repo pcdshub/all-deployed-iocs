@@ -3333,8 +3333,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-mcs2-01",
-        "script": "/cds/group/pcds/epics-dev/mods/lm1k2/smaract/build/iocBoot/ioc-lm1k2-mcs2-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.25/bin/rhel7-x86_64/smaract"
+        "script": "/cds/group/pcds/epics-dev/mods/lm1k2/smaract/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-las-qrixs-srv02",
@@ -3373,8 +3373,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-mcs2-02",
-        "script": "/cds/group/pcds/epics-dev/mods/lm1k2/smaract/build/iocBoot/ioc-lm1k2-mcs2-02/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.25/bin/rhel7-x86_64/smaract"
+        "script": "/cds/group/pcds/epics-dev/mods/lm1k2/smaract/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-las-qrixs-srv04",
@@ -12770,90 +12770,6 @@
     },
     {
         "host": "ioc-mec-cam04",
-        "port": 36008,
-        "dir": "ioc/mec/eDrive/R0.1.4",
-        "alias": "eDrive 1",
-        "history": [
-            "ioc/mec/eDrive/R0.1.3"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-lpl-lco-01",
-        "script": "/reg/g/pcds/epics/ioc/mec/eDrive/R0.1.4/build/iocBoot/ioc-mec-lpl-lco-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/eDrive/R0.1.2/bin/linux-x86_64/eDrive"
-    },
-    {
-        "host": "ioc-mec-cam04",
-        "port": 36009,
-        "dir": "ioc/mec/eDrive/R0.1.4",
-        "alias": "eDrive 2",
-        "history": [
-            "ioc/mec/eDrive/R0.1.3"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-lpl-lco-02",
-        "script": "/reg/g/pcds/epics/ioc/mec/eDrive/R0.1.4/build/iocBoot/ioc-mec-lpl-lco-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/eDrive/R0.1.2/bin/linux-x86_64/eDrive"
-    },
-    {
-        "host": "ioc-mec-cam04",
-        "port": 36010,
-        "dir": "ioc/mec/eDrive/R0.1.4",
-        "alias": "eDrive 3",
-        "history": [
-            "ioc/mec/eDrive/R0.1.3"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-lpl-lco-03",
-        "script": "/reg/g/pcds/epics/ioc/mec/eDrive/R0.1.4/build/iocBoot/ioc-mec-lpl-lco-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/eDrive/R0.1.2/bin/linux-x86_64/eDrive"
-    },
-    {
-        "host": "ioc-mec-cam04",
-        "port": 36011,
-        "dir": "ioc/mec/eDrive/R0.1.4",
-        "alias": "eDrive 4",
-        "history": [
-            "ioc/mec/eDrive/R0.1.3"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-lpl-lco-04",
-        "script": "/reg/g/pcds/epics/ioc/mec/eDrive/R0.1.4/build/iocBoot/ioc-mec-lpl-lco-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/eDrive/R0.1.2/bin/linux-x86_64/eDrive"
-    },
-    {
-        "host": "ioc-mec-cam04",
-        "port": 36012,
-        "dir": "ioc/mec/eDrive/R0.1.4",
-        "alias": "eDrive 5",
-        "history": [
-            "ioc/mec/eDrive/R0.1.3"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-lpl-lco-05",
-        "script": "/reg/g/pcds/epics/ioc/mec/eDrive/R0.1.4/build/iocBoot/ioc-mec-lpl-lco-05/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/eDrive/R0.1.2/bin/linux-x86_64/eDrive"
-    },
-    {
-        "host": "ioc-mec-cam04",
-        "port": 36013,
-        "dir": "ioc/mec/eDrive/R0.1.4",
-        "alias": "eDrive 6",
-        "history": [
-            "ioc/mec/eDrive/R0.1.3"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-lpl-lco-06",
-        "script": "/reg/g/pcds/epics/ioc/mec/eDrive/R0.1.4/build/iocBoot/ioc-mec-lpl-lco-06/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/eDrive/R0.1.2/bin/linux-x86_64/eDrive"
-    },
-    {
-        "host": "ioc-mec-cam04",
         "port": 30301,
         "dir": "ioc/common/mpod/R2.1.0",
         "alias": "MPOD Epix power",
@@ -13948,6 +13864,90 @@
         "name": "ioc-mec-lpl-chl-04",
         "script": "/reg/g/pcds/epics/ioc/mec/polyScienceChiller/R1.0.0/build/iocBoot/ioc-mec-lpl-chl-04/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/polyScienceChiller/R0.1.0/bin/linux-x86_64/polyScienceChiller"
+    },
+    {
+        "host": "ioc-mec-lasmot1",
+        "port": 36008,
+        "dir": "ioc/mec/eDrive/R0.1.4",
+        "alias": "eDrive 1",
+        "history": [
+            "ioc/mec/eDrive/R0.1.3"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-lpl-lco-01",
+        "script": "/reg/g/pcds/epics/ioc/mec/eDrive/R0.1.4/build/iocBoot/ioc-mec-lpl-lco-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/eDrive/R0.1.2/bin/linux-x86_64/eDrive"
+    },
+    {
+        "host": "ioc-mec-lasmot1",
+        "port": 36009,
+        "dir": "ioc/mec/eDrive/R0.1.4",
+        "alias": "eDrive 2",
+        "history": [
+            "ioc/mec/eDrive/R0.1.3"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-lpl-lco-02",
+        "script": "/reg/g/pcds/epics/ioc/mec/eDrive/R0.1.4/build/iocBoot/ioc-mec-lpl-lco-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/eDrive/R0.1.2/bin/linux-x86_64/eDrive"
+    },
+    {
+        "host": "ioc-mec-lasmot1",
+        "port": 36010,
+        "dir": "ioc/mec/eDrive/R0.1.4",
+        "alias": "eDrive 3",
+        "history": [
+            "ioc/mec/eDrive/R0.1.3"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-lpl-lco-03",
+        "script": "/reg/g/pcds/epics/ioc/mec/eDrive/R0.1.4/build/iocBoot/ioc-mec-lpl-lco-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/eDrive/R0.1.2/bin/linux-x86_64/eDrive"
+    },
+    {
+        "host": "ioc-mec-lasmot1",
+        "port": 36011,
+        "dir": "ioc/mec/eDrive/R0.1.4",
+        "alias": "eDrive 4",
+        "history": [
+            "ioc/mec/eDrive/R0.1.3"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-lpl-lco-04",
+        "script": "/reg/g/pcds/epics/ioc/mec/eDrive/R0.1.4/build/iocBoot/ioc-mec-lpl-lco-04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/eDrive/R0.1.2/bin/linux-x86_64/eDrive"
+    },
+    {
+        "host": "ioc-mec-lasmot1",
+        "port": 36012,
+        "dir": "ioc/mec/eDrive/R0.1.4",
+        "alias": "eDrive 5",
+        "history": [
+            "ioc/mec/eDrive/R0.1.3"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-lpl-lco-05",
+        "script": "/reg/g/pcds/epics/ioc/mec/eDrive/R0.1.4/build/iocBoot/ioc-mec-lpl-lco-05/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/eDrive/R0.1.2/bin/linux-x86_64/eDrive"
+    },
+    {
+        "host": "ioc-mec-lasmot1",
+        "port": 36013,
+        "dir": "ioc/mec/eDrive/R0.1.4",
+        "alias": "eDrive 6",
+        "history": [
+            "ioc/mec/eDrive/R0.1.3"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-lpl-lco-06",
+        "script": "/reg/g/pcds/epics/ioc/mec/eDrive/R0.1.4/build/iocBoot/ioc-mec-lpl-lco-06/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/eDrive/R0.1.2/bin/linux-x86_64/eDrive"
     },
     {
         "host": "ioc-mec-misc01",
@@ -18653,8 +18653,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-tt",
-        "script": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/timetool/tt/build/iocBoot/ioc-xcs-tt/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/timetool/R1.0.7/bin/rhel7-x86_64/gsd"
+        "script": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/timetool/tt/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-rec03",
