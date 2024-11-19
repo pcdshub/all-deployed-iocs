@@ -13070,6 +13070,17 @@
     },
     {
         "host": "ioc-mec-gige01",
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/mec/ioc-mec-gigECam",
+        "alias": "GIGE CAM 44",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-gige44",
+        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/mec/ioc-mec-gigECam/build/iocBoot/ioc-mec-gige44/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-mec-gige01",
         "port": 36015,
         "dir": "ioc/mec/gentec/R1.1.2",
         "alias": "Gentec las meter 1 (LPL)",
