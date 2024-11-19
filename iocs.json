@@ -3333,8 +3333,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-mcs2-01",
-        "script": "/cds/group/pcds/epics-dev/mods/lm1k2/smaract/st.cmd",
-        "binary": null
+        "script": "/cds/group/pcds/epics-dev/mods/lm1k2/smaract/build/iocBoot/ioc-lm1k2-mcs2-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.25/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-qrixs-srv02",
@@ -3373,8 +3373,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-mcs2-02",
-        "script": "/cds/group/pcds/epics-dev/mods/lm1k2/smaract/st.cmd",
-        "binary": null
+        "script": "/cds/group/pcds/epics-dev/mods/lm1k2/smaract/build/iocBoot/ioc-lm1k2-mcs2-02/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.25/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-qrixs-srv04",
@@ -18653,8 +18653,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-tt",
-        "script": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/timetool/tt/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/timetool/tt/build/iocBoot/ioc-xcs-tt/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/timetool/R1.0.7/bin/rhel7-x86_64/gsd"
     },
     {
         "host": "ioc-xcs-rec03",
