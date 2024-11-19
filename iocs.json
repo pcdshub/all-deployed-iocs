@@ -6785,6 +6785,16 @@
     },
     {
         "host": "ctl-ued-cam-01",
+        "port": 39104,
+        "dir": "/reg/g/pcds/epics-dev/iroque/ioc-ued-andorCam",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
+        "name": "ioc-ued-andor-03",
+        "script": "/reg/g/pcds/epics-dev/iroque/ioc-ued-andorCam/build/iocBoot/ioc-ued-andor-03/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/andorCam/R1.3.0/bin/rhel7-x86_64/andorTpr"
+    },
+    {
+        "host": "ctl-ued-cam-01",
         "port": 39103,
         "dir": "ioc/ued/OceanOpticsSpectrometer/R1.0.0",
         "base_version": "3.15",
