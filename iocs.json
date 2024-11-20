@@ -9200,7 +9200,7 @@
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-qadc",
         "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/qadc/build/iocBoot/ioc-cxi-qadc/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/qadc/R2.2.2/bin/rhel7-x86_64/qadc134Ioc"
+        "binary": "/reg/g/pcds/epics/ioc/common/qadc/R2.3.0/bin/rhel7-x86_64/qadc134Ioc"
     },
     {
         "host": "ioc-cxi-qadc",
