@@ -5391,6 +5391,17 @@
     },
     {
         "host": "ctl-tmo-cam-02",
+        "port": 39106,
+        "dir": "ioc/tmo/gigEcam/R5.1.0",
+        "alias": "ioc-mrco-tmo-gige-05",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-mrco-tmo-gige-05",
+        "script": "/reg/g/pcds/epics/ioc/tmo/gigEcam/R5.1.0/build/iocBoot/ioc-mrco-tmo-gige-05/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.1.0/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-tmo-cam-02",
         "port": 30215,
         "dir": "ioc/tmo/gigEcam/R5.0.3",
         "base_version": "3.15",
@@ -5514,17 +5525,6 @@
         "name": "ioc-tmo-tpr2",
         "script": "/reg/g/pcds/epics/ioc/tmo/tprStandalone/R1.2.0/build/iocBoot/ioc-tmo-tpr2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.2.0/bin/rhel7-x86_64/tpr"
-    },
-    {
-        "host": "ctl-tmo-cam-03",
-        "port": 39106,
-        "dir": "ioc/tmo/gigEcam/R5.1.0",
-        "alias": "ioc-mrco-tmo-gige-05",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "MRCO SSC",
-        "script": "/reg/g/pcds/epics/ioc/tmo/gigEcam/R5.1.0/st.cmd",
-        "binary": null
     },
     {
         "host": "ctl-tmo-cam-03",
