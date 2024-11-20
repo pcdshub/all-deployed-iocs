@@ -5381,13 +5381,13 @@
     {
         "host": "ctl-tmo-cam-02",
         "port": 39102,
-        "dir": "/reg/g/pcds/epics-dev/baljamal/ioc/tmo/gigEcam",
+        "dir": "ioc/tmo/gigECam/R5.1.0",
         "alias": "TMO MRCO GigE 04",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-mrco-tmo-gige-04",
-        "script": "/reg/g/pcds/epics-dev/baljamal/ioc/tmo/gigEcam/build/iocBoot/ioc-mrco-tmo-gige-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics/ioc/tmo/gigECam/R5.1.0/build/iocBoot/ioc-mrco-tmo-gige-04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.1.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-tmo-cam-02",
@@ -5517,6 +5517,17 @@
     },
     {
         "host": "ctl-tmo-cam-03",
+        "port": 39106,
+        "dir": "ioc/tmo/gigEcam/R5.1.0",
+        "alias": "ioc-mrco-tmo-gige-05",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "MRCO SSC",
+        "script": "/reg/g/pcds/epics/ioc/tmo/gigEcam/R5.1.0/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ctl-tmo-cam-03",
         "port": 39101,
         "dir": "/reg/g/pcds/epics-dev/baljamal/ioc/tmo/gigEcam",
         "alias": "ioc-cam-dream-01",
@@ -5529,12 +5540,12 @@
     {
         "host": "ctl-tmo-cam-03",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/tmo/ioc-tmo-gigECam",
+        "dir": "ioc/tmo/gigECam/R5.1.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-cam-dream-04",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/tmo/ioc-tmo-gigECam/build/iocBoot/ioc-cam-dream-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.5/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics/ioc/tmo/gigECam/R5.1.0/build/iocBoot/ioc-cam-dream-04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.1.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-tmo-cam-03",
