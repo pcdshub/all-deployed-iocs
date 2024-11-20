@@ -12771,21 +12771,6 @@
     },
     {
         "host": "ioc-mec-cam04",
-        "port": 30301,
-        "dir": "ioc/common/mpod/R2.1.0",
-        "alias": "MPOD Epix power",
-        "history": [
-            "/reg/neh/home4/jyin/ioc/common/mpod/current",
-            "/reg/neh/home1/jyin/ioc/common/mpod/from_svn"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-mpod-d60",
-        "script": "/reg/g/pcds/epics/ioc/common/mpod/R2.1.0/iocBoot/ioc-mec-mpod-d60/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/mpod/R2.1.0/bin/linux-x86_64/mpod"
-    },
-    {
-        "host": "ioc-mec-cam04",
         "port": 30004,
         "dir": "/reg/g/pcds/epics-dev/sfsyunus/mec/edtCam/current",
         "base_version": "3.15",
@@ -13304,6 +13289,21 @@
         "name": "ioc-mec-las-evr-01",
         "script": "/reg/g/pcds/epics/ioc/las/evr/R1.0.5/build/iocBoot/ioc-mec-las-evr-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/rhel7-x86_64/evr"
+    },
+    {
+        "host": "ioc-mec-las-evr-01",
+        "port": 30301,
+        "dir": "ioc/common/mpod/R2.1.0",
+        "alias": "MPOD Epix power",
+        "history": [
+            "/reg/neh/home4/jyin/ioc/common/mpod/current",
+            "/reg/neh/home1/jyin/ioc/common/mpod/from_svn"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-mpod-d60",
+        "script": "/reg/g/pcds/epics/ioc/common/mpod/R2.1.0/iocBoot/ioc-mec-mpod-d60/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/mpod/R2.1.0/bin/linux-x86_64/mpod"
     },
     {
         "host": "ioc-mec-las-evr-01",
