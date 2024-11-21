@@ -15737,31 +15737,31 @@
     {
         "host": "ioc-mfx-misc02",
         "port": 30095,
-        "dir": "ioc/mfx/delaygen/R1.0.0",
+        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/dg",
         "disable": true,
         "alias": "DELAYGEN - LBL - 01",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-lbl-delaygen1",
-        "script": "/reg/g/pcds/epics/ioc/mfx/delaygen/R1.0.0/build/iocBoot/ioc-lbl-delaygen1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/dg/R2.0.3/bin/rhel7-x86_64/delaygenApp"
+        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/dg/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-mfx-misc02",
         "port": 30096,
-        "dir": "ioc/mfx/delaygen/R1.0.0",
+        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/dg",
         "disable": true,
         "alias": "DELAYGEN - LBL - 02",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-lbl-delaygen2",
-        "script": "/reg/g/pcds/epics/ioc/mfx/delaygen/R1.0.0/build/iocBoot/ioc-lbl-delaygen2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/dg/R2.0.3/bin/rhel7-x86_64/delaygenApp"
+        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/dg/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-mfx-misc02",
         "port": 30090,
-        "dir": "ioc/mfx/delaygen/R1.0.0",
+        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/dg",
         "alias": "DELAYGEN - MFX",
         "history": [
             "/reg/neh/home/sheppard/ioc/mfx/dg/current"
@@ -15769,8 +15769,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-delaygen2",
-        "script": "/reg/g/pcds/epics/ioc/mfx/delaygen/R1.0.0/build/iocBoot/ioc-mfx-delaygen2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/dg/R2.0.3/bin/rhel7-x86_64/delaygenApp"
+        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/dg/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-mfx-misc02",
