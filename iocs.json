@@ -15774,6 +15774,17 @@
     },
     {
         "host": "ioc-mfx-misc02",
+        "port": 39102,
+        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/dg/ioc-mfx-delaygen",
+        "alias": "DELAYGEN - MFX - 03",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-delaygen3",
+        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/dg/ioc-mfx-delaygen/build/iocBoot/ioc-mfx-delaygen3/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/dg/R3.0.0/bin/rhel7-x86_64/delaygenApp"
+    },
+    {
+        "host": "ioc-mfx-misc02",
         "port": 30005,
         "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/RohdeSchwarzHMP",
         "alias": "DET - HMP Power Supply 03",
