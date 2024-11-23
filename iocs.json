@@ -51,21 +51,6 @@
     },
     {
         "host": "ctl-kfe-cam-01",
-        "port": 39107,
-        "dir": "ioc/kfe/gigECam/R5.0.3",
-        "alias": "IM1K1",
-        "history": [
-            "ioc/kfe/gigECam/R1.0.0",
-            "/reg/neh/home/zlentz/github/lcls2-fee-cams"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/kfe/iocmanager.cfg",
-        "name": "ioc-im1k1-gige",
-        "script": "/reg/g/pcds/epics/ioc/kfe/gigECam/R5.0.3/build/iocBoot/ioc-im1k1-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
-    },
-    {
-        "host": "ctl-kfe-cam-01",
         "port": 39103,
         "dir": "ioc/common/pgpCamlink/R1.7.1",
         "alias": "IM1K4",
@@ -134,6 +119,21 @@
         "name": "ioc-im1k0-alv",
         "script": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.6/children/build/iocBoot/ioc-kfe-alv1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.6/bin/rhel7-x86_64/vimba"
+    },
+    {
+        "host": "ctl-kfe-cam-02",
+        "port": 39107,
+        "dir": "ioc/kfe/gigECam/R5.0.3",
+        "alias": "IM1K1",
+        "history": [
+            "ioc/kfe/gigECam/R1.0.0",
+            "/reg/neh/home/zlentz/github/lcls2-fee-cams"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/kfe/iocmanager.cfg",
+        "name": "ioc-im1k1-gige",
+        "script": "/reg/g/pcds/epics/ioc/kfe/gigECam/R5.0.3/build/iocBoot/ioc-im1k1-gige/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-kfe-cam-02",
