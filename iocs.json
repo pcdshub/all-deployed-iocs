@@ -19399,6 +19399,7 @@
         "host": "ioc-xcs-user2",
         "port": 30201,
         "dir": "ioc/common/Leviton/R2.4.2",
+        "disable": true,
         "alias": "MISC - AC Power",
         "history": [
             "ioc/common/Leviton/R1.26.5",
