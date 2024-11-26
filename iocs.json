@@ -17664,7 +17664,7 @@
         "host": "ioc-xcs-misc2",
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/xcs/ioc-xcs-pdu_snmp_lev/build/iocBoot/ioc-xcs-r44-pwr-17",
-        "alias": "LEV PDU R44 17",
+        "alias": "MISC - LEV PDU R44 17",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-pwr-17",
