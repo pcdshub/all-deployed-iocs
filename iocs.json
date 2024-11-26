@@ -5401,12 +5401,12 @@
     {
         "host": "ctl-tmo-cam-02",
         "port": 39102,
-        "dir": "ioc/tmo/gigECam/R5.1.0",
+        "dir": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-gigECam",
         "alias": "TMO MRCO GigE 04",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-mrco-tmo-gige-04",
-        "script": "/reg/g/pcds/epics/ioc/tmo/gigECam/R5.1.0/build/iocBoot/ioc-mrco-tmo-gige-04/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-gigECam/build/iocBoot/ioc-mrco-tmo-gige-04/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.1.0/bin/rhel7-x86_64/gige"
     },
     {
