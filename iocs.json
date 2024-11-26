@@ -17451,6 +17451,17 @@
     },
     {
         "host": "ioc-xcs-misc2",
+        "port": 30014,
+        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/xcs/ioc-xcs-pdu_snmp_lev",
+        "alias": "MISC - ALC PDU 01",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-alc-pwr-01",
+        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/xcs/ioc-xcs-pdu_snmp_lev/build/iocBoot/ioc-xcs-alc-pwr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
+    },
+    {
+        "host": "ioc-xcs-misc2",
         "port": 30105,
         "dir": "ioc/xcs/thermocube/R1.0.6",
         "alias": "DET - Chiller",
@@ -17598,6 +17609,28 @@
     },
     {
         "host": "ioc-xcs-misc2",
+        "port": 30013,
+        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/xcs/ioc-xcs-pdu_snmp_lev",
+        "alias": "MISC - LAM PDU 01",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-lam-pwr-01",
+        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/xcs/ioc-xcs-pdu_snmp_lev/build/iocBoot/ioc-xcs-lam-pwr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
+    },
+    {
+        "host": "ioc-xcs-misc2",
+        "port": 30012,
+        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/xcs/ioc-xcs-pdu_snmp_lev",
+        "alias": "MISC - LAM PDU 02",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-lam-pwr-02",
+        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/xcs/ioc-xcs-pdu_snmp_lev/build/iocBoot/ioc-xcs-lam-pwr-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
+    },
+    {
+        "host": "ioc-xcs-misc2",
         "port": 30481,
         "dir": "ioc/xcs/ims/R6.0.2",
         "alias": "USR - Ladm Patch Dumb Motion",
@@ -17669,6 +17702,17 @@
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-pwr-17",
         "script": "/reg/g/pcds/epics-dev/rnazir/ioc/xcs/ioc-xcs-pdu_snmp_lev/build/iocBoot/ioc-xcs-r44-pwr-17/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
+    },
+    {
+        "host": "ioc-xcs-misc2",
+        "port": 30011,
+        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/xcs/ioc-xcs-pdu_snmp_lev",
+        "alias": "MISC - SEN PDU R40 28",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-r40-pwr-28",
+        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/xcs/ioc-xcs-pdu_snmp_lev/build/iocBoot/ioc-xcs-r40-pwr-28/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
     },
     {
