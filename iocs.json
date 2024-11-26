@@ -3190,7 +3190,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lln-mcs2-01",
         "script": "/cds/group/pcds/epics-dev/aberges/mods/mods-LRL/lln/smaract/build/iocBoot/ioc-lln-mcs2-01/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/aberges/ioc/common/smaract/ioc-common-smaract/bin/rhel7-x86_64/smaract"
+        "binary": "/cds/group/pcds/epics-dev/aberges/ioc/common/smaract/smaract-R1.0.25/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-lln-01",
@@ -15524,7 +15524,6 @@
         "host": "ioc-mfx-cam03",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam",
-        "disable": true,
         "alias": "CAM - Alvium",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
