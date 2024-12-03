@@ -17807,6 +17807,7 @@
         "host": "ioc-xcs-misc2",
         "port": 30483,
         "dir": "/cds/group/pcds/epics-dev/cagee/ioc/xcs/mmc",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-usr-6axis-mmc-01",
