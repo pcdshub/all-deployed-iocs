@@ -17464,6 +17464,7 @@
         "host": "ioc-xcs-misc2",
         "port": 30014,
         "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/xcs/ioc-xcs-pdu_snmp_lev",
+        "disable": true,
         "alias": "MISC - ALC PDU 01",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
