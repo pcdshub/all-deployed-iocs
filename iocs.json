@@ -20044,6 +20044,7 @@
         "host": "ioc-xpp-gon",
         "port": 30106,
         "dir": "ioc/xpp/RohdeSchwarzHMP/R1.0.0",
+        "disable": true,
         "alias": "DET - HMP Jungfrau (Robot)",
         "history": [
             "ioc/xpp/RohdeSchwarzHMP/R1.0.0"
@@ -20058,6 +20059,7 @@
         "host": "ioc-xpp-gon",
         "port": 30001,
         "dir": "ioc/xpp/evr/R1.0.0",
+        "disable": true,
         "alias": "GON EVR",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -20125,6 +20127,7 @@
         "host": "ioc-xpp-ipimb",
         "port": 30002,
         "dir": "ioc/xpp/RohdeSchwarzHMP/R1.0.1",
+        "disable": true,
         "alias": "DET - HMP Jungfrau 02 (ALC)",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -20146,6 +20149,7 @@
         "host": "ioc-xpp-ipimb",
         "port": 30001,
         "dir": "ioc/xpp/ipimb/R4.1.7",
+        "disable": true,
         "alias": "Ipimb - XPP",
         "history": [
             "ioc/xpp/ipimb/R4.1.5",
@@ -20239,6 +20243,7 @@
         "host": "ioc-xpp-las01",
         "port": 30010,
         "dir": "ioc/xpp/smaract/R1.0.0",
+        "disable": true,
         "alias": "LAS - SmarAct",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -20250,6 +20255,7 @@
         "host": "ioc-xpp-las01",
         "port": 30011,
         "dir": "/reg/g/pcds/epics/ioc/xpp/gigECam/R2.0.7",
+        "disable": true,
         "alias": "LAS - Output Basler",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -20283,6 +20289,7 @@
         "host": "ioc-xpp-las01",
         "port": 31001,
         "dir": "ioc/xpp/NewportXPS8/R2.0.6",
+        "disable": true,
         "alias": "LAS - Newport Motion 1",
         "history": [
             "ioc/xpp/NewportXPS8/R2.0.1"
@@ -20297,6 +20304,7 @@
         "host": "ioc-xpp-las01",
         "port": 31002,
         "dir": "ioc/xpp/NewportXPS8/R2.0.6",
+        "disable": true,
         "alias": "LAS - Newport Motion 2",
         "history": [
             "ioc/xpp/NewportXPS8/R2.0.1"
@@ -20311,6 +20319,7 @@
         "host": "ioc-xpp-las01",
         "port": 31003,
         "dir": "ioc/xpp/NewportXPS8/R2.0.6",
+        "disable": true,
         "alias": "LAS - Newport Motion 3",
         "history": [
             "ioc/xpp/NewportXPS8/R2.0.1"
@@ -20325,6 +20334,7 @@
         "host": "ioc-xpp-las01",
         "port": 30007,
         "dir": "ioc/xpp/picoMotion/R1.0.0",
+        "disable": true,
         "alias": "LAS - picomotion",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -21055,6 +21065,7 @@
         "host": "ioc-xpp-rec02",
         "port": 30006,
         "dir": "/cds/group/pcds/epics-dev/espov/ioc/xpp/gigECam",
+        "disable": true,
         "alias": "Gige LJV InLine",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -21066,6 +21077,7 @@
         "host": "ioc-xpp-rec02",
         "port": 30008,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam",
+        "disable": true,
         "alias": "Gige LJV OffAxis",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -21077,6 +21089,7 @@
         "host": "ioc-xpp-rec02",
         "port": 30009,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/xpp/gigECam",
+        "disable": true,
         "alias": "Gige LJ4",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -21289,6 +21302,7 @@
         "host": "ioc-xpp-rec02",
         "port": 30002,
         "dir": "ioc/xpp/evr/R1.0.0",
+        "disable": true,
         "alias": "EVR R30 rec02",
         "history": [
             "/reg/neh/home/snelson/work/xpp/evr/current"
@@ -21371,6 +21385,7 @@
         "host": "ioc-xpp-rec03",
         "port": 30002,
         "dir": "ioc/xpp/evr/R1.0.0",
+        "disable": true,
         "alias": "EVR R30 rec03",
         "history": [
             "/reg/neh/home/snelson/work/xpp/evr/current"
@@ -21400,6 +21415,7 @@
         "host": "ioc-xpp-rob01",
         "port": 30102,
         "dir": "ioc/common/mpod/R2.2.12",
+        "disable": true,
         "alias": "DET - Alcove MPOD",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -21411,6 +21427,7 @@
         "host": "ioc-xpp-rob01",
         "port": 30024,
         "dir": "ioc/xpp/ims/R6.0.3",
+        "disable": true,
         "alias": "GON  - Motion",
         "history": [
             "ioc/xpp/ims/R2.0.0",
@@ -21442,6 +21459,7 @@
         "host": "ioc-xpp-rob01",
         "port": 30101,
         "dir": "ioc/common/mpod/R2.2.11",
+        "disable": true,
         "alias": "DET - mpod power (Robot)",
         "history": [
             "ioc/common/mpod/R2.0.1",
@@ -21457,6 +21475,7 @@
         "host": "ioc-xpp-rob01",
         "port": 37626,
         "dir": "ioc/xpp/staubli/R1.3.0",
+        "disable": true,
         "alias": "XPP Robot",
         "history": [
             "ioc/xpp/staubli/R1.2.0"
@@ -21471,6 +21490,7 @@
         "host": "ioc-xpp-rob01",
         "port": 30006,
         "dir": "ioc/common/mpod/R2.2.8",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-usr-mpod",
@@ -21670,6 +21690,7 @@
         "host": "ioc-xpp-usr01",
         "port": 30007,
         "dir": "ioc/common/eventSeqCfg/R3.8.0",
+        "disable": true,
         "alias": "Event Sequencer",
         "history": [
             "ioc/common/eventSeqCfg/R3.8.0"
@@ -21699,6 +21720,7 @@
         "host": "ioc-xpp-usr01",
         "port": 30103,
         "dir": "ioc/common/labMax-TOP/R1.7.3",
+        "disable": true,
         "alias": "LAS - Labmax Usr",
         "history": [
             "ioc/common/labMax-TOP/R1.7.3"
@@ -21824,6 +21846,7 @@
         "host": "ioc-xpp-usr01",
         "port": 30070,
         "dir": "ioc/common/Leviton/R2.2.0",
+        "disable": true,
         "alias": "AC Power Other",
         "history": [
             "ioc/common/Leviton/R1.28.8",
@@ -21839,6 +21862,7 @@
         "host": "ioc-xpp-usr01",
         "port": 30021,
         "dir": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.2/iocBoot/ioc-xpp-pwr-r32/",
+        "disable": true,
         "alias": "AC Power R32",
         "history": [
             "ioc/common/Leviton/R1.28.8",
@@ -21854,6 +21878,7 @@
         "host": "ioc-xpp-usr01",
         "port": 30022,
         "dir": "ioc/common/Leviton/R1.28.8",
+        "disable": true,
         "alias": "AC Power R35",
         "history": [
             "ioc/common/Leviton/R1.28.8",
@@ -21869,6 +21894,7 @@
         "host": "ioc-xpp-usr01",
         "port": 30023,
         "dir": "ioc/common/Leviton/R1.28.8",
+        "disable": true,
         "alias": "AC Power USR",
         "history": [
             "ioc/common/Leviton/R1.28.8",
@@ -21983,6 +22009,7 @@
         "host": "ioc-xpp-wave8-01",
         "port": 30100,
         "dir": "ioc/xpp/wave8/R3.0.0",
+        "disable": true,
         "alias": "SB2 - WAVE8",
         "history": [
             "ioc/xpp/wave8/R2.0.1",
@@ -21999,6 +22026,7 @@
         "host": "ioc-xpp-wave8-01",
         "port": 32936,
         "dir": "ioc/xpp/chiller/R1.0.0",
+        "disable": true,
         "alias": "DET - Thermotek Chiller Robot",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -22010,6 +22038,7 @@
         "host": "ioc-xpp-wave8-01",
         "port": 30002,
         "dir": "ioc/xpp/chiller/R1.0.0",
+        "disable": true,
         "alias": "DET - Thermotek Chiller SB5",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
