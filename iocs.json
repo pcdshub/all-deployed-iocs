@@ -4542,7 +4542,7 @@
     {
         "host": "ctl-rix-mot-01",
         "port": 30108,
-        "dir": "ioc/kfe/lcls-plc-kfe-rix-motion/v2.7.0",
+        "dir": "ioc/kfe/lcls-plc-kfe-rix-motion/v2.7.1",
         "alias": "Beamline Motion PLC IOC",
         "history": [
             "ioc/kfe/lcls-plc-kfe-rix-motion/v1.13.0"
@@ -4550,7 +4550,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-kfe-rix-motion",
-        "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-rix-motion/v2.7.0/iocBoot/ioc-kfe-rix-motion/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-rix-motion/v2.7.1/iocBoot/ioc-kfe-rix-motion/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
     },
     {
@@ -20113,6 +20113,7 @@
         "host": "ioc-xpp-ipimb",
         "port": 33000,
         "dir": "/reg/g/pcds/epics-dev/spencera/common/cryojet",
+        "disable": true,
         "alias": "USR Cryojet",
         "history": [
             "ioc/common/cryojet/R0.2.0"
@@ -20139,6 +20140,7 @@
         "host": "ioc-xpp-ipimb",
         "port": 39100,
         "dir": "ioc/common/expstate/R1.0.6",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-expstate",
@@ -20732,6 +20734,7 @@
         "host": "ioc-xpp-misc02",
         "port": 30172,
         "dir": "ioc/xpp/ims/R6.6.0",
+        "disable": true,
         "alias": "USR Motion SMART Portable Rack",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -20743,6 +20746,7 @@
         "host": "ioc-xpp-misc02",
         "port": 30171,
         "dir": "ioc/xpp/ims/R6.6.0",
+        "disable": true,
         "alias": "USR Motion DUMB Mk II Portable Rack",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -20991,6 +20995,7 @@
         "host": "ioc-xpp-rec01",
         "port": 40000,
         "dir": "/reg/g/pcds/controls/camrecord",
+        "disable": true,
         "alias": "epics Recorder (YAG1)",
         "history": [
             "/reg/g/pcds/controls/camrecord"
@@ -21173,6 +21178,7 @@
         "host": "ioc-xpp-rec02",
         "port": 30033,
         "dir": "ioc/common/usdusb4/R1.0.7",
+        "disable": true,
         "alias": "USB Encoder - GON",
         "history": [
             "/reg/g/pcds/epics-dev/snelson/common/usdusb4/current"
@@ -21202,6 +21208,7 @@
         "host": "ioc-xpp-rec02",
         "port": 30031,
         "dir": "ioc/xpp/smaract/R1.0.1",
+        "disable": true,
         "alias": "USR - SmarAct",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -21288,6 +21295,7 @@
         "host": "ioc-xpp-rec02",
         "port": 40000,
         "dir": "/reg/g/pcds/controls/camrecord",
+        "disable": true,
         "alias": "epics Recorder (OPAL)",
         "history": [
             "/reg/g/pcds/controls/camrecord"
@@ -21332,6 +21340,7 @@
         "host": "ioc-xpp-rec02",
         "port": 30007,
         "dir": "ioc/xpp/timetool/R1.0.0",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-tt",
@@ -21371,6 +21380,7 @@
         "host": "ioc-xpp-rec03",
         "port": 40000,
         "dir": "/reg/g/pcds/controls/camrecord",
+        "disable": true,
         "alias": "epics Recorder (GIGE)",
         "history": [
             "/reg/g/pcds/controls/camrecord"
@@ -21650,6 +21660,7 @@
         "host": "ioc-xpp-usr01",
         "port": 32508,
         "dir": "ioc/xpp/dg/R0.0.3",
+        "disable": true,
         "alias": "USR Delaygen. (DG645) 2",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -21676,6 +21687,7 @@
         "host": "ioc-xpp-usr01",
         "port": 31111,
         "dir": "ioc/xpp/device_states/R1.0.1",
+        "disable": true,
         "history": [
             "ioc/xpp/device_states/R1.0.1",
             "ioc/common/device_states/R1.2.0"
@@ -21791,6 +21803,7 @@
         "host": "ioc-xpp-usr01",
         "port": 30670,
         "dir": "ioc/common/mks670b/R0.1.0",
+        "disable": true,
         "alias": "USR Baratron (MKS 670B)",
         "history": [
             "ioc/common/mks670b/R0.1.0"
@@ -21805,6 +21818,7 @@
         "host": "ioc-xpp-usr01",
         "port": 31012,
         "dir": "ioc/xpp/NewportXPS8/R2.0.4",
+        "disable": true,
         "alias": "USR Motion Newport Portable Rack",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -21952,6 +21966,7 @@
         "host": "ioc-xpp-usr01",
         "port": 30040,
         "dir": "ioc/common/pciAcromag/R0.0.1-0.1.15",
+        "disable": true,
         "alias": "USR Analog IO",
         "history": [
             "ioc/common/pciAcromag/R0.0.1-0.1.6",
