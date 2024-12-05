@@ -21855,6 +21855,7 @@
         "host": "ioc-xpp-usr01",
         "port": 30050,
         "dir": "/cds/group/pcds/epics-dev/espov/ioc/common/pulsepicker",
+        "disable": true,
         "alias": "SB2 - Pulsepicker",
         "history": [
             "ioc/common/pulsepicker/R1.0.0"
