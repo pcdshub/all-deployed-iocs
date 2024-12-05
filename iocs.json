@@ -7839,6 +7839,16 @@
     },
     {
         "host": "ioc-cxi-acromag",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/evr",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-acromag-evr",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/evr/build/iocBoot/ioc-cxi-acromag-evr/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.2.2/bin/rhel7-x86_64/evr"
+    },
+    {
+        "host": "ioc-cxi-acromag",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - Laser Enclosure Near Field Tutti Frutti",
