@@ -14376,18 +14376,18 @@
     {
         "host": "ioc-mec-mot1",
         "port": 39108,
-        "dir": "/cds/home/p/peregrin/git-ioc-xrt-ims",
+        "dir": "ioc/xrt/ims/R6.3.1",
         "alias": "MEC HXM Prefocussing Motion",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-xrt-mec-xfls-ims",
-        "script": "/cds/home/p/peregrin/git-ioc-xrt-ims/build/iocBoot/ioc-xrt-mec-xfls-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xrt/ims/R6.3.1/build/iocBoot/ioc-xrt-mec-xfls-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.3.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-mec-mot1",
         "port": 39106,
-        "dir": "/cds/home/p/peregrin/git-ioc-xrt-ims",
+        "dir": "ioc/xrt/ims/R6.3.1",
         "alias": "Beamline PIM1 (YAG1)",
         "history": [
             "ioc/xrt/ims/R2.1.0",
@@ -14397,13 +14397,13 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-xrt-mecpim1-ims",
-        "script": "/cds/home/p/peregrin/git-ioc-xrt-ims/build/iocBoot/ioc-xrt-mecpim1-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xrt/ims/R6.3.1/build/iocBoot/ioc-xrt-mecpim1-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.3.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-mec-mot1",
         "port": 39107,
-        "dir": "/cds/home/p/peregrin/git-ioc-xrt-ims",
+        "dir": "ioc/xrt/ims/R6.3.1",
         "alias": "Beamline Attenuator",
         "history": [
             "ioc/xrt/ims/R2.1.0",
@@ -14413,7 +14413,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-xrt-mecppatt-ims",
-        "script": "/cds/home/p/peregrin/git-ioc-xrt-ims/build/iocBoot/ioc-xrt-mecppatt-ims/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/xrt/ims/R6.3.1/build/iocBoot/ioc-xrt-mecppatt-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.3.0/bin/rhel7-x86_64/ims"
     },
     {
