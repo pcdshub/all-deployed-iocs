@@ -6859,7 +6859,6 @@
         "host": "ctl-ued-cam-01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/baljamal/ioc/common/andorCam",
-        "disable": true,
         "alias": "ioc-ued-andor-01",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
@@ -7888,7 +7887,7 @@
     {
         "host": "ioc-cxi-acromag",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/pciAcromag",
+        "dir": "/reg/g/pcds/epics-dev/espov/ioc/common/pciAcromag",
         "alias": "USR - Acromag",
         "history": [
             "/reg/g/pcds/epics-dev/espov/ioc/common/pciAcromag"
@@ -7896,8 +7895,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-usr-acromag",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/pciAcromag/children/build/iocBoot/ioc-cxi-usr-acromag/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/divya/ioc/cxi/pciAcromag/bin/rhel7-x86_64/pciAcromag"
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/pciAcromag/children/build/iocBoot/ioc-cxi-usr-acromag/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/pciAcromag/bin/rhel7-x86_64/pciAcromag"
     },
     {
         "host": "ioc-cxi-cam2",
