@@ -7858,6 +7858,21 @@
     },
     {
         "host": "ioc-cxi-acromag",
+        "port": 39103,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam",
+        "alias": "CAM - SC1 Inline Alvium",
+        "history": [
+            "ioc/cxi/vimbaCam/R1.0.0"
+        ],
+        "cmd": "./st.cmd",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-alv-01",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam/build/iocBoot/ioc-cxi-alv-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.1.0/bin/rhel7-x86_64/vimba"
+    },
+    {
+        "host": "ioc-cxi-acromag",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - Laser Enclosure Near Field Tutti Frutti",
@@ -8514,21 +8529,6 @@
         "name": "ioc-cxi-pulsepicker-ims",
         "script": "/reg/g/pcds/epics-dev/pennebak/git/common/pulsepicker/iocBoot/ioc-cxi-pulsepicker-ims/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/pennebak/git/common/pulsepicker/bin/linux-x86/motion"
-    },
-    {
-        "host": "ioc-cxi-mot2",
-        "port": 39103,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam",
-        "alias": "CAM - SC1 Inline Alvium",
-        "history": [
-            "ioc/cxi/vimbaCam/R1.0.0"
-        ],
-        "cmd": "./st.cmd",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-alv-01",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam/build/iocBoot/ioc-cxi-alv-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.1.0/bin/rhel7-x86_64/vimba"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -13524,12 +13524,12 @@
     {
         "host": "ioc-mec-las-gige01",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/mec/ioc-mec-gigECam",
+        "dir": "ioc/mec/gigECam/R1.4.2",
         "alias": "GIGE CAM 44",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige44",
-        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/mec/ioc-mec-gigECam/build/iocBoot/ioc-mec-gige44/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.2/build/iocBoot/ioc-mec-gige44/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
     },
     {
