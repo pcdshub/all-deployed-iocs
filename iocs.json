@@ -7860,7 +7860,6 @@
         "host": "ioc-cxi-acromag",
         "port": 39103,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam",
-        "disable": true,
         "alias": "CAM - SC1 Inline Alvium",
         "history": [
             "ioc/cxi/vimbaCam/R1.0.0"
