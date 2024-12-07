@@ -7860,6 +7860,7 @@
         "host": "ioc-cxi-acromag",
         "port": 39103,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam",
+        "disable": true,
         "alias": "CAM - SC1 Inline Alvium",
         "history": [
             "ioc/cxi/vimbaCam/R1.0.0"
@@ -20692,6 +20693,22 @@
     },
     {
         "host": "ioc-xpp-misc02",
+        "port": 30010,
+        "dir": "ioc/xpp/ccm/deltaTauMotion/R1.0.3",
+        "alias": "MON - CCM Alio",
+        "history": [
+            "ioc/xpp/ccm/deltaTauMotion/R1.0.1",
+            "/reg/g/pcds/epics-dev/sabbah01/xpp/ccm/deltaTauMotion/current",
+            "ioc/xpp/ccm/deltaTauMotion/R1.0.0/iocBoot/iocdeltaTauMotion"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-mon-ccm-alio",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ccm/deltaTauMotion/R1.0.3/iocBoot/ioc-xpp-mon-ccm-alio/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/xpp/ccm/deltaTauMotion/R1.0.3/bin/rhel7-x86_64/deltaTauMotion"
+    },
+    {
+        "host": "ioc-xpp-misc02",
         "port": 30071,
         "dir": "ioc/xpp/ims/R6.0.3",
         "alias": "MON - CCM Motion",
@@ -20738,6 +20755,21 @@
         "name": "ioc-xpp-mon-nav-ims",
         "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.0.3/build/iocBoot/ioc-xpp-mon-nav-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-xpp-misc02",
+        "port": 30020,
+        "dir": "ioc/xpp/motor_monitors/R0.5.0",
+        "alias": "MON - Motor Temps, Pico lims.",
+        "history": [
+            "ioc/xpp/motor_monitors/R0.4.0"
+        ],
+        "delay": 20,
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
+        "name": "ioc-xpp-motor-monitors",
+        "script": "/reg/g/pcds/epics/ioc/xpp/motor_monitors/R0.5.0/iocBoot/ioc-xpp-motor-monitors/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/xpp/motor_monitors/R0.5.0/bin/rhel7-x86_64/motor_monitors"
     },
     {
         "host": "ioc-xpp-misc02",
@@ -21247,37 +21279,6 @@
         "name": "ioc-xpp-mcs2-temp",
         "script": "/cds/home/t/tjohnson/trunk/common/smaract/children/build/iocBoot/ioc-xpp-mcs2-temp/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.10/bin/rhel7-x86_64/smaract"
-    },
-    {
-        "host": "ioc-xpp-rec02",
-        "port": 30010,
-        "dir": "ioc/xpp/ccm/deltaTauMotion/R1.0.3",
-        "alias": "MON - CCM Alio",
-        "history": [
-            "ioc/xpp/ccm/deltaTauMotion/R1.0.1",
-            "/reg/g/pcds/epics-dev/sabbah01/xpp/ccm/deltaTauMotion/current",
-            "ioc/xpp/ccm/deltaTauMotion/R1.0.0/iocBoot/iocdeltaTauMotion"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-mon-ccm-alio",
-        "script": "/reg/g/pcds/epics/ioc/xpp/ccm/deltaTauMotion/R1.0.3/iocBoot/ioc-xpp-mon-ccm-alio/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/xpp/ccm/deltaTauMotion/R1.0.3/bin/rhel7-x86_64/deltaTauMotion"
-    },
-    {
-        "host": "ioc-xpp-rec02",
-        "port": 30020,
-        "dir": "ioc/xpp/motor_monitors/R0.5.0",
-        "alias": "MON - Motor Temps, Pico lims.",
-        "history": [
-            "ioc/xpp/motor_monitors/R0.4.0"
-        ],
-        "delay": 20,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-motor-monitors",
-        "script": "/reg/g/pcds/epics/ioc/xpp/motor_monitors/R0.5.0/iocBoot/ioc-xpp-motor-monitors/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/xpp/motor_monitors/R0.5.0/bin/rhel7-x86_64/motor_monitors"
     },
     {
         "host": "ioc-xpp-rec02",
