@@ -15206,6 +15206,16 @@
     },
     {
         "host": "ioc-mec-wave8",
+        "port": 39105,
+        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/mec/ioc-mec-raritan",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-src800-1",
+        "script": "/reg/g/pcds/epics-dev/nrw/iocs/mec/ioc-mec-raritan/build/iocBoot/ioc-mec-src800-1/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/nrw/iocs/mec/ioc-common-raritan/bin/rhel7-x86_64/snmp"
+    },
+    {
+        "host": "ioc-mec-wave8",
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/peregrin/iocs/wave8/R3.0.1",
         "alias": "User Diode",
@@ -15565,6 +15575,17 @@
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-alvium01",
         "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam/build/iocBoot/ioc-mfx-alvium01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.6/bin/rhel7-x86_64/vimba"
+    },
+    {
+        "host": "ioc-mfx-cam03",
+        "port": 39101,
+        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam",
+        "alias": "CAM - Alvium - TZERO",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-alvium04",
+        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam/build/iocBoot/ioc-mfx-alvium04/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.6/bin/rhel7-x86_64/vimba"
     },
     {
