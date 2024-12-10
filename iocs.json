@@ -16947,16 +16947,6 @@
     },
     {
         "host": "ioc-tst-13",
-        "port": 39102,
-        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/mec/ioc-mec-raritan/build/iocBoot/ioc-mec-src800-1/",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-mec-src800-01",
-        "script": "/reg/g/pcds/epics-dev/nrw/iocs/mec/ioc-mec-raritan/build/iocBoot/ioc-mec-src800-1/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/nrw/iocs/mec/ioc-common-raritan/bin/rhel7-x86_64/snmp"
-    },
-    {
-        "host": "ioc-tst-13",
         "port": 39103,
         "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/tst/alias-archiving-test",
         "alias": "ALIAS TEST",
