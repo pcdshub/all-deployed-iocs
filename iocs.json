@@ -22308,6 +22308,7 @@
         "host": "ioc-xrt-misc02",
         "port": 39113,
         "dir": "ioc/xrt/vacuum/R2.1.7",
+        "disable": true,
         "alias": "Vacuum HXN (HX2/HX3)",
         "history": [
             "ioc/xpp/vacuum/R2.1.3",
