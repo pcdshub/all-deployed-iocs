@@ -2263,15 +2263,15 @@
     {
         "host": "ctl-las-lhn-01",
         "port": 30600,
-        "dir": "/reg/g/pcds/epics/ioc/las/pvNotepad/R1.0.1",
+        "dir": "ioc/las/pvNotepad/R1.0.4",
         "history": [
             "/reg/g/pcds/epics-dev/snelson/las/pvNotepad/current"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-fstiming-gluePV",
-        "script": "/reg/g/pcds/epics/ioc/las/pvNotepad/R1.0.1/build/iocBoot/ioc-las-fstiming-gluePV/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
+        "script": "/reg/g/pcds/epics/ioc/las/pvNotepad/R1.0.4/build/iocBoot/ioc-las-fstiming-gluePV/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
     },
     {
         "host": "ctl-las-lhn-01",
