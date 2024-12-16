@@ -20115,6 +20115,7 @@
         "host": "ioc-xpp-gon",
         "port": 30012,
         "dir": "ioc/xpp/ccm/piMotion/R1.0.1",
+        "disable": true,
         "alias": "MON - CCM PI Dev",
         "history": [
             "/reg/g/pcds/package/epics/3.14-dev/ioc/xpp/ccm/piMotion/current"
@@ -20718,6 +20719,7 @@
         "host": "ioc-xpp-misc02",
         "port": 30010,
         "dir": "ioc/xpp/ccm/deltaTauMotion/R1.0.3",
+        "disable": true,
         "alias": "MON - CCM Alio",
         "history": [
             "ioc/xpp/ccm/deltaTauMotion/R1.0.1",
@@ -20734,6 +20736,7 @@
         "host": "ioc-xpp-misc02",
         "port": 30071,
         "dir": "ioc/xpp/ims/R6.0.3",
+        "disable": true,
         "alias": "MON - CCM Motion",
         "history": [
             "ioc/xpp/ims/R2.0.0",
