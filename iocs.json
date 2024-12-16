@@ -21007,6 +21007,7 @@
         "host": "ioc-xpp-misc02",
         "port": 32493,
         "dir": "ioc/xpp/vacuum/R1.3.0",
+        "disable": true,
         "alias": "Vacuum",
         "history": [
             "/reg/neh/home/snelson/work/ioc/xpp/vacuum/current",
