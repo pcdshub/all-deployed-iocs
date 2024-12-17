@@ -20753,6 +20753,7 @@
         "host": "ioc-xpp-misc02",
         "port": 34501,
         "dir": "ioc/xpp/ims/R6.0.3",
+        "disable": true,
         "alias": "MON - LODCM Motion",
         "history": [
             "ioc/xpp/ims/R2.0.0",
@@ -20787,6 +20788,7 @@
         "host": "ioc-xpp-misc02",
         "port": 30020,
         "dir": "ioc/xpp/motor_monitors/R0.5.0",
+        "disable": true,
         "alias": "MON - Motor Temps, Pico lims.",
         "history": [
             "ioc/xpp/motor_monitors/R0.4.0"
@@ -21809,6 +21811,7 @@
         "host": "ioc-xpp-usr01",
         "port": 34444,
         "dir": "ioc/xpp/lodcm/R1.0.0",
+        "disable": true,
         "alias": "MON - LODCM PVs",
         "history": [
             "ioc/xpp/lodcm/R1.0.0"
