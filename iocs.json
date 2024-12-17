@@ -20130,6 +20130,7 @@
         "host": "ioc-xpp-gon",
         "port": 36246,
         "dir": "/reg/neh/home/zlentz/python/pyIOC/servers/ccm",
+        "disable": true,
         "alias": "pyioc ccm calc",
         "history": [
             "/reg/neh/home/zlentz/python/pyIOC/servers/ccm"
@@ -20144,6 +20145,7 @@
         "host": "ioc-xpp-gon",
         "port": 36247,
         "dir": "/reg/neh/home/zlentz/python/pyIOC/servers/lodcm",
+        "disable": true,
         "alias": "pyioc lodcm calc",
         "history": [
             "/reg/neh/home/zlentz/python/pyIOC/servers/lodcm"
