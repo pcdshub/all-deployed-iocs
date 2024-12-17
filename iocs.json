@@ -21104,6 +21104,7 @@
         "host": "ioc-xpp-rec01",
         "port": 30044,
         "dir": "ioc/xpp/ims/R6.7.1",
+        "disable": true,
         "alias": "SB1 - Reflaser",
         "history": [
             "ioc/xpp/ims/R2.0.0",
@@ -21306,38 +21307,6 @@
         "name": "ioc-xpp-mcs2-temp",
         "script": "/cds/home/t/tjohnson/trunk/common/smaract/children/build/iocBoot/ioc-xpp-mcs2-temp/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.10/bin/rhel7-x86_64/smaract"
-    },
-    {
-        "host": "ioc-xpp-rec02",
-        "port": 30101,
-        "dir": "ioc/xpp/edtCam/R1.12.0",
-        "disable": true,
-        "alias": "OPAL1 IOC",
-        "history": [
-            "/reg/neh/home/snelson/work/xpp/edtCam/current",
-            "ioc/xpp/edtCam/R0.1.0",
-            "/reg/neh/home/bhill/wa2/epics/ioc/xpp/edtCam/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-opal1",
-        "script": "/reg/g/pcds/epics/ioc/xpp/edtCam/R1.12.0/build/iocBoot/ioc-xpp-opal1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R1.20.0/bin/rhel7-x86_64/edt"
-    },
-    {
-        "host": "ioc-xpp-rec02",
-        "port": 30103,
-        "dir": "ioc/xpp/edtCam/R1.12.0",
-        "disable": true,
-        "alias": "OPAL2 IOC",
-        "history": [
-            "/reg/neh/home/snelson/work/xpp/edtCam/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
-        "name": "ioc-xpp-opal2",
-        "script": "/reg/g/pcds/epics/ioc/xpp/edtCam/R1.12.0/build/iocBoot/ioc-xpp-opal2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R1.20.0/bin/rhel7-x86_64/edt"
     },
     {
         "host": "ioc-xpp-rec02",
@@ -21634,6 +21603,7 @@
         "host": "ioc-xpp-usr01",
         "port": 30160,
         "dir": "ioc/common/picoMotion/R1.0.4",
+        "disable": true,
         "alias": "SB1 - Reflaser Pico",
         "history": [
             "ioc/common/picoMotion/R1.0.4"
