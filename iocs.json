@@ -21136,6 +21136,7 @@
         "host": "ioc-xpp-rec01",
         "port": 30043,
         "dir": "ioc/xpp/ims/R6.7.1",
+        "disable": true,
         "alias": "SB1 - Slits",
         "history": [
             "ioc/xpp/ims/R2.0.0",
