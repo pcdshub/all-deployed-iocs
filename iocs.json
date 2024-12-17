@@ -20769,6 +20769,7 @@
         "host": "ioc-xpp-misc02",
         "port": 31071,
         "dir": "ioc/xpp/ims/R6.0.3",
+        "disable": true,
         "alias": "MON - Navitar Motion",
         "history": [
             "ioc/xpp/ims/R2.3.0",
