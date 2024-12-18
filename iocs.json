@@ -3924,12 +3924,12 @@
     {
         "host": "ctl-lfe-vac-01",
         "port": 30100,
-        "dir": "/reg/g/pcds/epics-dev/adpai/lfe_vaccum_support/current",
+        "dir": "/cds/home/j/jozamudi/epics-dev/lfe/lfe_vaccum_support",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-lfe-vac-support",
-        "script": "/reg/g/pcds/epics-dev/adpai/lfe_vaccum_support/current/build/iocBoot/ioc-lfe-vac-support/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.0/bin/rhel7-x86_64/vacuum"
+        "script": "/cds/home/j/jozamudi/epics-dev/lfe/lfe_vaccum_support/build/iocBoot/ioc-lfe-vac-support/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.7/bin/rhel7-x86_64/vacuum"
     },
     {
         "host": "ctl-lfe-vac-01",
@@ -20853,6 +20853,7 @@
         "host": "ioc-xpp-misc02",
         "port": 30053,
         "dir": "ioc/xpp/ims/R6.7.0",
+        "disable": true,
         "alias": "SB2 - Double Slits",
         "history": [
             "ioc/xpp/ims/R2.3.0",
@@ -20869,6 +20870,7 @@
         "host": "ioc-xpp-misc02",
         "port": 30051,
         "dir": "ioc/xpp/ims/R6.7.0",
+        "disable": true,
         "alias": "SB2 - IPM Motion",
         "history": [
             "ioc/xpp/ims/R2.3.0",
@@ -20885,6 +20887,7 @@
         "host": "ioc-xpp-misc02",
         "port": 30001,
         "dir": "ioc/xpp/ims/R6.6.0",
+        "disable": true,
         "alias": "SB2 - Attenuator Motors",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
@@ -20896,6 +20899,7 @@
         "host": "ioc-xpp-misc02",
         "port": 30055,
         "dir": "ioc/xpp/ims/R6.7.0",
+        "disable": true,
         "alias": "SB2 - Be Lens",
         "history": [
             "ioc/xpp/ims/R2.3.0",
@@ -20912,6 +20916,7 @@
         "host": "ioc-xpp-misc02",
         "port": 30065,
         "dir": "ioc/xpp/ims/R6.0.3",
+        "disable": true,
         "alias": "SB3 - HRMs",
         "history": [
             "ioc/xpp/ims/R2.0.0",
@@ -20927,6 +20932,7 @@
         "host": "ioc-xpp-misc02",
         "port": 30061,
         "dir": "ioc/xpp/ims/R6.0.3",
+        "disable": true,
         "alias": "SB3 - IPM Motion",
         "history": [
             "ioc/xpp/ims/R2.0.0",
@@ -20942,6 +20948,7 @@
         "host": "ioc-xpp-misc02",
         "port": 30064,
         "dir": "ioc/xpp/ims/R6.0.3",
+        "disable": true,
         "alias": "SB3 - LCH Motion",
         "history": [
             "ioc/xpp/ims/R2.0.0",
@@ -20957,6 +20964,7 @@
         "host": "ioc-xpp-misc02",
         "port": 30062,
         "dir": "ioc/xpp/ims/R6.0.3",
+        "disable": true,
         "alias": "SB3 - YAG2 Screen Motion",
         "history": [
             "ioc/xpp/ims/R2.0.0",
@@ -20972,6 +20980,7 @@
         "host": "ioc-xpp-misc02",
         "port": 30063,
         "dir": "ioc/xpp/ims/R6.0.3",
+        "disable": true,
         "alias": "SB3 - Slits",
         "history": [
             "ioc/xpp/ims/R2.0.0",
@@ -20987,6 +20996,7 @@
         "host": "ioc-xpp-misc02",
         "port": 31072,
         "dir": "ioc/xpp/ims/R6.7.0",
+        "disable": true,
         "alias": "SB2 - Timetool Motion",
         "history": [
             "ioc/xpp/ims/R2.3.2",
