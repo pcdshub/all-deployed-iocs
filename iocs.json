@@ -1302,12 +1302,12 @@
     {
         "host": "ctl-las-ftl-sp01",
         "port": 30002,
-        "dir": "ioc/las/agilent5322/R1.0.3",
+        "dir": "ioc/las/agilent5322/R2.0.5",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-ftl-ctr-01",
-        "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R1.0.3/build/iocBoot/ioc-las-ftl-ctr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R2.0.1/bin/rhel7-x86_64/agilent5322"
+        "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R2.0.5/build/iocBoot/ioc-las-ftl-ctr-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/agilent5322/R2.0.5/bin/rhel7-x86_64/agilent5322"
     },
     {
         "host": "ctl-las-ftl-sp01",
@@ -2296,12 +2296,12 @@
     {
         "host": "ctl-las-lhn-01",
         "port": 30502,
-        "dir": "ioc/las/agilent5322/R1.0.4",
+        "dir": "ioc/las/agilent5322/R2.0.5",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-ctr-01",
-        "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R1.0.4/build/iocBoot/ioc-las-lhn-ctr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R2.0.3/bin/rhel7-x86_64/agilent5322"
+        "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R2.0.5/build/iocBoot/ioc-las-lhn-ctr-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/agilent5322/R2.0.5/bin/rhel7-x86_64/agilent5322"
     },
     {
         "host": "ctl-las-lhn-01",
@@ -2615,12 +2615,12 @@
     {
         "host": "ctl-las-lhn-03",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/agilent5322/agilent5322-git",
+        "dir": "ioc/las/agilent5322/R2.0.5",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-opcpa-ctr-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/agilent5322/agilent5322-git/build/iocBoot/ioc-las-opcpa-ctr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/common/agilent5322/agilent5322-git/bin/rhel7-x86_64/agilent5322"
+        "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R2.0.5/build/iocBoot/ioc-las-opcpa-ctr-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/agilent5322/R2.0.5/bin/rhel7-x86_64/agilent5322"
     },
     {
         "host": "ctl-las-lhn-03",
@@ -2695,12 +2695,12 @@
     {
         "host": "ctl-las-lhn-04",
         "port": 30502,
-        "dir": "ioc/las/agilent5322/R1.0.4",
+        "dir": "ioc/las/agilent5322/R2.0.5",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-ctr-04",
-        "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R1.0.4/build/iocBoot/ioc-las-lhn-ctr-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R2.0.3/bin/rhel7-x86_64/agilent5322"
+        "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R2.0.5/build/iocBoot/ioc-las-lhn-ctr-04/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/agilent5322/R2.0.5/bin/rhel7-x86_64/agilent5322"
     },
     {
         "host": "ctl-las-lhn-04",
@@ -2883,12 +2883,12 @@
     {
         "host": "ctl-las-lhn-sp01",
         "port": 30003,
-        "dir": "ioc/las/agilent5322/R1.0.3",
+        "dir": "ioc/las/agilent5322/R2.0.5",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-ctr-03",
-        "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R1.0.3/build/iocBoot/ioc-las-lhn-ctr-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R2.0.1/bin/rhel7-x86_64/agilent5322"
+        "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R2.0.5/build/iocBoot/ioc-las-lhn-ctr-03/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/agilent5322/R2.0.5/bin/rhel7-x86_64/agilent5322"
     },
     {
         "host": "ctl-las-lhn-sp01",
@@ -3044,22 +3044,22 @@
     {
         "host": "ctl-las-lhn-sp02",
         "port": 30006,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/agilent5322/agilent5322-git",
+        "dir": "ioc/las/agilent5322/R2.0.5",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-ctr-02",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/agilent5322/agilent5322-git/build/iocBoot/ioc-las-lhn-ctr-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R2.0.3/bin/rhel7-x86_64/agilent5322"
+        "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R2.0.5/build/iocBoot/ioc-las-lhn-ctr-02/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/agilent5322/R2.0.5/bin/rhel7-x86_64/agilent5322"
     },
     {
         "host": "ctl-las-lhn-sp02",
         "port": 30008,
-        "dir": "/cds/home/t/tjohnson/trunk/las/agilent5322/agilent5322-git",
+        "dir": "ioc/las/agilent5322/R2.0.5",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-ctr-05",
-        "script": "/cds/home/t/tjohnson/trunk/las/agilent5322/agilent5322-git/build/iocBoot/ioc-las-lhn-ctr-05/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/agilent5322/bin/rhel7-x86_64/agilent5322"
+        "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R2.0.5/build/iocBoot/ioc-las-lhn-ctr-05/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/agilent5322/R2.0.5/bin/rhel7-x86_64/agilent5322"
     },
     {
         "host": "ctl-las-lhn-sp02",
@@ -3480,15 +3480,15 @@
     {
         "host": "ctl-las-xcs-srv01",
         "port": 30009,
-        "dir": "ioc/las/agilent5322/R1.0.6",
+        "dir": "ioc/las/agilent5322/R2.0.5",
         "history": [
             "ioc/common/agilent5322/R0.4.2"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-xcs-ctr-01",
-        "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R1.0.6/build/iocBoot/ioc-las-xcs-ctr-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/agilent5322/R2.0.3/bin/rhel7-x86_64/agilent5322"
+        "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R2.0.5/build/iocBoot/ioc-las-xcs-ctr-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/agilent5322/R2.0.5/bin/rhel7-x86_64/agilent5322"
     },
     {
         "host": "ctl-las-xcs-srv01",
@@ -12229,12 +12229,12 @@
     {
         "host": "ioc-las-cxi-srv05",
         "port": 30001,
-        "dir": "ioc/las/agilent5322/R1.0.5",
+        "dir": "ioc/las/agilent5322/R2.0.5",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-cxi-ctr-01",
-        "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R1.0.5/build/iocBoot/ioc-las-cxi-ctr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R2.0.3/bin/rhel7-x86_64/agilent5322"
+        "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R2.0.5/build/iocBoot/ioc-las-cxi-ctr-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/agilent5322/R2.0.5/bin/rhel7-x86_64/agilent5322"
     },
     {
         "host": "ioc-las-cxi-srv05",
@@ -12432,12 +12432,12 @@
     {
         "host": "ioc-las-mec-srv06",
         "port": 39100,
-        "dir": "ioc/las/agilent5322/R1.0.6",
+        "dir": "ioc/las/agilent5322/R2.0.5",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-mec-ctr-01",
-        "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R1.0.6/build/iocBoot/ioc-las-mec-ctr-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/agilent5322/R2.0.3/bin/rhel7-x86_64/agilent5322"
+        "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R2.0.5/build/iocBoot/ioc-las-mec-ctr-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/agilent5322/R2.0.5/bin/rhel7-x86_64/agilent5322"
     },
     {
         "host": "ioc-las-mec-srv06",
@@ -12551,12 +12551,12 @@
     {
         "host": "ioc-las-mfx-srv45",
         "port": 35010,
-        "dir": "ioc/las/agilent5322/R1.0.4",
+        "dir": "ioc/las/agilent5322/R2.0.5",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-mfx-ctr-01",
-        "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R1.0.4/build/iocBoot/ioc-las-mfx-ctr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/agilent5322/R2.0.3/bin/rhel7-x86_64/agilent5322"
+        "script": "/reg/g/pcds/epics/ioc/las/agilent5322/R2.0.5/build/iocBoot/ioc-las-mfx-ctr-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/agilent5322/R2.0.5/bin/rhel7-x86_64/agilent5322"
     },
     {
         "host": "ioc-las-mfx-srv45",
