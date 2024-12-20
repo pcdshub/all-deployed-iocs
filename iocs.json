@@ -15775,6 +15775,7 @@
         "host": "ioc-mfx-misc01",
         "port": 30185,
         "dir": "/reg/neh/home/joaoprod/svnRepo/mfx/staubli/current",
+        "disable": true,
         "alias": "ROB - Controller",
         "history": [
             "/reg/neh/home/joaoprod/svnRepo/mfx/staubli/current"
