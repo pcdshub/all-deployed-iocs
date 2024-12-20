@@ -2590,7 +2590,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lhn-bay2-nf-04",
         "script": "/cds/group/pcds/epics-dev/aberges/ioc/las/gigECam/ioc-las-gigECam/build/iocBoot/ioc-lhn-bay2-nf-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.4/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lhn-03",
