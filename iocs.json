@@ -12406,6 +12406,17 @@
     },
     {
         "host": "ioc-las-mec-srv06",
+        "port": 30005,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/ioc-las-pdu_snmp",
+        "disable": true,
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-feh_cast-pwr-01",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/ioc-las-pdu_snmp/build/iocBoot/ioc-las-feh_cast-pwr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
+    },
+    {
+        "host": "ioc-las-mec-srv06",
         "port": 30004,
         "dir": "/reg/g/pcds/epics/ioc/las/ek9000/R2.0.0",
         "base_version": "3.15",
