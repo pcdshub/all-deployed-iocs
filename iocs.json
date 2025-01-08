@@ -4362,6 +4362,17 @@
     },
     {
         "host": "ctl-rix-crix-mot-01",
+        "port": 39103,
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/RohdeSchwarzHMP",
+        "alias": "EPIXM R&S",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-hmp-01",
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/RohdeSchwarzHMP/build/iocBoot/ioc-rix-hmp-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.2/bin/rhel7-x86_64/rshmp"
+    },
+    {
+        "host": "ctl-rix-crix-mot-01",
         "port": 30002,
         "dir": "ioc/rix/shimadzu-lc20/R1.1.2",
         "alias": "Shimadzu HPLCs",
