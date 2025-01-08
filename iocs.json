@@ -4373,6 +4373,17 @@
     },
     {
         "host": "ctl-rix-crix-mot-01",
+        "port": 39104,
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/Keithley",
+        "alias": "EPIXM K2400",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-k2400",
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/Keithley/build/iocBoot/ioc-rix-k2400/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/Keithley/R1.1.0/bin/rhel7-x86_64/Keithley"
+    },
+    {
+        "host": "ctl-rix-crix-mot-01",
         "port": 30002,
         "dir": "ioc/rix/shimadzu-lc20/R1.1.2",
         "alias": "Shimadzu HPLCs",
