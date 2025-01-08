@@ -17899,12 +17899,12 @@
     {
         "host": "ioc-xcs-misc2",
         "port": 30483,
-        "dir": "ioc/xcs/mmc/usr-6axis-mmc-01/R1.0.0",
+        "dir": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/ioc-xcs-usr-6axis-mmc-01",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-usr-6axis-mmc-01",
-        "script": "/reg/g/pcds/epics/ioc/xcs/mmc/usr-6axis-mmc-01/R1.0.0/build/iocBoot/ioc-xcs-usr-6axis-mmc-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/mmc/R1.0.6/bin/linux-x86_64/mmc"
+        "script": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/ioc-xcs-usr-6axis-mmc-01/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-misc2",
