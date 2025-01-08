@@ -4447,6 +4447,17 @@
         "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.7/bin/rhel7-x86_64/thermotek"
     },
     {
+        "host": "ctl-rix-crix-mot-01",
+        "port": 39105,
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/thermotek",
+        "alias": "EPIXM Thermotek",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-thermotek-03",
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/thermotek/build/iocBoot/ioc-rix-thermotek-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.7/bin/rhel7-x86_64/thermotek"
+    },
+    {
         "host": "ctl-rix-crix-vac-01",
         "port": 31000,
         "dir": "/reg/g/pcds/epics-dev/jozamudi/rix/lcls-plc-crixs-vac/lcls-plc-crix-vac",
