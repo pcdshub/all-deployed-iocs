@@ -13699,7 +13699,7 @@
     },
     {
         "host": "ioc-mec-las-gige03",
-        "port": 32501,
+        "port": 32500,
         "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/mec/ioc-mec-gigECam",
         "disable": true,
         "alias": "Gige 1Target Chamber (Questar1)",
@@ -13711,7 +13711,7 @@
     },
     {
         "host": "ioc-mec-las-gige03",
-        "port": 32500,
+        "port": 32501,
         "dir": "ioc/mec/gigECam/R1.4.3",
         "alias": "Gige 1 Target Chamber (Questar1)",
         "base_version": "3.15",
