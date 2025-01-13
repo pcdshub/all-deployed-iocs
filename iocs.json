@@ -13720,6 +13720,17 @@
     },
     {
         "host": "ioc-mec-las-gige03",
+        "port": 30003,
+        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/mec/ioc-mec-gigECam",
+        "alias": "Gige LPL 100j #5",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-gige-08",
+        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/mec/ioc-mec-gigECam/build/iocBoot/ioc-mec-gige-08/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
+    },
+    {
+        "host": "ioc-mec-las-gige03",
         "port": 32501,
         "dir": "ioc/mec/gigECam/R1.4.3",
         "disable": true,
@@ -13823,6 +13834,7 @@
         "host": "ioc-mec-las-gige03",
         "port": 32508,
         "dir": "ioc/mec/gigECam/R1.4.0",
+        "disable": true,
         "alias": "Gige LPL 100J #5",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
