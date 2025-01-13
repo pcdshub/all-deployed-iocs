@@ -2774,6 +2774,16 @@
     },
     {
         "host": "ctl-las-lhn-04",
+        "port": 30025,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/ioc-las-pdu_snmp",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-mezz-pwr-01",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/ioc-las-pdu_snmp/build/iocBoot/ioc-las-mezz-pwr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
+    },
+    {
+        "host": "ctl-las-lhn-04",
         "port": 30011,
         "dir": "ioc/las/gigECam/R0.3.1",
         "base_version": "3.15",
@@ -12447,17 +12457,6 @@
         "name": "ioc-las-mec-usb4k-1",
         "script": "/reg/g/pcds/package/epics/3.14-dev/ioc/mec/spectrometer/R1.1.0/iocBoot/ioc-las-mec-usb4k-1/st.cmd",
         "binary": "/reg/g/pcds/package/epics/3.14-dev/ioc/mec/spectrometer/R1.1.0/bin/linux-x86_64/spectrometer"
-    },
-    {
-        "host": "ioc-las-mec-srv06",
-        "port": 30005,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/ioc-las-pdu_snmp",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-feh_cast-pwr-01",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/ioc-las-pdu_snmp/build/iocBoot/ioc-las-feh_cast-pwr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ioc-las-mec-srv06",
