@@ -13701,6 +13701,7 @@
         "host": "ioc-mec-las-gige03",
         "port": 32501,
         "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/mec/ioc-mec-gigECam",
+        "alias": "Gige 1Target Chamber (Questar1)",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige-01",
