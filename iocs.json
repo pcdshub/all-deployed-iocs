@@ -13238,6 +13238,7 @@
         "host": "ioc-mec-imb02",
         "port": 33000,
         "dir": "ioc/mec/gigECam/R1.1.1",
+        "disable": true,
         "alias": "Gige Short Pulse 1",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
@@ -13755,6 +13756,17 @@
     },
     {
         "host": "ioc-mec-las-gige02",
+        "port": 30006,
+        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/mec/ioc-mec-gigECam",
+        "alias": "Gige Short Pulse 1",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-gige-22",
+        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/mec/ioc-mec-gigECam/build/iocBoot/ioc-mec-gige-22/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-mec-las-gige02",
         "port": 32512,
         "dir": "ioc/mec/gigECam/R1.4.0",
         "alias": "Gige Long Pulse 2",
@@ -13915,18 +13927,6 @@
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige17",
         "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige17/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
-    },
-    {
-        "host": "ioc-mec-las-gige04",
-        "port": 32504,
-        "dir": "ioc/mec/gigECam/R1.4.0",
-        "disable": true,
-        "alias": "Gige VISAR 4",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-gige21",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige21/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
     },
     {
