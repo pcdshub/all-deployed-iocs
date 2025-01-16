@@ -17071,6 +17071,17 @@
     },
     {
         "host": "ioc-tst-13",
+        "port": 39102,
+        "dir": "/cds/home/k/kaushikm/pcds-nalms/CFG",
+        "alias": "NALMS Comparison",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-nalms-TMO-alarms",
+        "script": "/cds/home/k/kaushikm/pcds-nalms/CFG/build/iocBoot/ioc-nalms-TMO-alarms/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/kaushikm/ioc/common/nalms/bin/rhel7-x86_64/nalms"
+    },
+    {
+        "host": "ioc-tst-13",
         "port": 39103,
         "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/tst/alias-archiving-test",
         "alias": "ALIAS TEST",
