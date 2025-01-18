@@ -2121,6 +2121,7 @@
         "host": "ctl-las-ip1-srv06",
         "port": 30016,
         "dir": "/reg/g/pcds/epics-dev/mods/lln/gigEcam",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-opa-gige-ff-01",
@@ -2131,6 +2132,7 @@
         "host": "ctl-las-ip1-srv06",
         "port": 30015,
         "dir": "/reg/g/pcds/epics-dev/mods/lln/gigEcam",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-opa-gige-nf-01",
@@ -23054,7 +23056,6 @@
         "host": "tmo-control",
         "port": 34004,
         "dir": "/cds/home/opr/tmoopr/bin/autocaller",
-        "disable": true,
         "alias": "TMO Vacuum Watchdog",
         "history": [
             "/cds/home/opr/tmoopr/bin/autocaller"
