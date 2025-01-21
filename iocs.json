@@ -3728,7 +3728,7 @@
         "config_file": "/cds/group/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-lfe-lakeshore336-01",
         "script": "/reg/g/pcds/epics-dev/tparas/ioc/lfe/ioc-lfe-lakeshore336/build/iocBoot/ioc-lfe-sp1l0-ls336/st.cmd",
-        "binary": null
+        "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.1/bin/rhel7-x86_64/ls336"
     },
     {
         "host": "ctl-lfe-misc-01",
