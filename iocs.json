@@ -17153,6 +17153,7 @@
         "host": "ioc-tst-13",
         "port": 39057,
         "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/sds/lcls-plc-sds-vis/lcls-plc-sds-vis",
+        "disable": true,
         "alias": "ioc-plc-sds-vis",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
