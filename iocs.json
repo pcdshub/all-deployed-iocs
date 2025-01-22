@@ -6164,8 +6164,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-pwr-cvmi",
-        "script": "/reg/g/pcds/epics-dev/tparas/ioc/tmo/ioc-tmo-pdu/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/tparas/ioc/tmo/ioc-tmo-pdu/build/iocBoot/ioc-tmo-pwr-cvmi/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ctl-tmo-misc-01",
@@ -6174,8 +6174,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-pwr-dream",
-        "script": "/reg/g/pcds/epics-dev/tparas/ioc/tmo/ioc-tmo-pdu/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/tparas/ioc/tmo/ioc-tmo-pdu/build/iocBoot/ioc-tmo-pwr-dream/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ctl-tmo-misc-01",
@@ -16466,6 +16466,17 @@
         "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
     },
     {
+        "host": "ioc-mfx-misc02",
+        "port": 39103,
+        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/sds/lcls-plc-sds-vis/lcls-plc-sds-vis",
+        "alias": "ioc-plc-sds-vis",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-plc-sds-vis",
+        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/sds/lcls-plc-sds-vis/lcls-plc-sds-vis/iocBoot/ioc-plc-sds-vis/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
+    },
+    {
         "host": "ioc-mfx-mot1",
         "port": 31522,
         "dir": "ioc/mfx/picoMotion/R2.1.1",
@@ -17148,18 +17159,6 @@
         "name": "ioc-nalms-TMO-alarms",
         "script": "/cds/home/k/kaushikm/pcds-nalms/CFG/build/iocBoot/ioc-nalms-TMO-alarms/st.cmd",
         "binary": "/cds/group/pcds/epics-dev/kaushikm/ioc/common/nalms/bin/rhel7-x86_64/nalms"
-    },
-    {
-        "host": "ioc-tst-13",
-        "port": 39057,
-        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/sds/lcls-plc-sds-vis/lcls-plc-sds-vis",
-        "disable": true,
-        "alias": "ioc-plc-sds-vis",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-plc-sds-vis",
-        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/sds/lcls-plc-sds-vis/lcls-plc-sds-vis/iocBoot/ioc-plc-sds-vis/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ioc-tst-13",
