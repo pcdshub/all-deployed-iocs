@@ -4387,7 +4387,7 @@
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-epixm-mpod",
         "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/mpod/build/iocBoot/ioc-rix-epixm-mpod/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/mpod/R3.0.0/bin/rhel7-x86_64/mpod"
+        "binary": "/cds/group/pcds/epics-dev/kaushikm/ioc/common/mpod/bin/rhel7-x86_64/mpod"
     },
     {
         "host": "ctl-rix-crix-mot-01",
