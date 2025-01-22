@@ -4380,6 +4380,17 @@
     },
     {
         "host": "ctl-rix-crix-mot-01",
+        "port": 39106,
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/mpod",
+        "alias": "EPIXM MPOD",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-epixm-mpod",
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/mpod/build/iocBoot/ioc-rix-epixm-mpod/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/mpod/R3.0.0/bin/rhel7-x86_64/mpod"
+    },
+    {
+        "host": "ctl-rix-crix-mot-01",
         "port": 30100,
         "dir": "ioc/rix/expstate/R1.0.7",
         "disable": true,
@@ -23067,6 +23078,7 @@
         "host": "tmo-control",
         "port": 34004,
         "dir": "/cds/home/opr/tmoopr/bin/autocaller",
+        "disable": true,
         "alias": "TMO Vacuum Watchdog",
         "history": [
             "/cds/home/opr/tmoopr/bin/autocaller"
