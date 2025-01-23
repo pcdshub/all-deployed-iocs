@@ -17615,6 +17615,17 @@
     },
     {
         "host": "ioc-xcs-gige01",
+        "port": 30003,
+        "dir": "/reg/g/pcds/epics-dev/tparas/ioc/xcs/ioc-xcs-gigECam",
+        "alias": "CAM - Gige Spare",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-gige-spare",
+        "script": "/reg/g/pcds/epics-dev/tparas/ioc/xcs/ioc-xcs-gigECam/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ioc-xcs-gige01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/xcs/gigECam",
         "alias": "CAM - Gige PyDM Test",
