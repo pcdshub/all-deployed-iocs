@@ -6270,6 +6270,17 @@
     },
     {
         "host": "ctl-tmo-mot-01",
+        "port": 39105,
+        "dir": "/reg/g/pcds/epics-dev/baljamal/ioc/tmo/lcls-plc-test-kbslit",
+        "alias": "kbslits-testing",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-dream-kbslits",
+        "script": "/reg/g/pcds/epics-dev/baljamal/ioc/tmo/lcls-plc-test-kbslit/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ctl-tmo-mot-01",
         "port": 34244,
         "dir": "/reg/g/pcds/epics-dev/jozamudi/tmo/lcls-plc-lamp-motion",
         "alias": "ioc-lamp-motion",
