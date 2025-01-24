@@ -6271,13 +6271,13 @@
     {
         "host": "ctl-tmo-mot-01",
         "port": 39105,
-        "dir": "/reg/g/pcds/epics-dev/baljamal/ioc/tmo/lcls-plc-test-kbslit",
-        "alias": "kbslits-testing",
+        "dir": "/reg/g/pcds/epics-dev/baljamal/ioc/tmo/lcls-plc-test-kbslit/lcls-plc-test-kbslit",
+        "alias": "ioc-kb-slit-motion",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-dream-kbslits",
-        "script": "/reg/g/pcds/epics-dev/baljamal/ioc/tmo/lcls-plc-test-kbslit/st.cmd",
-        "binary": null
+        "name": "ioc-kb-slit-motion",
+        "script": "/reg/g/pcds/epics-dev/baljamal/ioc/tmo/lcls-plc-test-kbslit/lcls-plc-test-kbslit/iocBoot/ioc-kb-slit-motion/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-tmo-mot-01",
