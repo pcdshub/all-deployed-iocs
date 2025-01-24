@@ -1431,6 +1431,26 @@
     },
     {
         "host": "ctl-las-ftl-srv01",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/ioc-las-pdu_snmp",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-ftl-pwr-01",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/ioc-las-pdu_snmp/build/iocBoot/ioc-las-ftl-pwr-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
+    },
+    {
+        "host": "ctl-las-ftl-srv01",
+        "port": 39101,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/ioc-las-pdu_snmp",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-ftl-pwr-02",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las/ioc-las-pdu_snmp/build/iocBoot/ioc-las-ftl-pwr-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
+    },
+    {
+        "host": "ctl-las-ftl-srv01",
         "port": 30008,
         "dir": "ioc/common/local_gateway/R1.0.2",
         "base_version": "3.15",
@@ -13931,20 +13951,20 @@
     },
     {
         "host": "ioc-mec-las-gige03",
-        "port": 32532,
-        "dir": "ioc/mec/gigECam/R1.4.0",
-        "disable": true,
-        "alias": "Gige SPS Compressor 1",
+        "port": 39106,
+        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/mec/ioc-mec-gigECam",
+        "alias": "Gige SPS Compressor 2 (CompInNF)",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-gige32",
-        "script": "/reg/g/pcds/epics/ioc/mec/gigECam/R1.4.0/build/iocBoot/ioc-mec-gige32/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/linux-x86_64/gige"
+        "name": "ioc-mec-gige-33",
+        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/mec/ioc-mec-gigECam/build/iocBoot/ioc-mec-gige-33/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ioc-mec-las-gige03",
         "port": 32533,
         "dir": "ioc/mec/gigECam/R1.4.0",
+        "disable": true,
         "alias": "Gige SPS Compressor 2",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
