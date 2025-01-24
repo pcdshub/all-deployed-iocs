@@ -13823,6 +13823,7 @@
         "host": "ioc-mec-las-gige02",
         "port": 33005,
         "dir": "ioc/mec/gigECam/R1.4.0",
+        "disable": true,
         "alias": "Gige Short Pulse 6",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
@@ -13872,6 +13873,17 @@
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-gige-26",
         "script": "/reg/g/pcds/epics-dev/rnazir/ioc/mec/ioc-mec-gigECam/build/iocBoot/ioc-mec-gige-26/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-mec-las-gige03",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/mec/ioc-mec-gigECam",
+        "alias": "Gige Short Pulse 7 (MPA2Out)",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-gige-27",
+        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/mec/ioc-mec-gigECam/build/iocBoot/ioc-mec-gige-27/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
     },
     {
