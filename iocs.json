@@ -3988,12 +3988,12 @@
     {
         "host": "ctl-mfx-wave8",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/pgpWave8",
+        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/pgpWave8/build/iocBoot/ioc-mfx-pgpw8-01",
         "disable": true,
         "alias": "WAVE8v3 - DG1",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-pgpw8-01",
+        "name": "ioc-mfx-pgpwave8-01",
         "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/pgpWave8/build/iocBoot/ioc-mfx-pgpw8-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R2.3.0/bin/rhel7-x86_64/pgpWave8"
     },
