@@ -6627,7 +6627,7 @@
         "binary": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.7/bin/rhel7-x86_64/vacuum"
     },
     {
-        "host": "ctl-tst-dev-01",
+        "host": "ctl-tst-dev-02",
         "port": 30002,
         "dir": "/cds/group/pcds/epics-dev/mcabral/lcls-plc-txi-dccm",
         "base_version": "3.15",
@@ -6637,7 +6637,7 @@
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
-        "host": "ctl-tst-dev-01",
+        "host": "ctl-tst-dev-02",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/joshc/lcls-plc-neh-tst/lcls-plc-neh-tst",
         "alias": "PowerMeter Tester",
@@ -6648,7 +6648,7 @@
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
-        "host": "ctl-tst-dev-01",
+        "host": "ctl-tst-dev-02",
         "port": 34242,
         "dir": "/cds/home/z/zlentz/github/lcls-plc-example-motion",
         "disable": true,
@@ -6664,7 +6664,7 @@
         "binary": "/cds/home/z/zlentz/github/ioc-common-ads-ioc/bin/rhel7-x86_64/adsIoc"
     },
     {
-        "host": "ctl-tst-dev-01",
+        "host": "ctl-tst-dev-02",
         "port": 30003,
         "dir": "ioc/tst/pvNotepad/R0.2.0",
         "base_version": "3.15",
@@ -6672,66 +6672,6 @@
         "name": "ioc-tst-try-deploy",
         "script": "/reg/g/pcds/epics/ioc/tst/pvNotepad/R0.2.0/build/iocBoot/ioc-tst-try-deploy/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
-    },
-    {
-        "host": "ctl-tst-mecu-llnl",
-        "port": 35956,
-        "dir": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
-        "name": "ioc-dso4000-tst",
-        "script": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1/children/build/iocBoot/ioc-dso4000-tst/st.cmd",
-        "binary": "/cds/home/j/jvamosi/workspace/Tektronix/R1.0.1/bin/rhel7-x86_64/dso4000"
-    },
-    {
-        "host": "ctl-tst-mecu-llnl",
-        "port": 35980,
-        "dir": "/cds/home/j/jvamosi/workspace/ioc-mecu-basler",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
-        "name": "ioc-mecu-tst-cam-01",
-        "script": "/cds/home/j/jvamosi/workspace/ioc-mecu-basler/build/iocBoot/ioc-mecu-tst-cam-01/st.cmd",
-        "binary": "/cds/home/j/jvamosi/workspace/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
-    },
-    {
-        "host": "ctl-tst-mecu-llnl",
-        "port": 35990,
-        "dir": "/cds/home/j/jvamosi/workspace/ioc-mecu-basler",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
-        "name": "ioc-mecu-tst-cam-03",
-        "script": "/cds/home/j/jvamosi/workspace/ioc-mecu-basler/build/iocBoot/ioc-mecu-tst-cam-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
-    },
-    {
-        "host": "ctl-tst-mecu-llnl",
-        "port": 35659,
-        "dir": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
-        "name": "ioc-mecu-tst-gentec",
-        "script": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/children/build/iocBoot/ioc-mecu-tst-gentec/st.cmd",
-        "binary": "/cds/home/j/jvamosi/workspace/ioc-mecu-gentec/bin/rhel7-x86_64/gentec"
-    },
-    {
-        "host": "ctl-tst-mecu-llnl",
-        "port": 35625,
-        "dir": "/cds/home/j/jvamosi/workspace/ioc-pulser",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
-        "name": "ioc-pulser",
-        "script": "/cds/home/j/jvamosi/workspace/ioc-pulser/children/build/iocBoot/ioc-pulser/st.cmd",
-        "binary": "/cds/home/j/jvamosi/workspace/ioc-pulser/bin/rhel7-x86_64/pulser"
-    },
-    {
-        "host": "ctl-tst-mecu-llnl",
-        "port": 30001,
-        "dir": "/cds/home/t/tjohnson/trunk/common/dso4000",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/rrl/iocmanager.cfg",
-        "name": "ioc-sed-dso4000-01",
-        "script": "/cds/home/t/tjohnson/trunk/common/dso4000/children/build/iocBoot/ioc-sed-dso4000-01/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/dso4000/bin/rhel7-x86_64/dso4000"
     },
     {
         "host": "ctl-tst-mecu-llnl",
