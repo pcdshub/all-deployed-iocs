@@ -3989,7 +3989,6 @@
         "host": "ctl-mfx-wave8",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/pgpWave8",
-        "disable": true,
         "alias": "WAVE8v3 - DG1",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
