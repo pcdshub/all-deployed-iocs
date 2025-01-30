@@ -9468,19 +9468,6 @@
     },
     {
         "host": "ioc-cxi-qadc",
-        "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/qmini/R1.0.0",
-        "history": [
-            "ioc/cxi/qmini/R1.0.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-spec-01",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/qmini/R1.0.0/build/iocBoot/ioc-cxi-spec-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/qmini/R1.0.4/bin/rhel7-x86_64/qmini"
-    },
-    {
-        "host": "ioc-cxi-qadc",
         "port": 39101,
         "dir": "ioc/cxi/qmini/R1.0.0",
         "history": [
@@ -9916,6 +9903,19 @@
         "name": "ioc-cxi-sc1-offaxis",
         "script": "/reg/g/pcds/epics/ioc/cxi/edtCam/R2.0.2/build/iocBoot/ioc-cxi-sc1-offaxis/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/edtCam/R2.1.2/bin/rhel7-x86_64/edt"
+    },
+    {
+        "host": "ioc-cxi-rec04",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/qmini/R1.0.0",
+        "history": [
+            "ioc/cxi/qmini/R1.0.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-spec-01",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/qmini/R1.0.0/build/iocBoot/ioc-cxi-spec-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/qmini/R1.0.4/bin/rhel7-x86_64/qmini"
     },
     {
         "host": "ioc-cxi-rec04",
