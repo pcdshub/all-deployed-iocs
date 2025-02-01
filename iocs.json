@@ -3988,13 +3988,16 @@
     {
         "host": "ctl-mfx-wave8",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/pgpWave8",
+        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/pgpWave8",
         "alias": "WAVE8v3 - DG1",
+        "history": [
+            "/reg/g/pcds/epics-dev/kaushikm/ioc/common/pgpWave8"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-pgpw8-01",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/pgpWave8/children/build/iocBoot/ioc-mfx-pgpw8-01/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/kaushikm/ioc/common/pgpWave8/bin/rhel7-x86_64/pgpWave8"
+        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/pgpWave8/build/iocBoot/ioc-mfx-pgpw8-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R2.5.0/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-rix-cam-01",
@@ -7381,6 +7384,7 @@
         "dir": "ioc/mfx/epix/R1.5.1",
         "alias": "DET - ePix10k-2M IOC",
         "history": [
+            "ioc/mfx/epix/R1.5.1",
             "ioc/mfx/epix/R1.0.1"
         ],
         "base_version": "3.15",
@@ -7394,6 +7398,9 @@
         "port": 39100,
         "dir": "ioc/mfx/epix/R1.5.1",
         "alias": "DET - ePix IOC",
+        "history": [
+            "ioc/mfx/epix/R1.5.1"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-epix",
@@ -15417,6 +15424,9 @@
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam",
         "disable": true,
         "alias": "CAM - Inline Alvium",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-alvium02",
@@ -15430,6 +15440,7 @@
         "disable": true,
         "alias": "CAM - GigE 01 - LIB",
         "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/mfx/gigECam",
             "ioc/mfx/gigECam/R0.5.4",
             "/reg/g/pcds/package/epics/3.14/ioc/mfx/gigECam/R0.4.0"
         ],
@@ -15445,6 +15456,7 @@
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/mfx/gigECam",
         "alias": "CAM - GigE 05",
         "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/mfx/gigECam",
             "ioc/mfx/gigECam/R0.5.4"
         ],
         "base_version": "3.15",
@@ -15459,6 +15471,9 @@
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam",
         "disable": true,
         "alias": "CAM - GigE 06",
+        "history": [
+            "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-gige-06",
@@ -15470,6 +15485,9 @@
         "port": 30010,
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam",
         "alias": "CAM - GigE 08 - DoD",
+        "history": [
+            "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-gige-08",
@@ -15482,6 +15500,7 @@
         "dir": "ioc/mfx/gigECam/R0.5.6",
         "alias": "CAM - GigE LBL 01 Inline",
         "history": [
+            "ioc/mfx/gigECam/R0.5.6",
             "ioc/mfx/gigECam/R0.5.3"
         ],
         "base_version": "3.15",
@@ -15496,6 +15515,7 @@
         "dir": "/cds/group/pcds/epics-dev/espov/ioc/mfx/gigECam",
         "alias": "CAM - GigE LBL 02 Side",
         "history": [
+            "/cds/group/pcds/epics-dev/espov/ioc/mfx/gigECam",
             "ioc/mfx/gigECam/R0.5.3"
         ],
         "base_version": "3.15",
@@ -15510,6 +15530,7 @@
         "dir": "/cds/group/pcds/epics-dev/espov/ioc/mfx/gigECam",
         "alias": "CAM - GigE LBL 03 Meniscus",
         "history": [
+            "/cds/group/pcds/epics-dev/espov/ioc/mfx/gigECam",
             "ioc/mfx/gigECam/R0.5.3"
         ],
         "base_version": "3.15",
@@ -15524,6 +15545,9 @@
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam",
         "disable": true,
         "alias": "CAM - GigE Liquid Jet 1",
+        "history": [
+            "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-gige-lj1",
@@ -15536,6 +15560,9 @@
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam",
         "disable": true,
         "alias": "CAM - GigE Liquid Jet 2",
+        "history": [
+            "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-gige-lj2",
@@ -15548,6 +15575,9 @@
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam",
         "disable": true,
         "alias": "CAM - GigE Liquid Jet 3",
+        "history": [
+            "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-gige-lj3",
@@ -15559,6 +15589,9 @@
         "port": 30007,
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam",
         "alias": "CAM - Gige RoadRunner",
+        "history": [
+            "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-gige-rr1",
@@ -15571,6 +15604,9 @@
         "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/gigECam",
         "disable": true,
         "alias": "LU07521",
+        "history": [
+            "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-gige-usr-01",
@@ -15583,6 +15619,9 @@
         "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/mmc",
         "disable": true,
         "alias": "USR - MMC01",
+        "history": [
+            "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/mmc"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-usr-mmc-01",
@@ -15595,6 +15634,9 @@
         "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/mmc",
         "disable": true,
         "alias": "USR - MMC10",
+        "history": [
+            "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/mmc"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-usr-mmc-10",
@@ -15607,6 +15649,9 @@
         "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/mmc",
         "disable": true,
         "alias": "USR - MMC30",
+        "history": [
+            "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/mmc"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-usr-mmc-30",
@@ -15619,6 +15664,9 @@
         "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/mmc",
         "disable": true,
         "alias": "USR - MMC40",
+        "history": [
+            "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/mmc"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-usr-mmc-40",
@@ -15631,6 +15679,7 @@
         "dir": "ioc/mfx/gigECam/R0.5.5",
         "alias": "CAM - GigE 03",
         "history": [
+            "ioc/mfx/gigECam/R0.5.5",
             "ioc/mfx/gigECam/R0.5.3",
             "/reg/g/pcds/package/epics/3.14/ioc/mfx/gigECam/R0.5.0"
         ],
@@ -15645,6 +15694,9 @@
         "port": 30009,
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam",
         "alias": "CAM - GigE 07",
+        "history": [
+            "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-gige-07",
@@ -15657,6 +15709,7 @@
         "dir": "ioc/mfx/shimadzu-lc20/R1.0.2",
         "alias": "SDS - HPLC",
         "history": [
+            "ioc/mfx/shimadzu-lc20/R1.0.2",
             "/reg/g/pcds/epics-dev/pennebak/shimadzu-lc20/current",
             "/reg/g/pcds/package/epics/3.14-dev/ioc/common/shimadzu-lc20/current"
         ],
@@ -15671,6 +15724,9 @@
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/mfx/picoMotion",
         "alias": "\"LAS\": Pico Motion3",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/mfx/picoMotion"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-pico-las3",
@@ -15682,6 +15738,9 @@
         "port": 30007,
         "dir": "/reg/g/pcds/epics-dev/dorlhiac/ioc/mfx/timetool",
         "alias": "Timetool IOC",
+        "history": [
+            "/reg/g/pcds/epics-dev/dorlhiac/ioc/mfx/timetool"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-tt",
@@ -15694,6 +15753,7 @@
         "dir": "ioc/mfx/ims/R2.1.0",
         "alias": "USR - Motion Smart",
         "history": [
+            "ioc/mfx/ims/R2.1.0",
             "ioc/mfx/ims/R2.0.0"
         ],
         "base_version": "3.15",
@@ -15708,6 +15768,7 @@
         "dir": "ioc/mfx/vacuum/R1.0.0",
         "alias": "Vacuum",
         "history": [
+            "ioc/mfx/vacuum/R1.0.0",
             "ioc/mfx/vacuum/R0.0.4",
             "/reg/neh/home/trendahl/Workarea/mfx/vacuum/current"
         ],
@@ -15723,6 +15784,9 @@
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam",
         "disable": true,
         "alias": "CAM - Alvium",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-alvium01",
@@ -15735,6 +15799,7 @@
         "dir": "ioc/mfx/gigECam/R0.5.5",
         "alias": "CAM - GigE 02",
         "history": [
+            "ioc/mfx/gigECam/R0.5.5",
             "ioc/mfx/gigECam/R0.5.4",
             "/reg/g/pcds/package/epics/3.14/ioc/mfx/gigECam/R0.4.0"
         ],
@@ -15750,6 +15815,7 @@
         "dir": "ioc/mfx/gigECam/R0.5.5",
         "alias": "CAM - GigE 04 - Timetool",
         "history": [
+            "ioc/mfx/gigECam/R0.5.5",
             "ioc/mfx/gigECam/R0.5.4"
         ],
         "base_version": "3.15",
@@ -15763,6 +15829,9 @@
         "port": 33000,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/lcls-plc-mfx-motion",
         "alias": "PLC MOTION",
+        "history": [
+            "/reg/g/pcds/epics-dev/espov/ioc/mfx/lcls-plc-mfx-motion"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-motion",
@@ -15774,6 +15843,9 @@
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/OceanOpticsSpectrometer/ioc-mfx-OceanOpticsSpectrometer",
         "alias": "DG3 - Ocean Spec",
+        "history": [
+            "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/OceanOpticsSpectrometer/ioc-mfx-OceanOpticsSpectrometer"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-spc-01",
@@ -15785,6 +15857,9 @@
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/mfx/NewportXPS8",
         "alias": "Laser Newport 2",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/mfx/NewportXPS8"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-xps-las2",
@@ -15797,6 +15872,9 @@
         "dir": "ioc/mfx/smc100/R1.0.1",
         "disable": true,
         "alias": "HERA - Motion - Platform",
+        "history": [
+            "ioc/mfx/smc100/R1.0.1"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-hera-smc100",
@@ -15809,6 +15887,9 @@
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/mmc",
         "disable": true,
         "alias": "HERA - MMC100 1-axis",
+        "history": [
+            "/reg/g/pcds/epics-dev/espov/ioc/mfx/mmc"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-hra-1axis-mmc-01",
@@ -15822,6 +15903,7 @@
         "disable": true,
         "alias": "HERA - Motion PI E-861 Piezo 01",
         "history": [
+            "ioc/mfx/piMotion/R1.0.0",
             "ioc/common/piMotion/R1.2.2",
             "/reg/neh/home/batyuk/epics/ioc/common/piMotion/current"
         ],
@@ -15838,6 +15920,7 @@
         "disable": true,
         "alias": "HERA - Motion PI E-861 Piezo 02",
         "history": [
+            "ioc/mfx/piMotion/R1.0.0",
             "ioc/common/piMotion/R1.2.2",
             "/reg/neh/home/batyuk/epics/ioc/common/piMotion/current"
         ],
@@ -15853,6 +15936,9 @@
         "dir": "/reg/g/pcds/epics-dev/ioc/mfx/daqserver/current",
         "disable": true,
         "alias": "MISC - DAQ Control",
+        "history": [
+            "/reg/g/pcds/epics-dev/ioc/mfx/daqserver/current"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-daq",
@@ -15893,6 +15979,9 @@
         "port": 30550,
         "dir": "ioc/common/expstate/R1.0.6",
         "alias": "Experiment State Tracker",
+        "history": [
+            "ioc/common/expstate/R1.0.6"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-expstate",
@@ -15903,6 +15992,9 @@
         "host": "ioc-mfx-misc01",
         "port": 50060,
         "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/misc/knobBox/current",
+        "history": [
+            "/reg/g/pcds/epics-dev/wwright8/ioc/misc/knobBox/current"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-knob01",
@@ -15929,6 +16021,7 @@
         "dir": "ioc/mfx/pvNotepad/R1.0.3",
         "alias": "MISC - User PVs",
         "history": [
+            "ioc/mfx/pvNotepad/R1.0.3",
             "ioc/mfx/pvNotepad/R0.0.1",
             "/reg/neh/home/zlentz/epics/ioc/mfx/pvNotepad/current"
         ],
@@ -15958,6 +16051,9 @@
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/dg/ioc-mfx-delaygen",
         "disable": true,
         "alias": "DELAYGEN - LBL - 01",
+        "history": [
+            "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/dg/ioc-mfx-delaygen"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-lbl-delaygen1",
@@ -15970,6 +16066,9 @@
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/dg/ioc-mfx-delaygen",
         "disable": true,
         "alias": "DELAYGEN - LBL - 02",
+        "history": [
+            "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/dg/ioc-mfx-delaygen"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-lbl-delaygen2",
@@ -15982,6 +16081,7 @@
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/dg/ioc-mfx-delaygen",
         "alias": "DELAYGEN - MFX",
         "history": [
+            "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/dg/ioc-mfx-delaygen",
             "/reg/neh/home/sheppard/ioc/mfx/dg/current"
         ],
         "base_version": "3.15",
@@ -15995,6 +16095,9 @@
         "port": 39102,
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/dg/ioc-mfx-delaygen",
         "alias": "DELAYGEN - MFX - 03",
+        "history": [
+            "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/dg/ioc-mfx-delaygen"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-delaygen3",
@@ -16006,6 +16109,9 @@
         "port": 30005,
         "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/RohdeSchwarzHMP",
         "alias": "DET - HMP Power Supply 03",
+        "history": [
+            "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/RohdeSchwarzHMP"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-det-hmp03",
@@ -16017,6 +16123,9 @@
         "port": 30004,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/mfx/RohdeSchwarzHMP",
         "alias": "DET - HMP Power Supply 04",
+        "history": [
+            "/reg/g/pcds/epics-dev/ctsoi/ioc/mfx/RohdeSchwarzHMP"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-det-hmp04",
@@ -16029,6 +16138,7 @@
         "dir": "ioc/mfx/ims/R2.1.0",
         "alias": "DET - Stand Motors",
         "history": [
+            "ioc/mfx/ims/R2.1.0",
             "ioc/mfx/ims/R2.0.0",
             "ioc/mfx/ims/R1.2.0"
         ],
@@ -16044,6 +16154,7 @@
         "dir": "ioc/common/mpod/R2.2.4",
         "alias": "DET - MPOD",
         "history": [
+            "ioc/common/mpod/R2.2.4",
             "/cds/home/m/mcbrowne/trunk2/ioc/common/mpod/current",
             "/reg/g/pcds/epics-dev/pennebak/mpod/current"
         ],
@@ -16059,6 +16170,7 @@
         "dir": "ioc/mfx/ims/R2.1.0",
         "alias": "DG1 - PIM Motion",
         "history": [
+            "ioc/mfx/ims/R2.1.0",
             "ioc/mfx/ims/R2.0.0",
             "ioc/mfx/ims/R1.0.0"
         ],
@@ -16074,6 +16186,7 @@
         "dir": "ioc/mfx/ims/R2.1.0",
         "alias": "DG1 - IPM Motion",
         "history": [
+            "ioc/mfx/ims/R2.1.0",
             "ioc/mfx/ims/R2.0.3",
             "ioc/mfx/ims/R1.0.0"
         ],
@@ -16089,6 +16202,7 @@
         "dir": "ioc/mfx/ims/R2.1.0",
         "alias": "DG2 - IPM Motion",
         "history": [
+            "ioc/mfx/ims/R2.1.0",
             "ioc/mfx/ims/R2.0.3",
             "ioc/mfx/ims/R1.0.0"
         ],
@@ -16104,6 +16218,7 @@
         "dir": "ioc/mfx/ims/R2.1.0",
         "alias": "DG2 - PIM Motion",
         "history": [
+            "ioc/mfx/ims/R2.1.0",
             "ioc/mfx/ims/R2.0.0",
             "ioc/mfx/ims/R1.0.0"
         ],
@@ -16119,6 +16234,7 @@
         "dir": "ioc/mfx/ims/R2.1.0",
         "alias": "DIA - IPM Motion",
         "history": [
+            "ioc/mfx/ims/R2.1.0",
             "ioc/mfx/ims/R2.0.3"
         ],
         "base_version": "3.15",
@@ -16133,6 +16249,7 @@
         "dir": "ioc/mfx/ims/R2.1.0",
         "alias": "DIA - PIM Motion",
         "history": [
+            "ioc/mfx/ims/R2.1.0",
             "ioc/mfx/ims/R2.0.4"
         ],
         "base_version": "3.15",
@@ -16147,6 +16264,7 @@
         "dir": "ioc/mfx/ims/R2.1.0",
         "alias": "DIA - XFLS",
         "history": [
+            "ioc/mfx/ims/R2.1.0",
             "ioc/mfx/ims/R2.0.2",
             "/reg/g/pcds/package/epics/3.14-dev/ioc/mfx/ims/current"
         ],
@@ -16161,6 +16279,9 @@
         "port": 39101,
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/galil",
         "alias": "ioc-mfx-galil",
+        "history": [
+            "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/galil"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-galil",
@@ -16173,6 +16294,9 @@
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/ims/current",
         "disable": true,
         "alias": "USR - Liquid Jet temporary",
+        "history": [
+            "/reg/g/pcds/epics-dev/espov/ioc/mfx/ims/current"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-hxr-mobile-dumb",
@@ -16184,6 +16308,9 @@
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/mfx/smaract",
         "alias": "\"Smaract\": DOD",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/mfx/smaract"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-mcs2-01",
@@ -16194,6 +16321,9 @@
         "host": "ioc-mfx-misc02",
         "port": 30007,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/pvNotepad",
+        "history": [
+            "/reg/g/pcds/epics-dev/espov/ioc/mfx/pvNotepad"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-pcdsdevices",
@@ -16205,6 +16335,9 @@
         "port": 33001,
         "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/Leviton",
         "alias": "Leviton (PDU) Racks",
+        "history": [
+            "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/Leviton"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-pdu",
@@ -16217,6 +16350,7 @@
         "dir": "ioc/common/picoMotion/R4.0.0",
         "alias": "LAS - PICO",
         "history": [
+            "ioc/common/picoMotion/R4.0.0",
             "/cds/home/m/mcbrowne/trunk2/ioc/common/picoMotion/current",
             "/reg/g/pcds/package/epics/3.14-dev/ioc/mfx/picoMotion/current"
         ],
@@ -16231,6 +16365,9 @@
         "port": 32024,
         "dir": "ioc/common/picoMotion/R4.0.0",
         "alias": "LAS - REF PICO",
+        "history": [
+            "ioc/common/picoMotion/R4.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-pico-reflas",
@@ -16242,6 +16379,9 @@
         "port": 32025,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/common/picoMotion/current",
         "alias": "LAS - PICO - TT",
+        "history": [
+            "/reg/g/pcds/epics-dev/cpino/ioc/common/picoMotion/current"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-pico-tt",
@@ -16254,6 +16394,7 @@
         "dir": "ioc/mfx/leds/R0.3.0",
         "alias": "MISC - LEDs",
         "history": [
+            "ioc/mfx/leds/R0.3.0",
             "/reg/g/pcds/epics-dev/pennebak/leds/current",
             "ioc/mfx/leds/R0.0.1"
         ],
@@ -16269,6 +16410,7 @@
         "dir": "ioc/mfx/ims/R2.1.0",
         "alias": "ROB - IMS",
         "history": [
+            "ioc/mfx/ims/R2.1.0",
             "ioc/mfx/ims/R2.0.0",
             "/reg/neh/home/mbutner/ioc-workarea/mfx/ims/current"
         ],
@@ -16284,6 +16426,7 @@
         "dir": "ioc/mfx/ims/R2.1.0",
         "alias": "MISC - Hutch Slits",
         "history": [
+            "ioc/mfx/ims/R2.1.0",
             "ioc/mfx/ims/R2.0.0",
             "ioc/mfx/ims/R1.2.0"
         ],
@@ -16299,6 +16442,7 @@
         "dir": "ioc/mfx/ims/R2.1.0",
         "alias": "TAB - Stand Motion",
         "history": [
+            "ioc/mfx/ims/R2.1.0",
             "ioc/mfx/ims/R2.0.0",
             "ioc/mfx/ims/R1.2.0"
         ],
@@ -16314,6 +16458,7 @@
         "dir": "ioc/mfx/ims/R2.1.0",
         "alias": "TFS - Lens Motion",
         "history": [
+            "ioc/mfx/ims/R2.1.0",
             "ioc/mfx/ims/R2.0.0",
             "ioc/mfx/ims/R1.4.0"
         ],
@@ -16343,6 +16488,7 @@
         "dir": "ioc/mfx/ims/R2.1.0",
         "alias": "USR - Motion Dumb",
         "history": [
+            "ioc/mfx/ims/R2.1.0",
             "ioc/mfx/ims/R2.0.0",
             "/reg/g/pcds/package/epics/3.14-dev/ioc/mfx/ims/current"
         ],
@@ -16359,6 +16505,7 @@
         "disable": true,
         "alias": "DET - Von Hamos Beckhoff Motion",
         "history": [
+            "/reg/g/pcds/epics-dev/spencera/plcs/vonhamos-motion/epics/cfg",
             "/reg/neh/home/zlentz/github/vonhamos-motion/epics/cfg"
         ],
         "base_version": "3.15",
@@ -16372,6 +16519,9 @@
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/mfx/NewportXPS8",
         "alias": "\"DOD\": Motion- XPS",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/mfx/NewportXPS8"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-xps-dod",
@@ -16383,6 +16533,9 @@
         "port": 31001,
         "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/NewportXPS8",
         "alias": "LAS - Motion XPS 1",
+        "history": [
+            "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/NewportXPS8"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-xps-las1",
@@ -16395,6 +16548,7 @@
         "dir": "ioc/mfx/NewportXPS8/R2.1.0",
         "alias": "USR - Motion Newport LBL",
         "history": [
+            "ioc/mfx/NewportXPS8/R2.1.0",
             "/reg/neh/home/sheppard/ioc/mfx/NewportXPS8/current"
         ],
         "base_version": "3.15",
@@ -16410,6 +16564,7 @@
         "disable": true,
         "alias": "USR - Motion Newport XPS 2",
         "history": [
+            "ioc/mfx/NewportXPS8/R2.1.0",
             "ioc/mfx/NewportXPS8/R2.0.1",
             "/reg/g/pcds/package/epics/3.14-dev/ioc/mfx/NewportXPS8/current"
         ],
@@ -16425,6 +16580,7 @@
         "dir": "ioc/mfx/NewportXPS8/R2.1.0",
         "alias": "USR - Motion Newport XPS 4 ",
         "history": [
+            "ioc/mfx/NewportXPS8/R2.1.0",
             "ioc/mfx/NewportXPS8/R2.0.1",
             "/reg/g/pcds/package/epics/3.14-dev/ioc/mfx/NewportXPS8/current"
         ],
@@ -16439,6 +16595,9 @@
         "port": 39103,
         "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/sds/lcls-plc-sds-vis/lcls-plc-sds-vis",
         "alias": "ioc-plc-sds-vis",
+        "history": [
+            "/reg/g/pcds/epics-dev/rnazir/ioc/sds/lcls-plc-sds-vis/lcls-plc-sds-vis"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-plc-sds-vis",
@@ -16478,6 +16637,9 @@
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/qadc",
         "alias": "DG2 - QuadADC",
+        "history": [
+            "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/qadc"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-qadc",
@@ -16597,6 +16759,7 @@
         "disable": true,
         "alias": "OSC - TDS3000",
         "history": [
+            "ioc/mfx/TDS3000/R1.0.0",
             "/reg/neh/home/mbutner/ioc-workarea/common/TDS3000/current",
             "ioc/common/TDS3000/current"
         ],
@@ -16656,6 +16819,9 @@
         "dir": "/reg/neh/home/zlentz/epics/ioc/xcs/arcus_dmx/current",
         "disable": true,
         "alias": "DET - Rowland Arcus Motion",
+        "history": [
+            "/reg/neh/home/zlentz/epics/ioc/xcs/arcus_dmx/current"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-rowland-01",
@@ -16668,6 +16834,7 @@
         "dir": "ioc/mfx/ioc-mfx-tfs-lens/R1.0.0",
         "alias": "TFS - Lens Control",
         "history": [
+            "ioc/mfx/ioc-mfx-tfs-lens/R1.0.0",
             "ioc/common/lens/R0.2.1",
             "/reg/neh/home/batyuk/epics/ioc/common/lens/current"
         ],
@@ -16697,6 +16864,7 @@
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/common/pciAcromag",
         "alias": "MISC - Acromag IO",
         "history": [
+            "/reg/g/pcds/epics-dev/espov/ioc/common/pciAcromag",
             "ioc/common/pciAcromag/R0.0.1-0.1.17"
         ],
         "base_version": "3.15",
@@ -16711,6 +16879,9 @@
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/cryojet",
         "disable": true,
         "alias": "USR - XCS Cryojet",
+        "history": [
+            "/reg/g/pcds/epics-dev/espov/ioc/mfx/cryojet"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-cryojet-01",
@@ -16722,6 +16893,9 @@
         "port": 30010,
         "dir": "ioc/mfx/detectorprotection/R3.0.0",
         "alias": "epix10k2M Protection",
+        "history": [
+            "ioc/mfx/detectorprotection/R3.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-epix10ka2m-blocker",
@@ -16733,6 +16907,9 @@
         "port": 43924,
         "dir": "ioc/mfx/ims/R2.1.0",
         "alias": "HERA - Navitar",
+        "history": [
+            "ioc/mfx/ims/R2.1.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-hera-ims",
@@ -16744,6 +16921,9 @@
         "port": 43925,
         "dir": "ioc/mfx/NewportXPS8/R2.1.0",
         "alias": "HERA - Motion - XPS",
+        "history": [
+            "ioc/mfx/NewportXPS8/R2.1.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-xps-hera",
@@ -16772,6 +16952,7 @@
         "dir": "ioc/mfx/wave8/R3.0.0",
         "alias": "WAVE8 - DG1",
         "history": [
+            "ioc/mfx/wave8/R3.0.0",
             "ioc/mfx/wave8/R2.0.1",
             "ioc/mfx/wave8/R2.0.0",
             "ioc/mfx/wave8/R1.0.0"
@@ -16788,6 +16969,7 @@
         "dir": "ioc/mfx/wave8/R3.0.0",
         "alias": "WAVE8 - DG2 ",
         "history": [
+            "ioc/mfx/wave8/R3.0.0",
             "ioc/mfx/wave8/R2.0.1",
             "ioc/mfx/wave8/R2.0.0",
             "ioc/mfx/wave8/R1.0.0"
@@ -16804,6 +16986,9 @@
         "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/vimbaCam",
         "disable": true,
         "alias": "CAM - GoldEye",
+        "history": [
+            "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/vimbaCam"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-goldeye1",
@@ -16816,6 +17001,7 @@
         "dir": "ioc/common/sample-delivery-system/v1.1.1",
         "alias": "SDS - PLC",
         "history": [
+            "ioc/common/sample-delivery-system/v1.1.1",
             "/reg/g/pcds/epics-dev/pennebak/sample-delivery/current"
         ],
         "base_version": "3.15",
@@ -16828,6 +17014,9 @@
         "host": "ioc-mfx-wave8",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/common/usdusb4",
+        "history": [
+            "/reg/g/pcds/epics-dev/espov/ioc/common/usdusb4"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-usdusb4",
@@ -16839,6 +17028,9 @@
         "port": 32231,
         "dir": "ioc/mfx/wave8/R3.0.0",
         "alias": "WAVE8 - USER DIODE",
+        "history": [
+            "ioc/mfx/wave8/R3.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-usr-dio",
@@ -22377,6 +22569,7 @@
         "dir": "/reg/g/pcds/epics-dev/spencera/mfx/lusiAtt/current",
         "alias": "DIA - Attenuator Control",
         "history": [
+            "/reg/g/pcds/epics-dev/spencera/mfx/lusiAtt/current",
             "ioc/mfx/lusiAtt/R0.1.3",
             "ioc/mfx/lusiAtt/R0.1.2"
         ],
@@ -23068,6 +23261,9 @@
         "dir": "/reg/g/pcds/epics-dev/opperman/mfx/ioc/ioc-mfx-tprStandalone",
         "disable": true,
         "alias": "TPR MEZZ Standalone",
+        "history": [
+            "/reg/g/pcds/epics-dev/opperman/mfx/ioc/ioc-mfx-tprStandalone"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-mezz-tpr",
