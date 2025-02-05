@@ -9819,7 +9819,6 @@
         "host": "ioc-cxi-rec04",
         "port": 40000,
         "dir": "/reg/g/pcds/controls/camrecord",
-        "disable": true,
         "alias": "CAM - Recorder04",
         "history": [
             "/reg/g/pcds/controls/camrecord"
