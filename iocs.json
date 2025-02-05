@@ -14956,7 +14956,6 @@
         "host": "ioc-mec-mot3",
         "port": 30631,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/ims",
-        "disable": true,
         "alias": "Patch panel dumb motors",
         "history": [
             "ioc/mec/ims/R2.1.0",
