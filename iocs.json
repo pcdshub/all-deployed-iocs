@@ -6329,7 +6329,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-kb-slit-motion",
         "script": "/reg/g/pcds/epics-dev/baljamal/ioc/tmo/lcls-plc-test-kbslit/lcls-plc-test-kbslit/iocBoot/ioc-kb-slit-motion/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics-dev/baljamal/ioc/tmo/lcls-plc-test-kbslit/lcls-plc-test-kbslit/iocBoot/ioc-kb-slit-motion/c:/Repos/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-tmo-mot-01",
