@@ -18627,6 +18627,17 @@
     },
     {
         "host": "ioc-xcs-mot2",
+        "port": 39101,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/xcs/ioc-xcs-ims",
+        "alias": "ioc-xcs-mec-tst",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "TEST IOC USR MOTOR",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/xcs/ioc-xcs-ims/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ioc-xcs-mot2",
         "port": 32500,
         "dir": "/reg/g/pcds/epics-dev/spencera/plcs/vonhamos-motion/epics/cfg",
         "disable": true,
