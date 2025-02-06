@@ -3999,13 +3999,13 @@
     {
         "host": "ctl-mfx-wave8",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/pgpWave8",
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/pgpWave8",
         "alias": "WAVE8v3 - DG1",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-pgpw8-01",
-        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/pgpWave8/build/iocBoot/ioc-mfx-pgpw8-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R1.7.3/bin/rhel7-x86_64/pgpWave8"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/pgpWave8/children/build/iocBoot/ioc-mfx-pgpw8-01/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/kaushikm/ioc/common/pgpWave8/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-rix-cam-01",
@@ -14875,7 +14875,7 @@
     {
         "host": "ioc-mec-mot3",
         "port": 30623,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/ims",
+        "dir": "ioc/mec/ims/R2.3.3",
         "history": [
             "ioc/mec/ims/R2.1.0",
             "ioc/mec/ims/R1.0.1"
@@ -14884,8 +14884,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-tc1-vt50-ims",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/mec/ims/R2.3.3/build/iocBoot/ioc-mec-tc1-vt50-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.3.9/bin/linux-x86/ims"
     },
     {
         "host": "ioc-mec-mot3",
