@@ -18627,17 +18627,6 @@
     },
     {
         "host": "ioc-xcs-mot2",
-        "port": 39101,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/xcs/ioc-xcs-ims",
-        "alias": "ioc-xcs-mec-tst",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "TEST IOC USR MOTOR",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/xcs/ioc-xcs-ims/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ioc-xcs-mot2",
         "port": 32500,
         "dir": "/reg/g/pcds/epics-dev/spencera/plcs/vonhamos-motion/epics/cfg",
         "disable": true,
@@ -18842,6 +18831,17 @@
         "name": "ioc-xcs-ljh",
         "script": "/reg/g/pcds/epics-dev/spencera/plcs/lcls-plc-xcs-liquid-jet/ioc-xcs-ljh/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.2.5/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ioc-xcs-mot2",
+        "port": 30003,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/xcs/ioc-xcs-ims",
+        "alias": "USER MOTOR TEST",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-mec-tst",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/xcs/ioc-xcs-ims/build/iocBoot/ioc-xcs-mec-tst/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xcs-mot2",
@@ -19449,20 +19449,6 @@
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-ensemble-b",
         "script": "/reg/g/pcds/epics/ioc/common/aerotech/R1.0.6/children/build/iocBoot/ioc-xcs-ensemble-b/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/aerotech/R1.0.6/bin/linux-x86/aerotech"
-    },
-    {
-        "host": "ioc-xcs-snd",
-        "port": 30003,
-        "dir": "ioc/common/aerotech/R1.0.6",
-        "alias": "SND - Ensemble Motors C",
-        "history": [
-            "ioc/common/aerotech/R1.0.6"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
-        "name": "ioc-xcs-ensemble-c",
-        "script": "/reg/g/pcds/epics/ioc/common/aerotech/R1.0.6/children/build/iocBoot/ioc-xcs-ensemble-c/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/aerotech/R1.0.6/bin/linux-x86/aerotech"
     },
     {
