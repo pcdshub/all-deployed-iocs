@@ -3016,12 +3016,12 @@
     {
         "host": "ctl-las-lhn-sp01",
         "port": 30014,
-        "dir": "ioc/las/gigECam/R0.3.8",
+        "dir": "/cds/group/pcds/epics-dev/aberges/ioc/las/gigECam/ioc-las-gigECam",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lhn-bay3-nf-03",
-        "script": "/reg/g/pcds/epics/ioc/las/gigECam/R0.3.8/build/iocBoot/ioc-lhn-bay3-nf-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.4/bin/rhel7-x86_64/gige"
+        "script": "/cds/group/pcds/epics-dev/aberges/ioc/las/gigECam/ioc-las-gigECam/build/iocBoot/ioc-lhn-bay3-nf-03/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/aberges/ioc/common/gigECam/ioc-common-gigECam/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lhn-sp01",
