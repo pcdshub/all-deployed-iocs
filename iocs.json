@@ -2552,7 +2552,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lhn-bay2-ff-01",
         "script": "/cds/group/pcds/epics-dev/aberges/ioc/las/gigECam/ioc-las-gigECam/build/iocBoot/ioc-lhn-bay2-ff-01/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/aberges/ioc/common/gigECam/ioc-common-gigECam/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.1.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lhn-02",
@@ -3031,7 +3031,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lhn-bay3-nf-03",
         "script": "/cds/group/pcds/epics-dev/aberges/ioc/las/gigECam/ioc-las-gigECam/build/iocBoot/ioc-lhn-bay3-nf-03/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/aberges/ioc/common/gigECam/ioc-common-gigECam/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.1.1/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-lhn-sp01",
@@ -7401,6 +7401,7 @@
         "host": "daq-mfx-pgp01",
         "port": 30001,
         "dir": "ioc/mfx/epix/R1.5.1",
+        "disable": true,
         "alias": "DET - ePix10k-2M IOC",
         "history": [
             "ioc/mfx/epix/R1.5.1",
