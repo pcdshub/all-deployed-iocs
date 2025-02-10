@@ -12384,6 +12384,16 @@
     },
     {
         "host": "ioc-las-cxi-srv05",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/pvNotepad",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-cxi-gluePV",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/pvNotepad/build/iocBoot/ioc-las-cxi-gluePV/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
+    },
+    {
+        "host": "ioc-las-cxi-srv05",
         "port": 35008,
         "dir": "ioc/las/pdu_snmp/R1.0.1",
         "base_version": "3.15",
@@ -12703,6 +12713,16 @@
         "name": "ioc-las-mfx-evr-01",
         "script": "/reg/g/pcds/epics/ioc/las/evr/R1.0.6/build/iocBoot/ioc-las-mfx-evr-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.3.0/bin/rhel7-x86_64/evr"
+    },
+    {
+        "host": "ioc-las-mfx-srv45",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/pvNotepad",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-mfx-gluePV",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/pvNotepad/build/iocBoot/ioc-las-mfx-gluePV/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
     },
     {
         "host": "ioc-las-mfx-srv45",
