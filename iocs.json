@@ -1322,12 +1322,12 @@
     {
         "host": "ctl-las-ftl-sp01",
         "port": 30009,
-        "dir": "ioc/las/raritan/R1.0.0",
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/raritan/raritan-git",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-src800-01",
-        "script": "/reg/g/pcds/epics/ioc/las/raritan/R1.0.0/build/iocBoot/ioc-las-src800-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/raritan/R1.0.1/bin/rhel7-x86_64/snmp"
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/raritan/raritan-git/build/iocBoot/ioc-las-src800-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/cpino/ioc/common/raritan/raritan-git/bin/rhel7-x86_64/snmp"
     },
     {
         "host": "ctl-las-ftl-sp01",
@@ -7458,7 +7458,7 @@
     },
     {
         "host": "daq-mfx-tpr1",
-        "port": 39100,
+        "port": 39099,
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam",
         "alias": "CAM - Alvium TZERO",
         "base_version": "3.15",
