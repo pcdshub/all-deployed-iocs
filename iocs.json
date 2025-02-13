@@ -7010,7 +7010,6 @@
         "host": "ctl-ued-cam-01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/baljamal/ioc/common/andorCam",
-        "disable": true,
         "alias": "ioc-ued-andor-01",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
