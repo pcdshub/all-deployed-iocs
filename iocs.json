@@ -6725,6 +6725,17 @@
         "binary": "/cds/group/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
     },
     {
+        "host": "ctl-tst-dev-02",
+        "port": 30023,
+        "dir": "/reg/g/pcds/epics-dev/ysmandza/lcsl-motion-test-incremental-encoder/iocBoot/ioc-lclsPLCMotionTest",
+        "alias": "test-plc-bsd2",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "lcls-motion-test",
+        "script": "/reg/g/pcds/epics-dev/ysmandza/lcsl-motion-test-incremental-encoder/iocBoot/ioc-lclsPLCMotionTest/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+    },
+    {
         "host": "ctl-tst-mecu-llnl",
         "port": 35700,
         "dir": "/cds/home/j/jvamosi/workspace/tprStandalone/R1.1.5",
@@ -17541,17 +17552,6 @@
         "name": "ioc-tst-mini-powermeter-calib",
         "script": "/reg/g/pcds/epics-dev/zlentz/lcls-plc-mini-powermeter-calib/iocBoot/ioc-tst-mini-powermeter-calib/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ioc-tst-13",
-        "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/ysmandza/lcsl-motion-test-incremental-encoder/iocBoot/ioc-lclsPLCMotionTest",
-        "alias": "test-plc-bsd2",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "lcls-motion-test",
-        "script": "/reg/g/pcds/epics-dev/ysmandza/lcsl-motion-test-incremental-encoder/iocBoot/ioc-lclsPLCMotionTest/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ioc-ued-ccd01",
