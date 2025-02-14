@@ -6837,6 +6837,16 @@
         "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git/bin/rhel7-x86_64/pgpWave8"
     },
     {
+        "host": "ctl-tst-pgp02",
+        "port": 30004,
+        "dir": "/cds/home/k/ktkim/sandbox/areaDetector/tucsenCam/tucsenCam-git",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-tst-tucsen",
+        "script": "/cds/home/k/ktkim/sandbox/areaDetector/tucsenCam/tucsenCam-git/children/build/iocBoot/ioc-tst-tucsen/st.cmd",
+        "binary": "/cds/home/k/ktkim/sandbox/areaDetector/tucsenCam/tucsenCam-git/bin/rhel7-x86_64/tucsenTpr"
+    },
+    {
         "host": "ctl-txi-cam-01",
         "port": 39101,
         "dir": "ioc/txi/gigECam/R1.0.0/build/iocBoot/ioc-im2l1-gige",
