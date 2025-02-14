@@ -6740,6 +6740,7 @@
         "host": "ctl-tst-dev-02",
         "port": 30023,
         "dir": "/reg/g/pcds/epics-dev/ysmandza/lcsl-motion-test-incremental-encoder/iocBoot/ioc-lclsPLCMotionTest",
+        "disable": true,
         "alias": "test-plc-bsd2",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
