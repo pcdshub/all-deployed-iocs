@@ -2460,7 +2460,6 @@
         "host": "ctl-las-lhn-01",
         "port": 39102,
         "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/pvNotepad",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-xpp-pcdsdevices",
