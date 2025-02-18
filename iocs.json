@@ -16446,6 +16446,7 @@
         "host": "ioc-mfx-misc02",
         "port": 30007,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/pvNotepad",
+        "disable": true,
         "history": [
             "/reg/g/pcds/epics-dev/espov/ioc/mfx/pvNotepad"
         ],
