@@ -17437,15 +17437,15 @@
     {
         "host": "ioc-tmo-mpod02",
         "port": 30001,
-        "dir": "ioc/common/isegPower/R1.3.2",
+        "dir": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-isegPower",
         "history": [
             "/reg/g/pcds/epics-dev/spencera/tmo/screens/isegPower"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-mpod02",
-        "script": "/reg/g/pcds/epics/ioc/common/isegPower/R1.3.2/children/build/iocBoot/ioc-tmo-mpod02/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/isegPower/R1.3.2/bin/linux-arm-apalis/isegPower"
+        "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-isegPower/children/build/iocBoot/ioc-tmo-mpod02/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-isegPower/bin/linux-arm-apalis/isegPower"
     },
     {
         "host": "ioc-tst-13",
