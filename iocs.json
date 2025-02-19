@@ -5794,6 +5794,17 @@
     },
     {
         "host": "ctl-tmo-cam-03",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/tparas/ioc/tmo/ioc-tmo-gigECam",
+        "alias": "ioc-cam-tmo-02",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-cam-tmo-02",
+        "script": "/reg/g/pcds/epics-dev/tparas/ioc/tmo/ioc-tmo-gigECam/build/iocBoot/ioc-cam-tmo-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.1.0/bin/rhel7-x86_64/gigeTpr"
+    },
+    {
+        "host": "ctl-tmo-cam-03",
         "port": 39100,
         "dir": "ioc/tmo/gigECam/R5.0.3",
         "base_version": "3.15",
@@ -6906,6 +6917,9 @@
         "host": "ctl-tst-pgp02",
         "port": 30004,
         "dir": "/cds/home/k/ktkim/sandbox/areaDetector/tucsenCam/tucsenCam-git",
+        "history": [
+            "/cds/home/k/ktkim/sandbox/areaDetector/tucsenCam/tucsenCam-git"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-tucsen",
