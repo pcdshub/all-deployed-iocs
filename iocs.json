@@ -6505,7 +6505,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-motion",
         "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/tmo/tmo-motion/iocBoot/ioc-tmo-motion/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.8.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-tmo-mot-01",
@@ -6724,6 +6724,26 @@
         "name": "ioc-tc-mot-example",
         "script": "/cds/home/z/zlentz/github/lcls-plc-example-motion/iocBoot/ioc-tc-mot-example/st.cmd",
         "binary": "/cds/home/z/zlentz/github/ioc-common-ads-ioc/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ctl-tst-dev-02",
+        "port": 30101,
+        "dir": "/cds/home/z/zlentz/github/tstpython/queueserver/ioc-tst-bsgui-qs",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-tst-bsgui-qs",
+        "script": "/cds/home/z/zlentz/github/tstpython/queueserver/ioc-tst-bsgui-qs/st.cmd",
+        "binary": "/usr/bin/bash"
+    },
+    {
+        "host": "ctl-tst-dev-02",
+        "port": 30100,
+        "dir": "/cds/home/z/zlentz/github/tstpython/queueserver/ioc-tst-redis",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-tst-redis",
+        "script": "/cds/home/z/zlentz/github/tstpython/queueserver/ioc-tst-redis/st.cmd",
+        "binary": "/usr/bin/bash"
     },
     {
         "host": "ctl-tst-dev-02",
