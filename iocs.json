@@ -16030,7 +16030,8 @@
     {
         "host": "ioc-mfx-cam03",
         "port": 33000,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/lcls-plc-mfx-motion",
+        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/lcls-plc-mfx-motion",
+        "disable": true,
         "alias": "PLC MOTION",
         "history": [
             "/reg/g/pcds/epics-dev/espov/ioc/mfx/lcls-plc-mfx-motion"
@@ -16038,8 +16039,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-motion",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/mfx/lcls-plc-mfx-motion/iocBoot/ioc-mfx-motion/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/lcls-plc-mfx-motion/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-mfx-cam03",
