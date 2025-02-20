@@ -3577,11 +3577,11 @@
     {
         "host": "ctl-las-xcs-srv01",
         "port": 39101,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/pvNotepad",
+        "dir": "ioc/las/pvNotepad/R1.0.5",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-xcs-pcdsdevices",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/pvNotepad/build/iocBoot/ioc-las-xcs-pcdsdevices/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/pvNotepad/R1.0.5/build/iocBoot/ioc-las-xcs-pcdsdevices/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
     },
     {
@@ -12526,11 +12526,11 @@
     {
         "host": "ioc-las-cxi-srv05",
         "port": 39101,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/pvNotepad",
+        "dir": "ioc/las/pvNotepad/R1.0.5",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-cxi-pcdsdevices",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/pvNotepad/build/iocBoot/ioc-las-cxi-pcdsdevices/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/pvNotepad/R1.0.5/build/iocBoot/ioc-las-cxi-pcdsdevices/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
     },
     {
@@ -12858,11 +12858,11 @@
     {
         "host": "ioc-las-mfx-srv45",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/pvNotepad",
+        "dir": "ioc/las/pvNotepad/R1.0.5",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-mfx-pcdsdevices",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/pvNotepad/build/iocBoot/ioc-las-mfx-pcdsdevices/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/pvNotepad/R1.0.5/build/iocBoot/ioc-las-mfx-pcdsdevices/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
     },
     {
