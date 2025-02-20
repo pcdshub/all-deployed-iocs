@@ -3984,7 +3984,7 @@
     {
         "host": "ctl-lfe-mot-01",
         "port": 30014,
-        "dir": "/reg/g/pcds/epics/ioc/lfe/lcls-plc-lfe-optics/v4.0.0/iocBoot/ioc-lfe-optics/",
+        "dir": "ioc/lfe/lcls-plc-lfe-optics/v4.0.0",
         "history": [
             "/reg/g/pcds/epics/ioc/lfe/lcls-plc-lfe-optics/v3.0.0/iocBoot/ioc-lfe-optics/"
         ],
