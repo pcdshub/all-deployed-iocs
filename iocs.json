@@ -2297,16 +2297,6 @@
     },
     {
         "host": "ctl-las-lhn-01",
-        "port": 39101,
-        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/pvNotepad",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-hutches-gluePV",
-        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/pvNotepad/build/iocBoot/ioc-las-hutches-gluePV/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
-    },
-    {
-        "host": "ctl-las-lhn-01",
         "port": 30300,
         "dir": "/reg/g/pcds/epics/ioc/las/ek9000/R2.0.0",
         "base_version": "3.15",
