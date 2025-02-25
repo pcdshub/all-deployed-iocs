@@ -4707,7 +4707,7 @@
     {
         "host": "ctl-rix-mot-01",
         "port": 30400,
-        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/rix/lcls-plc-crixs-motion/lcls-plc-crixs-motion",
+        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/rix/pcds-orignal/lcls-plc-crixs-motion/lcls-plc-crixs-motion",
         "alias": "CRIXS Motion PLC IOC",
         "history": [
             "ioc/rix/lcls-plc-crixs-motion/v1.9.0/lcls-plc-crixs-motion",
@@ -4716,13 +4716,13 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-PLC-CRIX-MOT",
-        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/rix/lcls-plc-crixs-motion/lcls-plc-crixs-motion/iocBoot/ioc-PLC-CRIX-MOT/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/rix/pcds-orignal/lcls-plc-crixs-motion/lcls-plc-crixs-motion/iocBoot/ioc-PLC-CRIX-MOT/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-rix-mot-01",
         "port": 30108,
-        "dir": "ioc/kfe/lcls-plc-kfe-rix-motion/v2.7.1",
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/rix/lcls-plc-kfe-rix-motion",
         "alias": "Beamline Motion PLC IOC",
         "history": [
             "ioc/kfe/lcls-plc-kfe-rix-motion/v1.13.0"
@@ -4730,7 +4730,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-kfe-rix-motion",
-        "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-rix-motion/v2.7.1/iocBoot/ioc-kfe-rix-motion/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/jozamudi/rix/lcls-plc-kfe-rix-motion/iocBoot/ioc-kfe-rix-motion/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
     },
     {
