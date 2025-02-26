@@ -16972,7 +16972,6 @@
         "host": "ioc-mfx-rec02",
         "port": 38000,
         "dir": "/reg/g/pcds/controls/camrecord",
-        "disable": true,
         "alias": "MISC - REC02 Recorder",
         "history": [
             "/reg/g/pcds/controls/camrecord"
