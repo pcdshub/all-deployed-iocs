@@ -5596,7 +5596,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-cam-tmo-19c",
         "script": "/reg/g/pcds/epics-dev/tparas/ioc/tmo/ioc-tmo-gigECam/build/iocBoot/ioc-cam-tmo-19c/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/tparas/ioc/common/ioc-common-gigECam/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.1.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-tmo-cam-02",
