@@ -3906,6 +3906,17 @@
     },
     {
         "host": "ctl-lfe-misc-01",
+        "port": 30005,
+        "dir": "/reg/g/pcds/epics-dev/tparas/ioc/lfe/ioc-lfe-pdu_snmp",
+        "alias": "ioc-lfe-pwr-r08",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/lfe/iocmanager.cfg",
+        "name": "ioc-lfe-pwr-r08",
+        "script": "/reg/g/pcds/epics-dev/tparas/ioc/lfe/ioc-lfe-pdu_snmp/build/iocBoot/ioc-lfe-pwr-r08/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
+    },
+    {
+        "host": "ctl-lfe-misc-01",
         "port": 30131,
         "dir": "ioc/common/ek9000/R1.7.1",
         "base_version": "3.15",
@@ -6822,16 +6833,6 @@
     },
     {
         "host": "ctl-tst-dev-02",
-        "port": 30003,
-        "dir": "ioc/tst/pvNotepad/R0.2.0",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-try-deploy",
-        "script": "/reg/g/pcds/epics/ioc/tst/pvNotepad/R0.2.0/build/iocBoot/ioc-tst-try-deploy/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
-    },
-    {
-        "host": "ctl-tst-dev-02",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/baljamal/ioc/common/andorCam",
         "disable": true,
@@ -6853,6 +6854,16 @@
         "name": "lcls-motion-test",
         "script": "/reg/g/pcds/epics-dev/ysmandza/lcsl-motion-test-incremental-encoder/iocBoot/ioc-lclsPLCMotionTest/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ctl-tst-dev-03",
+        "port": 30003,
+        "dir": "/cds/home/z/zlentz/github/ioc-common-pvNotepad",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-tst-try-deploy",
+        "script": "/cds/home/z/zlentz/github/ioc-common-pvNotepad/children/build/iocBoot/ioc-tst-try-deploy/st.cmd",
+        "binary": "/cds/home/z/zlentz/github/ioc-common-pvNotepad/bin/rhel9-x86_64/pvNotepad"
     },
     {
         "host": "ctl-tst-mecu-llnl",
