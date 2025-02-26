@@ -6684,6 +6684,28 @@
     },
     {
         "host": "ctl-tmo-vac-01",
+        "port": 39105,
+        "dir": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-srsrga",
+        "alias": "ioc-tmo-dream-01",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-tmo-dream-01",
+        "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-srsrga/build/iocBoot/ioc-tmo-dream-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/srsrga/R1.0.0/bin/rhel7-x86_64/gsd"
+    },
+    {
+        "host": "ctl-tmo-vac-01",
+        "port": 39106,
+        "dir": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-srsrga",
+        "alias": "ioc-tmo-dream-02",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-tmo-dream-02",
+        "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-srsrga/build/iocBoot/ioc-tmo-dream-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/srsrga/R1.0.0/bin/rhel7-x86_64/gsd"
+    },
+    {
+        "host": "ctl-tmo-vac-01",
         "port": 39101,
         "dir": "ioc/common/mksrga/R1.0.0",
         "base_version": "3.15",
