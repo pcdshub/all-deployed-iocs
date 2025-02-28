@@ -2721,8 +2721,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-bhc-03",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ioc-las-ek9000/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ioc-las-ek9000/build/iocBoot/ioc-las-lhn-bhc-03/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.3/bin/rhel7-x86_64/ek9000IOC"
     },
     {
         "host": "ctl-las-lhn-04",
