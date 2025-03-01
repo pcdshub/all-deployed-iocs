@@ -4469,7 +4469,7 @@
     {
         "host": "ctl-rix-crix-mot-01",
         "port": 30108,
-        "dir": "/cds/home/j/jozamudi/epics-dev/rix/lcls-plc-kfe-rix-motion",
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/rix/lcls-plc-kfe-rix-motion",
         "alias": "Beamline Motion PLC IOC",
         "history": [
             "ioc/kfe/lcls-plc-kfe-rix-motion/v1.13.0"
@@ -4477,7 +4477,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-kfe-rix-motion",
-        "script": "/cds/home/j/jozamudi/epics-dev/rix/lcls-plc-kfe-rix-motion/iocBoot/ioc-kfe-rix-motion/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/jozamudi/rix/lcls-plc-kfe-rix-motion/iocBoot/ioc-kfe-rix-motion/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
     },
     {
@@ -23500,6 +23500,7 @@
         "host": "mfx-mezz01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/opperman/mfx/ioc/ioc-mfx-tprStandalone",
+        "disable": true,
         "alias": "TPR MEZZ Standalone",
         "history": [
             "/reg/g/pcds/epics-dev/opperman/mfx/ioc/ioc-mfx-tprStandalone"
