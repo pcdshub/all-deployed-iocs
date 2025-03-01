@@ -2556,6 +2556,16 @@
     },
     {
         "host": "ctl-las-lhn-02",
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ioc-las-thermocon",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-lhn-thermocon-02",
+        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ioc-las-thermocon/build/iocBoot/ioc-las-lhn-thermocon-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thermocon/R2.0.0/bin/rhel7-x86_64/thermocon"
+    },
+    {
+        "host": "ctl-las-lhn-02",
         "port": 30010,
         "dir": "ioc/las/gigECam/R0.3.9",
         "base_version": "3.15",
@@ -4459,7 +4469,7 @@
     {
         "host": "ctl-rix-crix-mot-01",
         "port": 30108,
-        "dir": "ioc/kfe/lcls-plc-kfe-rix-motion/v2.8.0",
+        "dir": "/cds/home/j/jozamudi/epics-dev/rix/lcls-plc-kfe-rix-motion",
         "alias": "Beamline Motion PLC IOC",
         "history": [
             "ioc/kfe/lcls-plc-kfe-rix-motion/v1.13.0"
@@ -4467,7 +4477,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-kfe-rix-motion",
-        "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-rix-motion/v2.8.0/iocBoot/ioc-kfe-rix-motion/st.cmd",
+        "script": "/cds/home/j/jozamudi/epics-dev/rix/lcls-plc-kfe-rix-motion/iocBoot/ioc-kfe-rix-motion/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
     },
     {
