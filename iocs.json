@@ -5533,8 +5533,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-cam-tmo-01",
-        "script": "/reg/g/pcds/epics-dev/tparas/ioc/tmo/ioc-tmo-gigECam/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/tparas/ioc/tmo/ioc-tmo-gigECam/build/iocBoot/ioc-cam-tmo-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.1.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-tmo-cam-02",
@@ -5544,8 +5544,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-cam-tmo-02",
-        "script": "/reg/g/pcds/epics-dev/tparas/ioc/tmo/ioc-tmo-gigECam/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/tparas/ioc/tmo/ioc-tmo-gigECam/build/iocBoot/ioc-cam-tmo-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.1.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-tmo-cam-02",
@@ -5607,8 +5607,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-cam-tmo-17",
-        "script": "/reg/g/pcds/epics-dev/tparas/ioc/tmo/ioc-tmo-gigECam/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/tparas/ioc/tmo/ioc-tmo-gigECam/build/iocBoot/ioc-cam-tmo-17/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.1.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-tmo-cam-02",
@@ -5629,8 +5629,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-cam-tmo-lamp-03",
-        "script": "/reg/g/pcds/epics-dev/tparas/ioc/tmo/ioc-tmo-gigECam/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/tparas/ioc/tmo/ioc-tmo-gigECam/build/iocBoot/ioc-cam-tmo-lamp-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.1.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-tmo-cam-02",
