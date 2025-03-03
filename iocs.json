@@ -1,6 +1,6 @@
 [
     {
-        "host": "ctl-able-misc-01",
+        "host": "ctl-abl-misc-01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/sds/lcls-plc-sds-vis/lcls-plc-sds-vis",
         "history": [
@@ -5609,6 +5609,17 @@
         "name": "ioc-cam-tmo-17",
         "script": "/reg/g/pcds/epics-dev/tparas/ioc/tmo/ioc-tmo-gigECam/st.cmd",
         "binary": null
+    },
+    {
+        "host": "ctl-tmo-cam-02",
+        "port": 30005,
+        "dir": "/reg/g/pcds/epics-dev/tparas/ioc/tmo/ioc-tmo-gigECam",
+        "alias": "ioc-cam-tmo-19c",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-cam-tmo-19c",
+        "script": "/reg/g/pcds/epics-dev/tparas/ioc/tmo/ioc-tmo-gigECam/build/iocBoot/ioc-cam-tmo-19c/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/tparas/ioc/common/ioc-common-gigECam/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-tmo-cam-02",
