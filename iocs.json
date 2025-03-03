@@ -7669,6 +7669,7 @@
         "host": "daq-mfx-tpr1",
         "port": 39101,
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/ioc-mfx-tprStandalone",
+        "disable": true,
         "alias": "TPR TPR1 Standalone",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
