@@ -23545,6 +23545,7 @@
         "host": "mfx-mezz01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/opperman/mfx/ioc/ioc-mfx-tprStandalone",
+        "disable": true,
         "alias": "TPR MEZZ Standalone",
         "history": [
             "/reg/g/pcds/epics-dev/opperman/mfx/ioc/ioc-mfx-tprStandalone"
