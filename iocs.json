@@ -4072,11 +4072,11 @@
     {
         "host": "ctl-lfe-vac-01",
         "port": 30100,
-        "dir": "/cds/home/j/jozamudi/epics-dev/lfe/lfe_vaccum_support",
+        "dir": "/reg/g/pcds/epics-dev/tparas/ioc/lfe/ioc-lfe-vacuum",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-lfe-vac-support",
-        "script": "/cds/home/j/jozamudi/epics-dev/lfe/lfe_vaccum_support/build/iocBoot/ioc-lfe-vac-support/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/tparas/ioc/lfe/ioc-lfe-vacuum/build/iocBoot/ioc-lfe-vac-support/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.7/bin/rhel7-x86_64/vacuum"
     },
     {
