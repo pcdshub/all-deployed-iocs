@@ -3940,13 +3940,13 @@
     {
         "host": "ctl-lfe-misc-01",
         "port": 30005,
-        "dir": "/reg/g/pcds/epics-dev/tparas/ioc/lfe/ioc-lfe-pdu_snmp",
+        "dir": "/reg/g/pcds/epics-dev/tparas/ioc/lfe/ioc-lfe-pdu",
         "alias": "ioc-lfe-pwr-r08",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-lfe-pwr-r08",
-        "script": "/reg/g/pcds/epics-dev/tparas/ioc/lfe/ioc-lfe-pdu_snmp/build/iocBoot/ioc-lfe-pwr-r08/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
+        "script": "/reg/g/pcds/epics-dev/tparas/ioc/lfe/ioc-lfe-pdu/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-lfe-misc-01",
