@@ -7658,6 +7658,7 @@
         "host": "daq-mfx-tpr1",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam",
+        "disable": true,
         "alias": "CAM - Alvium TZERO",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
