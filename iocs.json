@@ -7658,12 +7658,24 @@
         "host": "daq-mfx-tpr1",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam",
+        "disable": true,
         "alias": "CAM - Alvium TZERO",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-alvium04",
         "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam/build/iocBoot/ioc-mfx-alvium04/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.6/bin/rhel7-x86_64/vimba"
+    },
+    {
+        "host": "daq-mfx-tpr1",
+        "port": 39102,
+        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/ioc-mfx-RohdeSchwarzHMP",
+        "alias": "DET - HMP Power Supply 05",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-det-hmp05",
+        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/ioc-mfx-RohdeSchwarzHMP/build/iocBoot/ioc-mfx-det-hmp05/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.2/bin/linux-x86_64/rshmp"
     },
     {
         "host": "daq-mfx-tpr1",
