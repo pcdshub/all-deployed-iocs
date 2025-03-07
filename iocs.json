@@ -7863,6 +7863,7 @@
         "host": "daq-xcs-pgp01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/epix",
+        "disable": true,
         "alias": "DET ioc-xcs-epix-quad",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
@@ -7891,6 +7892,7 @@
         "host": "daq-xcs-pgp01",
         "port": 35002,
         "dir": "ioc/xcs/epix/R1.5.1",
+        "disable": true,
         "history": [
             "ioc/xcs/epix/R1.5.1"
         ],
@@ -7946,6 +7948,7 @@
         "host": "daq-xcs-pgp02",
         "port": 31000,
         "dir": "ioc/xcs/epix/R1.5.1",
+        "disable": true,
         "alias": "DET- epix10k2M",
         "history": [
             "ioc/xcs/epix/R1.5.1",
