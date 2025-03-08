@@ -7020,8 +7020,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-tucsen",
-        "script": "/cds/home/k/ktkim/sandbox/areaDetector/tucsenCam/tucsenCam-git/children/build/iocBoot/ioc-tst-tucsen/st.cmd",
-        "binary": "/cds/home/k/ktkim/sandbox/areaDetector/tucsenCam/tucsenCam-git/bin/rhel7-x86_64/tucsenTpr"
+        "script": "/cds/home/k/ktkim/sandbox/areaDetector/tucsenCam/tucsenCam-git/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-txi-cam-01",
