@@ -10,7 +10,7 @@
         "config_file": "/cds/group/pcds/pyps/config/abl/iocmanager.cfg",
         "name": "ioc-plc-sds-vis",
         "script": "/reg/g/pcds/epics-dev/rnazir/ioc/sds/temp/lcls-plc-sds-vis/lcls-plc-sds-vis/iocBoot/ioc-plc-sds-vis/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.8.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-hpl-srv01",
