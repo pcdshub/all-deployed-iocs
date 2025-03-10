@@ -6999,6 +6999,16 @@
     },
     {
         "host": "ctl-tst-pgp02",
+        "port": 30007,
+        "dir": "/cds/home/k/ktkim/sandbox/areaDetector/ioc-common-euresysCam",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-tst-euresys",
+        "script": "/cds/home/k/ktkim/sandbox/areaDetector/ioc-common-euresysCam/children/build/iocBoot/ioc-tst-euresys/st.cmd",
+        "binary": "/cds/home/k/ktkim/sandbox/areaDetector/ioc-common-euresysCam/bin/rhel9-x86_64/euresysTpr"
+    },
+    {
+        "host": "ctl-tst-pgp02",
         "port": 30100,
         "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/current",
         "history": [
