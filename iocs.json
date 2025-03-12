@@ -7029,7 +7029,6 @@
         "host": "ctl-tst-pgp02",
         "port": 30007,
         "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/euresysCam-git",
-        "disable": true,
         "history": [
             "/cds/home/k/ktkim/sandbox/areaDetector/ioc-common-euresysCam"
         ],
@@ -7056,6 +7055,7 @@
         "host": "ctl-tst-pgp02",
         "port": 30004,
         "dir": "/cds/home/k/ktkim/sandbox/areaDetector/tucsenCam/tucsenCam-git",
+        "disable": true,
         "history": [
             "/cds/home/k/ktkim/sandbox/areaDetector/tucsenCam/tucsenCam-git"
         ],
