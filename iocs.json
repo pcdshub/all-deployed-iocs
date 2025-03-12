@@ -23322,7 +23322,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-hxs-ims",
         "script": "/reg/g/pcds/epics-dev/joshc/xrt/ioc-xrt-ims/build/iocBoot/ioc-xrt-hxs-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.3.0/bin/rhel7-x86_64/ims"
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86_64/ims"
     },
     {
         "host": "ioc-xrt-rec07",
