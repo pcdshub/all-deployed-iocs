@@ -3391,6 +3391,16 @@
     },
     {
         "host": "ctl-las-lln-02",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/thorlabs-ell",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lln-ell-01",
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/thorlabs-ell/children/build/iocBoot/ioc-lln-ell-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.7/bin/rhel7-x86_64/ell"
+    },
+    {
+        "host": "ctl-las-lln-02",
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/mods/lln/thorlabs-ell",
         "disable": true,
@@ -23316,12 +23326,12 @@
     {
         "host": "ioc-xrt-rec07",
         "port": 37523,
-        "dir": "/reg/g/pcds/epics-dev/joshc/xrt/ioc-xrt-ims/",
+        "dir": "/cds/group/pcds/epics-dev/espov/ioc/xrt/ims/",
         "alias": "HXS Motors",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-hxs-ims",
-        "script": "/reg/g/pcds/epics-dev/joshc/xrt/ioc-xrt-ims/build/iocBoot/ioc-xrt-hxs-ims/st.cmd",
+        "script": "/cds/group/pcds/epics-dev/espov/ioc/xrt/ims/build/iocBoot/ioc-xrt-hxs-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/linux-x86_64/ims"
     },
     {
