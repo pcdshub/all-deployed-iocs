@@ -15379,6 +15379,16 @@
     },
     {
         "host": "ioc-mec-qadc",
+        "port": 30020,
+        "dir": "/cds/home/p/peregrin/git-shimadzu-lc20",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-lc20",
+        "script": "/cds/home/p/peregrin/git-shimadzu-lc20/build/iocBoot/ioc-mec-lc20/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.3.6/bin/rhel7-x86_64/lc20"
+    },
+    {
+        "host": "ioc-mec-qadc",
         "port": 30002,
         "dir": "ioc/common/qadc/R2.1.2",
         "base_version": "3.15",
@@ -15386,16 +15396,6 @@
         "name": "ioc-mec-qadc134",
         "script": "/reg/g/pcds/epics/ioc/common/qadc/R2.1.2/children/build/iocBoot/ioc-mec-qadc134/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/qadc/R2.1.2/bin/rhel7-x86_64/qadc134Ioc"
-    },
-    {
-        "host": "ioc-mec-qadc",
-        "port": 30020,
-        "dir": "/cds/home/p/peregrin/git-shimadzu-lc20",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-shimadzu-lc20",
-        "script": "/cds/home/p/peregrin/git-shimadzu-lc20/st.cmd",
-        "binary": null
     },
     {
         "host": "ioc-mec-rec01",
