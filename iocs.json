@@ -3729,12 +3729,12 @@
     {
         "host": "ctl-lfe-cam-02",
         "port": 30001,
-        "dir": "ioc/lfe/gigECam/R1.1.0",
+        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/lfe/ioc-lfe-gigECam",
         "alias": "SP1L0 GIGE",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-dccm-gige",
-        "script": "/reg/g/pcds/epics/ioc/lfe/gigECam/R1.1.0/build/iocBoot/ioc-dccm-gige/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/lfe/ioc-lfe-gigECam/build/iocBoot/ioc-dccm-gige/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.2.0/bin/rhel7-x86_64/gige"
     },
     {
