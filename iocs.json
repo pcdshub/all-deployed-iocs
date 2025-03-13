@@ -3396,8 +3396,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lln-ell-01",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/thorlabs-ell/children/build/iocBoot/ioc-lln-ell-01/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/kaushikm/ioc/common/thorlabs-ell/bin/rhel7-x86_64/ell"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/thorlabs-ell/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-las-lln-02",
