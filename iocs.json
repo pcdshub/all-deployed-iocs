@@ -1,5 +1,19 @@
 [
     {
+        "host": "clt-tmo-misc-01",
+        "port": 34765,
+        "dir": "ioc/tmo/RohdeSchwarzHMP/R1.2.2",
+        "alias": "Rohde Schwarz Supply",
+        "history": [
+            "/reg/g/pcds/epics-dev/rsmm97/ioc/tmo/RohdeSchwarzHMP/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-tmo-hmp-test",
+        "script": "/reg/g/pcds/epics/ioc/tmo/RohdeSchwarzHMP/R1.2.2/build/iocBoot/ioc-tmo-hmp-test/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.2/bin/rhel7-x86_64/rshmp"
+    },
+    {
         "host": "ctl-abl-misc-01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/sds/temp/lcls-plc-sds-vis/lcls-plc-sds-vis",
@@ -5669,6 +5683,7 @@
         "host": "ctl-tmo-cam-02",
         "port": 39104,
         "dir": "ioc/tmo/gigECam/R5.0.3",
+        "disable": true,
         "alias": "TMO MRCO GigE 01",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
@@ -5680,6 +5695,7 @@
         "host": "ctl-tmo-cam-02",
         "port": 39105,
         "dir": "ioc/tmo/gigECam/R5.0.3",
+        "disable": true,
         "alias": "TMO MRCO GigE 02",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
@@ -5691,6 +5707,7 @@
         "host": "ctl-tmo-cam-02",
         "port": 39103,
         "dir": "ioc/tmo/gigECam/R5.0.3",
+        "disable": true,
         "alias": "TMO MRCO GigE 03",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
@@ -5702,6 +5719,7 @@
         "host": "ctl-tmo-cam-02",
         "port": 39102,
         "dir": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-gigECam",
+        "disable": true,
         "alias": "TMO MRCO GigE 04",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
@@ -7890,20 +7908,6 @@
         "name": "ioc-tmo-andor1",
         "script": "/reg/g/pcds/epics/ioc/common/andorCam/R1.0.5/children/build/iocBoot/ioc-tmo-andor1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/andorCam/R1.0.5/bin/rhel7-x86_64/andorTpr"
-    },
-    {
-        "host": "daq-tmo-andor-01",
-        "port": 34765,
-        "dir": "ioc/tmo/RohdeSchwarzHMP/R1.2.2",
-        "alias": "Rohde Schwarz Supply",
-        "history": [
-            "/reg/g/pcds/epics-dev/rsmm97/ioc/tmo/RohdeSchwarzHMP/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-tmo-hmp-test",
-        "script": "/reg/g/pcds/epics/ioc/tmo/RohdeSchwarzHMP/R1.2.2/build/iocBoot/ioc-tmo-hmp-test/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.2/bin/rhel7-x86_64/rshmp"
     },
     {
         "host": "daq-tmo-andor-01",
