@@ -4803,14 +4803,14 @@
     },
     {
         "host": "ctl-rix-mot-01",
-        "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/arlyn-upscale",
+        "port": 39102,
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/upscale",
         "alias": "QRIX UPSCALE",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-qrix-arlyn-upscale",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/arlyn-upscale/children/build/iocBoot/ioc-qrix-arlyn-upscale/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/kaushikm/ioc/common/arlyn-upscale/bin/rhel7-x86_64/gmb"
+        "name": "ioc-qrix-upscale",
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/upscale/children/build/iocBoot/ioc-qrix-upscale/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/kaushikm/ioc/common/upscale/bin/rhel7-x86_64/gmb"
     },
     {
         "host": "ctl-rix-mot-01",
