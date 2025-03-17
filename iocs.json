@@ -20450,8 +20450,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-usr-xps3",
-        "script": "/cds/home/r/rajan-01/checkouts/epics/xcs/NewportXPS8/current/build/iocBoot/ioc-xcs-usr-xps3/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.0/bin/linux-x86_64/xps8"
+        "script": "/cds/home/r/rajan-01/checkouts/epics/xcs/NewportXPS8/current/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-user2",
