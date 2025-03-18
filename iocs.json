@@ -4531,6 +4531,18 @@
     },
     {
         "host": "ctl-rix-crix-mot-01",
+        "port": 30004,
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/rix/ioc-rix-smaract",
+        "disable": true,
+        "alias": "CRIXS Smaract SVLS",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-crix-mcs2-02",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/rix/ioc-rix-smaract/build/iocBoot/ioc-rix-crix-mcs2-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.8/bin/rhel7-x86_64/smaract"
+    },
+    {
+        "host": "ctl-rix-crix-mot-01",
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/interlock",
         "alias": "EPIXM Interlock",
