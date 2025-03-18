@@ -6455,12 +6455,12 @@
     {
         "host": "ctl-tmo-misc-01",
         "port": 39113,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/tmo/thermocon",
+        "dir": "/reg/g/pcds/epics-dev/janezg/tmo-git/ioc-tmo-thermocon",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-thermocon-02",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/tmo/thermocon/build/iocBoot/ioc-tmo-thermocon-02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thermocon/R2.0.0/bin/rhel7-x86_64/thermocon"
+        "script": "/reg/g/pcds/epics-dev/janezg/tmo-git/ioc-tmo-thermocon/build/iocBoot/ioc-tmo-thermocon-02/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-common-thermocon/bin/rhel7-x86_64/thermocon"
     },
     {
         "host": "ctl-tmo-misc-01",
@@ -23681,7 +23681,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "xcs_ebeam_ipm_fixed",
         "script": "/cds/home/opr/xcsopr/live_data/epics/xcs_ebeam_ipm_fixed/st.cmd",
-        "binary": null
+        "binary": "/usr/bin/bash"
     },
     {
         "host": "xcs-control",
@@ -23696,7 +23696,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "xcs_epics_master",
         "script": "/cds/home/opr/xcsopr/live_data/epics/xcs_epics_master/st.cmd",
-        "binary": null
+        "binary": "/usr/bin/bash"
     },
     {
         "host": "xcs-control",
@@ -23711,7 +23711,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "xcs_ttfltpos",
         "script": "/cds/home/opr/xcsopr/live_data/epics/xcs_ttfltpos/st.cmd",
-        "binary": null
+        "binary": "/usr/bin/bash"
     },
     {
         "host": "xpp-control",
