@@ -18788,7 +18788,6 @@
         "host": "ioc-xcs-misc3",
         "port": 39101,
         "dir": "ioc/xcs/gigECam/R5.0.5",
-        "disable": true,
         "alias": "ioc-xcs-gige-lj2",
         "history": [
             "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam"
@@ -18803,7 +18802,6 @@
         "host": "ioc-xcs-misc3",
         "port": 32563,
         "dir": "ioc/xcs/gigECam/R5.0.5",
-        "disable": true,
         "history": [
             "/reg/g/pcds/epics-dev/jortiz/ioc/xcs-dev/rhel5/gigECam",
             "/cds/home/j/jjoshi/xcs"
