@@ -5395,7 +5395,7 @@
     {
         "host": "ctl-rix-vac-01",
         "port": 30112,
-        "dir": "ioc/kfe/lcls-plc-kfe-rix-vac/v2.2.0",
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/plc/lcls-plc-kfe-rix-vac",
         "alias": "Beamline Vacuum PLC IOC",
         "history": [
             "ioc/kfe/lcls-plc-kfe-rix-vac/v1.3.0",
@@ -5404,8 +5404,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-plc-kfe-rix-vac",
-        "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-rix-vac/v2.2.0/iocBoot/ioc-plc-kfe-rix-vac/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/plc/lcls-plc-kfe-rix-vac/iocBoot/ioc-plc-kfe-rix-vac/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.8.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-rix-vac-01",
@@ -15607,6 +15607,16 @@
     },
     {
         "host": "ioc-mec-rec01",
+        "port": 30020,
+        "dir": "/cds/home/p/peregrin/git-shimadzu-lc20",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-lc20",
+        "script": "/cds/home/p/peregrin/git-shimadzu-lc20/build/iocBoot/ioc-mec-lc20/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.3.6/bin/rhel7-x86_64/lc20"
+    },
+    {
+        "host": "ioc-mec-rec01",
         "port": 37000,
         "dir": "ioc/mec/smaract/R1.0.0",
         "base_version": "3.15",
@@ -15729,16 +15739,6 @@
         "name": "ioc-mec-hpi-4",
         "script": "/reg/g/pcds/epics/ioc/mec/hpi_6012/R0.0.3/children/build/iocBoot/ioc-mec-hpi-4/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/mec/hpi_6012/R0.0.3/bin/rhel7-x86_64/hpi_6012"
-    },
-    {
-        "host": "ioc-mec-wave8",
-        "port": 30020,
-        "dir": "/cds/home/p/peregrin/git-shimadzu-lc20",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
-        "name": "ioc-mec-lc20",
-        "script": "/cds/home/p/peregrin/git-shimadzu-lc20/build/iocBoot/ioc-mec-lc20/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.3.6/bin/rhel7-x86_64/lc20"
     },
     {
         "host": "ioc-mec-wave8",
