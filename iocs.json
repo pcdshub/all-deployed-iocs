@@ -23681,7 +23681,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "xcs_ebeam_ipm_fixed",
         "script": "/cds/home/opr/xcsopr/live_data/epics/xcs_ebeam_ipm_fixed/st.cmd",
-        "binary": "/usr/bin/bash"
+        "binary": null
     },
     {
         "host": "xcs-control",
@@ -23696,7 +23696,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "xcs_epics_master",
         "script": "/cds/home/opr/xcsopr/live_data/epics/xcs_epics_master/st.cmd",
-        "binary": "/usr/bin/bash"
+        "binary": null
     },
     {
         "host": "xcs-control",
@@ -23711,7 +23711,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "xcs_ttfltpos",
         "script": "/cds/home/opr/xcsopr/live_data/epics/xcs_ttfltpos/st.cmd",
-        "binary": "/usr/bin/bash"
+        "binary": null
     },
     {
         "host": "xpp-control",
