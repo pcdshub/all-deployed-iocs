@@ -1,19 +1,5 @@
 [
     {
-        "host": "clt-tmo-misc-01",
-        "port": 34765,
-        "dir": "ioc/tmo/RohdeSchwarzHMP/R1.2.2",
-        "alias": "Rohde Schwarz Supply",
-        "history": [
-            "/reg/g/pcds/epics-dev/rsmm97/ioc/tmo/RohdeSchwarzHMP/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-tmo-hmp-test",
-        "script": "/reg/g/pcds/epics/ioc/tmo/RohdeSchwarzHMP/R1.2.2/build/iocBoot/ioc-tmo-hmp-test/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.2/bin/rhel7-x86_64/rshmp"
-    },
-    {
         "host": "ctl-abl-misc-01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/sds/temp/lcls-plc-sds-vis/lcls-plc-sds-vis",
@@ -6226,6 +6212,20 @@
         "name": "ioc-tmo-fps-03",
         "script": "/reg/g/pcds/epics/ioc/tmo/isegfps/R1.0.1/build/iocBoot/ioc-tmo-fps-03/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/isegFPS/R1.0.1/bin/rhel7-x86_64/gsd"
+    },
+    {
+        "host": "ctl-tmo-misc-01",
+        "port": 34765,
+        "dir": "ioc/tmo/RohdeSchwarzHMP/R1.2.2",
+        "alias": "Rohde Schwarz Supply",
+        "history": [
+            "/reg/g/pcds/epics-dev/rsmm97/ioc/tmo/RohdeSchwarzHMP/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-tmo-hmp-test",
+        "script": "/reg/g/pcds/epics/ioc/tmo/RohdeSchwarzHMP/R1.2.2/build/iocBoot/ioc-tmo-hmp-test/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/RohdeSchwarzHMP/R1.2.2/bin/rhel7-x86_64/rshmp"
     },
     {
         "host": "ctl-tmo-misc-01",
