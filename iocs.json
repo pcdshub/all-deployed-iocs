@@ -18757,7 +18757,7 @@
         "host": "ioc-xcs-misc3",
         "port": 39105,
         "dir": "ioc/xcs/gigECam/R5.0.5",
-        "alias": "CAM - GIGE 21",
+        "alias": "CAM - xcs_snd_do",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-gige-21",
