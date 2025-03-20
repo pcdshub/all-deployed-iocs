@@ -2134,6 +2134,16 @@
     },
     {
         "host": "ctl-las-ip1-srv05",
+        "port": 30019,
+        "dir": "/cds/group/pcds/epics-dev/aberges/mods/temp-mods/lm1k4/ejx/gigECam",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-ejx-gige-ff-04",
+        "script": "/cds/group/pcds/epics-dev/aberges/mods/temp-mods/lm1k4/ejx/gigECam/build/iocBoot/ioc-lm1k4-ejx-gige-ff-04/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.2.0/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-ip1-srv05",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/gigECam/",
         "base_version": "3.15",
@@ -2141,6 +2151,16 @@
         "name": "ioc-lm1k4-ejx-gige-nf-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k4/ejx/gigECam/build/iocBoot/ioc-lm1k4-ejx-gige-nf-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.0.4/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-las-ip1-srv05",
+        "port": 30018,
+        "dir": "/cds/group/pcds/epics-dev/aberges/mods/temp-mods/lm1k4/ejx/gigECam",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm1k4-ejx-gige-nf-03",
+        "script": "/cds/group/pcds/epics-dev/aberges/mods/temp-mods/lm1k4/ejx/gigECam/build/iocBoot/ioc-lm1k4-ejx-gige-nf-03/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.2.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-las-ip1-srv05",
@@ -4820,8 +4840,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-upscale",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/upscale/children/build/iocBoot/ioc-qrix-upscale/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/kaushikm/ioc/common/upscale/bin/rhel7-x86_64/gmb"
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/upscale/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-rix-mot-01",
