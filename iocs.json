@@ -3795,6 +3795,16 @@
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R3.6.1/bin/rhel7-x86_64/gige"
     },
     {
+        "host": "ctl-lfe-cam-03",
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/joshc/lfe/ioc-lfe-tprStandalone",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/lfe/iocmanager.cfg",
+        "name": "ioc-lfe-tpr1",
+        "script": "/reg/g/pcds/epics-dev/joshc/lfe/ioc-lfe-tprStandalone/build/iocBoot/ioc-lfe-tpr1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.6/bin/rhel7-x86_64/tpr"
+    },
+    {
         "host": "ctl-lfe-misc-01",
         "port": 39103,
         "dir": "ioc/common/lcp/R2.2.2",
