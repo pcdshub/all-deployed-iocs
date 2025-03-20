@@ -1061,11 +1061,11 @@
     {
         "host": "ctl-las-crix-srv04",
         "port": 30010,
-        "dir": "/reg/g/pcds/epics-dev/mods/lm2k2/atm/thorlabs-ell/",
+        "dir": "/cds/group/pcds/epics-dev/aberges/mods/temp-mods/lm2k2/atm/thorlabs-ell",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-atm-ell-01",
-        "script": "/reg/g/pcds/epics-dev/mods/lm2k2/atm/thorlabs-ell/build/iocBoot/ioc-lm2k2-atm-ell-01/st.cmd",
+        "script": "/cds/group/pcds/epics-dev/aberges/mods/temp-mods/lm2k2/atm/thorlabs-ell/build/iocBoot/ioc-lm2k2-atm-ell-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
     },
     {
@@ -19221,7 +19221,7 @@
     {
         "host": "ioc-xcs-mot2",
         "port": 30485,
-        "dir": "/reg/g/pcds/epics-dev/spencera/plcs/lcls-plc-xcs-liquid-jet/ioc-xcs-ljh",
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/xcs/temp/lcls-plc-xcs-liquid-jet/iocBoot/ioc-LiquidJetPLC",
         "alias": "Liquid Jet PLC",
         "history": [
             "/reg/g/pcds/epics-dev/spencera/plcs/lcls-plc-xcs-liquid-jet/ioc-xcs-ljh"
@@ -19229,8 +19229,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-ljh",
-        "script": "/reg/g/pcds/epics-dev/spencera/plcs/lcls-plc-xcs-liquid-jet/ioc-xcs-ljh/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.2.5/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/xcs/temp/lcls-plc-xcs-liquid-jet/iocBoot/ioc-LiquidJetPLC/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ioc-xcs-mot2",
