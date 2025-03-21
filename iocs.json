@@ -6772,7 +6772,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-im540-tst",
         "script": "/reg/g/pcds/epics-dev/janezg/tmo/im540/current/build/iocBoot/ioc-im540-tst/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-leyboldim540/current/bin/rhel7-x86_64/leyboldim540"
+        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-common-leyboldim540/bin/rhel7-x86_64/leyboldim540"
     },
     {
         "host": "ctl-tmo-vac-01",
