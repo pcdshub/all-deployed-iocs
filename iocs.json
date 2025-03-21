@@ -7103,16 +7103,17 @@
     {
         "host": "ctl-tst-pgp02",
         "port": 30007,
-        "dir": "/cds/home/k/ktkim/sandbox/areaDetector/euresysCam-git",
+        "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/euresysCam-git",
         "history": [
+            "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/euresysCam-git",
             "/cds/home/k/ktkim/sandbox/areaDetector/euresysCam-git",
             "/cds/home/k/ktkim/sandbox/areaDetector/ioc-common-euresysCam"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-euresys",
-        "script": "/cds/home/k/ktkim/sandbox/areaDetector/euresysCam-git/children/build/iocBoot/ioc-tst-euresys/st.cmd",
-        "binary": "/cds/home/k/ktkim/sandbox/areaDetector/euresysCam-git/bin/rhel9-x86_64/euresysTpr"
+        "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/euresysCam-git/children/build/iocBoot/ioc-tst-euresys/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/euresysCam-git/bin/rhel9-x86_64/euresysTpr"
     },
     {
         "host": "ctl-tst-pgp02",
@@ -7126,20 +7127,6 @@
         "name": "ioc-tst-pgpW8-01",
         "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/current/children/build/iocBoot/ioc-tst-pgpW8-01/st.cmd",
         "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git/bin/rhel7-x86_64/pgpWave8"
-    },
-    {
-        "host": "ctl-tst-pgp02",
-        "port": 30004,
-        "dir": "/cds/home/k/ktkim/sandbox/areaDetector/tucsenCam/tucsenCam-git",
-        "disable": true,
-        "history": [
-            "/cds/home/k/ktkim/sandbox/areaDetector/tucsenCam/tucsenCam-git"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-tucsen",
-        "script": "/cds/home/k/ktkim/sandbox/areaDetector/tucsenCam/tucsenCam-git/st.cmd",
-        "binary": null
     },
     {
         "host": "ctl-txi-cam-01",
