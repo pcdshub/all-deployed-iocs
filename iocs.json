@@ -5421,7 +5421,7 @@
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-plc-kfe-rix-vac",
         "script": "/reg/g/pcds/epics-dev/jjoshi/rix/vac/lcls-plc-kfe-rix-vac/iocBoot/ioc-plc-kfe-rix-vac/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.8.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-rix-vac-01",
