@@ -7113,7 +7113,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-euresys",
         "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/euresysCam-git/children/build/iocBoot/ioc-tst-euresys/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/euresysCam-git/bin/rhel9-x86_64/euresysTpr"
+        "binary": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/euresysCam-git/bin/rhel7-x86_64/euresysTpr"
     },
     {
         "host": "ctl-tst-pgp02",
