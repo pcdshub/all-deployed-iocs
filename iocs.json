@@ -6745,11 +6745,11 @@
     {
         "host": "ctl-tmo-vac-01",
         "port": 35011,
-        "dir": "/reg/g/pcds/epics-dev/janezg/tmo-git/ioc-tmo-leyboldim540",
+        "dir": "ioc/tmo/leyboldim540/R1.0.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-dream-im540",
-        "script": "/reg/g/pcds/epics-dev/janezg/tmo-git/ioc-tmo-leyboldim540/build/iocBoot/ioc-dream-im540/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/tmo/leyboldim540/R1.0.0/build/iocBoot/ioc-dream-im540/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/leyboldim540/R1.0.0/bin/rhel7-x86_64/leyboldim540"
     },
     {
