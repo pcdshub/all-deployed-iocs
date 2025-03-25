@@ -1347,12 +1347,12 @@
     {
         "host": "ctl-las-ftl-sp01",
         "port": 30011,
-        "dir": "ioc/common/TEM_PhaseLock/R1.0.1",
+        "dir": "/cds/home/t/tjohnson/trunk/common/TEM_PhaseLock",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-tem-01",
-        "script": "/reg/g/pcds/epics/ioc/common/TEM_PhaseLock/R1.0.1/children/build/iocBoot/ioc-las-tem-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/TEM_PhaseLock/R1.0.1/bin/rhel7-x86_64/TEM_PhaseLock"
+        "script": "/cds/home/t/tjohnson/trunk/common/TEM_PhaseLock/children/build/iocBoot/ioc-las-tem-01/st.cmd",
+        "binary": "/cds/home/t/tjohnson/trunk/common/TEM_PhaseLock/bin/rhel7-x86_64/TEM_PhaseLock"
     },
     {
         "host": "ctl-las-ftl-sp01",
