@@ -7117,8 +7117,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-euresys",
-        "script": "/cds/home/k/ktkim/sandbox/areaDetector/euresysCam-git/st.cmd",
-        "binary": null
+        "script": "/cds/home/k/ktkim/sandbox/areaDetector/euresysCam-git/children/build/iocBoot/ioc-tst-euresys/st.cmd",
+        "binary": "/cds/home/k/ktkim/sandbox/areaDetector/euresysCam-git/bin/rhel7-x86_64/euresysTpr"
     },
     {
         "host": "ctl-tst-pgp02",
