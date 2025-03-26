@@ -10426,7 +10426,6 @@
         "host": "ioc-cxi-rec04",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/qmini/R1.0.0",
-        "disable": true,
         "history": [
             "ioc/cxi/qmini/R1.0.0"
         ],
