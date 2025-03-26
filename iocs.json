@@ -5446,6 +5446,17 @@
     },
     {
         "host": "ctl-rix-vac-01",
+        "port": 30003,
+        "dir": "/reg/g/pcds/epics-dev/tparas/ioc/rix/ioc-rix-pdu_snmp",
+        "alias": "SVLS PDU",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-pwr-svls",
+        "script": "/reg/g/pcds/epics-dev/tparas/ioc/rix/ioc-rix-pdu_snmp/build/iocBoot/ioc-rix-pwr-svls/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
+    },
+    {
+        "host": "ctl-rix-vac-01",
         "port": 39101,
         "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-qpc",
         "alias": "QPC B950:233:R02:\"PCI\":01",
