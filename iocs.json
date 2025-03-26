@@ -4158,6 +4158,9 @@
         "port": 30001,
         "dir": "ioc/rix/tprStandalone/R1.2.0",
         "alias": "RIX TPR 1",
+        "history": [
+            "ioc/rix/tprStandalone/R1.2.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-tpr1",
@@ -4184,6 +4187,7 @@
         "dir": "ioc/rix/gigECam/R5.0.3",
         "alias": "SL1K2 GIGE",
         "history": [
+            "ioc/rix/gigECam/R5.0.3",
             "/reg/g/pcds/epics-dev/bhill/epics/ioc/rix/gigECam/gigECam-git",
             "ioc/rix/gigECam/R1.1.0"
         ],
@@ -4199,6 +4203,7 @@
         "dir": "ioc/rix/gigECam/R5.0.3",
         "alias": "IM2K2 GIGE",
         "history": [
+            "ioc/rix/gigECam/R5.0.3",
             "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
@@ -4214,6 +4219,7 @@
         "dir": "ioc/rix/gigECam/R5.0.3",
         "alias": "IM3K2 GIGE",
         "history": [
+            "ioc/rix/gigECam/R5.0.3",
             "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
@@ -4229,6 +4235,7 @@
         "dir": "ioc/rix/gigECam/R5.0.3",
         "alias": "IM4K2 GIGE",
         "history": [
+            "ioc/rix/gigECam/R5.0.3",
             "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
@@ -4243,6 +4250,9 @@
         "port": 30001,
         "dir": "ioc/rix/tprStandalone/R1.2.0",
         "alias": "RIX TPR 2",
+        "history": [
+            "ioc/rix/tprStandalone/R1.2.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-tpr2",
@@ -4255,6 +4265,7 @@
         "dir": "ioc/rix/gigECam/R2.3.0",
         "alias": "TM2K2 GIGE",
         "history": [
+            "ioc/rix/gigECam/R2.3.0",
             "ioc/rix/gigECam/R2.0.1",
             "ioc/rix/gigECam/R1.1.0"
         ],
@@ -4270,6 +4281,7 @@
         "dir": "ioc/rix/gigECam/R5.0.3",
         "alias": "IM1K2 GIGE",
         "history": [
+            "ioc/rix/gigECam/R5.0.3",
             "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
@@ -4285,6 +4297,7 @@
         "dir": "ioc/rix/gigECam/R5.0.3",
         "alias": "IM5K2 GIGE",
         "history": [
+            "ioc/rix/gigECam/R5.0.3",
             "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
@@ -4300,6 +4313,7 @@
         "dir": "ioc/rix/gigECam/R5.0.3",
         "alias": "IM6K2 GIGE",
         "history": [
+            "ioc/rix/gigECam/R5.0.3",
             "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
@@ -4314,6 +4328,9 @@
         "port": 30001,
         "dir": "ioc/rix/tprStandalone/R1.2.0",
         "alias": "RIX TPR 3",
+        "history": [
+            "ioc/rix/tprStandalone/R1.2.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-tpr3",
@@ -4325,6 +4342,9 @@
         "port": 30002,
         "dir": "ioc/rix/gigECam/R2.3.0/build/iocBoot/ioc-pax-gige-01",
         "alias": "PAX GIGE 01",
+        "history": [
+            "ioc/rix/gigECam/R2.3.0/build/iocBoot/ioc-pax-gige-01"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-cam-pax-gige-01",
@@ -4336,6 +4356,9 @@
         "port": 30003,
         "dir": "ioc/rix/gigECam/R2.3.0/build/iocBoot/ioc-pax-gige-02",
         "alias": "PAX GIGE 02",
+        "history": [
+            "ioc/rix/gigECam/R2.3.0/build/iocBoot/ioc-pax-gige-02"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-cam-pax-gige-02",
@@ -4348,6 +4371,7 @@
         "dir": "ioc/rix/gigECam/R2.3.0",
         "alias": "CRIXS GIGE 01",
         "history": [
+            "ioc/rix/gigECam/R2.3.0",
             "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
@@ -4363,6 +4387,7 @@
         "dir": "ioc/rix/gigECam/R2.3.0",
         "alias": "CRIXS GIGE 02",
         "history": [
+            "ioc/rix/gigECam/R2.3.0",
             "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
@@ -4379,6 +4404,7 @@
         "disable": true,
         "alias": "CRIXS GIGE 03",
         "history": [
+            "ioc/rix/gigECam/R2.3.0",
             "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
@@ -4394,6 +4420,7 @@
         "dir": "ioc/rix/gigECam/R2.3.0",
         "alias": "CRIXS GIGE 04",
         "history": [
+            "ioc/rix/gigECam/R2.3.0",
             "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
@@ -4410,6 +4437,7 @@
         "disable": true,
         "alias": "CRIXS GIGE 05",
         "history": [
+            "ioc/rix/gigECam/R2.3.0",
             "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
@@ -4425,6 +4453,7 @@
         "dir": "ioc/rix/gigECam/R2.3.0",
         "alias": "CRIXS GIGE 06",
         "history": [
+            "ioc/rix/gigECam/R2.3.0",
             "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
@@ -4439,6 +4468,9 @@
         "port": 30007,
         "dir": "ioc/rix/tprStandalone/R1.2.0",
         "alias": "CRIX TPR 1",
+        "history": [
+            "ioc/rix/tprStandalone/R1.2.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-tpr1",
@@ -4451,6 +4483,7 @@
         "dir": "ioc/rix/gigECam/R2.3.0",
         "alias": "CRIXS GIGE 07",
         "history": [
+            "ioc/rix/gigECam/R2.3.0",
             "ioc/rix/gigECam/R2.0.0",
             "ioc/rix/gigECam/R1.1.0"
         ],
@@ -4465,6 +4498,9 @@
         "port": 39100,
         "dir": "ioc/common/OceanOpticsSpectrometer/R1.0.4",
         "alias": "QEPRO spectrometer",
+        "history": [
+            "ioc/common/OceanOpticsSpectrometer/R1.0.4"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-spc-01",
@@ -4477,6 +4513,9 @@
         "dir": "/cds/group/pcds/epics-dev/baljamal/ioc/common/OceanOpticsSpectrometer",
         "disable": true,
         "alias": "HDX spectrometer",
+        "history": [
+            "/cds/group/pcds/epics-dev/baljamal/ioc/common/OceanOpticsSpectrometer"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-spc-02",
@@ -4489,6 +4528,9 @@
         "dir": "/cds/group/pcds/epics-dev/baljamal/ioc/common/OceanOpticsSpectrometer",
         "disable": true,
         "alias": "ioc-crix-spc-03",
+        "history": [
+            "/cds/group/pcds/epics-dev/baljamal/ioc/common/OceanOpticsSpectrometer"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-spc-03",
@@ -4501,6 +4543,7 @@
         "dir": "ioc/rix/lakeshore336/R1.0.2",
         "alias": "Cryo Lakeshore 336 1",
         "history": [
+            "ioc/rix/lakeshore336/R1.0.2",
             "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336",
             "ioc/rix/lakeshore336/R1.0.0",
             "/reg/g/pcds/package/epics/3.14/ioc/rix/lakeshore336/R1.0.0"
@@ -4517,6 +4560,7 @@
         "dir": "ioc/rix/lakeshore336/R1.0.2",
         "alias": "Cryo Lakeshore 336 2",
         "history": [
+            "ioc/rix/lakeshore336/R1.0.2",
             "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336",
             "ioc/rix/lakeshore336/R1.0.0",
             "/reg/g/pcds/package/epics/3.14/ioc/rix/lakeshore336/R1.0.0"
@@ -4547,6 +4591,7 @@
         "dir": "ioc/rix/smaract/R1.0.0",
         "alias": "CRIXS Smaract Controller 1",
         "history": [
+            "ioc/rix/smaract/R1.0.0",
             "/cds/home/t/tjohnson/trunk/common/smaract"
         ],
         "base_version": "3.15",
@@ -4561,6 +4606,9 @@
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/rix/ioc-rix-smaract",
         "disable": true,
         "alias": "CRIXS Smaract SVLS",
+        "history": [
+            "/reg/g/pcds/epics-dev/ctsoi/ioc/rix/ioc-rix-smaract"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-crix-mcs2-02",
@@ -4572,6 +4620,9 @@
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/interlock",
         "alias": "EPIXM Interlock",
+        "history": [
+            "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/interlock"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-epixm-interlock",
@@ -4599,6 +4650,9 @@
         "port": 39103,
         "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/RohdeSchwarzHMP",
         "alias": "EPIXM R&S",
+        "history": [
+            "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/RohdeSchwarzHMP"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-hmp-01",
@@ -4610,6 +4664,9 @@
         "port": 39104,
         "dir": "ioc/rix/Keithley/R1.1.0",
         "alias": "EPIXM K2400",
+        "history": [
+            "ioc/rix/Keithley/R1.1.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-k2400",
@@ -4622,6 +4679,7 @@
         "dir": "ioc/rix/shimadzu-lc20/R1.1.2",
         "alias": "Shimadzu HPLCs",
         "history": [
+            "ioc/rix/shimadzu-lc20/R1.1.2",
             "/reg/g/pcds/epics-dev/pennebak/shimadzu-lc20/next"
         ],
         "base_version": "3.15",
@@ -4635,6 +4693,9 @@
         "port": 30001,
         "dir": "ioc/common/lcp/R2.2.2",
         "alias": "RIX LCP 02 (ChemRIXS)",
+        "history": [
+            "ioc/common/lcp/R2.2.2"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-lcp-02",
@@ -4646,6 +4707,9 @@
         "port": 39107,
         "dir": "ioc/rix/mpod/R4.0.0",
         "alias": "EPIXM MPOD",
+        "history": [
+            "ioc/rix/mpod/R4.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-mpod-epixm",
@@ -4658,6 +4722,7 @@
         "dir": "ioc/rix/pdu_snmp/R1.1.1",
         "alias": "Rack 4 PDU (ChemRIXS)",
         "history": [
+            "ioc/rix/pdu_snmp/R1.1.1",
             "ioc/rix/pdu_snmp/R1.0.0"
         ],
         "base_version": "3.15",
@@ -4672,6 +4737,7 @@
         "dir": "ioc/rix/pdu_snmp/R1.1.1",
         "alias": "Rack 5 PDU (Laser)",
         "history": [
+            "ioc/rix/pdu_snmp/R1.1.1",
             "ioc/rix/pdu_snmp/R1.0.0"
         ],
         "base_version": "3.15",
@@ -4685,6 +4751,9 @@
         "port": 39102,
         "dir": "ioc/rix/thermotek/R1.0.7",
         "alias": "VLS Chiller",
+        "history": [
+            "ioc/rix/thermotek/R1.0.7"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-thermotek-02",
@@ -4696,6 +4765,9 @@
         "port": 39105,
         "dir": "ioc/rix/thermotek/R1.0.7",
         "alias": "EPIXM Thermotek",
+        "history": [
+            "ioc/rix/thermotek/R1.0.7"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-thermotek-03",
@@ -4708,6 +4780,7 @@
         "dir": "/reg/g/pcds/epics-dev/tparas/plc/rix/lcls-plc-crixs-vac/lcls-plc-crix-vac",
         "alias": "CRIXS Vacuum PLC IOC",
         "history": [
+            "/reg/g/pcds/epics-dev/tparas/plc/rix/lcls-plc-crixs-vac/lcls-plc-crix-vac",
             "ioc/rix/lcls-plc-crixs-vac/v1.5.1/lcls-plc-crix-vac",
             "/reg/g/pcds/epics-dev/wwright/ioc/rix/plcprojects/lcls-plc-crixs-vac/lcls-plc-crix-vac",
             "/reg/g/pcds/epics-dev/jyin/gitProjects/lcls-plc-crixs-vac/lcls-plc-crix-vac"
@@ -4725,6 +4798,7 @@
         "disable": true,
         "alias": "Cryostat Lakeshore 336",
         "history": [
+            "ioc/rix/lakeshore336/R1.0.2",
             "/reg/g/pcds/epics-dev/wwright/ioc/rix/lakeshore336",
             "ioc/rix/lakeshore336/R1.0.1",
             "/reg/g/pcds/epics-dev/spencera/rix/lakeshore336/current"
@@ -4741,6 +4815,7 @@
         "dir": "ioc/rix/pdu_snmp/R1.1.1",
         "alias": "Rack 2 PDU (Beamline)",
         "history": [
+            "ioc/rix/pdu_snmp/R1.1.1",
             "ioc/rix/pdu_snmp/R1.0.0"
         ],
         "base_version": "3.15",
@@ -4755,11 +4830,11 @@
         "dir": "ioc/rix/pgpWave8/R2.3.0",
         "alias": "Beamline Wave8 01",
         "history": [
+            "ioc/rix/pgpWave8/R2.3.0",
             "/reg/g/pcds/epics-dev/jozamudi/rix/pgpWave8",
             "ioc/rix/pgpWave8/R1.6.0",
             "ioc/common/pgpWave8/R1.4.0",
-            "ioc/common/pgpWave8/R1.2.0",
-            "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/pgpWave8-git"
+            "ioc/common/pgpWave8/R1.2.0"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
@@ -4773,6 +4848,7 @@
         "dir": "ioc/rix/pgpWave8/R2.3.0",
         "alias": "Beamline Wave8 02",
         "history": [
+            "ioc/rix/pgpWave8/R2.3.0",
             "ioc/rix/pgpWave8/R1.6.0",
             "ioc/common/pgpWave8/R1.4.0",
             "ioc/common/pgpWave8/R1.2.0",
@@ -4790,6 +4866,7 @@
         "dir": "ioc/rix/pgpWave8/R2.3.0",
         "alias": "ChemRIXS Wave8",
         "history": [
+            "ioc/rix/pgpWave8/R2.3.0",
             "ioc/rix/pgpWave8/R1.6.0",
             "ioc/common/pgpWave8/R1.4.0",
             "ioc/common/pgpWave8/R1.2.0",
@@ -4806,6 +4883,9 @@
         "port": 30004,
         "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-pgpWave8",
         "alias": "QRIXS Wave8",
+        "history": [
+            "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-pgpWave8"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pgpw8-04",
@@ -4818,6 +4898,7 @@
         "dir": "ioc/rix/lcls-plc-crixs-motion/v2.3.1/lcls-plc-crixs-motion",
         "alias": "CRIXS Motion PLC IOC",
         "history": [
+            "ioc/rix/lcls-plc-crixs-motion/v2.3.1/lcls-plc-crixs-motion",
             "ioc/rix/lcls-plc-crixs-motion/v1.9.0/lcls-plc-crixs-motion",
             "ioc/rix/lcls-plc-crixs-motion/v1.3.0/lcls-plc-crixs-motion"
         ],
@@ -4833,6 +4914,7 @@
         "dir": "ioc/kfe/lcls-plc-kfe-rix-motion/v2.8.1",
         "alias": "Beamline Motion PLC IOC",
         "history": [
+            "ioc/kfe/lcls-plc-kfe-rix-motion/v2.8.1",
             "ioc/kfe/lcls-plc-kfe-rix-motion/v1.13.0"
         ],
         "base_version": "3.15",
@@ -4846,6 +4928,9 @@
         "port": 39102,
         "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/upscale",
         "alias": "QRIX UPSCALE",
+        "history": [
+            "/reg/g/pcds/epics-dev/kaushikm/ioc/common/upscale"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-upscale",
@@ -4872,6 +4957,7 @@
         "dir": "ioc/rix/eventSeqCfg/R1.0.1",
         "alias": "Event Sequencer ",
         "history": [
+            "ioc/rix/eventSeqCfg/R1.0.1",
             "/reg/g/pcds/epics-dev/jjoshi/common/eventSeqCfg/current"
         ],
         "base_version": "3.15",
@@ -4885,6 +4971,9 @@
         "port": 30001,
         "dir": "ioc/common/lcp/R2.2.2",
         "alias": "RIX LCP 01 (Beamline)",
+        "history": [
+            "ioc/common/lcp/R2.2.2"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-lcp-01",
@@ -4964,15 +5053,16 @@
     {
         "host": "ctl-rix-mot-01",
         "port": 30320,
-        "dir": "ioc/rix/sp1k1-calc/v1.2.2",
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/sp1k1-calc",
         "alias": "SP1K2 Calculator IOC",
         "history": [
+            "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/sp1k1-calc",
             "/reg/g/pcds/epics-dev/zlentz/ioc-rix-sp1k1-calc"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-sp1k1-calc",
-        "script": "/reg/g/pcds/epics/ioc/rix/sp1k1-calc/v1.2.2/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/sp1k1-calc/st.cmd",
         "binary": "/usr/bin/bash"
     },
     {
@@ -4981,6 +5071,7 @@
         "dir": "ioc/rix/lcls-plc-rixs-optics/v3.9.0",
         "alias": "RIXS Optics PLC IOC",
         "history": [
+            "ioc/rix/lcls-plc-rixs-optics/v3.9.0",
             "/reg/g/pcds/epics/ioc/rix/lcls-plc-rixs-optics/v1.7.0/iocBoot/ioc-rixs-optics/",
             "ioc/rix/lcls-plc-rixs-optics/v1.5.0",
             "ioc/rix/lcls-plc-rixs-optics/v1.4.0"
@@ -4996,6 +5087,9 @@
         "port": 39101,
         "dir": "/reg/g/pcds/epics-dev/ioc/rix/pi-gcs2/iocBoot/ioc-gcs2",
         "alias": "Exit Slit Piezo",
+        "history": [
+            "/reg/g/pcds/epics-dev/ioc/rix/pi-gcs2/iocBoot/ioc-gcs2"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-sl1k2-mcz",
@@ -5022,6 +5116,9 @@
         "port": 39101,
         "dir": "/reg/g/pcds/epics-dev/opperman/iocs/rix/cryotel",
         "alias": "QRIX Cryotelioc-qrix-cryo-01",
+        "history": [
+            "/reg/g/pcds/epics-dev/opperman/iocs/rix/cryotel"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-cryo-01",
@@ -5033,6 +5130,9 @@
         "port": 30001,
         "dir": "ioc/rix/tprStandalone/R1.2.0",
         "alias": "QRIX TPR 1",
+        "history": [
+            "ioc/rix/tprStandalone/R1.2.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-tpr1",
@@ -5044,6 +5144,9 @@
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/thermotek",
         "alias": "ioc-rix-thermotek-01",
+        "history": [
+            "/reg/g/pcds/epics-dev/opperman/rix/ioc/thermotek"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-thermotek-01",
@@ -5055,6 +5158,9 @@
         "port": 30004,
         "dir": "ioc/rix/gigECam/R2.3.0",
         "alias": "TM1K2 GIGE",
+        "history": [
+            "ioc/rix/gigECam/R2.3.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-tm1k2-gige-01",
@@ -5067,6 +5173,7 @@
         "dir": "ioc/rix/gigECam/R2.3.0",
         "alias": "QRIX GIGE 01",
         "history": [
+            "ioc/rix/gigECam/R2.3.0",
             "ioc/rix/gigECam/R2.0.0"
         ],
         "base_version": "3.15",
@@ -5081,6 +5188,7 @@
         "dir": "ioc/rix/gigECam/R2.3.0",
         "alias": "QRIX GIGE 02",
         "history": [
+            "ioc/rix/gigECam/R2.3.0",
             "ioc/rix/gigECam/R2.0.0"
         ],
         "base_version": "3.15",
@@ -5094,6 +5202,9 @@
         "port": 30003,
         "dir": "ioc/rix/gigECam/R2.3.0",
         "alias": "QRIX GIGE 03",
+        "history": [
+            "ioc/rix/gigECam/R2.3.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-gige-03",
@@ -5105,6 +5216,9 @@
         "port": 30004,
         "dir": "ioc/rix/gigECam/R2.3.0",
         "alias": "QRIX GIGE 04",
+        "history": [
+            "ioc/rix/gigECam/R2.3.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-gige-04",
@@ -5116,6 +5230,9 @@
         "port": 30002,
         "dir": "ioc/rix/gigECam/R2.3.0",
         "alias": "QRIX GIGE 05",
+        "history": [
+            "ioc/rix/gigECam/R2.3.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-gige-05",
@@ -5127,6 +5244,9 @@
         "port": 30005,
         "dir": "ioc/rix/gigECam/R2.3.0",
         "alias": "QRIX GIGE 06",
+        "history": [
+            "ioc/rix/gigECam/R2.3.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-gige-06",
@@ -5138,6 +5258,9 @@
         "port": 39100,
         "dir": "ioc/rix/gigECam/R2.3.0",
         "alias": "QRIX GIGE 07",
+        "history": [
+            "ioc/rix/gigECam/R2.3.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-gige-07",
@@ -5149,6 +5272,9 @@
         "port": 39101,
         "dir": "ioc/rix/gigECam/R2.3.0",
         "alias": "QRIX GIGE 08",
+        "history": [
+            "ioc/rix/gigECam/R2.3.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-gige-08",
@@ -5160,6 +5286,9 @@
         "port": 30001,
         "dir": "ioc/rix/tprStandalone/R1.2.0",
         "alias": "QRIX TPR 2",
+        "history": [
+            "ioc/rix/tprStandalone/R1.2.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-tpr2",
@@ -5171,6 +5300,9 @@
         "port": 30003,
         "dir": "ioc/common/lcp/R2.2.2",
         "alias": "RIX LCP 03 (Laser)",
+        "history": [
+            "ioc/common/lcp/R2.2.2"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-las-lcp-03",
@@ -5183,6 +5315,7 @@
         "dir": "/cds/group/pcds/epics-dev/nlentz/smaract/build/iocBoot/ioc-rix-qrix-mcs2-01",
         "alias": "QRIXS Smaract Controller 1",
         "history": [
+            "/cds/group/pcds/epics-dev/nlentz/smaract/build/iocBoot/ioc-rix-qrix-mcs2-01",
             "/reg/g/pcds/epics-dev/wwright/ioc/rix/smaract/build/iocBoot/ioc-rix-crix-mcs2-01"
         ],
         "base_version": "3.15",
@@ -5197,6 +5330,7 @@
         "dir": "/cds/group/pcds/epics-dev/nlentz/smaract/build/iocBoot/ioc-rix-qrix-mcs2-02",
         "alias": "QRIXS Smaract Controller 2",
         "history": [
+            "/cds/group/pcds/epics-dev/nlentz/smaract/build/iocBoot/ioc-rix-qrix-mcs2-02",
             "/reg/g/pcds/epics-dev/wwright/ioc/rix/smaract/build/iocBoot/ioc-rix-crix-mcs2-02"
         ],
         "base_version": "3.15",
@@ -5211,6 +5345,7 @@
         "dir": "/reg/g/pcds/epics-dev/nlentz/lcls-plc-qrix-motion/iocBoot/ioc-qrix-motion",
         "alias": "QRIXS Motion PLC IOC",
         "history": [
+            "/reg/g/pcds/epics-dev/nlentz/lcls-plc-qrix-motion/iocBoot/ioc-qrix-motion",
             "/reg/g/pcds/epics-dev/ioc/rix/lcls-plc-qrix-motion/lcls-plc-qrix-motion/lcls-plc-qrix-motion/iocBoot/ioc-PLC-QRIX-MOT"
         ],
         "base_version": "3.15",
@@ -5224,6 +5359,9 @@
         "port": 39102,
         "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-lakeshore336",
         "alias": "QRIX Lakeshore 336",
+        "history": [
+            "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-lakeshore336"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-ls336-01",
@@ -5264,6 +5402,7 @@
         "dir": "ioc/rix/SmarPod/R1.0.0",
         "alias": "QRIXS Smarpod",
         "history": [
+            "ioc/rix/SmarPod/R1.0.0",
             "/reg/g/pcds/epics-dev/wwright/ioc/common/SmarPod"
         ],
         "base_version": "3.15",
@@ -5277,6 +5416,9 @@
         "port": 34001,
         "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/ioc-rix-at1k2-calc",
         "alias": "AT1K2 Calculator IOC",
+        "history": [
+            "/reg/g/pcds/epics-dev/wwright8/ioc/rix/ioc-rix-at1k2-calc"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-at1k2-calc",
@@ -5288,6 +5430,9 @@
         "port": 33005,
         "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/ioc-rix-calc",
         "alias": "RIX Misc Calculator",
+        "history": [
+            "/reg/g/pcds/epics-dev/wwright8/ioc/rix/ioc-rix-calc"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-calc",
@@ -5299,6 +5444,9 @@
         "port": 33000,
         "dir": "ioc/rix/pdu_snmp/R1.1.0",
         "alias": "Hoffman Box Misc PDU",
+        "history": [
+            "ioc/rix/pdu_snmp/R1.1.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pwr-misc-01",
@@ -5310,6 +5458,9 @@
         "port": 33001,
         "dir": "ioc/rix/pdu_snmp/R1.1.0",
         "alias": "K2S18 Misc PDU",
+        "history": [
+            "ioc/rix/pdu_snmp/R1.1.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pwr-misc-02",
@@ -5322,6 +5473,7 @@
         "dir": "ioc/rix/pdu_snmp/R1.1.1",
         "alias": "Rack 3 PDU (QRIXS)",
         "history": [
+            "ioc/rix/pdu_snmp/R1.1.1",
             "ioc/rix/pdu_snmp/R1.0.0"
         ],
         "base_version": "3.15",
@@ -5336,6 +5488,7 @@
         "dir": "ioc/rix/pdu_snmp/R1.1.1",
         "alias": "Rack 7 PDU (Laser)",
         "history": [
+            "ioc/rix/pdu_snmp/R1.1.1",
             "ioc/rix/pdu_snmp/R1.0.0"
         ],
         "base_version": "3.15",
@@ -5349,6 +5502,9 @@
         "port": 39101,
         "dir": "ioc/rix/leviton/R1.0.0",
         "alias": "PDU wall-s r05",
+        "history": [
+            "ioc/rix/leviton/R1.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pwr-wall-s-r05-01",
@@ -5361,6 +5517,7 @@
         "dir": "ioc/rix/lcls-plc-qrix-vac/v1.0.0/iocBoot/ioc-PLC-QRIX-VAC",
         "alias": "QRIXS Vacuum PLC IOC",
         "history": [
+            "ioc/rix/lcls-plc-qrix-vac/v1.0.0/iocBoot/ioc-PLC-QRIX-VAC",
             "ioc/rix/lcls-plc-qrix-vac/v0.3.0/lcls-plc-qrix-vac/iocBoot/ioc-PLC-QRIX-VAC",
             "/reg/g/pcds/epics-dev/ioc/rix/lcls-plc-qrix-vac/lcls-plc-qrix-vac/iocBoot/ioc-PLC-QRIX-VAC"
         ],
@@ -5390,6 +5547,7 @@
         "dir": "ioc/rix/picoMotion/R1.0.0",
         "alias": "AL1K2 picoMotion",
         "history": [
+            "ioc/rix/picoMotion/R1.0.0",
             "/reg/g/pcds/epics-dev/jjoshi/ioc/picoMotion"
         ],
         "base_version": "3.15",
@@ -5402,6 +5560,9 @@
         "host": "ctl-rix-vac-01",
         "port": 30001,
         "dir": "ioc/rix/thermocon/R2.0.0",
+        "history": [
+            "ioc/rix/thermocon/R2.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-mr2k2-thermocon",
@@ -5412,6 +5573,9 @@
         "host": "ctl-rix-vac-01",
         "port": 30002,
         "dir": "ioc/rix/thermocon/R2.0.0",
+        "history": [
+            "ioc/rix/thermocon/R2.0.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-mr3k2-thermocon",
@@ -5424,6 +5588,7 @@
         "dir": "/reg/g/pcds/epics-dev/jjoshi/rix/vac/lcls-plc-kfe-rix-vac",
         "alias": "Beamline Vacuum PLC IOC",
         "history": [
+            "/reg/g/pcds/epics-dev/jjoshi/rix/vac/lcls-plc-kfe-rix-vac",
             "ioc/kfe/lcls-plc-kfe-rix-vac/v1.3.0",
             "ioc/kfe/lcls-plc-kfe-rix-vac/v1.2.0"
         ],
@@ -5438,6 +5603,9 @@
         "port": 39100,
         "dir": "ioc/rix/pdu_snmp/R1.1.1",
         "alias": "Rack 6 PDU (PAXS)",
+        "history": [
+            "ioc/rix/pdu_snmp/R1.1.1"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pwr-r06",
@@ -5449,6 +5617,9 @@
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/tparas/ioc/rix/ioc-rix-pdu_snmp",
         "alias": "SVLS PDU",
+        "history": [
+            "/reg/g/pcds/epics-dev/tparas/ioc/rix/ioc-rix-pdu_snmp"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-pwr-svls",
@@ -5460,6 +5631,9 @@
         "port": 39101,
         "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-qpc",
         "alias": "QPC B950:233:R02:\"PCI\":01",
+        "history": [
+            "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-qpc"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-qpc1",
@@ -5471,6 +5645,9 @@
         "port": 39102,
         "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-qpc",
         "alias": "QPC B950:233:R02:\"PCI\":02",
+        "history": [
+            "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-qpc"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-qpc2",
@@ -5482,6 +5659,9 @@
         "port": 39103,
         "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-qpc",
         "alias": "QPC B950:233:R02:\"PCI\":03",
+        "history": [
+            "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-qpc"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-qpc3",
@@ -5493,6 +5673,9 @@
         "port": 39104,
         "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-qpc",
         "alias": "QPC B950:233:R03:\"PCI\":02",
+        "history": [
+            "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-qpc"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-qpc4",
@@ -5504,6 +5687,9 @@
         "port": 39105,
         "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-qpc",
         "alias": "QPC B950:233:R03:\"PCI\":01",
+        "history": [
+            "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-qpc"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-qpc5",
@@ -5516,6 +5702,7 @@
         "dir": "/reg/g/pcds/epics-dev/jozamudi/rix/lcls-plc-rix-sample-delivery/iocBoot/ioc-sample-delivery",
         "alias": "SDS IOC",
         "history": [
+            "/reg/g/pcds/epics-dev/jozamudi/rix/lcls-plc-rix-sample-delivery/iocBoot/ioc-sample-delivery",
             "/reg/g/pcds/epics-dev/pennebak/sample-delivery/rixdev",
             "/reg/g/pcds/epics-dev/pennebak/sample-delivery/cxidev/ioc-rix-sds"
         ],
@@ -7814,6 +8001,9 @@
         "port": 30001,
         "dir": "ioc/rix/tprStandalone/R1.2.0",
         "alias": "RIX ANDOR TPR 1",
+        "history": [
+            "ioc/rix/tprStandalone/R1.2.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-andor-tpr1",
@@ -7826,6 +8016,7 @@
         "dir": "ioc/common/andorCam/R1.3.0",
         "alias": "Dir Andor Cam",
         "history": [
+            "ioc/common/andorCam/R1.3.0",
             "/cds/home/m/mcbrowne/trunk2/ioc/common/andorCam",
             "ioc/common/andorCam/R1.0.1",
             "ioc/common/andorCam/R0.6.0",
@@ -7844,6 +8035,7 @@
         "dir": "ioc/common/andorCam/R1.3.0",
         "alias": "Norm Andor Cam",
         "history": [
+            "ioc/common/andorCam/R1.3.0",
             "ioc/common/andorCam/R1.0.1"
         ],
         "base_version": "3.15",
@@ -7858,6 +8050,7 @@
         "dir": "ioc/common/andorCam/R1.3.0",
         "alias": "VLS Andor Cam",
         "history": [
+            "ioc/common/andorCam/R1.3.0",
             "ioc/common/andorCam/R1.0.1",
             "ioc/common/andorCam/R0.6.0"
         ],
@@ -7873,6 +8066,9 @@
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-common-archonCam",
         "alias": "QRIX STA CCD",
+        "history": [
+            "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-common-archonCam"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-archon1",
@@ -7898,6 +8094,9 @@
         "host": "daq-rix-ccd-01",
         "port": 39101,
         "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-generic-interlock",
+        "history": [
+            "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-generic-interlock"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-archon-interlock",
@@ -7909,6 +8108,9 @@
         "port": 30001,
         "dir": "ioc/rix/tprStandalone/R1.2.0",
         "alias": "RIX CCD TPR 1",
+        "history": [
+            "ioc/rix/tprStandalone/R1.2.0"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-ccd-tpr1",
@@ -17476,6 +17678,7 @@
         "dir": "ioc/rix/isegPower/R1.3.1",
         "alias": "CRIXS MPOD",
         "history": [
+            "ioc/rix/isegPower/R1.3.1",
             "/reg/g/pcds/epics-dev/spencera/rix/isegPower"
         ],
         "base_version": "3.15",
