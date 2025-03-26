@@ -3429,7 +3429,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lln-ell-01",
         "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/thorlabs-ell/children/build/iocBoot/ioc-lln-ell-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/thorlabs-ell/bin/rhel7-x86_64/ell"
+        "binary": "/cds/group/pcds/epics-dev/kaushikm/ioc/common/thorlabs-ell/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-lln-02",
@@ -7311,6 +7311,7 @@
         "host": "ctl-tst-pgp02",
         "port": 30007,
         "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/euresysCam-git",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-euresys",
@@ -8201,7 +8202,6 @@
         "host": "daq-xcs-pgp01",
         "port": 35002,
         "dir": "ioc/xcs/epix/R1.5.1",
-        "disable": true,
         "history": [
             "ioc/xcs/epix/R1.5.1"
         ],
