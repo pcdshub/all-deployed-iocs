@@ -7546,6 +7546,16 @@
     },
     {
         "host": "ctl-ued-misc-01",
+        "port": 39102,
+        "dir": "/reg/g/pcds/epics-dev/iroque/ioc-ued-dg",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
+        "name": "ioc-ued-delaygen1",
+        "script": "/reg/g/pcds/epics-dev/iroque/ioc-ued-dg/build/iocBoot/ioc-ued-delaygen1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/dg/R3.0.0/bin/rhel7-x86_64/delaygenApp"
+    },
+    {
+        "host": "ctl-ued-misc-01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/iroque/ioc-ued-lakeshore336",
         "base_version": "3.15",
