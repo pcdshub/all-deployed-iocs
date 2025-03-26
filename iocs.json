@@ -1342,7 +1342,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-src800-01",
         "script": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-raritan/build/iocBoot/ioc-las-src800-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/raritan/R1.1.0/bin/rhel7-x86_64/snmp"
+        "binary": "/cds/group/pcds/epics/ioc/common/raritan/R1.0.0/bin/rhel7-x86_64/snmp"
     },
     {
         "host": "ctl-las-ftl-sp01",
