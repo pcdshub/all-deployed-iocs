@@ -3429,7 +3429,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lln-ell-01",
         "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/thorlabs-ell/children/build/iocBoot/ioc-lln-ell-01/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/kaushikm/ioc/common/thorlabs-ell/bin/rhel7-x86_64/ell"
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.7/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-lln-02",
@@ -3441,16 +3441,6 @@
         "name": "ioc-lm1k4-opa-ell-01",
         "script": "/reg/g/pcds/epics-dev/mods/lln/thorlabs-ell/st.cmd",
         "binary": null
-    },
-    {
-        "host": "ctl-las-lln-03",
-        "port": 30004,
-        "dir": "/cds/home/t/tjohnson/trunk/common/vimbaCam",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-alvium-01",
-        "script": "/cds/home/t/tjohnson/trunk/common/vimbaCam/children/build/iocBoot/ioc-las-alvium-01/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/vimbaCam/bin/rhel7-x86_64/vimba"
     },
     {
         "host": "ctl-las-lln-03",
@@ -7311,7 +7301,6 @@
         "host": "ctl-tst-pgp02",
         "port": 30007,
         "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/euresysCam-git",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-euresys",
