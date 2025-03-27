@@ -6290,6 +6290,19 @@
     },
     {
         "host": "ctl-tmo-misc-01",
+        "port": 39116,
+        "dir": "ioc/tmo/Leviton/R2.4.2",
+        "history": [
+            "ioc/tmo/Tripplite"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-power-tmo-pr01",
+        "script": "/reg/g/pcds/epics/ioc/tmo/Leviton/R2.4.2/build/iocBoot/ioc-power-tmo-pr01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.2/bin/rhel7-x86_64/Leviton"
+    },
+    {
+        "host": "ctl-tmo-misc-01",
         "port": 31110,
         "dir": "/reg/g/pcds/epics-dev/lorelli/tmo/ioc-tmo-adc01",
         "base_version": "3.15",
@@ -8134,19 +8147,6 @@
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-power-tmo-portable02",
         "script": "/reg/g/pcds/epics/ioc/tmo/Leviton/R2.4.2/build/iocBoot/ioc-power-tmo-portable02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.2/bin/rhel7-x86_64/Leviton"
-    },
-    {
-        "host": "daq-tmo-andor-01",
-        "port": 34500,
-        "dir": "ioc/tmo/Leviton/R2.4.2",
-        "history": [
-            "ioc/tmo/Tripplite"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-power-tmo-pr01",
-        "script": "/reg/g/pcds/epics/ioc/tmo/Leviton/R2.4.2/build/iocBoot/ioc-power-tmo-pr01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.2/bin/rhel7-x86_64/Leviton"
     },
     {
