@@ -7314,15 +7314,16 @@
     {
         "host": "ctl-tst-pgp02",
         "port": 30007,
-        "dir": "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/euresysCam-git",
+        "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/euresysCam-git",
         "history": [
+            "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/euresysCam-git",
             "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/euresysCam-git"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-euresys",
-        "script": "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/euresysCam-git/children/build/iocBoot/ioc-tst-euresys/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/ktkim/sandbox/areaDetector/euresysCam-git/bin/rhel7-x86_64/euresysTpr"
+        "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/euresysCam-git/children/build/iocBoot/ioc-tst-euresys/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/euresysCam-git/bin/rhel7-x86_64/euresysTpr"
     },
     {
         "host": "ctl-tst-pgp02",
@@ -8587,21 +8588,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.4/bin/rhel7-x86_64/gige"
     },
     {
-        "host": "ioc-cxi-acromag",
-        "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/common/pciAcromag",
-        "disable": true,
-        "alias": "USR - Acromag",
-        "history": [
-            "/reg/g/pcds/epics-dev/espov/ioc/common/pciAcromag"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-usr-acromag",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/pciAcromag/children/build/iocBoot/ioc-cxi-usr-acromag/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/pciAcromag/bin/rhel7-x86_64/pciAcromag"
-    },
-    {
         "host": "ioc-cxi-cam2",
         "port": 39103,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam",
@@ -8615,6 +8601,17 @@
         "name": "ioc-cxi-alv-01",
         "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam/build/iocBoot/ioc-cxi-alv-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.1.0/bin/rhel7-x86_64/vimba"
+    },
+    {
+        "host": "ioc-cxi-cam2",
+        "port": 39101,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/evr",
+        "alias": "\"EVR\": Cam 2",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-cam2-evr",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/evr/build/iocBoot/ioc-cxi-cam2-evr/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.2.2/bin/rhel7-x86_64/evr"
     },
     {
         "host": "ioc-cxi-cam2",
