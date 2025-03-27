@@ -2694,7 +2694,6 @@
         "host": "ctl-las-lhn-03",
         "port": 30009,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ioc-las-dso4000",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-dso4000-02",
@@ -7303,13 +7302,15 @@
     {
         "host": "ctl-tst-pgp02",
         "port": 30007,
-        "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/euresysCam-git",
-        "disable": true,
+        "dir": "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/euresysCam-git",
+        "history": [
+            "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/euresysCam-git"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-euresys",
-        "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/euresysCam-git/children/build/iocBoot/ioc-tst-euresys/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/euresysCam-git/bin/rhel7-x86_64/euresysTpr"
+        "script": "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/euresysCam-git/children/build/iocBoot/ioc-tst-euresys/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/ktkim/sandbox/areaDetector/euresysCam-git/bin/rhel7-x86_64/euresysTpr"
     },
     {
         "host": "ctl-tst-pgp02",
