@@ -7315,7 +7315,6 @@
         "host": "ctl-tst-pgp02",
         "port": 30007,
         "dir": "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/euresysCam-git",
-        "disable": true,
         "history": [
             "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/euresysCam-git"
         ],
