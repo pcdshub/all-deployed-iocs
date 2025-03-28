@@ -16417,7 +16417,6 @@
         "host": "ioc-mfx-cam03",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam",
-        "disable": true,
         "alias": "CAM - Alvium",
         "history": [
             "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam"
