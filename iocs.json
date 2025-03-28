@@ -16416,7 +16416,7 @@
     {
         "host": "ioc-mfx-cam03",
         "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam",
+        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/mfx/vimbaCam/current",
         "alias": "CAM - Alvium",
         "history": [
             "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam"
@@ -16424,8 +16424,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-alvium01",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam/build/iocBoot/ioc-mfx-alvium01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.6/bin/rhel7-x86_64/vimba"
+        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/mfx/vimbaCam/current/build/iocBoot/ioc-mfx-alvium01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/vimbaCam/R1.1.0/bin/rhel7-x86_64/vimba"
     },
     {
         "host": "ioc-mfx-cam03",
