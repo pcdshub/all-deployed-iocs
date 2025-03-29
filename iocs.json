@@ -5046,7 +5046,7 @@
     {
         "host": "ctl-rix-mot-01",
         "port": 30320,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/sp1k1-calc",
+        "dir": "ioc/rix/sp1k1-calc/v1.3.0",
         "alias": "SP1K2 Calculator IOC",
         "history": [
             "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/sp1k1-calc",
@@ -5055,7 +5055,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-sp1k1-calc",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/sp1k1-calc/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/sp1k1-calc/v1.3.0/st.cmd",
         "binary": "/usr/bin/bash"
     },
     {
