@@ -4597,7 +4597,6 @@
         "host": "ctl-rix-crix-mot-01",
         "port": 30004,
         "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/rix/ioc-rix-smaract",
-        "disable": true,
         "alias": "CRIXS Smaract SVLS",
         "history": [
             "/reg/g/pcds/epics-dev/ctsoi/ioc/rix/ioc-rix-smaract"
