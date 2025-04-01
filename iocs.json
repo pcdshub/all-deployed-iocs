@@ -8097,7 +8097,6 @@
         "host": "daq-rix-ccd-01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/dorlhiac/ioc/rix/ioc-rix-vimbaCam",
-        "disable": true,
         "alias": "QRIX Alvium",
         "history": [
             "/reg/g/pcds/epics-dev/dorlhiac/ioc/rix/ioc-rix-vimbaCam"
