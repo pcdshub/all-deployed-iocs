@@ -2602,16 +2602,6 @@
     },
     {
         "host": "ctl-las-lhn-02",
-        "port": 30018,
-        "dir": "/cds/group/pcds/epics-dev/aberges/ioc/las/ioc-las-thorlabs-ell",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-lhn-bay3-ell-01",
-        "script": "/cds/group/pcds/epics-dev/aberges/ioc/las/ioc-las-thorlabs-ell/build/iocBoot/ioc-las-lhn-bay3-ell-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.8/bin/rhel7-x86_64/ell"
-    },
-    {
-        "host": "ctl-las-lhn-02",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ioc-las-thermocon",
         "base_version": "3.15",
@@ -2709,6 +2699,16 @@
         "name": "ioc-las-dso4000-02",
         "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ioc-las-dso4000/build/iocBoot/ioc-las-dso4000-02/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/dso4000/R1.0.1/bin/rhel7-x86_64/dso4000"
+    },
+    {
+        "host": "ctl-las-lhn-03",
+        "port": 30010,
+        "dir": "/cds/group/pcds/epics-dev/aberges/ioc/las/ioc-las-thorlabs-ell",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-lhn-bay3-ell-01",
+        "script": "/cds/group/pcds/epics-dev/aberges/ioc/las/ioc-las-thorlabs-ell/build/iocBoot/ioc-las-lhn-bay3-ell-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-lhn-03",
@@ -4037,11 +4037,11 @@
     {
         "host": "ctl-lfe-misc-01",
         "port": 39101,
-        "dir": "/reg/g/pcds/epics-dev/cagee/ioc/xrt/ioc-common-optics-pitch-notepad",
+        "dir": "/reg/g/pcds/epics-dev/cagee/ioc/xrt/optics-pitch-notepad",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-optics-pitch-notepad",
-        "script": "/reg/g/pcds/epics-dev/cagee/ioc/xrt/ioc-common-optics-pitch-notepad/build/iocBoot/ioc-optics-pitch-notepad/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/cagee/ioc/xrt/optics-pitch-notepad/build/iocBoot/ioc-optics-pitch-notepad/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1/bin/linux-x86_64/pvNotepad"
     },
     {
@@ -6797,8 +6797,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-lcls-dream-motion",
-        "script": "/reg/g/pcds/epics-dev/divyak/gitproject/lcls-plc-dream-motion/iocBoot/ioc-lcls-dream-motion/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics-dev/divyak/gitproject/lcls-plc-dream-motion/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tmo-mot-01",
@@ -16120,6 +16120,17 @@
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-gige-08",
         "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam/build/iocBoot/ioc-mfx-gige-08/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/rcjwoods/ioc/common/gigECam/gigECam/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-mfx-cam01",
+        "port": 39101,
+        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam",
+        "alias": "CAM - GigE DG1 YAG",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-gige-dg1yag",
+        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam/build/iocBoot/ioc-mfx-gige-dg1yag/st.cmd",
         "binary": "/cds/group/pcds/epics-dev/rcjwoods/ioc/common/gigECam/gigECam/bin/rhel7-x86_64/gige"
     },
     {
