@@ -2602,6 +2602,16 @@
     },
     {
         "host": "ctl-las-lhn-02",
+        "port": 30018,
+        "dir": "/cds/group/pcds/epics-dev/aberges/ioc/las/ioc-las-thorlabs-ell",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-lhn-bay3-ell-01",
+        "script": "/cds/group/pcds/epics-dev/aberges/ioc/las/ioc-las-thorlabs-ell/build/iocBoot/ioc-las-lhn-bay3-ell-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.8/bin/rhel7-x86_64/ell"
+    },
+    {
+        "host": "ctl-las-lhn-02",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ioc-las-thermocon",
         "base_version": "3.15",
@@ -4027,11 +4037,11 @@
     {
         "host": "ctl-lfe-misc-01",
         "port": 39101,
-        "dir": "ioc/common/optics-pitch-notepad/R1.2.5",
+        "dir": "/reg/g/pcds/epics-dev/cagee/ioc/xrt/ioc-common-optics-pitch-notepad",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-optics-pitch-notepad",
-        "script": "/reg/g/pcds/epics/ioc/common/optics-pitch-notepad/R1.2.5/build/iocBoot/ioc-optics-pitch-notepad/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/cagee/ioc/xrt/ioc-common-optics-pitch-notepad/build/iocBoot/ioc-optics-pitch-notepad/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.0.1/bin/linux-x86_64/pvNotepad"
     },
     {
@@ -17278,6 +17288,7 @@
         "host": "ioc-mfx-rec01",
         "port": 34901,
         "dir": "ioc/mfx/edtCam/R1.0.0",
+        "disable": true,
         "alias": "CAM - DG1 YAG",
         "history": [
             "ioc/mfx/edtCam/R1.0.0",
@@ -19079,7 +19090,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-userPV",
         "script": "/reg/g/pcds/epics-dev/cagee/ioc/common-dev/pvNotepad/build/iocBoot/ioc-xcs-userPV/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
+        "binary": null
     },
     {
         "host": "ioc-xcs-misc3",
