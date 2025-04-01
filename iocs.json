@@ -16100,21 +16100,6 @@
     },
     {
         "host": "ioc-mfx-cam01",
-        "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam",
-        "disable": true,
-        "alias": "CAM - GigE 06",
-        "history": [
-            "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-gige-06",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam/build/iocBoot/ioc-mfx-gige-06/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R3.5.7/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ioc-mfx-cam01",
         "port": 30010,
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam",
         "alias": "CAM - GigE 08 - DoD",
@@ -16125,6 +16110,17 @@
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-gige-08",
         "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam/build/iocBoot/ioc-mfx-gige-08/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/rcjwoods/ioc/common/gigECam/gigECam/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-mfx-cam01",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam",
+        "alias": "CAM - GigE DG2 YAG",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-gige-dg2yag",
+        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam/build/iocBoot/ioc-mfx-gige-dg2yag/st.cmd",
         "binary": "/cds/group/pcds/epics-dev/rcjwoods/ioc/common/gigECam/gigECam/bin/rhel7-x86_64/gige"
     },
     {
