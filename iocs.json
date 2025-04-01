@@ -17298,6 +17298,7 @@
         "host": "ioc-mfx-rec01",
         "port": 34859,
         "dir": "ioc/mfx/edtCam/R1.0.0",
+        "disable": true,
         "alias": "CAM - DG2 YAG",
         "history": [
             "ioc/mfx/edtCam/R1.0.0",
