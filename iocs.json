@@ -3905,12 +3905,12 @@
     {
         "host": "ctl-lfe-misc-01",
         "port": 39104,
-        "dir": "/reg/g/pcds/epics-dev/cagee/ioc/xrt/pvNotepad",
+        "dir": "/reg/g/pcds/epics-dev/cagee/ioc/lfe/pvNotepad",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-lfe-pcdsdevices",
-        "script": "/reg/g/pcds/epics-dev/cagee/ioc/xrt/pvNotepad/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/cagee/ioc/lfe/pvNotepad/build/iocBoot/ioc-lfe-pcdsdevices/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
     },
     {
         "host": "ctl-lfe-misc-01",
