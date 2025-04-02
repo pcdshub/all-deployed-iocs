@@ -3909,8 +3909,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-lfe-pcdsdevices",
-        "script": "/reg/g/pcds/epics-dev/cagee/ioc/xrt/pvNotepad/build/iocBoot/ioc-lfe-pcdsdevices/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
+        "script": "/reg/g/pcds/epics-dev/cagee/ioc/xrt/pvNotepad/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-lfe-misc-01",
@@ -23670,8 +23670,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-hfx-vacuum",
-        "script": "/reg/g/pcds/epics-dev/cagee/ioc/xrt/vacuum/R2.1.7/iocBoot/ioc-hfx-vacuum/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/cagee/ioc/xrt/vacuum/R2.1.7/bin/rhel7-x86_64/vacuum"
+        "script": "/reg/g/pcds/epics-dev/cagee/ioc/xrt/vacuum/R2.1.7/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xrt-wave8",
