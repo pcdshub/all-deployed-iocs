@@ -4688,7 +4688,7 @@
     {
         "host": "ctl-rix-crix-mot-01",
         "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/tparas/ioc/rix/ioc-rix-shimadzu-lc20",
+        "dir": "ioc/rix/shimadzu-lc20/R1.2.0",
         "alias": "Shimadzu HPLCs",
         "history": [
             "ioc/rix/shimadzu-lc20/R1.1.2",
@@ -4697,7 +4697,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-lc20",
-        "script": "/reg/g/pcds/epics-dev/tparas/ioc/rix/ioc-rix-shimadzu-lc20/build/iocBoot/ioc-rix-lc20/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/shimadzu-lc20/R1.2.0/build/iocBoot/ioc-rix-lc20/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.3.6/bin/rhel7-x86_64/lc20"
     },
     {
