@@ -19110,7 +19110,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-userPV",
-        "script": "/reg/g/pcds/epics-dev/cagee/ioc/common-dev/pvNotepad/build/iocBoot/ioc-xcs-userPV/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/cagee/ioc/common-dev/pvNotepad/st.cmd",
         "binary": null
     },
     {
