@@ -19453,7 +19453,7 @@
     {
         "host": "ioc-xcs-mot2",
         "port": 35327,
-        "dir": "ioc/xcs/shimadzu-lc20/R1.0.0",
+        "dir": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/shimadzu-lc20",
         "alias": "HPLC",
         "history": [
             "ioc/xcs/shimadzu-lc20/R1.0.0"
@@ -19461,8 +19461,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-lc20",
-        "script": "/reg/g/pcds/epics/ioc/xcs/shimadzu-lc20/R1.0.0/build/iocBoot/ioc-xcs-lc20/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.3.6/bin/rhel7-x86_64/lc20"
+        "script": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/shimadzu-lc20/build/iocBoot/ioc-xcs-lc20/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.3.7/bin/rhel7-x86_64/lc20"
     },
     {
         "host": "ioc-xcs-mot2",
