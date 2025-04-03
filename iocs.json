@@ -290,7 +290,7 @@
     {
         "host": "ctl-kfe-misc-01",
         "port": 30016,
-        "dir": "/reg/g/pcds/epics-dev/mghaly/lcls-plc-kfe-arbiter/iocBoot/ioc-ArbiterPLC",
+        "dir": "ioc/kfe/lcls-plc-kfe-arbiter/v2.6.0/iocBoot/ioc-ArbiterPLC",
         "alias": "KFE Arbiter",
         "history": [
             "ioc/kfe/lcls-plc-kfe-arbiter/v2.0.1/iocBoot/ioc-ArbiterPLC",
@@ -300,7 +300,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-kfe-arbiter",
-        "script": "/reg/g/pcds/epics-dev/mghaly/lcls-plc-kfe-arbiter/iocBoot/ioc-ArbiterPLC/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-arbiter/v2.6.0/iocBoot/ioc-ArbiterPLC/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
     },
     {
