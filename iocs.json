@@ -19454,6 +19454,7 @@
         "host": "ioc-xcs-mot2",
         "port": 35327,
         "dir": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/shimadzu-lc20",
+        "disable": true,
         "alias": "HPLC",
         "history": [
             "ioc/xcs/shimadzu-lc20/R1.0.0"
