@@ -16096,7 +16096,6 @@
         "host": "ioc-mfx-cam01",
         "port": 30008,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam",
-        "disable": true,
         "alias": "CAM - Inline Alvium",
         "history": [
             "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam"
@@ -16128,6 +16127,7 @@
         "host": "ioc-mfx-cam01",
         "port": 30090,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/mfx/gigECam",
+        "disable": true,
         "alias": "CAM - GigE 05",
         "history": [
             "/reg/g/pcds/epics-dev/divya/ioc/mfx/gigECam",
@@ -16143,6 +16143,7 @@
         "host": "ioc-mfx-cam01",
         "port": 30010,
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam",
+        "disable": true,
         "alias": "CAM - GigE 08 - DoD",
         "history": [
             "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam"
@@ -16179,6 +16180,7 @@
         "host": "ioc-mfx-cam01",
         "port": 30071,
         "dir": "ioc/mfx/gigECam/R0.5.6",
+        "disable": true,
         "alias": "CAM - GigE LBL 01 Inline",
         "history": [
             "ioc/mfx/gigECam/R0.5.6",
@@ -16194,6 +16196,7 @@
         "host": "ioc-mfx-cam01",
         "port": 30083,
         "dir": "/cds/group/pcds/epics-dev/espov/ioc/mfx/gigECam",
+        "disable": true,
         "alias": "CAM - GigE LBL 02 Side",
         "history": [
             "/cds/group/pcds/epics-dev/espov/ioc/mfx/gigECam",
@@ -16209,6 +16212,7 @@
         "host": "ioc-mfx-cam01",
         "port": 30085,
         "dir": "/cds/group/pcds/epics-dev/espov/ioc/mfx/gigECam",
+        "disable": true,
         "alias": "CAM - GigE LBL 03 Meniscus",
         "history": [
             "/cds/group/pcds/epics-dev/espov/ioc/mfx/gigECam",
@@ -16269,6 +16273,7 @@
         "host": "ioc-mfx-cam01",
         "port": 30007,
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam",
+        "disable": true,
         "alias": "CAM - Gige RoadRunner",
         "history": [
             "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam"
