@@ -2999,12 +2999,12 @@
     {
         "host": "ctl-las-lhn-04",
         "port": 43414,
-        "dir": "/cds/group/laser/timing/femto-timing/dev",
+        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
         "alias": "FS14 - Timetool Python",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "py-fstiming-tt-FS14",
-        "script": "/cds/group/laser/timing/femto-timing/dev/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
         "binary": "/usr/bin/bash"
     },
     {
