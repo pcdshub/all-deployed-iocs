@@ -16096,7 +16096,7 @@
         "port": 30008,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam",
         "disable": true,
-        "alias": "CAM - Inline Alvium",
+        "alias": "CAM - Alvium Inline",
         "history": [
             "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam"
         ],
