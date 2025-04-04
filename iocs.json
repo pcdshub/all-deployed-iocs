@@ -7237,16 +7237,6 @@
     },
     {
         "host": "ctl-tst-dev-03",
-        "port": 30002,
-        "dir": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-pdu_snmp",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-pdu_snmp-mspace",
-        "script": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-pdu_snmp/children/build/iocBoot/ioc-tst-pdu_snmp-mspace/st.cmd",
-        "binary": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-pdu_snmp/bin/rhel9-x86_64/pdu"
-    },
-    {
-        "host": "ctl-tst-dev-03",
         "port": 30001,
         "dir": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-qmini",
         "base_version": "3.15",
@@ -7557,6 +7547,17 @@
         "name": "ioc-txi-pgpw8-01",
         "script": "/reg/g/pcds/epics/ioc/txi/pgpWave8/R2.3.0/build/iocBoot/ioc-txi-pgpw8-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pgpWave8/R2.3.0/bin/rhel7-x86_64/pgpWave8"
+    },
+    {
+        "host": "ctl-txi-wave8-01",
+        "port": 30001,
+        "dir": "/reg/g/pcds/epics-dev/iroque/txi/ioc-txi-tprStandalone",
+        "alias": "TPR-wave8-01",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
+        "name": "ioc-txi-wave8-tpr1",
+        "script": "/reg/g/pcds/epics-dev/iroque/txi/ioc-txi-tprStandalone/build/iocBoot/ioc-txi-wave8-tpr1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.2.0/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "ctl-ued-cam-01",
