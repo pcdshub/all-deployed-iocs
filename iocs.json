@@ -3323,6 +3323,7 @@
         "host": "ctl-las-lln-01",
         "port": 30202,
         "dir": "/reg/g/pcds/epics-dev/mods/lln/gigEcam",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lln-gige-ff-01",
@@ -3333,6 +3334,7 @@
         "host": "ctl-las-lln-01",
         "port": 30201,
         "dir": "/reg/g/pcds/epics-dev/mods/lln/gigEcam",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lln-gige-nf-01",
@@ -18137,7 +18139,7 @@
     {
         "host": "ioc-ued-ccd01",
         "port": 30102,
-        "dir": "/reg/g/pcds/pyps/apps/hutch-python/ued/queueserver/ioc-ued-bsgui-qs",
+        "dir": "/reg/g/pcds/pyps/apps/lcls-scan-gui/ued",
         "alias": "QueueServer - GUI",
         "history": [
             "/reg/g/pcds/pyps/apps/hutch-python/ued/queueserver/ioc-ued-bsgui-qs"
@@ -18145,7 +18147,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-bsgui-qs",
-        "script": "/reg/g/pcds/pyps/apps/hutch-python/ued/queueserver/ioc-ued-bsgui-qs/st.cmd",
+        "script": "/reg/g/pcds/pyps/apps/lcls-scan-gui/ued/iocBoot/ioc-ued-bsgui-qs/st.cmd",
         "binary": "/usr/bin/bash"
     },
     {
@@ -18229,12 +18231,12 @@
     {
         "host": "ioc-ued-ccd01",
         "port": 30101,
-        "dir": "/reg/g/pcds/pyps/apps/hutch-python/ued/queueserver/ioc-ued-redis",
+        "dir": "/reg/g/pcds/pyps/apps/lcls-scan-gui/ued",
         "alias": "QueueServer - Redis",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-redis",
-        "script": "/reg/g/pcds/pyps/apps/hutch-python/ued/queueserver/ioc-ued-redis/st.cmd",
+        "script": "/reg/g/pcds/pyps/apps/lcls-scan-gui/ued/iocBoot/ioc-ued-redis/st.cmd",
         "binary": "/usr/bin/bash"
     },
     {
