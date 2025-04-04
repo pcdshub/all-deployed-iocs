@@ -2579,13 +2579,13 @@
     {
         "host": "ctl-las-lhn-01",
         "port": 43411,
-        "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
+        "dir": "/cds/group/laser/timing/femto-timing/dev/",
         "disable": true,
         "alias": "FS11 - Timetool Python",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "py-fstiming-tt-FS11",
-        "script": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new/st.cmd",
+        "script": "/cds/group/laser/timing/femto-timing/dev/st.cmd",
         "binary": "/usr/bin/bash"
     },
     {
