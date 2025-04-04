@@ -2580,7 +2580,6 @@
         "host": "ctl-las-lhn-01",
         "port": 43411,
         "dir": "/cds/group/laser/timing/femto-timing/dev/",
-        "disable": true,
         "alias": "FS11 - Timetool Python",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
@@ -5609,7 +5608,7 @@
     {
         "host": "ctl-rix-vac-01",
         "port": 30112,
-        "dir": "/reg/g/pcds/epics-dev/tparas/plc/rix/lcls-plc-kfe-rix-vac",
+        "dir": "ioc/rix/lcls-plc-kfe-rix-vac/v2.3.0",
         "alias": "Beamline Vacuum PLC IOC",
         "history": [
             "/reg/g/pcds/epics-dev/jjoshi/rix/vac/lcls-plc-kfe-rix-vac",
@@ -5619,7 +5618,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-plc-kfe-rix-vac",
-        "script": "/reg/g/pcds/epics-dev/tparas/plc/rix/lcls-plc-kfe-rix-vac/iocBoot/ioc-plc-kfe-rix-vac/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/lcls-plc-kfe-rix-vac/v2.3.0/iocBoot/ioc-plc-kfe-rix-vac/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.8.0/bin/rhel7-x86_64/adsIoc"
     },
     {
