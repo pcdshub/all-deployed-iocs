@@ -2998,7 +2998,7 @@
     {
         "host": "ctl-las-lhn-04",
         "port": 43414,
-        "dir": "/cds/group/laser/timing/femto-timing/dev/",
+        "dir": "/cds/group/laser/timing/femto-timing/dev",
         "alias": "FS14 - Timetool Python",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
