@@ -8046,7 +8046,6 @@
         "host": "daq-mfx-tpr1",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam",
-        "disable": true,
         "alias": "CAM - Alvium TZERO",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
@@ -16490,6 +16489,7 @@
         "host": "ioc-mfx-cam03",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/mfx/vimbaCam/current",
+        "disable": true,
         "alias": "CAM - Alvium",
         "history": [
             "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam"
@@ -23947,6 +23947,7 @@
         "host": "mfx-mezz01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/opperman/mfx/ioc/ioc-mfx-tprStandalone",
+        "disable": true,
         "alias": "TPR MEZZ Standalone",
         "history": [
             "/reg/g/pcds/epics-dev/opperman/mfx/ioc/ioc-mfx-tprStandalone"
