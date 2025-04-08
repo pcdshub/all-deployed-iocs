@@ -8046,7 +8046,7 @@
         "host": "daq-mfx-tpr1",
         "port": 39103,
         "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/mfx/vimbaCam/current",
-        "alias": "CAM - Alvium",
+        "alias": "CAM - Alvium DG3",
         "history": [
             "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam"
         ],
@@ -8060,7 +8060,7 @@
         "host": "daq-mfx-tpr1",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam",
-        "alias": "CAM - Alvium TZERO",
+        "alias": "CAM - Alvium TimeTool",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-alvium04",
