@@ -2580,6 +2580,7 @@
         "host": "ctl-las-lhn-01",
         "port": 43411,
         "dir": "/reg/g/pcds/epics-dev/cpino/las/fstiming-py-new",
+        "disable": true,
         "alias": "FS11 - Timetool Python",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
@@ -2793,6 +2794,7 @@
         "host": "ctl-las-lhn-04",
         "port": 30006,
         "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/fiberOven/ioc-las-fiberOven",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-fiberOven",
@@ -8055,7 +8057,7 @@
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-alvium01",
         "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam/build/iocBoot/ioc-mfx-alvium01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.1.0/bin/rhel7-x86_64/vimba"
+        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.1.0/bin/rhel7-x86_64/vimbaTpr"
     },
     {
         "host": "daq-mfx-tpr1",
