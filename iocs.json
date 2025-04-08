@@ -8979,7 +8979,7 @@
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-pico-usr1",
         "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi_picomotion/pico874x/current/build/iocBoot/ioc-cxi-pico-usr1/st.cmd",
-        "binary": "/cds/home/k/klg/epics/ioc/common/pico874x/current/bin/linux-x86/motion"
+        "binary": "/reg/neh/home/klg/epics/ioc/common/pico874x/current/bin/linux-x86/motion"
     },
     {
         "host": "ioc-cxi-jungfrau01",
@@ -9299,7 +9299,7 @@
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-mandrel-01",
         "script": "/reg/g/pcds/epics-dev/pennebak/cxi/mandrel/current/build/iocBoot/ioc-cxi-mandrel-01/st.cmd",
-        "binary": "/cds/home/m/mcbrowne/trunk2/ioc/common/ims/current/bin/linux-x86_64/ims"
+        "binary": "/reg/neh/home/mcbrowne/trunk2/ioc/common/ims/current/bin/linux-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot1",
@@ -11131,8 +11131,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-tripper",
-        "script": "/reg/neh/home/trendahl/Workarea/cxi/cspad-tripper/current/iocBoot/ioc-cxi-tripper/st.cmd",
-        "binary": "/cds/home/t/trendahl/Workarea/cxi/cspad-tripper/current/bin/linux-x86_64/tripper"
+        "script": "/reg/neh/home/trendahl/Workarea/cxi/cspad-tripper/current/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-cxi-usr1",
@@ -11296,8 +11296,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-pico-usr2",
-        "script": "/reg/neh/home/klg/epics/ioc/cxi/pico874x/current/build/iocBoot/ioc-cxi-pico-usr2/st.cmd",
-        "binary": "/cds/home/k/klg/epics/ioc/common/pico874x/current/bin/linux-x86/motion"
+        "script": "/reg/neh/home/klg/epics/ioc/cxi/pico874x/current/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-cxi-usrmot2",
@@ -13296,8 +13296,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-vcmd1-01",
-        "script": "/reg/neh/home/tjohnson/trunk/mec/UniblitzVCMD1/iocBoot/ioc-las-vcmd1-01/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/mec/UniblitzVCMD1/bin/linux-x86_64/UniblitzVCMD1"
+        "script": "/reg/neh/home/tjohnson/trunk/mec/UniblitzVCMD1/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-las-mec-srv06",
@@ -19899,7 +19899,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-evr2",
         "script": "/reg/neh/home/eshelman/epics/ioc/xcs/evr/current/build/iocBoot/ioc-xcs-evr2/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/evr/current/bin/linux-x86_64/evr"
+        "binary": "/reg/neh/home/bhill/wa2/epics/ioc/common/evr/current/bin/linux-x86_64/evr"
     },
     {
         "host": "ioc-xcs-rec02",
@@ -20426,8 +20426,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-keithley6514",
-        "script": "/reg/neh/home/zlentz/epics/ioc/xcs/Keithley6514/current/build/iocBoot/ioc-xcs-keithley6514/st.cmd",
-        "binary": "/cds/home/z/zlentz/epics/ioc/common/Keithley6514/current/bin/linux-x86/Keithley6514"
+        "script": "/reg/neh/home/zlentz/epics/ioc/xcs/Keithley6514/current/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-user1",
@@ -20645,8 +20645,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-led05",
-        "script": "/reg/neh/home/snelson/work/xcs/leds/current/iocBoot/ioc-xcs-led05/st.cmd",
-        "binary": "/cds/home/s/snelson/work/xcs/leds/current/bin/linux-x86_64/leds"
+        "script": "/reg/neh/home/snelson/work/xcs/leds/current/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xcs-user2",
@@ -23385,8 +23385,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-evr-misc",
-        "script": "/reg/neh/home/trendahl/epics/xrt/evr/current/build/iocBoot/ioc-xrt-evr-misc/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.2.2/bin/linux-x86_64/evr"
+        "script": "/reg/neh/home/trendahl/epics/xrt/evr/current/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xrt-misc02",
@@ -23411,8 +23411,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-usdusb4",
-        "script": "/reg/neh/home/trendahl/epics/xrt/usdusb4/current/build/iocBoot/ioc-xrt-usdusb4/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/usdusb4/R1.0.4/bin/linux-x86_64/usdusb4"
+        "script": "/reg/neh/home/trendahl/epics/xrt/usdusb4/current/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-xrt-rec01",
