@@ -7254,8 +7254,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-pdu_snmp-mspace",
-        "script": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-pdu_snmp/children/build/iocBoot/ioc-tst-pdu_snmp-mspace/st.cmd",
-        "binary": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-pdu_snmp/bin/rhel9-x86_64/pdu"
+        "script": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-pdu_snmp/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tst-dev-03",
