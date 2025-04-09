@@ -22771,7 +22771,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-rowland-01",
         "script": "/cds/home/z/zlentz/epics/ioc/xcs/arcus_dmx/current/build/iocBoot/ioc-rowland-01/st.cmd",
-        "binary": "/cds/home/z/zlentz/epics/ioc/common/arcus_dmx/current/bin/linux-x86/dmx"
+        "binary": "/reg/neh/home/zlentz/epics/ioc/common/arcus_dmx/current/bin/linux-x86/dmx"
     },
     {
         "host": "ioc-xpp-usr01",
