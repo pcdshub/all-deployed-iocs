@@ -3616,7 +3616,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-ejx-spec-01",
         "script": "/cds/group/pcds/epics-dev/mods/lm1k2/ejx/qmini/build/iocBoot/ioc-lm1k2-ejx-spec-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/qmini/R1.0.4/bin/rhel7-x86_64/qmini"
+        "binary": "/cds/group/pcds/epics/ioc/common/qmini/R1.0.4/bin/rhel7-x86_64/qmini"
     },
     {
         "host": "ctl-las-srv01",
