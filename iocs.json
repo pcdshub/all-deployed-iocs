@@ -7208,6 +7208,16 @@
     },
     {
         "host": "ctl-tst-dev-02",
+        "port": 30007,
+        "dir": "/cds/home/z/zlentz/github/lcls-plc-tst-ioc",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-plc-tst",
+        "script": "/cds/home/z/zlentz/github/lcls-plc-tst-ioc/iocBoot/ioc-plc-tst/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/ads-ioc/R0.8.0/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ctl-tst-dev-02",
         "port": 34242,
         "dir": "/cds/home/z/zlentz/github/lcls-plc-example-motion",
         "disable": true,
@@ -7288,16 +7298,6 @@
         "name": "lcls-motion-test",
         "script": "/reg/g/pcds/epics-dev/ysmandza/lcsl-motion-test-incremental-encoder/iocBoot/ioc-lclsPLCMotionTest/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ctl-tst-dev-03",
-        "port": 30007,
-        "dir": "/cds/home/z/zlentz/github/lcls-plc-tst-ioc",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-plc-tst",
-        "script": "/cds/home/z/zlentz/github/lcls-plc-tst-ioc/iocBoot/ioc-plc-tst/st.cmd",
-        "binary": "/cds/home/z/zlentz/github/ioc-common-ads-ioc/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-tst-dev-03",
