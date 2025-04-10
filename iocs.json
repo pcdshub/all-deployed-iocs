@@ -7297,7 +7297,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-plc-tst",
         "script": "/cds/home/z/zlentz/github/lcls-plc-tst-ioc/iocBoot/ioc-plc-tst/st.cmd",
-        "binary": "/cds/home/z/zlentz/github/ioc-common-ads-ioc/bin/rhel9-x86_64/adsIoc"
+        "binary": "/cds/home/z/zlentz/github/ioc-common-ads-ioc/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-tst-dev-03",
