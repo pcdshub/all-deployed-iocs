@@ -4565,23 +4565,24 @@
     {
         "host": "ctl-rix-crix-cam-03",
         "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/tprStandalone",
+        "dir": "ioc/rix/tprStandalone/R1.2.1",
+        "alias": "CRIX TPR 3",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-tpr3",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/tprStandalone/build/iocBoot/ioc-crix-tpr3/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/tprStandalone/R1.2.1/build/iocBoot/ioc-crix-tpr3/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.2.0/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "ctl-rix-crix-mot-01",
         "port": 30005,
-        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/rix/lcls-plc-rixs-svls-motion",
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/rix/lcls-plc-rixs-svls-motion/iocBoot/ioc-SVLS-MOT",
         "alias": "CRIXS SVLS MOTION",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-PLC-SVLS-MOTION",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/rix/lcls-plc-rixs-svls-motion/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/rix/lcls-plc-rixs-svls-motion/iocBoot/ioc-SVLS-MOT/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.8.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-rix-crix-mot-01",
@@ -7196,6 +7197,16 @@
     },
     {
         "host": "ctl-tst-dev-02",
+        "port": 30007,
+        "dir": "/cds/home/z/zlentz/github/lcls-plc-tst-ioc",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-plc-tst",
+        "script": "/cds/home/z/zlentz/github/lcls-plc-tst-ioc/iocBoot/ioc-plc-tst/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/ads-ioc/R0.8.0/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ctl-tst-dev-02",
         "port": 34242,
         "dir": "/cds/home/z/zlentz/github/lcls-plc-example-motion",
         "disable": true,
@@ -7276,16 +7287,6 @@
         "name": "lcls-motion-test",
         "script": "/reg/g/pcds/epics-dev/ysmandza/lcsl-motion-test-incremental-encoder/iocBoot/ioc-lclsPLCMotionTest/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ctl-tst-dev-03",
-        "port": 30007,
-        "dir": "/cds/home/z/zlentz/github/lcls-plc-tst-ioc",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-plc-tst",
-        "script": "/cds/home/z/zlentz/github/lcls-plc-tst-ioc/iocBoot/ioc-plc-tst/st.cmd",
-        "binary": "/cds/home/z/zlentz/temp/ioc-common-ads-ioc_at_pr_105/bin/rhel9-x86_64/adsIoc"
     },
     {
         "host": "ctl-tst-dev-03",
