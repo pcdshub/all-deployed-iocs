@@ -4580,8 +4580,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-PLC-SVLS-MOTION",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/rix/lcls-plc-rixs-svls-motion/iocBoot/ioc-PLC-SVLS-MOTION/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.8.0/bin/rhel7-x86_64/adsIoc"
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/rix/lcls-plc-rixs-svls-motion/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-rix-crix-mot-01",
