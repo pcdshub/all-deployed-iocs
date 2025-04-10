@@ -4581,8 +4581,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-euresys",
-        "script": "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/euresysCam-git/children/build/iocBoot/ioc-rix-euresys/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/ktkim/sandbox/areaDetector/euresysCam-git/bin/rhel7-x86_64/euresysTpr"
+        "script": "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/euresysCam-git/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-rix-crix-mot-01",
