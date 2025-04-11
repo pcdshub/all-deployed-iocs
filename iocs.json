@@ -2306,6 +2306,16 @@
         "binary": "/cds/group/pcds/epics/ioc/common/gigECam/R5.2.0/bin/rhel7-x86_64/gige"
     },
     {
+        "host": "ctl-las-ip2-srv02",
+        "port": 30004,
+        "dir": "/cds/group/pcds/epics-dev/aberges/mods/temp-mods/lm2k4/inj/qmini",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-lm2k4-inj-spec-01",
+        "script": "/cds/group/pcds/epics-dev/aberges/mods/temp-mods/lm2k4/inj/qmini/build/iocBoot/ioc-lm2k4-inj-spec-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/qmini/R1.0.3/bin/rhel7-x86_64/qmini"
+    },
+    {
         "host": "ctl-las-lhn-01",
         "port": 30302,
         "dir": "/reg/g/pcds/epics-dev/divyak/gitproject/lcls-plc-las-bts-dev/lcls-plc-las-bts",
@@ -18436,6 +18446,42 @@
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-xps-05",
         "script": "/reg/g/pcds/epics-dev/iroque/ioc-ued-NewportXPS8/build/iocBoot/ioc-ued-xps-05/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.2.0/bin/rhel7-x86_64/xps8"
+    },
+    {
+        "host": "ioc-ued-ccd01",
+        "port": 39106,
+        "dir": "/reg/g/pcds/epics-dev/iroque/ioc-ued-NewportXPS8",
+        "disable": true,
+        "alias": "mcn-ued-06",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
+        "name": "ioc-ued-xps-06",
+        "script": "/reg/g/pcds/epics-dev/iroque/ioc-ued-NewportXPS8/build/iocBoot/ioc-ued-xps-06/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.2.0/bin/rhel7-x86_64/xps8"
+    },
+    {
+        "host": "ioc-ued-ccd01",
+        "port": 39107,
+        "dir": "/reg/g/pcds/epics-dev/iroque/ioc-ued-NewportXPS8",
+        "disable": true,
+        "alias": "mcn-ued-07",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
+        "name": "ioc-ued-xps-07",
+        "script": "/reg/g/pcds/epics-dev/iroque/ioc-ued-NewportXPS8/build/iocBoot/ioc-ued-xps-07/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.2.0/bin/rhel7-x86_64/xps8"
+    },
+    {
+        "host": "ioc-ued-ccd01",
+        "port": 39108,
+        "dir": "/reg/g/pcds/epics-dev/iroque/ioc-ued-NewportXPS8",
+        "disable": true,
+        "alias": "mcn-ued-08",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
+        "name": "ioc-ued-xps-08",
+        "script": "/reg/g/pcds/epics-dev/iroque/ioc-ued-NewportXPS8/build/iocBoot/ioc-ued-xps-08/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.2.0/bin/rhel7-x86_64/xps8"
     },
     {
