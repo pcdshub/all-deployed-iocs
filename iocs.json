@@ -3571,11 +3571,11 @@
     {
         "host": "ctl-las-qrixs-srv02",
         "port": 30005,
-        "dir": "/cds/group/pcds/epics-dev/mods/lm1k2/com/qmini",
+        "dir": "/cds/group/pcds/epics-dev/aberges/mods/temp-mods/lm1k2/com/qmini/",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-com-spec-01",
-        "script": "/cds/group/pcds/epics-dev/mods/lm1k2/com/qmini/build/iocBoot/ioc-lm1k2-com-spec-01/st.cmd",
+        "script": "/cds/group/pcds/epics-dev/aberges/mods/temp-mods/lm1k2/com/qmini/build/iocBoot/ioc-lm1k2-com-spec-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/qmini/R1.0.4/bin/rhel7-x86_64/qmini"
     },
     {
@@ -3621,11 +3621,11 @@
     {
         "host": "ctl-las-qrixs-srv05",
         "port": 30003,
-        "dir": "/cds/group/pcds/epics-dev/mods/lm1k2/ejx/qmini",
+        "dir": "/cds/group/pcds/epics-dev/aberges/mods/temp-mods/lm1k2/ejx/qmini/",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-ejx-spec-01",
-        "script": "/cds/group/pcds/epics-dev/mods/lm1k2/ejx/qmini/build/iocBoot/ioc-lm1k2-ejx-spec-01/st.cmd",
+        "script": "/cds/group/pcds/epics-dev/aberges/mods/temp-mods/lm1k2/ejx/qmini/build/iocBoot/ioc-lm1k2-ejx-spec-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/qmini/R1.0.4/bin/rhel7-x86_64/qmini"
     },
     {
