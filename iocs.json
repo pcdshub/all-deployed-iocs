@@ -2308,11 +2308,11 @@
     {
         "host": "ctl-las-ip2-srv02",
         "port": 30004,
-        "dir": "/cds/group/pcds/epics-dev/aberges/mods/temp-mods/lm2k4/inj/qmini",
+        "dir": "/cds/group/pcds/epics-dev/mods/lm2k4/inj/qmini",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k4-inj-spec-01",
-        "script": "/cds/group/pcds/epics-dev/aberges/mods/temp-mods/lm2k4/inj/qmini/build/iocBoot/ioc-lm2k4-inj-spec-01/st.cmd",
+        "script": "/cds/group/pcds/epics-dev/mods/lm2k4/inj/qmini/build/iocBoot/ioc-lm2k4-inj-spec-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/qmini/R1.0.3/bin/rhel7-x86_64/qmini"
     },
     {
@@ -8150,7 +8150,7 @@
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-alvium04",
         "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam/build/iocBoot/ioc-mfx-alvium04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.1.0/bin/rhel7-x86_64/vimbaTpr"
+        "binary": "/cds/group/pcds/epics-dev/dorlhiac/ioc/common/ioc-common-vimbaCam/bin/rhel7-x86_64/vimbaTpr"
     },
     {
         "host": "daq-mfx-tpr1",
@@ -16235,7 +16235,7 @@
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-alvium02",
         "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam/build/iocBoot/ioc-mfx-alvium02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.6/bin/rhel7-x86_64/vimba"
+        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.1.0/bin/rhel7-x86_64/vimba"
     },
     {
         "host": "ioc-mfx-cam01",
