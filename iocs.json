@@ -4578,6 +4578,7 @@
         "host": "ctl-rix-crix-cam-03",
         "port": 30007,
         "dir": "ioc/common/euresysCam/R1.0.0",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-euresys",
