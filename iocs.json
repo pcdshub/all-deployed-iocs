@@ -4591,6 +4591,7 @@
         "host": "ctl-rix-crix-cam-03",
         "port": 30007,
         "dir": "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/test/euresysCam-git",
+        "disable": true,
         "history": [
             "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/euresysCam-git",
             "ioc/common/euresysCam/R1.0.0"
