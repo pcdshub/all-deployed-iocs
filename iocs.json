@@ -7291,7 +7291,6 @@
         "host": "ctl-tst-dev-02",
         "port": 30023,
         "dir": "/reg/g/pcds/epics-dev/ysmandza/lcsl-motion-test-incremental-encoder/iocBoot/ioc-lclsPLCMotionTest",
-        "disable": true,
         "alias": "test-plc-bsd2",
         "history": [
             "/reg/g/pcds/epics-dev/ysmandza/lcsl-motion-test-incremental-encoder/iocBoot/ioc-lclsPLCMotionTest"
@@ -23501,6 +23500,20 @@
         "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R1.28.8/bin/linux-x86_64/Leviton"
     },
     {
+        "host": "ioc-xrt-misc01",
+        "port": 35286,
+        "dir": "/reg/g/pcds/epics-dev/iroque/xrt/ioc-xrt-pdu_snmp",
+        "alias": "Portable Rack Leviton PDU",
+        "history": [
+            "/reg/g/pcds/epics-dev/spencera/xrt/Leviton"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
+        "name": "ioc-xrt-pwr-pr01",
+        "script": "/reg/g/pcds/epics-dev/iroque/xrt/ioc-xrt-pdu_snmp/build/iocBoot/ioc-xrt-pwr-pr01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
+    },
+    {
         "host": "ioc-xrt-misc02",
         "port": 39113,
         "dir": "ioc/xrt/vacuum/R2.1.7",
@@ -23894,17 +23907,6 @@
         "name": "ioc-xrt-optics",
         "script": "/reg/g/pcds/epics/ioc/xrt/lcls-plc-xrt-optics/v5.6.0/iocBoot/ioc-xrt-optics/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ioc-xrt-wave8",
-        "port": 35286,
-        "dir": "/reg/g/pcds/epics-dev/spencera/xrt/Leviton",
-        "alias": "AC \"Power\": portable rack/HXS",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
-        "name": "ioc-xrt-pwr-pr01",
-        "script": "/reg/g/pcds/epics-dev/spencera/xrt/Leviton/build/iocBoot/ioc-xrt-pwr-pr01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.3.4/bin/rhel7-x86_64/Leviton"
     },
     {
         "host": "ioc-xrt-wave8",
