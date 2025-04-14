@@ -7289,6 +7289,16 @@
     },
     {
         "host": "ctl-tst-dev-02",
+        "port": 30003,
+        "dir": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-tprStandalone",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-tst-tprstandalone-rhel7-mspace",
+        "script": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-tprStandalone/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ctl-tst-dev-02",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/baljamal/ioc/common/andorCam",
         "disable": true,
@@ -7306,7 +7316,6 @@
         "host": "ctl-tst-dev-02",
         "port": 30023,
         "dir": "/reg/g/pcds/epics-dev/ysmandza/lcsl-motion-test-incremental-encoder/iocBoot/ioc-lclsPLCMotionTest",
-        "disable": true,
         "alias": "test-plc-bsd2",
         "history": [
             "/reg/g/pcds/epics-dev/ysmandza/lcsl-motion-test-incremental-encoder/iocBoot/ioc-lclsPLCMotionTest"
@@ -7346,16 +7355,6 @@
         "name": "ioc-tst-qmini-mspace",
         "script": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-qmini/children/build/iocBoot/ioc-tst-qmini-mspace/st.cmd",
         "binary": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-qmini/bin/rhel9-x86_64/qmini"
-    },
-    {
-        "host": "ctl-tst-dev-03",
-        "port": 30004,
-        "dir": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-tprStandalone",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-tprstandalone-mspace",
-        "script": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-tprStandalone/children/build/iocBoot/ioc-tst-tprstandalone-mspace/st.cmd",
-        "binary": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-tprStandalone/bin/rhel9-x86_64/tpr"
     },
     {
         "host": "ctl-tst-dev-03",
