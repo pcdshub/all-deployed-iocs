@@ -5083,8 +5083,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-plv-pdu-01",
-        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/rix/ioc-rix-ict/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/rix/ioc-rix-ict/build/iocBoot/ioc-rix-plv-pdu-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ict/R2.1.0/bin/rhel7-x86_64/ict"
     },
     {
         "host": "ctl-rix-mot-01",
@@ -6811,12 +6811,12 @@
     {
         "host": "ctl-tmo-misc-01",
         "port": 39113,
-        "dir": "/reg/g/pcds/epics-dev/janezg/tmo-git/ioc-tmo-thermocon",
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/tmo/thermocon",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-thermocon-02",
-        "script": "/reg/g/pcds/epics-dev/janezg/tmo-git/ioc-tmo-thermocon/build/iocBoot/ioc-tmo-thermocon-02/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-common-thermocon/bin/rhel7-x86_64/thermocon"
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/tmo/thermocon/build/iocBoot/ioc-tmo-thermocon-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thermocon/R2.0.0/bin/rhel7-x86_64/thermocon"
     },
     {
         "host": "ctl-tmo-misc-01",
