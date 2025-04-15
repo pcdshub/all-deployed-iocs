@@ -5075,7 +5075,7 @@
     {
         "host": "ctl-rix-mot-01",
         "port": 30201,
-        "dir": "ioc/rix/ict/R1.0.2",
+        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/rix/ioc-rix-ict",
         "alias": "R02 ICT 01",
         "history": [
             "ioc/rix/ict/R1.0.2"
@@ -5083,8 +5083,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-plv-pdu-01",
-        "script": "/reg/g/pcds/epics/ioc/rix/ict/R1.0.2/build/iocBoot/ioc-rix-plv-pdu-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ict/R1.0.7/bin/rhel7-x86_64/ict"
+        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/rix/ioc-rix-ict/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-rix-mot-01",
