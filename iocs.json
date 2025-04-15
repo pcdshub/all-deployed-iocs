@@ -23515,7 +23515,7 @@
         "host": "ioc-xrt-misc01",
         "port": 35286,
         "dir": "/reg/g/pcds/epics-dev/iroque/xrt/ioc-xrt-pdu_snmp",
-        "alias": "Portable Rack Leviton PDU",
+        "alias": "Spectrometer Leviton PDU on Portable Rack",
         "history": [
             "/reg/g/pcds/epics-dev/spencera/xrt/Leviton"
         ],
