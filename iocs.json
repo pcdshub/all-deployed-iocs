@@ -23324,6 +23324,20 @@
         "binary": "/cds/group/pcds/epics/ioc/common/evr/R1.3.0/bin/linux-x86_64/evr"
     },
     {
+        "host": "ioc-xrt-evr01",
+        "port": 35286,
+        "dir": "/reg/g/pcds/epics-dev/iroque/xrt/ioc-xrt-pdu_snmp",
+        "alias": "Spectrometer Leviton PDU on Portable Rack",
+        "history": [
+            "/reg/g/pcds/epics-dev/spencera/xrt/Leviton"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
+        "name": "ioc-xrt-pwr-pr01",
+        "script": "/reg/g/pcds/epics-dev/iroque/xrt/ioc-xrt-pdu_snmp/build/iocBoot/ioc-xrt-pwr-pr01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
+    },
+    {
         "host": "ioc-xrt-hxx-motvac1",
         "port": 39152,
         "dir": "ioc/cxi/ims/R4.0.13",
@@ -23510,20 +23524,6 @@
         "name": "ioc-xrt-lev",
         "script": "/reg/g/pcds/epics/ioc/common/Leviton/R1.28.8/iocBoot/ioc-xrt-lev/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R1.28.8/bin/linux-x86_64/Leviton"
-    },
-    {
-        "host": "ioc-xrt-misc01",
-        "port": 35286,
-        "dir": "/reg/g/pcds/epics-dev/iroque/xrt/ioc-xrt-pdu_snmp",
-        "alias": "Spectrometer Leviton PDU on Portable Rack",
-        "history": [
-            "/reg/g/pcds/epics-dev/spencera/xrt/Leviton"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
-        "name": "ioc-xrt-pwr-pr01",
-        "script": "/reg/g/pcds/epics-dev/iroque/xrt/ioc-xrt-pdu_snmp/build/iocBoot/ioc-xrt-pwr-pr01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ioc-xrt-misc02",
