@@ -16238,20 +16238,6 @@
     },
     {
         "host": "ioc-mfx-cam01",
-        "port": 30008,
-        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam",
-        "alias": "CAM - Alvium Inline",
-        "history": [
-            "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-alvium02",
-        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam/build/iocBoot/ioc-mfx-alvium02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.1.0/bin/rhel7-x86_64/vimba"
-    },
-    {
-        "host": "ioc-mfx-cam01",
         "port": 30086,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/mfx/gigECam",
         "disable": true,
@@ -16501,6 +16487,20 @@
         "name": "ioc-mfx-usr-mmc-40",
         "script": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/mmc/build/iocBoot/ioc-mfx-usr-mmc-40/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/mmc/R1.0.5/bin/linux-x86_64/mmc"
+    },
+    {
+        "host": "ioc-mfx-cam02",
+        "port": 30008,
+        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam",
+        "alias": "CAM - Alvium Inline",
+        "history": [
+            "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-alvium02",
+        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam/build/iocBoot/ioc-mfx-alvium02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.1.0/bin/rhel7-x86_64/vimba"
     },
     {
         "host": "ioc-mfx-cam02",
