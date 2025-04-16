@@ -7318,8 +7318,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-ell-mspace",
-        "script": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-thorlabs-ell/children/build/iocBoot/ioc-tst-ell-mspace/st.cmd",
-        "binary": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-thorlabs-ell/bin/rhel9-x86_64/ell"
+        "script": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-thorlabs-ell/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tst-dev-03",
