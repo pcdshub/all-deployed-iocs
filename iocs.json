@@ -16500,6 +16500,17 @@
     },
     {
         "host": "ioc-mfx-cam02",
+        "port": 39101,
+        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam",
+        "alias": "CAM - Alvium Inline",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-alvium02",
+        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam/build/iocBoot/ioc-mfx-alvium02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.1.0/bin/rhel7-x86_64/vimba"
+    },
+    {
+        "host": "ioc-mfx-cam02",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/ioc-mfx-evr",
         "alias": "MISC - CAM02 EVR",
@@ -23333,9 +23344,7 @@
         "host": "ioc-xrt-evr01",
         "port": 39101,
         "dir": "/reg/g/pcds/epics-dev/iroque/xrt/ioc-xrt-pdu_snmp",
-        "history": [
-            "ioc/common/Leviton/R1.28.8"
-        ],
+        "alias": "ioc-xrt-lev",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-lev",
