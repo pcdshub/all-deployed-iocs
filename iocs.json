@@ -23350,7 +23350,6 @@
         "history": [
             "ioc/common/Leviton/R1.28.8"
         ],
-        "cmd": "../../bin/linux-x86_64/Leviton st.cmd",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-lev",
