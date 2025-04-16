@@ -23349,7 +23349,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-lev",
         "script": "/reg/g/pcds/epics-dev/iroque/xrt/ioc-xrt-pdu_snmp/build/iocBoot/ioc-xrt-lev/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R3.0.0/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ioc-xrt-evr01",
