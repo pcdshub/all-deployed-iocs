@@ -6890,8 +6890,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-lcls-dream-motion",
-        "script": "/reg/g/pcds/epics-dev/divyak/gitproject/lcls-plc-dream-motion/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divyak/gitproject/lcls-plc-dream-motion/iocBoot/ioc-lcls-dream-motion/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-tmo-mot-01",
@@ -23334,6 +23334,20 @@
     },
     {
         "host": "ioc-xrt-evr01",
+        "port": 39101,
+        "dir": "/reg/g/pcds/epics-dev/iroque/xrt/ioc-xrt-pdu_snmp",
+        "history": [
+            "ioc/common/Leviton/R1.28.8"
+        ],
+        "cmd": "../../bin/linux-x86_64/Leviton st.cmd",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
+        "name": "ioc-xrt-lev",
+        "script": "/reg/g/pcds/epics-dev/iroque/xrt/ioc-xrt-pdu_snmp/build/iocBoot/ioc-xrt-lev/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R3.0.0/bin/rhel7-x86_64/pdu"
+    },
+    {
+        "host": "ioc-xrt-evr01",
         "port": 35286,
         "dir": "/reg/g/pcds/epics-dev/iroque/xrt/ioc-xrt-pdu_snmp",
         "alias": "Spectrometer Leviton PDU on Portable Rack",
@@ -23344,7 +23358,7 @@
         "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
         "name": "ioc-xrt-pwr-pr01",
         "script": "/reg/g/pcds/epics-dev/iroque/xrt/ioc-xrt-pdu_snmp/build/iocBoot/ioc-xrt-pwr-pr01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R3.0.0/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ioc-xrt-hxx-motvac1",
@@ -23519,20 +23533,6 @@
         "name": "ioc-xcs-led04",
         "script": "/reg/g/pcds/epics/ioc/xcs/leds/R1.2.0/iocBoot/ioc-xcs-led04/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/xcs/leds/R1.2.0/bin/linux-x86_64/leds"
-    },
-    {
-        "host": "ioc-xrt-misc01",
-        "port": 39101,
-        "dir": "ioc/common/Leviton/R1.28.8",
-        "history": [
-            "ioc/common/Leviton/R1.28.8"
-        ],
-        "cmd": "../../bin/linux-x86_64/Leviton st.cmd",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
-        "name": "ioc-xrt-lev",
-        "script": "/reg/g/pcds/epics/ioc/common/Leviton/R1.28.8/iocBoot/ioc-xrt-lev/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R1.28.8/bin/linux-x86_64/Leviton"
     },
     {
         "host": "ioc-xrt-misc02",
