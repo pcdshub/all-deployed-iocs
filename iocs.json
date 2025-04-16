@@ -6779,12 +6779,12 @@
     {
         "host": "ctl-tmo-misc-01",
         "port": 39114,
-        "dir": "ioc/tmo/pdu_snmp/R2.4.7",
+        "dir": "/reg/g/pcds/epics-dev/tparas/ioc/tmo/ioc-tmo-pdu",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-pwr-r02",
-        "script": "/reg/g/pcds/epics/ioc/tmo/pdu_snmp/R2.4.7/build/iocBoot/ioc-tmo-pwr-r02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
+        "script": "/reg/g/pcds/epics-dev/tparas/ioc/tmo/ioc-tmo-pdu/build/iocBoot/ioc-tmo-pwr-r02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ctl-tmo-misc-01",
