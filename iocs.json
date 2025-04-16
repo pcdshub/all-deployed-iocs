@@ -16514,6 +16514,17 @@
     },
     {
         "host": "ioc-mfx-cam02",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/ioc-mfx-evr",
+        "alias": "MISC - CAM02 EVR",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-cam02-evr",
+        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/ioc-mfx-evr/build/iocBoot/ioc-mfx-cam02-evr/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/evr/R1.2.2/bin/linux-x86_64/evr"
+    },
+    {
+        "host": "ioc-mfx-cam02",
         "port": 34917,
         "dir": "ioc/mfx/gigECam/R0.5.5",
         "alias": "CAM - GigE 03",
