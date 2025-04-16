@@ -7318,8 +7318,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-ell-mspace",
-        "script": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-thorlabs-ell/children/build/iocBoot/ioc-tst-ell-mspace/st.cmd",
-        "binary": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-thorlabs-ell/bin/rhel9-x86_64/ell"
+        "script": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-thorlabs-ell/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tst-dev-03",
@@ -16247,18 +16247,6 @@
         "binary": "/cds/group/pcds/epics/ioc/common/wave8/R3.0.0/bin/rhel7-x86_64/wave8Ioc"
     },
     {
-        "host": "ioc-mec-wave8",
-        "port": 39101,
-        "dir": "/reg/g/pcds/epics-dev/iroque/xrt/ioc-xrt-pdu_snmp",
-        "disable": true,
-        "alias": "ioc-xrt-lev",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
-        "name": "ioc-xrt-lev",
-        "script": "/reg/g/pcds/epics-dev/iroque/xrt/ioc-xrt-pdu_snmp/build/iocBoot/ioc-xrt-lev/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R3.0.0/bin/rhel7-x86_64/pdu"
-    },
-    {
         "host": "ioc-mfx-cam01",
         "port": 30086,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/mfx/gigECam",
@@ -23539,6 +23527,17 @@
         "name": "ioc-xcs-led04",
         "script": "/reg/g/pcds/epics/ioc/xcs/leds/R1.2.0/iocBoot/ioc-xcs-led04/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/xcs/leds/R1.2.0/bin/linux-x86_64/leds"
+    },
+    {
+        "host": "ioc-xrt-misc01",
+        "port": 39101,
+        "dir": "ioc/common/Leviton/R2.4.2",
+        "alias": "ioc-xrt-lev",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xrt/iocmanager.cfg",
+        "name": "ioc-xrt-lev",
+        "script": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.2/iocBoot/ioc-xrt-lev/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.2/bin/linux-x86_64/Leviton"
     },
     {
         "host": "ioc-xrt-misc02",
