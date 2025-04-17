@@ -7266,16 +7266,6 @@
     },
     {
         "host": "ctl-tst-dev-02",
-        "port": 30003,
-        "dir": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-thorlabs-ell",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-ell-rhel7-mspace",
-        "script": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-thorlabs-ell/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ctl-tst-dev-02",
         "port": 30100,
         "dir": "/cds/home/z/zlentz/github/lcls-scan-gui",
         "history": [
@@ -7310,6 +7300,16 @@
         "name": "ioc-plc-tst",
         "script": "/cds/home/z/zlentz/github/lcls-plc-tst-ioc/iocBoot/ioc-plc-tst/st.cmd",
         "binary": "/cds/home/z/zlentz/github/ioc-common-ads-ioc/bin/rhel9-x86_64/adsIoc"
+    },
+    {
+        "host": "ctl-tst-dev-03",
+        "port": 30005,
+        "dir": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-thorlabs-ell",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-tst-ell-mspace",
+        "script": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-thorlabs-ell/children/build/iocBoot/ioc-tst-ell-mspace/st.cmd",
+        "binary": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-thorlabs-ell/bin/rhel9-x86_64/ell"
     },
     {
         "host": "ctl-tst-dev-03",
