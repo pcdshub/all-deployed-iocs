@@ -8264,7 +8264,7 @@
     {
         "host": "daq-rix-ccd-01",
         "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/archonCam/current",
+        "dir": "ioc/common/archonCam/R1.1.2",
         "alias": "QRIX STA CCD",
         "history": [
             "/reg/g/pcds/epics-dev/ddamiani/ioc/common/archonCam/current",
@@ -8273,8 +8273,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-archon1",
-        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/archonCam/current/children/build/iocBoot/ioc-qrix-archon1/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/ddamiani/ioc/common/archonCam/current/bin/rhel7-x86_64/archonTpr"
+        "script": "/reg/g/pcds/epics/ioc/common/archonCam/R1.1.2/children/build/iocBoot/ioc-qrix-archon1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/archonCam/R1.1.2/bin/rhel7-x86_64/archonTpr"
     },
     {
         "host": "daq-rix-ccd-01",
