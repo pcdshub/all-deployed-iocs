@@ -13365,12 +13365,12 @@
     {
         "host": "ioc-las-mec-srv06",
         "port": 30006,
-        "dir": "ioc/common/SDG_Elite/R1.1.1",
+        "dir": "ioc/common/SDG_Elite/R1.1.2",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-mec-sdg-01",
-        "script": "/reg/g/pcds/epics/ioc/common/SDG_Elite/R1.1.1/children/build/iocBoot/ioc-las-mec-sdg-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/SDG_Elite/R1.1.1/bin/rhel7-x86_64/sdg"
+        "script": "/reg/g/pcds/epics/ioc/common/SDG_Elite/R1.1.2/children/build/iocBoot/ioc-las-mec-sdg-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/SDG_Elite/R1.1.2/bin/rhel7-x86_64/sdg"
     },
     {
         "host": "ioc-las-mec-srv06",
