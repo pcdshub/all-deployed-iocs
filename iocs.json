@@ -15849,17 +15849,17 @@
     {
         "host": "ioc-mec-rec01",
         "port": 42042,
-        "dir": "ioc/mec/dg/R3.0.0",
+        "dir": "ioc/mec/dg/R3.1.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-delaygen-uxi",
-        "script": "/reg/g/pcds/epics/ioc/mec/dg/R3.0.0/build/iocBoot/ioc-mec-delaygen-uxi/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/dg/R3.0.0/bin/rhel7-x86_64/delaygenApp"
+        "script": "/reg/g/pcds/epics/ioc/mec/dg/R3.1.0/build/iocBoot/ioc-mec-delaygen-uxi/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/dg/R3.1.0/bin/rhel7-x86_64/delaygenApp"
     },
     {
         "host": "ioc-mec-rec01",
         "port": 36451,
-        "dir": "/cds/home/p/peregrin/git-ioc-mec-dg",
+        "dir": "ioc/mec/dg/R3.1.0",
         "history": [
             "ioc/common/dg/R1.0.7-0.2.0"
         ],
@@ -15867,13 +15867,23 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-delaygen1",
-        "script": "/cds/home/p/peregrin/git-ioc-mec-dg/build/iocBoot/ioc-mec-delaygen1/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/mec/dg/R3.1.0/build/iocBoot/ioc-mec-delaygen1/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/dg/R3.1.0/bin/rhel7-x86_64/delaygenApp"
+    },
+    {
+        "host": "ioc-mec-rec01",
+        "port": 42043,
+        "dir": "ioc/mec/dg/R3.1.0",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-delaygen10",
+        "script": "/reg/g/pcds/epics/ioc/mec/dg/R3.1.0/build/iocBoot/ioc-mec-delaygen10/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/dg/R3.1.0/bin/rhel7-x86_64/delaygenApp"
     },
     {
         "host": "ioc-mec-rec01",
         "port": 36452,
-        "dir": "ioc/mec/dg/R3.0.0",
+        "dir": "ioc/mec/dg/R3.1.0",
         "history": [
             "ioc/common/dg/R1.0.7-0.2.0"
         ],
@@ -15881,13 +15891,13 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-delaygen2",
-        "script": "/reg/g/pcds/epics/ioc/mec/dg/R3.0.0/build/iocBoot/ioc-mec-delaygen2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/dg/R3.0.0/bin/rhel7-x86_64/delaygenApp"
+        "script": "/reg/g/pcds/epics/ioc/mec/dg/R3.1.0/build/iocBoot/ioc-mec-delaygen2/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/dg/R3.1.0/bin/rhel7-x86_64/delaygenApp"
     },
     {
         "host": "ioc-mec-rec01",
         "port": 36453,
-        "dir": "ioc/mec/dg/R3.0.0",
+        "dir": "ioc/mec/dg/R3.1.0",
         "history": [
             "ioc/common/dg/R1.0.7-0.2.0"
         ],
@@ -15895,13 +15905,13 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-delaygen3",
-        "script": "/reg/g/pcds/epics/ioc/mec/dg/R3.0.0/build/iocBoot/ioc-mec-delaygen3/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/dg/R3.0.0/bin/rhel7-x86_64/delaygenApp"
+        "script": "/reg/g/pcds/epics/ioc/mec/dg/R3.1.0/build/iocBoot/ioc-mec-delaygen3/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/dg/R3.1.0/bin/rhel7-x86_64/delaygenApp"
     },
     {
         "host": "ioc-mec-rec01",
         "port": 36454,
-        "dir": "ioc/mec/dg/R3.0.0",
+        "dir": "ioc/mec/dg/R3.1.0",
         "history": [
             "ioc/common/dg/R1.0.7-0.2.0"
         ],
@@ -15909,13 +15919,13 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-delaygen4",
-        "script": "/reg/g/pcds/epics/ioc/mec/dg/R3.0.0/build/iocBoot/ioc-mec-delaygen4/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/dg/R3.0.0/bin/rhel7-x86_64/delaygenApp"
+        "script": "/reg/g/pcds/epics/ioc/mec/dg/R3.1.0/build/iocBoot/ioc-mec-delaygen4/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/dg/R3.1.0/bin/rhel7-x86_64/delaygenApp"
     },
     {
         "host": "ioc-mec-rec01",
         "port": 36455,
-        "dir": "ioc/mec/dg/R3.0.0",
+        "dir": "ioc/mec/dg/R3.1.0",
         "history": [
             "ioc/common/dg/R1.4.3",
             "ioc/common/dg/R1.0.7-0.2.0"
@@ -15924,13 +15934,13 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-delaygen5",
-        "script": "/reg/g/pcds/epics/ioc/mec/dg/R3.0.0/build/iocBoot/ioc-mec-delaygen5/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/dg/R3.0.0/bin/rhel7-x86_64/delaygenApp"
+        "script": "/reg/g/pcds/epics/ioc/mec/dg/R3.1.0/build/iocBoot/ioc-mec-delaygen5/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/dg/R3.1.0/bin/rhel7-x86_64/delaygenApp"
     },
     {
         "host": "ioc-mec-rec01",
         "port": 42039,
-        "dir": "ioc/mec/dg/R3.0.0",
+        "dir": "ioc/mec/dg/R3.1.0",
         "history": [
             "ioc/common/dg/R1.4.3"
         ],
@@ -15938,13 +15948,13 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-delaygen6",
-        "script": "/reg/g/pcds/epics/ioc/mec/dg/R3.0.0/build/iocBoot/ioc-mec-delaygen6/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/dg/R3.0.0/bin/rhel7-x86_64/delaygenApp"
+        "script": "/reg/g/pcds/epics/ioc/mec/dg/R3.1.0/build/iocBoot/ioc-mec-delaygen6/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/dg/R3.1.0/bin/rhel7-x86_64/delaygenApp"
     },
     {
         "host": "ioc-mec-rec01",
         "port": 42040,
-        "dir": "ioc/mec/dg/R3.0.0",
+        "dir": "ioc/mec/dg/R3.1.0",
         "alias": "zz - Delay Generator 7",
         "history": [
             "ioc/common/dg/R1.4.3"
@@ -15953,18 +15963,28 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-delaygen7",
-        "script": "/reg/g/pcds/epics/ioc/mec/dg/R3.0.0/build/iocBoot/ioc-mec-delaygen7/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/dg/R3.0.0/bin/rhel7-x86_64/delaygenApp"
+        "script": "/reg/g/pcds/epics/ioc/mec/dg/R3.1.0/build/iocBoot/ioc-mec-delaygen7/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/dg/R3.1.0/bin/rhel7-x86_64/delaygenApp"
     },
     {
         "host": "ioc-mec-rec01",
         "port": 42041,
-        "dir": "ioc/mec/dg/R3.0.0",
+        "dir": "ioc/mec/dg/R3.1.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-delaygen8",
-        "script": "/reg/g/pcds/epics/ioc/mec/dg/R3.0.0/build/iocBoot/ioc-mec-delaygen8/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/dg/R3.0.0/bin/rhel7-x86_64/delaygenApp"
+        "script": "/reg/g/pcds/epics/ioc/mec/dg/R3.1.0/build/iocBoot/ioc-mec-delaygen8/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/dg/R3.1.0/bin/rhel7-x86_64/delaygenApp"
+    },
+    {
+        "host": "ioc-mec-rec01",
+        "port": 42044,
+        "dir": "ioc/mec/dg/R3.1.0",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-delaygen9",
+        "script": "/reg/g/pcds/epics/ioc/mec/dg/R3.1.0/build/iocBoot/ioc-mec-delaygen9/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/dg/R3.1.0/bin/rhel7-x86_64/delaygenApp"
     },
     {
         "host": "ioc-mec-rec01",
