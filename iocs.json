@@ -15859,7 +15859,7 @@
     {
         "host": "ioc-mec-rec01",
         "port": 36451,
-        "dir": "ioc/mec/dg/R3.0.0",
+        "dir": "/cds/home/p/peregrin/git-ioc-mec-dg",
         "history": [
             "ioc/common/dg/R1.0.7-0.2.0"
         ],
@@ -15867,8 +15867,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-delaygen1",
-        "script": "/reg/g/pcds/epics/ioc/mec/dg/R3.0.0/build/iocBoot/ioc-mec-delaygen1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/dg/R3.0.0/bin/rhel7-x86_64/delaygenApp"
+        "script": "/cds/home/p/peregrin/git-ioc-mec-dg/build/iocBoot/ioc-mec-delaygen1/st.cmd",
+        "binary": "/cds/home/p/peregrin/git-ioc-common-dg/bin/rhel7-x86_64/delaygenApp"
     },
     {
         "host": "ioc-mec-rec01",
