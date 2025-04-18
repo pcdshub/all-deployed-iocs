@@ -16700,21 +16700,6 @@
     },
     {
         "host": "ioc-mfx-hera",
-        "port": 43923,
-        "dir": "ioc/mfx/smc100/R1.0.1",
-        "disable": true,
-        "alias": "HERA - Motion - Platform",
-        "history": [
-            "ioc/mfx/smc100/R1.0.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-hera-smc100",
-        "script": "/reg/g/pcds/epics/ioc/mfx/smc100/R1.0.1/build/iocBoot/ioc-mfx-hera-smc100/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smc100/R1.1.2/bin/rhel7-x86_64/smc100"
-    },
-    {
-        "host": "ioc-mfx-hera",
         "port": 43926,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/mmc",
         "disable": true,
@@ -17119,6 +17104,20 @@
         "name": "ioc-mfx-galil",
         "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/galil/iocBoot/ioc-mfx-galil/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/galil/bin/rhel7-x86_64/galil"
+    },
+    {
+        "host": "ioc-mfx-misc02",
+        "port": 43923,
+        "dir": "ioc/mfx/smc100/R1.0.1",
+        "alias": "HERA - Motion - Platform",
+        "history": [
+            "ioc/mfx/smc100/R1.0.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-hera-smc100",
+        "script": "/reg/g/pcds/epics/ioc/mfx/smc100/R1.0.1/build/iocBoot/ioc-mfx-hera-smc100/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smc100/R1.1.2/bin/rhel7-x86_64/smc100"
     },
     {
         "host": "ioc-mfx-misc02",
