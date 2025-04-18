@@ -15868,7 +15868,7 @@
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-delaygen1",
         "script": "/cds/home/p/peregrin/git-ioc-mec-dg/build/iocBoot/ioc-mec-delaygen1/st.cmd",
-        "binary": "/cds/home/p/peregrin/git-ioc-common-dg/bin/rhel7-x86_64/delaygenApp"
+        "binary": "/cds/group/pcds/epics/ioc/common/dg/R3.1.0/bin/rhel7-x86_64/delaygenApp"
     },
     {
         "host": "ioc-mec-rec01",
