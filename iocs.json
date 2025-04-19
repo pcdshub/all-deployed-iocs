@@ -16334,7 +16334,6 @@
         "host": "ioc-mfx-cam01",
         "port": 30010,
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam",
-        "disable": true,
         "alias": "CAM - GigE 08 - DoD",
         "history": [
             "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/gigECam"
