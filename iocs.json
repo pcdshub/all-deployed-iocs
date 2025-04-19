@@ -16303,7 +16303,6 @@
         "host": "ioc-mfx-cam01",
         "port": 30086,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/mfx/gigECam",
-        "disable": true,
         "alias": "CAM - GigE 01 - LIB",
         "history": [
             "/reg/g/pcds/epics-dev/divya/ioc/mfx/gigECam",
