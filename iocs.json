@@ -4666,6 +4666,7 @@
         "dir": "ioc/rix/ict/R1.1.0",
         "alias": "CRIXS ICT 02",
         "history": [
+            "ioc/rix/ict/R1.1.0",
             "ioc/rix/ict/R1.0.2"
         ],
         "base_version": "3.15",
@@ -5088,6 +5089,7 @@
         "dir": "ioc/rix/ict/R1.1.0",
         "alias": "R02 ICT 01",
         "history": [
+            "ioc/rix/ict/R1.1.0",
             "ioc/rix/ict/R1.0.2"
         ],
         "base_version": "3.15",
@@ -5102,6 +5104,7 @@
         "dir": "ioc/rix/ict/R1.1.0",
         "alias": "R02 ICT 02",
         "history": [
+            "ioc/rix/ict/R1.1.0",
             "ioc/rix/ict/R1.0.2"
         ],
         "base_version": "3.15",
@@ -5116,6 +5119,7 @@
         "dir": "ioc/rix/ict/R1.1.0",
         "alias": "R02 ICT 03",
         "history": [
+            "ioc/rix/ict/R1.1.0",
             "ioc/rix/ict/R1.0.2"
         ],
         "base_version": "3.15",
@@ -5130,6 +5134,7 @@
         "dir": "ioc/rix/ict/R1.1.0",
         "alias": "R02 ICT 04",
         "history": [
+            "ioc/rix/ict/R1.1.0",
             "ioc/rix/ict/R1.0.2"
         ],
         "base_version": "3.15",
@@ -5477,6 +5482,7 @@
         "dir": "ioc/rix/ict/R1.1.0",
         "alias": "QRIXS ICT 01",
         "history": [
+            "ioc/rix/ict/R1.1.0",
             "ioc/rix/ict/R1.0.2"
         ],
         "base_version": "3.15",
@@ -5491,6 +5497,7 @@
         "dir": "ioc/rix/ict/R1.1.0",
         "alias": "QRIXS ICT 02",
         "history": [
+            "ioc/rix/ict/R1.1.0",
             "ioc/rix/ict/R1.0.2"
         ],
         "base_version": "3.15",
@@ -5636,6 +5643,7 @@
         "dir": "ioc/rix/ict/R1.1.0",
         "alias": "CRIXS ICT 01",
         "history": [
+            "ioc/rix/ict/R1.1.0",
             "ioc/rix/ict/R1.0.2"
         ],
         "base_version": "3.15",
@@ -5822,6 +5830,9 @@
         "port": 39106,
         "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/thermotek",
         "alias": "SVLS Chiller",
+        "history": [
+            "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/thermotek"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-thermotek-04",
@@ -8288,6 +8299,7 @@
         "dir": "ioc/common/archonCam/R1.1.2",
         "alias": "QRIX STA CCD",
         "history": [
+            "ioc/common/archonCam/R1.1.2",
             "/reg/g/pcds/epics-dev/ddamiani/ioc/common/archonCam/current",
             "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-common-archonCam"
         ],
