@@ -8814,8 +8814,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-alv-01",
-        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/vimbaCam/current/children/build/iocBoot/ioc-cxi-alv-01/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/ddamiani/ioc/common/vimbaCam/current/bin/rhel7-x86_64/vimbaTpr"
+        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/vimbaCam/current/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-cxi-cam2",
@@ -16557,8 +16557,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-alvium02",
-        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/vimbaCam/current/children/build/iocBoot/ioc-mfx-alvium02/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/ddamiani/ioc/common/vimbaCam/current/bin/rhel7-x86_64/vimba"
+        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/vimbaCam/current/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-mfx-cam02",
