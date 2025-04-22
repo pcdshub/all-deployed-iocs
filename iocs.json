@@ -7369,8 +7369,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-gigecam-mspace",
-        "script": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-gigECam/children/build/iocBoot/ioc-tst-gigecam-mspace/st.cmd",
-        "binary": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-gigECam/bin/rhel9-x86_64/gigeTpr"
+        "script": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-gigECam/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tst-dev-03",
