@@ -4586,6 +4586,7 @@
         "host": "ctl-rix-crix-cam-03",
         "port": 30002,
         "dir": "ioc/rix/tprStandalone/R1.2.1",
+        "disable": true,
         "alias": "CRIX TPR 3",
         "history": [
             "ioc/rix/tprStandalone/R1.2.1"
