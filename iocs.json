@@ -7572,6 +7572,16 @@
     },
     {
         "host": "ctl-txi-misc-01",
+        "port": 39103,
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/txi/picoMotion",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
+        "name": "ioc-mcp-txi-al1k3",
+        "script": "/reg/g/pcds/epics-dev/jozamudi/txi/picoMotion/build/iocBoot/ioc-mcp-txi-al1k3/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/picoMotion/R4.0.1/bin/rhel7-x86_64/motion"
+    },
+    {
+        "host": "ctl-txi-misc-01",
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-test-m3k3-m4k3-m2l1-m3l1-sat",
         "base_version": "3.15",
