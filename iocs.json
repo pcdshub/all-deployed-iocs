@@ -3380,7 +3380,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lln-mcs2-01",
         "script": "/cds/group/pcds/epics-dev/aberges/mods/mods-LRL/lln/smaract/build/iocBoot/ioc-lln-mcs2-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.25/bin/rhel7-x86_64/smaract"
+        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.26/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-lln-01",
@@ -3727,12 +3727,12 @@
     {
         "host": "ctl-las-xcs-srv01",
         "port": 30005,
-        "dir": "ioc/common/SDG_Elite/R1.1.1",
+        "dir": "ioc/common/SDG_Elite/R1.1.2",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-xcs-sdg-01",
-        "script": "/reg/g/pcds/epics/ioc/common/SDG_Elite/R1.1.1/children/build/iocBoot/ioc-las-xcs-sdg-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/SDG_Elite/R1.1.1/bin/rhel7-x86_64/sdg"
+        "script": "/reg/g/pcds/epics/ioc/common/SDG_Elite/R1.1.2/children/build/iocBoot/ioc-las-xcs-sdg-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/SDG_Elite/R1.1.2/bin/rhel7-x86_64/sdg"
     },
     {
         "host": "ctl-las-xcs-srv01",
@@ -7733,7 +7733,6 @@
         "host": "ctl-ued-cam-01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/baljamal/ioc/common/andorCam",
-        "disable": true,
         "alias": "ioc-ued-andor-01",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
@@ -13215,12 +13214,12 @@
     {
         "host": "ioc-las-cxi-srv05",
         "port": 30003,
-        "dir": "ioc/common/SDG_Elite/R1.1.1",
+        "dir": "ioc/common/SDG_Elite/R1.1.2",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-cxi-sdg-01",
-        "script": "/reg/g/pcds/epics/ioc/common/SDG_Elite/R1.1.1/children/build/iocBoot/ioc-las-cxi-sdg-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/SDG_Elite/R1.1.1/bin/rhel7-x86_64/sdg"
+        "script": "/reg/g/pcds/epics/ioc/common/SDG_Elite/R1.1.2/children/build/iocBoot/ioc-las-cxi-sdg-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/SDG_Elite/R1.1.2/bin/rhel7-x86_64/sdg"
     },
     {
         "host": "ioc-las-cxi-srv05",
@@ -13548,12 +13547,12 @@
     {
         "host": "ioc-las-mfx-srv45",
         "port": 30002,
-        "dir": "ioc/common/SDG_Elite/R1.1.1",
+        "dir": "ioc/common/SDG_Elite/R1.1.2",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-mfx-sdg-01",
-        "script": "/reg/g/pcds/epics/ioc/common/SDG_Elite/R1.1.1/children/build/iocBoot/ioc-las-mfx-sdg-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/SDG_Elite/R1.1.1/bin/rhel7-x86_64/sdg"
+        "script": "/reg/g/pcds/epics/ioc/common/SDG_Elite/R1.1.2/children/build/iocBoot/ioc-las-mfx-sdg-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/SDG_Elite/R1.1.2/bin/rhel7-x86_64/sdg"
     },
     {
         "host": "ioc-las-mfx-srv45",
