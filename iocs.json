@@ -4596,7 +4596,6 @@
         "host": "ctl-rix-crix-cam-03",
         "port": 30002,
         "dir": "ioc/rix/tprStandalone/R1.2.1",
-        "disable": true,
         "alias": "CRIX TPR 3",
         "history": [
             "ioc/rix/tprStandalone/R1.2.1"
@@ -4610,7 +4609,7 @@
     {
         "host": "ctl-rix-crix-cam-03",
         "port": 30007,
-        "dir": "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/euresysCam-git",
+        "dir": "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/test/euresysCam-git",
         "history": [
             "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/test/euresysCam-git",
             "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/euresysCam-git",
@@ -4619,8 +4618,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-euresys",
-        "script": "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/euresysCam-git/children/build/iocBoot/ioc-rix-euresys/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/ktkim/sandbox/areaDetector/euresysCam-git/bin/rhel7-x86_64/euresysTpr"
+        "script": "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/test/euresysCam-git/children/build/iocBoot/ioc-rix-euresys/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/ktkim/sandbox/areaDetector/test/euresysCam-git/bin/rhel7-x86_64/euresysTpr"
     },
     {
         "host": "ctl-rix-crix-mot-01",
@@ -17408,6 +17407,16 @@
         "name": "ioc-mfx-thermotek-01",
         "script": "/reg/g/pcds/epics/ioc/mfx/thermotek/R1.0.0/build/iocBoot/ioc-mfx-thermotek-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.6/bin/rhel7-x86_64/thermotek"
+    },
+    {
+        "host": "ioc-mfx-misc02",
+        "port": 31008,
+        "dir": "/reg/g/pcds/epics-dev/zlentz/ioc/mfx/pvNotepad",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-undpointPV",
+        "script": "/reg/g/pcds/epics-dev/zlentz/ioc/mfx/pvNotepad/build/iocBoot/ioc-mfx-undpointPV/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
     },
     {
         "host": "ioc-mfx-misc02",
