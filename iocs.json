@@ -524,12 +524,12 @@
     {
         "host": "ctl-kfe-misc-01",
         "port": 30023,
-        "dir": "/reg/g/pcds/epics-dev/janezg/kfe/thermocon",
+        "dir": "/reg/g/pcds/epics/ioc/kfe/thermocon/build/iocBoot/ioc-sp1k1-thermocon/",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-sp1k1-thermocon",
-        "script": "/reg/g/pcds/epics-dev/janezg/kfe/thermocon/build/iocBoot/ioc-sp1k1-thermocon/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-thermocon/bin/rhel7-x86_64/thermocon"
+        "script": "/reg/g/pcds/epics/ioc/kfe/thermocon/build/iocBoot/ioc-sp1k1-thermocon/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thermocon/R3.0.0/bin/rhel7-x86_64/thermocon"
     },
     {
         "host": "ctl-kfe-misc-01",
