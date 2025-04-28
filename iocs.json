@@ -16596,7 +16596,6 @@
         "host": "ioc-mfx-cam02",
         "port": 39102,
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam",
-        "disable": true,
         "alias": "CAM - Alvium TZero",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
