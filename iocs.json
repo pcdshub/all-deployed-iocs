@@ -1305,6 +1305,16 @@
         "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.1.5/bin/rhel7-x86_64/tpr"
     },
     {
+        "host": "ctl-las-crix-srv07",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/las/pvNotepad",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-rix-pcdsdevices",
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/las/pvNotepad/build/iocBoot/ioc-las-rix-pcdsdevices/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
+    },
+    {
         "host": "ctl-las-ftl-sp01",
         "port": 30010,
         "dir": "ioc/common/locker_manager/R0.13.0",
