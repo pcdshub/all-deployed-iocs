@@ -20443,6 +20443,17 @@
     },
     {
         "host": "ioc-xcs-snd",
+        "port": 39100,
+        "dir": "ioc/common/aerotech/R1.0.6",
+        "alias": "SND - Ensemble Motors C",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xcs-ensemble-c",
+        "script": "/reg/g/pcds/epics/ioc/common/aerotech/R1.0.6/children/build/iocBoot/ioc-xcs-ensemble-c/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/aerotech/R1.0.6/bin/linux-x86/aerotech"
+    },
+    {
+        "host": "ioc-xcs-snd",
         "port": 42097,
         "dir": "ioc/xcs/sndBhc/R1.0.0",
         "alias": "SND - Beckhoff IO",
