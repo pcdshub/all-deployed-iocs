@@ -6991,7 +6991,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-ip2",
         "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-interlock/build/iocBoot/ioc-tmo-ip2/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/interlock/R1.0.0/bin/rhel7-x86_64/interlock"
+        "binary": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-interlock/bin/rhel7-x86_64/interlock"
     },
     {
         "host": "ctl-tmo-mot-01",
