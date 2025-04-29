@@ -123,14 +123,14 @@
     {
         "host": "ctl-kfe-cam-02",
         "port": 39109,
-        "dir": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.6/children/build/iocBoot/ioc-kfe-alv1/",
+        "dir": "ioc/common/vimbaCam/R1.0.6/children/build/iocBoot/ioc-im1k0-alv",
         "history": [
             "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.6/children/build/iocBoot/ioc-kfe-alv1/"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-im1k0-alv",
-        "script": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.6/children/build/iocBoot/ioc-kfe-alv1/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.6/children/build/iocBoot/ioc-im1k0-alv/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.0.6/bin/rhel7-x86_64/vimba"
     },
     {
@@ -5017,7 +5017,7 @@
     {
         "host": "ctl-rix-mot-01",
         "port": 30400,
-        "dir": "ioc/rix/lcls-plc-crixs-motion/v2.3.1/lcls-plc-crixs-motion",
+        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/rix/lcls-plc-crixs-motion/lcls-plc-crixs-motion",
         "alias": "CRIXS Motion PLC IOC",
         "history": [
             "ioc/rix/lcls-plc-crixs-motion/v2.3.1/lcls-plc-crixs-motion",
@@ -5027,7 +5027,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-PLC-CRIX-MOT",
-        "script": "/reg/g/pcds/epics/ioc/rix/lcls-plc-crixs-motion/v2.3.1/lcls-plc-crixs-motion/iocBoot/ioc-PLC-CRIX-MOT/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/rix/lcls-plc-crixs-motion/lcls-plc-crixs-motion/iocBoot/ioc-PLC-CRIX-MOT/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
@@ -8241,6 +8241,7 @@
         "host": "daq-mfx-tpr1",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam",
+        "disable": true,
         "alias": "CAM - Alvium TimeTool",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
