@@ -19230,7 +19230,6 @@
         "host": "ioc-xcs-misc2",
         "port": 30483,
         "dir": "ioc/xcs/usr-6axis-mmc-01/R1.0.1",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-usr-6axis-mmc-01",
