@@ -6984,13 +6984,13 @@
     },
     {
         "host": "ctl-tmo-mot-01",
-        "port": 39106,
+        "port": 39107,
         "dir": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-interlock",
-        "alias": "ioc-tmo-ip2",
+        "alias": "ioc-tmo-ip2-ilk",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-tmo-ip2",
-        "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-interlock/build/iocBoot/ioc-tmo-ip2/st.cmd",
+        "name": "ioc-tmo-ip2-ilk",
+        "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-interlock/build/iocBoot/ioc-tmo-ip2-ilk/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-interlock/bin/rhel7-x86_64/interlock"
     },
     {
