@@ -6938,6 +6938,7 @@
         "host": "ctl-tmo-mot-01",
         "port": 39101,
         "dir": "/reg/g/pcds/epics-dev/divyak/gitproject/lcls-plc-dream-motion",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-lcls-dream-motion",
