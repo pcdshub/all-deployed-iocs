@@ -13,6 +13,20 @@
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.8.0/bin/rhel7-x86_64/adsIoc"
     },
     {
+        "host": "ctl-crix-cam-01",
+        "port": 33005,
+        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/ioc-rix-calc",
+        "alias": "RIX Misc Calculator",
+        "history": [
+            "/reg/g/pcds/epics-dev/wwright8/ioc/rix/ioc-rix-calc"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-calc",
+        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/ioc-rix-calc/st.cmd",
+        "binary": "/usr/bin/env bash"
+    },
+    {
         "host": "ctl-hpl-srv01",
         "port": 30015,
         "dir": "/cds/home/t/tjohnson/trunk/common/agilent5322",
@@ -4899,7 +4913,7 @@
     {
         "host": "ctl-rix-crix-vac-01",
         "port": 31000,
-        "dir": "/reg/g/pcds/epics-dev/tparas/plc/rix/lcls-plc-crixs-vac/lcls-plc-crix-vac",
+        "dir": "/reg/g/pcds/epics-dev/jjoshi/test/lcls-plc-crixs-vac/lcls-plc-crix-vac",
         "alias": "CRIXS Vacuum PLC IOC",
         "history": [
             "/reg/g/pcds/epics-dev/tparas/plc/rix/lcls-plc-crixs-vac/lcls-plc-crix-vac",
@@ -4910,7 +4924,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-PLC-CRIX-VAC",
-        "script": "/reg/g/pcds/epics-dev/tparas/plc/rix/lcls-plc-crixs-vac/lcls-plc-crix-vac/iocBoot/ioc-PLC-CRIX-VAC/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/jjoshi/test/lcls-plc-crixs-vac/lcls-plc-crix-vac/iocBoot/ioc-PLC-CRIX-VAC/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R1.0.0/bin/rhel7-x86_64/adsIoc"
     },
     {
@@ -5355,7 +5369,7 @@
     {
         "host": "ctl-rix-qrix-cam-02",
         "port": 30002,
-        "dir": "ioc/rix/gigECam/R2.3.0",
+        "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-gigECam",
         "alias": "QRIX GIGE 05",
         "history": [
             "ioc/rix/gigECam/R2.3.0"
@@ -5363,13 +5377,13 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-gige-05",
-        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.3.0/build/iocBoot/ioc-qrix-gige-05/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-gigECam/build/iocBoot/ioc-qrix-gige-05/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-rix-qrix-cam-02",
         "port": 30005,
-        "dir": "ioc/rix/gigECam/R2.3.0",
+        "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-gigECam",
         "alias": "QRIX GIGE 06",
         "history": [
             "ioc/rix/gigECam/R2.3.0"
@@ -5377,13 +5391,13 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-gige-06",
-        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.3.0/build/iocBoot/ioc-qrix-gige-06/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-gigECam/build/iocBoot/ioc-qrix-gige-06/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-rix-qrix-cam-02",
         "port": 39100,
-        "dir": "ioc/rix/gigECam/R2.3.0",
+        "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-gigECam",
         "alias": "QRIX GIGE 07",
         "history": [
             "ioc/rix/gigECam/R2.3.0"
@@ -5391,13 +5405,13 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-gige-07",
-        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.3.0/build/iocBoot/ioc-qrix-gige-07/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-gigECam/build/iocBoot/ioc-qrix-gige-07/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-rix-qrix-cam-02",
         "port": 39101,
-        "dir": "ioc/rix/gigECam/R2.3.0",
+        "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-gigECam",
         "alias": "QRIX GIGE 08",
         "history": [
             "ioc/rix/gigECam/R2.3.0"
@@ -5405,7 +5419,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-qrix-gige-08",
-        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.3.0/build/iocBoot/ioc-qrix-gige-08/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-gigECam/build/iocBoot/ioc-qrix-gige-08/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
@@ -5552,20 +5566,6 @@
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-at1k2-calc",
         "script": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/ioc-rix-at1k2-calc/st.cmd",
-        "binary": "/usr/bin/env bash"
-    },
-    {
-        "host": "ctl-rix-qrix-mot-01",
-        "port": 33005,
-        "dir": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/ioc-rix-calc",
-        "alias": "RIX Misc Calculator",
-        "history": [
-            "/reg/g/pcds/epics-dev/wwright8/ioc/rix/ioc-rix-calc"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-rix-calc",
-        "script": "/reg/g/pcds/epics-dev/wwright8/ioc/rix/ioc-rix-calc/st.cmd",
         "binary": "/usr/bin/env bash"
     },
     {
