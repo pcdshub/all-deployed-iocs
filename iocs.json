@@ -17887,6 +17887,17 @@
     },
     {
         "host": "ioc-mfx-usr01",
+        "port": 30002,
+        "dir": "ioc/mfx/detectorprotection/R3.0.0",
+        "alias": "DET- Jungfrau16M Protection",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-jf16m-blocker",
+        "script": "/reg/g/pcds/epics/ioc/mfx/detectorprotection/R3.0.0/build/iocBoot/ioc-mfx-jf16m-blocker/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/detectorprotection/R3.0.0/bin/rhel7-x86_64/detprot"
+    },
+    {
+        "host": "ioc-mfx-usr01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/nrw/iocs/mfx/ioc-mfx-lauda-01",
         "base_version": "3.15",
