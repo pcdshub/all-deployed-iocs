@@ -19022,23 +19022,23 @@
     {
         "host": "ioc-ued-ccd01",
         "port": 39105,
-        "dir": "/reg/g/pcds/epics-dev/iroque/ioc-ued-NewportXPS8",
+        "dir": "ioc/ued/NewportXPS8/R1.1.0",
         "alias": "mcn-ued-05",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-xps-05",
-        "script": "/reg/g/pcds/epics-dev/iroque/ioc-ued-NewportXPS8/build/iocBoot/ioc-ued-xps-05/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/ued/NewportXPS8/R1.1.0/build/iocBoot/ioc-ued-xps-05/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.2.0/bin/rhel7-x86_64/xps8"
     },
     {
         "host": "ioc-ued-ccd01",
         "port": 39106,
-        "dir": "/reg/g/pcds/epics-dev/iroque/ioc-ued-NewportXPS8",
+        "dir": "ioc/ued/NewportXPS8/R1.1.0",
         "alias": "mcn-ued-06",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-xps-06",
-        "script": "/reg/g/pcds/epics-dev/iroque/ioc-ued-NewportXPS8/build/iocBoot/ioc-ued-xps-06/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/ued/NewportXPS8/R1.1.0/build/iocBoot/ioc-ued-xps-06/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.2.0/bin/rhel7-x86_64/xps8"
     },
     {
@@ -19056,12 +19056,12 @@
     {
         "host": "ioc-ued-ccd01",
         "port": 39108,
-        "dir": "/reg/g/pcds/epics-dev/iroque/ioc-ued-NewportXPS8",
+        "dir": "ioc/ued/NewportXPS8/R1.1.0",
         "alias": "mcn-ued-08",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-xps-08",
-        "script": "/reg/g/pcds/epics-dev/iroque/ioc-ued-NewportXPS8/build/iocBoot/ioc-ued-xps-08/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/ued/NewportXPS8/R1.1.0/build/iocBoot/ioc-ued-xps-08/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.2.0/bin/rhel7-x86_64/xps8"
     },
     {
