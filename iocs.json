@@ -18502,6 +18502,7 @@
         "host": "ioc-ued-ccd01",
         "port": 30003,
         "dir": "ioc/ued/smaract/R1.0.0",
+        "alias": "mcs-ued-01",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-mcs1",
