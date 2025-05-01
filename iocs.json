@@ -18883,13 +18883,13 @@
     {
         "host": "ioc-ued-ccd01",
         "port": 30003,
-        "dir": "ioc/ued/smaract/R1.0.0",
+        "dir": "/reg/g/pcds/epics-dev/iroque/ued/ioc-ued-smaract",
         "alias": "mcs-ued-01",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-mcs1",
-        "script": "/reg/g/pcds/epics/ioc/ued/smaract/R1.0.0/build/iocBoot/ioc-ued-mcs1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.8/bin/rhel7-x86_64/smaract"
+        "script": "/reg/g/pcds/epics-dev/iroque/ued/ioc-ued-smaract/build/iocBoot/ioc-ued-mcs1/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.27/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ioc-ued-ccd01",
