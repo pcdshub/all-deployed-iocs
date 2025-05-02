@@ -4621,6 +4621,9 @@
         "port": 39103,
         "dir": "/reg/g/pcds/epics-dev/jozamudi/rix/thorlabs-ell",
         "alias": "CRIX THORLAB ELL 01",
+        "history": [
+            "/reg/g/pcds/epics-dev/jozamudi/rix/thorlabs-ell"
+        ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-crix-ell-01",
@@ -4644,7 +4647,7 @@
     {
         "host": "ctl-rix-crix-cam-03",
         "port": 30007,
-        "dir": "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/test/euresysCam-git",
+        "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/euresysCam-git",
         "history": [
             "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/test/euresysCam-git",
             "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/euresysCam-git",
@@ -4653,8 +4656,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-euresys",
-        "script": "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/test/euresysCam-git/children/build/iocBoot/ioc-rix-euresys/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/ktkim/sandbox/areaDetector/test/euresysCam-git/bin/rhel7-x86_64/euresysTpr"
+        "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/euresysCam-git/children/build/iocBoot/ioc-rix-euresys/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/euresysCam-git/bin/rhel7-x86_64/euresysTpr"
     },
     {
         "host": "ctl-rix-crix-mot-01",
@@ -4740,6 +4743,7 @@
         "dir": "ioc/rix/smaract/R1.1.0",
         "alias": "CRIXS Smaract SVLS",
         "history": [
+            "ioc/rix/smaract/R1.1.0",
             "/reg/g/pcds/epics-dev/ctsoi/ioc/rix/ioc-rix-smaract"
         ],
         "base_version": "3.15",
@@ -4927,6 +4931,7 @@
         "dir": "ioc/rix/lcls-plc-crixs-vac/v3.0.0/lcls-plc-crix-vac",
         "alias": "CRIXS Vacuum PLC IOC",
         "history": [
+            "ioc/rix/lcls-plc-crixs-vac/v3.0.0/lcls-plc-crix-vac",
             "/reg/g/pcds/epics-dev/tparas/plc/rix/lcls-plc-crixs-vac/lcls-plc-crix-vac",
             "ioc/rix/lcls-plc-crixs-vac/v1.5.1/lcls-plc-crix-vac",
             "/reg/g/pcds/epics-dev/wwright/ioc/rix/plcprojects/lcls-plc-crixs-vac/lcls-plc-crix-vac",
@@ -5045,6 +5050,7 @@
         "dir": "ioc/rixs/lcls-plc-crixs-motion/v2.4.0/lcls-plc-crixs-motion",
         "alias": "CRIXS Motion PLC IOC",
         "history": [
+            "ioc/rixs/lcls-plc-crixs-motion/v2.4.0/lcls-plc-crixs-motion",
             "ioc/rix/lcls-plc-crixs-motion/v2.3.1/lcls-plc-crixs-motion",
             "ioc/rix/lcls-plc-crixs-motion/v1.9.0/lcls-plc-crixs-motion",
             "ioc/rix/lcls-plc-crixs-motion/v1.3.0/lcls-plc-crixs-motion"
@@ -5283,6 +5289,7 @@
         "dir": "ioc/rix/gigECam/R5.0.4",
         "alias": "QRIX GIGE 01",
         "history": [
+            "ioc/rix/gigECam/R5.0.4",
             "ioc/rix/gigECam/R2.3.0",
             "ioc/rix/gigECam/R2.0.0"
         ],
@@ -5298,6 +5305,7 @@
         "dir": "ioc/rix/gigECam/R5.0.4",
         "alias": "QRIX GIGE 02",
         "history": [
+            "ioc/rix/gigECam/R5.0.4",
             "ioc/rix/gigECam/R2.3.0",
             "ioc/rix/gigECam/R2.0.0"
         ],
@@ -5313,6 +5321,7 @@
         "dir": "ioc/rix/gigECam/R5.0.4",
         "alias": "QRIX GIGE 03",
         "history": [
+            "ioc/rix/gigECam/R5.0.4",
             "ioc/rix/gigECam/R2.3.0"
         ],
         "base_version": "3.15",
@@ -5327,6 +5336,7 @@
         "dir": "ioc/rix/gigECam/R5.0.4",
         "alias": "QRIX GIGE 04",
         "history": [
+            "ioc/rix/gigECam/R5.0.4",
             "ioc/rix/gigECam/R2.3.0"
         ],
         "base_version": "3.15",
@@ -5383,6 +5393,7 @@
         "dir": "ioc/rix/gigECam/R5.0.4",
         "alias": "QRIX GIGE 05",
         "history": [
+            "ioc/rix/gigECam/R5.0.4",
             "ioc/rix/gigECam/R2.3.0"
         ],
         "base_version": "3.15",
@@ -5397,6 +5408,7 @@
         "dir": "ioc/rix/gigECam/R5.0.4",
         "alias": "QRIX GIGE 06",
         "history": [
+            "ioc/rix/gigECam/R5.0.4",
             "ioc/rix/gigECam/R2.3.0"
         ],
         "base_version": "3.15",
@@ -5411,6 +5423,7 @@
         "dir": "ioc/rix/gigECam/R5.0.4",
         "alias": "QRIX GIGE 07",
         "history": [
+            "ioc/rix/gigECam/R5.0.4",
             "ioc/rix/gigECam/R2.3.0"
         ],
         "base_version": "3.15",
@@ -5425,6 +5438,7 @@
         "dir": "ioc/rix/gigECam/R5.0.4",
         "alias": "QRIX GIGE 08",
         "history": [
+            "ioc/rix/gigECam/R5.0.4",
             "ioc/rix/gigECam/R2.3.0"
         ],
         "base_version": "3.15",
