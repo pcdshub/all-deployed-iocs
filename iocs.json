@@ -4445,6 +4445,20 @@
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
+        "host": "ctl-rix-cam-04",
+        "port": 30004,
+        "dir": "ioc/rix/gigECam/R2.3.0",
+        "alias": "TM1K2 GIGE",
+        "history": [
+            "ioc/rix/gigECam/R2.3.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-tm1k2-gige-01",
+        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.3.0/build/iocBoot/ioc-tm1k2-gige-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
+    },
+    {
         "host": "ctl-rix-crix-cam-01",
         "port": 30001,
         "dir": "ioc/rix/gigECam/R2.3.0",
@@ -5271,20 +5285,6 @@
     },
     {
         "host": "ctl-rix-qrix-cam-01",
-        "port": 39101,
-        "dir": "/reg/g/pcds/epics-dev/opperman/iocs/rix/cryotel",
-        "alias": "QRIX Cryotelioc-qrix-cryo-01",
-        "history": [
-            "/reg/g/pcds/epics-dev/opperman/iocs/rix/cryotel"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-qrix-cryo-01",
-        "script": "/reg/g/pcds/epics-dev/opperman/iocs/rix/cryotel/children/build/iocBoot/ioc-qrix-cryo-01/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/opperman/iocs/rix/cryotel/bin/rhel7-x86_64/cryotel"
-    },
-    {
-        "host": "ctl-rix-qrix-cam-01",
         "port": 34000,
         "dir": "ioc/rix/gigECam/R5.0.4",
         "alias": "QRIX GIGE 01",
@@ -5358,34 +5358,6 @@
         "name": "ioc-qrix-tpr1",
         "script": "/reg/g/pcds/epics/ioc/rix/tprStandalone/R1.2.0/build/iocBoot/ioc-qrix-tpr1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.2.0/bin/rhel7-x86_64/tpr"
-    },
-    {
-        "host": "ctl-rix-qrix-cam-01",
-        "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/thermotek",
-        "alias": "ioc-rix-thermotek-01",
-        "history": [
-            "/reg/g/pcds/epics-dev/opperman/rix/ioc/thermotek"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-rix-thermotek-01",
-        "script": "/reg/g/pcds/epics-dev/opperman/rix/ioc/thermotek/build/iocBoot/ioc-rix-thermotek-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.7/bin/rhel7-x86_64/thermotek"
-    },
-    {
-        "host": "ctl-rix-qrix-cam-01",
-        "port": 30004,
-        "dir": "ioc/rix/gigECam/R2.3.0",
-        "alias": "TM1K2 GIGE",
-        "history": [
-            "ioc/rix/gigECam/R2.3.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
-        "name": "ioc-tm1k2-gige-01",
-        "script": "/reg/g/pcds/epics/ioc/rix/gigECam/R2.3.0/build/iocBoot/ioc-tm1k2-gige-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ctl-rix-qrix-cam-02",
@@ -8414,6 +8386,20 @@
     },
     {
         "host": "daq-rix-ccd-01",
+        "port": 39092,
+        "dir": "/reg/g/pcds/epics-dev/opperman/iocs/rix/cryotel",
+        "alias": "QRIX Cryotelioc-qrix-cryo-01",
+        "history": [
+            "/reg/g/pcds/epics-dev/opperman/iocs/rix/cryotel"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-qrix-cryo-01",
+        "script": "/reg/g/pcds/epics-dev/opperman/iocs/rix/cryotel/children/build/iocBoot/ioc-qrix-cryo-01/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/opperman/iocs/rix/cryotel/bin/rhel7-x86_64/cryotel"
+    },
+    {
+        "host": "daq-rix-ccd-01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/dorlhiac/ioc/rix/ioc-rix-vimbaCam",
         "alias": "QRIX Alvium",
@@ -8452,6 +8438,20 @@
         "name": "ioc-rix-ccd-tpr1",
         "script": "/reg/g/pcds/epics/ioc/rix/tprStandalone/R1.2.0/build/iocBoot/ioc-rix-ccd-tpr1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.2.0/bin/rhel7-x86_64/tpr"
+    },
+    {
+        "host": "daq-rix-ccd-01",
+        "port": 39099,
+        "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/thermotek",
+        "alias": "ioc-rix-thermotek-01",
+        "history": [
+            "/reg/g/pcds/epics-dev/opperman/rix/ioc/thermotek"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-thermotek-01",
+        "script": "/reg/g/pcds/epics-dev/opperman/rix/ioc/thermotek/build/iocBoot/ioc-rix-thermotek-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.7/bin/rhel7-x86_64/thermotek"
     },
     {
         "host": "daq-tmo-andor-01",
