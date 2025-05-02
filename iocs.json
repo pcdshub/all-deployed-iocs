@@ -3559,6 +3559,16 @@
         "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
     },
     {
+        "host": "ctl-las-lln-03",
+        "port": 30006,
+        "dir": "/cds/home/t/tjohnson/trunk/modules/laserLocker",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "sioc-las-lln-ls01",
+        "script": "/cds/home/t/tjohnson/trunk/modules/laserLocker/iocBoot/sioc-las-lln-ls01/st.cmd",
+        "binary": "/cds/home/t/tjohnson/trunk/modules/laserLocker/bin/rhel7-x86_64/laserLocker"
+    },
+    {
         "host": "ctl-las-qrixs-srv01",
         "port": 30005,
         "dir": "/reg/g/pcds/epics-dev/mods/lm1k2/inj/gigECam",
