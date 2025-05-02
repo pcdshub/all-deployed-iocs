@@ -8303,8 +8303,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-jf16m",
-        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/jungfrau4m/current/children/build/iocBoot/ioc-mfx-jf16m/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/ddamiani/ioc/common/jungfrau4m/current/bin/rhel7-x86_64/jungfrau4m"
+        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/jungfrau4m/current/st.cmd",
+        "binary": null
     },
     {
         "host": "daq-mfx-tpr1",
