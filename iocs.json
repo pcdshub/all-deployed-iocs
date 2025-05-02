@@ -8262,7 +8262,7 @@
     {
         "host": "daq-mfx-tpr1",
         "port": 39103,
-        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/vimbaCam/current",
+        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam",
         "alias": "CAM - Alvium DG3",
         "history": [
             "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam"
@@ -8270,8 +8270,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-alvium01",
-        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/vimbaCam/current/children/build/iocBoot/ioc-mfx-alvium01/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/ddamiani/ioc/common/vimbaCam/current/bin/rhel7-x86_64/vimbaTpr"
+        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam/build/iocBoot/ioc-mfx-alvium01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.2.0/bin/rhel7-x86_64/vimbaTpr"
     },
     {
         "host": "daq-mfx-tpr1",
