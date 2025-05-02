@@ -12271,6 +12271,16 @@
     },
     {
         "host": "ioc-det-portable2",
+        "port": 30012,
+        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/jungfrau4m/current",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
+        "name": "ioc-det-jftest",
+        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/jungfrau4m/current/children/build/iocBoot/ioc-det-jftest/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/ddamiani/ioc/common/jungfrau4m/current/bin/rhel7-x86_64/jungfrau4m"
+    },
+    {
+        "host": "ioc-det-portable2",
         "port": 30065,
         "dir": "ioc/det/RohdeSchwarzHMP/R1.2.1",
         "disable": true,
