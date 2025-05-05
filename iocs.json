@@ -5880,7 +5880,7 @@
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-sds",
         "script": "/reg/g/pcds/epics-dev/jozamudi/rix/lcls-plc-rix-sample-delivery/iocBoot/ioc-sample-delivery/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.8.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-rix-vac-01",
