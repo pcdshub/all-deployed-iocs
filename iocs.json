@@ -18759,7 +18759,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-alias",
         "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/tst/alias-archiving-test/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/interlock/R1.0.0/bin/rhel7-x86_64/interlock"
+        "binary": "/cds/group/pcds/epics-dev/kaushikm/ioc/common/interlock/bin/rhel7-x86_64/interlock"
     },
     {
         "host": "ioc-tst-13",
