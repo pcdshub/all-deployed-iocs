@@ -18906,14 +18906,14 @@
     {
         "host": "ioc-tst-mpod-wiener",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-isegPower",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ioc-common-isegPower/children",
         "alias": "MPOD CVMI",
         "cmd": "./st.cmd",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-tst-mpod-wiener",
-        "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-isegPower/children/build/iocBoot/ioc-tst-mpod-wiener/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-isegPower/bin/linux-arm-apalis/isegPower"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ioc-common-isegPower/children/build/iocBoot/ioc-tst-mpod-wiener/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ioc-common-isegPower/bin/linux-arm-apalis/isegPower"
     },
     {
         "host": "ioc-ued-ccd01",
