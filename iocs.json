@@ -8280,7 +8280,6 @@
         "host": "daq-mfx-pgp01",
         "port": 30001,
         "dir": "ioc/mfx/epix/R1.5.1",
-        "disable": true,
         "alias": "DET - ePix10k-2M IOC",
         "history": [
             "ioc/mfx/epix/R1.5.1",
