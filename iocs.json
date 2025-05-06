@@ -18326,7 +18326,6 @@
         "host": "ioc-mfx-usr01",
         "port": 30010,
         "dir": "ioc/mfx/detectorprotection/R3.0.0",
-        "disable": true,
         "alias": "epix10k2M Protection",
         "history": [
             "ioc/mfx/detectorprotection/R3.0.0"
