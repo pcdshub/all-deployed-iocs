@@ -8344,13 +8344,13 @@
     {
         "host": "daq-mfx-tpr1",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/jungfrau4m/current",
+        "dir": "ioc/common/jungfrau4m/R3.0.0",
         "alias": "DET - Jungfrau16M IOC",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-jf16m",
-        "script": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/jungfrau4m/current/children/build/iocBoot/ioc-mfx-jf16m/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/ddamiani/ioc/common/jungfrau4m/current/bin/rhel7-x86_64/jungfrau4m"
+        "script": "/reg/g/pcds/epics/ioc/common/jungfrau4m/R3.0.0/children/build/iocBoot/ioc-mfx-jf16m/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/jungfrau4m/R3.0.0/bin/rhel7-x86_64/jungfrau4m"
     },
     {
         "host": "daq-mfx-tpr1",
