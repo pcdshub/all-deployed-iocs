@@ -19163,6 +19163,7 @@
         "host": "ioc-ued-ccd01",
         "port": 39110,
         "dir": "/cds/group/pcds/epics-dev/iroque/ioc-ued-NewportXPS8",
+        "disable": true,
         "alias": "mcn-ued-10",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
