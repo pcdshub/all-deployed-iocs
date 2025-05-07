@@ -13290,16 +13290,6 @@
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
-        "host": "ioc-icl-fels01",
-        "port": 39102,
-        "dir": "/reg/g/pcds/epics-dev/jozamudi/icl/test-plc-project/iocBoot/ioc-tests",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/icl/iocmanager.cfg",
-        "name": "test-ioc",
-        "script": "/reg/g/pcds/epics-dev/jozamudi/icl/test-plc-project/iocBoot/ioc-tests/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
-    },
-    {
         "host": "ioc-kfe-mpod-gmd-xgmd",
         "port": 30001,
         "dir": "ioc/common/isegPower/R1.3.2",
