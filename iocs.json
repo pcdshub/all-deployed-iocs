@@ -18373,20 +18373,6 @@
     },
     {
         "host": "ioc-mfx-usr01",
-        "port": 43925,
-        "dir": "ioc/mfx/NewportXPS8/R2.1.0",
-        "alias": "HERA - Motion - XPS",
-        "history": [
-            "ioc/mfx/NewportXPS8/R2.1.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-xps-hera",
-        "script": "/reg/g/pcds/epics/ioc/mfx/NewportXPS8/R2.1.0/build/iocBoot/ioc-mfx-xps-hera/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
-    },
-    {
-        "host": "ioc-mfx-vacuum",
         "port": 30804,
         "dir": "ioc/mfx/userIO/R0.2.1",
         "disable": true,
@@ -18400,6 +18386,20 @@
         "name": "ioc-mfx-userIO",
         "script": "/reg/g/pcds/epics/ioc/mfx/userIO/R0.2.1/iocBoot/ioc-mfx-userIO/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/mfx/userIO/R0.2.1/bin/linux-x86_64/userIO"
+    },
+    {
+        "host": "ioc-mfx-usr01",
+        "port": 43925,
+        "dir": "ioc/mfx/NewportXPS8/R2.1.0",
+        "alias": "HERA - Motion - XPS",
+        "history": [
+            "ioc/mfx/NewportXPS8/R2.1.0"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
+        "name": "ioc-mfx-xps-hera",
+        "script": "/reg/g/pcds/epics/ioc/mfx/NewportXPS8/R2.1.0/build/iocBoot/ioc-mfx-xps-hera/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.0.2/bin/rhel7-x86_64/xps8"
     },
     {
         "host": "ioc-mfx-wave8",
