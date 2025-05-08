@@ -5889,7 +5889,7 @@
     {
         "host": "ctl-rix-vac-01",
         "port": 37001,
-        "dir": "/reg/g/pcds/epics-dev/jozamudi/rix/lcls-plc-rix-sample-delivery/iocBoot/ioc-sample-delivery",
+        "dir": "ioc/rix/lcls-plc-rix-sample-delivery/v1.1.0/iocBoot/ioc-sample-delivery",
         "alias": "SDS IOC",
         "history": [
             "/reg/g/pcds/epics-dev/jozamudi/rix/lcls-plc-rix-sample-delivery/iocBoot/ioc-sample-delivery",
@@ -5899,7 +5899,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-sds",
-        "script": "/reg/g/pcds/epics-dev/jozamudi/rix/lcls-plc-rix-sample-delivery/iocBoot/ioc-sample-delivery/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/rix/lcls-plc-rix-sample-delivery/v1.1.0/iocBoot/ioc-sample-delivery/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.8.0/bin/rhel7-x86_64/adsIoc"
     },
     {
