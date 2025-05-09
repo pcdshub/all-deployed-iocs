@@ -11009,7 +11009,6 @@
         "host": "ioc-cxi-sc1",
         "port": 34500,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/arcus",
-        "disable": true,
         "alias": "Piezo SC1 PP-30 Motors",
         "history": [
             "/reg/g/pcds/epics-dev/divya/ioc/cxi/arcus",
@@ -11026,7 +11025,6 @@
         "host": "ioc-cxi-sc1",
         "port": 30702,
         "dir": "ioc/common/picoMotion/R4.0.2",
-        "disable": true,
         "alias": "Pico SC1 Questar Optics",
         "history": [
             "ioc/common/picoMotion/R4.0.2",
@@ -11072,7 +11070,6 @@
         "host": "ioc-cxi-sc1",
         "port": 34505,
         "dir": "ioc/cxi/ims/R6.7.1",
-        "disable": true,
         "alias": "IMS SC1 User Dumb Motors",
         "history": [
             "ioc/cxi/ims/R6.7.1",
@@ -11137,6 +11134,7 @@
         "host": "ioc-cxi-sc2",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/arcus",
+        "disable": true,
         "alias": "\"TST\": SC2 PMC",
         "history": [
             "/reg/g/pcds/epics-dev/divya/ioc/cxi/arcus"
