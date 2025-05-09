@@ -9314,7 +9314,7 @@
     {
         "host": "ioc-cxi-jungfrau01",
         "port": 30100,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract",
+        "dir": "/reg/g/pcds/epics-dev/aberges/ioc/cxi/ioc-cxi-smaract",
         "alias": "Smaract DS1 Controllers",
         "history": [
             "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract"
@@ -9322,8 +9322,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-mcs2-01",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract/build/iocBoot/ioc-cxi-mcs2-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.12/bin/rhel7-x86_64/smaract"
+        "script": "/reg/g/pcds/epics-dev/aberges/ioc/cxi/ioc-cxi-smaract/build/iocBoot/ioc-cxi-mcs2-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.27/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ioc-cxi-jungfrau01",
