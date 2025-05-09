@@ -8326,8 +8326,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-alvium01",
-        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam/build/iocBoot/ioc-mfx-alvium01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.2.0/bin/rhel7-x86_64/vimbaTpr"
     },
     {
         "host": "daq-mfx-tpr1",
@@ -8337,8 +8337,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-alvium04",
-        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam/build/iocBoot/ioc-mfx-alvium04/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/dorlhiac/ioc/common/ioc-common-vimbaCam/bin/rhel7-x86_64/vimbaTpr"
     },
     {
         "host": "daq-mfx-tpr1",
@@ -17103,8 +17103,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-alvium02",
-        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam/build/iocBoot/ioc-mfx-alvium02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.2.0/bin/rhel7-x86_64/vimba"
     },
     {
         "host": "ioc-mfx-cam02",
@@ -17114,8 +17114,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-alvium03",
-        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam/build/iocBoot/ioc-mfx-alvium03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.2.0/bin/rhel7-x86_64/vimba"
     },
     {
         "host": "ioc-mfx-cam02",
