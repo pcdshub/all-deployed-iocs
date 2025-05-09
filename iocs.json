@@ -8994,6 +8994,7 @@
         "host": "ioc-cxi-cam2",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam",
+        "disable": true,
         "alias": "CAM - User alvium",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
@@ -9314,7 +9315,7 @@
     {
         "host": "ioc-cxi-jungfrau01",
         "port": 30100,
-        "dir": "/reg/g/pcds/epics-dev/aberges/ioc/cxi/ioc-cxi-smaract",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract",
         "alias": "Smaract DS1 Controllers",
         "history": [
             "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract"
@@ -9322,8 +9323,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-mcs2-01",
-        "script": "/reg/g/pcds/epics-dev/aberges/ioc/cxi/ioc-cxi-smaract/build/iocBoot/ioc-cxi-mcs2-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.27/bin/rhel7-x86_64/smaract"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/smaract/build/iocBoot/ioc-cxi-mcs2-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.12/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ioc-cxi-jungfrau01",
@@ -10019,6 +10020,18 @@
         "name": "ioc-cxi-usr-sc2-dumb-ims",
         "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.7.1/build/iocBoot/ioc-cxi-usr-sc2-dumb-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-cxi-mpod-wiener",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ioc-common-isegPower/children",
+        "alias": "MPOD CVMI",
+        "cmd": "./st.cmd",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-tst-mpod-wiener",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ioc-common-isegPower/children/build/iocBoot/ioc-tst-mpod-wiener/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ioc-common-isegPower/bin/linux-arm-apalis/isegPower"
     },
     {
         "host": "ioc-cxi-protura1",
@@ -18904,18 +18917,6 @@
         "name": "ioc-tst-mini-powermeter-calib",
         "script": "/reg/g/pcds/epics-dev/zlentz/lcls-plc-mini-powermeter-calib/iocBoot/ioc-tst-mini-powermeter-calib/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/ads-ioc/R0.6.0/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ioc-tst-mpod-wiener",
-        "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ioc-common-isegPower/children",
-        "alias": "MPOD CVMI",
-        "cmd": "./st.cmd",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-tst-mpod-wiener",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ioc-common-isegPower/children/build/iocBoot/ioc-tst-mpod-wiener/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ioc-common-isegPower/bin/linux-arm-apalis/isegPower"
     },
     {
         "host": "ioc-ued-ccd01",
