@@ -12174,8 +12174,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-prt1-smart",
-        "script": "/reg/neh/home/zlentz/epics/ioc/det/ims/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/zlentz/epics/ioc/det/ims/current/build/iocBoot/ioc-det-prt1-smart/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R2.1.0/bin/linux-x86/ims"
     },
     {
         "host": "ioc-det-portable1",
@@ -18264,8 +18264,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-rowland-01",
-        "script": "/reg/neh/home/zlentz/epics/ioc/xcs/arcus_dmx/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/zlentz/epics/ioc/xcs/arcus_dmx/current/build/iocBoot/ioc-rowland-01/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/zlentz/old_svn_linked_to_zlentz_home/ioc/common/arcus_dmx/current/bin/linux-x86/dmx"
     },
     {
         "host": "ioc-mfx-tfs",
@@ -20032,8 +20032,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-rowland-01",
-        "script": "/reg/neh/home/zlentz/epics/ioc/xcs/arcus_dmx/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/zlentz/epics/ioc/xcs/arcus_dmx/current/build/iocBoot/ioc-rowland-01/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/zlentz/old_svn_linked_to_zlentz_home/ioc/common/arcus_dmx/current/bin/linux-x86/dmx"
     },
     {
         "host": "ioc-xcs-mot1",
@@ -21244,8 +21244,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-keithley6514",
-        "script": "/reg/neh/home/zlentz/epics/ioc/xcs/Keithley6514/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/zlentz/epics/ioc/xcs/Keithley6514/current/build/iocBoot/ioc-xcs-keithley6514/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/zlentz/old_svn_linked_to_zlentz_home/ioc/common/Keithley6514/current/bin/linux-x86/Keithley6514"
     },
     {
         "host": "ioc-xcs-user1",
@@ -23376,8 +23376,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-keithley6514",
-        "script": "/reg/neh/home/zlentz/epics/ioc/xpp/Keithley6514/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/zlentz/epics/ioc/xpp/Keithley6514/current/build/iocBoot/ioc-xpp-keithley6514/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/zlentz/old_svn_linked_to_zlentz_home/ioc/common/Keithley6514/current/bin/linux-x86/Keithley6514"
     },
     {
         "host": "ioc-xpp-rob01",
@@ -23536,8 +23536,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-rowland-01",
-        "script": "/cds/home/z/zlentz/epics/ioc/xcs/arcus_dmx/current/st.cmd",
-        "binary": null
+        "script": "/cds/home/z/zlentz/epics/ioc/xcs/arcus_dmx/current/build/iocBoot/ioc-rowland-01/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/zlentz/old_svn_linked_to_zlentz_home/ioc/common/arcus_dmx/current/bin/linux-x86/dmx"
     },
     {
         "host": "ioc-xpp-usr01",
@@ -23553,8 +23553,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-analogScaleOffset",
-        "script": "/reg/neh/home/zlentz/epics/ioc/xpp/analogScaleOffset/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/zlentz/epics/ioc/xpp/analogScaleOffset/current/build/iocBoot/ioc-xpp-analogScaleOffset/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/analogScaleOffset/R0.9.1/bin/linux-x86_64/analogScaleOffset"
     },
     {
         "host": "ioc-xpp-usr01",
@@ -23595,8 +23595,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-detchiller2",
-        "script": "/reg/neh/home/zlentz/epics/ioc/xpp/thermocube/current/st.cmd",
-        "binary": null
+        "script": "/reg/neh/home/zlentz/epics/ioc/xpp/thermocube/current/build/iocBoot/ioc-xpp-detchiller2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thermocube/R1.0.5/bin/linux-x86_64/chiller"
     },
     {
         "host": "ioc-xpp-usr01",
