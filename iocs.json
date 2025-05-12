@@ -8824,7 +8824,8 @@
     {
         "host": "drp-ued-cmp001",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/snelson/ued/ioc-ued-epix",
+        "dir": "/cds/group/pcds/epics-dev/iroque/ioc-ued-epix",
+        "alias": "ePix",
         "history": [
             "ioc/ued/epix/R1.0.4",
             "ioc/ued/epix/R1.0.2",
@@ -8834,8 +8835,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-epix-01",
-        "script": "/reg/g/pcds/epics-dev/snelson/ued/ioc-ued-epix/build/iocBoot/ioc-ued-epix-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/epix/R1.5.1/bin/rhel7-x86_64/epixMonIoc"
+        "script": "/cds/group/pcds/epics-dev/iroque/ioc-ued-epix/build/iocBoot/ioc-ued-epix-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/epix/R1.5.1/bin/rhel7-x86_64/epixMonIoc"
     },
     {
         "host": "drp-ued-cmp001",
