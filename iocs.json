@@ -5192,6 +5192,17 @@
     },
     {
         "host": "ctl-rix-mot-01",
+        "port": 39103,
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/rix/ioc-rix-at3k2-calc",
+        "alias": "AT3K2 Calculator IOC",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-at3k2-calc",
+        "script": "/reg/g/pcds/epics-dev/jozamudi/rix/ioc-rix-at3k2-calc/st.cmd",
+        "binary": "/usr/bin/env bash"
+    },
+    {
+        "host": "ctl-rix-mot-01",
         "port": 30555,
         "dir": "ioc/rix/eventSeqCfg/R1.0.1",
         "alias": "Event Sequencer ",
