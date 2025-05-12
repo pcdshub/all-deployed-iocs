@@ -8435,6 +8435,7 @@
         "host": "daq-rix-andor-01",
         "port": 30011,
         "dir": "ioc/common/andorCam/R1.3.0",
+        "disable": true,
         "alias": "VLS Andor Cam",
         "history": [
             "ioc/common/andorCam/R1.3.0",
