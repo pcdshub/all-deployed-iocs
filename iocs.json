@@ -13,6 +13,17 @@
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.8.0/bin/rhel7-x86_64/adsIoc"
     },
     {
+        "host": "ctl-dream-cam-01",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-gigECam",
+        "alias": "ioc-cam-dream-02",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-cam-dream-02",
+        "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-gigECam/build/iocBoot/ioc-cam-dream-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.3.0/bin/rhel7-x86_64/gige"
+    },
+    {
         "host": "ctl-hpl-srv01",
         "port": 30015,
         "dir": "/cds/home/t/tjohnson/trunk/common/agilent5322",
@@ -2278,21 +2289,21 @@
     {
         "host": "ctl-las-ip2-srv01",
         "port": 30002,
-        "dir": "/cds/group/pcds/epics-dev/aberges/mods/temp-mods/lm2k4/smaract",
+        "dir": "/cds/group/pcds/epics-dev/mods/lm2k4/smaract",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k4-mcs2-01",
-        "script": "/cds/group/pcds/epics-dev/aberges/mods/temp-mods/lm2k4/smaract/build/iocBoot/ioc-lm2k4-mcs2-01/st.cmd",
+        "script": "/cds/group/pcds/epics-dev/mods/lm2k4/smaract/build/iocBoot/ioc-lm2k4-mcs2-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.25/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-ip2-srv01",
         "port": 30003,
-        "dir": "/cds/group/pcds/epics-dev/aberges/mods/temp-mods/lm2k4/smaract",
+        "dir": "/cds/group/pcds/epics-dev/mods/lm2k4/smaract",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k4-mcs2-02",
-        "script": "/cds/group/pcds/epics-dev/aberges/mods/temp-mods/lm2k4/smaract/build/iocBoot/ioc-lm2k4-mcs2-02/st.cmd",
+        "script": "/cds/group/pcds/epics-dev/mods/lm2k4/smaract/build/iocBoot/ioc-lm2k4-mcs2-02/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.25/bin/rhel7-x86_64/smaract"
     },
     {
@@ -6314,7 +6325,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-cam-dream-01",
         "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-gigECam/build/iocBoot/ioc-cam-dream-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.1.0/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.3.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-tmo-cam-03",
@@ -6326,7 +6337,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-cam-dream-03",
         "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-gigECam/build/iocBoot/ioc-cam-dream-03/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-gigECam/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.3.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-tmo-cam-03",
