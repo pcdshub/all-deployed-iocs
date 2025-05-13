@@ -9916,8 +9916,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc2-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-sc2-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-mot2",
@@ -9972,7 +9972,7 @@
     {
         "host": "ioc-cxi-mot2",
         "port": 30503,
-        "dir": "ioc/cxi/ims/R6.7.1",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims",
         "alias": "IMS Slit Control",
         "history": [
             "ioc/cxi/ims/R6.7.1",
@@ -9984,7 +9984,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-slits-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.7.1/build/iocBoot/ioc-cxi-slits-ims/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-slits-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
@@ -10487,8 +10487,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-ds1-ppenc-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-ds1-ppenc-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-rec01",
@@ -10537,8 +10537,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-kb1-fmr-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-kb1-fmr-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-cxi-rec01",
@@ -10921,8 +10921,7 @@
     {
         "host": "ioc-cxi-sc1",
         "port": 30504,
-        "dir": "ioc/cxi/ims/R6.7.1",
-        "disable": true,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build",
         "alias": "IMS DG1",
         "history": [
             "ioc/cxi/ims/R6.7.1",
@@ -10933,7 +10932,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg1-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.7.1/build/iocBoot/ioc-cxi-dg1-ims/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-dg1-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
