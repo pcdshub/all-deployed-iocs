@@ -5133,7 +5133,7 @@
     {
         "host": "ctl-rix-mot-01",
         "port": 30400,
-        "dir": "ioc/rixs/lcls-plc-crixs-motion/v2.4.0/lcls-plc-crixs-motion",
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/rix/lcls-plc-crixs-motion/lcls-plc-crixs-motion",
         "alias": "CRIXS Motion PLC IOC",
         "history": [
             "ioc/rixs/lcls-plc-crixs-motion/v2.4.0/lcls-plc-crixs-motion",
@@ -5144,7 +5144,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-PLC-CRIX-MOT",
-        "script": "/reg/g/pcds/epics/ioc/rixs/lcls-plc-crixs-motion/v2.4.0/lcls-plc-crixs-motion/iocBoot/ioc-PLC-CRIX-MOT/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/jozamudi/rix/lcls-plc-crixs-motion/lcls-plc-crixs-motion/iocBoot/ioc-PLC-CRIX-MOT/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
@@ -6048,15 +6048,15 @@
     {
         "host": "ctl-tmo-cam-02",
         "port": 30205,
-        "dir": "ioc/tmo/gigEcam/R5.0.3",
+        "dir": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-gigECam",
         "history": [
             "ioc/tmo/gigECam/R1.0.1"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-cam-tmo-09",
-        "script": "/reg/g/pcds/epics/ioc/tmo/gigEcam/R5.0.3/build/iocBoot/ioc-cam-tmo-09/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
+        "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-gigECam/build/iocBoot/ioc-cam-tmo-09/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.3.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-tmo-cam-02",
