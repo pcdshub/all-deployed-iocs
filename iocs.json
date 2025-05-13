@@ -9916,8 +9916,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sc2-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-sc2-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-cxi-mot2",
@@ -10487,8 +10487,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-ds1-ppenc-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-ds1-ppenc-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-cxi-rec01",
@@ -10537,8 +10537,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-kb1-fmr-ims",
-        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-kb1-fmr-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-cxi-rec01",
