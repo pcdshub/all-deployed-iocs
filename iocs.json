@@ -9092,6 +9092,7 @@
         "host": "ioc-cxi-cam4",
         "port": 30600,
         "dir": "ioc/cxi/ims/R6.7.1",
+        "disable": true,
         "alias": "IMS DG4 Smart Motors",
         "history": [
             "ioc/cxi/ims/R6.7.1",
@@ -9108,6 +9109,7 @@
         "host": "ioc-cxi-cam4",
         "port": 30530,
         "dir": "ioc/cxi/ims/R6.7.1",
+        "disable": true,
         "alias": "IMS DG4 Stand",
         "history": [
             "ioc/cxi/ims/R6.7.1",
@@ -9197,6 +9199,7 @@
         "host": "ioc-cxi-cam4",
         "port": 39102,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi_picomotion/picoMotion",
+        "disable": true,
         "alias": "Bergmann Pico",
         "history": [
             "/reg/g/pcds/epics-dev/divya/ioc/cxi_picomotion/picoMotion"
@@ -9225,6 +9228,7 @@
         "host": "ioc-cxi-cam4",
         "port": 39101,
         "dir": "/reg/g/pcds/epics-dev/divya/lcls-plc-bergmann-kohzu",
+        "disable": true,
         "alias": "Bergmann Kohzu new",
         "history": [
             "/reg/g/pcds/epics-dev/divya/lcls-plc-bergmann-kohzu"
