@@ -6353,7 +6353,6 @@
         "host": "ctl-tmo-cam-03",
         "port": 39102,
         "dir": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-gigECam",
-        "disable": true,
         "alias": "ioc-cam-dream-03",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
