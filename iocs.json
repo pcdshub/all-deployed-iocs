@@ -18484,7 +18484,7 @@
     {
         "host": "ioc-mfx-wave8",
         "port": 30011,
-        "dir": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/vimbaCam",
+        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam",
         "alias": "CAM - GoldEye",
         "history": [
             "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/vimbaCam"
@@ -18492,8 +18492,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-goldeye1",
-        "script": "/reg/g/pcds/epics-dev/agilardi/iocs/mfx/vimbaCam/children/build/iocBoot/ioc-mfx-goldeye1/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/agilardi/iocs/mfx/vimbaCam/bin/rhel7-x86_64/usb"
+        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam/build/iocBoot/ioc-mfx-goldeye1/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/vimbaCam/R1.2.0/bin/rhel7-x86_64/vimba"
     },
     {
         "host": "ioc-mfx-wave8",
