@@ -7430,7 +7430,6 @@
         "host": "ctl-tst-dev-02",
         "port": 30005,
         "dir": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-gigECam",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-gigecam-rhel7-mspace",
