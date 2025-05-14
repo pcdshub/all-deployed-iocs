@@ -8596,7 +8596,6 @@
         "host": "daq-xcs-pgp01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/epix",
-        "disable": true,
         "alias": "DET ioc-xcs-epix-quad",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
