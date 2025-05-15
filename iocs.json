@@ -7497,6 +7497,16 @@
     },
     {
         "host": "ctl-tst-dev-03",
+        "port": 30006,
+        "dir": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-ims",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-tst-ims-mspace",
+        "script": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-ims/children/build/iocBoot/ioc-tst-ims-mspace/st.cmd",
+        "binary": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-ims/bin/rhel9-x86_64/ims"
+    },
+    {
+        "host": "ctl-tst-dev-03",
         "port": 30002,
         "dir": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-pdu_snmp",
         "base_version": "3.15",
