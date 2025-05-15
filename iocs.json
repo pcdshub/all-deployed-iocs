@@ -9083,7 +9083,6 @@
         "host": "ioc-cxi-cam4",
         "port": 30600,
         "dir": "ioc/cxi/ims/R6.7.1",
-        "disable": true,
         "alias": "IMS DG4 Smart Motors",
         "history": [
             "ioc/cxi/ims/R6.7.1",
@@ -9100,7 +9099,6 @@
         "host": "ioc-cxi-cam4",
         "port": 30530,
         "dir": "ioc/cxi/ims/R6.7.1",
-        "disable": true,
         "alias": "IMS DG4 Stand",
         "history": [
             "ioc/cxi/ims/R6.7.1",
