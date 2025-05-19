@@ -9092,6 +9092,17 @@
     },
     {
         "host": "ioc-cxi-cam4",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/divya/lcls-plc-cvmi-motion",
+        "alias": "CVMI Motion beckhoff",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cvmi-motion",
+        "script": "/reg/g/pcds/epics-dev/divya/lcls-plc-cvmi-motion/iocBoot/ioc-cvmi-motion/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R1.0.0/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ioc-cxi-cam4",
         "port": 30600,
         "dir": "ioc/cxi/ims/R6.7.1",
         "alias": "IMS DG4 Smart Motors",
@@ -10992,7 +11003,6 @@
         "host": "ioc-cxi-sc1",
         "port": 30005,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/mmc",
-        "disable": true,
         "alias": "MMC - SC2 1 Axis PR32",
         "history": [
             "/reg/g/pcds/epics-dev/divya/ioc/cxi/mmc"
