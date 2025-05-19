@@ -9094,6 +9094,7 @@
         "host": "ioc-cxi-cam4",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/divya/lcls-plc-cvmi-motion",
+        "disable": true,
         "alias": "CVMI Motion beckhoff",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
