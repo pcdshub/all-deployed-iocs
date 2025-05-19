@@ -7440,16 +7440,6 @@
     },
     {
         "host": "ctl-tst-dev-02",
-        "port": 30004,
-        "dir": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-ims",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-ims-rhel7-mspace",
-        "script": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-ims/children/build/iocBoot/ioc-tst-ims-rhel7-mspace/st.cmd",
-        "binary": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-ims/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ctl-tst-dev-02",
         "port": 30100,
         "dir": "/cds/home/z/zlentz/github/lcls-scan-gui",
         "history": [
@@ -7506,6 +7496,16 @@
         "name": "ioc-tst-gigecam-mspac",
         "script": "/reg/g/pcds/epics-dev/lorelli/rocky9-workspace/ioc-common-gigECam/children/build/iocBoot/ioc-tst-gigecam-mspace/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/lorelli/rocky9-workspace/ioc-common-gigECam/bin/rhel9-x86_64/gigeTpr"
+    },
+    {
+        "host": "ctl-tst-dev-03",
+        "port": 30006,
+        "dir": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-ims",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-tst-ims-mspace",
+        "script": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-ims/children/build/iocBoot/ioc-tst-ims-mspace/st.cmd",
+        "binary": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-ims/bin/rhel9-x86_64/ims"
     },
     {
         "host": "ctl-tst-dev-03",
