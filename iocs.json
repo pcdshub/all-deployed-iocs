@@ -8976,6 +8976,7 @@
         "host": "ioc-cxi-acromag",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/evr",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-acromag-evr",
