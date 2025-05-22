@@ -7442,6 +7442,7 @@
         "host": "ctl-tst-dev-02",
         "port": 30004,
         "dir": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-smaract",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-mcs2-rhel7-mspace",
@@ -7506,20 +7507,6 @@
         "name": "ioc-tst-gigecam-mspac",
         "script": "/reg/g/pcds/epics-dev/lorelli/rocky9-workspace/ioc-common-gigECam/children/build/iocBoot/ioc-tst-gigecam-mspace/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/lorelli/rocky9-workspace/ioc-common-gigECam/bin/rhel9-x86_64/gigeTpr"
-    },
-    {
-        "host": "ctl-tst-dev-03",
-        "port": 30006,
-        "dir": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-smaract",
-        "disable": true,
-        "history": [
-            "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-smaract"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-mcs2-mspace",
-        "script": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-smaract/children/build/iocBoot/ioc-tst-mcs2-mspace/st.cmd",
-        "binary": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-smaract/bin/rhel9-x86_64/smaract"
     },
     {
         "host": "ctl-tst-dev-03",
