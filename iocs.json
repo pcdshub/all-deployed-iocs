@@ -7440,6 +7440,16 @@
     },
     {
         "host": "ctl-tst-dev-02",
+        "port": 30004,
+        "dir": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-smaract",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-tst-mcs2-rhel7-mspace",
+        "script": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-smaract/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ctl-tst-dev-02",
         "port": 30100,
         "dir": "/cds/home/z/zlentz/github/lcls-scan-gui",
         "history": [
@@ -7501,6 +7511,7 @@
         "host": "ctl-tst-dev-03",
         "port": 30006,
         "dir": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-smaract",
+        "disable": true,
         "history": [
             "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-smaract"
         ],
