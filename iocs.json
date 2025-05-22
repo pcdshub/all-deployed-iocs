@@ -7510,16 +7510,6 @@
     },
     {
         "host": "ctl-tst-dev-03",
-        "port": 30006,
-        "dir": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-smaract",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-mcs2-mspace",
-        "script": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-smaract/children/build/iocBoot/ioc-tst-mcs2-mspace/st.cmd",
-        "binary": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-smaract/bin/rhel9-x86_64/smaract"
-    },
-    {
-        "host": "ctl-tst-dev-03",
         "port": 30002,
         "dir": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-pdu_snmp",
         "base_version": "3.15",
