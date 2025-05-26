@@ -10814,7 +10814,6 @@
         "host": "ioc-cxi-rec04",
         "port": 30001,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
-        "disable": true,
         "alias": "CAM - SC3 Offaxis",
         "history": [
             "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam"
