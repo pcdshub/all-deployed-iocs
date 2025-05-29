@@ -4740,7 +4740,7 @@
     {
         "host": "ctl-rix-crix-mot-01",
         "port": 35001,
-        "dir": "ioc/rix/lakeshore336/R1.0.2",
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/rix/ioc-rix-lakeshore336",
         "alias": "Cryo Lakeshore 336 1",
         "history": [
             "ioc/rix/lakeshore336/R1.0.2",
@@ -4751,7 +4751,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-cryo-ls336-01",
-        "script": "/reg/g/pcds/epics/ioc/rix/lakeshore336/R1.0.2/build/iocBoot/ioc-crix-cryo-ls336-01/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/jozamudi/rix/ioc-rix-lakeshore336/build/iocBoot/ioc-crix-cryo-ls336-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/lakeshore336/R2.2.3/bin/rhel7-x86_64/ls336"
     },
     {
