@@ -8876,6 +8876,7 @@
         "host": "drp-srcf-cmp040",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/mfx/epix/current",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-drp-epix-cmp040",
