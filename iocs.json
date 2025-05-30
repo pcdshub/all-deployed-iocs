@@ -17015,7 +17015,6 @@
         "host": "ioc-mfx-cam01",
         "port": 30071,
         "dir": "ioc/mfx/gigECam/R0.5.6",
-        "disable": true,
         "alias": "CAM - GigE LBL 01 Inline",
         "history": [
             "ioc/mfx/gigECam/R0.5.6",
@@ -17031,7 +17030,6 @@
         "host": "ioc-mfx-cam01",
         "port": 30083,
         "dir": "/cds/group/pcds/epics-dev/espov/ioc/mfx/gigECam",
-        "disable": true,
         "alias": "CAM - GigE LBL 02 Side",
         "history": [
             "/cds/group/pcds/epics-dev/espov/ioc/mfx/gigECam",
@@ -17047,7 +17045,6 @@
         "host": "ioc-mfx-cam01",
         "port": 30085,
         "dir": "/cds/group/pcds/epics-dev/espov/ioc/mfx/gigECam",
-        "disable": true,
         "alias": "CAM - GigE LBL 03 Meniscus",
         "history": [
             "/cds/group/pcds/epics-dev/espov/ioc/mfx/gigECam",
