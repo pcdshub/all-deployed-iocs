@@ -7450,14 +7450,11 @@
     {
         "host": "ctl-tst-dev-02",
         "port": 30101,
-        "dir": "/cds/home/z/zlentz/github/lcls-scan-gui",
-        "history": [
-            "/cds/home/z/zlentz/github/tstpython/queueserver/ioc-tst-bsgui-qs"
-        ],
+        "dir": "/reg/g/pcds/pyps/apps/lcls-scan-gui/v1.0.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-bsgui-qs",
-        "script": "/cds/home/z/zlentz/github/lcls-scan-gui/iocBoot/ioc-tst-bsgui-qs/st.cmd",
+        "script": "/reg/g/pcds/pyps/apps/lcls-scan-gui/v1.0.0/iocBoot/ioc-tst-bsgui-qs/st.cmd",
         "binary": "/usr/bin/bash"
     },
     {
@@ -7484,14 +7481,11 @@
     {
         "host": "ctl-tst-dev-02",
         "port": 30100,
-        "dir": "/cds/home/z/zlentz/github/lcls-scan-gui",
-        "history": [
-            "/cds/home/z/zlentz/github/tstpython/queueserver/ioc-tst-redis"
-        ],
+        "dir": "/reg/g/pcds/pyps/apps/lcls-scan-gui/v1.0.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-redis",
-        "script": "/cds/home/z/zlentz/github/lcls-scan-gui/iocBoot/ioc-tst-redis/st.cmd",
+        "script": "/reg/g/pcds/pyps/apps/lcls-scan-gui/v1.0.0/iocBoot/ioc-tst-redis/st.cmd",
         "binary": "/usr/bin/bash"
     },
     {
