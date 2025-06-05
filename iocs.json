@@ -7240,7 +7240,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-dream-genesys",
         "script": "/reg/g/pcds/epics-dev/janezg/tmo/genesys/build/iocBoot/ioc-dream-genesys/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-genesys/bin/rhel7-x86_64/geneSys"
+        "binary": "/reg/g/pcds/epics-dev/janezg/git_iocs/ioc-common-tdkLambdaGen/bin/rhel7-x86_64/geneSys"
     },
     {
         "host": "ctl-tmo-vac-01",
