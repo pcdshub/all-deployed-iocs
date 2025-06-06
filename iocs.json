@@ -2310,7 +2310,6 @@
         "host": "ctl-las-ip2-srv02",
         "port": 30009,
         "dir": "/cds/group/pcds/epics-dev/aberges/mods/temp-mods/lm2k4/atm/gigECam",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k4-atm-gige-ff-02",
@@ -2331,7 +2330,6 @@
         "host": "ctl-las-ip2-srv02",
         "port": 30008,
         "dir": "/cds/group/pcds/epics-dev/aberges/mods/temp-mods/lm2k4/atm/gigECam",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k4-atm-gige-nf-02",
@@ -6847,8 +6845,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-pcdsdevices",
-        "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-pvNotepad/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-pvNotepad/build/iocBoot/ioc-tmo-pcdsdevices/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
     },
     {
         "host": "ctl-tmo-misc-01",
@@ -7023,7 +7021,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-sp1k4-pvNotepad",
         "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-pvNotepad/build/iocBoot/ioc-tmo-sp1k4-pvNotepad/st.cmd",
-        "binary": null
+        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
     },
     {
         "host": "ctl-tmo-misc-01",
