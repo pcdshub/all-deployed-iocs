@@ -11317,7 +11317,7 @@
     },
     {
         "host": "ioc-cxi-sc2",
-        "port": 30001,
+        "port": 30010,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/arcus",
         "alias": "\"TST\": SC2 PMC",
         "history": [
