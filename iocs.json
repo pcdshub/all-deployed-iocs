@@ -7713,6 +7713,7 @@
         "host": "ctl-tst-pgp02",
         "port": 30007,
         "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/euresysCam-git",
+        "disable": true,
         "history": [
             "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/euresysCam-git",
             "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/euresysCam-git"
@@ -7727,6 +7728,7 @@
         "host": "ctl-tst-pgp02",
         "port": 30100,
         "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/current",
+        "disable": true,
         "history": [
             "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/pgpWave8/current"
         ],
