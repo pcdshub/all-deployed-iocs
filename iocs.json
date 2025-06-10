@@ -10075,7 +10075,6 @@
         "host": "ioc-cxi-mot2",
         "port": 32000,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims",
-        "disable": true,
         "alias": "IMS SC2 Motors",
         "history": [
             "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims",
