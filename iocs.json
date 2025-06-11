@@ -4769,7 +4769,6 @@
         "host": "ctl-rix-crix-cam-03",
         "port": 30002,
         "dir": "ioc/rix/tprStandalone/R1.2.1",
-        "disable": true,
         "alias": "CRIX TPR 3",
         "history": [
             "ioc/rix/tprStandalone/R1.2.1"
@@ -19314,8 +19313,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-xps-04",
-        "script": "/reg/g/pcds/epics-dev/iroque/ioc-ued-NewportXPS8/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/iroque/ioc-ued-NewportXPS8/build/iocBoot/ioc-ued-xps-04/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/NewportXPS8/R2.2.0/bin/rhel7-x86_64/xps8"
     },
     {
         "host": "ioc-ued-ccd01",
@@ -25040,7 +25039,6 @@
         "host": "tmo-control",
         "port": 34004,
         "dir": "/cds/home/opr/tmoopr/bin/autocaller",
-        "disable": true,
         "alias": "TMO Vacuum Watchdog",
         "history": [
             "/cds/home/opr/tmoopr/bin/autocaller"
