@@ -7285,11 +7285,11 @@
     {
         "host": "ctl-tmo-vac-01",
         "port": 35015,
-        "dir": "/reg/g/pcds/epics-dev/janezg/tmo-git/ioc-tmo-tdkLambdaGen",
+        "dir": "ioc/tmo/tdkLambdaGen/R1.0.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-dream-genesys",
-        "script": "/reg/g/pcds/epics-dev/janezg/tmo-git/ioc-tmo-tdkLambdaGen/build/iocBoot/ioc-dream-genesys/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/tmo/tdkLambdaGen/R1.0.0/build/iocBoot/ioc-dream-genesys/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/tdkLambdaGen/R1.0.0/bin/rhel7-x86_64/geneSys"
     },
     {
@@ -25039,6 +25039,7 @@
         "host": "tmo-control",
         "port": 34004,
         "dir": "/cds/home/opr/tmoopr/bin/autocaller",
+        "disable": true,
         "alias": "TMO Vacuum Watchdog",
         "history": [
             "/cds/home/opr/tmoopr/bin/autocaller"
