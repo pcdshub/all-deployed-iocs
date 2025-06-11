@@ -19277,13 +19277,14 @@
     },
     {
         "host": "ioc-ued-ccd01",
-        "port": 39099,
-        "dir": "/reg/g/pcds/epics-dev/iroque/ioc-ued-NewportXPS8",
+        "port": 39113,
+        "dir": "/cds/group/pcds/epics-dev/iroque/ioc-ued-NewportXPS8",
+        "alias": "mcn-ued-01",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
-        "name": "ioc-ued-xps",
-        "script": "/reg/g/pcds/epics-dev/iroque/ioc-ued-NewportXPS8/st.cmd",
-        "binary": null
+        "name": "ioc-ued-xps-01",
+        "script": "/cds/group/pcds/epics-dev/iroque/ioc-ued-NewportXPS8/build/iocBoot/ioc-ued-xps-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/NewportXPS8/R2.2.0/bin/rhel7-x86_64/xps8"
     },
     {
         "host": "ioc-ued-ccd01",
@@ -19302,8 +19303,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-xps-03",
-        "script": "/reg/g/pcds/epics-dev/iroque/ioc-ued-NewportXPS8/build/iocBoot/ioc-ued-xps-03/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.2.0/bin/rhel7-x86_64/xps8"
+        "script": "/reg/g/pcds/epics-dev/iroque/ioc-ued-NewportXPS8/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-ued-ccd01",
@@ -19312,8 +19313,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-xps-04",
-        "script": "/reg/g/pcds/epics-dev/iroque/ioc-ued-NewportXPS8/build/iocBoot/ioc-ued-xps-04/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/NewportXPS8/R2.2.0/bin/rhel7-x86_64/xps8"
+        "script": "/reg/g/pcds/epics-dev/iroque/ioc-ued-NewportXPS8/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-ued-ccd01",
@@ -19390,8 +19391,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-xps-11",
-        "script": "/cds/group/pcds/epics-dev/iroque/ioc-ued-NewportXPS8/build/iocBoot/ioc-ued-xps-11/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/NewportXPS8/R2.2.0/bin/rhel7-x86_64/xps8"
+        "script": "/cds/group/pcds/epics-dev/iroque/ioc-ued-NewportXPS8/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-ued-ccd01",
@@ -19401,8 +19402,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-xps-13",
-        "script": "/cds/group/pcds/epics-dev/iroque/ioc-ued-NewportXPS8/build/iocBoot/ioc-ued-xps-13/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/NewportXPS8/R2.2.0/bin/rhel7-x86_64/xps8"
+        "script": "/cds/group/pcds/epics-dev/iroque/ioc-ued-NewportXPS8/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-und-rec01",
