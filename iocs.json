@@ -6128,8 +6128,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-cam-tmo-09",
-        "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-gigECam/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-gigECam/build/iocBoot/ioc-cam-tmo-09/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.3.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-tmo-cam-02",
@@ -6260,8 +6260,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-mrco-tmo-gige-04",
-        "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-gigECam/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-gigECam/build/iocBoot/ioc-mrco-tmo-gige-04/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.3.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-tmo-cam-02",
@@ -6408,8 +6408,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-cam-dream-01",
-        "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-gigECam/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-gigECam/build/iocBoot/ioc-cam-dream-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.3.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-tmo-cam-03",
@@ -6419,8 +6419,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-cam-dream-02",
-        "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-gigECam/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-gigECam/build/iocBoot/ioc-cam-dream-02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.3.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-tmo-cam-03",
@@ -6431,7 +6431,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-cam-dream-03",
         "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-gigECam/build/iocBoot/ioc-cam-dream-03/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-gigECam/bin/rhel7-x86_64/gige"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.3.0/bin/rhel7-x86_64/gige"
     },
     {
         "host": "ctl-tmo-cam-03",
