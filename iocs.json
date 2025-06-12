@@ -19278,13 +19278,13 @@
     {
         "host": "ioc-ued-ccd01",
         "port": 39113,
-        "dir": "/cds/group/pcds/epics-dev/iroque/ioc-ued-NewportXPS8",
+        "dir": "/cds/group/pcds/epics/ioc/ued/NewportXPS8/R1.3.0",
         "alias": "mcn-ued-01",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-xps-01",
-        "script": "/cds/group/pcds/epics-dev/iroque/ioc-ued-NewportXPS8/st.cmd",
-        "binary": null
+        "script": "/cds/group/pcds/epics/ioc/ued/NewportXPS8/R1.3.0/build/iocBoot/ioc-ued-xps-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/NewportXPS8/R2.2.0/bin/rhel7-x86_64/xps8"
     },
     {
         "host": "ioc-ued-ccd01",
