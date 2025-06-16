@@ -4732,6 +4732,17 @@
     },
     {
         "host": "ctl-rix-crix-cam-02",
+        "port": 30004,
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/tprStandalone",
+        "alias": "CRIX TPR 2",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-crix-tpr2",
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/rix/tprStandalone/build/iocBoot/ioc-crix-tpr2/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.2.0/bin/rhel7-x86_64/tpr"
+    },
+    {
+        "host": "ctl-rix-crix-cam-02",
         "port": 39103,
         "dir": "ioc/rix/thorlabs-ell/R1.0.0",
         "alias": "CRIX THORLAB ELL 01",
@@ -5881,6 +5892,17 @@
         "name": "ioc-plc-kfe-rix-vac",
         "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-rix-vac/v2.4.0/iocBoot/ioc-plc-kfe-rix-vac/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.8.0/bin/rhel7-x86_64/adsIoc"
+    },
+    {
+        "host": "ctl-rix-vac-01",
+        "port": 39107,
+        "dir": "/reg/g/pcds/epics-dev/tparas/ioc/rix/ioc-rix-pdu_snmp",
+        "alias": "QRIXS PDU",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-pwr-misc-03",
+        "script": "/reg/g/pcds/epics-dev/tparas/ioc/rix/ioc-rix-pdu_snmp/build/iocBoot/ioc-rix-pwr-misc-03/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R3.0.0/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ctl-rix-vac-01",
