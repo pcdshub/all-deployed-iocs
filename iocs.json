@@ -7570,7 +7570,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-pdu_snmp-mspace",
         "script": "/reg/g/pcds/epics-dev/rnazir/ioc/test/ioc-common-pdu_snmp/children/build/iocBoot/ioc-tst-pdu_snmp-mspace/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.6/bin/rhel7-x86_64/pdu"
+        "binary": "/reg/g/pcds/epics-dev/rnazir/ioc/test/ioc-common-pdu_snmp/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ctl-tst-dev-02",
