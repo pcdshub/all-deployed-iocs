@@ -7616,8 +7616,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-ell-mspace",
-        "script": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-thorlabs-ell/st.cmd",
-        "binary": null
+        "script": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-thorlabs-ell/children/build/iocBoot/ioc-tst-ell-mspace/st.cmd",
+        "binary": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-thorlabs-ell/bin/rhel9-x86_64/ell"
     },
     {
         "host": "ctl-tst-dev-03",
@@ -8137,7 +8137,7 @@
         "config_file": "/cds/group/pcds/pyps/config/det/iocmanager.cfg",
         "name": "ioc-det-andor1",
         "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/andorCam/current/children/build/iocBoot/ioc-det-andor1/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/andorCam/andorCam-git/bin/rhel7-x86_64/andor"
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/andorCam/andorCam-git/bin/rhel7-x86_64/andor"
     },
     {
         "host": "daq-det-jungfrau",
@@ -13644,12 +13644,12 @@
     {
         "host": "ioc-las-cxi-srv05",
         "port": 43405,
-        "dir": "/cds/group/laser/timing/femto-timing/v2.0.0",
+        "dir": "/cds/group/laser/timing/femto-timing/dev",
         "alias": "CXI - FSTiming Python",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "py-fstiming-CXI",
-        "script": "/cds/group/laser/timing/femto-timing/v2.0.0/st.cmd",
+        "script": "/cds/group/laser/timing/femto-timing/dev/st.cmd",
         "binary": "/usr/bin/bash"
     },
     {
