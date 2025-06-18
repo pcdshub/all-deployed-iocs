@@ -20778,7 +20778,7 @@
     {
         "host": "ioc-xcs-mot2",
         "port": 30427,
-        "dir": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/ioc-xcs-ims",
+        "dir": "ioc/xcs/ims/R6.0.2",
         "alias": "SB2 - Attenuator Motion",
         "history": [
             "ioc/xcs/ims/R6.0.2",
@@ -20789,8 +20789,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
         "name": "ioc-xcs-sb2-ppatt01-ims",
-        "script": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/ioc-xcs-ims/build/iocBoot/ioc-xcs-sb2-ppatt01-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R7.0.0/bin/rhel7-x86_64/ims"
+        "script": "/reg/g/pcds/epics/ioc/xcs/ims/R6.0.2/build/iocBoot/ioc-xcs-sb2-ppatt01-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.0.0/bin/rhel7-x86_64/ims"
     },
     {
         "host": "ioc-xcs-mot2",
