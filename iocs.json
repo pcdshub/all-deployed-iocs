@@ -14156,7 +14156,6 @@
         "host": "ioc-lfe-gasdet-daq",
         "port": 39873,
         "dir": "ioc/fee/GasDetDAQ/R4.0.22",
-        "disable": true,
         "alias": "GasDetDAQ",
         "history": [
             "ioc/fee/GasDetDAQ/R4.0.22",
