@@ -13644,12 +13644,12 @@
     {
         "host": "ioc-las-cxi-srv05",
         "port": 43405,
-        "dir": "/cds/group/laser/timing/femto-timing/dev",
+        "dir": "/cds/group/laser/timing/femto-timing/v2.0.0",
         "alias": "CXI - FSTiming Python",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "py-fstiming-CXI",
-        "script": "/cds/group/laser/timing/femto-timing/dev/st.cmd",
+        "script": "/cds/group/laser/timing/femto-timing/v2.0.0/st.cmd",
         "binary": "/usr/bin/bash"
     },
     {
