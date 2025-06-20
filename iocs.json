@@ -8704,7 +8704,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-ip2-timetool",
         "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-vimbaCam/build/iocBoot/ioc-tmo-ip2-timetool/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/vimbaCam/R1.2.1/bin/rhel7-x86_64/vimbaTpr"
+        "binary": "/cds/group/pcds/epics-dev/dorlhiac/ioc/common/ioc-common-vimbaCam/bin/rhel7-x86_64/vimbaTpr"
     },
     {
         "host": "daq-tmo-andor-01",
