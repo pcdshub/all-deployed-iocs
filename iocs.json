@@ -7506,6 +7506,7 @@
         "host": "ctl-tst-dev-02",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/tparas/plc/tst/lcls-plc-example-motion/iocBoot/ioc-tc-mot-example",
+        "disable": true,
         "alias": "TEST PLC",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
