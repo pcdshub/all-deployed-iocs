@@ -3463,7 +3463,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lln-ell-01",
         "script": "/cds/group/pcds/epics-dev/aberges/mods/temp-mods/lln/thorlabs-ell/build/iocBoot/ioc-las-lln-ell-01/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/aberges/ioc/common/thorlabs-ell/ioc-common-thorlabs-ell/bin/rhel7-x86_64/ell"
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R1.2.0/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-lln-02",
