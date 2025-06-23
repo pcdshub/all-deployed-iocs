@@ -4795,7 +4795,7 @@
     {
         "host": "ctl-rix-crix-cam-03",
         "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/test/euresysCam-git",
+        "dir": "ioc/rix/tprStandalone/R1.2.1",
         "alias": "CRIX TPR 3",
         "history": [
             "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/test/euresysCam-git",
@@ -4805,8 +4805,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-tpr3",
-        "script": "/reg/g/pcds/epics-dev/ktkim/sandbox/areaDetector/test/euresysCam-git/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics/ioc/rix/tprStandalone/R1.2.1/build/iocBoot/ioc-crix-tpr3/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.2.0/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "ctl-rix-crix-cam-03",
