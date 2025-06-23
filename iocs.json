@@ -504,32 +504,32 @@
     {
         "host": "ctl-kfe-misc-01",
         "port": 30022,
-        "dir": "ioc/kfe/thermocon",
+        "dir": "ioc/kfe/thermocon/R3.0.1",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-mr1k1-thermocon",
-        "script": "/reg/g/pcds/epics/ioc/kfe/thermocon/build/iocBoot/ioc-mr1k1-thermocon/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thermocon/R3.0.0/bin/rhel7-x86_64/thermocon"
+        "script": "/reg/g/pcds/epics/ioc/kfe/thermocon/R3.0.1/build/iocBoot/ioc-mr1k1-thermocon/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thermocon/R3.0.1/bin/rhel7-x86_64/thermocon"
     },
     {
         "host": "ctl-kfe-misc-01",
         "port": 30024,
-        "dir": "ioc/kfe/thermocon",
+        "dir": "ioc/kfe/thermocon/R3.0.1",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-mr1k3-thermocon",
-        "script": "/reg/g/pcds/epics/ioc/kfe/thermocon/build/iocBoot/ioc-mr1k3-thermocon/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thermocon/R3.0.0/bin/rhel7-x86_64/thermocon"
+        "script": "/reg/g/pcds/epics/ioc/kfe/thermocon/R3.0.1/build/iocBoot/ioc-mr1k3-thermocon/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thermocon/R3.0.1/bin/rhel7-x86_64/thermocon"
     },
     {
         "host": "ctl-kfe-misc-01",
         "port": 30023,
-        "dir": "ioc/kfe/thermocon",
+        "dir": "ioc/kfe/thermocon/R3.0.1",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/kfe/iocmanager.cfg",
         "name": "ioc-sp1k1-thermocon",
-        "script": "/reg/g/pcds/epics/ioc/kfe/thermocon/build/iocBoot/ioc-sp1k1-thermocon/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thermocon/R3.0.0/bin/rhel7-x86_64/thermocon"
+        "script": "/reg/g/pcds/epics/ioc/kfe/thermocon/R3.0.1/build/iocBoot/ioc-sp1k1-thermocon/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/thermocon/R3.0.1/bin/rhel7-x86_64/thermocon"
     },
     {
         "host": "ctl-kfe-misc-01",
