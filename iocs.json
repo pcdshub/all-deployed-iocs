@@ -10543,7 +10543,7 @@
     {
         "host": "ioc-cxi-qadc",
         "port": 30015,
-        "dir": "ioc/cxi/ims/R6.7.1",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims",
         "alias": "IMS DIA Prefocus Lens",
         "history": [
             "ioc/cxi/ims/R6.7.1"
@@ -10551,7 +10551,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dia-pfls-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.7.1/build/iocBoot/ioc-cxi-dia-pfls-ims/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-dia-pfls-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
@@ -11203,7 +11203,7 @@
     {
         "host": "ioc-cxi-sc1",
         "port": 30512,
-        "dir": "ioc/cxi/ims/R6.7.1",
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims",
         "alias": "IMS DG2 PFLS",
         "history": [
             "ioc/cxi/ims/R6.7.1"
@@ -11212,7 +11212,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg2-pfls-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.7.1/build/iocBoot/ioc-cxi-dg2-pfls-ims/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ims/build/iocBoot/ioc-cxi-dg2-pfls-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
