@@ -804,7 +804,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-inj-ell-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/inj/thorlabs-ell/build/iocBoot/ioc-lm2k2-inj-ell-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R1.2.0/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-crix-srv01",
@@ -896,7 +896,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-com-ell-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/thorlabs-ell/build/iocBoot/ioc-lm2k2-com-ell-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R1.2.0/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-crix-srv02",
@@ -906,7 +906,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-com-ell-02",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/com/thorlabs-ell/build/iocBoot/ioc-lm2k2-com-ell-02/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R1.2.0/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-crix-srv02",
@@ -1066,7 +1066,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-atm-ell-01",
         "script": "/cds/group/pcds/epics-dev/mods/lm2k2/atm/thorlabs-ell/build/iocBoot/ioc-lm2k2-atm-ell-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R1.2.0/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-crix-srv04",
@@ -1096,7 +1096,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-hrm-ell-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm2k2/hrm/thorlabs-ell/build/iocBoot/ioc-lm2k2-hrm-ell-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R1.2.0/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-crix-srv04",
@@ -1178,7 +1178,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-ejx-ell-01",
         "script": "/cds/group/pcds/epics-dev/mods/lm2k2/ejx/thorlabs-ell/build/iocBoot/ioc-lm2k2-ejx-ell-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R1.2.0/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-crix-srv05",
@@ -1188,7 +1188,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-ejx-ell-02",
         "script": "/cds/group/pcds/epics-dev/mods/lm2k2/ejx/thorlabs-ell/build/iocBoot/ioc-lm2k2-ejx-ell-02/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R1.2.0/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-crix-srv05",
@@ -2344,7 +2344,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k4-com-ell-01",
         "script": "/cds/group/pcds/epics-dev/mods/lm2k4/com/thorlabs-ell/build/iocBoot/ioc-lm2k4-com-ell-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.7/bin/rhel7-x86_64/ell"
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R1.2.0/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-ip2-srv02",
@@ -3404,6 +3404,16 @@
     },
     {
         "host": "ctl-las-lln-01",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ioc-las-ek9000",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-lln-bhc-01",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ioc-las-ek9000/build/iocBoot/ioc-las-lln-bhc-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.3/bin/rhel7-x86_64/ek9000IOC"
+    },
+    {
+        "host": "ctl-las-lln-01",
         "port": 30001,
         "dir": "ioc/las/evr/R1.0.6",
         "base_version": "3.15",
@@ -3678,7 +3688,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-com-ell-01",
         "script": "/reg/g/pcds/epics-dev/mods/lm1k2/com/thorlabs-ell/build/iocBoot/ioc-lm1k2-com-ell-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.7/bin/rhel7-x86_64/ell"
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R1.2.0/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-qrixs-srv02",
@@ -3718,7 +3728,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-atm-ell-01",
         "script": "/cds/group/pcds/epics-dev/mods/lm1k2/atm/thorlabs-ell/build/iocBoot/ioc-lm1k2-atm-ell-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/thorlabs-ell/R0.0.7/bin/rhel7-x86_64/ell"
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R1.2.0/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-qrixs-srv05",
@@ -3728,7 +3738,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k2-ejx-ell-01",
         "script": "/cds/group/pcds/epics-dev/mods/lm1k2/ejx/thorlabs-ell/build/iocBoot/ioc-lm1k2-ejx-ell-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R0.0.6/bin/rhel7-x86_64/ell"
+        "binary": "/cds/group/pcds/epics/ioc/common/thorlabs-ell/R1.2.0/bin/rhel7-x86_64/ell"
     },
     {
         "host": "ctl-las-qrixs-srv05",
@@ -13655,12 +13665,12 @@
     {
         "host": "ioc-las-cxi-srv05",
         "port": 35008,
-        "dir": "ioc/las/pdu_snmp/R1.0.1",
+        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-cxi-pwr-01",
-        "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.0.1/build/iocBoot/ioc-las-cxi-pwr-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
+        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-las-cxi-srv05",
