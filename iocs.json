@@ -11242,7 +11242,6 @@
         "host": "ioc-cxi-sc1",
         "port": 30005,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/mmc",
-        "disable": true,
         "alias": "MMC - SC2 1 Axis PR32",
         "history": [
             "/reg/g/pcds/epics-dev/divya/ioc/cxi/mmc"
