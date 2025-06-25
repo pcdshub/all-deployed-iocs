@@ -7133,6 +7133,40 @@
         "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
     },
     {
+        "host": "ctl-tmo-misc-02",
+        "port": 34550,
+        "dir": "ioc/tmo/Leviton/R2.4.2",
+        "history": [
+            "ioc/tmo/Tripplite"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-power-tmo-portable02",
+        "script": "/reg/g/pcds/epics/ioc/tmo/Leviton/R2.4.2/build/iocBoot/ioc-power-tmo-portable02/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.2/bin/rhel7-x86_64/Leviton"
+    },
+    {
+        "host": "ctl-tmo-misc-02",
+        "port": 39100,
+        "dir": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-vimbaCam",
+        "alias": "ioc-tmo-ip2-timetool",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-tmo-ip2-timetool",
+        "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-vimbaCam/build/iocBoot/ioc-tmo-ip2-timetool/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/dorlhiac/ioc/common/ioc-common-vimbaCam/bin/rhel7-x86_64/vimbaTpr"
+    },
+    {
+        "host": "ctl-tmo-misc-02",
+        "port": 30002,
+        "dir": "ioc/tmo/tprStandalone/R1.2.0",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
+        "name": "ioc-tmo-tpr-andor1",
+        "script": "/reg/g/pcds/epics/ioc/tmo/tprStandalone/R1.2.0/build/iocBoot/ioc-tmo-tpr-andor1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.2.0/bin/rhel7-x86_64/tpr"
+    },
+    {
         "host": "ctl-tmo-mot-01",
         "port": 34345,
         "dir": "/reg/g/pcds/epics-dev/tongju/PLC/lcls-plc-cvmi-motion",
@@ -8743,55 +8777,6 @@
         "name": "ioc-rix-thermotek-01",
         "script": "/reg/g/pcds/epics-dev/opperman/rix/ioc/thermotek/build/iocBoot/ioc-rix-thermotek-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/thermotek/R1.0.7/bin/rhel7-x86_64/thermotek"
-    },
-    {
-        "host": "daq-tmo-andor-01",
-        "port": 34550,
-        "dir": "ioc/tmo/Leviton/R2.4.2",
-        "history": [
-            "ioc/tmo/Tripplite"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-power-tmo-portable02",
-        "script": "/reg/g/pcds/epics/ioc/tmo/Leviton/R2.4.2/build/iocBoot/ioc-power-tmo-portable02/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.2/bin/rhel7-x86_64/Leviton"
-    },
-    {
-        "host": "daq-tmo-andor-01",
-        "port": 30001,
-        "dir": "ioc/common/andorCam/R1.0.5",
-        "disable": true,
-        "alias": "VLS-Andor",
-        "history": [
-            "ioc/common/andorCam/R0.5.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-tmo-andor1",
-        "script": "/reg/g/pcds/epics/ioc/common/andorCam/R1.0.5/children/build/iocBoot/ioc-tmo-andor1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/andorCam/R1.0.5/bin/rhel7-x86_64/andorTpr"
-    },
-    {
-        "host": "daq-tmo-andor-01",
-        "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-vimbaCam",
-        "alias": "ioc-tmo-ip2-timetool",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-tmo-ip2-timetool",
-        "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-vimbaCam/build/iocBoot/ioc-tmo-ip2-timetool/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/dorlhiac/ioc/common/ioc-common-vimbaCam/bin/rhel7-x86_64/vimbaTpr"
-    },
-    {
-        "host": "daq-tmo-andor-01",
-        "port": 30002,
-        "dir": "ioc/tmo/tprStandalone/R1.2.0",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
-        "name": "ioc-tmo-tpr-andor1",
-        "script": "/reg/g/pcds/epics/ioc/tmo/tprStandalone/R1.2.0/build/iocBoot/ioc-tmo-tpr-andor1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.2.0/bin/rhel7-x86_64/tpr"
     },
     {
         "host": "daq-xcs-pgp01",
