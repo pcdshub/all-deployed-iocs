@@ -13583,7 +13583,7 @@
         "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.3.7/bin/rhel7-x86_64/lc20"
     },
     {
-        "host": "ioc-icl-fels01",
+        "host": "ioc-icl-rec10",
         "port": 39102,
         "dir": "/reg/g/pcds/epics-dev/jozamudi/icl/ioc-icl-shimadzu-lc20",
         "alias": "ICL LC20 02",
@@ -13594,7 +13594,7 @@
         "binary": "/reg/g/pcds/epics/ioc/common/shimadzu-lc20/R1.3.7/bin/rhel7-x86_64/lc20"
     },
     {
-        "host": "ioc-icl-fels01",
+        "host": "ioc-icl-rec10",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/jozamudi/icl/lcls-plc-icl-sample-delivery/iocBoot/ioc-Sample-Delivery",
         "alias": "ICL PLC",
