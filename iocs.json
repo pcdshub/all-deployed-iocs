@@ -5265,6 +5265,17 @@
     },
     {
         "host": "ctl-rix-mot-01",
+        "port": 39104,
+        "dir": "ioc/common/upscale/R1.0.0",
+        "alias": "CRIX UPSCALE",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-crix-upscale",
+        "script": "/reg/g/pcds/epics/ioc/common/upscale/R1.0.0/children/build/iocBoot/ioc-crix-upscale/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/upscale/R1.0.0/bin/rhel7-x86_64/gmb"
+    },
+    {
+        "host": "ctl-rix-mot-01",
         "port": 30108,
         "dir": "ioc/kfe/lcls-plc-kfe-rix-motion/v2.8.2",
         "alias": "Beamline Motion PLC IOC",
