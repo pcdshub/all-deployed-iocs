@@ -17048,6 +17048,16 @@
     },
     {
         "host": "ioc-mec-wave8",
+        "port": 39202,
+        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/mec/ioc-mec-fms",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
+        "name": "ioc-mec-fms",
+        "script": "/reg/g/pcds/epics-dev/nrw/iocs/mec/ioc-mec-fms/build/iocBoot/ioc-mec-fms/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.7.3/bin/rhel7-x86_64/ek9000IOC"
+    },
+    {
+        "host": "ioc-mec-wave8",
         "port": 39100,
         "dir": "ioc/mec/hpi_6012/R0.0.3",
         "history": [
