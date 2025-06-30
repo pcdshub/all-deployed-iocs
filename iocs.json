@@ -1562,12 +1562,12 @@
     {
         "host": "ctl-las-ftl-srv01",
         "port": 30011,
-        "dir": "/cds/home/t/tjohnson/trunk/las/pdu_snmp",
+        "dir": "ioc/las/pdu_snmp/R1.6.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-sector2-pwr-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/pdu_snmp/build/iocBoot/ioc-las-sector2-pwr-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/pdu_snmp/R2.4.4/bin/rhel7-x86_64/pdu"
+        "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.6.0/build/iocBoot/ioc-las-sector2-pwr-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/pdu_snmp/R3.1.0/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ctl-las-ftl-srv01",
@@ -1602,11 +1602,11 @@
     {
         "host": "ctl-las-ip1-srv01",
         "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp",
+        "dir": "ioc/las/pdu_snmp/R1.6.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-tmo-pwr-01",
-        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp/build/iocBoot/ioc-las-tmo-pwr-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.6.0/build/iocBoot/ioc-las-tmo-pwr-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/pdu_snmp/R3.1.0/bin/rhel7-x86_64/pdu"
     },
     {
@@ -2455,51 +2455,51 @@
     {
         "host": "ctl-las-lhn-01",
         "port": 35440,
-        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp",
+        "dir": "ioc/las/pdu_snmp/R1.6.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-pwr-01",
-        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp/build/iocBoot/ioc-las-lhn-pwr-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.6.0/build/iocBoot/ioc-las-lhn-pwr-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/pdu_snmp/R3.1.0/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ctl-las-lhn-01",
         "port": 30004,
-        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp",
+        "dir": "ioc/las/pdu_snmp/R1.6.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-pwr-02",
-        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp/build/iocBoot/ioc-las-lhn-pwr-02/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.6.0/build/iocBoot/ioc-las-lhn-pwr-02/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/pdu_snmp/R3.1.0/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ctl-las-lhn-01",
         "port": 30007,
-        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp",
+        "dir": "ioc/las/pdu_snmp/R1.6.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-pwr-05",
-        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp/build/iocBoot/ioc-las-lhn-pwr-05/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.6.0/build/iocBoot/ioc-las-lhn-pwr-05/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/pdu_snmp/R3.1.0/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ctl-las-lhn-01",
         "port": 30009,
-        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp",
+        "dir": "ioc/las/pdu_snmp/R1.6.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-pwr-06",
-        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp/build/iocBoot/ioc-las-lhn-pwr-06/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.6.0/build/iocBoot/ioc-las-lhn-pwr-06/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/pdu_snmp/R3.1.0/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ctl-las-lhn-01",
         "port": 30011,
-        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp",
+        "dir": "ioc/las/pdu_snmp/R1.6.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-pwr-07",
-        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp/build/iocBoot/ioc-las-lhn-pwr-07/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.6.0/build/iocBoot/ioc-las-lhn-pwr-07/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/pdu_snmp/R3.1.0/bin/rhel7-x86_64/pdu"
     },
     {
@@ -2795,11 +2795,11 @@
     {
         "host": "ctl-las-lhn-03",
         "port": 30007,
-        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp",
+        "dir": "ioc/las/pdu_snmp/R1.6.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-pwr-03",
-        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp/build/iocBoot/ioc-las-lhn-pwr-03/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.6.0/build/iocBoot/ioc-las-lhn-pwr-03/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/pdu_snmp/R3.1.0/bin/rhel7-x86_64/pdu"
     },
     {
@@ -2935,11 +2935,11 @@
     {
         "host": "ctl-las-lhn-04",
         "port": 30510,
-        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp",
+        "dir": "ioc/las/pdu_snmp/R1.6.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-pwr-04",
-        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp/build/iocBoot/ioc-las-lhn-pwr-04/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.6.0/build/iocBoot/ioc-las-lhn-pwr-04/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/pdu_snmp/R3.1.0/bin/rhel7-x86_64/pdu"
     },
     {
@@ -2995,21 +2995,21 @@
     {
         "host": "ctl-las-lhn-04",
         "port": 30025,
-        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp",
+        "dir": "ioc/las/pdu_snmp/R1.6.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-mezz-pwr-01",
-        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp/build/iocBoot/ioc-las-mezz-pwr-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.6.0/build/iocBoot/ioc-las-mezz-pwr-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/pdu_snmp/R3.1.0/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ctl-las-lhn-04",
         "port": 30007,
-        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp",
+        "dir": "ioc/las/pdu_snmp/R1.6.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-und-power-01",
-        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp/build/iocBoot/ioc-las-und-power-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.6.0/build/iocBoot/ioc-las-und-power-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/pdu_snmp/R3.1.0/bin/rhel7-x86_64/pdu"
     },
     {
@@ -3489,11 +3489,11 @@
     {
         "host": "ctl-las-lln-02",
         "port": 30015,
-        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp",
+        "dir": "ioc/las/pdu_snmp/R1.6.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lln-pwr-01",
-        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp/build/iocBoot/ioc-las-lln-pwr-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.6.0/build/iocBoot/ioc-las-lln-pwr-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R3.1.0/bin/rhel7-x86_64/pdu"
     },
     {
@@ -3829,11 +3829,11 @@
     {
         "host": "ctl-las-xcs-srv01",
         "port": 30011,
-        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp",
+        "dir": "ioc/las/pdu_snmp/R1.6.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-xcs-pwr-01",
-        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp/build/iocBoot/ioc-las-xcs-pwr-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.6.0/build/iocBoot/ioc-las-xcs-pwr-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/pdu_snmp/R3.1.0/bin/rhel7-x86_64/pdu"
     },
     {
@@ -13560,11 +13560,11 @@
     {
         "host": "ioc-las-cxi-srv05",
         "port": 35830,
-        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp",
+        "dir": "ioc/las/pdu_snmp/R1.6.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-mec-pwr-01",
-        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp/build/iocBoot/ioc-las-mec-pwr-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.6.0/build/iocBoot/ioc-las-mec-pwr-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/pdu_snmp/R3.1.0/bin/rhel7-x86_64/pdu"
     },
     {
@@ -13836,11 +13836,11 @@
     {
         "host": "ioc-las-mfx-srv45",
         "port": 35045,
-        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp",
+        "dir": "ioc/las/pdu_snmp/R1.6.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-mfx-pwr-01",
-        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/las/ioc-las-pdu_snmp/build/iocBoot/ioc-las-mfx-pwr-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/pdu_snmp/R1.6.0/build/iocBoot/ioc-las-mfx-pwr-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/pdu_snmp/R3.1.0/bin/rhel7-x86_64/pdu"
     },
     {
