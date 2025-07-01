@@ -2289,11 +2289,11 @@
     {
         "host": "ctl-las-ip2-srv01",
         "port": 30003,
-        "dir": "/cds/group/pcds/epics-dev/aberges/mods/temp-mods/lm2k4/smaract",
+        "dir": "/cds/group/pcds/epics-dev/mods/lm2k4/smaract",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k4-mcs2-02",
-        "script": "/cds/group/pcds/epics-dev/aberges/mods/temp-mods/lm2k4/smaract/build/iocBoot/ioc-lm2k4-mcs2-02/st.cmd",
+        "script": "/cds/group/pcds/epics-dev/mods/lm2k4/smaract/build/iocBoot/ioc-lm2k4-mcs2-02/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/smaract/R1.0.25/bin/rhel7-x86_64/smaract"
     },
     {
