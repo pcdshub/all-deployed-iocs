@@ -7693,6 +7693,16 @@
     },
     {
         "host": "ctl-tst-dev-02",
+        "port": 30008,
+        "dir": "/reg/g/pcds/epics-dev/ipotanin/ioc/common/watlow/ioc-common-watlow",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-tst-watlow-01",
+        "script": "/reg/g/pcds/epics-dev/ipotanin/ioc/common/watlow/ioc-common-watlow/children/build/iocBoot/ioc-tst-watlow-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/ipotanin/ioc/common/watlow/ioc-common-watlow/bin/rhel7-x86_64/watlow"
+    },
+    {
+        "host": "ctl-tst-dev-02",
         "port": 30023,
         "dir": "/reg/g/pcds/epics-dev/ysmandza/lcsl-motion-test-incremental-encoder/iocBoot/ioc-lclsPLCMotionTest",
         "disable": true,
