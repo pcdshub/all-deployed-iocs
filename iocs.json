@@ -17938,6 +17938,7 @@
         "host": "ioc-mfx-misc02",
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/mfx/smaract",
+        "disable": true,
         "alias": "\"Smaract\": DOD",
         "history": [
             "/reg/g/pcds/epics-dev/divya/ioc/mfx/smaract"
@@ -18289,40 +18290,6 @@
     },
     {
         "host": "ioc-mfx-rec01",
-        "port": 34901,
-        "dir": "ioc/mfx/edtCam/R1.0.0",
-        "disable": true,
-        "alias": "CAM - DG1 YAG",
-        "history": [
-            "ioc/mfx/edtCam/R1.0.0",
-            "ioc/mfx/edtCam/R0.5.0",
-            "ioc/mfx/edtCam/R0.4.0"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-dg1-p6740",
-        "script": "/reg/g/pcds/epics/ioc/mfx/edtCam/R1.0.0/build/iocBoot/ioc-mfx-dg1-p6740/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.0/bin/linux-x86_64/edt"
-    },
-    {
-        "host": "ioc-mfx-rec01",
-        "port": 34859,
-        "dir": "ioc/mfx/edtCam/R1.0.0",
-        "disable": true,
-        "alias": "CAM - DG2 YAG",
-        "history": [
-            "ioc/mfx/edtCam/R1.0.0",
-            "ioc/mfx/edtCam/R0.4.0",
-            "/reg/neh/home/bhill/wa2/epics/ioc/mfx/edtCam/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-mfx-dg2-p6740",
-        "script": "/reg/g/pcds/epics/ioc/mfx/edtCam/R1.0.0/build/iocBoot/ioc-mfx-dg2-p6740/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/edtCam/R2.1.0/bin/linux-x86_64/edt"
-    },
-    {
-        "host": "ioc-mfx-rec01",
         "port": 38000,
         "dir": "/reg/g/pcds/controls/camrecord",
         "disable": true,
@@ -18455,21 +18422,6 @@
         "name": "ioc-mfx-table-protura",
         "script": "/reg/g/pcds/epics/ioc/mfx/protura/R0.0.3/build/iocBoot/ioc-mfx-table-protura/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/protura/R1.0.0/bin/linux-x86_64/protura"
-    },
-    {
-        "host": "ioc-mfx-table",
-        "port": 32286,
-        "dir": "/reg/neh/home/zlentz/epics/ioc/xcs/arcus_dmx/current",
-        "disable": true,
-        "alias": "DET - Rowland Arcus Motion",
-        "history": [
-            "/reg/neh/home/zlentz/epics/ioc/xcs/arcus_dmx/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
-        "name": "ioc-rowland-01",
-        "script": "/reg/neh/home/zlentz/epics/ioc/xcs/arcus_dmx/current/build/iocBoot/ioc-rowland-01/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/zlentz/old_svn_linked_to_zlentz_home/ioc/common/arcus_dmx/current/bin/linux-x86/dmx"
     },
     {
         "host": "ioc-mfx-tfs",
