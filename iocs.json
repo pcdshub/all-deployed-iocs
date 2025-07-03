@@ -7760,13 +7760,13 @@
     {
         "host": "ctl-tst-dev-02",
         "port": 30007,
-        "dir": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/vhs_plc",
+        "dir": "/reg/g/pcds/epics-dev/clatimer/ioc/xcs/lcls-plc-hxr-vhs-01/iocBoot/ioc-plc-vhs-01",
         "alias": "PLC VHS TST",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "plc-vhs-01",
-        "script": "/reg/g/pcds/epics-dev/cagee/ioc/xcs/vhs_plc/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/clatimer/ioc/xcs/lcls-plc-hxr-vhs-01/iocBoot/ioc-plc-vhs-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.8.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-tst-dev-03",
