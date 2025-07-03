@@ -7739,8 +7739,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-watlow-01",
-        "script": "/reg/g/pcds/epics-dev/ipotanin/ioc/common/watlow/ioc-common-watlow/children/build/iocBoot/ioc-tst-watlow-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/ipotanin/ioc/common/watlow/ioc-common-watlow/bin/rhel7-x86_64/watlow"
+        "script": "/reg/g/pcds/epics-dev/ipotanin/ioc/common/watlow/ioc-common-watlow/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tst-dev-02",
