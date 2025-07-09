@@ -9325,7 +9325,7 @@
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-alv-03",
         "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/vimbaCam/build/iocBoot/ioc-cxi-alv-03/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/vimbaCam/R1.1.1/bin/rhel7-x86_64/vimbaTpr"
+        "binary": "/cds/group/pcds/epics/ioc/common/vimbaCam/R1.2.1/bin/rhel7-x86_64/vimbaTpr"
     },
     {
         "host": "ioc-cxi-cam2",
