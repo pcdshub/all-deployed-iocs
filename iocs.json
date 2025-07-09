@@ -18686,8 +18686,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-usdusb4",
-        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/usdusb4/children/build/iocBoot/ioc-mfx-usdusb4/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/espov/ioc/common/usdusb4/bin/rhel7-x86_64/usdusb4"
+        "script": "/reg/g/pcds/epics-dev/espov/ioc/common/usdusb4/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-mfx-wave8",
