@@ -1,6 +1,16 @@
 [
     {
         "host": "ctl-abl-misc-01",
+        "port": 39101,
+        "dir": "ioc/abl/interlock/R2.0.0",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/abl/iocmanager.cfg",
+        "name": "ioc-abl-interlock",
+        "script": "/reg/g/pcds/epics/ioc/abl/interlock/R2.0.0/build/iocBoot/ioc-abl-interlock/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/interlock/R2.0.0/bin/rhel7-x86_64/interlock"
+    },
+    {
+        "host": "ctl-abl-misc-01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/sds/temp/lcls-plc-sds-vis/lcls-plc-sds-vis",
         "history": [
