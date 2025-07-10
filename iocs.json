@@ -10147,7 +10147,6 @@
         "host": "ioc-cxi-mot2",
         "port": 30001,
         "dir": "ioc/cxi/ims/R6.7.1",
-        "disable": true,
         "alias": "IMS DS1 Extra Dumb Motors",
         "history": [
             "ioc/cxi/ims/R6.7.1"
