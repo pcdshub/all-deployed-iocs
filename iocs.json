@@ -9402,6 +9402,20 @@
     },
     {
         "host": "ioc-cxi-cam2",
+        "port": 30006,
+        "dir": "ioc/cxi/ims/R6.7.1",
+        "alias": "IMS DS1 Extra Dumb Motors",
+        "history": [
+            "ioc/cxi/ims/R6.7.1"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-ds1-dumb-ims",
+        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.7.1/build/iocBoot/ioc-cxi-ds1-dumb-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
+    },
+    {
+        "host": "ioc-cxi-cam2",
         "port": 32106,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/gigECam",
         "alias": "CAM - SC2 Inline Gige 06",
@@ -10141,20 +10155,6 @@
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-dg3-xfls-ims",
         "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.7.1/build/iocBoot/ioc-cxi-dg3-xfls-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
-    },
-    {
-        "host": "ioc-cxi-mot2",
-        "port": 30001,
-        "dir": "ioc/cxi/ims/R6.7.1",
-        "alias": "IMS DS1 Extra Dumb Motors",
-        "history": [
-            "ioc/cxi/ims/R6.7.1"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
-        "name": "ioc-cxi-ds1-dumb-ims",
-        "script": "/reg/g/pcds/epics/ioc/cxi/ims/R6.7.1/build/iocBoot/ioc-cxi-ds1-dumb-ims/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
     },
     {
