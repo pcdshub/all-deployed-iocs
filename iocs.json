@@ -17245,7 +17245,6 @@
         "host": "ioc-mfx-cam01",
         "port": 30103,
         "dir": "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam",
-        "disable": true,
         "alias": "CAM - GigE Liquid Jet 3",
         "history": [
             "/reg/g/pcds/epics-dev/espov/ioc/mfx/gigECam"
