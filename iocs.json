@@ -7816,6 +7816,7 @@
         "host": "ctl-tst-dev-03",
         "port": 30003,
         "dir": "/reg/g/pcds/epics-dev/lorelli/rocky9-workspace/ioc-common-gigECam/children/build/iocBoot/ioc-tst-gigecam-mspace",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-gigecam-mspac",
