@@ -7755,6 +7755,26 @@
     },
     {
         "host": "ctl-tst-dev-02",
+        "port": 30009,
+        "dir": "/cds/home/j/janeliu/git/iocs/ioc-common-usdusb4",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-tst-usdusb4",
+        "script": "/cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/children/build/iocBoot/ioc-tst-usdusb4/st.cmd",
+        "binary": "/cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/bin/rhel7-x86_64/usdusb4"
+    },
+    {
+        "host": "ctl-tst-dev-02",
+        "port": 30010,
+        "dir": "/cds/home/j/janeliu/git/iocs/ioc-common-usdusb4",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-tst-usdusb4-evr",
+        "script": "/cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/children/build/iocBoot/ioc-tst-usdusb4-evr/st.cmd",
+        "binary": "/cds/home/j/janeliu/git/iocs/ioc-common-usdusb4/bin/rhel7-x86_64/usdusb4"
+    },
+    {
+        "host": "ctl-tst-dev-02",
         "port": 30023,
         "dir": "/reg/g/pcds/epics-dev/ysmandza/lcsl-motion-test-incremental-encoder/iocBoot/ioc-lclsPLCMotionTest",
         "disable": true,
