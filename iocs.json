@@ -7216,7 +7216,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-ip2-timetool",
         "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/tmo/ioc-tmo-vimbaCam/build/iocBoot/ioc-tmo-ip2-timetool/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/dorlhiac/ioc/common/ioc-common-vimbaCam/bin/rhel7-x86_64/vimbaTpr"
+        "binary": "/cds/group/pcds/epics-dev/dorlhiac/ioc/common/ioc-common-vimbaCam/bin/rhel7-x86_64/vimba"
     },
     {
         "host": "ctl-tmo-misc-02",
