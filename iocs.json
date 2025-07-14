@@ -1284,7 +1284,7 @@
     {
         "host": "ctl-las-crix-srv05",
         "port": 30100,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/qadc",
+        "dir": "ioc/las/qadc/R1.4.3",
         "history": [
             "/cds/home/m/mcbrowne/trunk2/ioc/common/qadc",
             "ioc/las/qadc/R1.0.1"
@@ -1292,8 +1292,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm2k2-qadc134-01",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/qadc/children/build/iocBoot/ioc-lm2k2-qadc134-01/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/kaushikm/ioc/common/qadc/bin/rhel7-x86_64/qadc134Ioc"
+        "script": "/reg/g/pcds/epics/ioc/las/qadc/R1.4.3/build/iocBoot/ioc-lm2k2-qadc134-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/qadc/R2.4.0/bin/rhel7-x86_64/qadc134Ioc"
     },
     {
         "host": "ctl-las-crix-srv06",
@@ -1912,12 +1912,12 @@
     {
         "host": "ctl-las-ip1-srv03",
         "port": 30100,
-        "dir": "ioc/las/qadc/R1.4.1",
+        "dir": "ioc/las/qadc/R1.4.3",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-lm1k4-qadc134-01",
-        "script": "/reg/g/pcds/epics/ioc/las/qadc/R1.4.1/build/iocBoot/ioc-lm1k4-qadc134-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/qadc/R2.3.0/bin/rhel7-x86_64/qadc134Ioc"
+        "script": "/reg/g/pcds/epics/ioc/las/qadc/R1.4.3/build/iocBoot/ioc-lm1k4-qadc134-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/qadc/R2.4.0/bin/rhel7-x86_64/qadc134Ioc"
     },
     {
         "host": "ctl-las-ip1-srv04",
@@ -9386,7 +9386,6 @@
         "host": "ioc-cxi-cam2",
         "port": 39104,
         "dir": "/reg/g/pcds/epics-dev/ddamiani/ioc/common/vimbaCam/current",
-        "disable": true,
         "alias": "CAM - SC2 offaxis Alvium",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
