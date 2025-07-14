@@ -8585,7 +8585,6 @@
         "host": "daq-mec-misc01",
         "port": 32999,
         "dir": "ioc/mec/visar/R1.0.4",
-        "disable": true,
         "history": [
             "ioc/mec/visar/R1.0.4"
         ],
@@ -8599,7 +8598,6 @@
         "host": "daq-mec-misc01",
         "port": 32998,
         "dir": "ioc/mec/visar/R1.0.4",
-        "disable": true,
         "history": [
             "ioc/mec/visar/R1.0.4",
             "/reg/g/pcds/epics/ioc/mec/visar/R1.0.3"
