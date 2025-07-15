@@ -7851,8 +7851,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-pico-mspace",
-        "script": "/cds/home/j/janeliu/git/iocs/ioc-common-picoMotion/children/build/iocBoot/ioc-tst-pico-mspace/st.cmd",
-        "binary": "/cds/home/j/janeliu/git/iocs/ioc-common-picoMotion/bin/rhel9-x86_64/motion"
+        "script": "/cds/home/j/janeliu/git/iocs/ioc-common-picoMotion/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tst-dev-03",
@@ -7880,7 +7880,6 @@
         "host": "ctl-tst-dev-03",
         "port": 30008,
         "dir": "/cds/home/j/janeliu/git/iocs/built/ioc-common-vimbaCam",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-vimbacam-mspace",
