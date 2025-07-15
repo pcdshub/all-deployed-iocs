@@ -7846,6 +7846,16 @@
     },
     {
         "host": "ctl-tst-dev-03",
+        "port": 30009,
+        "dir": "/cds/home/j/janeliu/git/iocs/ioc-common-picoMotion",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-tst-pico-mspace",
+        "script": "/cds/home/j/janeliu/git/iocs/ioc-common-picoMotion/children/build/iocBoot/ioc-tst-pico-mspace/st.cmd",
+        "binary": "/cds/home/j/janeliu/git/iocs/ioc-common-picoMotion/bin/rhel9-x86_64/motion"
+    },
+    {
+        "host": "ctl-tst-dev-03",
         "port": 30001,
         "dir": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-qmini",
         "disable": true,
@@ -7870,6 +7880,7 @@
         "host": "ctl-tst-dev-03",
         "port": 30008,
         "dir": "/cds/home/j/janeliu/git/iocs/built/ioc-common-vimbaCam",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-vimbacam-mspace",
@@ -18951,6 +18962,16 @@
         "name": "ioc-tmo-mpod02",
         "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-isegPower/children/build/iocBoot/ioc-tmo-mpod02/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-isegPower/bin/linux-arm-apalis/isegPower"
+    },
+    {
+        "host": "ioc-tst-13",
+        "port": 39102,
+        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/mec/ioc-fms-annunciator",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-fms-annunciator",
+        "script": "/reg/g/pcds/epics-dev/nrw/iocs/mec/ioc-fms-annunciator/build/iocBoot/ioc-fms-annunciator/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.7.3/bin/rhel7-x86_64/ek9000IOC"
     },
     {
         "host": "ioc-tst-13",
