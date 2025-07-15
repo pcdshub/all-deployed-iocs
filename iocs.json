@@ -18974,6 +18974,16 @@
     },
     {
         "host": "ioc-tst-13",
+        "port": 39104,
+        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/mec/ioc-fms-interlock",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-fms-interlock",
+        "script": "/reg/g/pcds/epics-dev/nrw/iocs/mec/ioc-fms-interlock/build/iocBoot/ioc-fms-interlock/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/interlock/R2.0.0/bin/rhel7-x86_64/interlock"
+    },
+    {
+        "host": "ioc-tst-13",
         "port": 39103,
         "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/tst/alias-archiving-test",
         "alias": "ALIAS TEST",
