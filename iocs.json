@@ -11781,7 +11781,7 @@
     {
         "host": "ioc-cxi-usr1",
         "port": 30102,
-        "dir": "ioc/common/Leviton/R2.4.2",
+        "dir": "ioc/common/Leviton/R1.32.0",
         "alias": "Power Strips at DSA and DSD",
         "history": [
             "ioc/common/Leviton/R1.28.8",
@@ -11791,8 +11791,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-sb1",
-        "script": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.2/iocBoot/ioc-cxi-sb1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.2/bin/linux-x86_64/Leviton"
+        "script": "/reg/g/pcds/epics/ioc/common/Leviton/R1.32.0/iocBoot/ioc-cxi-sb1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R1.32.0/bin/linux-x86_64/Leviton"
     },
     {
         "host": "ioc-cxi-usr1",
