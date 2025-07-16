@@ -8303,7 +8303,7 @@
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-pgpw8-01",
         "script": "/cds/group/pcds/epics-dev/iroque/ued/ioc-ued-pgpWave8/build/iocBoot/ioc-ued-pgpw8-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R2.7.0/bin/rhel7-x86_64/pgpWave8"
+        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R2.8.0/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-xpp-wave8",
