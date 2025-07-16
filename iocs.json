@@ -7724,7 +7724,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-lcp-mspace",
         "script": "/cds/home/j/janeliu/git/iocs/ioc-common-lcp/iocBoot/ioc-tst-lcp-mspace/st.cmd",
-        "binary": "/cds/home/j/janeliu/git/iocs/ioc-common-lcp/bin/rhel7-x86_64/lcp"
+        "binary": "/cds/home/j/janeliu/git/iocs/ioc-common-lcp/bin/rhel9-x86_64/lcp"
     },
     {
         "host": "ctl-tst-dev-02",
