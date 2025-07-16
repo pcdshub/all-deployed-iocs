@@ -7894,6 +7894,7 @@
         "host": "ctl-tst-pgp01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-113",
+        "disable": true,
         "history": [
             "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-113"
         ],
@@ -7907,6 +7908,7 @@
         "host": "ctl-tst-pgp01",
         "port": 30001,
         "dir": "/cds/home/d/dnajjar/areaDetectores/pgpCamlink",
+        "disable": true,
         "history": [
             "/cds/home/d/dnajjar/areaDetectores/pgpCamlink",
             "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current/"
@@ -7921,6 +7923,7 @@
         "host": "ctl-tst-pgp01",
         "port": 30002,
         "dir": "ioc/common/pgpCamlink/R1.3.2",
+        "disable": true,
         "history": [
             "ioc/common/pgpCamlink/R1.3.2",
             "ioc/common/pgpCamlink/R1.4.0",
@@ -7937,6 +7940,7 @@
         "host": "ctl-tst-pgp01",
         "port": 30003,
         "dir": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current",
+        "disable": true,
         "history": [
             "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current"
         ],
@@ -7950,6 +7954,7 @@
         "host": "ctl-tst-pgp01",
         "port": 30004,
         "dir": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current",
+        "disable": true,
         "history": [
             "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current"
         ],
@@ -7963,6 +7968,7 @@
         "host": "ctl-tst-pgp01",
         "port": 30009,
         "dir": "/cds/home/d/dnajjar/areaDetectores/pgpCamlink",
+        "disable": true,
         "history": [
             "/cds/home/d/dnajjar/areaDetectores/pgpCamlink",
             "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current"
