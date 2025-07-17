@@ -1,15 +1,5 @@
 [
     {
-        "host": "/cds/group/pcds/epics-dev/cpino/ioc/las/ioc-las-pgpWave8",
-        "port": 30001,
-        "dir": "/cds/group/pcds/epics-dev/cpino/ioc/las/ioc-las-pgpWave8",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
-        "name": "ioc-las-ip2-pgpw8-01",
-        "script": "/cds/group/pcds/epics-dev/cpino/ioc/las/ioc-las-pgpWave8/build/iocBoot/ioc-las-ip2-pgpw8-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R2.8.0/bin/rhel7-x86_64/pgpWave8"
-    },
-    {
         "host": "ctl-abl-misc-01",
         "port": 39101,
         "dir": "ioc/abl/interlock/R2.0.0",
@@ -2425,6 +2415,16 @@
         "name": "ioc-lm2k4-mods-ek9000-01",
         "script": "/cds/group/pcds/epics-dev/mods/lm2k4/ek9000/build/iocBoot/ioc-lm2k4-mods-ek9000-01/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.3/bin/rhel7-x86_64/ek9000IOC"
+    },
+    {
+        "host": "ctl-las-ip2-srv04",
+        "port": 30001,
+        "dir": "/cds/group/pcds/epics-dev/cpino/ioc/las/ioc-las-pgpWave8",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
+        "name": "ioc-las-ip2-pgpw8-01",
+        "script": "/cds/group/pcds/epics-dev/cpino/ioc/las/ioc-las-pgpWave8/build/iocBoot/ioc-las-ip2-pgpw8-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R2.8.0/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-las-lhn-01",
@@ -19155,6 +19155,16 @@
         "name": "ioc-ued-gige-01",
         "script": "/reg/g/pcds/epics-dev/agilardi/iocs/ued/gigECam/build/iocBoot/ioc-ued-gige-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.0/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ioc-ued-ccd01",
+        "port": 39114,
+        "dir": "/reg/g/pcds/epics-dev/jozamudi/ued/ioc-ued-ek9k/build/iocBoot/ioc-ued-lambda-bhc-01",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
+        "name": "ioc-ued-lambda-bhc",
+        "script": "/reg/g/pcds/epics-dev/jozamudi/ued/ioc-ued-ek9k/build/iocBoot/ioc-ued-lambda-bhc-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ek9000/R1.7.3/bin/rhel7-x86_64/ek9000IOC"
     },
     {
         "host": "ioc-ued-ccd01",
