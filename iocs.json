@@ -1001,22 +1001,22 @@
     {
         "host": "ctl-las-crix-srv03",
         "port": 30003,
-        "dir": "/cds/home/t/tjohnson/trunk/las/pgpWave8",
+        "dir": "ioc/las/pgpWave8/R2.8.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-crix-pgpw8-01",
-        "script": "/cds/home/t/tjohnson/trunk/las/pgpWave8/build/iocBoot/ioc-las-crix-pgpw8-01/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/pgpWave8/bin/rhel7-x86_64/pgpWave8"
+        "script": "/reg/g/pcds/epics/ioc/las/pgpWave8/R2.8.0/build/iocBoot/ioc-las-crix-pgpw8-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R2.8.0/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-las-crix-srv03",
         "port": 30002,
-        "dir": "ioc/las/pgpWave8/R2.2.0",
+        "dir": "ioc/las/pgpWave8/R2.8.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-crix-pgpw8-02",
-        "script": "/reg/g/pcds/epics/ioc/las/pgpWave8/R2.2.0/build/iocBoot/ioc-las-crix-pgpw8-02/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R2.2.0/bin/rhel7-x86_64/pgpWave8"
+        "script": "/reg/g/pcds/epics/ioc/las/pgpWave8/R2.8.0/build/iocBoot/ioc-las-crix-pgpw8-02/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R2.8.0/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-las-crix-srv03",
@@ -2045,43 +2045,43 @@
     {
         "host": "ctl-las-ip1-srv05",
         "port": 30100,
-        "dir": "ioc/las/pgpWave8/R2.1.0",
+        "dir": "ioc/las/pgpWave8/R2.8.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-ip1-pgpw8-01",
-        "script": "/reg/g/pcds/epics/ioc/las/pgpWave8/R2.1.0/build/iocBoot/ioc-las-ip1-pgpw8-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R2.0.0/bin/rhel7-x86_64/pgpWave8"
+        "script": "/reg/g/pcds/epics/ioc/las/pgpWave8/R2.8.0/build/iocBoot/ioc-las-ip1-pgpw8-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R2.8.0/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-las-ip1-srv05",
         "port": 30101,
-        "dir": "ioc/las/pgpWave8/R2.1.0",
+        "dir": "ioc/las/pgpWave8/R2.8.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-ip1-pgpw8-02",
-        "script": "/reg/g/pcds/epics/ioc/las/pgpWave8/R2.1.0/build/iocBoot/ioc-las-ip1-pgpw8-02/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R2.0.0/bin/rhel7-x86_64/pgpWave8"
+        "script": "/reg/g/pcds/epics/ioc/las/pgpWave8/R2.8.0/build/iocBoot/ioc-las-ip1-pgpw8-02/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R2.8.0/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-las-ip1-srv05",
         "port": 30102,
-        "dir": "ioc/las/pgpWave8/R2.1.0",
+        "dir": "ioc/las/pgpWave8/R2.8.0",
         "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-ip1-pgpw8-03",
-        "script": "/reg/g/pcds/epics/ioc/las/pgpWave8/R2.1.0/build/iocBoot/ioc-las-ip1-pgpw8-03/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R2.0.0/bin/rhel7-x86_64/pgpWave8"
+        "script": "/reg/g/pcds/epics/ioc/las/pgpWave8/R2.8.0/build/iocBoot/ioc-las-ip1-pgpw8-03/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R2.8.0/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-las-ip1-srv05",
         "port": 30010,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/pgpWave8",
+        "dir": "ioc/las/pgpWave8/R2.8.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-ip1-pgpw8-04",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/pgpWave8/children/build/iocBoot/ioc-las-ip1-pgpw8-04/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/kaushikm/ioc/common/pgpWave8/bin/rhel7-x86_64/pgpWave8"
+        "script": "/reg/g/pcds/epics/ioc/las/pgpWave8/R2.8.0/build/iocBoot/ioc-las-ip1-pgpw8-04/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R2.8.0/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-las-ip1-srv05",
@@ -2419,12 +2419,12 @@
     {
         "host": "ctl-las-ip2-srv04",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/cpino/ioc/las/ioc-las-pgpWave8",
+        "dir": "ioc/las/pgpWave8/R2.8.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-ip2-pgpw8-01",
-        "script": "/reg/g/pcds/epics-dev/cpino/ioc/las/ioc-las-pgpWave8/build/iocBoot/ioc-las-ip2-pgpw8-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R2.8.0/bin/rhel7-x86_64/pgpWave8"
+        "script": "/reg/g/pcds/epics/ioc/las/pgpWave8/R2.8.0/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-las-lhn-01",
@@ -3153,12 +3153,12 @@
     {
         "host": "ctl-las-lhn-sp01",
         "port": 30007,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/pgpWave8",
+        "dir": "ioc/las/pgpWave8/R2.8.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-crix-pgpw8-03",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/pgpWave8/children/build/iocBoot/ioc-las-crix-pgpw8-03/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/kaushikm/ioc/common/pgpWave8/bin/rhel7-x86_64/pgpWave8"
+        "script": "/reg/g/pcds/epics/ioc/las/pgpWave8/R2.8.0/build/iocBoot/ioc-las-crix-pgpw8-03/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R2.8.0/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-las-lhn-sp01",
@@ -3183,12 +3183,12 @@
     {
         "host": "ctl-las-lhn-sp01",
         "port": 30001,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/pgpWave8",
+        "dir": "ioc/las/pgpWave8/R2.8.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-pgpw8-01",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/common/pgpWave8/children/build/iocBoot/ioc-las-lhn-pgpw8-01/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/kaushikm/ioc/common/pgpWave8/bin/rhel7-x86_64/pgpWave8"
+        "script": "/reg/g/pcds/epics/ioc/las/pgpWave8/R2.8.0/build/iocBoot/ioc-las-lhn-pgpw8-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R2.8.0/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-las-lhn-sp01",
@@ -3713,12 +3713,12 @@
     {
         "host": "ctl-las-qrixs-srv02",
         "port": 30006,
-        "dir": "/cds/group/pcds/epics/ioc/las/pgpWave8/R2.3.0",
+        "dir": "ioc/las/pgpWave8/R2.8.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-qrix-pgpw8-01",
-        "script": "/cds/group/pcds/epics/ioc/las/pgpWave8/R2.3.0/build/iocBoot/ioc-las-qrix-pgpw8-01/st.cmd",
-        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R2.7.0/bin/rhel7-x86_64/pgpWave8"
+        "script": "/reg/g/pcds/epics/ioc/las/pgpWave8/R2.8.0/build/iocBoot/ioc-las-qrix-pgpw8-01/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R2.8.0/bin/rhel7-x86_64/pgpWave8"
     },
     {
         "host": "ctl-las-qrixs-srv02",
