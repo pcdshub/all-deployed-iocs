@@ -7728,16 +7728,6 @@
     },
     {
         "host": "ctl-tst-dev-02",
-        "port": 30011,
-        "dir": "/cds/home/j/janeliu/git/iocs/ioc-common-lcp",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-lcp-mspace",
-        "script": "/cds/home/j/janeliu/git/iocs/ioc-common-lcp/iocBoot/ioc-tst-lcp-mspace/st.cmd",
-        "binary": "/cds/home/j/janeliu/git/iocs/ioc-common-lcp/bin/rhel9-x86_64/lcp"
-    },
-    {
-        "host": "ctl-tst-dev-02",
         "port": 30004,
         "dir": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-smaract",
         "disable": true,
@@ -7835,6 +7825,19 @@
         "name": "ioc-tst-gigecam-mspac",
         "script": "/reg/g/pcds/epics-dev/lorelli/rocky9-workspace/ioc-common-gigECam/children/build/iocBoot/ioc-tst-gigecam-mspace/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/lorelli/rocky9-workspace/ioc-common-gigECam/bin/rhel9-x86_64/gigeTpr"
+    },
+    {
+        "host": "ctl-tst-dev-03",
+        "port": 30006,
+        "dir": "/cds/home/j/janeliu/git/iocs/ioc-common-lcp",
+        "history": [
+            "/cds/home/j/janeliu/git/iocs/ioc-common-lcp"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-tst-lcp-mspace",
+        "script": "/cds/home/j/janeliu/git/iocs/ioc-common-lcp/iocBoot/ioc-tst-lcp-mspace/st.cmd",
+        "binary": "/cds/home/j/janeliu/git/iocs/ioc-common-lcp/bin/rhel9-x86_64/lcp"
     },
     {
         "host": "ctl-tst-dev-03",
