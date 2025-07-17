@@ -7846,8 +7846,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-pgpwave8-mspace",
-        "script": "/cds/home/j/janeliu/git/iocs/ioc-common-pgpWave8/st.cmd",
-        "binary": null
+        "script": "/cds/home/j/janeliu/git/iocs/ioc-common-pgpWave8/children/build/iocBoot/ioc-tst-pgpwave8-mspace/st.cmd",
+        "binary": "/cds/home/j/janeliu/git/iocs/ioc-common-pgpWave8/bin/rhel9-x86_64/pgpWave8"
     },
     {
         "host": "ctl-tst-dev-03",
