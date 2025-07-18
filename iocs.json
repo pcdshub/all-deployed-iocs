@@ -9331,7 +9331,6 @@
         "host": "ioc-cxi-acromag",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/evr",
-        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
         "name": "ioc-cxi-acromag-evr",
@@ -12173,7 +12172,6 @@
         "host": "ioc-cxi-wave8",
         "port": 30303,
         "dir": "ioc/cxi/wave8/R2.2.0",
-        "disable": true,
         "alias": "Wave8 DG2",
         "history": [
             "ioc/cxi/wave8/R2.2.0",
@@ -12193,7 +12191,6 @@
         "host": "ioc-cxi-wave8",
         "port": 30001,
         "dir": "ioc/cxi/wave8/R2.2.0",
-        "disable": true,
         "alias": "Wave8 DG3",
         "history": [
             "ioc/cxi/wave8/R2.2.0"
