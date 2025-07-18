@@ -2076,11 +2076,11 @@
     {
         "host": "ctl-las-ip1-srv05",
         "port": 30010,
-        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/las/pgpWave8",
+        "dir": "ioc/las/pgpWave8/R2.8.1",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-ip1-pgpw8-04",
-        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/las/pgpWave8/build/iocBoot/ioc-las-ip1-pgpw8-04/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/las/pgpWave8/R2.8.1/build/iocBoot/ioc-las-ip1-pgpw8-04/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/pgpWave8/R2.8.0/bin/rhel7-x86_64/pgpWave8"
     },
     {
