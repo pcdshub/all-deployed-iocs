@@ -7836,8 +7836,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-lcp-mspace",
-        "script": "/cds/home/j/janeliu/git/iocs/ioc-common-lcp/iocBoot/ioc-tst-lcp-mspace/st.cmd",
-        "binary": "/cds/home/j/janeliu/git/iocs/ioc-common-lcp/bin/rhel9-x86_64/lcp"
+        "script": "/cds/home/j/janeliu/git/iocs/ioc-common-lcp/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tst-dev-03",
