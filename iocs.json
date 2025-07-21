@@ -7830,6 +7830,7 @@
         "host": "ctl-tst-dev-03",
         "port": 30006,
         "dir": "/cds/home/j/janeliu/git/iocs/ioc-common-lcp",
+        "disable": true,
         "history": [
             "/cds/home/j/janeliu/git/iocs/ioc-common-lcp"
         ],
@@ -7843,6 +7844,7 @@
         "host": "ctl-tst-dev-03",
         "port": 30001,
         "dir": "/cds/home/j/janeliu/git/iocs/ioc-common-pgpWave8",
+        "disable": true,
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-pgpwave8-mspace",
