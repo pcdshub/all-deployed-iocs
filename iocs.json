@@ -7806,6 +7806,16 @@
     },
     {
         "host": "ctl-tst-dev-03",
+        "port": 30007,
+        "dir": "/cds/home/j/janeliu/git/iocs/built/ioc-common-cryojet",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-tst-cryojet-mspace",
+        "script": "/cds/home/j/janeliu/git/iocs/built/ioc-common-cryojet/iocBoot/ioc-tst-cryojet-mspace/st.cmd",
+        "binary": "/cds/home/j/janeliu/git/iocs/built/ioc-common-cryojet/bin/rhel9-x86_64/cryojet"
+    },
+    {
+        "host": "ctl-tst-dev-03",
         "port": 30005,
         "dir": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-thorlabs-ell",
         "disable": true,
