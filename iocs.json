@@ -5989,7 +5989,7 @@
     {
         "host": "ctl-rix-vac-01",
         "port": 30112,
-        "dir": "ioc/kfe/lcls-plc-kfe-rix-vac/v2.4.0",
+        "dir": "/reg/g/pcds/epics-dev/tparas/plc/rix/lcls-plc-kfe-rix-vac",
         "alias": "Beamline Vacuum PLC IOC",
         "history": [
             "ioc/kfe/lcls-plc-kfe-rix-vac/v2.4.0",
@@ -6000,7 +6000,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-plc-kfe-rix-vac",
-        "script": "/reg/g/pcds/epics/ioc/kfe/lcls-plc-kfe-rix-vac/v2.4.0/iocBoot/ioc-plc-kfe-rix-vac/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/tparas/plc/rix/lcls-plc-kfe-rix-vac/iocBoot/ioc-plc-kfe-rix-vac/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.8.0/bin/rhel7-x86_64/adsIoc"
     },
     {
@@ -8058,13 +8058,13 @@
     {
         "host": "ctl-txi-cam-01",
         "port": 39100,
-        "dir": "ioc/txi/tprStandalone/R1.2.0",
+        "dir": "/reg/g/pcds/epics-dev/opperman/iocs/txi/ioc-txi-tprStandalone",
         "alias": "TPR-cam01",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-tpr1",
-        "script": "/reg/g/pcds/epics/ioc/txi/tprStandalone/R1.2.0/build/iocBoot/ioc-txi-tpr1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/tprStandalone/R1.2.0/bin/rhel7-x86_64/tpr"
+        "script": "/reg/g/pcds/epics-dev/opperman/iocs/txi/ioc-txi-tprStandalone/build/iocBoot/ioc-txi-tpr1/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/tprStandalone/R2.0.0/bin/rhel9-x86_64/tpr"
     },
     {
         "host": "ctl-txi-misc-01",
