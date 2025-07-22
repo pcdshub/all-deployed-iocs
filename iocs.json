@@ -8731,13 +8731,13 @@
     {
         "host": "daq-mfx-tpr1",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam",
+        "dir": "/reg/g/pcds/epics-dev/dorlhiac/ioc/mfx/vimbaCam",
         "alias": "CAM - Alvium TimeTool",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mfx/iocmanager.cfg",
         "name": "ioc-mfx-alvium04",
-        "script": "/reg/g/pcds/epics-dev/rcjwoods/ioc/mfx/vimbaCam/build/iocBoot/ioc-mfx-alvium04/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/dorlhiac/ioc/common/ioc-common-vimbaCam/bin/rhel7-x86_64/vimbaTpr"
+        "script": "/reg/g/pcds/epics-dev/dorlhiac/ioc/mfx/vimbaCam/build/iocBoot/ioc-mfx-alvium04/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/dorlhiac/ioc/common/my_ioc-common-vimbaCam/bin/rhel7-x86_64/vimbaTpr"
     },
     {
         "host": "daq-mfx-tpr1",
@@ -16923,8 +16923,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-mcs1",
-        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/ioc-mec-smaract/build/iocBoot/ioc-mec-mcs1/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.4/bin/rhel7-x86_64/smaract"
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/ioc-mec-smaract/st.cmd",
+        "binary": null
     },
     {
         "host": "ioc-mec-rec01",
