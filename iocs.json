@@ -8215,13 +8215,13 @@
     {
         "host": "ctl-txi-wave8-01",
         "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/opperman/iocs/txi/ioc-common-pgpWave8",
+        "dir": "/reg/g/pcds/epics-dev/opperman/iocs/txi/ioc-common-pgpWave8/children",
         "alias": "Wave8",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-pgpw8-01",
-        "script": "/reg/g/pcds/epics-dev/opperman/iocs/txi/ioc-common-pgpWave8/st.cmd",
-        "binary": null
+        "script": "/reg/g/pcds/epics-dev/opperman/iocs/txi/ioc-common-pgpWave8/children/build/iocBoot/ioc-txi-pgpw8-01/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/opperman/iocs/txi/ioc-common-pgpWave8/bin/rhel9-x86_64/pgpWave8"
     },
     {
         "host": "ctl-txi-wave8-01",
