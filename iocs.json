@@ -7130,7 +7130,7 @@
         "host": "ctl-tmo-misc-01",
         "port": 30006,
         "dir": "/reg/g/pcds/epics-dev/tparas/ioc/tmo/ioc-tmo-pdu",
-        "alias": "MPODs PDU",
+        "alias": "MPODS PDU",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tmo/iocmanager.cfg",
         "name": "ioc-tmo-pwr-r02",
