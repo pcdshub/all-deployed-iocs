@@ -23258,7 +23258,7 @@
     {
         "host": "ioc-xpp-rec01",
         "port": 30041,
-        "dir": "ioc/xpp/ims/R6.7.1",
+        "dir": "/reg/g/pcds/epics-dev/zlentz/ioc/xpp/ims",
         "alias": "SB1 - IPM Motion",
         "history": [
             "ioc/xpp/ims/R2.0.0",
@@ -23267,13 +23267,13 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb1-ipm01-ims",
-        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.7.1/build/iocBoot/ioc-xpp-sb1-ipm01-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
+        "script": "/reg/g/pcds/epics-dev/zlentz/ioc/xpp/ims/build/iocBoot/ioc-xpp-sb1-ipm01-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R7.0.0/bin/rhel9-x86_64/ims"
     },
     {
         "host": "ioc-xpp-rec01",
         "port": 30044,
-        "dir": "ioc/xpp/ims/R6.7.1",
+        "dir": "/reg/g/pcds/epics-dev/zlentz/ioc/xpp/ims",
         "disable": true,
         "alias": "SB1 - Reflaser",
         "history": [
@@ -23283,13 +23283,13 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb1-micos-ims",
-        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.7.1/build/iocBoot/ioc-xpp-sb1-micos-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
+        "script": "/reg/g/pcds/epics-dev/zlentz/ioc/xpp/ims/build/iocBoot/ioc-xpp-sb1-micos-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R7.0.0/bin/rhel9-x86_64/ims"
     },
     {
         "host": "ioc-xpp-rec01",
         "port": 30042,
-        "dir": "ioc/xpp/ims/R6.7.1",
+        "dir": "/reg/g/pcds/epics-dev/zlentz/ioc/xpp/ims",
         "alias": "SB1 - YAG1 Screen Motion",
         "history": [
             "ioc/xpp/ims/R2.0.0",
@@ -23298,13 +23298,13 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb1-pim01-ims",
-        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.7.1/build/iocBoot/ioc-xpp-sb1-pim01-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
+        "script": "/reg/g/pcds/epics-dev/zlentz/ioc/xpp/ims/build/iocBoot/ioc-xpp-sb1-pim01-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R7.0.0/bin/rhel9-x86_64/ims"
     },
     {
         "host": "ioc-xpp-rec01",
         "port": 30043,
-        "dir": "ioc/xpp/ims/R6.7.1",
+        "dir": "/reg/g/pcds/epics-dev/zlentz/ioc/xpp/ims",
         "disable": true,
         "alias": "SB1 - Slits",
         "history": [
@@ -23314,8 +23314,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/xpp/iocmanager.cfg",
         "name": "ioc-xpp-sb1-slit01-ims",
-        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.7.1/build/iocBoot/ioc-xpp-sb1-slit01-ims/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.7.0/bin/rhel7-x86_64/ims"
+        "script": "/reg/g/pcds/epics-dev/zlentz/ioc/xpp/ims/build/iocBoot/ioc-xpp-sb1-slit01-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R7.0.0/bin/rhel9-x86_64/ims"
     },
     {
         "host": "ioc-xpp-rec02",
