@@ -16916,14 +16916,14 @@
     {
         "host": "ioc-mec-rec01",
         "port": 37000,
-        "dir": "ioc/mec/smaract/R1.0.0",
+        "dir": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/ioc-mec-smaract",
         "history": [
             "ioc/mec/smaract/R1.0.0"
         ],
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/mec/iocmanager.cfg",
         "name": "ioc-mec-mcs1",
-        "script": "/reg/g/pcds/epics/ioc/mec/smaract/R1.0.0/build/iocBoot/ioc-mec-mcs1/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/ctsoi/ioc/mec/ioc-mec-smaract/build/iocBoot/ioc-mec-mcs1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.4/bin/rhel7-x86_64/smaract"
     },
     {
