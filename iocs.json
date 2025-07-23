@@ -7729,17 +7729,6 @@
     },
     {
         "host": "ctl-tst-dev-02",
-        "port": 30004,
-        "dir": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-smaract",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-mcs2-rhel7-mspace",
-        "script": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-smaract/children/build/iocBoot/ioc-tst-mcs2-rhel7-mspace/st.cmd",
-        "binary": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-smaract/bin/rhel7-x86_64/smaract"
-    },
-    {
-        "host": "ctl-tst-dev-02",
         "port": 30018,
         "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/test/ioc-common-pdu_snmp",
         "base_version": "3.15",
@@ -7814,17 +7803,6 @@
         "name": "ioc-tst-cryojet-mspace",
         "script": "/cds/home/j/janeliu/git/iocs/built/ioc-common-cryojet/iocBoot/ioc-tst-cryojet-mspace/st.cmd",
         "binary": "/cds/home/j/janeliu/git/iocs/built/ioc-common-cryojet/bin/rhel9-x86_64/cryojet"
-    },
-    {
-        "host": "ctl-tst-dev-03",
-        "port": 30005,
-        "dir": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-thorlabs-ell",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-ell-mspace",
-        "script": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-thorlabs-ell/children/build/iocBoot/ioc-tst-ell-mspace/st.cmd",
-        "binary": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-thorlabs-ell/bin/rhel9-x86_64/ell"
     },
     {
         "host": "ctl-tst-dev-03",
