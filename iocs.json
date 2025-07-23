@@ -7746,7 +7746,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-power-he",
         "script": "/reg/g/pcds/epics-dev/tparas/ioc/tmo/ioc-tmo-pdu/build/iocBoot/ioc-tst-pwr-he/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R3.0.0/bin/rhel7-x86_64/pdu"
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R3.1.1/bin/rhel7-x86_64/pdu"
     },
     {
         "host": "ctl-tst-dev-02",
