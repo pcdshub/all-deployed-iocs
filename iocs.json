@@ -13591,7 +13591,7 @@
         "host": "ioc-icl-rec10",
         "port": 39102,
         "dir": "/reg/g/pcds/epics-dev/jozamudi/icl/ioc-icl-shimadzu-lc20",
-        "alias": "ICL LC20 02",
+        "alias": "FEL SIM",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/icl/iocmanager.cfg",
         "name": "ioc-icl-lc20-02",
