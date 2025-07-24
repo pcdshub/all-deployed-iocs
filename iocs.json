@@ -3932,6 +3932,16 @@
         "binary": "/reg/g/pcds/epics/ioc/las/vitara/R4.0.0/bin/rhel7-x86_64/vitara"
     },
     {
+        "host": "ctl-lasdev-asc-srv01",
+        "port": 30002,
+        "dir": "/reg/g/pcds/epics-dev/ipotanin/ioc/lasdev/ioc-lasdev-tprStandalone",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/lasdev/iocmanager.cfg",
+        "name": "ioc-lasdev-asc-tpr1",
+        "script": "/reg/g/pcds/epics-dev/ipotanin/ioc/lasdev/ioc-lasdev-tprStandalone/build/iocBoot/ioc-lasdev-asc-tpr1/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/tprStandalone/R2.0.0/bin/rhel7-x86_64/tpr"
+    },
+    {
         "host": "ctl-lfe-cam-01",
         "port": 30251,
         "dir": "ioc/common/pgpCamlink/R0.8.0",
