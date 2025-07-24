@@ -3089,7 +3089,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-opcpa-lps-plc-01",
         "script": "/cds/group/pcds/epics-dev/aberges/lcls-plc-las-lps-01/iocBoot/ioc-opcpa-lps-plc-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+        "binary": "/cds/group/pcds/epics-dev/aberges/lcls-plc-las-lps-01/iocBoot/ioc-opcpa-lps-plc-01/c:/Repos/ads-ioc/R0.8.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-las-lhn-04",
@@ -8054,6 +8054,16 @@
     },
     {
         "host": "ctl-txi-cam-01",
+        "port": 39103,
+        "dir": "/reg/g/pcds/epics-dev/opperman/iocs/txi/ioc-common-picoMotion",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
+        "name": "ioc-mcp-txi-al1k3",
+        "script": "/reg/g/pcds/epics-dev/opperman/iocs/txi/ioc-common-picoMotion/children/build/iocBoot/ioc-mcp-txi-al1k3/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/opperman/iocs/txi/ioc-common-picoMotion/bin/rhel7-x86_64/motion"
+    },
+    {
+        "host": "ctl-txi-cam-01",
         "port": 39100,
         "dir": "/reg/g/pcds/epics-dev/opperman/iocs/txi/ioc-txi-tprStandalone",
         "alias": "TPR-cam01",
@@ -8073,16 +8083,6 @@
         "name": "ioc-lcls-plc-txi-sxr-motion",
         "script": "/reg/g/pcds/epics/ioc/txi/lcls-plc-txi-sxr-motion/v1.3.3/iocBoot/ioc-lcls-plc-txi-sxr-motion/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.8.0/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ctl-txi-misc-01",
-        "port": 39103,
-        "dir": "/reg/g/pcds/epics-dev/opperman/iocs/txi/ioc-common-picoMotion",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
-        "name": "ioc-mcp-txi-al1k3",
-        "script": "/reg/g/pcds/epics-dev/opperman/iocs/txi/ioc-common-picoMotion/st.cmd",
-        "binary": null
     },
     {
         "host": "ctl-txi-misc-01",
