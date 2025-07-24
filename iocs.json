@@ -7863,17 +7863,6 @@
     },
     {
         "host": "ctl-tst-dev-03",
-        "port": 30004,
-        "dir": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-tprStandalone",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-tprstandalone-mspace",
-        "script": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-tprStandalone/children/build/iocBoot/ioc-tst-tprstandalone-mspace/st.cmd",
-        "binary": "/cds/home/j/janeliu/git/iocs/manual_updates/ioc-common-tprStandalone/bin/rhel9-x86_64/tpr"
-    },
-    {
-        "host": "ctl-tst-dev-03",
         "port": 31011,
         "dir": "ioc/common/pvNotepad/R3.0.0",
         "base_version": "3.15",
@@ -15452,6 +15441,7 @@
         "host": "ioc-mec-las-gige04",
         "port": 33742,
         "dir": "ioc/mec/gigECam/R1.4.3",
+        "disable": true,
         "alias": "ioc-mec-gige42",
         "history": [
             "ioc/mec/gigECam/R1.4.3"
