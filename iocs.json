@@ -20018,6 +20018,17 @@
         "binary": "/reg/g/pcds/epics/ioc/common/mpod/R2.1.6/bin/linux-x86_64/mpod"
     },
     {
+        "host": "ioc-xcs-misc2",
+        "port": 30014,
+        "dir": "ioc/xpp/ims/R6.6.0",
+        "alias": "XPP portable rack IMS motor",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/xcs/iocmanager.cfg",
+        "name": "ioc-xpp-portable01-ims",
+        "script": "/reg/g/pcds/epics/ioc/xpp/ims/R6.6.0/build/iocBoot/ioc-xpp-portable01-ims/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ims/R6.6.0/bin/rhel7-x86_64/ims"
+    },
+    {
         "host": "ioc-xcs-misc3",
         "port": 39103,
         "dir": "/reg/g/pcds/epics-dev/opperman/xcs/ioc/lcls-plc-polycapillary/lcls-plc-polycapillary",
