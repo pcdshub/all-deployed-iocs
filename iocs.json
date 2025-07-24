@@ -11384,6 +11384,17 @@
     },
     {
         "host": "ioc-cxi-sc1",
+        "port": 30006,
+        "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ioc-common-thorlabs-ell",
+        "alias": "\"LAS\": ND FILTER",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/cxi/iocmanager.cfg",
+        "name": "ioc-cxi-ell",
+        "script": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ioc-common-thorlabs-ell/children/build/iocBoot/ioc-cxi-ell/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/divya/ioc/cxi/ioc-common-thorlabs-ell/bin/rhel7-x86_64/ell"
+    },
+    {
+        "host": "ioc-cxi-sc1",
         "port": 30005,
         "dir": "/reg/g/pcds/epics-dev/divya/ioc/cxi/mmc",
         "alias": "MMC - SC2 1 Axis PR32",
