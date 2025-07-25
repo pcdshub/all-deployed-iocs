@@ -19134,7 +19134,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-g201b-1",
         "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/children/build/iocBoot/ioc-tst-g201b-1/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/rhel7-x86_64/gige"
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ioc-tst-13",
