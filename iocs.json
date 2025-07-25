@@ -7868,8 +7868,8 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-dg-mspace",
-        "script": "/cds/home/j/janeliu/git/iocs/built/ioc-common-dg/children/build/iocBoot/ioc-tst-dg-mspace/st.cmd",
-        "binary": "/cds/home/j/janeliu/git/iocs/built/ioc-common-dg/bin/rhel9-x86_64/delaygenApp"
+        "script": "/cds/home/j/janeliu/git/iocs/built/ioc-common-dg/st.cmd",
+        "binary": null
     },
     {
         "host": "ctl-tst-dev-03",
@@ -8116,12 +8116,12 @@
     {
         "host": "ctl-txi-cam-01",
         "port": 39103,
-        "dir": "/reg/g/pcds/epics-dev/opperman/iocs/txi/ioc-common-picoMotion",
+        "dir": "/reg/g/pcds/epics-dev/opperman/iocs/txi/ioc-txi-picoMotion",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-mcp-txi-al1k3",
-        "script": "/reg/g/pcds/epics-dev/opperman/iocs/txi/ioc-common-picoMotion/children/build/iocBoot/ioc-mcp-txi-al1k3/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/opperman/iocs/txi/ioc-common-picoMotion/bin/rhel7-x86_64/motion"
+        "script": "/reg/g/pcds/epics-dev/opperman/iocs/txi/ioc-txi-picoMotion/build/iocBoot/ioc-mcp-txi-al1k3/st.cmd",
+        "binary": "/cds/group/pcds/epics/ioc/common/picoMotion/R5.0.0/bin/rhel7-x86_64/motion"
     },
     {
         "host": "ctl-txi-cam-01",
