@@ -3126,7 +3126,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-opcpa-lps-plc-01",
         "script": "/cds/group/pcds/epics-dev/aberges/lcls-plc-las-lps-01/iocBoot/ioc-opcpa-lps-plc-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
+        "binary": null
     },
     {
         "host": "ctl-las-lhn-04",
@@ -8166,6 +8166,16 @@
     },
     {
         "host": "ctl-txi-cam-01",
+        "port": 30100,
+        "dir": "/cds/group/pcds/epics-dev/baljamal/forks/ioc/txi/ioc-txi-pdu_snmp",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
+        "name": "ioc-txi-pwr-r17",
+        "script": "/cds/group/pcds/epics-dev/baljamal/forks/ioc/txi/ioc-txi-pdu_snmp/build/iocBoot/ioc-txi-pwr-r17/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pdu_snmp/R3.1.1/bin/rhel9-x86_64/pdu"
+    },
+    {
+        "host": "ctl-txi-cam-01",
         "port": 39100,
         "dir": "ioc/txi/tprStandalone/R2.0.0",
         "alias": "TPR-cam01",
@@ -8174,6 +8184,16 @@
         "name": "ioc-txi-tpr1",
         "script": "/reg/g/pcds/epics/ioc/txi/tprStandalone/R2.0.0/build/iocBoot/ioc-txi-tpr1/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/tprStandalone/R2.0.0/bin/rhel9-x86_64/tpr"
+    },
+    {
+        "host": "ctl-txi-cam-01",
+        "port": 30002,
+        "dir": "/cds/group/pcds/epics-dev/baljamal/forks/ioc/txi/ioc-txi-pvNotepad",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
+        "name": "ioc-txi-userPV",
+        "script": "/cds/group/pcds/epics-dev/baljamal/forks/ioc/txi/ioc-txi-pvNotepad/build/iocBoot/ioc-txi-userPV/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R3.0.0/bin/rhel9-x86_64/pvNotepad"
     },
     {
         "host": "ctl-txi-misc-01",
@@ -8231,16 +8251,6 @@
     },
     {
         "host": "ctl-txi-misc-01",
-        "port": 30100,
-        "dir": "ioc/txi/Sentry4/R1.0.0",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
-        "name": "ioc-txi-pwr-r17",
-        "script": "/reg/g/pcds/epics/ioc/txi/Sentry4/R1.0.0/build/iocBoot/ioc-txi-pwr-r17/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/Leviton/R2.4.2/bin/rhel7-x86_64/Leviton"
-    },
-    {
-        "host": "ctl-txi-misc-01",
         "port": 39201,
         "dir": "/reg/g/pcds/epics-dev/mghaly/lcls-plc-txi-sxr-vac",
         "alias": "K-vacuum",
@@ -8249,16 +8259,6 @@
         "name": "ioc-txi-sxr-vac",
         "script": "/reg/g/pcds/epics-dev/mghaly/lcls-plc-txi-sxr-vac/iocBoot/ioc-txi-sxr-vac/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ctl-txi-misc-01",
-        "port": 30002,
-        "dir": "ioc/txi/pvNotepad/R1.0.0",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
-        "name": "ioc-txi-userPV",
-        "script": "/reg/g/pcds/epics/ioc/txi/pvNotepad/R1.0.0/build/iocBoot/ioc-txi-userPV/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R2.1.0/bin/rhel7-x86_64/pvNotepad"
     },
     {
         "host": "ctl-txi-misc-01",
