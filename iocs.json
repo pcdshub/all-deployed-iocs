@@ -7976,6 +7976,20 @@
     },
     {
         "host": "ctl-tst-pgp01",
+        "port": 30201,
+        "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git",
+        "history": [
+            "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git",
+            "/reg/g/pcds/epics-dev/bhill/epics/ioc/tst/gigECam/current"
+        ],
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-tst-g201b-1",
+        "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/children/build/iocBoot/ioc-tst-g201b-1/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/rhel7-x86_64/gigeTpr"
+    },
+    {
+        "host": "ctl-tst-pgp01",
         "port": 30001,
         "dir": "/cds/home/d/dnajjar/areaDetectores/pgpCamlink",
         "disable": true,
@@ -8033,6 +8047,16 @@
         "name": "ioc-tst-pgp04",
         "script": "/reg/neh/home/bhill/git-wa-neh/epics/ioc/common/pgpCamlink/current/children/build/iocBoot/ioc-tst-pgp04/st.cmd",
         "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/pgpCamlink/pgpCamlink-git/bin/rhel7-x86_64/pgpCl"
+    },
+    {
+        "host": "ctl-tst-pgp01",
+        "port": 30011,
+        "dir": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/tprStandalone/tprStandalone-git",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
+        "name": "ioc-tst-tpr1",
+        "script": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/tprStandalone/tprStandalone-git/children/build/iocBoot/ioc-tst-tpr1/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/tprStandalone/tprStandalone-git/bin/rhel9-x86_64/tpr"
     },
     {
         "host": "ctl-tst-pgp01",
@@ -19121,20 +19145,6 @@
         "name": "ioc-tst-g146c",
         "script": "/reg/neh/home/bhill/wa2/epics/ioc/tst/gigECam/current/build/iocBoot/ioc-tst-g146c/st.cmd",
         "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/rhel7-x86_64/gige"
-    },
-    {
-        "host": "ioc-tst-13",
-        "port": 30201,
-        "dir": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git",
-        "history": [
-            "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git",
-            "/reg/g/pcds/epics-dev/bhill/epics/ioc/tst/gigECam/current"
-        ],
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-g201b-1",
-        "script": "/reg/g/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/children/build/iocBoot/ioc-tst-g201b-1/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/bhill/epics/ioc/common/gigECam/gigECam-git/bin/rhel7-x86_64/gigeTpr"
     },
     {
         "host": "ioc-tst-13",
