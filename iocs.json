@@ -3126,7 +3126,7 @@
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-opcpa-lps-plc-01",
         "script": "/cds/group/pcds/epics-dev/aberges/lcls-plc-las-lps-01/iocBoot/ioc-opcpa-lps-plc-01/st.cmd",
-        "binary": null
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-las-lhn-04",
