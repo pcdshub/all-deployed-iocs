@@ -8116,11 +8116,11 @@
     {
         "host": "ctl-txi-cam-01",
         "port": 39103,
-        "dir": "/reg/g/pcds/epics-dev/opperman/iocs/txi/ioc-txi-picoMotion",
+        "dir": "ioc/txi/picoMotion/R1.0.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-mcp-txi-al1k3",
-        "script": "/reg/g/pcds/epics-dev/opperman/iocs/txi/ioc-txi-picoMotion/build/iocBoot/ioc-mcp-txi-al1k3/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/txi/picoMotion/R1.0.0/build/iocBoot/ioc-mcp-txi-al1k3/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/picoMotion/R5.0.0/bin/rhel7-x86_64/motion"
     },
     {
@@ -8132,6 +8132,17 @@
         "name": "ioc-txi-gige-01",
         "script": "/cds/group/pcds/epics-dev/baljamal/forks/ioc/txi/ioc-txi-gigECam/build/iocBoot/ioc-txi-gige-01/st.cmd",
         "binary": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-gigECam/bin/rhel9-x86_64/gigeTpr"
+    },
+    {
+        "host": "ctl-txi-cam-01",
+        "port": 30001,
+        "dir": "/cds/group/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-lcp",
+        "alias": "TXI LCP (Located in FEE Rack Room)",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
+        "name": "ioc-txi-lcp-01",
+        "script": "/cds/group/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-lcp/iocBoot/ioc-txi-lcp-01/st.cmd",
+        "binary": "/cds/group/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-lcp/bin/rhel7-x86_64/lcp"
     },
     {
         "host": "ctl-txi-cam-01",
@@ -8197,17 +8208,6 @@
         "name": "ioc-txi-hxr-vac",
         "script": "/reg/g/pcds/epics-dev/janezg/plc_iocs/lcls-plc-txi-hxr-vac/iocBoot/ioc-txi-hxr-vac/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ctl-txi-misc-01",
-        "port": 30001,
-        "dir": "ioc/common/lcp/R2.2.2",
-        "alias": "TXI LCP (Located in FEE Rack Room)",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
-        "name": "ioc-txi-lcp-01",
-        "script": "/reg/g/pcds/epics/ioc/common/lcp/R2.2.2/iocBoot/ioc-txi-lcp-01/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/lcp/R2.2.2/bin/rhel7-x86_64/lcp"
     },
     {
         "host": "ctl-txi-misc-01",
