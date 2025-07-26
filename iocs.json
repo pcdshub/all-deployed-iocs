@@ -7898,28 +7898,6 @@
     },
     {
         "host": "ctl-tst-dev-03",
-        "port": 30001,
-        "dir": "/cds/home/j/janeliu/git/iocs/ioc-common-pgpWave8",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-pgpwave8-mspace",
-        "script": "/cds/home/j/janeliu/git/iocs/ioc-common-pgpWave8/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ctl-tst-dev-03",
-        "port": 30009,
-        "dir": "/cds/home/j/janeliu/git/iocs/ioc-common-picoMotion",
-        "disable": true,
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
-        "name": "ioc-tst-pico-mspace",
-        "script": "/cds/home/j/janeliu/git/iocs/ioc-common-picoMotion/st.cmd",
-        "binary": null
-    },
-    {
-        "host": "ctl-tst-dev-03",
         "port": 31011,
         "dir": "ioc/common/pvNotepad/R3.0.0",
         "base_version": "3.15",
