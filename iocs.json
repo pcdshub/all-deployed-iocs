@@ -7920,12 +7920,12 @@
     {
         "host": "ctl-tst-dev-03",
         "port": 30002,
-        "dir": "/reg/g/pcds/epics-dev/ipotanin/ioc/common/watlow/ioc-common-watlow",
+        "dir": "ioc/common/watlow/R1.0.0",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-watlow-01",
-        "script": "/reg/g/pcds/epics-dev/ipotanin/ioc/common/watlow/ioc-common-watlow/children/build/iocBoot/ioc-tst-watlow-01/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/ipotanin/ioc/common/watlow/ioc-common-watlow/bin/rhel9-x86_64/watlow"
+        "script": "/reg/g/pcds/epics/ioc/common/watlow/R1.0.0/children/build/iocBoot/ioc-tst-watlow-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/watlow/R1.0.0/bin/rhel9-x86_64/watlow"
     },
     {
         "host": "ctl-tst-mecu-llnl",
