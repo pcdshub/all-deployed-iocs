@@ -2423,12 +2423,12 @@
     {
         "host": "ctl-las-lhn-01",
         "port": 30010,
-        "dir": "/cds/group/pcds/epics-dev/aberges/ioc/las/smaract",
+        "dir": "/cds/group/pcds/epics/ioc/las/smaract/R1.0.8/build/iocBoot/ioc-las-bts-mcs1",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-bts-mcs1",
-        "script": "/cds/group/pcds/epics-dev/aberges/ioc/las/smaract/st.cmd",
-        "binary": null
+        "script": "/cds/group/pcds/epics/ioc/las/smaract/R1.0.8/build/iocBoot/ioc-las-bts-mcs1/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/smaract/R1.0.26/bin/rhel7-x86_64/smaract"
     },
     {
         "host": "ctl-las-lhn-01",
@@ -8130,6 +8130,60 @@
         "binary": "/reg/g/pcds/epics/ioc/common/pvNotepad/R3.0.0/bin/rhel9-x86_64/pvNotepad"
     },
     {
+        "host": "ctl-txi-cam-01",
+        "port": 39104,
+        "dir": "/reg/g/pcds/epics-dev/baljamal/rocky9/ioc/txi/ioc-txi-qpc",
+        "alias": "ioc-txi-vac-pci-01",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
+        "name": "ioc-txi-vac-pci-01",
+        "script": "/reg/g/pcds/epics-dev/baljamal/rocky9/ioc/txi/ioc-txi-qpc/build/iocBoot/ioc-txi-vac-pci-01/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-qpc/bin/rhel9-x86_64/gsd"
+    },
+    {
+        "host": "ctl-txi-cam-01",
+        "port": 39105,
+        "dir": "/reg/g/pcds/epics-dev/baljamal/rocky9/ioc/txi/ioc-txi-qpc",
+        "alias": "ioc-txi-vac-pci-02",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
+        "name": "ioc-txi-vac-pci-02",
+        "script": "/reg/g/pcds/epics-dev/baljamal/rocky9/ioc/txi/ioc-txi-qpc/build/iocBoot/ioc-txi-vac-pci-02/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-qpc/bin/rhel9-x86_64/gsd"
+    },
+    {
+        "host": "ctl-txi-cam-01",
+        "port": 39106,
+        "dir": "/reg/g/pcds/epics-dev/baljamal/rocky9/ioc/txi/ioc-txi-qpc",
+        "alias": "ioc-txi-vac-pci-03",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
+        "name": "ioc-txi-vac-pci-03",
+        "script": "/reg/g/pcds/epics-dev/baljamal/rocky9/ioc/txi/ioc-txi-qpc/build/iocBoot/ioc-txi-vac-pci-03/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-qpc/bin/rhel9-x86_64/gsd"
+    },
+    {
+        "host": "ctl-txi-cam-01",
+        "port": 39107,
+        "dir": "/reg/g/pcds/epics-dev/baljamal/rocky9/ioc/txi/ioc-txi-qpc",
+        "alias": "ioc-txi-vac-pci-04",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
+        "name": "ioc-txi-vac-pci-04",
+        "script": "/reg/g/pcds/epics-dev/baljamal/rocky9/ioc/txi/ioc-txi-qpc/build/iocBoot/ioc-txi-vac-pci-04/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-qpc/bin/rhel9-x86_64/gsd"
+    },
+    {
+        "host": "ctl-txi-cam-01",
+        "port": 30101,
+        "dir": "/reg/g/pcds/epics-dev/baljamal/rocky9/ioc/txi/ioc-txi-vacuum",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
+        "name": "ioc-txi-vac-support",
+        "script": "/reg/g/pcds/epics-dev/baljamal/rocky9/ioc/txi/ioc-txi-vacuum/build/iocBoot/ioc-txi-vac-support/st.cmd",
+        "binary": "/reg/g/pcds/epics-dev/baljamal/rocky9/ioc/common/ioc-common-vacuum/bin/rhel9-x86_64/vacuum"
+    },
+    {
         "host": "ctl-txi-misc-01",
         "port": 39101,
         "dir": "ioc/txi/lcls-plc-txi-sxr-motion/v1.3.3",
@@ -8193,16 +8247,6 @@
         "name": "ioc-txi-sxr-vac",
         "script": "/reg/g/pcds/epics-dev/mghaly/lcls-plc-txi-sxr-vac/iocBoot/ioc-txi-sxr-vac/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ctl-txi-misc-01",
-        "port": 30101,
-        "dir": "ioc/txi/vacuum/R2.0.0",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
-        "name": "ioc-txi-vac-support",
-        "script": "/reg/g/pcds/epics/ioc/txi/vacuum/R2.0.0/build/iocBoot/ioc-txi-vac-support/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/vacuum/R1.0.5/bin/rhel7-x86_64/vacuum"
     },
     {
         "host": "ctl-txi-wave8-01",
