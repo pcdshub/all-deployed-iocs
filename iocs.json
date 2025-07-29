@@ -8284,23 +8284,23 @@
     {
         "host": "ctl-ued-misc-01",
         "port": 39102,
-        "dir": "/cds/group/pcds/epics-dev/iroque/ioc-ued-dg",
+        "dir": "/cds/group/pcds/epics/ioc/ued/dg/R1.0.0",
         "alias": "DG645-01",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-delaygen1",
-        "script": "/cds/group/pcds/epics-dev/iroque/ioc-ued-dg/build/iocBoot/ioc-ued-delaygen1/st.cmd",
+        "script": "/cds/group/pcds/epics/ioc/ued/dg/R1.0.0/build/iocBoot/ioc-ued-delaygen1/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/dg/R3.0.0/bin/rhel7-x86_64/delaygenApp"
     },
     {
         "host": "ctl-ued-misc-01",
         "port": 39103,
-        "dir": "/cds/group/pcds/epics-dev/iroque/ioc-ued-dg",
+        "dir": "/cds/group/pcds/epics/ioc/ued/dg/R1.0.0",
         "alias": "DG645-02",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/ued/iocmanager.cfg",
         "name": "ioc-ued-delaygen2",
-        "script": "/cds/group/pcds/epics-dev/iroque/ioc-ued-dg/build/iocBoot/ioc-ued-delaygen2/st.cmd",
+        "script": "/cds/group/pcds/epics/ioc/ued/dg/R1.0.0/build/iocBoot/ioc-ued-delaygen2/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/dg/R3.0.0/bin/rhel7-x86_64/delaygenApp"
     },
     {
