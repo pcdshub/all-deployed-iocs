@@ -5835,6 +5835,17 @@
     },
     {
         "host": "ctl-rix-qrix-mot-01",
+        "port": 39103,
+        "dir": "/reg/g/pcds/epics-dev/ysmandza/ioc/common/Razorbill/ioc-rix-RP100",
+        "alias": "Razorbill",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-rix-phv-01",
+        "script": "/reg/g/pcds/epics-dev/ysmandza/ioc/common/Razorbill/ioc-rix-RP100/st.cmd",
+        "binary": null
+    },
+    {
+        "host": "ctl-rix-qrix-mot-01",
         "port": 33000,
         "dir": "ioc/rix/pdu_snmp/R1.1.0",
         "alias": "Hoffman Box Misc PDU",
