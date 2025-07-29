@@ -5842,7 +5842,7 @@
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-phv-01",
         "script": "/reg/g/pcds/epics-dev/ysmandza/ioc/common/Razorbill/ioc-rix-RP100/children/build/iocBoot/ioc-rix-phv-01/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/ysmandza/ioc/common/Razorbill/ioc-rix-RP100/bin/rhel9-x86_64/rp100"
+        "binary": "/cds/group/pcds/epics-dev/ysmandza/ioc/common/Razorbill/ioc-rix-RP100/bin/rhel7-x86_64/rp100"
     },
     {
         "host": "ctl-rix-qrix-mot-01",
