@@ -8045,7 +8045,7 @@
         "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-im2l1-gige",
         "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/txi/ioc-txi-gigECam/build/iocBoot/ioc-im2l1-gige/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-gigECam/bin/rhel7-x86_64/gigeTpr"
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R6.0.0/bin/rhel9-x86_64/gigeTpr"
     },
     {
         "host": "ctl-txi-cam-01",
@@ -8060,23 +8060,23 @@
     {
         "host": "ctl-txi-cam-01",
         "port": 39102,
-        "dir": "/cds/group/pcds/epics-dev/baljamal/forks/ioc/txi/ioc-txi-gigECam",
+        "dir": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/txi/ioc-txi-gigECam",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-gige-01",
-        "script": "/cds/group/pcds/epics-dev/baljamal/forks/ioc/txi/ioc-txi-gigECam/build/iocBoot/ioc-txi-gige-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-gigECam/bin/rhel9-x86_64/gigeTpr"
+        "script": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/txi/ioc-txi-gigECam/build/iocBoot/ioc-txi-gige-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R6.0.0/bin/rhel9-x86_64/gigeTpr"
     },
     {
         "host": "ctl-txi-cam-01",
         "port": 30001,
-        "dir": "/cds/group/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-lcp",
+        "dir": "ioc/common/lcp/R3.0.0",
         "alias": "TXI LCP (Located in FEE Rack Room)",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-lcp-01",
-        "script": "/cds/group/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-lcp/iocBoot/ioc-txi-lcp-01/st.cmd",
-        "binary": "/cds/group/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-lcp/bin/rhel7-x86_64/lcp"
+        "script": "/reg/g/pcds/epics/ioc/common/lcp/R3.0.0/iocBoot/ioc-txi-lcp-01/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/lcp/R3.0.0/bin/rhel7-x86_64/lcp"
     },
     {
         "host": "ctl-txi-cam-01",
