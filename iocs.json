@@ -4274,7 +4274,7 @@
     {
         "host": "ctl-lfe-mot-01",
         "port": 34242,
-        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-lfe-motion/iocBoot/ioc-lfe-motion/",
+        "dir": "/reg/g/pcds/epics-dev/kaushikm/ioc/lfe/lfe-motion",
         "alias": "LFE CC Motion",
         "history": [
             "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-lfe-motion/iocBoot/ioc-lfe-motion/"
@@ -4282,7 +4282,7 @@
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-lfe-motion",
-        "script": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-lfe-motion/iocBoot/ioc-lfe-motion/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/lfe/lfe-motion/iocBoot/ioc-lfe-motion/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
     },
     {
