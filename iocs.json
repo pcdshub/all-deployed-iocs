@@ -4733,7 +4733,7 @@
         "host": "ctl-rix-crix-cam-02",
         "port": 30002,
         "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/rix/ioc-rix-gigECam",
-        "alias": "CRIX GIGE 09 SPK2 YAG",
+        "alias": "CRIX GIGE 09 SPK2 FZP SIDE",
         "history": [
             "/reg/g/pcds/epics-dev/rnazir/ioc/rix/ioc-rix-gigECam"
         ],
@@ -4752,6 +4752,17 @@
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-crix-gige-10",
         "script": "/reg/g/pcds/epics-dev/rnazir/ioc/rix/ioc-rix-gigECam/build/iocBoot/ioc-crix-gige-10/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
+    },
+    {
+        "host": "ctl-rix-crix-cam-02",
+        "port": 30007,
+        "dir": "/reg/g/pcds/epics-dev/rnazir/ioc/rix/ioc-rix-gigECam",
+        "alias": "CRIX GIGE 11 SP2K2 YAG F",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
+        "name": "ioc-crix-gige-11",
+        "script": "/reg/g/pcds/epics-dev/rnazir/ioc/rix/ioc-rix-gigECam/build/iocBoot/ioc-crix-gige-11/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/gigECam/R5.0.3/bin/rhel7-x86_64/gige"
     },
     {
