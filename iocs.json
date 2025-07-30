@@ -4283,7 +4283,7 @@
         "config_file": "/cds/group/pcds/pyps/config/lfe/iocmanager.cfg",
         "name": "ioc-lfe-motion",
         "script": "/reg/g/pcds/epics-dev/kaushikm/ioc/lfe/lfe-motion/iocBoot/ioc-lfe-motion/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.8.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-lfe-mot-01",
