@@ -8110,6 +8110,17 @@
     },
     {
         "host": "ctl-txi-cam-01",
+        "port": 39201,
+        "dir": "ioc/txi/lcls-plc-txi-sxr-vac/v2.0.0",
+        "alias": "K-vacuum",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
+        "name": "ioc-txi-sxr-vac",
+        "script": "/reg/g/pcds/epics/ioc/txi/lcls-plc-txi-sxr-vac/v2.0.0/iocBoot/ioc-txi-sxr-vac/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R1.0.0/bin/rhel9-x86_64/adsIoc"
+    },
+    {
+        "host": "ctl-txi-cam-01",
         "port": 39100,
         "dir": "ioc/txi/tprStandalone/R2.0.0",
         "alias": "TPR-cam01",
@@ -8236,17 +8247,6 @@
         "name": "ioc-txi-hxr-vac",
         "script": "/reg/g/pcds/epics-dev/janezg/plc_iocs/lcls-plc-txi-hxr-vac/iocBoot/ioc-txi-hxr-vac/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ctl-txi-misc-01",
-        "port": 39201,
-        "dir": "/reg/g/pcds/epics-dev/mghaly/lcls-plc-txi-sxr-vac",
-        "alias": "K-vacuum",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
-        "name": "ioc-txi-sxr-vac",
-        "script": "/reg/g/pcds/epics-dev/mghaly/lcls-plc-txi-sxr-vac/iocBoot/ioc-txi-sxr-vac/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.2/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-txi-wave8-01",
