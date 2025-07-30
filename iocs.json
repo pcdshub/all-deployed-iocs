@@ -7779,7 +7779,7 @@
         "config_file": "/cds/group/pcds/pyps/config/tst/iocmanager.cfg",
         "name": "ioc-tst-scu-01",
         "script": "/cds/home/t/tjohnson/trunk/common/smaract_SCU/children/build/iocBoot/ioc-tst-scu-01/st.cmd",
-        "binary": "/cds/home/t/tjohnson/trunk/common/smaract_SCU/bin/rhel7-x86_64/scu"
+        "binary": "/cds/home/t/tjohnson/trunk/common/smaract_SCU/bin/rhel9-x86_64/scu"
     },
     {
         "host": "ctl-tst-dev-02",
