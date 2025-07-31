@@ -5847,12 +5847,12 @@
     {
         "host": "ctl-rix-qrix-mot-01",
         "port": 39103,
-        "dir": "/reg/g/pcds/epics-dev/ysmandza/ioc/common/Razorbill/ioc-rix-RP100",
+        "dir": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-RP100",
         "alias": "Razorbill",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/rix/iocmanager.cfg",
         "name": "ioc-rix-phv-01",
-        "script": "/reg/g/pcds/epics-dev/ysmandza/ioc/common/Razorbill/ioc-rix-RP100/children/build/iocBoot/ioc-rix-phv-01/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/opperman/rix/ioc/ioc-rix-RP100/build/iocBoot/ioc-rix-phv-01/st.cmd",
         "binary": "/cds/group/pcds/epics-dev/ysmandza/ioc/common/Razorbill/ioc-rix-RP100/bin/rhel7-x86_64/rp100"
     },
     {
@@ -8092,21 +8092,21 @@
     {
         "host": "ctl-txi-cam-01",
         "port": 30500,
-        "dir": "/cds/group/pcds/epics-dev/baljamal/forks/ioc/txi/ioc-txi-ict",
+        "dir": "ioc/txi/ict/R1.0.7",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-plv-pdu-01",
-        "script": "/cds/group/pcds/epics-dev/baljamal/forks/ioc/txi/ioc-txi-ict/build/iocBoot/ioc-txi-plv-pdu-01/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/txi/ict/R1.0.7/build/iocBoot/ioc-txi-plv-pdu-01/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ict/R2.1.0/bin/rhel9-x86_64/ict"
     },
     {
         "host": "ctl-txi-cam-01",
         "port": 30501,
-        "dir": "/cds/group/pcds/epics-dev/baljamal/forks/ioc/txi/ioc-txi-ict",
+        "dir": "ioc/txi/ict/R1.0.7",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-plv-pdu-02",
-        "script": "/cds/group/pcds/epics-dev/baljamal/forks/ioc/txi/ioc-txi-ict/build/iocBoot/ioc-txi-plv-pdu-02/st.cmd",
+        "script": "/reg/g/pcds/epics/ioc/txi/ict/R1.0.7/build/iocBoot/ioc-txi-plv-pdu-02/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ict/R2.1.0/bin/rhel9-x86_64/ict"
     },
     {
