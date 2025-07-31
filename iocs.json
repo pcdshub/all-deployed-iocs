@@ -8102,6 +8102,28 @@
     },
     {
         "host": "ctl-txi-cam-01",
+        "port": 39205,
+        "dir": "ioc/txi/lcls-plc-txi-hxr-motion/v2.0.0",
+        "alias": "L-motion",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
+        "name": "ioc-txi-hxr-motion",
+        "script": "/reg/g/pcds/epics/ioc/txi/lcls-plc-txi-hxr-motion/v2.0.0/iocBoot/ioc-txi-hxr-motion/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R1.0.0/bin/rhel9-x86_64/adsIoc"
+    },
+    {
+        "host": "ctl-txi-cam-01",
+        "port": 39300,
+        "dir": "ioc/txi/lcls-plc-txi-hxr-optics/v1.0.0",
+        "alias": "L-optics",
+        "base_version": "3.15",
+        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
+        "name": "ioc-txi-hxr-optics",
+        "script": "/reg/g/pcds/epics/ioc/txi/lcls-plc-txi-hxr-optics/v1.0.0/iocBoot/ioc-txi-hxr-optics/st.cmd",
+        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R1.0.0/bin/rhel9-x86_64/adsIoc"
+    },
+    {
+        "host": "ctl-txi-cam-01",
         "port": 39200,
         "dir": "ioc/txi/lcls-plc-txi-hxr-vac/v2.0.0",
         "alias": "L-vacuum",
@@ -8247,28 +8269,6 @@
         "name": "ioc-tst-txi-optics",
         "script": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-test-m3k3-m4k3-m2l1-m3l1-sat/iocBoot/ioc-tst-txi-optics/st.cmd",
         "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.7.0/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ctl-txi-misc-01",
-        "port": 39205,
-        "dir": "ioc/txi/lcls-plc-txi-hxr-motion/v1.1.0",
-        "alias": "L-motion",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
-        "name": "ioc-txi-hxr-motion",
-        "script": "/reg/g/pcds/epics/ioc/txi/lcls-plc-txi-hxr-motion/v1.1.0/iocBoot/ioc-txi-hxr-motion/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.6.1/bin/rhel7-x86_64/adsIoc"
-    },
-    {
-        "host": "ctl-txi-misc-01",
-        "port": 39100,
-        "dir": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-txi-hxr-optics",
-        "alias": "L-optics",
-        "base_version": "3.15",
-        "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
-        "name": "ioc-txi-hxr-optics",
-        "script": "/reg/g/pcds/epics-dev/nrw/iocs/plcproj/lcls-plc-txi-hxr-optics/iocBoot/ioc-txi-hxr-optics/st.cmd",
-        "binary": "/reg/g/pcds/epics/ioc/common/ads-ioc/R0.8.0/bin/rhel7-x86_64/adsIoc"
     },
     {
         "host": "ctl-txi-wave8-01",
