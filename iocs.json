@@ -8215,7 +8215,7 @@
         "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-vac-pci-01",
         "script": "/reg/g/pcds/epics-dev/baljamal/rocky9/ioc/txi/ioc-txi-qpc/build/iocBoot/ioc-txi-vac-pci-01/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-qpc/bin/rhel9-x86_64/gsd"
+        "binary": "/reg/g/pcds/epics/ioc/common/qpc/R2.1.0/bin/rhel9-x86_64/gsd"
     },
     {
         "host": "ctl-txi-cam-01",
@@ -8226,7 +8226,7 @@
         "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-vac-pci-02",
         "script": "/reg/g/pcds/epics-dev/baljamal/rocky9/ioc/txi/ioc-txi-qpc/build/iocBoot/ioc-txi-vac-pci-02/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-qpc/bin/rhel9-x86_64/gsd"
+        "binary": "/reg/g/pcds/epics/ioc/common/qpc/R2.1.0/bin/rhel9-x86_64/gsd"
     },
     {
         "host": "ctl-txi-cam-01",
@@ -8237,7 +8237,7 @@
         "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-vac-pci-03",
         "script": "/reg/g/pcds/epics-dev/baljamal/rocky9/ioc/txi/ioc-txi-qpc/build/iocBoot/ioc-txi-vac-pci-03/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-qpc/bin/rhel9-x86_64/gsd"
+        "binary": "/reg/g/pcds/epics/ioc/common/qpc/R2.1.0/bin/rhel9-x86_64/gsd"
     },
     {
         "host": "ctl-txi-cam-01",
@@ -8248,7 +8248,7 @@
         "config_file": "/cds/group/pcds/pyps/config/txi/iocmanager.cfg",
         "name": "ioc-txi-vac-pci-04",
         "script": "/reg/g/pcds/epics-dev/baljamal/rocky9/ioc/txi/ioc-txi-qpc/build/iocBoot/ioc-txi-vac-pci-04/st.cmd",
-        "binary": "/reg/g/pcds/epics-dev/baljamal/forks/ioc/common/ioc-common-qpc/bin/rhel9-x86_64/gsd"
+        "binary": "/reg/g/pcds/epics/ioc/common/qpc/R2.1.0/bin/rhel9-x86_64/gsd"
     },
     {
         "host": "ctl-txi-cam-01",
