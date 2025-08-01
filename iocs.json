@@ -2467,11 +2467,11 @@
     {
         "host": "ctl-las-lhn-01",
         "port": 30005,
-        "dir": "/reg/g/pcds/epics/ioc/las/ek9000/R2.0.3",
+        "dir": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ioc-las-ek9000",
         "base_version": "3.15",
         "config_file": "/cds/group/pcds/pyps/config/las/iocmanager.cfg",
         "name": "ioc-las-lhn-bhc-02",
-        "script": "/reg/g/pcds/epics/ioc/las/ek9000/R2.0.3/build/iocBoot/ioc-las-lhn-bhc-02/st.cmd",
+        "script": "/reg/g/pcds/epics-dev/ljansen7/ioc/las_2/ioc-las-ek9000/build/iocBoot/ioc-las-lhn-bhc-02/st.cmd",
         "binary": "/cds/group/pcds/epics/ioc/common/ek9000/R1.7.3/bin/rhel7-x86_64/ek9000IOC"
     },
     {
